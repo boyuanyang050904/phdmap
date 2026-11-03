@@ -1,0 +1,1383 @@
+{
+ "program_id": "penn-gcb",
+ "school": "University of Pennsylvania (Perelman School of Medicine, Biomedical Graduate Studies)",
+ "program": "Genomics and Computational Biology (GCB) Graduate Group, PhD",
+ "checked_at": "2026-11-03T19:04:31Z",
+ "program_url": {
+  "value": "https://www.med.upenn.edu/gcb/",
+  "source_url": "https://www.med.upenn.edu/gcb/",
+  "fetched_at": "2026-11-03T08:46:55Z",
+  "quote": "The mission of the Graduate Group in Genomics and Computational Biology (GCB) is to train the next generation of quantitative scientists",
+  "scope": "program",
+  "cycle": null,
+  "note": null
+ },
+ "deadline": {
+  "value": "2026-12-01 11:59 PM ET",
+  "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+  "fetched_at": "2026-11-03T18:59:46Z",
+  "quote": "We are accepting applications for Fall 2027 from October 1st through December 1st, 2026, at 11:59 PM ET",
+  "scope": "graduate_school",
+  "cycle": "Fall 2027",
+  "note": "BGS-wide deadline; GCB applications are submitted through BGS (one BGS group per applicant). Same date on phd-application-information.html."
+ },
+ "priority_deadline": {
+  "value": null,
+  "source_url": null,
+  "fetched_at": null,
+  "quote": null,
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "No separate priority/fellowship deadline stated on the BGS PhD Application Information, BGS Admissions FAQs or GCB Admissions pages; only the Dec 1 deadline."
+ },
+ "application_fee": {
+  "value": "$0 (no application fee)",
+  "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+  "fetched_at": "2026-11-03T18:59:46Z",
+  "quote": "There is no fee to apply to BGS.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": null
+ },
+ "fee_waiver": {
+  "value": "Not needed: no application fee",
+  "source_url": "https://www.med.upenn.edu/gcb/gcb-virtual-panel-session.html",
+  "fetched_at": "2026-11-03T19:01:17Z",
+  "quote": "Note that there is no longer an application fee so no fee waiver is required.",
+  "scope": "program",
+  "cycle": null,
+  "note": null
+ },
+ "gre_policy": {
+  "value": "not accepted",
+  "source_url": "https://www.med.upenn.edu/bgs/phd-application-information.html",
+  "fetched_at": "2026-11-03T18:59:41Z",
+  "quote": "BGS does not require or accept GRE scores (general or subject tests).",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": null
+ },
+ "letters_required": {
+  "value": 3,
+  "source_url": "https://www.med.upenn.edu/bgs/phd-application-information.html",
+  "fetched_at": "2026-11-03T18:59:41Z",
+  "quote": "You will also be prompted to send requests to three (3) people who are able to provide letters of recommendation.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": null
+ },
+ "application_system_url": {
+  "value": "https://apply.med.upenn.edu/apply/",
+  "source_url": "https://apply.med.upenn.edu/apply/",
+  "fetched_at": "2026-11-03T19:00:36Z",
+  "quote": "Create an account or log in to begin or continue your application to the University of Pennsylvania Perelman School of Medicine.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "Linked as 'complete, submitted online application' from the BGS PhD Application Information page."
+ },
+ "toefl": {
+  "waiver_conditions": {
+   "value": "English test (TOEFL/IELTS/Duolingo) required only for applicants whose native language is not English; waived for applicants who have or will have obtained a degree from a US or other approved English-instructed institution (no waiver request needed; confirmed during review).",
+   "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+   "fetched_at": "2026-11-03T18:59:46Z",
+   "quote": "Applicants whose native language is not English are required to take an English proficiency exam (either the TOEFL, IELTS, or Duolingo test); this requirement is waived for applicants who have or will have obtained a degree from a US or other approved English-instructed institution.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Same wording on phd-application-information.html. FAQ also: 'You do not need a waiver for this - we'll confirm this as part of our review process.'"
+  },
+  "waiver_basis": {
+   "value": "native_language+degree",
+   "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+   "fetched_at": "2026-11-03T18:59:46Z",
+   "quote": "this requirement is waived for applicants who have or will have obtained a degree from a US or other approved English-instructed institution",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Requirement applies only to non-native English speakers; exemption otherwise by degree."
+  },
+  "us_degree_waives": {
+   "value": true,
+   "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+   "fetched_at": "2026-11-03T18:59:46Z",
+   "quote": "We will waive the TOEFL requirement for students who have/will have obtained a degree from a U.S. or other approved English-instructed institution. You do not need a waiver for this",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "'have/will have obtained' covers a US bachelor's still in progress at application time, e.g. Emory degree conferred spring 2027 (before Fall 2027 matriculation)."
+  },
+  "pr_exempt": {
+   "value": null,
+   "source_url": null,
+   "fetched_at": null,
+   "quote": null,
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Official BGS text (Admissions FAQs, PhD Application Information) does not mention citizenship or permanent-resident status for the English test: it applies to applicants whose native language is not English and is waived for anyone with a US (or approved English-instructed) degree. So PR status itself is not a stated basis; a PR with a US bachelor's is exempt via the degree waiver (see us_degree_waives)."
+  },
+  "min_total": {
+   "value": "none (no minimum score)",
+   "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+   "fetched_at": "2026-11-03T18:59:46Z",
+   "quote": "There are no minimum score requirements.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": null
+  },
+  "min_subscores": {
+   "value": "none (no minimum score)",
+   "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+   "fetched_at": "2026-11-03T18:59:46Z",
+   "quote": "There are no minimum score requirements.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": null
+  },
+  "validity_rule": {
+   "value": "Scores more than 2 years old are not issued by ETS and must be retaken; official reports must reach BGS by the application deadline",
+   "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+   "fetched_at": "2026-11-03T18:59:46Z",
+   "quote": "ETS will not issue TOEFL scores that are more than 2 years old. Applicants who have expired scores must retake the test(s).",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "No explicit reference date (application vs. enrollment) given beyond ETS's 2-year reporting limit."
+  },
+  "di_code": {
+   "value": "2900",
+   "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+   "fetched_at": "2026-11-03T18:59:46Z",
+   "quote": "Please enter the code 2900 on your TOEFL test.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "ETS account name: 'University of Pennsylvania - PSOM PhD, Master's, and Certificates'."
+  },
+  "self_report_accepted": {
+   "value": false,
+   "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+   "fetched_at": "2026-11-03T18:59:46Z",
+   "quote": "In order for your application to be considered complete, official TOEFL, IELTS, or Duolingo score reports must be received by the BGS office by the application deadline.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Self-reported scores are not explicitly mentioned; official score reports are required by the deadline for a complete application."
+  }
+ },
+ "admissions_mode": {
+  "value": "rotation",
+  "source_url": "https://www.med.upenn.edu/gcb/phd-curriculum.html",
+  "fetched_at": "2026-11-03T19:01:17Z",
+  "quote": "Students in this program are required to do two lab rotations as part of their training; a third rotation is optional but encouraged.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Each rotation lasts 8 weeks; thesis lab usually chosen from the rotation labs. BGS FAQ: admitted students then select rotation advisors with their graduate group."
+ },
+ "contact_faculty_advice": {
+  "value": "Not necessary to contact faculty before applying; rotation advisors are selected after admission. GCB asks that application questions go to the BGS Admissions Office, not admissions committee members.",
+  "source_url": "https://www.med.upenn.edu/bgs/admissions-faqs.html",
+  "fetched_at": "2026-11-03T18:59:46Z",
+  "quote": "Do I need to contact faculty members regarding a lab rotation prior to applying? No, this is not necessary. If you are admitted into the program, you would then work with your graduate group to select your lab rotation advisors.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "GCB admissions page (https://www.med.upenn.edu/gcb/admission/): 'Questions about the application process should be directed to the BGS Admissions Office rather than members of the admissions committee; likewise, committee members are not able to comment directly on an applicant's fit to program...'"
+ },
+ "stipend": {
+  "value": "$49,000 (2026-2027)",
+  "source_url": "https://www.med.upenn.edu/bgs/student-funding.html",
+  "fetched_at": "2026-11-03T19:00:17Z",
+  "quote": "The 2026-2027 stipend is $49,000.",
+  "scope": "graduate_school",
+  "cycle": "2026-2027",
+  "note": "GCB admissions page: accepted students receive tuition, health insurance and a twelve-month stipend."
+ },
+ "guaranteed_years": {
+  "value": "Full fellowship (stipend, tuition, fees, health insurance) guaranteed for the duration of training while in good academic standing (BGS anticipates 5-6 years)",
+  "source_url": "https://www.med.upenn.edu/bgs/student-funding.html",
+  "fetched_at": "2026-11-03T19:00:17Z",
+  "quote": "Students in BGS are provided with a full-fellowship guarantee to cover stipend, tuition, fees, and health insurance for the duration of their training as a student in good academic standing.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "BGS Admissions FAQs: 'awarded financial support for the anticipated five to six years required to attain the doctoral degree.'"
+ },
+ "pr_domestic": {
+  "value": true,
+  "source_url": "https://www.med.upenn.edu/camb/admissions.html",
+  "fetched_at": "2026-11-03T19:02:01Z",
+  "quote": "962 from US citizens or permanent residents of the US, and 694 from international citizens",
+  "scope": "graduate_school",
+  "cycle": "Fall 2026",
+  "note": "Indirect: no GCB or BGS page explicitly defines 'domestic applicant'. This quote is from CAMB, a sibling BGS graduate group sharing the central BGS application/admissions committee, which counts permanent residents with US citizens and separately from 'international citizens'. BGS also groups PRs with citizens for training-grant eligibility (student-funding.html). BGS FAQ limits only 'international students' ('we can only accept a small number of international students'). Treat as likely, not confirmed for GCB."
+ },
+ "t32_citizen_pr_only": {
+  "value": true,
+  "source_url": "https://www.med.upenn.edu/bgs/student-funding.html",
+  "fetched_at": "2026-11-03T19:00:17Z",
+  "quote": "Eligible students (generally US citizens or permanent residents) may be appointed to a training grant at some point in their PhD training.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": null
+ },
+ "faculty_list": {
+  "source_urls": [
+   "https://www.med.upenn.edu/gcb/faculty.html"
+  ],
+  "render": false,
+  "faculty": [
+   {
+    "name": "Benjamin Franklin Voight",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8503222",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Aaron Felix Alexander-Bloch",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9290519",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Michael G. Levin",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8160438",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Laura Almasy",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8943858",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Michael Z. Levy",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p6363868",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Ron C Anafi",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8198976",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Mingyao Li",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8122973",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Sokratis Apostolidis",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9137239",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Bo Li",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9745350",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Rebecca L. Ashare",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p1991824",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Qin Li",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9752629",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Noam Auslander",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9539581",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Hongzhe Li (Lee)",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p4879509",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Joel Babdor",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9735093",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Glennis Logsdon",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8163783",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Yoseph Barash",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8507519",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Qi Long",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8939931",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Danielle S. Bassett",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8676722",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "John Matthew Maris",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p11644",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Daniel P. Beiting",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8140477",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Sara Mathieson",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.bio.upenn.edu/people/sara-mathieson",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Shelley L. Berger",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p863",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Iain Mathieson",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8942206",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Gerd A. Blobel",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p1105",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Kara N Maxwell",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8474927",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Roberto Bonasio",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8678096",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Andy J. Minn",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8382979",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Robert L Bowman",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9647978",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Louise H Moncla",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9651128",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Gregory R. Bowman",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9637314",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Ahmed M Moustafa",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8945827",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Dustin Brisson",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p7067799",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Danielle L. Mowery",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9165197",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Brielin Chase Brown",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9821449",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "John Isaac Murray",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8377794",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Maja Bucan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p19746",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Katherine L. Nathanson",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9542",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Frederic D. Bushman",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p2236488",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Derek Alan Oldridge",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8404719",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Ian Campbell",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8934711",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Allan I. Pack",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p20166",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Brian C Capell",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8337768",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Bogdan Pasaniuc",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9820129",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Thomas P. Cappola",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p137370",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Liming Pei",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8651729",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Yuyan Cheng",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9782437",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Samantha N Piekos",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8455669",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Sara Cherry",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p6903227",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Joshua B Plotkin",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p6531847",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Lewis A. Chodosh",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p20564",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Richard Scott Poethig",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p4380891",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Modupe Coker",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9811248",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Daniel J Rader",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p17778",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Laura K Conlin",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p12256",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Ravi Radhakrishnan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p5359132",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Justin L Cotney",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9826887",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Arjun Raj",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8374938",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Pablo G Cámara",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9026922",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Benjamin C. Reiner",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8947900",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Scott M. Damrauer",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8562012",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Marylyn D Ritchie",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9023600",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Cesar de la Fuente",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9151622",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Joseph Daniel Romano",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9275909",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Yanxiang Deng",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9698911",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "David S. Roos",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p3546247",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Marcella Devoto",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8125688",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Harvey Rubin",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9962",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Sharon J. Diskin",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p13454",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Andrew Santiago-Frangos",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9732739",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Theodore G. Drivas",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8206080",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Theodore Daniel Satterthwaite",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p6526095",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "James H. Eberwine",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p5441",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Jeffery G. Saven",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p4380953",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Amelia J. Eisch",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8938405",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Gerard D Schellenberg",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8214136",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Beverly S. Emanuel",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p3058",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Suneeta Senapati",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p6604020",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Robert Babak Faryabi",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8846637",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Ophir Shalem",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8945534",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Rui Feng",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8363845",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Kim A. Sharp",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p17328",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Garret A. FitzGerald",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9400",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Li Shen",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9075258",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Michael J. Gandal",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8134341",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Russell Takeshi Shinohara",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8574254",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Ziyue Gao",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9279533",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Dana Silverbush",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9744645",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Daniel B Goodman",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9851388",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Nishant Sinha",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9416340",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Mark D Goulian",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p4380960",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Paul D. Sniegowski",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p94331",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Struan F.A. Grant",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8140245",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Nancy B. Spinner",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p19114",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Brian Gregory",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8220598",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Avi Srivastava",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9746164",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Elizabeth A Grice",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8513331",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Darko Stefanovski",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p6536660",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Michael Guo",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9263067",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Adam J Stevens",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9843979",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Mohammad Haj Dezfulian",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9852271",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Christian J. Stoeckert",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p6403",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Hakon Hakonarson",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p16280",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Yijing Su",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9010810",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Tristan Hayeck",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9291465",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Katalin Susztak",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8487177",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Ingo Helbig",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8772059",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Kai Tan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8885111",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Paula S. Henthorn",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p3546221",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Christopher Thom",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p33206",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Daniel S Herman",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8916517",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Bin Tian",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9391275",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Blanca E Himes",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8789288",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Sarah A. Tishkoff",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8186169",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "John H. Holmes",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p19936",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Lyle H Ungar",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p3546264",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Zhi Huang",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9069740",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Golnaz Vahedi",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8837265",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Shane T Jensen",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p5359126",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Anurag Verma",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9095502",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Jin Jin",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9681911",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Shefali Setia Verma",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9095355",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Kevin B Johnson",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9559460",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Eric F. Joyce",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8867860",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Marijana Vujković",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8559546",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Klaus H. Kaestner",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p389",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Doris Wagner",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p4380903",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Sampath Kannan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p3546235",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Li-San Wang",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p2002194",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Eugene Katsevich",
+    "title": null,
+    "department": null,
+    "profile_url": null,
+    "lab_url": "https://katsevich-lab.github.io/",
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Kai Wang",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8133343",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Rachel L. Kember",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8550662",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "E. John Wherry",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p5463426",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Junhyong Kim",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p3546241",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Hao Wu",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8878781",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Dokyoon Kim",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9240045",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Yi Xing",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9153555",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Jina Ko",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8654908",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Nancy R Zhang",
+    "title": null,
+    "department": null,
+    "profile_url": "https://statistics.wharton.upenn.edu/profile/nzh/#overview",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Konrad P Kording",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9011714",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Bingxin Zhao",
+    "title": null,
+    "department": null,
+    "profile_url": "https://statistics.wharton.upenn.edu/profile/bxzhao/",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Vijay Kumar",
+    "title": null,
+    "department": null,
+    "profile_url": "https://directory.seas.upenn.edu/vijay-kumar/",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Zhaolan (Joe) Zhou",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8330052",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Mitchell A. Lazar",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p7505",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   {
+    "name": "Wanding Zhou",
+    "title": null,
+    "department": null,
+    "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9318290",
+    "lab_url": null,
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   }
+  ]
+ },
+ "problems": [
+  "Faculty names: degree suffixes after the first comma were dropped (e.g. 'Benjamin Franklin Voight, Ph.D.' -> 'Benjamin Franklin Voight'); otherwise names kept as printed. Benjamin Franklin Voight (GCB Chair) appears under both 'Leadership' and 'Faculty' and is listed once (144 unique of 145 entries).",
+  "Name-matching caveats for the later step: 'Hongzhe Li (Lee)' (printed alias in parentheses; name_variants yields last name 'lee'), 'Zhaolan (Joe) Zhou', 'Mohammad Haj Dezfulian' (compound surname), 'Cesar de la Fuente'. Titles/departments are not shown on the faculty page (left null); profile_url is the link on each name (mostly med.upenn.edu/apps/faculty profiles; Katsevich links to a lab site, recorded as lab_url).",
+  "pr_domestic is indirect: no GCB/BGS page explicitly defines domestic vs international applicants; value is based on sibling BGS group CAMB's admissions statistics (US citizens or permanent residents vs international citizens) plus BGS training-grant eligibility wording. Confirm with BGS admissions (bgs@pennmedicine.upenn.edu) if critical.",
+  "pr_exempt left null: the English-test rule is based on native language and degree, not residency status; the applicant (US PR, Emory bachelor's spring 2027) is covered by the US-degree waiver ('have or will have obtained a degree from a US ... institution').",
+  "GCB Virtual Info Sessions page is stale ('does not plan to host any virtual information sessions in 2025'); used only for the no-fee/no-waiver sentence.",
+  "Interviews are required for GCB (invites in December; first-round virtual in January, second-round in person in February) per https://www.med.upenn.edu/gcb/admission/ -- not a schema field."
+ ]
+}
