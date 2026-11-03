@@ -1,0 +1,125 @@
+{
+ "institution": "Arizona State University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd",
+  "quote": "Students in the Doctor of Philosophy program in computer science conduct original research that advances the theories, algorithms and systems that define the future of computing."
+ },
+ "programs": [
+  {
+   "program_name": "Computer Science, PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCPHD/computer-science-phd",
+   "phd_evidence_quote": "Students in the Doctor of Philosophy program in computer science conduct original research that advances the theories, algorithms and systems that define the future of computing.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Degree page (needs --render) lists college 'Ira A. Fulton Schools of Engineering'. The School of Computing and Augmented Intelligence site (https://scai.asu.edu/) was UNREACHABLE via the project fetcher, so no faculty list could be matched. ASU directory (https://search.asu.edu/?search-tabs=web_dir_faculty_staff&q=Heewook%20Lee, rendered) lists Heewook Lee as 'Assistant Professor, School of Computing and Augmented Intelligence'.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Informatics and Data Science, PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESBMIPHD/biomedical-informatics-and-data-science-phd",
+   "phd_evidence_quote": "The Doctor of Philosophy program in biomedical informatics and data science enables you to develop expertise in areas such as bioinformatics, clinical informatics, population health management, imaging and biomedical data science.",
+   "faculty_list_urls": [
+    {
+     "url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESBMIPHD/biomedical-informatics-and-data-science-phd",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Contact listed under 'School of Health Systems Transformation' (CHSGrad@asu.edu). Only the degree page was matched (0); no program faculty roster found.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Molecular and Cellular Biology, PhD",
+   "discipline": "other:molecular_cell_biology",
+   "program_type": "independent",
+   "program_url": "https://degrees.asu.edu/masters-phd/major/ASU00/LACELLPHD/molecular-and-cellular-biology-phd",
+   "phd_evidence_quote": "The Doctor of Philosophy program in molecular and cellular biology emphasizes interdisciplinary approaches in fundamental and highly applied molecular and cellular biology",
+   "faculty_list_urls": [
+    {
+     "url": "https://sols.asu.edu/people/faculty",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Qiyun Zhu"
+   ],
+   "notes": "Offered through the School of Life Sciences; faculty list is the SoLS faculty directory (not a program-specific roster).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biochemistry, PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://degrees.asu.edu/masters-phd/major/ASU00/LABIOCHPHD/biochemistry-phd",
+   "phd_evidence_quote": "The Doctor of Philosophy program in biochemistry through the School of Molecular Sciences provides you with the training you need to solve biological problems at the molecular scale",
+   "faculty_list_urls": [
+    {
+     "url": "https://sms.asu.edu/People/Faculty",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Susanta K. Sarkar"
+   ],
+   "notes": "ASU directory lists Susanta Sarkar as 'Research Associate Professor, School of Molecular Sciences' (research-track; ability to supervise PhD students not verified).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry, PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://degrees.asu.edu/masters-phd/major/ASU00/LACHEMPHD/chemistry-phd",
+   "phd_evidence_quote": "In the Doctor of Philosophy program in chemistry in the School of Molecular Sciences, you learn to solve molecular-scale problems",
+   "faculty_list_urls": [
+    {
+     "url": "https://sms.asu.edu/People/Faculty",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Susanta K. Sarkar"
+   ],
+   "notes": "Same School of Molecular Sciences faculty list as Biochemistry.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering, PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESBIOENPHD/biomedical-engineering-phd",
+   "phd_evidence_quote": "The School of Biological and Health Systems Engineering faculty offer a program leading to the Doctor of Philosophy in biomedical engineering.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Core type for direction B; faculty list not checked (budget).",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Heewook Lee",
+   "program_found": "Computer Science, PhD (inferred from SCAI appointment; program roster not verifiable)",
+   "evidence_url": "https://search.asu.edu/?search-tabs=web_dir_faculty_staff&q=Heewook%20Lee",
+   "note": "Rendered ASU directory: 'Assistant Professor, School of Computing and Augmented Intelligence'. scai.asu.edu unreachable, so CS PhD faculty membership could not be confirmed from a program page."
+  }
+ ],
+ "problems": [
+  "https://scai.asu.edu/ UNREACHABLE via project fetcher (robots.txt not retrievable) - CS faculty list not checked.",
+  "degrees.asu.edu pages are JS-built; all PhD quotes come from --render fetches.",
+  "Physics faculty directory (https://physics.asu.edu/directory/faculty, rendered) matched no relevant authors; Physics PhD omitted.",
+  "Biostatistics, PhD and Statistics, PhD appear in the degrees.asu.edu listing (https://degrees.asu.edu/masters-phd/major-list/interest-area/06, rendered) but were not recorded: only peripheral A authors (Yalin Wang, Zhe Xu, Tianlong Chen) and no faculty roster checked.",
+  "Peripheral authors Yalin Wang, Zhe Xu, Tianlong Chen, D. Page Baluch not matched on any page checked.",
+  "Biological Design, PhD (Biodesign) listed but not checked."
+ ],
+ "checked_at": "2026-11-03T09:07:37Z"
+}

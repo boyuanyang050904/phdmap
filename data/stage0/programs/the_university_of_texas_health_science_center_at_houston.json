@@ -1,0 +1,49 @@
+{
+  "institution": "The University of Texas Health Science Center at Houston",
+  "checked_at": "2026-11-03T09:07:07Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://sbmi.uth.edu/prospective-students/academics/doctoral.htm", "quote": "McWilliams School of Biomedical Informatics at UTHealth Houston, formerly UTHealth Houston School of Biomedical Informatics (SBMI) offers a doctoral program in Biomedical Informatics"},
+  "programs": [
+    {"program_name": "PhD in Biomedical Informatics (McWilliams School of Biomedical Informatics)", "degree": "PhD", "discipline": "comp_bio", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://sbmi.uth.edu/prospective-students/academics/doctoral.htm",
+     "phd_evidence_quote": "Doctor of Philosophy in Biomedical Informatics",
+     "faculty_list_urls": [{"url": "https://sbmi.uth.edu/faculty-and-staff/index.htm", "render": false}, {"url": "https://sbmi.uth.edu/research/faculty-research-areas.htm", "render": false}],
+     "matched_authors": ["Yulin Dai", "Yejin Kim", "Zhongming Zhao", "Jianguo Wen", "Xiaobo Zhou", "Pora Kim", "Luca Giancardo"],
+     "notes": "Biomedical informatics. W. Jim Zheng is on the faculty page as 'W. Jim Zheng, PhD' (found in page text, missed by the matcher). No 'Zhi' in the SBMI faculty page text."},
+    {"program_name": "Biomedical Data and AI-Driven Decision Sciences (BDADS, formerly Quantitative Sciences) PhD program, MD Anderson UTHealth Houston GSBS", "degree": "PhD", "discipline": "comp_bio", "program_type": "umbrella_track",
+     "umbrella_name": "MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences (GSBS)", "program_url": "https://gsbs.uth.edu/quantitative-sciences/index.htm",
+     "phd_evidence_quote": "Students apply and are admitted into the graduate school, not an individual program. ... Students must affiliate with one of 9 PhD programs within their first year at GSBS.",
+     "faculty_list_urls": [{"url": "https://gsbs.uth.edu/directory/?ptype=faculty&prg=quantitativeSciences", "render": false}, {"url": "https://gsbs.uth.edu/directory/?page=2&ptype=faculty&prg=quantitativeSciences", "render": false}, {"url": "https://gsbs.uth.edu/directory/?page=5&ptype=faculty&prg=quantitativeSciences", "render": false}],
+     "matched_authors": ["Luca Giancardo", "Zhongming Zhao", "Degui Zhi", "Xiaobo Zhou"],
+     "notes": "Evidence quote is from https://gsbs.uth.edu/programs/. Program page: 'The study of biostatistics, bioinformatics, systems biology and genomics ...' The directory is paginated (pages 1-6 checked; pages 6-8 are identical end pages). Joint MD Anderson/UTHealth school."},
+    {"program_name": "Genetics & Epigenetics (G&E) PhD program, MD Anderson UTHealth Houston GSBS", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "umbrella_track",
+     "umbrella_name": "MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences (GSBS)", "program_url": "https://gsbs.uth.edu/genetics-and-epigenetics/index.htm",
+     "phd_evidence_quote": "The Genetics & Epigenetics (G&E) Program is a research-oriented PhD and MS program at The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences.",
+     "faculty_list_urls": [{"url": "https://gsbs.uth.edu/directory/?page=6&ptype=faculty&prg=geneticsAndEpigenetics", "render": false}],
+     "matched_authors": ["Zhongming Zhao", "Degui Zhi"],
+     "notes": "Pages 1-6 of the G&E directory checked; only page 6 matched."},
+    {"program_name": "PhD in Biostatistics and Data Science (UTHealth Houston School of Public Health)", "degree": "PhD", "discipline": "biostatistics", "program_type": "biostat",
+     "umbrella_name": null, "program_url": "https://sph.uth.edu/academic-programs/doctoral-programs/biostatistics",
+     "phd_evidence_quote": "The Doctor of Philosophy in Biostatistics and Data Science emphasizes advanced statistical theory and application, statistical consulting, and independent research",
+     "faculty_list_urls": [{"url": "https://sph.uth.edu/faculty/index.htm?prop=data-department&value=Biostatistics", "render": false}, {"url": "https://sph.uth.edu/dept/bads/faculty-home/secondary-faculty", "render": false}],
+     "matched_authors": [],
+     "notes": "The primary and secondary faculty pages matched 0 (also with --render). Momiao Xiong (peripheral) is not in the primary list text. Core biostatistics PhD type, so included."},
+    {"program_name": "Microbiology & Infectious Diseases PhD program, MD Anderson UTHealth Houston GSBS", "degree": "PhD", "discipline": "other:microbiology", "program_type": "umbrella_track",
+     "umbrella_name": "MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences (GSBS)", "program_url": "https://gsbs.uth.edu/microbiology-and-infectious-diseases/index.htm",
+     "phd_evidence_quote": "Students must affiliate with one of 9 PhD programs within their first year at GSBS.",
+     "faculty_list_urls": [{"url": "https://gsbs.uth.edu/directory/?ptype=faculty&name=Christie", "render": false}],
+     "matched_authors": ["Peter J. Christie"],
+     "notes": "Only a GSBS directory name search (Christie, peripheral B) was done; his program affiliation on the profile was not checked. Listed in https://gsbs.uth.edu/programs/. Low relevance."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Wenjin Jim Zheng", "program_found": "PhD in Biomedical Informatics (McWilliams School)", "evidence_url": "https://sbmi.uth.edu/faculty-and-staff/index.htm", "note": "Listed as 'W. Jim Zheng, PhD' on the SBMI faculty page (manual text check). Not in the GSBS directory: a name search for 'Zheng' returned only Zheng (Jake) Chen, Lei Zheng and Ye Zheng."},
+    {"name": "Matthew L. Baker", "program_found": null, "evidence_url": "https://gsbs.uth.edu/directory/?ptype=faculty&name=Baker", "note": "GSBS directory name search for 'Baker' returned no faculty profile, and he is not on the SBMI list. Profile not located without WebSearch."},
+    {"name": "Dennis Lal", "program_found": null, "evidence_url": null, "note": "Not on SBMI or GSBS lists checked; last_known Broad/Cleveland Clinic."}
+  ],
+  "problems": [
+    "GSBS faculty directory is paginated (about 20 per page); pages were matched one by one. The rendered first page added nothing.",
+    "SPH Biostatistics faculty list matched no relevant authors.",
+    "Some links into www.uth.edu were BLOCKED by robots.txt during navigation (e.g. https://www.uth.edu/giving/support-our-schools/school-of-public-health, https://www.uth.edu/alumni/our-schools/md-anderson-graduate-school/). Not needed.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}
