@@ -17,7 +17,7 @@
    "phd_evidence_quote": "Degrees Offered Doctor of Philosophy (PhD)",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "GSAS page: 'Biological and Biomedical Sciences is one of the programs in the Harvard Integrated Life Sciences'. BBS site (bbs.hms.harvard.edu) and HILS site blocked by robots.txt, so no faculty list could be fetched. HMS Genetics dept people page (https://genetics.hms.harvard.edu/people) matched George McDonald Church, but department membership does not prove BBS membership, so not recorded here."
+   "notes": "GSAS page: 'Biological and Biomedical Sciences is one of the programs in the Harvard Integrated Life Sciences'. The GSAS page links the BBS website as https://bbsphd.hms.harvard.edu/ and the faculty list as http://www.hms.harvard.edu/dms/bbs/fac/Faculty.php (which redirects to https://BBSPhD.hms.harvard.edu); on recheck 2026-11-03 both return HTTP 403 'Access Denied' (Akamai edge), so no faculty list could be fetched. HMS Genetics dept people page (https://genetics.hms.harvard.edu/people) matched George McDonald Church, but department membership does not prove BBS membership, so not recorded here."
   },
   {
    "program_name": "Biomedical Informatics PhD - Bioinformatics and Integrative Genomics (BIG) track",
@@ -44,7 +44,7 @@
     "Shamil R. Sunyaev",
     "Pranav Rajpurkar"
    ],
-   "notes": "Also listed on GSAS: https://gsas.harvard.edu/program/biomedical-informatics ('Degrees Offered Doctor of Philosophy (PhD)'). DBMI faculty page lists DBMI core faculty only; the broader BIG training-faculty list is on bigphd.hms.harvard.edu which is robots-blocked. AIM track shares the same DBMI core faculty."
+   "notes": "Also listed on GSAS: https://gsas.harvard.edu/program/biomedical-informatics ('Degrees Offered Doctor of Philosophy (PhD)'). DBMI faculty page lists DBMI core faculty only; the broader BIG training-faculty list is on bigphd.hms.harvard.edu, which is now allowed by robots.txt but redirects to https://bmiphd.hms.harvard.edu/ and returns HTTP 403 'Access Denied' (plain and rendered, 2026-11-03). AIM track shares the same DBMI core faculty."
   },
   {
    "program_name": "PhD in Biostatistics",
@@ -66,15 +66,20 @@
     {
      "url": "https://hsph.harvard.edu/profile/alkes-price/",
      "render": false
+    },
+    {
+     "url": "https://hsph.harvard.edu/profile/tamar-sofer/",
+     "render": false
     }
    ],
    "matched_authors": [
     "Tianxi Cai",
     "Rui Duan",
     "Xihong Lin",
-    "Alkes L. Price"
+    "Alkes L. Price",
+    "Tamar Sofer"
    ],
-   "notes": "Profiles listing is JS-paginated (18 pages); only page 1 readable, matched Tianxi Cai, Rui Duan. Xihong Lin profile: 'Professor of Biostatistics ... Department of Biostatistics' (also Professor and Chair, Dept of Statistics FAS). Alkes Price profile lists 'Department of Biostatistics' and 'Department of Epidemiology' ('Faculty Affiliate in the Department of Biostatistics'). Other names matched on those profile pages were publication co-authors and are excluded."
+   "notes": "Profiles listing is JS-paginated (18 pages); only page 1 readable, matched Tianxi Cai, Rui Duan. Xihong Lin profile: 'Professor of Biostatistics ... Department of Biostatistics' (also Professor and Chair, Dept of Statistics FAS). Alkes Price profile lists 'Department of Biostatistics' and 'Department of Epidemiology' ('Faculty Affiliate in the Department of Biostatistics'). Other names matched on those profile pages were publication co-authors and are excluded. Tamar Sofer profile (2026-11-03): 'Secondary Faculty', 'Associate Professor in the Department of Biostatistics', 'Department of Biostatistics' (secondary appointment)."
   },
   {
    "program_name": "PhD in Population Health Sciences (PHS)",
@@ -92,13 +97,18 @@
     {
      "url": "https://hsph.harvard.edu/profile/alkes-price/",
      "render": false
+    },
+    {
+     "url": "https://hsph.harvard.edu/profile/pradeep-natarajan/",
+     "render": false
     }
    ],
    "matched_authors": [
     "Peter Kraft",
-    "Alkes L. Price"
+    "Alkes L. Price",
+    "Pradeep Natarajan"
    ],
-   "notes": "Epidemiology is one of PHS's five fields of study (program page). No PHS/Epidemiology faculty list fetched; matches are from individual profiles listing 'Department of Epidemiology' (Kraft is 'Adjunct Professor of Epidemiology'; Price 'Professor of Statistical Genetics, Epidemiology'). Membership in PHS faculty itself not directly verified."
+   "notes": "Epidemiology is one of PHS's five fields of study (program page). No PHS/Epidemiology faculty list fetched; matches are from individual profiles listing 'Department of Epidemiology' (Kraft is 'Adjunct Professor of Epidemiology'; Price 'Professor of Statistical Genetics, Epidemiology'). Membership in PHS faculty itself not directly verified. Pradeep Natarajan profile (2026-11-03): 'Adjunct Faculty', 'Adjunct Professor of Epidemiology', 'Department of Epidemiology' (Gina Marie Peloso also matched on that page but only as a publication co-author; excluded)."
   },
   {
    "program_name": "Systems, Synthetic, and Quantitative Biology (SSQB) PhD Program",
@@ -119,7 +129,7 @@
     "Peter Karl Sorger",
     "Johan Paulsson"
    ],
-   "notes": "GSAS: 'The program has 48 faculty located in the Faculty of Arts and Sciences, Harvard Medical School, and Harvard-affiliated teaching hospitals'. SSQB's own faculty list (ssqbphd.hsites.harvard.edu) is robots-blocked; the HMS Department of Systems Biology faculty profiles page was used as proxy."
+   "notes": "GSAS: 'The program has 48 faculty located in the Faculty of Arts and Sciences, Harvard Medical School, and Harvard-affiliated teaching hospitals'. SSQB's own site (https://ssqbphd.hsites.harvard.edu/) and the GSAS-linked faculty list (https://ssqbiophd.hms.harvard.edu/people -> https://ssqbphd.hsites.harvard.edu/people) are now allowed by robots.txt but return HTTP 403 'Access Denied' (2026-11-03); the HMS Department of Systems Biology faculty profiles page was used as proxy."
   },
   {
    "program_name": "Biophysics PhD",
@@ -131,7 +141,7 @@
    "phd_evidence_quote": "Degrees Offered Doctor of Philosophy (PhD)",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "Program site biophysics.fas.harvard.edu blocked by robots.txt; no faculty list fetched."
+   "notes": "Program site https://biophysics.fas.harvard.edu/ (faculty list linked from GSAS: biophysics.fas.harvard.edu/people?...) is now allowed by robots.txt but returns HTTP 403 'Access Denied' (2026-11-03); no faculty list fetched."
   },
   {
    "program_name": "Chemistry and Chemical Biology PhD (PhD in Chemistry)",
@@ -143,7 +153,7 @@
    "phd_evidence_quote": "The Department of Chemistry and Chemical Biology offers a PhD in chemistry and a PhD in chemical physics.",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "chemistry.harvard.edu blocked by robots.txt; no faculty list fetched (likely home of Xiaowei Zhuang, Eugene Shakhnovich - unverified)."
+   "notes": "chemistry.harvard.edu (GSAS-linked faculty list http://chemistry.harvard.edu/people/faculty-lecturers/faculty -> https://www.chemistry.harvard.edu/...) is now allowed by robots.txt but returns HTTP 403 'Access Denied' (2026-11-03); no faculty list fetched (likely home of Xiaowei Zhuang, Eugene Shakhnovich - unverified)."
   },
   {
    "program_name": "Molecular and Cellular Biology PhD (MCB; Molecules, Cells and Organisms)",
@@ -184,7 +194,7 @@
    "matched_authors": [
     "Xihong Lin"
    ],
-   "notes": "Included because Xihong Lin's profile states 'Professor of Statistics ... Chair of the Department of Statistics' (FAS). statistics.fas.harvard.edu/people blocked by robots.txt, so other Statistics faculty (e.g. Jun S. Liu) unverified."
+   "notes": "Included because Xihong Lin's profile states 'Professor of Statistics ... Chair of the Department of Statistics' (FAS). statistics.fas.harvard.edu (/people, /faculty) is now allowed by robots.txt but returns HTTP 403 'Access Denied' (2026-11-03), so other Statistics faculty (e.g. Jun S. Liu) unverified."
   },
   {
    "program_name": "Computer Science PhD (SEAS)",
@@ -226,7 +236,7 @@
    "name": "George McDonald Church",
    "program_found": null,
    "evidence_url": "https://genetics.hms.harvard.edu/people",
-   "note": "Listed on HMS Department of Genetics people page; Genetics dept faculty train via BBS but BBS faculty list is robots-blocked, so program membership unverified."
+   "note": "Listed on HMS Department of Genetics people page; his genetics.hms.harvard.edu profile (https://genetics.hms.harvard.edu/faculty-staff/george-church, checked 2026-11-03) names no graduate program (BBS appears only in the site navigation). BBS faculty list returns 403, so program membership unverified."
   },
   {
    "name": "Steven A. McCarroll",
@@ -244,31 +254,63 @@
    "name": "Xiaowei Zhuang",
    "program_found": null,
    "evidence_url": null,
-   "note": "Chemistry (chemistry.harvard.edu) and Biophysics sites robots-blocked; unverified."
+   "note": "Chemistry (chemistry.harvard.edu) and Biophysics (biophysics.fas.harvard.edu) sites now robots-allowed but return HTTP 403 'Access Denied'; unverified."
   },
   {
    "name": "Eugene I. Shakhnovich",
    "program_found": null,
    "evidence_url": null,
-   "note": "chemistry.harvard.edu robots-blocked; unverified."
+   "note": "chemistry.harvard.edu now robots-allowed but returns HTTP 403 'Access Denied'; unverified."
   },
   {
-   "name": "Aviv Regev / Broad- and hospital-based core authors (e.g. Benjamin M. Neale, Alicia R. Martin, Soumya Raychaudhuri, Pradeep Natarajan, Hailiang Huang)",
+   "name": "Aviv Regev / Broad- and hospital-based core authors (e.g. Benjamin M. Neale, Soumya Raychaudhuri, Hailiang Huang, M Kellis, Caroline Uhler, Bonnie Berger)",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not checked individually (call budget); most are Broad/MGH/BWH-affiliated and would train via BBS/BIG, whose full faculty lists are robots-blocked."
+   "note": "Not checked individually (profile budget); most are Broad/MGH/BWH-affiliated (or MIT-based per OpenAlex last_known_institutions) and would train via BBS/BIG, whose faculty lists return 403."
+  },
+  {
+   "name": "Sergey Ovchinnikov",
+   "program_found": null,
+   "evidence_url": "https://biology.mit.edu/profile/sergey-ovchinnikov/",
+   "note": "Highest-scoring unmatched core author (B). Fetched MIT Department of Biology profile lists him as 'Irwin and Helen Sizer Career Development Professor' with an mit.edu email: MIT faculty; no current Harvard PhD-program affiliation found."
+  },
+  {
+   "name": "Alicia R. Martin",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Harvard Chan profile https://hsph.harvard.edu/profile/alicia-martin/ returns 404; no Harvard program page found (MGH/Broad-based)."
+  },
+  {
+   "name": "Tian Ge",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Harvard Chan profile https://hsph.harvard.edu/profile/tian-ge/ returns 404; no program found (MGH/Broad-based)."
+  },
+  {
+   "name": "Miriam S. Udler",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Harvard Chan profile https://hsph.harvard.edu/profile/miriam-udler/ returns 404; no program found (MGH/Broad-based)."
+  },
+  {
+   "name": "Akl C. Fahed",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Harvard Chan profile https://hsph.harvard.edu/profile/akl-fahed/ returns 404; no program found (MGH/Broad-based)."
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://bbs.hms.harvard.edu/ (BBS faculty list unavailable)",
-  "BLOCKED by robots.txt: https://bigphd.hms.harvard.edu/ (BIG training-faculty list unavailable)",
-  "BLOCKED by robots.txt: https://ssqbphd.hsites.harvard.edu/",
-  "BLOCKED by robots.txt: https://biophysics.fas.harvard.edu/",
-  "BLOCKED by robots.txt: https://chemistry.harvard.edu/ and https://chemistry.harvard.edu/faculty",
-  "BLOCKED by robots.txt: https://statistics.fas.harvard.edu/people",
-  "BLOCKED by robots.txt: https://hils.harvard.edu/",
+  "HTTP 403 'Access Denied' (Akamai edge; not robots, not bypassed): BBS real site https://bbsphd.hms.harvard.edu/ (linked from GSAS; bbs.hms.harvard.edu does not resolve) and its faculty list http://www.hms.harvard.edu/dms/bbs/fac/Faculty.php -> https://BBSPhD.hms.harvard.edu",
+  "HTTP 403 'Access Denied' (plain and --render): https://bigphd.hms.harvard.edu/ -> https://bmiphd.hms.harvard.edu/ (BIG training-faculty list unavailable)",
+  "HTTP 403 'Access Denied': https://ssqbphd.hsites.harvard.edu/ and https://ssqbiophd.hms.harvard.edu/people (SSQB faculty list unavailable)",
+  "HTTP 403 'Access Denied': https://biophysics.fas.harvard.edu/ (Biophysics faculty list unavailable)",
+  "HTTP 403 'Access Denied': https://chemistry.harvard.edu/ and http://chemistry.harvard.edu/people/faculty-lecturers/faculty",
+  "HTTP 403 'Access Denied': https://statistics.fas.harvard.edu/people and https://statistics.fas.harvard.edu/faculty",
+  "UNREACHABLE: https://hils.harvard.edu/ (host does not resolve / TLS error per tool)",
+  "HTTP 403 (Incapsula bot challenge; not bypassed): https://www.hms.harvard.edu/",
   "Harvard Chan profiles listing is JS-paginated (18 pages); only first page readable, so Biostatistics/Epidemiology faculty matching relied on individual profiles",
   "WebSearch budget exhausted during this institution; URL discovery done by site navigation/guessed official URLs",
-  "Many core authors (239 relevant authors total, mostly Broad/MGH/BWH-affiliated) could not be mapped to a program because umbrella program faculty lists are robots-blocked"
+  "Many core authors (239 relevant authors total, mostly Broad/MGH/BWH-affiliated) could not be mapped to a program because umbrella program faculty lists are robots-blocked",
+  "rechecked 2026-11-03 under Claude-User robots policy: robots no longer blocks bigphd/bbsphd/ssqbphd/biophysics/chemistry/statistics hosts, but all now return HTTP 403 'Access Denied' (Akamai), so no new faculty lists; found BBS real site URL (bbsphd.hms.harvard.edu, also 403); checked 8 unmatched core-author profiles: added Tamar Sofer to PhD in Biostatistics and Pradeep Natarajan to PHS (Harvard Chan profiles); Sergey Ovchinnikov verified as MIT Biology faculty; Martin/Ge/Udler/Fahed have no Harvard Chan profile (404); Church profile names no program."
  ]
 }

@@ -1,80 +1,205 @@
 {
   "institution": "Johns Hopkins University",
-  "checked_at": "2026-11-03T08:59:46Z",
+  "checked_at": "2026-11-03T19:02:00Z",
   "grants_phd": true,
-  "grants_phd_evidence": {"url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/chemistry/chemistry-phd/", "quote": "Johns Hopkins University was the first American institution to emphasize graduate education and to establish a PhD program in chemistry."},
+  "grants_phd_evidence": {
+    "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/chemistry/chemistry-phd/",
+    "quote": "Johns Hopkins University was the first American institution to emphasize graduate education and to establish a PhD program in chemistry."
+  },
   "programs": [
-    {"program_name": "Biostatistics, PhD (Bloomberg School of Public Health)", "degree": "PhD", "discipline": "biostatistics", "program_type": "biostat",
-     "umbrella_name": null,
-     "program_url": "https://e-catalogue.jhu.edu/public-health/departments/biostatistics/biostatistics-phd/",
-     "phd_evidence_quote": "The Department of Biostatistics PhD program prepares individuals who have demonstrated excellence in mathematics, engineering, and the natural or social sciences to become research biostatisticians in academia, industry, or government.",
-     "faculty_list_urls": [{"url": "https://ccb.jhu.edu/people.php", "render": false}],
-     "matched_authors": ["Steven L. Salzberg"],
-     "notes": "Department faculty pages (publichealth.jhu.edu, biostat.jhu.edu, www.jhsph.edu) are BLOCKED by robots.txt, so the department roster could not be checked. Salzberg recorded from CCB people page title 'Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics'. CCB page https://ccb.jhu.edu/students.shtml names Biostatistics as one of four PhD programs for computational biology students."},
-    {"program_name": "Human Genetics and Genomics, PhD", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "independent",
-     "umbrella_name": null,
-     "program_url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/human-genetics-genomics-phd/",
-     "phd_evidence_quote": "Human Genetics and Genomics, PhD | Johns Hopkins University Academic Catalogue",
-     "faculty_list_urls": [],
-     "matched_authors": [],
-     "notes": "Catalogue: 'The Johns Hopkins Human Genetics and Genomics Training Program provides training in all aspects of human genetics and genomics relevant to human biology, health and disease.' Faculty list not reachable: www.hopkinsmedicine.org returns a Cloudflare 403 'Just a moment...' page even with --render; catalogue page lists no faculty."},
-    {"program_name": "Biomedical Engineering, PhD", "degree": "PhD", "discipline": "bioengineering", "program_type": "independent",
-     "umbrella_name": null,
-     "program_url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/biomedical-engineering-phd/",
-     "phd_evidence_quote": "In the BME Ph.D. program, students gain a deep and broad grounding in three foundational fields of study: Biology, Medicine, and Engineering (BME).",
-     "faculty_list_urls": [{"url": "https://ccb.jhu.edu/people.php", "render": false}],
-     "matched_authors": ["Joel S. Bader", "Alexis J. Battle", "Mihaela Pertea", "Ales Varabyou", "Steven L. Salzberg"],
-     "notes": "www.bme.jhu.edu BLOCKED by robots.txt. Membership taken from CCB people page, which lists 'Department of Biomedical Engineering' for Bader, Battle, Pertea and (postdoc) Varabyou, and Salzberg as Professor of Biomedical Engineering. Varabyou is a postdoc, not faculty."},
-    {"program_name": "Computer Science, PhD", "degree": "PhD", "discipline": "computer_science", "program_type": "independent",
-     "umbrella_name": null,
-     "program_url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/computer-science/computer-science-phd/",
-     "phd_evidence_quote": "The goal of the Doctor of Philosophy (Ph.D.) program in the Department of Computer Science is to prepare first-rate scholars in computer science.",
-     "faculty_list_urls": [{"url": "https://www.cs.jhu.edu/faculty/", "render": false}, {"url": "https://www.cs.jhu.edu/people/cs-affiliates/", "render": false}],
-     "matched_authors": ["Alexis J. Battle", "Daniel Khashabi", "Steven L. Salzberg"],
-     "notes": "Matches from the faculty page; affiliates page matched none."},
-    {"program_name": "Chemical and Biomolecular Engineering, PhD", "degree": "PhD", "discipline": "other:chemical_biomolecular_engineering", "program_type": "independent",
-     "umbrella_name": null,
-     "program_url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/chemical-biomolecular-engineering/chemical-biomolecular-engineering-phd/",
-     "phd_evidence_quote": "The Ph.D. is awarded for original research performed, publicly defended, and published under the guidance of a thesis advisor.",
-     "faculty_list_urls": [{"url": "https://ccb.jhu.edu/people.php", "render": false}],
-     "matched_authors": ["Jeffrey J. Gray"],
-     "notes": "chembe.jhu.edu and engineering.jhu.edu BLOCKED by robots.txt. CCB people page lists Gray with 'Department of Chemical & Biomolecular Engineering'; https://graylab.jhu.edu/ also shows 'Department of Chemical & Biomolecular Engineering'."},
-    {"program_name": "Program in Molecular Biophysics (PMB), Biophysics PhD", "degree": "PhD", "discipline": "biophysics", "program_type": "independent",
-     "umbrella_name": null,
-     "program_url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/molecular-biophysics-phd/",
-     "phd_evidence_quote": "Molecular Biophysics, PhD | Johns Hopkins University Academic Catalogue",
-     "faculty_list_urls": [{"url": "https://ccb.jhu.edu/people.php", "render": false}],
-     "matched_authors": ["Jeffrey J. Gray"],
-     "notes": "Catalogue: 'The Program in Molecular Biophysics is a cross-school program with participant laboratories on the School of Medicine campus and the Arts and Sciences and Engineering campus.' Also listed as 'Biophysics, PhD - Program in Molecular Biophysics' at https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/biophysics/biophysics-phd-bmp/. pmb.jhu.edu and biophysics.jhu.edu BLOCKED by robots.txt. Gray's CCB entry and lab page list 'Program in Molecular & Computational Biophysics' (name differs from catalogue). A separate 'Biophysics, PhD - Jenkins Biophysics Program' also exists in the catalogue (not checked)."},
-    {"program_name": "Biochemistry, Cellular and Molecular Biology (BCMB), PhD", "degree": "PhD", "discipline": "biochemistry", "program_type": "independent",
-     "umbrella_name": null,
-     "program_url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/biochemistry-cellular-molecular-biology-phd/",
-     "phd_evidence_quote": "Pharmacology and Therapeutics jointly provide a program of study leading to the PhD degree. The objective of the Biochemistry, Cellular and Molecular Biology (BCMB) program is to provide students with the breadth of knowledge and research training",
-     "faculty_list_urls": [],
-     "matched_authors": [],
-     "notes": "bcmb.jhu.edu BLOCKED by robots.txt; hopkinsmedicine.org Cloudflare 403; faculty membership not verifiable."},
-    {"program_name": "Chemistry, PhD", "degree": "PhD", "discipline": "chemistry", "program_type": "independent",
-     "umbrella_name": null,
-     "program_url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/chemistry/chemistry-phd/",
-     "phd_evidence_quote": "Johns Hopkins University was the first American institution to emphasize graduate education and to establish a PhD program in chemistry.",
-     "faculty_list_urls": [],
-     "matched_authors": [],
-     "notes": "chemistry.jhu.edu BLOCKED by robots.txt; catalogue department page lists no faculty names. Core authors Stephen D. Fried and Xiongyi Huang could not be verified."}
+    {
+      "program_name": "Biostatistics, PhD (Bloomberg School of Public Health)",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "biostat",
+      "umbrella_name": null,
+      "program_url": "https://e-catalogue.jhu.edu/public-health/departments/biostatistics/biostatistics-phd/",
+      "phd_evidence_quote": "The Department of Biostatistics PhD program prepares individuals who have demonstrated excellence in mathematics, engineering, and the natural or social sciences to become research biostatisticians in academia, industry, or government.",
+      "faculty_list_urls": [
+        {
+          "url": "https://ccb.jhu.edu/people.php",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Steven L. Salzberg"
+      ],
+      "notes": "Department faculty pages: publichealth.jhu.edu and biostat.jhu.edu BLOCKED by robots.txt; www.jhsph.edu redirects to publichealth.jhu.edu and returns HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render, rechecked 2026-11-03), so the department roster could not be checked. Salzberg recorded from CCB people page title 'Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics'. CCB page https://ccb.jhu.edu/students.shtml names Biostatistics as one of four PhD programs for computational biology students."
+    },
+    {
+      "program_name": "Human Genetics and Genomics, PhD",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/human-genetics-genomics-phd/",
+      "phd_evidence_quote": "Human Genetics and Genomics, PhD | Johns Hopkins University Academic Catalogue",
+      "faculty_list_urls": [],
+      "matched_authors": [],
+      "notes": "Catalogue: 'The Johns Hopkins Human Genetics and Genomics Training Program provides training in all aspects of human genetics and genomics relevant to human biology, health and disease.' Faculty list not reachable: www.hopkinsmedicine.org returns a Cloudflare 403 'Just a moment...' page even with --render; catalogue page lists no faculty."
+    },
+    {
+      "program_name": "Biomedical Engineering, PhD",
+      "degree": "PhD",
+      "discipline": "bioengineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/biomedical-engineering-phd/",
+      "phd_evidence_quote": "In the BME Ph.D. program, students gain a deep and broad grounding in three foundational fields of study: Biology, Medicine, and Engineering (BME).",
+      "faculty_list_urls": [
+        {
+          "url": "https://ccb.jhu.edu/people.php",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Joel S. Bader",
+        "Alexis J. Battle",
+        "Mihaela Pertea",
+        "Ales Varabyou",
+        "Steven L. Salzberg"
+      ],
+      "notes": "www.bme.jhu.edu (incl. /people/faculty/) returns HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render, rechecked 2026-11-03). Membership taken from CCB people page, which lists 'Department of Biomedical Engineering' for Bader, Battle, Pertea and (postdoc) Varabyou, and Salzberg as Professor of Biomedical Engineering. Varabyou is a postdoc, not faculty."
+    },
+    {
+      "program_name": "Computer Science, PhD",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/computer-science/computer-science-phd/",
+      "phd_evidence_quote": "The goal of the Doctor of Philosophy (Ph.D.) program in the Department of Computer Science is to prepare first-rate scholars in computer science.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cs.jhu.edu/faculty/",
+          "render": false
+        },
+        {
+          "url": "https://www.cs.jhu.edu/people/cs-affiliates/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Alexis J. Battle",
+        "Daniel Khashabi",
+        "Steven L. Salzberg"
+      ],
+      "notes": "Matches from the faculty page; affiliates page matched none."
+    },
+    {
+      "program_name": "Chemical and Biomolecular Engineering, PhD",
+      "degree": "PhD",
+      "discipline": "other:chemical_biomolecular_engineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/chemical-biomolecular-engineering/chemical-biomolecular-engineering-phd/",
+      "phd_evidence_quote": "The Ph.D. is awarded for original research performed, publicly defended, and published under the guidance of a thesis advisor.",
+      "faculty_list_urls": [
+        {
+          "url": "https://ccb.jhu.edu/people.php",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Jeffrey J. Gray"
+      ],
+      "notes": "chembe.jhu.edu and engineering.jhu.edu return HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render, rechecked 2026-11-03). CCB people page lists Gray with 'Department of Chemical & Biomolecular Engineering'; https://graylab.jhu.edu/ also shows 'Department of Chemical & Biomolecular Engineering'."
+    },
+    {
+      "program_name": "Program in Molecular Biophysics (PMB), Biophysics PhD",
+      "degree": "PhD",
+      "discipline": "biophysics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/molecular-biophysics-phd/",
+      "phd_evidence_quote": "Molecular Biophysics, PhD | Johns Hopkins University Academic Catalogue",
+      "faculty_list_urls": [
+        {
+          "url": "https://ccb.jhu.edu/people.php",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Jeffrey J. Gray"
+      ],
+      "notes": "Catalogue: 'The Program in Molecular Biophysics is a cross-school program with participant laboratories on the School of Medicine campus and the Arts and Sciences and Engineering campus.' Also listed as 'Biophysics, PhD - Program in Molecular Biophysics' at https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/biophysics/biophysics-phd-bmp/. pmb.jhu.edu and biophysics.jhu.edu return HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render, rechecked 2026-11-03). Gray's CCB entry and lab page list 'Program in Molecular & Computational Biophysics' (name differs from catalogue). A separate 'Biophysics, PhD - Jenkins Biophysics Program' also exists in the catalogue (not checked)."
+    },
+    {
+      "program_name": "Biochemistry, Cellular and Molecular Biology (BCMB), PhD",
+      "degree": "PhD",
+      "discipline": "biochemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/biochemistry-cellular-molecular-biology-phd/",
+      "phd_evidence_quote": "Pharmacology and Therapeutics jointly provide a program of study leading to the PhD degree. The objective of the Biochemistry, Cellular and Molecular Biology (BCMB) program is to provide students with the breadth of knowledge and research training",
+      "faculty_list_urls": [],
+      "matched_authors": [],
+      "notes": "bcmb.jhu.edu UNREACHABLE (robots.txt not retrievable) on recheck; hopkinsmedicine.org Cloudflare 403; faculty membership not verifiable."
+    },
+    {
+      "program_name": "Chemistry, PhD",
+      "degree": "PhD",
+      "discipline": "chemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/chemistry/chemistry-phd/",
+      "phd_evidence_quote": "Johns Hopkins University was the first American institution to emphasize graduate education and to establish a PhD program in chemistry.",
+      "faculty_list_urls": [],
+      "matched_authors": [],
+      "notes": "chemistry.jhu.edu (incl. /people/, /people/faculty/) returns HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render, rechecked 2026-11-03); catalogue department page lists no faculty names. Core authors Stephen D. Fried and Xiongyi Huang could not be verified."
+    }
   ],
   "unmatched_core_authors": [
-    {"name": "Nilanjan Chatterjee", "program_found": null, "evidence_url": null, "note": "Profile sites publichealth.jhu.edu / www.jhsph.edu BLOCKED by robots.txt."},
-    {"name": "Debashree Ray", "program_found": null, "evidence_url": null, "note": "publichealth.jhu.edu BLOCKED by robots.txt."},
-    {"name": "Patrick Cahan", "program_found": null, "evidence_url": "https://cahanlab.org/", "note": "Lab page fetched (status 200) but no program/department text found; hopkinsmedicine.org Cloudflare 403."},
-    {"name": "Marios Arvanitis", "program_found": null, "evidence_url": null, "note": "hopkinsmedicine.org Cloudflare 403."},
-    {"name": "Stephen D. Fried", "program_found": null, "evidence_url": null, "note": "chemistry.jhu.edu and friedlab.jhu.edu BLOCKED by robots.txt."},
-    {"name": "Gira Bhabha", "program_found": null, "evidence_url": null, "note": "www.bhabhaekiertlab.org BLOCKED by robots.txt; hopkinsmedicine.org 403. Same applies to Damian C. Ekiert."},
-    {"name": "Jie Xiao", "program_found": null, "evidence_url": null, "note": "xiaolab.jhu.edu BLOCKED by robots.txt."}
+    {
+      "name": "Nilanjan Chatterjee",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "publichealth.jhu.edu BLOCKED by robots.txt; www.jhsph.edu redirects there and returns Cloudflare 403."
+    },
+    {
+      "name": "Debashree Ray",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "publichealth.jhu.edu BLOCKED by robots.txt."
+    },
+    {
+      "name": "Patrick Cahan",
+      "program_found": null,
+      "evidence_url": "https://cahanlab.org/",
+      "note": "Lab page fetched (status 200) but no program/department text found; hopkinsmedicine.org Cloudflare 403."
+    },
+    {
+      "name": "Marios Arvanitis",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "hopkinsmedicine.org Cloudflare 403."
+    },
+    {
+      "name": "Stephen D. Fried",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "chemistry.jhu.edu and hub.jhu.edu/experts/profiles/stephen-fried return Cloudflare 403; friedlab.jhu.edu UNREACHABLE (guessed hostname)."
+    },
+    {
+      "name": "Gira Bhabha",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "www.bhabhaekiertlab.org UNREACHABLE on recheck; hopkinsmedicine.org 403. Same applies to Damian C. Ekiert."
+    },
+    {
+      "name": "Jie Xiao",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "xiaolab.jhu.edu UNREACHABLE on recheck (guessed hostname)."
+    }
   ],
   "problems": [
-    "BLOCKED by robots.txt: https://publichealth.jhu.edu/departments/biostatistics, https://biostat.jhu.edu/, https://www.jhsph.edu/, https://pmb.jhu.edu/, https://bcmb.jhu.edu/, https://www.bme.jhu.edu/, https://chemistry.jhu.edu/, https://engineering.jhu.edu/, https://chembe.jhu.edu/, https://ams.jhu.edu/, https://biology.jhu.edu/, https://biophysics.jhu.edu/, https://physics-astronomy.jhu.edu/, https://krieger.jhu.edu/, https://www.jhu.edu/, https://pages.jh.edu/, https://www.bhabhaekiertlab.org/, https://friedlab.jhu.edu/, https://xiaolab.jhu.edu/ (some lab hostnames were guesses and may not exist).",
+    "BLOCKED by robots.txt (still): https://publichealth.jhu.edu/departments/biostatistics, https://biostat.jhu.edu/, https://www.jhu.edu/. UNREACHABLE on recheck (robots.txt not retrievable): https://biology.jhu.edu/, https://bcmb.jhu.edu/, https://friedlab.jhu.edu/, https://xiaolab.jhu.edu/, https://www.bhabhaekiertlab.org/ (lab hostnames were guesses and may not exist).",
+    "Now allowed by robots.txt but every page returns HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render, rechecked 2026-11-03): https://krieger.jhu.edu/, https://ams.jhu.edu/ (and /people/faculty/), https://biophysics.jhu.edu/, https://pmb.jhu.edu/, https://chemistry.jhu.edu/ (and /people/, /people/faculty/), https://chembe.jhu.edu/, https://engineering.jhu.edu/, https://www.bme.jhu.edu/ (and /people/faculty/), https://physics-astronomy.jhu.edu/, https://pages.jh.edu/ (and /humangenetics/), https://www.jhsph.edu/ (redirects to publichealth.jhu.edu), https://hub.jhu.edu/. Faculty lists for BME, PMB/Biophysics, Chemistry, ChemBE, AMS, Biostatistics and Human Genetics therefore still unverified; AMS/Statistics program not added (no faculty page readable).",
     "https://www.hopkinsmedicine.org/ (and /som/) returns HTTP 403 Cloudflare challenge 'Just a moment...' even with --render; School of Medicine program/faculty pages unreachable.",
     "PhD-program evidence taken from the JHU Academic Catalogue (e-catalogue.jhu.edu), which lists no faculty; faculty membership only from www.cs.jhu.edu and ccb.jhu.edu.",
     "Other unmatched core authors not checked: Dimosthenis Andreas Sarigiannis, Gary C. Hon (likely elsewhere); Michael Chungyoun, Edgar Manriquez-Sandoval, Zihan Tian, Yash Bhargava, Yiqing Shen, Geoffrey J. Taghon appear to be trainees/non-faculty; Xiongyi Huang, Damian C. Ekiert unverifiable (blocked sites).",
-    "WebSearch budget exhausted; URLs discovered by navigation and guessing."
+    "WebSearch budget exhausted; URLs discovered by navigation and guessing.",
+    "rechecked 2026-11-03 under Claude-User robots policy: robots.txt no longer blocks the JHU department hosts, but all of them sit behind a Cloudflare 403 challenge (also with --render), so no new faculty lists, programs or author matches could be added; e-catalogue BME department page has no faculty roster (match=0). Problem/notes text updated to the current reason; 2 WebSearches used."
   ]
 }
