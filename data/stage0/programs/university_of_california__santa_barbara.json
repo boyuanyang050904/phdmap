@@ -1,0 +1,43 @@
+{
+  "institution": "University of California, Santa Barbara",
+  "checked_at": "2026-11-03T09:37:42Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://www.pstat.ucsb.edu/graduate/phd", "quote": "The PhD program in Statistics and Applied Probability at UC Santa Barbara prepares students to expand the boundaries of statistical theory and practice"},
+  "programs": [
+    {"program_name": "Interdisciplinary Quantitative Biosciences (IQB) graduate program (formerly BMSE)", "degree": "PhD", "discipline": "biophysics", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://iqb.ucsb.edu/",
+     "phd_evidence_quote": null,
+     "faculty_list_urls": [{"url": "https://iqb.ucsb.edu/people", "render": false}],
+     "matched_authors": ["Yang Yang", "Todd H. Oakley"],
+     "notes": "https://www.bmse.ucsb.edu/ redirects to https://iqb.ucsb.edu/. Home page: 'IQB at UC Santa Barbara enables cutting-edge research and provides post-graduate education at the interface between the life and physical sciences.' Apply page: 'To Apply to IQB, you must choose \"Biochemistry and Molecular Biology\" Degree.' No fetched IQB page explicitly states the degree is a PhD (only 'A Bridge to the Doctorate (featuring one of BMSE's current grad student)'), so phd_evidence_quote is null."},
+    {"program_name": "Statistics and Applied Probability PhD", "degree": "PhD", "discipline": "statistics", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.pstat.ucsb.edu/graduate/phd",
+     "phd_evidence_quote": "The PhD program in Statistics and Applied Probability at UC Santa Barbara prepares students to expand the boundaries of statistical theory and practice, equipping them with the skills to solve real-world problems.",
+     "faculty_list_urls": [{"url": "https://www.pstat.ucsb.edu/people/faculty", "render": false}],
+     "matched_authors": ["Tianyu Zhang"],
+     "notes": "Included because core author Tianyu Zhang is department faculty."},
+    {"program_name": "Ecology, Evolution and Marine Biology (EEMB) PhD", "degree": "PhD", "discipline": "other:ecology_evolution", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.eemb.ucsb.edu/academics/graduate",
+     "phd_evidence_quote": "The Department of Ecology, Evolution and Marine Biology at UC Santa Barbara provides broad, interdisciplinary education leading to the Master of Arts and the Doctor of Philosophy degrees",
+     "faculty_list_urls": [{"url": "https://www.eemb.ucsb.edu/people", "render": false}],
+     "matched_authors": ["Todd H. Oakley"],
+     "notes": "Included because core B author Todd H. Oakley is department faculty."},
+    {"program_name": "Chemistry and Biochemistry PhD", "degree": "PhD", "discipline": "chemistry", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.chem.ucsb.edu/graduate",
+     "phd_evidence_quote": "Graduates of the Ph.D. program are well-equipped to pursue a wide variety of career options.",
+     "faculty_list_urls": [{"url": "https://www.chem.ucsb.edu/people", "render": false}],
+     "matched_authors": ["Yang Yang"],
+     "notes": "People page includes all department people (faculty and others)."}
+  ],
+  "unmatched_core_authors": [],
+  "problems": [
+    "IQB PhD status not explicitly stated on fetched IQB pages (phd_evidence_quote null).",
+    "Michelle Ann O'Malley (peripheral) likely Chemical Engineering; Chemical Engineering PhD not checked.",
+    "Graduate Division program listing (https://engage.graddiv.ucsb.edu/portal/programs) is JS-built; --render lists department names only.",
+    "WebSearch budget exhausted; URLs discovered by navigation."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "institution": "The University of Texas Southwestern Medical Center",
+  "checked_at": "2026-11-03T09:39:01Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://gsbs.utsouthwestern.edu/programs/molecular-biophysics/index.html", "quote": "Molecular Biophysics Ph.D. Program: Graduate School - UT Southwestern, Dallas, TX"},
+  "programs": [
+    {"program_name": "Molecular Biophysics PhD Program", "degree": "PhD", "discipline": "biophysics", "program_type": "umbrella_track",
+     "umbrella_name": "Basic Biomedical Sciences Program, Division of Basic Science (Graduate School of Biomedical Sciences)",
+     "program_url": "https://gsbs.utsouthwestern.edu/programs/molecular-biophysics/index.html",
+     "phd_evidence_quote": "Molecular Biophysics Ph.D. Program: Graduate School - UT Southwestern, Dallas, TX",
+     "faculty_list_urls": [{"url": "https://gsbs.utsouthwestern.edu/programs/molecular-biophysics/program-faculty.html", "render": false}],
+     "matched_authors": ["Nikolaos N. Louros", "Qian Cong", "Nick V. Grishin"],
+     "notes": "Page: applicants apply 'to the Basic Biomedical Sciences Program in the Division of Basic Science.'"},
+    {"program_name": "Biological Chemistry PhD Program", "degree": "PhD", "discipline": "biochemistry", "program_type": "umbrella_track",
+     "umbrella_name": "Basic Biomedical Sciences Program, Division of Basic Science (Graduate School of Biomedical Sciences)",
+     "program_url": "https://gsbs.utsouthwestern.edu/programs/biological-chemistry/",
+     "phd_evidence_quote": "Students interested in joining the Biological Chemistry Ph.D. program must apply to the Basic Biomedical Sciences umbrella program.",
+     "faculty_list_urls": [{"url": "https://gsbs.utsouthwestern.edu/programs/biological-chemistry/program-faculty.html", "render": false}],
+     "matched_authors": ["Kenneth D. Westover"],
+     "notes": "Page title: 'Biochemistry Ph.D. Program: Graduate School - UT Southwestern, Dallas, TX'."},
+    {"program_name": "Genetics, Development and Disease PhD Program", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "umbrella_track",
+     "umbrella_name": "Basic Biomedical Sciences Program, Division of Basic Science (Graduate School of Biomedical Sciences)",
+     "program_url": "https://gsbs.utsouthwestern.edu/programs/genetics-and-development/index.html",
+     "phd_evidence_quote": "Students interested in joining the Genetics, Development and Disease Ph.D. Program should apply to the interdisciplinary umbrella program within the Division of Basic Science.",
+     "faculty_list_urls": [{"url": "https://gsbs.utsouthwestern.edu/programs/genetics-and-development/program-faculty.html", "render": false}],
+     "matched_authors": ["Gary C. Hon"],
+     "notes": ""},
+    {"program_name": "Biomedical Engineering PhD Program", "degree": "PhD", "discipline": "bioengineering", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://gsbs.utsouthwestern.edu/programs/biomedical-engineering/index.html",
+     "phd_evidence_quote": "Biomedical Engineering Ph.D. Program: Graduate School - UT Southwestern, Dallas, TX",
+     "faculty_list_urls": [{"url": "https://gsbs.utsouthwestern.edu/programs/biomedical-engineering/program-faculty.html", "render": false}],
+     "matched_authors": ["Gary C. Hon", "Nikolaos N. Louros", "Qian Cong"],
+     "notes": "Fetched page did not mention the Basic Biomedical Sciences umbrella; admission route not verified, so classified independent."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Jonathan D. Mosley", "program_found": null, "evidence_url": null, "note": "Not on Molecular Biophysics, Biological Chemistry, GDD, BME, Cancer Biology or Cell & Molecular Biology program faculty pages; profile URL (profiles.utsouthwestern.edu) not discoverable without search."},
+    {"name": "Richard Dustin Schaeffer", "program_found": null, "evidence_url": null, "note": "Not on fetched program faculty pages; appears to be research staff (Grishin group) per OpenAlex co-authorship, not program faculty."},
+    {"name": "Kirill E. Medvedev", "program_found": null, "evidence_url": null, "note": "Not on fetched program faculty pages; likely research staff."}
+  ],
+  "problems": [
+    "Cancer Biology and Cell & Molecular Biology program faculty pages checked: 0 matches (not recorded).",
+    "WebSearch budget exhausted; URLs discovered via gsbs.utsouthwestern.edu navigation."
+  ]
+}

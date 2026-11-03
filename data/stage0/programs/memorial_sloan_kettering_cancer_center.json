@@ -1,0 +1,38 @@
+{
+  "institution": "Memorial Sloan Kettering Cancer Center",
+  "checked_at": "2026-11-03T09:41:59Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://www.sloankettering.edu/gerstner/welcome/accreditation", "quote": "The Louis V. Gerstner, Jr. Graduate School of Biomedical Sciences, Memorial Sloan Kettering Cancer Center, a non-profit and private graduate school, is accredited by the New England Commission of Higher Education ... Cancer Biology and Cancer Engineering are approved by New York State Education Department as official programs offered by GSK."},
+  "programs": [
+    {"program_name": "GSK Cancer Biology PhD Program (Gerstner Sloan Kettering Graduate School of Biomedical Sciences)", "degree": "PhD", "discipline": "other:cancer_biology", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.sloankettering.edu/gerstner/cancer-biology/overview",
+     "phd_evidence_quote": "Pursing a Cancer Biology PhD at the Gerstner Sloan Kettering Graduate School of Biomedical Sciences gives you training that combines Memorial Sloan Kettering Cancer Center’s basic science and clinical arms.",
+     "faculty_list_urls": [{"url": "https://www.sloankettering.edu/gerstner/faculty-research/faculty", "render": true}, {"url": "https://www.mskcc.org/research/ski/labs/christina-leslie", "render": false}, {"url": "https://www.mskcc.org/research/ski/labs/kushal-dey", "render": false}, {"url": "https://www.mskcc.org/research/ski/labs/caleb-lareau", "render": false}],
+     "matched_authors": ["Christina S. Leslie", "Kushal K. Dey", "Caleb A. Lareau"],
+     "notes": "GSK faculty list is a search interface (plain and --render: no names). Leslie, Dey and Lareau lab pages list under 'Lab Affiliations': 'Computational & Systems Biology Program' and 'Gerstner Sloan Kettering Graduate School of Biomedical Sciences' (GSK affiliation; the lab pages do not say which GSK PhD program, Cancer Biology is assumed as GSK's main biology PhD). Cancer Biology overview page caption also names 'Nikolaus Schultz, PhD' with GSK students (not a membership statement)."},
+    {"program_name": "Pat and Ian Cook Doctoral Program in Cancer Engineering (GSK)", "degree": "PhD", "discipline": "bioengineering", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.sloankettering.edu/gerstner/cancer-engineering/overview",
+     "phd_evidence_quote": "When you begin your Cancer Engineering PhD program at GSK, you do not need to make a formal commitment to a particular laboratory.",
+     "faculty_list_urls": [],
+     "matched_authors": [],
+     "notes": "No program-specific faculty roster readable (GSK faculty page is a search interface)."},
+    {"program_name": "Tri-Institutional PhD Program in Computational Biology & Medicine (CBM)", "degree": "PhD", "discipline": "comp_bio", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://compbio.triiprograms.org/about-cbm/program-of-study/",
+     "phd_evidence_quote": "If a student selects a thesis mentor at Weill Cornell or Sloan Kettering, they join the Weill Cornell Graduate School, a partnership with Sloan Kettering Institute; if thesis research is to be conducted at The Rockefeller University, student joins the David Rockefeller Graduate Program in Bioscience.",
+     "faculty_list_urls": [{"url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/", "render": false}],
+     "matched_authors": ["Christina S. Leslie", "Kushal K. Dey", "Wesley Tansey", "Caleb A. Lareau", "Nikolaus D. Schultz", "Justin Jee", "Benjamin D. Greenbaum"],
+     "notes": "Tri-Institutional program of Weill Cornell Medical College, The Rockefeller University, Cornell University and Memorial Sloan-Kettering Cancer Center (listed on https://compbio.triiprograms.org/about-cbm/). MSK participates but does NOT grant this PhD: students with MSK mentors join the Weill Cornell Graduate School (degree-granting), per the quoted sentence."}
+  ],
+  "unmatched_core_authors": [],
+  "problems": [
+    "GSK faculty directory (https://www.sloankettering.edu/gerstner/faculty-research/faculty) is a search UI; names not present in plain or rendered HTML. GSK membership taken from individual MSK lab pages' 'Lab Affiliations'.",
+    "https://www.mskcc.org/research/ski/labs/nikolaus-schultz and /wesley-tansey returned 404 (guessed slugs).",
+    "'Alzheimer’s Disease Neuroimaging Initiative' is listed as a core author by OpenAlex (consortium, not a person); ignored.",
+    "Kushal K. Dey's lab page also shows a related topic 'Weill Cornell Graduate School of Medical Sciences, Physiology, Biophysics and Systems Biology PhD Program' (Weill Cornell degree, not MSK); not recorded as an MSK program.",
+    "Andrew Julian Vickers (biostatistics, peripheral) not checked: MSK has no biostatistics PhD among GSK programs (only Cancer Biology and Cancer Engineering per accreditation page).",
+    "WebSearch budget exhausted; URLs discovered by navigation and guessed lab slugs."
+  ]
+}

@@ -47,7 +47,28 @@ include authors whose names appear on the program's own faculty page.
 
 * `whitelist.csv` → `confirm` = 1 to keep an independent institute regardless of rank
 * `unresolved.csv` → `user_rank` (a number) or `keep` = 1 / 0
+* program types without a ranking table (e.g. 35 Biochemistry programs): instead of row by
+  row, copy `user_discipline_map.example.json` to `user_discipline_map.json` and map types
+  to tables in bulk
 * `candidates.csv` → add `selected` = 1 for programs to pursue in stage 1 (kept on re-runs)
+
+### Known limitations of stage 0 (see `stage0_report.md` for details)
+
+* **Rankings** are approximations: U.S. News blocks Anthropic agents in robots.txt, so the
+  tables were assembled from schools' own 2026-edition announcements (`rankings/evidence/`);
+  rows without such a page are `estimate`. The 2026 edition ranks **biostatistics
+  separately** from statistics; `statistics.csv` covers statistics only, so biostatistics
+  programs at schools absent from it are sent to `unresolved.csv` instead of being dropped.
+* **Blocked sites**: robots.txt (including rules aimed at Anthropic agents), Cloudflare/
+  Incapsula challenges, or unreachable hosts prevented reading several faculty lists
+  (notably Harvard umbrella programs, UCSF, JHU, Michigan, Mount Sinai, Einstein,
+  Princeton QCB, CSHL, Stowers, City of Hope). Those programs show low or zero faculty
+  counts; `school_core_authors_openalex` in `candidates.csv` shows how many relevant
+  authors OpenAlex places at the school regardless.
+* **ISCB list** lives on `transition.iscb.org`, whose robots.txt disallows all agents; save
+  it manually to `data/manual/iscb_displaytable.html` and re-run `s05_iscb.py`.
+* Topic coverage comes from title/abstract keyword search; faculty whose recent papers use
+  other wording can be missed. Name matching can confuse same-name people (rare; flagged).
 
 ## Setup
 

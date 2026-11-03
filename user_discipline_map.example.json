@@ -1,0 +1,6 @@
+{
+  "_comment": "Copy to user_discipline_map.json and edit to map program types that have no ranking table. Then re-run: python3 stage0/s07_candidates.py",
+  "biochemistry": "biological_sciences",
+  "other:biology": "biological_sciences",
+  "other:epidemiology": "statistics"
+}

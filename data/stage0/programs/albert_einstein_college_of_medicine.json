@@ -1,0 +1,19 @@
+{
+  "institution": "Albert Einstein College of Medicine",
+  "checked_at": "2026-11-03T09:35:51Z",
+  "grants_phd": null,
+  "grants_phd_evidence": null,
+  "programs": [],
+  "unmatched_core_authors": [
+    {"name": "Yinghao Wu", "program_found": null, "evidence_url": null, "note": "einsteinmed.edu (all faculty/program pages) BLOCKED by robots.txt."},
+    {"name": "Zhaoqian Su", "program_found": null, "evidence_url": null, "note": "einsteinmed.edu BLOCKED by robots.txt."},
+    {"name": "Libusha Kelly", "program_found": null, "evidence_url": null, "note": "einsteinmed.edu BLOCKED by robots.txt."},
+    {"name": "András Fiser", "program_found": null, "evidence_url": null, "note": "einsteinmed.edu BLOCKED by robots.txt; guessed lab host https://fiserlab.org/ failed (proxy tunnel closed)."}
+  ],
+  "problems": [
+    "BLOCKED by robots.txt: https://einsteinmed.edu/, https://www.einsteinmed.edu/, https://einsteinmed.edu/education/phd, https://einsteinmed.edu/education/phd-program/, https://www.einsteinmed.edu/education/phd/ (the PhD program, department and faculty-directory pages all live on this host).",
+    "https://einstein.yu.edu/ and https://www.einstein.yu.edu/education/phd/ timed out / proxy tunnel closed.",
+    "https://montefioreeinstein.org/education (fetched) only says 'Albert Einstein College of Medicine is one of the nation’s premier centers for medical and graduate education, research and clinical investigation' and links PhD/faculty content to einsteinmed.edu; this does not explicitly verify a PhD program, so grants_phd is null and no programs are recorded.",
+    "WebSearch budget exhausted; no alternative official host found by navigation."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+ "institution": "Dartmouth College",
+ "checked_at": "2026-11-03T09:35:25Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://graduate.dartmouth.edu/admissions/programs/molecular-and-cellular-biology",
+  "quote": "Degree Offered: PhD"
+ },
+ "programs": [
+  {
+   "program_name": "Quantitative Biomedical Sciences (QBS) PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://geiselmed.dartmouth.edu/qbs/",
+   "phd_evidence_quote": "QBS PhD program frequently asked questions",
+   "faculty_list_urls": [
+    {
+     "url": "https://geiselmed.dartmouth.edu/qbs/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Siming Zhao",
+    "Kenneth B. Hoehn",
+    "Olga Zhaxybayeva",
+    "Soroush Vosoughi"
+   ],
+   "notes": "Quote is the title of https://geiselmed.dartmouth.edu/qbs/qbs-phd-program-frequently-asked-questions/; Guarini QBS admissions page (https://graduate.dartmouth.edu/admissions/programs/quantitative-biomedical-sciences): 'It is expected that all entering PhD students will have had coursework in all of the following.'",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Molecular and Cellular Biology (MCB) PhD Program",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://graduate.dartmouth.edu/mcb/about/mcb-program-overview",
+   "phd_evidence_quote": "Degree Offered: PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://graduate.dartmouth.edu/mcb/people/faculty-0",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Siming Zhao",
+    "Kenneth B. Hoehn",
+    "Olga Zhaxybayeva"
+   ],
+   "notes": "PhD quote from https://graduate.dartmouth.edu/admissions/programs/molecular-and-cellular-biology",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Computer Science PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://graduate.dartmouth.edu/admissions/programs/computer-science",
+   "phd_evidence_quote": "PhD applicants should include the entire paper.",
+   "faculty_list_urls": [
+    {
+     "url": "https://web.cs.dartmouth.edu/people",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Olga Zhaxybayeva",
+    "Soroush Vosoughi"
+   ],
+   "notes": "Only peripheral B authors matched.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "James C. Gumbart",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on QBS, MCB or CS lists; OpenAlex last-known includes Georgia Tech (primary)."
+  },
+  {
+   "name": "Gevorg Grigoryan",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on QBS, MCB or CS lists; OpenAlex has no last-known institution (likely left Dartmouth)."
+  }
+ ],
+ "problems": [
+  "UNREACHABLE: https://chem.dartmouth.edu/ (Chemistry PhD faculty not checked; Guarini page lists 'Degrees Offered: 4+1 MS, PhD' for Chemistry).",
+  "Engineering (Thayer) PhD not checked (no relevant core authors expected).",
+  "WebSearch budget exhausted; URLs discovered by site navigation."
+ ]
+}

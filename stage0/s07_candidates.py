@@ -33,6 +33,7 @@ ROOT = Path(__file__).resolve().parent.parent
 D = ROOT / "data" / "stage0"
 R = ROOT / "rankings"
 RANK_CUTOFF = 60
+USER_MAP = {}
 
 TABLE_OF = {
     "comp_bio": "biological_sciences", "genetics_genomics": "biological_sciences",
@@ -46,6 +47,16 @@ DIR_OF_DISC = {  # which direction(s) a program type serves (used when no author
     "umbrella_biomedical": "A+B", "biophysics": "B", "bioengineering": "B", "chemistry": "B",
     "computer_science": "B", "biochemistry": "B",
 }
+
+
+def load_user_discipline_map():
+    """Optional user rule file: {"biochemistry": "biological_sciences", ...}.
+    Only applied when the user has written it."""
+    p = ROOT / "user_discipline_map.json"
+    if p.exists():
+        m = json.load(open(p))
+        return {k: v for k, v in m.items() if not k.startswith("_")}
+    return {}
 
 
 def nkey(s):
@@ -138,6 +149,8 @@ def fmt_fac(m):
 
 
 def main():
+    global USER_MAP
+    USER_MAP = load_user_discipline_map()
     T = load_tables()
     if not T:
         sys.exit("no ranking tables in rankings/")
@@ -212,7 +225,9 @@ def main():
                 "institution_openalex_id": oa.get("id", ""),
                 "school_core_authors_openalex": school_core(name),
             }
-            table = TABLE_OF.get(disc)
+            table = TABLE_OF.get(disc) or USER_MAP.get(disc)
+            if disc in USER_MAP and disc not in TABLE_OF:
+                row["rank_note"] = f"program type '{disc}' mapped to {USER_MAP[disc]} by user_discipline_map.json"
             if not table:
                 row.update(ranking_subject="", subject_rank="", reason=f"program type '{disc}' has no ranking mapping")
                 if len(core) + len(peri) == 0:
@@ -278,14 +293,15 @@ def main():
                             row.update(subject_rank="user-kept", rank_match="user")
                         else:
                             fz = fuzzy(names, T[table])
-                            if fz and fz[0][0] >= 0.5:
+                            if fz and fz[0][0] > 0.5:
                                 row.update(reason="school name not found in ranking table; similar names: " +
                                            "; ".join(f'{r["school"]} (#{r["rank"]}, sim {s})' for s, r in fz),
                                            user_rank="", keep="")
                                 unresolved.append(row)
                             else:
                                 excluded.append({**row, "reason": f"school not in {table}.csv (top ~{RANK_CUTOFF}); "
-                                                 f"closest: {fz[0][1]['school']} (sim {fz[0][0]})" if fz else "not in table"})
+                                                 f"closest: {fz[0][1]['school']} (sim {fz[0][0]})" if fz else
+                                                 f"school not in {table}.csv (top ~{RANK_CUTOFF}); no similar name"})
                             continue
             else:
                 prev = un_prev.get((name, p["program_name"]), {})
@@ -317,8 +333,8 @@ def main():
             ranked = [f"{tb}#{hit['rank']}" for tb, rows in T.items()
                       for hit, _ in [match_school(names, rows)] if hit]
             if not ranked:
-                near = [(tb, s_, r_) for tb, rows in T.items() for s_, r_ in fuzzy(names, rows, 1) if s_ >= 0.5]
-                if near and nc >= 1:
+                near = [(tb, s_, r_) for tb, rows in T.items() for s_, r_ in fuzzy(names, rows, 1) if s_ > 0.5]
+                if near and nc >= 2:
                     unresolved.append({"school": v["name"], "program": "(not enumerated)",
                                        "reason": "school name not found in ranking tables; similar names: " +
                                        "; ".join(f"{tb}: {r_['school']} (#{r_['rank']}, sim {s_})" for tb, s_, r_ in near),
@@ -343,6 +359,14 @@ def main():
                          "institution_openalex_id": v["id"]})
 
     cands.sort(key=lambda r: (-r["n_relevant_faculty"], -r["n_possible_faculty"], r["school"]))
+
+    def _n(r):
+        try:
+            return int(r.get("n_relevant_faculty") or 0)
+        except (TypeError, ValueError):
+            return 0
+    excluded.sort(key=lambda r: (-_n(r), r["school"]))
+    unresolved.sort(key=lambda r: (-_n(r), r["school"]))
     ccols = ["school", "program", "program_type", "direction", "ranking_subject", "subject_rank",
              "n_relevant_faculty", "top3_faculty", "program_url", "source_url",
              "n_possible_faculty", "n_core_A", "n_core_B", "umbrella_name", "discipline", "rank_match", "rank_school_name",
