@@ -1,0 +1,40 @@
+{
+  "institution": "University of Kansas",
+  "checked_at": "2026-11-03T09:13:00Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://compbio.ku.edu/phd-program", "quote": "The Computational Biology Program offers a PhD degree in Computational Biology."},
+  "programs": [
+    {"program_name": "Computational Biology PhD (Center for Computational Biology, Lawrence)", "degree": "PhD", "discipline": "comp_bio", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://compbio.ku.edu/phd-program",
+     "phd_evidence_quote": "The Computational Biology Program offers a PhD degree in Computational Biology.",
+     "faculty_list_urls": [{"url": "https://compbio.ku.edu/faculty", "render": false}],
+     "matched_authors": ["Petras J. Kundrotas", "Ilya A. Vakser"],
+     "notes": "The program page also says its faculty work on 'structure prediction of proteins and protein complexes, molecular simulation, systems biology, genomics, protein design, and drug discovery'."},
+    {"program_name": "Electrical Engineering and Computer Science PhD programs (Computer Science PhD)", "degree": "PhD", "discipline": "computer_science", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://eecs.ku.edu/phd-programs",
+     "phd_evidence_quote": "Ph.D. Programs | Electrical Engineering and Computer Science",
+     "faculty_list_urls": [{"url": "https://eecs.ku.edu/faculty", "render": false}],
+     "matched_authors": ["Sumaiya Shomaji"],
+     "notes": "The exact list of EECS PhD disciplines was not extracted (the page links to per-discipline requirements)."},
+    {"program_name": "Interdisciplinary Graduate Program in Biomedical Sciences (IGPBS), KU Medical Center", "degree": "PhD", "discipline": "umbrella_biomedical", "program_type": "umbrella_track",
+     "umbrella_name": "Interdisciplinary Graduate Program in Biomedical Sciences (IGPBS)", "program_url": "https://www.kumc.edu/igpbs.html",
+     "phd_evidence_quote": "Depending upon the faculty member chosen, a student will receive a PhD in Biomedical Sciences with a specialty in in one of nine research areas",
+     "faculty_list_urls": [{"url": "https://www.kumc.edu/igpbs/program-information/areas-of-research-and-faculty.html", "render": false}],
+     "matched_authors": ["Julia Zeitlinger", "Michael P. Washburn", "Randal Halfmann"],
+     "notes": "Zeitlinger and Halfmann are Stowers Institute investigators listed as IGPBS faculty. The specialty area (e.g. Biochemistry & Molecular Biology, Cancer Biology) for each was not recorded."},
+    {"program_name": "Ph.D. in Biostatistics (KU Medical Center, Department of Biostatistics & Data Science)", "degree": "PhD", "discipline": "biostatistics", "program_type": "biostat",
+     "umbrella_name": null, "program_url": "https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science/academics/ph.d.-in-biostatistics.html",
+     "phd_evidence_quote": "The Ph.D. in Biostatistics at KU Medical Center is a 63-credit-hour program",
+     "faculty_list_urls": [{"url": "https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science/about/faculty.html", "render": false}],
+     "matched_authors": [],
+     "notes": "Core biostatistics type; no relevant authors among its faculty."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Fairuz Shadmani Shishir", "program_found": null, "evidence_url": null, "note": "Not on EECS or compbio faculty pages; probably a trainee (co-author of Sumaiya Shomaji)."},
+    {"name": "Alzheimer’s Disease Neuroimaging Initiative", "program_found": null, "evidence_url": null, "note": "Consortium author, not a person."}
+  ],
+  "problems": [
+    "KU Medical Center (kumc.edu) programs were included as University of Kansas degree programs ('KU's Ph.D. in Biostatistics program ...').",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

@@ -1,0 +1,153 @@
+{
+ "institution": "Rice University",
+ "checked_at": "2026-11-03T09:12:56Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://ga.rice.edu/programs-study/departments-programs/engineering/computer-science/",
+  "quote": "Doctor of Philosophy (PhD) Degree in the field of Computer Science"
+ },
+ "programs": [
+  {
+   "program_name": "Systems, Synthetic, and Physical Biology (SSPB) PhD",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://ga.rice.edu/programs-study/departments-programs/interdisciplinary/systems-synthetic-physical-biology/",
+   "phd_evidence_quote": "Doctor of Philosophy (PhD) Degree in the field of Systems, Synthetic, and Physical Biology",
+   "faculty_list_urls": [
+    {
+     "url": "https://ga.rice.edu/programs-study/departments-programs/interdisciplinary/systems-synthetic-physical-biology/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Han Xiao",
+    "Anatoly B. Kolomeisky",
+    "Lydia E. Kavraki",
+    "Todd J. Treangen",
+    "José N. Onuchic",
+    "Pernilla E. Wittung-Stafshede",
+    "Peter Guy Wolynes",
+    "George N. Phillips Jr",
+    "Caroline Marie Ajo-Franklin"
+   ],
+   "notes": "Interdisciplinary program 'overseen by the dean of graduate and postdoctoral studies'; students do thesis research 'under the supervision of any faculty associat[ed]'. Faculty matched on the Rice General Announcements department page (faculty roster section)."
+  },
+  {
+   "program_name": "Computer Science PhD",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://ga.rice.edu/programs-study/departments-programs/engineering/computer-science/computer-science-phd/",
+   "phd_evidence_quote": "Doctor of Philosophy (PhD) Degree in the field of Computer Science",
+   "faculty_list_urls": [
+    {
+     "url": "https://ga.rice.edu/programs-study/departments-programs/engineering/computer-science/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Lydia E. Kavraki",
+    "Anastasios Kyrillidis",
+    "Todd J. Treangen"
+   ],
+   "notes": "Faculty matched on the Rice General Announcements department page (faculty roster section)."
+  },
+  {
+   "program_name": "Bioengineering PhD",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://ga.rice.edu/programs-study/departments-programs/engineering/bioengineering/bioengineering-phd/",
+   "phd_evidence_quote": "Doctor of Philosophy (PhD) Degree in the field of Bioengineering",
+   "faculty_list_urls": [
+    {
+     "url": "https://ga.rice.edu/programs-study/departments-programs/engineering/bioengineering/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Lydia E. Kavraki",
+    "Caroline Marie Ajo-Franklin"
+   ],
+   "notes": "Faculty matched on the Rice General Announcements department page (faculty roster section)."
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://ga.rice.edu/programs-study/departments-programs/natural-sciences/chemistry/chemistry-phd/",
+   "phd_evidence_quote": "Doctor of Philosophy (PhD) Degree in the field of Chemistry",
+   "faculty_list_urls": [
+    {
+     "url": "https://ga.rice.edu/programs-study/departments-programs/natural-sciences/chemistry/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Han Xiao",
+    "Anatoly B. Kolomeisky",
+    "José N. Onuchic",
+    "Pernilla E. Wittung-Stafshede",
+    "Peter Guy Wolynes",
+    "George N. Phillips Jr"
+   ],
+   "notes": "Faculty matched on the Rice General Announcements department page (faculty roster section)."
+  },
+  {
+   "program_name": "Biochemistry and Cell Biology PhD (BioSciences)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://ga.rice.edu/programs-study/departments-programs/natural-sciences/biosciences/biochemistry-cell-biology-phd/",
+   "phd_evidence_quote": "Doctor of Philosophy (PhD) Degree in the field of Biochemistry and Cell Biology",
+   "faculty_list_urls": [
+    {
+     "url": "https://ga.rice.edu/programs-study/departments-programs/natural-sciences/biosciences/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Han Xiao",
+    "Todd J. Treangen",
+    "José N. Onuchic",
+    "Pernilla E. Wittung-Stafshede",
+    "Peter Guy Wolynes",
+    "George N. Phillips Jr",
+    "Caroline Marie Ajo-Franklin"
+   ],
+   "notes": "BioSciences department page also covers the Ecology and Evolutionary Biology PhD; matches are department-level. Faculty matched on the Rice General Announcements department page (faculty roster section)."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Kevin Yang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known: Microsoft Research; not on Rice GA faculty rosters."
+  },
+  {
+   "name": "Wei Lu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "No last_known institution in OpenAlex; not matched on any Rice roster."
+  },
+  {
+   "name": "J Engreitz",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Stanford/Broad; Rice association in OpenAlex is historical (Center for Theoretical Biological Physics)."
+  }
+ ],
+ "problems": [
+  "Physics and Astronomy PhD (matched peripheral Kolomeisky, Onuchic, Wolynes) and Statistics PhD (matched peripheral Chad A. Shaw) not recorded as programs (only peripheral authors; Statistics not core here)",
+  "GA department pages are long (include course listings); matches assumed to come from faculty roster sections",
+  "WebSearch unavailable (budget exhausted); used GA navigation"
+ ]
+}

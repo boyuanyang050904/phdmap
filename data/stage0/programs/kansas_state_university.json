@@ -1,0 +1,73 @@
+{
+ "institution": "Kansas State University",
+ "checked_at": "2026-11-03T09:12:54Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.k-state.edu/grad/academics/degrees-certificates.html",
+  "quote": "With 40 doctoral programs, 4 educational doctoral programs, 78 master's programs, 53 graduate certificates and a variety of emphasis areas"
+ },
+ "programs": [
+  {
+   "program_name": "Grain Science graduate program (Department of Grain and Food Science)",
+   "degree": "PhD",
+   "discipline": "other:grain_food_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.grains.k-state.edu/academics/graduate-programs/",
+   "phd_evidence_quote": null,
+   "faculty_list_urls": [
+    {
+     "url": "https://www.grains.k-state.edu/about/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yonghui Li"
+   ],
+   "notes": "PhD status NOT verified: the department graduate page (rendered) says only 'The Department of Grain and Food Science offers graduate programs in both Grain Science and Food Science'; no PhD/doctoral statement found on fetched pages. Yonghui Li (B core) matched on the department faculty page."
+  },
+  {
+   "program_name": "Genetics (PHD) – Interdepartmental Genetics Graduate Program",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.k-state.edu/genetics/index.html",
+   "phd_evidence_quote": "Our goal in the Interdepartmental Genetics Graduate Program at Kansas State University is to train MS and PhD students in the basic principles and applications of classical and molecular genetics",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.k-state.edu/genetics/faculty-research/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Sanzhen Liu"
+   ],
+   "notes": "Catalog entry 'DGNT - Genetics (PHD)' / 'PHD - Doctor of Philosophy' (https://catalog.k-state.edu/programs/DGNT/about-the-program-aoYks, rendered). Faculty-research link found only in the rendered page."
+  },
+  {
+   "program_name": "Biochemistry (M.S./Ph.D.) – Biochemistry and Molecular Biophysics Graduate Group",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.k-state.edu/bmb/academics/graduate-program/index.html",
+   "phd_evidence_quote": "The Biochemistry and Molecular Biophysics Graduate Group (BMBGG) administers the granting of M.S. and Ph.D. degrees in biochemistry, whether the research is conducted within the BMB department or in other cooperating departments.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.k-state.edu/bmb/academics/graduate-program/faculty.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "No relevant authors matched."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "Grain Science PhD not verified (phd_evidence_quote null): https://www.grains.k-state.edu/academics/graduate-programs/ gives no doctoral statement; guessed catalog URL https://catalog.k-state.edu/programs/DGRSC/about-the-program-aoYks returned 404.",
+  "K-State pages build navigation with JS; several fetches needed --render. The Graduate School listing mentions an 'Integrated Molecular Life Sciences Doctoral Pathway' umbrella ('begins with three lab rotations in eight academic units') whose page/participating units were not found/verified.",
+  "Chemistry, Computer Science and Biological and Agricultural Engineering doctoral programs appear in the Graduate School listing but were not checked (no further authors to place).",
+  "Yonghui Li (B core) is matched only to the Grain Science program, whose PhD status is unverified."
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "institution": "George Washington University",
+ "checked_at": "2026-11-03T09:14:44Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://ibs.smhs.gwu.edu/phd-programs-ibs/genomics-bioinformatics",
+  "quote": "The PhD in Genomics and Bioinformatics is designed to develop research scientists who apply principles and methods in genomics and bioinformatics to the study of human diseases."
+ },
+ "programs": [
+  {
+   "program_name": "Genomics & Bioinformatics PhD Program",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Integrated Biomedical Sciences (IBS), GW School of Medicine and Health Sciences",
+   "program_url": "https://ibs.smhs.gwu.edu/phd-programs-ibs/genomics-bioinformatics",
+   "phd_evidence_quote": "The PhD in Genomics and Bioinformatics is designed to develop research scientists who apply principles and methods in genomics and bioinformatics to the study of human diseases.",
+   "faculty_list_urls": [
+    {
+     "url": "https://ibs.smhs.gwu.edu/phd-training-faculty/phd-faculty-trainer-list",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "One of five 'PhD Programs in the IBS' (Cancer Biology, Genomics & Bioinformatics, Microbiology & Immunology, Neuroscience, Pharmacology & Physiology). Page notes students 'can expect to engage in at least 50% wet lab research activities'. Program co-director Ljubica Caldovic is at Children's National. Trainer list is formatted 'Last / First' on separate lines; manual grep found no 'Wei Li' or 'van Dam'."
+  },
+  {
+   "program_name": "Health Data Science PhD (Department of Biostatistics and Bioinformatics, Milken Institute SPH)",
+   "degree": "PhD",
+   "discipline": "other:data_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://publichealth.gwu.edu/content/health-and-biomedical-data-science-phd",
+   "phd_evidence_quote": "Health Data Science - PHD",
+   "faculty_list_urls": [
+    {
+     "url": "https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics/directory",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Linked as the PhD from the Biostatistics and Bioinformatics department programs page (https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics/programs). PhD evidence is the page heading only. No relevant authors matched."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Wei Li",
+   "program_found": null,
+   "evidence_url": "https://faculty.smhs.gwu.edu/wei-li",
+   "note": "GW SMHS profile: 'Adjunct Associate Professor of Pediatrics'; research 'spans three different exciting areas: genome engineering, computational biology and cancer biology'. Profile names no graduate program; not on the IBS PhD Faculty Trainer List. OpenAlex last_known includes Children's National."
+  }
+ ],
+ "problems": [
+  "Peripheral author Rob M. van Dam (A) not matched on Epidemiology or Biostatistics & Bioinformatics directories (https://publichealth.gwu.edu/departments/epidemiology/directory); not pursued.",
+  "IBS PhD training-faculty page (https://ibs.smhs.gwu.edu/phd-training-faculty) returned 502 when rendered; the plain trainer list was used.",
+  "No program-specific faculty roster for Genomics & Bioinformatics; the IBS-wide trainer list was used.",
+  "Epidemiology PhD exists (https://publichealth.gwu.edu/departments/epidemiology/graduate-programs) but has no relevant matched authors; omitted. GW Columbian College programs (Statistics, Biology, Chemistry, CS) not checked: no B-direction authors and the only A core author (Wei Li) is an adjunct in Pediatrics."
+ ]
+}

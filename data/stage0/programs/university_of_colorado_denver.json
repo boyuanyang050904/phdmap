@@ -1,0 +1,83 @@
+{
+ "institution": "University of Colorado Denver",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.cuanschutz.edu/graduate-programs/computational-bioscience",
+  "quote": "The Computational Bioscience PhD Program brings a pioneering approach to computation in the biomedical sciences to advance human health."
+ },
+ "programs": [
+  {
+   "program_name": "Computational Bioscience PhD Program (CU Anschutz)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cuanschutz.edu/graduate-programs/computational-bioscience",
+   "phd_evidence_quote": "The Computational Bioscience PhD Program brings a pioneering approach to computation in the biomedical sciences to advance human health.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cuanschutz.edu/graduate-programs/computational-bioscience/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Audrey E. Hendricks",
+    "Katerina J. Kechris"
+   ],
+   "notes": "Listed on the CU Anschutz Graduate School program list (https://graduateschool.cuanschutz.edu/programs-of-study/graduate-and-certificate-programs)."
+  },
+  {
+   "program_name": "Human Medical Genetics and Genomics PhD (CU Anschutz)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home",
+   "phd_evidence_quote": "The Human Medical Genetics and Genomics at CU is an interdepartmental program that provides world-class PhD training in genetics and genomics",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Audrey E. Hendricks",
+    "Christopher R. Gignoux",
+    "Katerina J. Kechris"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "PhD in Biostatistics (Colorado School of Public Health)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://coloradosph.cuanschutz.edu/education/degrees-and-programs/doctor-of-philosophy/phd-in-biostatistics",
+   "phd_evidence_quote": "Our PhD program has an exceptionally strong funding record.",
+   "faculty_list_urls": [
+    {
+     "url": "https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics/directory",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Katerina J. Kechris"
+   ],
+   "notes": "Page title 'PhD in Biostatistics | Colorado School of Public Health'."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Nikita V. Pozdeyev",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Computational Bioscience, HMGG or Biostatistics lists; profile not checked."
+  }
+ ],
+ "problems": [
+  "CU Denver (downtown) Mathematical & Statistical Sciences PhD not checked: guessed URL https://clas.ucdenver.edu/mathematical-and-statistical-sciences/ did not resolve to the department; Hendricks is matched via Anschutz programs anyway.",
+  "Gignoux is on HMGG faculty but not on the Computational Bioscience faculty page."
+ ],
+ "checked_at": "2026-11-03T09:14:16Z"
+}

@@ -1,0 +1,108 @@
+{
+ "institution": "University of Cincinnati",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://med.uc.edu/education/graduate-education/bmi-grad/phd/about-the-program",
+  "quote": "The Doctor of Philosophy in Biomedical Informatics is a cornerstone for a program of academic excellence in informatics at UC and its affiliate hospitals."
+ },
+ "programs": [
+  {
+   "program_name": "PhD Program in Biomedical Informatics",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://med.uc.edu/education/graduate-education/bmi-grad/phd/about-the-program",
+   "phd_evidence_quote": "The Doctor of Philosophy in Biomedical Informatics is a cornerstone for a program of academic excellence in informatics at UC and its affiliate hospitals.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cincinnatichildrens.org/research/divisions/b/bmi/team",
+     "render": true
+    },
+    {
+     "url": "https://www.cincinnatichildrens.org/research/divisions/b/bmi/labs",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Partnership of UC College of Medicine, Cincinnati Children's Hospital Medical Center and UC College of Engineering and Applied Sciences. The College of Medicine program list (https://med.uc.edu/education/programs) also lists 'Biomedical Biostatistics (PhD)' linking to this same BMI PhD page (apparently a biostatistics track; not separately verified). No program-specific faculty roster found; CCHMC Biomedical Informatics division team/labs pages matched 0.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Immunology (PhD) - Immunology Graduate Program (Cincinnati Children's / UC)",
+   "discipline": "other:immunology",
+   "program_type": "independent",
+   "program_url": "https://www.cincinnatichildrens.org/education/research/immunobiology-grad",
+   "phd_evidence_quote": "View Program Immunology (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cincinnatichildrens.org/education/research/immunobiology-grad/team",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Leah Claire Kottyan"
+   ],
+   "notes": "PhD evidence quote is from the UC College of Medicine program list https://med.uc.edu/education/programs, which links 'Immunology (PhD)' to this CCHMC page. Included because core A author Kottyan is on its research faculty list.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry (PhD)",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://www.artsci.uc.edu/natural-sciences/chemistry/academic-programs/graduate-programs.html",
+   "phd_evidence_quote": "Chemistry",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.artsci.uc.edu/natural-sciences/chemistry/faculty-and-staff-directory.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Ruxandra I. Dima"
+   ],
+   "notes": "Weak PhD evidence: 'Chemistry' appears in the A&S 'Doctoral Degrees' page (https://www.artsci.uc.edu/programs-degrees/phd.html); the department graduate-programs page text did not contain an explicit PhD sentence in the fetched text.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Molecular Genetics, Biochemistry & Microbiology (PhD)",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://med.uc.edu/education/molgen-grad/",
+   "phd_evidence_quote": "View Program Molecular Genetics, Biochemistry & Microbiology (PhD)",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Quote from https://med.uc.edu/education/programs. Faculty list not checked (budget).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering (PhD)",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://ceas.uc.edu/academics/departments/biomedical-engineering/graduate-programs/biomedical-engineering-phd.html",
+   "phd_evidence_quote": "View Program Biomedical Engineering (PhD)",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Quote from https://med.uc.edu/education/programs (program page itself not fetched). Faculty list not checked.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Aleksey Porollo",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on CCHMC Biomedical Informatics team (rendered) or labs pages; guessed profile https://www.cincinnatichildrens.org/bio/p/aleksey-porollo returned 404. Program membership unverified (likely BMI PhD, but not confirmed from a fetched page)."
+  }
+ ],
+ "problems": [
+  "Many med.uc.edu fetches are slow (>100s); budget limited the number of faculty lists checked.",
+  "Biomedical Biostatistics (PhD) listed at https://med.uc.edu/education/programs links to the BMI PhD page; not separately verified.",
+  "Peripheral authors Jun Bai, Jingrui Liu, Jichao Chen not matched (CS and CCHMC pulmonary faculty pages not checked).",
+  "Chemistry PhD evidence is weak (listing only)."
+ ],
+ "checked_at": "2026-11-03T09:12:15Z"
+}

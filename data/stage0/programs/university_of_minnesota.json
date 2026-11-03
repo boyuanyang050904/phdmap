@@ -1,0 +1,175 @@
+{
+ "institution": "University of Minnesota",
+ "checked_at": "2026-11-03T09:11:50Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.sph.umn.edu/academics/graduate/phd/biostatistics/",
+  "quote": "With a biostatistics PhD, you’ll conduct original research, collaborate and consult with biomedical researchers"
+ },
+ "programs": [
+  {
+   "program_name": "Biostatistics PhD (School of Public Health, Division of Biostatistics & Health Data Science)",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "program_url": "https://www.sph.umn.edu/academics/graduate/phd/biostatistics/",
+   "phd_evidence_quote": "With a biostatistics PhD, you’ll conduct original research, collaborate and consult with biomedical researchers, implement and disseminate results of this research, and teach and mentor others in this field.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.sph.umn.edu/academics/divisions/biostatistics/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Wei Pan",
+    "Tianzhong Yang",
+    "Saonli Basu"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Bioinformatics and Computational Biology (BICB) graduate program",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://r.umn.edu/academics/graduate-programs/bioinformatics-and-computational-biology/bioinformatics-and",
+   "phd_evidence_quote": "The program offers the Ph.D. and Master of Science (M.S. Plan A and Plan B) degrees and a minor",
+   "faculty_list_urls": [
+    {
+     "url": "https://r.umn.edu/academics/graduate-programs/bioinformatics-and-computational-biology/people-and-committees/graduate",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Wei Pan",
+    "Scott I. Vrieze",
+    "Saonli Basu",
+    "Nathan Pankratz",
+    "Jiali Gao"
+   ],
+   "notes": "Administrative home on the UMN Rochester campus; Twin Cities departments (incl. Biostatistics, BMBB, Chemistry, CS&E) participate. Also listed on the CSE graduate-programs page as 'Bioinformatics and Computational Biology / M.S., Ph.D.'.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "PhD in Statistics (School of Statistics)",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://cla.umn.edu/statistics/graduate/degrees",
+   "phd_evidence_quote": "The School of Statistics offers world-class training in statistics and data science and offers both master's and PhD degree programs.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cla.umn.edu/statistics/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Xiaotong Shen"
+   ],
+   "notes": "Two OpenAlex 'Xiaotong Shen' records (match printed the name twice).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biochemistry, Molecular Biology, and Biophysics (BMBB) Graduate Program",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://cbs.umn.edu/bmbb/graduate-program",
+   "phd_evidence_quote": "No, BMBB only offers a Ph.D. degree.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cbs.umn.edu/bmbb/graduate-program/advising-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Michael P. Latham"
+   ],
+   "notes": "PhD quote from https://cbs.umn.edu/bmbb/graduate-program/prospective-students/bmbb-graduate-program-faqs",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://cse.umn.edu/chem/chemistry-graduate-programs",
+   "phd_evidence_quote": "Chemistry / M.S., Ph.D. (CSE graduate programs list)",
+   "faculty_list_urls": [
+    {
+     "url": "https://cse.umn.edu/chem/core-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jiali Gao"
+   ],
+   "notes": "PhD evidence from https://cse.umn.edu/college/departments-and-majors/graduate-programs; https://cse.umn.edu/chem/all-faculty returned HTTP 403.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Computer Science PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://www.cs.umn.edu/admissions/graduate",
+   "phd_evidence_quote": "Computer science / M.C.S., M.S., Ph.D. (CSE graduate programs list)",
+   "faculty_list_urls": [
+    {
+     "url": "https://cse.umn.edu/cs/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Caiwen Ding"
+   ],
+   "notes": "PhD evidence from https://cse.umn.edu/college/departments-and-majors/graduate-programs",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://cse.umn.edu/bme/graduate-program",
+   "phd_evidence_quote": "Biomedical engineering / M.S., Ph.D. (CSE graduate programs list)",
+   "faculty_list_urls": [
+    {
+     "url": "https://cse.umn.edu/bme/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "PhD evidence from https://cse.umn.edu/college/departments-and-majors/graduate-programs. Core B-type program; no relevant authors matched.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Chunlin Li",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on UMN Biostatistics, Statistics or BICB lists; OpenAlex last-known University of Virginia."
+  },
+  {
+   "name": "Bingxin Zhao",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched UMN list; profile not located."
+  },
+  {
+   "name": "Zhaotong Lin",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched UMN list; OpenAlex last-known Florida State University."
+  }
+ ],
+ "problems": [
+  "UNREACHABLE (robots.txt not retrievable): https://bicb.umn.edu/ - used the UMN Rochester BICB pages instead.",
+  "UNREACHABLE (robots.txt not retrievable): https://www.ihi.umn.edu/ (Institute for Health Informatics; Health Informatics PhD not checked; peripheral authors Constantin Aliferis and Sisi Ma unmatched).",
+  "https://cse.umn.edu/chem/all-faculty returned HTTP 403; used core-faculty list.",
+  "Chemical Engineering & Materials Science core faculty (https://cse.umn.edu/cems/cems-core-faculty) matched 0 (peripheral author Benjamin J. Hackel not found); program not recorded.",
+  "WebSearch budget exhausted; URLs discovered by site navigation."
+ ]
+}

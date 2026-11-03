@@ -1,0 +1,163 @@
+{
+  "institution": "University of Maryland, College Park",
+  "checked_at": "2026-11-03T09:12:33Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://bisi.umd.edu/",
+    "quote": "An interdepartmental Ph.D. program that offers unparalleled opportunities for research and discovery across contemporary life sciences disciplines."
+  },
+  "programs": [
+    {
+      "program_name": "Biological Sciences PhD - Computational Biology, Bioinformatics, & Genomics (CBBG) concentration",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Biological Sciences Graduate Program (BISI)",
+      "program_url": "https://bisi.umd.edu/concentrations/computational-biology-bioinformatics-genomics-cbbg",
+      "phd_evidence_quote": "An interdepartmental Ph.D. program that offers unparalleled opportunities for research and discovery across contemporary life sciences disciplines.",
+      "faculty_list_urls": [
+        {
+          "url": "https://bisi.umd.edu/people/faculty/cbbg",
+          "render": false
+        },
+        {
+          "url": "https://bisi.umd.edu/people/affiliated_faculty/cbbg",
+          "render": false
+        },
+        {
+          "url": "https://bisi.umd.edu/people/emeritus_faculty/cbbg",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Brian G. Pierce",
+        "John Moult"
+      ],
+      "notes": "PhD quote from the BISI home page (https://bisi.umd.edu/). John Moult appears on the CBBG emeritus-faculty page."
+    },
+    {
+      "program_name": "Biological Sciences PhD - Molecular & Cellular Biology (MOCB) concentration",
+      "degree": "PhD",
+      "discipline": "umbrella_biomedical",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Biological Sciences Graduate Program (BISI)",
+      "program_url": "https://bisi.umd.edu/concentrations/molecular-cellular-biology-mocb",
+      "phd_evidence_quote": "An interdepartmental Ph.D. program that offers unparalleled opportunities for research and discovery across contemporary life sciences disciplines.",
+      "faculty_list_urls": [
+        {
+          "url": "https://bisi.umd.edu/people/faculty/mocb",
+          "render": false
+        },
+        {
+          "url": "https://bisi.umd.edu/people/affiliated_faculty/mocb",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Brian G. Pierce",
+        "Roy A. Mariuzza"
+      ],
+      "notes": "PhD quote from the BISI home page."
+    },
+    {
+      "program_name": "Biophysics PhD (Biophysics Graduate Program, IPST)",
+      "degree": "PhD",
+      "discipline": "biophysics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://ipst.umd.edu/graduate-programs/biophysics/about",
+      "phd_evidence_quote": "The aim of the program is to train Ph.D. students to use theoretical and computational methods in combination with cutting edge experimental techniques",
+      "faculty_list_urls": [
+        {
+          "url": "https://ipst.umd.edu/graduate-programs/biophysics/research/computational-theoretical-faculty",
+          "render": false
+        },
+        {
+          "url": "https://ipst.umd.edu/graduate-programs/biophysics/research/experimental-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Pratyush Tiwary",
+        "Brian G. Pierce"
+      ],
+      "notes": ""
+    },
+    {
+      "program_name": "Chemistry PhD / Biochemistry PhD (Dept. of Chemistry and Biochemistry)",
+      "degree": "PhD",
+      "discipline": "chemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://chem.umd.edu/graduate-program/prospective-students/phd-in-chemistry",
+      "phd_evidence_quote": "The Department of Chemistry and Biochemistry accepts PhD students each Fall.",
+      "faculty_list_urls": [
+        {
+          "url": "https://chem.umd.edu/people",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Pratyush Tiwary"
+      ],
+      "notes": "Separate PhD in Biochemistry page: https://chem.umd.edu/graduate-program/prospective-students/phd-in-biochemistry ('12 credits of Ph.D. research (BCHM 898 (pre-candidacy), BCHM 899 (post-candidacy))'). Same department faculty list for both."
+    },
+    {
+      "program_name": "Computer Science PhD",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cs.umd.edu/grad/phd-catalog",
+      "phd_evidence_quote": "Our Ph.D. program is designed for individuals aiming to pursue a career in computer science research.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cs.umd.edu/people/faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Heng Huang"
+      ],
+      "notes": ""
+    },
+    {
+      "program_name": "PhD in Biostatistics (School of Public Health, Dept. of Epidemiology and Biostatistics)",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "biostat",
+      "umbrella_name": null,
+      "program_url": "https://sph.umd.edu/academics/doctoral-degrees/phd-biostatistics",
+      "phd_evidence_quote": "Students in the PhD in Biostatistics will acquire a foundation in statistical theory, inference, and applied methods.",
+      "faculty_list_urls": [
+        {
+          "url": "https://sph.umd.edu/academics/departments-units/department-epidemiology-and-biostatistics/people-epidemiology-and-biostatistics",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Tianzhou Ma"
+      ],
+      "notes": ""
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Clement Adebamowo",
+      "program_found": "Epidemiology and Human Genetics PhD (University of Maryland, Baltimore)",
+      "evidence_url": "https://lifesciences.umaryland.edu/about/graduate-program-faculty/",
+      "note": "Listed on UMB GPILS faculty as Professor, Department of Epidemiology and Public Health; College Park association from OpenAlex only."
+    },
+    {
+      "name": "Alexander D. MacKerell",
+      "program_found": "Pharmaceutical Sciences PhD (University of Maryland, Baltimore)",
+      "evidence_url": "https://www.pharmacy.umaryland.edu/about/depts/psc/faculty/",
+      "note": "On UMB School of Pharmacy PSC faculty list; not on College Park lists checked."
+    }
+  ],
+  "problems": [
+    "Biophysics program pages give no faculty-to-department mapping; PhD wording only on /about page.",
+    "Bioengineering (Fischell Dept.) not checked: no matched direction-B author suggested it.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

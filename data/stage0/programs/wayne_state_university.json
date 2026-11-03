@@ -1,0 +1,83 @@
+{
+ "institution": "Wayne State University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://clas.wayne.edu/physics/admissions/grad",
+  "quote": "A Ph.D. typically takes five to six years but can be completed in as little as four years."
+ },
+ "programs": [
+  {
+   "program_name": "Ph.D. in Molecular Genetics and Genomics",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://genetics.wayne.edu/education/phd",
+   "phd_evidence_quote": "Ph.D. in Molecular Genetics and Genomics - Wayne State University",
+   "faculty_list_urls": [
+    {
+     "url": "https://genetics.wayne.edu/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Audrey Qiuyan Fu"
+   ],
+   "notes": "Listed under 'Doctor of Philosophy' on the School of Medicine Biomedical Graduate Programs list (https://gradprograms.med.wayne.edu/programs). Faculty list is the Center for Molecular Medicine and Genetics faculty page.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Cancer Biology Graduate Program (PhD)",
+   "discipline": "other:cancer_biology",
+   "program_type": "independent",
+   "program_url": "https://cancerbiologyprogram.med.wayne.edu/",
+   "phd_evidence_quote": "Welcome and thank you for your interest in the Cancer Biology Graduate Program at the Wayne State University School of Medicine and the Barbara Ann Karmanos Cancer Institute.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cancerbiologyprogram.med.wayne.edu/profiles",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Benjamin L. Kidder",
+    "Benjamin L Kidder"
+   ],
+   "notes": "PhD status from https://gradprograms.med.wayne.edu/programs, where 'Cancer Biology' (https://cancerbiologyprogram.med.wayne.edu/) is listed under the 'Doctor of Philosophy' section (separate MS link exists). Included because core B author Kidder is program faculty.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Ph.D. in Physics",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "program_url": "https://clas.wayne.edu/physics/admissions/grad",
+   "phd_evidence_quote": "A Ph.D. typically takes five to six years but can be completed in as little as four years.",
+   "faculty_list_urls": [
+    {
+     "url": "https://clasprofiles.wayne.edu/department/physics-and-astronomy",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Christopher V. Kelly"
+   ],
+   "notes": "General Physics PhD (Dept. of Physics and Astronomy); discipline bucket biophysics only for Kelly's membrane biophysics work.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Ryan J. Taft",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "last_known affiliations are Henry Ford Health / Genetic Alliance / Illumina; not on any WSU program faculty page checked (Molecular Genetics and Genomics, Cancer Biology, Physics). Likely not WSU faculty; not verified."
+  }
+ ],
+ "problems": [
+  "https://physics.clas.wayne.edu/people UNREACHABLE (host does not resolve); used clasprofiles.wayne.edu directory instead.",
+  "Peripheral author Yaroslav Balytskyi not on the physics faculty directory (may be postdoc/student); Anthony Beardsworth Costa (Henry Ford Health/Nvidia) not matched.",
+  "Computer Science faculty page (https://engineering.wayne.edu/computer-science/faculty) and Biochemistry/Microbiology/Immunology faculty page (https://biochemmicroimmuno.med.wayne.edu/faculty) matched 0 (pages short, possibly incomplete); Computer Science, Biochemistry and Molecular Biology, Biomedical Engineering and Chemistry PhDs therefore not recorded.",
+  "No biostatistics / bioinformatics PhD found in the School of Medicine biomedical graduate programs list."
+ ],
+ "checked_at": "2026-11-03T09:13:42Z"
+}

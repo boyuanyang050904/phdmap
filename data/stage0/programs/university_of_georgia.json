@@ -1,0 +1,146 @@
+{
+ "institution": "University of Georgia",
+ "checked_at": "2026-11-03T09:11:46Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://genetics.uga.edu/phd-genetics",
+  "quote": "The Department of Genetics offers a graduate program leading to the PhD degree."
+ },
+ "programs": [
+  {
+   "program_name": "Bioinformatics PhD (Institute of Bioinformatics)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://iob.uga.edu/masters-phd/",
+   "phd_evidence_quote": "Masters / PHD - Institute of Bioinformatics ... The bioinformatics graduate program consists of faculty members whose research interests cover a wide spectrum of bioinformatics",
+   "faculty_list_urls": [
+    {
+     "url": "https://iob.uga.edu/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://iob.uga.edu/adjunct-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Kaixiong Ye",
+    "Natarajan Kannan",
+    "Justin Bahl",
+    "John M. Drake",
+    "Samuel E. Aggrey"
+   ],
+   "notes": "Page states 'The candidates for the graduate program must apply to the Graduate School'. PhD evidence is the page title 'Masters / PHD'; no explicit 'Ph.D. degree' sentence found."
+  },
+  {
+   "program_name": "Genetics PhD",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Integrated Life Sciences (ILS)",
+   "program_url": "https://genetics.uga.edu/phd-genetics",
+   "phd_evidence_quote": "The Department of Genetics offers a graduate program leading to the PhD degree.",
+   "faculty_list_urls": [
+    {
+     "url": "https://genetics.uga.edu/directory/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Kaixiong Ye"
+   ],
+   "notes": "'Interested applicants primarily apply through the Integrated Life Sciences program, although some students may choose t[o apply directly]'."
+  },
+  {
+   "program_name": "Biochemistry and Molecular Biology PhD",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Integrated Life Sciences (ILS)",
+   "program_url": "https://bmb.uga.edu/phd-biochemistry-and-molecular-biology",
+   "phd_evidence_quote": "Typically, Ph.D. trainees enter in the Fall via the ILS portal, rotate in three laboratories from their choice of 14 departments",
+   "faculty_list_urls": [
+    {
+     "url": "https://bmb.uga.edu/directory/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Guo‐Wei Wei",
+    "Natarajan Kannan",
+    "Kelley W. Moremen",
+    "Zheng‐Qing Fu"
+   ],
+   "notes": "'Guo‐Wei Wei' match is suspicious (OpenAlex record is the MSU mathematician; likely a name-variant false positive)."
+  },
+  {
+   "program_name": "Integrated Life Sciences (ILS) umbrella",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://ils.uga.edu/",
+   "phd_evidence_quote": "PhD graduate programs. Entering students perform three laboratory rotations and take a streamlined and innovative curriculum in the Fall semester",
+   "faculty_list_urls": [
+    {
+     "url": "https://ils.uga.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Kaixiong Ye",
+    "Natarajan Kannan",
+    "Justin Bahl",
+    "John M. Drake",
+    "Kelley W. Moremen"
+   ],
+   "notes": "Umbrella admissions portal; students then choose a thesis lab/home PhD program (Genetics, BMB, etc.)."
+  },
+  {
+   "program_name": "Ph.D. in Epidemiology & Biostatistics (Biostatistics area)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://publichealth.uga.edu/degree/ms-phd-in-epidemiology-biostatistics/",
+   "phd_evidence_quote": "Students enrolled in the area of Biostatistics will focus on the development and proper use of advanced and novel biostatistical methods.",
+   "faculty_list_urls": [
+    {
+     "url": "https://publichealth.uga.edu/directory/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Justin Bahl"
+   ],
+   "notes": "Title: 'M.S. or Ph.D. in Epidemiology & Biostatistics'. College of Public Health faculty directory used (school-wide); Justin Bahl is likely Epidemiology rather than Biostatistics."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "James J. Cai",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known includes Texas A&M; not on any UGA list."
+  },
+  {
+   "name": "Chin Cheng Huang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on IOB/BMB/Genetics/ILS lists; not checked further."
+  },
+  {
+   "name": "Guo‐Wei Wei",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Michigan State mathematician per OpenAlex; BMB 'match' likely spurious."
+  }
+ ],
+ "problems": [
+  "UNREACHABLE: https://bioinformatics.uga.edu/ (DNS/TLS); used https://iob.uga.edu/ instead",
+  "Statistics PhD (stat.uga.edu) not checked: no relevant authors expected",
+  "WebSearch unavailable (budget exhausted)"
+ ]
+}

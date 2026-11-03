@@ -1,0 +1,165 @@
+{
+ "institution": "The Ohio State University",
+ "checked_at": "2026-11-03T09:14:11Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://medicine.osu.edu/education/phd/biomedical-sciences",
+  "quote": "Our PhD in Biomedical Sciences is offered through the College of Medicine"
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Umbrella with research areas incl. Biomedical Informatics and Genetics & Genomics (genetics-and-genomics area page: 0 matches).",
+   "program_name": "Biomedical Sciences Graduate Program (PhD in Biomedical Sciences)",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://medicine.osu.edu/education/phd/biomedical-sciences",
+   "phd_evidence_quote": "Our PhD in Biomedical Sciences is offered through the College of Medicine and designed to provide high-quality training to prepare graduates for successful careers in biomedical research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://medicine.osu.edu/education/phd/biomedical-sciences/our-people/our-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Qin Ma",
+    "Qing Feng Wu",
+    "Mykyta Artomov",
+    "Jayajit Das"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": "Biomedical Sciences Graduate Program",
+   "notes": "The College of Medicine PhD page (https://medicine.osu.edu/education/phd) links 'PhD in Biomedical Informatics' to the Biomedical Sciences program page, i.e. BMI is pursued through BSGP; area page describes 'computational biology and bioinformatics' transcript designation.",
+   "program_name": "Biomedical Sciences PhD – Biomedical Informatics research area",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "program_url": "https://medicine.osu.edu/education/phd/biomedical-sciences/research-areas/biomedical-informatics",
+   "phd_evidence_quote": "PhD in Biomedical Informatics",
+   "faculty_list_urls": [
+    {
+     "url": "https://medicine.osu.edu/education/phd/biomedical-sciences/research-areas/biomedical-informatics",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Qin Ma"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Joint program of the CPH Division of Biostatistics and the Department of Statistics. No relevant OpenAlex authors on its faculty page.",
+   "program_name": "Interdisciplinary PhD in Biostatistics",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "program_url": "https://cph.osu.edu/phd/biostatistics",
+   "phd_evidence_quote": "The interdisciplinary biostatistics PhD is a joint program providing students with outstanding educational and research experience.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cph.osu.edu/phd/biostatistics/people",
+     "render": false
+    }
+   ],
+   "matched_authors": []
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Home page: 'The goal of the Program is to provide an educational structure for graduate students at The Ohio State University to develop as scientists at this interface of physics and biology.' The fetched home / prospective-students / steps-apply pages do not state the degree (PhD) explicitly.",
+   "program_name": "Biophysics Graduate Program",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "program_url": "https://biophysics.osu.edu/",
+   "phd_evidence_quote": null,
+   "faculty_list_urls": [
+    {
+     "url": "https://biophysics.osu.edu/people?field_appointment_target_id%5B4%5D=4",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jayajit Das",
+    "Xiaolin Cheng"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Ohio State Biochemistry Program (OSBP)",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://osbp.osu.edu/",
+   "phd_evidence_quote": "The Ohio State Biochemistry Program (OSBP) is a campus-wide graduate program that has granted over 385 PhD degrees.",
+   "faculty_list_urls": [
+    {
+     "url": "https://osbp.osu.edu/people?field_appointment_target_id%5B15%5D=15",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Dehua Pei"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Department of Chemistry and Biochemistry; site links a 'Chemistry Graduate Program Handbook', but no fetched page text states the PhD explicitly (chemistry.osu.edu/graduate gave no PhD text). Steffen Lindert not found on the people page (grep 'Lindert' empty).",
+   "program_name": "Chemistry and Biochemistry graduate program (Chemistry PhD)",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://chemistry.osu.edu/",
+   "phd_evidence_quote": null,
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.osu.edu/people",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Dehua Pei"
+   ]
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Steffen Lindert",
+   "program_found": null,
+   "evidence_url": "https://chemistry.osu.edu/people",
+   "note": "Not on chemistry people page text; OpenAlex last_known lists UCLA only."
+  },
+  {
+   "name": "Blaise R. Kimmel",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on BSGP/Biophysics/OSBP/Chemistry lists; likely Chemical & Biomolecular Engineering (not checked)."
+  },
+  {
+   "name": "Wei Li",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on lists checked (ambiguous common name)."
+  },
+  {
+   "name": "Xiaoyi Gao",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on lists checked."
+  },
+  {
+   "name": "Marios Arvanitis",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on lists checked; primarily Johns Hopkins."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://cse.osu.edu/ (Computer Science and Engineering PhD not checked).",
+  "UNREACHABLE: https://biochemistry.osu.edu/ (used osbp.osu.edu).",
+  "Biophysics Graduate Program and Chemistry PhD: degree not explicitly stated on fetched pages; phd_evidence_quote null.",
+  "WebSearch budget exhausted; URLs found by navigating official osu.edu pages."
+ ]
+}

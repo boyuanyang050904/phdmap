@@ -1,0 +1,114 @@
+{
+ "institution": "Brown University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://ccmb.brown.edu/academics/graduate",
+  "quote": "The Center for Computational Molecular Biology (CCMB) offers Ph.D. degrees in Computational Biology"
+ },
+ "programs": [
+  {
+   "program_name": "Computational Biology PhD (Center for Computational Molecular Biology)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://ccmb.brown.edu/academics/graduate",
+   "phd_evidence_quote": "The Center for Computational Molecular Biology (CCMB) offers Ph.D. degrees in Computational Biology to train the next generation of scientists",
+   "faculty_list_urls": [
+    {
+     "url": "https://ccmb.brown.edu/about/people/core-members",
+     "render": false
+    },
+    {
+     "url": "https://ccmb.brown.edu/about/people/affiliate-members",
+     "render": false
+    },
+    {
+     "url": "https://ccmb.brown.edu/nih-graduate-training-program/t32-faculty-trainers",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Ece Dilber Gamsiz Uzun",
+    "Sohini Ramachandran",
+    "Ritambhara Singh",
+    "Lorin A. Crawford",
+    "Brenda M. Rubenstein"
+   ],
+   "notes": "Core members: Gamsiz Uzun, Ramachandran; affiliate members: Singh, Crawford, Rubenstein."
+  },
+  {
+   "program_name": "Doctoral Program in Biostatistics (School of Public Health)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://biostatistics.sph.brown.edu/academics/doctorate",
+   "phd_evidence_quote": "The primary mission of the doctoral program in Biostatistics is to provide the training necessary to carry out independent research in theory, methodology and application of statistics",
+   "faculty_list_urls": [
+    {
+     "url": "https://biostatistics.sph.brown.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Lorin A. Crawford"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "Computer Science PhD",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://cs.brown.edu/degrees/doctoral/",
+   "phd_evidence_quote": "Working with faculty who are leaders in the field, our PhD students conduct research with real-world impact.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cs.brown.edu/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Ritambhara Singh"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://chemistry.brown.edu/graduate",
+   "phd_evidence_quote": "In our graduate program, Ph.D. candidates choose research groups and elective courses based on their individual goals and interests",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.brown.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Brenda M. Rubenstein"
+   ],
+   "notes": ""
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Gabriel Monteiro da Silva",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched faculty list (likely trainee)."
+  },
+  {
+   "name": "Rohan H. C. Palmer",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on fetched Brown lists; OpenAlex last_known Emory."
+  }
+ ],
+ "problems": [],
+ "checked_at": "2026-11-03T09:13:04Z"
+}

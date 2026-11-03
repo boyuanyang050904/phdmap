@@ -1,0 +1,176 @@
+{
+  "institution": "Carnegie Mellon University",
+  "checked_at": "2026-11-03T09:13:24Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://ml.cmu.edu/academics/machine-learning-phd",
+    "quote": "Carnegie Mellon University's doctoral program in machine learning is designed to train students to become tomorrow's leaders"
+  },
+  "programs": [
+    {
+      "program_name": "Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology (CPCB)",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cmu.edu/compbio/",
+      "phd_evidence_quote": "Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cmu.edu/compbio/people/core-faculty.html",
+          "render": false
+        },
+        {
+          "url": "https://www.cmu.edu/compbio/people/affiliate-faculty.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Harinder Singh",
+        "Eric P. Xing",
+        "Jian Ma",
+        "Jishnu Das",
+        "Eric Xing",
+        "Richard Border",
+        "Andreas R. Pfenning",
+        "Martin Jinye Zhang",
+        "Lei M. Li",
+        "Lei Li",
+        "Kathryn Roeder"
+      ],
+      "notes": "Core training faculty incl. Richard Border ('Assistant Professor, Computational Biology, CMU'). 'Lei Li' on the page is 'Assistant Professor, Language Technologies Institute, CMU' (AI for drug discovery and protein design); OpenAlex profiles 'Lei M. Li'/'Lei Li' have unrelated last_known institutions, so identity is uncertain (possible name collision). Kathryn Roeder is on the affiliate list. Singh, Das, Pfenning are Pitt-side faculty."
+    },
+    {
+      "program_name": "Statistics & Data Science Ph.D. Programs (incl. Statistics/Machine Learning Joint Ph.D.)",
+      "degree": "PhD",
+      "discipline": "statistics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cmu.edu/dietrich/statistics-datascience/graduate/phd/index.html",
+      "phd_evidence_quote": "Our Ph.D. programs in Statistics offer a dynamic blend of theoretical rigor and real-world application",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cmu.edu/dietrich/statistics-datascience/people/index.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Kathryn Roeder"
+      ],
+      "notes": "Roeder listed as 'UPMC University Professor of Statistics and Life Sciences'. CMU has no separate biostatistics PhD."
+    },
+    {
+      "program_name": "Ph.D. Program in Machine Learning",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://ml.cmu.edu/academics/machine-learning-phd",
+      "phd_evidence_quote": "The Ph.D. Program in Machine Learning is for students interested in machine learning research.",
+      "faculty_list_urls": [
+        {
+          "url": "https://ml.cmu.edu/people/core-faculty",
+          "render": true
+        },
+        {
+          "url": "https://ml.cmu.edu/people/affiliated-faculty",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Eric P. Xing",
+        "Barnabás Póczos",
+        "Jian Ma",
+        "Kun Zhang"
+      ],
+      "notes": "Faculty lists are JS-loaded (plain fetch 0 names; --render works). Core: Xing, Póczos; affiliated: Jian Ma, Kun Zhang."
+    },
+    {
+      "program_name": "Ph.D. in Biomedical Engineering",
+      "degree": "PhD",
+      "discipline": "bioengineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://bme.engineering.cmu.edu/programs/graduate-programs/phd-programs.html",
+      "phd_evidence_quote": "Carnegie Mellon University's Ph.D. in Biomedical Engineering prepares curious, driven researchers to advance the future of healthcare through groundbreaking discoveries.",
+      "faculty_list_urls": [
+        {
+          "url": "https://bme.engineering.cmu.edu/directory/index.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Amir Barati Farimani"
+      ],
+      "notes": "Barati Farimani appears in the BME directory (courtesy/joint appointment; primary Mechanical Engineering)."
+    },
+    {
+      "program_name": "Ph.D. in Mechanical Engineering",
+      "degree": "PhD",
+      "discipline": "other:mechanical_engineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.meche.engineering.cmu.edu/education/graduate-programs/phd/phd-programs.html",
+      "phd_evidence_quote": "Students typically complete the Ph.D. degree requirements in three to five years.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.meche.engineering.cmu.edu/directory/index.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Amir Barati Farimani",
+        "Levent Burak Kara"
+      ],
+      "notes": "Included because core B author Barati Farimani (ML for molecules/proteins) has his primary appointment here."
+    },
+    {
+      "program_name": "Molecular Biophysics and Structural Biology (MBSB) Graduate Program (joint Pitt/CMU)",
+      "degree": "PhD",
+      "discipline": "biophysics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.mbsb.pitt.edu/index.php/about",
+      "phd_evidence_quote": "The Molecular Biophysics & Structural Biology (MBSB) Graduate Program at the University of Pittsburgh and Carnegie Mellon University is an interdisciplinary program for PhD studies",
+      "faculty_list_urls": [
+        {
+          "url": "https://mbsb.pitt.edu/people?type=1",
+          "render": false
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Core program type for B; no CMU-associated relevant authors on the MBSB faculty list."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Panayiotis V. Benos",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Pitt/UF; not on CPCB lists."
+    },
+    {
+      "name": "Eric Horvitz",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Microsoft; not CMU faculty on fetched pages."
+    },
+    {
+      "name": "CHRISTOPHER JAMES LANGMEAD",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Amgen/Danaher; not on CPCB core/affiliate lists."
+    },
+    {
+      "name": "Ge Liu",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known UIUC; not on fetched CMU pages."
+    }
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites.",
+    "CS Department PhD (csd.cmu.edu/people/faculty) gave 0 matches in static HTML; not rendered/pursued since no relevant CMU CS authors were identified.",
+    "'Lei Li' CPCB match may be a name collision with OpenAlex profiles (see notes)."
+  ]
+}
