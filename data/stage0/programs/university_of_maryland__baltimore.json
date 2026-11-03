@@ -1,0 +1,135 @@
+{
+  "institution": "University of Maryland, Baltimore",
+  "checked_at": "2026-11-03T09:10:01Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://www.graduate.umaryland.edu/mmed/",
+    "quote": "Our Molecular Medicine (GPILS) Program is an interdisciplinary ‘umbrella’ program of study leading to a PhD degree."
+  },
+  "programs": [
+    {
+      "program_name": "Epidemiology and Human Genetics PhD (GPILS)",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "independent",
+      "umbrella_name": "Graduate Program in Life Sciences (GPILS)",
+      "program_url": "https://www.graduate.umaryland.edu/epigen/",
+      "phd_evidence_quote": "Epidemiology and Human Genetics, Master's, Doctoral/PhD",
+      "faculty_list_urls": [
+        {
+          "url": "https://lifesciences.umaryland.edu/about/graduate-program-faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Braxton D. Mitchell",
+        "Clement Adebamowo"
+      ],
+      "notes": "Program details page https://lifesciences.umaryland.edu/epidemiology/ describes a human genetics track ('complex disease genetics, ... gene mapping and function ...'). Faculty list is the combined GPILS graduate-program faculty page (no per-program list found; /epidemiology/graduate-program-faculty/ is 404); Adebamowo listed there as 'Professor, Department of Epidemiology and Public Health'."
+    },
+    {
+      "program_name": "Molecular Medicine PhD - Genome Biology track (GPILS)",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Molecular Medicine (GPILS)",
+      "program_url": "https://lifesciences.umaryland.edu/molecularmedicine/program-tracks/genome-biology/",
+      "phd_evidence_quote": "The Genome Biology Track of the Molecular Medicine Program offers doctoral training in this rapidly-evolving area.",
+      "faculty_list_urls": [
+        {
+          "url": "https://lifesciences.umaryland.edu/molecularmedicine/graduate-program-faculty/",
+          "render": false
+        },
+        {
+          "url": "https://lifesciences.umaryland.edu/molecularmedicine/program-tracks/genome-biology/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Wei Li",
+        "Seth A. Ament"
+      ],
+      "notes": "Molecular Medicine is 'an interdisciplinary umbrella program of study leading to a PhD degree' with three tracks (Cancer Biology, Genome Biology, Physiology). The molecularmedicine faculty page is the same combined GPILS list (also matched Mitchell, Adebamowo); the Genome Biology track page itself matched none. Wei Li homonyms: two 'Wei Li' OpenAlex authors (A core and A peripheral) both match 'Wei Li, PhD'."
+    },
+    {
+      "program_name": "Biochemistry and Molecular Biology PhD (GPILS)",
+      "degree": "PhD",
+      "discipline": "biochemistry",
+      "program_type": "independent",
+      "umbrella_name": "Graduate Program in Life Sciences (GPILS)",
+      "program_url": "https://www.graduate.umaryland.edu/mbic/",
+      "phd_evidence_quote": "Biochemistry and Molecular Biology, Master’s, Doctoral/PhD",
+      "faculty_list_urls": [
+        {
+          "url": "https://lifesciences.umaryland.edu/about/graduate-program-faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Only combined GPILS faculty list available; no relevant direction-B author matched as biochemistry faculty (combined list matches are recorded under the other programs)."
+    },
+    {
+      "program_name": "Pharmaceutical Sciences PhD (School of Pharmacy)",
+      "degree": "PhD",
+      "discipline": "other:pharmaceutical_sciences",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.pharmacy.umaryland.edu/academics/psc/",
+      "phd_evidence_quote": "The PhD in Pharmaceutical Sciences (PSC) program is a highly competitive doctoral degree program within the University of Maryland School of Pharmacy.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.pharmacy.umaryland.edu/about/depts/psc/faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Jana Shen",
+        "Alexander D. MacKerell"
+      ],
+      "notes": "Department faculty directory (Pharmaceutical Sciences) used as faculty list."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Tianzhou Ma",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on UMB lists; last_known includes University of Maryland, College Park - see that institution's file."
+    },
+    {
+      "name": "Pratyush Tiwary",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on UMB lists; College Park (see UMCP file)."
+    },
+    {
+      "name": "Brian G. Pierce",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "IBBR / College Park (see UMCP file)."
+    },
+    {
+      "name": "Roy A. Mariuzza",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "IBBR / College Park (see UMCP file)."
+    },
+    {
+      "name": "John Moult",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "IBBR / College Park (see UMCP file)."
+    },
+    {
+      "name": "Heng Huang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on UMB lists; likely College Park (see UMCP file)."
+    }
+  ],
+  "problems": [
+    "GPILS publishes a single combined 'Graduate Program Faculty' list for all its PhD programs (also served at /molecularmedicine/graduate-program-faculty/); per-program membership cannot be verified from it, so matched authors were assigned to programs by plausibility/department text.",
+    "UMB has no stand-alone biostatistics or computational biology PhD in the Graduate School Doctoral/PhD program finder (https://www.graduate.umaryland.edu/academics/programs/index.php?query=&degree_types=Doctoral%2FPhD); Pharmaceutical Health Services Research PhD also listed but not relevant.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

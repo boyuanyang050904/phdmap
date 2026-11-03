@@ -1,0 +1,146 @@
+{
+  "institution": "Michigan State University",
+  "checked_at": "2026-11-03T09:07:54Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://biomolecular.natsci.msu.edu/applicants/how-to-apply.aspx",
+    "quote": "free application support for students applying to MSU BioMolecular Science PhD programs."
+  },
+  "programs": [
+    {
+      "program_name": "Genetics and Genome Sciences PhD",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "BioMolecular Science (BMS) Gateway",
+      "program_url": "https://ggs.natsci.msu.edu/",
+      "phd_evidence_quote": "Congratulations to Dr. Jake Reske on passing his Genetics PhD defense!",
+      "faculty_list_urls": [
+        {
+          "url": "https://directory.natsci.msu.edu/Directory/Directory/Department/19?group=155",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Yuehua Cui"
+      ],
+      "notes": "GGS 'How to Apply' links to the BioMolecular Science gateway; BMS 'Departments and Programs' page (https://biomolecular.natsci.msu.edu/applicants/departments-and-programs.aspx) lists Biochemistry and Molecular Biology, Cell and Molecular Biology, Genetics & Genome Sciences, Microbiology Genetics and Immunology; 'Students in any of the biomolecular science Ph.D. programs may seek an additional degree in Quantitative Biology'."
+    },
+    {
+      "program_name": "Biochemistry and Molecular Biology PhD",
+      "degree": "PhD",
+      "discipline": "biochemistry",
+      "program_type": "umbrella_track",
+      "umbrella_name": "BioMolecular Science (BMS) Gateway",
+      "program_url": "https://bmb.natsci.msu.edu/graduate-program/for-prospective-students/index.aspx",
+      "phd_evidence_quote": "BMB Ph.D. Program Overview",
+      "faculty_list_urls": [
+        {
+          "url": "https://directory.natsci.msu.edu/Directory/Directory/Department/6",
+          "render": true
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Faculty directory could not be read (search XHR 'Error fetching search results', then Incapsula 'Request unsuccessful'); membership of Michael Feig / Guo-Wei Wei unverified."
+    },
+    {
+      "program_name": "Computational Mathematics, Science and Engineering (CMSE) PhD",
+      "degree": "PhD",
+      "discipline": "other:computational_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://cmse.msu.edu/Academics/grad_program/index.aspx",
+      "phd_evidence_quote": "Ph.D. in Computational Mathematics, Science and Engineering",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cmse.msu.edu/Directory/index.aspx?group=145",
+          "render": true
+        },
+        {
+          "url": "https://cmse.msu.edu/research/labs.aspx",
+          "render": true
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Also offers 'Dual Doctor of Philosophy (Ph.D.) in Computational Mathematics, Science and Engineering'. Faculty directory search returned 'Error fetching search results' when rendered; labs page matched none."
+    },
+    {
+      "program_name": "Statistics PhD (Dept. of Statistics and Probability)",
+      "degree": "PhD",
+      "discipline": "statistics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://stt.natsci.msu.edu/graduate-programs/index.aspx",
+      "phd_evidence_quote": "to explore our webpages for valuable information about our M.S. and Ph.D. programs.",
+      "faculty_list_urls": [
+        {
+          "url": "https://directory.natsci.msu.edu/Directory/Directory/Department/2?group=152",
+          "render": true
+        },
+        {
+          "url": "https://stt.natsci.msu.edu/people/index.aspx",
+          "render": true
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Faculty directory returned 'Error fetching search results' (rendered); Tapabrata Maiti / Yuehua Cui / Gustavo de los Campos membership unverified."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Gustavo de los Campos",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on GGS faculty directory; Statistics/Epidemiology & Biostatistics faculty pages unreadable (Incapsula)."
+    },
+    {
+      "name": "Timothy G. Raben",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not found; no readable page."
+    },
+    {
+      "name": "Stephen Hsu",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "GGS directory contains 'Polly Hsu' only; Stephen Hsu not checked (physics pages not fetched)."
+    },
+    {
+      "name": "Anirban Samaddar",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Argonne National Laboratory; not checked."
+    },
+    {
+      "name": "Guo‐Wei Wei",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on math.msu.edu Faculty Research Interests page (rendered, matched none); natsci directory blocked."
+    },
+    {
+      "name": "Michael Feig",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "BMB faculty directory unreadable (Incapsula)."
+    },
+    {
+      "name": "Daniel Woldring",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "https://www.egr.msu.edu/chems/ returned a 'CHEMS Login' page; Chemical Engineering faculty not verified."
+    },
+    {
+      "name": "Jian Wei Jiang / Qiqige Wuyun",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known outside MSU (Wuhan/Chongqing; VCU); not checked."
+    }
+  ],
+  "problems": [
+    "All msu.edu sites are behind Incapsula: plain fetches return an empty challenge page, so --render was required everywhere. The natsci directory (directory.natsci.msu.edu) worked once (GGS faculty) and then returned 'Error fetching search results' or 'Request unsuccessful. Incapsula incident ID ...' - Statistics, BMB, BMS gateway faculty lists unreadable.",
+    "Epidemiology and Biostatistics (https://epibio.msu.edu/faculty/index.html) rendered to an Incapsula error (44 chars); its PhD program not verified/recorded.",
+    "Quantitative Biology dual-PhD (https://qbio.msu.edu/) not reachable (fetch failed); only mentioned on the BMS page.",
+    "Chemical Engineering (egr.msu.edu/chems) returned a login page.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

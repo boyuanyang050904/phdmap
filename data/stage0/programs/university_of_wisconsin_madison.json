@@ -1,0 +1,192 @@
+{
+ "institution": "University of Wisconsin–Madison",
+ "checked_at": "2026-11-03T09:11:14Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://guide.wisc.edu/graduate/genetics/genetics-phd/",
+  "quote": "Genetics, PhD < University of Wisconsin-Madison"
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Department of Biostatistics and Medical Informatics; its education page offers an 'MS Degree Program in Biomedical Data Science' and a 'Doctoral Degree Program in Biomedical Data Science' (no separately named Biostatistics PhD found; a 'Biostatistics Degree Option' is mentioned). biostat.wisc.edu/people/ includes affiliate faculty (e.g. Wayment-Steele).",
+   "program_name": "PhD in Biomedical Data Science",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://biostat.wisc.edu/education/phd-bds/",
+   "phd_evidence_quote": "The primary requirement for the PhD degree is the completion of a significant body of original research and the presentation of this research in a dissertation.",
+   "faculty_list_urls": [
+    {
+     "url": "https://biostat.wisc.edu/people/",
+     "render": false
+    },
+    {
+     "url": "https://guide.wisc.edu/graduate/biostatistics-medical-informatics/biomedical-data-science-phd/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Sündüz Keleş",
+    "Tianyuan Lu",
+    "Anthony Gitter",
+    "Sushmita Roy",
+    "Qiongshi Lu",
+    "Guanhua Chen",
+    "Yang Young Lu",
+    "Hannah K. Wayment-Steele"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Faculty list is JS-loaded (0 matches plain).",
+   "program_name": "PhD in Statistics",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://stat.wisc.edu/graduate-admissions/phd-program/",
+   "phd_evidence_quote": "The PhD Statistics program provides excellent training in the modern theory, methods, and applications of statistics",
+   "faculty_list_urls": [
+    {
+     "url": "https://stat.wisc.edu/people-main-faculty/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Sündüz Keleş",
+    "Qiongshi Lu",
+    "Guanhua Chen",
+    "Xiao Luo"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Faculty list is JS-loaded (0 matches plain).",
+   "program_name": "Computer Sciences, PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://guide.wisc.edu/graduate/computer-sciences/computer-sciences-phd/",
+   "phd_evidence_quote": "Computer Sciences, PhD < University of Wisconsin-Madison",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cs.wisc.edu/people/faculty-2/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Anthony Gitter",
+    "Sushmita Roy",
+    "Jiawei Zhang"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Department site genetics.wisc.edu links 'All Genetics PhD Mentors' (faculty-and-trainers).",
+   "program_name": "Genetics, PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://guide.wisc.edu/graduate/genetics/genetics-phd/",
+   "phd_evidence_quote": "Genetics, PhD < University of Wisconsin-Madison",
+   "faculty_list_urls": [
+    {
+     "url": "https://genetics.wisc.edu/faculty-and-trainers/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Sushmita Roy"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Biochemistry, PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://guide.wisc.edu/graduate/biochemistry/biochemistry-phd/",
+   "phd_evidence_quote": "Biochemistry, PhD < University of Wisconsin-Madison",
+   "faculty_list_urls": [
+    {
+     "url": "https://biochem.wisc.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Hannah K. Wayment-Steele"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Guide: https://guide.wisc.edu/graduate/graduate-school-wide/biophysics-phd/ ('Biophysics, PhD'). The labs/faculty page is not readable (0 matches plain and rendered).",
+   "program_name": "Biophysics, PhD (Interdisciplinary PhD in Structural and Computational Biology and Quantitative Biosciences)",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "program_url": "https://biophysics.wisc.edu/",
+   "phd_evidence_quote": "Interdisciplinary PhD in Structural and Computational Biology and Quantitative Biosciences",
+   "faculty_list_urls": [
+    {
+     "url": "https://biophysics.wisc.edu/labs/",
+     "render": true
+    },
+    {
+     "url": "https://guide.wisc.edu/graduate/graduate-school-wide/biophysics-phd/",
+     "render": false
+    }
+   ],
+   "matched_authors": []
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Graduate-school-wide umbrella; quote is the program link text on the fetched guide.wisc.edu/graduate/ index. No program faculty roster found (guide page has no relevant names).",
+   "program_name": "Cellular and Molecular Biology, PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://guide.wisc.edu/graduate/graduate-school-wide/cellular-molecular-biology-phd/",
+   "phd_evidence_quote": "Cellular and Molecular Biology, PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://guide.wisc.edu/graduate/graduate-school-wide/cellular-molecular-biology-phd/",
+     "render": false
+    }
+   ],
+   "matched_authors": []
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Katrina T. Forest",
+   "program_found": null,
+   "evidence_url": "https://bact.wisc.edu/people/faculty/",
+   "note": "Listed on the Bacteriology faculty page; graduate program affiliation (e.g. Microbiology, Biophysics) not verified (biophysics faculty page unreadable)."
+  },
+  {
+   "name": "Philip A. Romero",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on UW pages checked; now on Duke BME primary faculty list (see Duke file)."
+  },
+  {
+   "name": "Peter Muir",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any program list checked (veterinary medicine)."
+  },
+  {
+   "name": "Luke M. Funk",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any program list checked (surgery)."
+  }
+ ],
+ "problems": [
+  "WebSearch budget exhausted; URLs found by navigating official wisc.edu sites and guide.wisc.edu.",
+  "biophysics.wisc.edu/labs/ faculty list unreadable (plain and rendered).",
+  "No standalone Biostatistics PhD found on fetched pages; BMI offers the Biomedical Data Science PhD (with a 'Biostatistics Degree Option' mentioned on https://biostat.wisc.edu/education/, not explored).",
+  "Biomedical Engineering PhD not recorded: guide page had 0 relevant names and the relevant author (Romero) has moved to Duke."
+ ]
+}

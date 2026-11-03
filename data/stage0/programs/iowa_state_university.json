@@ -1,0 +1,102 @@
+{
+ "institution": "Iowa State University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.bcb.iastate.edu/about-bioinformatics-and-computational-biology-graduate-program",
+  "quote": "The Iowa State University Bioinformatics and Computational Biology (BCB) Program offers Ph.D. training at the intersections of Biological, Computing and Information Sciences."
+ },
+ "programs": [
+  {
+   "program_name": "Bioinformatics and Computational Biology (BCB) PhD (interdepartmental)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.bcb.iastate.edu/about-bioinformatics-and-computational-biology-graduate-program",
+   "phd_evidence_quote": "The Iowa State University Bioinformatics and Computational Biology (BCB) Program offers Ph.D. training at the intersections of Biological, Computing and Information Sciences.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bcb.iastate.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Ratul Chowdhury",
+    "Davit A. Potoyan",
+    "Robert L. Jernigan",
+    "Iddo Friedberg",
+    "Michael A. Zeller"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "Ph.D. in Biochemistry / Biophysics (Dept. of Biochemistry, Biophysics and Molecular Biology)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.bbmb.iastate.edu/academics/graduate-study",
+   "phd_evidence_quote": "The Ph.D. programs in biochemistry or biophysics are designed to train students in the ability to independently conceive and carry out original research",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bbmb.iastate.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Robert L. Jernigan"
+   ],
+   "notes": "Two PhD majors (biochemistry, biophysics) in one department."
+  },
+  {
+   "program_name": "Chemistry Ph.D.",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.chem.iastate.edu/academics/graduate-studies",
+   "phd_evidence_quote": "Our Ph.D. program offers majors in the more traditional fields of analytical/bioanalytical, inorganic/materials, organic/bioorganic and physical/theoretical chemistry",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.chem.iastate.edu/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Davit A. Potoyan"
+   ],
+   "notes": ""
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Adarsh Krishnamurthy",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Mechanical Engineering faculty directory (https://www.me.iastate.edu/faculty-directory/) has no names in static HTML and rendering returned 502; not on BCB list."
+  },
+  {
+   "name": "Carson M. Andorf",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on BCB faculty list; OpenAlex last_known USDA-ARS."
+  },
+  {
+   "name": "Mesih Kilinc",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on faculty lists (likely trainee)."
+  },
+  {
+   "name": "Chunlin Li",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known University of Virginia; Statistics dept not checked."
+  }
+ ],
+ "problems": [
+  "Headless rendering of *.iastate.edu pages returned status 502 (chem, cbe, me faculty pages); static HTML used where possible.",
+  "Chemical & Biological Engineering faculty page (https://www.cbe.iastate.edu/faculty) had no names in static HTML; Ratul Chowdhury's CBE PhD affiliation not verified (he is matched on BCB)."
+ ],
+ "checked_at": "2026-11-03T09:08:21Z"
+}

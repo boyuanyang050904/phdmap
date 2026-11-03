@@ -1,0 +1,77 @@
+{
+ "institution": "University of Nebraska–Lincoln",
+ "checked_at": "2026-11-03T09:10:04Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://graduate.unl.edu/academics/programs/CBIO-PHD/",
+  "quote": "Complex Biosystems (PHD)"
+ },
+ "programs": [
+  {
+   "program_name": "Agronomy and Horticulture (PHD)",
+   "degree": "PhD",
+   "discipline": "other:plant_sciences_agronomy",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduate.unl.edu/academics/programs/AGRO-PHD/",
+   "phd_evidence_quote": "Agronomy and Horticulture (PHD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://agronomy.unl.edu/our-people/faculty-directories/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jinliang Yang"
+   ],
+   "notes": "Departmental PhD; faculty list is the Department of Agronomy and Horticulture faculty directory. The Graduate Studies program page itself (program-faculty excerpt) matched no one."
+  },
+  {
+   "program_name": "Complex Biosystems (PHD)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduate.unl.edu/academics/programs/CBIO-PHD/",
+   "phd_evidence_quote": "The program in Complex Biosystems is directed toward students interested in applying quantitative statistical and computational approaches to multiple areas of biology",
+   "faculty_list_urls": [
+    {
+     "url": "https://graduate.unl.edu/academics/programs/CBIO-PHD/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Interdisciplinary PhD with specializations (e.g. 'Computational Organismal Biology, Ecology, and Evolution'). Only a short 'Program Faculty' excerpt is on the Graduate Studies page; no full program-faculty roster found, so membership of Jinliang Yang could not be checked."
+  },
+  {
+   "program_name": "Computer Science (PHD)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduate.unl.edu/academics/programs/COMP-PHD/",
+   "phd_evidence_quote": "Computer Science (PHD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://computing.unl.edu/directory/",
+     "render": false
+    },
+    {
+     "url": "https://graduate.unl.edu/academics/programs/COMP-PHD/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jitender S. Deogun"
+   ],
+   "notes": "Graduate Studies page links a bioinformatics specialization: https://computing.unl.edu/phd-computer-science-bioinformatics-specialization/ (not fetched)."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "No full Complex Biosystems program-faculty roster found (only the excerpt on https://graduate.unl.edu/academics/programs/CBIO-PHD/).",
+  "Biochemistry (PHD) (https://graduate.unl.edu/academics/programs/BIOC-PHD/), Chemistry (PHD), Biological Engineering (PHD) and Statistics (PHD) exist; faculty not checked except Statistics program page (no match); omitted.",
+  "PhD evidence quotes for Agronomy and Horticulture and Computer Science are Graduate Studies page headings ('<Program> (PHD)').",
+  "https://graduate.unl.edu/programs/ returned 404; used https://graduate.unl.edu/academics/programs/."
+ ]
+}

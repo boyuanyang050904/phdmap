@@ -1,0 +1,92 @@
+{
+ "institution": "Pennsylvania State University",
+ "checked_at": "2026-11-03T09:09:35Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://bulletins.psu.edu/graduate/programs/majors/bioinformatics-genomics/",
+  "quote": "For the Ph.D., a minimum of 35 credits is required."
+ },
+ "programs": [
+  {
+   "program_name": "Bioinformatics and Genomics (BG) PhD (Huck Institutes, intercollege)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://bulletins.psu.edu/graduate/programs/majors/bioinformatics-genomics/",
+   "phd_evidence_quote": "For the Ph.D., a minimum of 35 credits is required. During the first year of study, Ph.D. students are required to take 22 credits of core required courses.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.huck.psu.edu/graduate-education/degree-programs/bioinformatics-and-genomics/faculty-directory",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yasin Uzun",
+    "Réka Albert",
+    "Dajiang J. Liu",
+    "Laura Carrel",
+    "Costas D. Maranas",
+    "Vasant Honavar"
+   ],
+   "notes": "Program site: https://www.huck.psu.edu/graduate-education/degree-programs/bioinformatics-and-genomics"
+  },
+  {
+   "program_name": "Biostatistics PhD (College of Medicine, Hershey)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://bulletins.psu.edu/graduate/programs/majors/biostatistics/",
+   "phd_evidence_quote": "Each student in the Biostatistics Ph.D. program is expected to acquire knowledge in the disciplines of Biostatistics.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program site https://med.psu.edu/education/degree-programs/biostatistics-phd and Public Health Sciences dept page matched 0 relevant authors and do not list faculty; no faculty list found (guessed /faculty, /people URLs 404). Dajiang J. Liu and Bibo Jiang (statistical genetics) are plausible faculty but unverified."
+  },
+  {
+   "program_name": "Biomedical Sciences PhD (College of Medicine, Hershey)",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://bulletins.psu.edu/graduate/programs/majors/biomedical-sciences/",
+   "phd_evidence_quote": "Dual-Title Ph.D. in Biomedical Sciences and Clinical and Translational Science",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Bulletin and program site (https://med.psu.edu/education/degree-programs/biomedical-sciences-phd) matched 0 relevant authors; no faculty list found. Likely home for Hershey faculty such as Nikolay V. Dokholyan, Laura Carrel, Yasin Uzun (unverified)."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Bibo Jiang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on BG faculty directory; Biostatistics faculty list not found."
+  },
+  {
+   "name": "Nikolay V. Dokholyan",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on BG faculty directory; Biomedical Sciences / BMMB faculty lists not available from fetched pages."
+  },
+  {
+   "name": "Yi Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Common name; not matched on any fetched list."
+  },
+  {
+   "name": "Swaroop Ghosh",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on BG list; Computer Science & Engineering bulletin page matched 0 (no faculty list)."
+  }
+ ],
+ "problems": [
+  "Penn State graduate bulletin pages (bulletins.psu.edu) do not list graduate faculty; matches on bulletins for Biostatistics, Biomedical Sciences, Chemical Engineering, BMMB, MCIBS, Statistics, CSE, BME, Chemistry were 0",
+  "No faculty list found for Biostatistics PhD (Public Health Sciences dept); guessed URLs 404",
+  "MCIBS faculty-directory URL (huck pattern) returned 404",
+  "Chemical Engineering PhD (Costas D. Maranas likely faculty) not recorded: no fetched faculty list confirms membership",
+  "WebSearch unavailable (budget exhausted); URLs found via bulletin navigation"
+ ]
+}

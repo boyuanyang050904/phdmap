@@ -1,0 +1,75 @@
+{
+ "institution": "University of Massachusetts Amherst",
+ "checked_at": "2026-11-03T09:08:07Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.umass.edu/chemistry/graduate",
+  "quote": "Our department is home to one of the largest Ph.D. graduate programs on campus"
+ },
+ "programs": [
+  {
+   "program_name": "Chemistry Ph.D. Graduate Program",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.umass.edu/chemistry/graduate",
+   "phd_evidence_quote": "Our department is home to one of the largest Ph.D. graduate programs on campus, with ~150 graduate students working across ~20 research groups",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.umass.edu/chemistry/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jianhan Chen"
+   ],
+   "notes": "Two OpenAlex author records named 'Jianhan Chen' both matched (match printed the name twice). Chemistry also lists interdepartmental training programs incl. the Chemistry-Biology Interface (CBI) Training Program (https://cbi.chem.umass.edu/)."
+  },
+  {
+   "program_name": "Molecular & Cellular Biology (MCB) PhD Program",
+   "degree": "PhD",
+   "discipline": "other:molecular_cellular_biology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.umass.edu/molecular-cellular/academics/about-our-phd-program",
+   "phd_evidence_quote": "About Our PhD program : Molecular & Cellular Biology : UMass Amherst",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.umass.edu/molecular-cellular/mcb-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jianhan Chen",
+    "Anna G. Green"
+   ],
+   "notes": "Interdepartmental graduate program (linked as 'MCB Graduate Program' from the BMB department's Interdisciplinary Graduate Programs page). MCB faculty page: Jianhan Chen 'Professor of Chemistry and Biochemistry & Molecular Biology'; Anna Green 'Assistant Professor, Information and Computer Science'."
+  },
+  {
+   "program_name": "PhD in Computer Science (Manning College of Information & Computer Sciences)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cics.umass.edu/academics/phd-computer-science",
+   "phd_evidence_quote": "PhD in Computer Science",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cics.umass.edu/about/directory?s=&field_person__profile_type_ref_target_id%5B351%5D=351",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Anna G. Green"
+   ],
+   "notes": "Anna G. Green is CICS faculty (MCB page: 'Anna is an Assistant Professor in the College of Information and Computer Sciences at UMass Amherst')."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "Department of Biochemistry & Molecular Biology does not appear to run its own PhD; its 'Interdisciplinary Graduate Programs' page points to MCB, Plant Biology, NSB, OEB and the CBI training program. BMB faculty page (https://www.umass.edu/biochemistry-molecular-biology/faculty) matched nobody even rendered.",
+  "Biomedical Engineering PhD not verified (https://www.umass.edu/engineering/academics/biomedical-engineering gave no PhD statement); omitted. No direction-A authors, so biostatistics/genetics programs not checked.",
+  "https://www.umass.edu/graduate/programs returned 404; Graduate School program listing not used."
+ ]
+}

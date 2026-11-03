@@ -1,0 +1,132 @@
+{
+ "institution": "University of Missouri",
+ "checked_at": "2026-11-03T09:07:56Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.missouri.edu/graduateschool/informatics/phd-informatics-emphasis-bioinformatics/",
+  "quote": "PhD in Informatics with Emphasis in Bioinformatics"
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Graduate School program run by the MU Institute for Data Science and Informatics (MUIDSI; muii.missouri.edu redirects to muidsi.missouri.edu). Other emphases: health informatics, geospatial informatics.",
+   "program_name": "PhD in Informatics (emphasis in Bioinformatics)",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://catalog.missouri.edu/graduateschool/informatics/phd-informatics-emphasis-bioinformatics/",
+   "phd_evidence_quote": "PhD in Informatics with Emphasis in Bioinformatics",
+   "faculty_list_urls": [
+    {
+     "url": "https://muidsi.missouri.edu/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jianlin Jack Cheng",
+    "Shi‐Jie Chen"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Department of Electrical Engineering and Computer Science. Catalog: https://catalog.missouri.edu/collegeofengineering/computerscience/phd-computer-science/ . The college-wide directory engineering.missouri.edu/faculty/ is paginated (22 pages) and gave 0 matches on page 1.",
+   "program_name": "PhD in Computer Science",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://engineering.missouri.edu/degree/phd-in-computer-science/",
+   "phd_evidence_quote": "PhD in Computer Science",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.missouri.edu/departments/eecs/eecs-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jianlin Jack Cheng",
+    "Yi Shang"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Physics and Astronomy department; included because core B authors Zou and Chen (computational structural biophysics) are physics faculty. Biophysics focus not separately verified on a fetched page.",
+   "program_name": "PhD in Physics",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "program_url": "https://catalog.missouri.edu/collegeofartsandscience/physics/phd-physics/",
+   "phd_evidence_quote": "PhD in Physics",
+   "faculty_list_urls": [
+    {
+     "url": "https://physics.missouri.edu/people",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Xiaoqin Zou",
+    "Shi‐Jie Chen"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Biochemistry division of CAFNR (biochem.missouri.edu redirects there); department page links it as 'Ph.D. in Biochemistry'. Catalog: https://catalog.missouri.edu/collegeofagriculturefoodandnaturalresources/biochemistry/phd-biochemistry/ . CAFNR directory (plain and rendered) gave 0 matches; Zou/Chen joint appointments not verified.",
+   "program_name": "PhD in Biochemistry",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://cafnr.missouri.edu/academics/degrees-programs/biochemistry-graduate-studies/",
+   "phd_evidence_quote": "Ph.D.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cafnr.missouri.edu/directory/?division=&role=faculty&research_area=",
+     "render": true
+    }
+   ],
+   "matched_authors": []
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Dong Xu",
+   "program_found": null,
+   "evidence_url": "https://engineering.missouri.edu/departments/eecs/eecs-faculty/",
+   "note": "Name not present in the text of the EECS faculty page or the MUIDSI faculty page (grep 'Xu' empty); membership unverified."
+  },
+  {
+   "name": "Dong He Xu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Likely same person as Dong Xu (OpenAlex split); not found."
+  },
+  {
+   "name": "Mahdi Pourmirzaei",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on faculty lists (likely student/researcher)."
+  },
+  {
+   "name": "Duolin Wang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on faculty lists (likely research staff)."
+  },
+  {
+   "name": "Alex Morehead",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on faculty lists; last_known LBNL."
+  },
+  {
+   "name": "Zhiye Guo",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on faculty lists; last_known ByteDance."
+  }
+ ],
+ "problems": [
+  "UNREACHABLE: https://datascience.missouri.edu/ and https://idsi.missouri.edu/ (host does not resolve); used muidsi.missouri.edu.",
+  "WebSearch budget exhausted; URLs found by navigating engineering.missouri.edu, cafnr.missouri.edu and catalog.missouri.edu.",
+  "Dong Xu (core B, EECS) not found by name on any fetched faculty page.",
+  "Biochemistry faculty directory not readable for relevant names; Chemistry PhD not recorded (only peripheral author Dmitri Kireev; not checked)."
+ ]
+}
