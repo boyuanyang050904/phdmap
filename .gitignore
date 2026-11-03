@@ -1,0 +1,12 @@
+.env
+cache/
+__pycache__/
+*.pyc
+# large raw OpenAlex dumps (regenerable from the API; compressed copies are committed)
+data/stage0/works_A.jsonl
+data/stage0/works_B.jsonl
+data/stage0/institutions.json
+data/stage0/author_entities.json
+data/stage0/authors_A.json
+data/stage0/authors_B.json
+data/stage0/homes.json

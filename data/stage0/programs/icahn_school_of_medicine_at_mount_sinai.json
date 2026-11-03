@@ -1,0 +1,107 @@
+{
+ "institution": "Icahn School of Medicine at Mount Sinai",
+ "checked_at": "2026-11-03T08:58:56Z",
+ "grants_phd": null,
+ "grants_phd_evidence": null,
+ "programs": [],
+ "unmatched_core_authors": [
+  {
+   "name": "Laura M. Huckins",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Bin Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Yanqing Wang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Jason Ciril Kovacic",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Paul F. O’Reilly",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Girish N. Nadkarni",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Zeynep Hulya Gumus",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Lea Karatheodoris Davis",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Conrad Osamede Iyegbe",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Panos Roussos",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Samira Asgari",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Marta Filizola",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Benjamin Scott Glicksberg",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Gaurav Shankar Pandey",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  },
+  {
+   "name": "Avner Schlessinger",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://icahn.mssm.edu/ (also https://icahn.mssm.edu/education/phd, https://icahn.mssm.edu/about/departments/genetics-genomic-sciences; robots.txt itself returns 403 Access Denied)",
+  "BLOCKED by robots.txt: https://labs.icahn.mssm.edu/",
+  "BLOCKED by robots.txt: https://gsbs.icahn.mssm.edu/",
+  "BLOCKED by robots.txt: https://www.mountsinai.org/",
+  "Could not verify PhD-granting status or any program (Graduate School of Biomedical Sciences pages unreachable); all fields null. WebSearch budget exhausted, so no alternative official domains could be discovered.",
+  "'Alzheimer’s Disease Neuroimaging Initiative' is a consortium author, ignored."
+ ]
+}

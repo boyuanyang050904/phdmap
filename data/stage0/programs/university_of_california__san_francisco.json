@@ -1,0 +1,231 @@
+{
+ "institution": "University of California, San Francisco",
+ "checked_at": "2026-11-03T08:57:11Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.ucsf.edu/programs/biological-medical-informatics/",
+  "quote": "The Biological and Medical Informatics (BMI) program trains diverse PhD students to become scientific leaders at the interface between computation, statistics, and biology."
+ },
+ "programs": [
+  {
+   "program_name": "Biological and Medical Informatics (BMI)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.ucsf.edu/programs/biological-medical-informatics/",
+   "phd_evidence_quote": "The Biological and Medical Informatics (BMI) program trains diverse PhD students to become scientific leaders at the interface between computation, statistics, and biology.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program faculty list linked from the catalog (https://bmi.ucsf.edu/people/faculty) is blocked by robots.txt; no faculty list fetched. Catalog: 'Over 50 faculty members teach and mentor students in the BMI program.'"
+  },
+  {
+   "program_name": "Biophysics",
+   "degree": "PhD",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.ucsf.edu/programs/biophysics/",
+   "phd_evidence_quote": "Biophysics (PhD) ... students in the UCSF Biophysics graduate program",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program faculty list linked from the catalog (https://biophysics.ucsf.edu/people/faculty) is blocked by robots.txt; no faculty list fetched."
+  },
+  {
+   "program_name": "Chemistry and Chemical Biology (CCB)",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.ucsf.edu/programs/chemistry-chemical-biology/",
+   "phd_evidence_quote": "Chemistry and Chemical Biology (PhD) ... The Chemistry and Chemical Biology Graduate Program (CCB) prepares scientists to address problems at the intersection of chemistry and biology.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program faculty list linked from the catalog (https://ccb.ucsf.edu/people/faculty) is blocked by robots.txt; no faculty list fetched."
+  },
+  {
+   "program_name": "UC Berkeley-UCSF Graduate Program in Bioengineering",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.ucsf.edu/programs/bioengineering/",
+   "phd_evidence_quote": "Bioengineering (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioegrad.berkeley.edu/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Alexander Marson",
+    "H T Li",
+    "John A. Capra",
+    "Arun P. Wiita",
+    "Tanja Kortemme",
+    "Jennifer Listgarten",
+    "Liana F. Lareau"
+   ],
+   "notes": "Joint UCB-UCSF program; catalog links 'Core Program Faculty' to bioegrad.berkeley.edu/faculty (list includes Berkeley faculty, e.g. Listgarten/Lareau are likely Berkeley-side). 'H T Li' match is a short-name match, verify."
+  },
+  {
+   "program_name": "Biochemistry and Molecular Biology (Tetrad)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Tetrad graduate program",
+   "program_url": "https://catalog.ucsf.edu/programs/biochem-molec-bio-tetrad/",
+   "phd_evidence_quote": "Biochemistry and Molecular Biology (Tetrad) (PhD) ... The Tetrad graduate program prepares students to pose and address fundamental research problems in modern biology.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program faculty list linked from the catalog (https://tetrad.ucsf.edu/faculty) is blocked by robots.txt; no faculty list fetched."
+  },
+  {
+   "program_name": "Genetics (Tetrad)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Tetrad graduate program",
+   "program_url": "https://catalog.ucsf.edu/programs/genetics-tetrad/",
+   "phd_evidence_quote": "Genetics (Tetrad) (PhD) ... The Tetrad graduate program prepares students to pose and address fundamental research problems in modern biology.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program faculty list linked from the catalog (https://tetrad.ucsf.edu/faculty) is blocked by robots.txt; no faculty list fetched."
+  },
+  {
+   "program_name": "Biomedical Sciences (BMS)",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.ucsf.edu/programs/biomedical-sciences/",
+   "phd_evidence_quote": "Biomedical Sciences (PhD)",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program faculty list linked from the catalog (https://bms.ucsf.edu/faculty/) is blocked by robots.txt; no faculty list fetched."
+  },
+  {
+   "program_name": "Computational Precision Health (CPH)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.ucsf.edu/programs/computational-precision-health/",
+   "phd_evidence_quote": "Computational Precision Health (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/2/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/3/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/4/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/5/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/6/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/7/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/8/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/9/",
+     "render": false
+    },
+    {
+     "url": "https://computationalhealth.ucsf.edu/faculty/page/10/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Joint UC Berkeley-UCSF program; all 10 faculty archive pages matched 0 relevant authors."
+  },
+  {
+   "program_name": "Pharmaceutical Sciences and Pharmacogenomics (PSPG)",
+   "degree": "PhD",
+   "discipline": "other:pharmaceutical_sciences",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.ucsf.edu/programs/pharmaceutical-sciences-pharmacogenomics/",
+   "phd_evidence_quote": "Pharmaceutical Sciences and Pharmacogenomics (PhD)",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program faculty list linked from the catalog (https://pspg.ucsf.edu/people/faculty) is blocked by robots.txt; no faculty list fetched."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "James S. Fraser",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+  },
+  {
+   "name": "William F. DeGrado",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+  },
+  {
+   "name": "James A. Wells",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+  },
+  {
+   "name": "Nevan J. Krogan",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+  },
+  {
+   "name": "Luke A. Gilbert",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+  },
+  {
+   "name": "David Ronan Raleigh",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+  },
+  {
+   "name": "Other core authors not individually checked: Jeffrey P. Spence, Vasilis Ntranos, Noah Zaitlen, Harold Pimentel, Mineto Ota, Bronwyn A. Lucas, K. Christopher García, Peter S. Kim, Emma K. Lundberg, Livnat Jerby‐Arnon, James Zou, James P. Pirruccello, Jonathan S. Weissman",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Several are likely affiliated elsewhere (Stanford/CZ Biohub/Gladstone/Broad) per OpenAlex last_known; not verifiable with blocked program sites."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://graduate.ucsf.edu/ (and /programs)",
+  "BLOCKED by robots.txt: https://www.ucsf.edu/",
+  "BLOCKED by robots.txt: https://bmi.ucsf.edu/ (faculty list https://bmi.ucsf.edu/people/faculty)",
+  "BLOCKED by robots.txt: https://biophysics.ucsf.edu/",
+  "BLOCKED by robots.txt: https://ccb.ucsf.edu/",
+  "BLOCKED by robots.txt: https://tetrad.ucsf.edu/",
+  "BLOCKED by robots.txt: https://qbc.ucsf.edu/",
+  "BLOCKED by robots.txt: https://bms.ucsf.edu/faculty/",
+  "BLOCKED by robots.txt: https://pspg.ucsf.edu/ and https://pharmacy.ucsf.edu/",
+  "BLOCKED by robots.txt: https://epibiostat.ucsf.edu/ (Epidemiology and Translational Science PhD faculty; program not recorded)",
+  "Program existence/PhD status taken from UCSF General Catalog (catalog.ucsf.edu), which is accessible; faculty membership mostly unverifiable",
+  "WebSearch unavailable (budget exhausted); URLs discovered via catalog navigation"
+ ]
+}

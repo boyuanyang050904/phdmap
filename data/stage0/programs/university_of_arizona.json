@@ -1,0 +1,154 @@
+{
+ "institution": "University of Arizona",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://gidp.arizona.edu/academic-programs/genetics",
+  "quote": "Graduate students can work toward a Ph.D. or M.S. in Genetics under the guidance of more than 80 faculty members from 26 departments and 5 colleges."
+ },
+ "programs": [
+  {
+   "program_name": "Genetics (Graduate Interdisciplinary Program, GIDP)",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://gidp.arizona.edu/academic-programs/genetics",
+   "phd_evidence_quote": "Graduate students can work toward a Ph.D. or M.S. in Genetics under the guidance of more than 80 faculty members from 26 departments and 5 colleges.",
+   "faculty_list_urls": [
+    {
+     "url": "https://gidp.arizona.edu/academic-programs/genetics",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Patrick T. Ronaldson",
+    "Mingyu Liang",
+    "Travis J. Wheeler"
+   ],
+   "notes": "Page also says 'Students in the program can pursue a Ph.D. in Genetics with a specialization in Genomics.' Degree-search listing: https://www.arizona.edu/degree-search/majors/genetics-dp (not fetched individually).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Statistics & Data Science (Graduate Interdisciplinary Program, GIDP)",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://gidp.arizona.edu/academic-programs/statistics-data-science",
+   "phd_evidence_quote": "The Graduate Interdisciplinary Program (GIDP) in Statistics & Data Science (SDS) administers both M.S. and Ph.D. degrees, as well as a Ph.D. Minor and a Graduate Certificate, in Statistics & Data Science.",
+   "faculty_list_urls": [
+    {
+     "url": "https://gidp.arizona.edu/academic-programs/statistics-data-science",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Mingyu Liang"
+   ],
+   "notes": "Targeted specialties include 'bioinformatics' and 'statistical genetics'.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biostatistics (Doctoral)",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "program_url": "https://www.arizona.edu/degree-search/majors/biostatistics",
+   "phd_evidence_quote": "To be eligible for the Ph.D. program, you must first earn an M.S. degree in Biostatistics or Statistics.",
+   "faculty_list_urls": [
+    {
+     "url": "https://publichealth.arizona.edu/departments/epidemiology-biostatistics",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Degree-search page (rendered) title 'Doctorate in Biostatistics'. Faculty URL is the Epidemiology & Biostatistics department page (not necessarily a full faculty roster); no matches.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Molecular and Cellular Biology (Doctoral)",
+   "discipline": "other:molecular_cell_biology",
+   "program_type": "independent",
+   "program_url": "https://www.arizona.edu/degree-search/majors/molecular-and-cellular-biology-dp",
+   "phd_evidence_quote": "Molecular and Cellular Biology (Doctoral) ... Doctor of Philosophy",
+   "faculty_list_urls": [
+    {
+     "url": "https://mcb.arizona.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Claire D. McWhite"
+   ],
+   "notes": "Degree page needed --render. Department PhD page https://mcb.arizona.edu/people/students/phd-program lists 'Current PhD students (Fall2026)'. Included because core B author Claire D. McWhite is MCB primary faculty.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biochemistry (Doctoral)",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://www.arizona.edu/degree-search/majors/biochemistry-dp",
+   "phd_evidence_quote": "The Biochemistry doctoral program is a research-based degree to prepare you for senior research positions in industry or government laboratories",
+   "faculty_list_urls": [
+    {
+     "url": "https://cbc.arizona.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Offers interdisciplinary concentrations such as structural biology, biological chemistry, biological physics. Faculty list = Dept. of Chemistry & Biochemistry; no matches.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering (Doctoral)",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://www.arizona.edu/degree-search/majors/biomedical-engineering-dp",
+   "phd_evidence_quote": "Ph.D. candidates in the interdisciplinary, research-focused Biomedical Engineering program are invited to customize the degree to their interests",
+   "faculty_list_urls": [
+    {
+     "url": "https://bme.arizona.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Core type for direction B; no matches.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Computer Science Doctoral Program (Ph.D.)",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://cs.arizona.edu/graduate/doctoral-program",
+   "phd_evidence_quote": "Doctoral Program (Ph.D.) | Computer Science",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cs.arizona.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Travis J. Wheeler"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Rui R. Chang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not found on any program faculty page checked (Genetics, Statistics & Data Science, Neuroscience, Cancer Biology, Physiological Sciences, Applied Biosciences GIDPs; MCB; CS; BME; Chem & Biochem; Epi & Biostat). Profile guesses (medicine.arizona.edu/person/rui-chang-phd -> 403 'Page not found'; profiles.arizona.edu -> 404) failed; program membership unverified."
+  }
+ ],
+ "problems": [
+  "Physiological Sciences GIDP page (https://gidp.arizona.edu/academic-programs/physiological-sciences) matched peripheral author Patrick T. Ronaldson but was not recorded as a program (not a target discipline; PhD status not separately verified).",
+  "Peripheral authors Cristian Román‐Palacios, Yichao Zeng and Hua Zhou (last_known UCLA) not matched on any page checked.",
+  "Degree-search pages at www.arizona.edu are JS-built; PhD quotes taken from --render fetches.",
+  "Rui R. Chang (core A) profile not located; program unverified."
+ ],
+ "checked_at": "2026-11-03T09:02:33Z"
+}

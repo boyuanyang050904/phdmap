@@ -1,0 +1,18 @@
+{
+  "institution": "Sanford Burnham Prebys Medical Discovery Institute",
+  "institution_kind": "independent_institute",
+  "checked_at": "2026-11-03T09:02:53Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://sbpdiscovery.org/education/graduate-school/", "quote": "The Graduate School of Biomedical Sciences (GSBS) at Sanford Burnham Prebys in La Jolla offers a PhD degree in Biomedical Sciences."},
+  "programs": [
+    {"program_name": "PhD in Biomedical Sciences, Graduate School of Biomedical Sciences (GSBS)", "degree": "PhD", "discipline": "umbrella_biomedical", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://sbpdiscovery.org/education/graduate-school/",
+     "phd_evidence_quote": "Our PhD program prepares students for careers in scientific research through laboratory research and courses.",
+     "faculty_list_urls": [{"url": "https://sbpdiscovery.org/education/graduate-school/faculty-and-educational-affiliates/", "render": false}],
+     "matched_authors": ["Peter D. Adams", "Kevin Y. Yip"],
+     "notes": "Single PhD program; students are matched with a faculty mentor at admission (no rotations). Faculty page lists 'Peter D. Adams, PhD, Director and Professor, Cancer Genome and Epigenetics Program' and 'Yuk-Lap (Kevin) Yip, PhD, Director and Professor, Center for Data Science and Artificial Intelligence' (in the Faculty tab; the separate 'Graduate School Faculty' block on the same page is a shorter featured list that includes Adams but not Yip)."}
+  ],
+  "unmatched_core_authors": [],
+  "problems": ["Only 3 relevant authors, all peripheral direction B; Adarsh Rajesh not on the GSBS faculty list (likely trainee)."]
+}

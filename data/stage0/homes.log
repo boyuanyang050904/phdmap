@@ -1,0 +1,73 @@
+authors 2338 homes 469
+REJECTED lineage roll-ups: [("Brigham and Women's Hospital", 'Tufts University', 'manual block'), ('Brookhaven College', 'Dallas County Community College District', 'manual block'), ('California NanoSystems Institute', 'University of California, Santa Barbara + University of California, Los Angeles', 'ambiguous'), ('Center for Theoretical Biological Physics', 'Northeastern University + Baylor College of Medicine + University of Houston + Rice University', 'ambiguous'), ('Chan Zuckerberg Biohub Chicago', 'Northwestern University + University of Illinois Urbana-Champaign + University of Chicago', 'ambiguous'), ('Chan Zuckerberg Biohub New York', 'Yale University + Columbia University + Rockefeller University', 'ambiguous'), ('Chan Zuckerberg Biohub San Francisco', 'University of California, San Francisco + University of California, Berkeley + Stanford University', 'ambiguous'), ('Dana-Farber Brigham Cancer Center', 'Tufts University', 'manual block'), ('Innovative Genomics Institute', 'University of California, San Francisco + University of California, Berkeley', 'ambiguous'), ('Institute for Bioscience and Biotechnology Research', 'University of Maryland, Baltimore + University of Maryland, College Park', 'ambiguous'), ('QB3', 'University of California, San Francisco + University of California, Santa Cruz + University of California, Berkeley', 'ambiguous'), ('Ragon Institute of MGH, MIT and Harvard', 'Harvard University + Massachusetts Institute of Technology', 'ambiguous'), ('The Wallace H. Coulter Department of Biomedical Engineering', 'Georgia Institute of Technology + Emory University', 'ambiguous'), ('Virginia–Maryland College of Veterinary Medicine', 'University of Maryland, College Park + Virginia Tech', 'ambiguous')]
+Counter({'education': 275, 'company': 71, 'healthcare': 38, 'facility': 38, 'nonprofit': 32, 'government': 11, 'funder': 2, 'other': 1, 'archive': 1})
+ 51  62 |  27  55  education  Harvard University
+ 27  19 |  27  46  education  Massachusetts Institute of Technology
+ 27  24 |  20  40  education  Stanford University
+ 31  26 |   7  10  education  University of Pennsylvania
+  9  11 |  25  21  education  University of Washington
+ 16  19 |  11  12  education  Yale University
+ 15   8 |   9   4  education  Vanderbilt University
+ 17  14 |   7  26  education  University of Chicago
+ 14   6 |   8  17  education  Columbia University
+  9   7 |  13   9  education  University of California San Diego
+  9  11 |  12  12  education  Johns Hopkins University
+  3   4 |  15  20  education  University of California, Berkeley
+ 13  24 |   5  11  education  University of Michigan
+  7   6 |  10   7  education  Duke University
+  9   9 |   8  12  education  University of California, San Francisco
+ 10   6 |   6  11  education  New York University
+ 12  10 |   4   7  education  Icahn School of Medicine at Mount Sinai
+ 11  11 |   2  11  education  University of California, Los Angeles
+  5  13 |   8   8  education  University of Pittsburgh
+ 12   2 |   1   4  education  Indiana University
+  1  11 |  11  12  education  Cornell University
+ 11   6 |   1   3  education  University of Southern California
+  1   2 |  10  10  education  University of Missouri
+  5  10 |   6   9  education  Carnegie Mellon University
+  8  16 |   3   9  education  University of North Carolina at Chapel Hill
+  5   9 |   6   9  government National Institutes of Health
+  4   2 |   6   3  education  Northwestern University
+  4   4 |   6   4  education  The University of Texas at Austin
+  4   6 |   6   1  education  Michigan State University
+  8   4 |   2   4  education  Boston University
+  6   7 |   3  11  education  University of Wisconsin–Madison
+  1   3 |   8   9  education  California Institute of Technology
+  3  12 |   6   8  education  The University of Texas Health Science Center at Houston
+  1   2 |   8  10  education  Georgia Institute of Technology
+  0   6 |   9  17  education  University of Illinois Urbana-Champaign
+  4   7 |   4   1  education  University of Maryland, Baltimore
+  5   4 |   3   9  education  The Ohio State University
+  4   2 |   4   8  education  Pennsylvania State University
+  4   4 |   4   9  education  University of Virginia
+  7   6 |   1   5  education  Case Western Reserve University
+  4   1 |   4   5  nonprofit  Scripps Research Institute
+  2   4 |   6   8  education  Rutgers, The State University of New Jersey
+  6  11 |   1   3  education  University of Minnesota
+  3   7 |   4  10  education  Texas A&M University
+  1   1 |   6   3  education  Iowa State University
+  5   3 |   2   1  education  Virginia Commonwealth University
+  2   0 |   5   1  education  University of Maryland, College Park
+  6   5 |   0   3  education  University of Colorado Anschutz
+  0   3 |   6   7  education  Princeton University
+  2   5 |   4  11  education  University of Georgia
+  1   0 |   5   2  education  University of Kansas
+  0   0 |   6   6  education  University of California, Davis
+  0   8 |   5  15  company    Genentech
+  4   5 |   1   3  education  Washington University in St. Louis
+  4   7 |   1   9  education  Emory University
+  0   2 |   5  10  education  Rice University
+  3   2 |   2   7  education  University of Miami
+  3   7 |   2   4  education  Purdue University West Lafayette
+  4   3 |   1   5  government National Cancer Institute
+  2   1 |   2   3  education  Oregon Health & Science University
+  2  13 |   2  12  education  University of Florida
+  2   0 |   2   5  education  Innovative Genomics Institute
+  4   9 |   0   4  nonprofit  Broad Institute
+  0   7 |   4   6  education  Virginia Tech
+  4   3 |   0   3  healthcare The University of Texas MD Anderson Cancer Center
+  0   3 |   4   3  education  Albert Einstein College of Medicine
+  2   4 |   2   2  education  Brown University
+  4   3 |   0   0  facility   Division of Cancer Epidemiology and Genetics
+  3   1 |   1   0  healthcare St. Jude Children's Research Hospital
+  0   0 |   4   8  education  Northeastern University

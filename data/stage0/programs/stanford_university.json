@@ -1,0 +1,415 @@
+{
+ "institution": "Stanford University",
+ "checked_at": "2026-11-03T08:55:23Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://biosciences.stanford.edu/program-overview/",
+  "quote": "the Biosciences PhD Programs combine the supportive atmosphere of a small program with the many opportunities afforded by a large umbrella program"
+ },
+ "programs": [
+  {
+   "program_name": "Genetics (Stanford Biosciences Home Program)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Stanford Biosciences PhD Programs",
+   "program_url": "https://biosciences.stanford.edu/program-overview/",
+   "phd_evidence_quote": "the Biosciences PhD Programs combine the supportive atmosphere of a small program with the many opportunities afforded by a large umbrella program",
+   "faculty_list_urls": [
+    {
+     "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/#?program=Genetics",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "J Engreitz",
+    "Jonathan K. Pritchard",
+    "Livnat Jerby‐Arnon",
+    "Anne Brunet",
+    "Xiaojie Qiu",
+    "Michael P. Snyder",
+    "Euan Angus Ashley",
+    "Alexander G. Ioannidis",
+    "Russ Biagio Altman",
+    "Stephen B. Montgomery",
+    "Le Cong",
+    "Alice Y. Ting"
+   ],
+   "notes": "Overview page: 'Each student is admitted to a particular Home Program'; Genetics is one of 'The 14 Home Programs'. Xiaojing J. Gao matched by the tool here only via institution-like OpenAlex aliases ('Stanford University. School of Medicine.' etc.); name not on page, removed."
+  },
+  {
+   "program_name": "Biomedical Data Science (Stanford Biosciences Home Program)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Stanford Biosciences PhD Programs",
+   "program_url": "https://biosciences.stanford.edu/program-overview/",
+   "phd_evidence_quote": "the Biosciences PhD Programs combine the supportive atmosphere of a small program with the many opportunities afforded by a large umbrella program",
+   "faculty_list_urls": [
+    {
+     "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Biomedical%20Data%20Science#?program=Biomedical%20Data%20Science",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Zihuai He",
+    "James Zou",
+    "Wing Hung Wong",
+    "Euan Angus Ashley",
+    "Manuel A. Rivas",
+    "Alexander G. Ioannidis",
+    "Chiara Sabatti",
+    "Russ Biagio Altman",
+    "Robert John Tibshirani",
+    "Stephen B. Montgomery",
+    "Nigam Haresh Shah"
+   ],
+   "notes": "Overview: 'The Biomedical Data Science (BDS) Graduate Home Program trains research leaders who design, implement, and evaluate novel quantitative and computational methods'. Dept site: https://dbds.stanford.edu/biomedical-data-science-graduate-program-overview/ (not fetched). Xiaojing J. Gao matched by the tool here only via institution-like OpenAlex aliases ('Stanford University. School of Medicine.' etc.); name not on page, removed."
+  },
+  {
+   "program_name": "Biophysics (Stanford Biosciences Home Program)",
+   "degree": "PhD",
+   "discipline": "biophysics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Stanford Biosciences PhD Programs",
+   "program_url": "https://biosciences.stanford.edu/program-overview/",
+   "phd_evidence_quote": "the Biosciences PhD Programs combine the supportive atmosphere of a small program with the many opportunities afforded by a large umbrella program",
+   "faculty_list_urls": [
+    {
+     "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Biophysics#?program=Biophysics",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Anne Brunet",
+    "Xiaojie Qiu",
+    "Michael P. Snyder",
+    "Russ Biagio Altman",
+    "Brian Hie",
+    "Peter S. Kim",
+    "Xiaojing J. Gao",
+    "Po‐Ssu Huang",
+    "Grant M. Rotskoff",
+    "K. Christopher García",
+    "Emma K. Lundberg",
+    "Alice Y. Ting",
+    "Ron O. Dror",
+    "Rhiju Das",
+    "Wah Chiu"
+   ],
+   "notes": "Gao verified on page ('Xiaojing Gao'). Peter S. Kim appears as two OpenAlex author records, listed once."
+  },
+  {
+   "program_name": "Biochemistry (Stanford Biosciences Home Program)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Stanford Biosciences PhD Programs",
+   "program_url": "https://biosciences.stanford.edu/program-overview/",
+   "phd_evidence_quote": "the Biosciences PhD Programs combine the supportive atmosphere of a small program with the many opportunities afforded by a large umbrella program",
+   "faculty_list_urls": [
+    {
+     "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Biochemistry#?program=Biochemistry",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Peter S. Kim",
+    "Silvana Konermann",
+    "Rhiju Das"
+   ],
+   "notes": "Xiaojing J. Gao matched by the tool here only via institution-like OpenAlex aliases ('Stanford University. School of Medicine.' etc.); name not on page, removed."
+  },
+  {
+   "program_name": "Structural Biology (Stanford Biosciences Home Program)",
+   "degree": "PhD",
+   "discipline": "biophysics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Stanford Biosciences PhD Programs",
+   "program_url": "https://biosciences.stanford.edu/program-overview/",
+   "phd_evidence_quote": "the Biosciences PhD Programs combine the supportive atmosphere of a small program with the many opportunities afforded by a large umbrella program",
+   "faculty_list_urls": [
+    {
+     "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Structural%20Biology#?program=Structural%20Biology",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "K. Christopher García"
+   ],
+   "notes": "Xiaojing J. Gao matched by the tool here only via institution-like OpenAlex aliases ('Stanford University. School of Medicine.' etc.); name not on page, removed."
+  },
+  {
+   "program_name": "Immunology (Stanford Biosciences Home Program)",
+   "degree": "PhD",
+   "discipline": "other:immunology",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Stanford Biosciences PhD Programs",
+   "program_url": "https://biosciences.stanford.edu/program-overview/",
+   "phd_evidence_quote": "We offer two tracks: Molecular, Cellular, and Translational Immunology (MCTI) and Computational and Systems Immunology (CSI). Our Ph.D. curriculum includes lab and foundation courses",
+   "faculty_list_urls": [
+    {
+     "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Immunology#?program=Immunology",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Livnat Jerby‐Arnon",
+    "Michael P. Snyder",
+    "Peter S. Kim",
+    "K. Christopher García"
+   ],
+   "notes": "Relevant via its Computational and Systems Immunology (CSI) track. Xiaojing J. Gao matched by the tool here only via institution-like OpenAlex aliases ('Stanford University. School of Medicine.' etc.); name not on page, removed."
+  },
+  {
+   "program_name": "Bioengineering PhD",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://biosciences.stanford.edu/program-overview/",
+   "phd_evidence_quote": "Study for the PhD in Bioengineering combines rigorous coursework with novel research mentored by Stanford faculty",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioengineering.stanford.edu/people/faculty",
+     "render": false
+    },
+    {
+     "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Bioengineering#?program=Bioengineering",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Russ Biagio Altman",
+    "Po‐Ssu Huang",
+    "Michael C. Jewett",
+    "Emma K. Lundberg",
+    "Wah Chiu"
+   ],
+   "notes": "Listed in Biosciences faculty DB but with separate admissions (DB page: 'Not all of the programs listed in the dropdown menu below share the same admissions process' ... Bioengineering). Joint SoM/SoE department. Xiaojing J. Gao matched by the tool here only via institution-like OpenAlex aliases ('Stanford University. School of Medicine.' etc.); name not on page, removed."
+  },
+  {
+   "program_name": "Epidemiology and Clinical Research PhD",
+   "degree": "PhD",
+   "discipline": "other:epidemiology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://biosciences.stanford.edu/program-overview/",
+   "phd_evidence_quote": "The PhD program in epidemiology and clinical research will provide methodologic and interdisciplinary training",
+   "faculty_list_urls": [
+    {
+     "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Epidemiology%20and%20Clinical%20Research#?program=Epidemiology%20and%20Clinical%20Research",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Linda Kachuri"
+   ],
+   "notes": "Separate admissions from the Biosciences home programs (per DB page note). Xiaojing J. Gao matched by the tool here only via institution-like OpenAlex aliases ('Stanford University. School of Medicine.' etc.); name not on page, removed."
+  },
+  {
+   "program_name": "Statistics PhD",
+   "degree": "PhD",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://statistics.stanford.edu/academic-programs/graduate-programs/phd-program",
+   "phd_evidence_quote": "Advanced undergraduate or masters level work in mathematics and statistics will provide a good background for the doctoral program.",
+   "faculty_list_urls": [
+    {
+     "url": "https://statistics.stanford.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Wing Hung Wong",
+    "Chiara Sabatti",
+    "Trevor J. Hastie",
+    "Robert John Tibshirani",
+    "Emmanuel J. Candès"
+   ],
+   "notes": "Page also says 'the department has expanded its research and educational activities towards computational biology'."
+  },
+  {
+   "program_name": "Computer Science PhD",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cs.stanford.edu/phd-program-overview",
+   "phd_evidence_quote": "The PhD degree is intended primarily for students who desire a career in research, advanced development, or teaching.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cs.stanford.edu/people-cs/faculty-name",
+     "render": false
+    },
+    {
+     "url": "https://www.cs.stanford.edu/people-cs/faculty-research/biomedicine-and-health",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "James Zou",
+    "Jure Leskovec",
+    "Stephen B. Montgomery",
+    "Yejin Choi",
+    "Ron O. Dror"
+   ],
+   "notes": "https://www.cs.stanford.edu/people/faculty is a partial list (no Leskovec/Zou); faculty-name page is complete. Montgomery likely courtesy/affiliated listing."
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://chemistry.stanford.edu/academics/about-phd-program",
+   "phd_evidence_quote": "Doctoral study in chemistry at Stanford University prepares students for research and teaching careers",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.stanford.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Grant M. Rotskoff"
+   ],
+   "notes": ""
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Philip S. Tsao",
+   "program_found": "Bioengineering (PhD Program)",
+   "evidence_url": "https://profiles.stanford.edu/philip-tsao",
+   "note": "Profile lists 'Bioengineering (PhD Program)' under program affiliations; 'Professor (Research) of Medicine (Cardiovascular Medicine)'. Not on the Bioengineering faculty lists."
+  },
+  {
+   "name": "William E. Allen",
+   "program_found": null,
+   "evidence_url": "https://profiles.stanford.edu/william-allen",
+   "note": "Profile: 'Assistant Professor of Developmental Biology'; no PhD-program affiliation listed; not in Developmental Biology home-program DB list (rendered)."
+  },
+  {
+   "name": "Carlos D. Bustamante",
+   "program_found": null,
+   "evidence_url": "https://profiles.stanford.edu/carlos-bustamante",
+   "note": "Profile shows only 'Faculty Affiliate'; no PhD program listed."
+  },
+  {
+   "name": "Romain Lopez",
+   "program_found": null,
+   "evidence_url": "https://profiles.stanford.edu/romain-lopez",
+   "note": "Profile: 'joint postdoctoral scholar at Stanford University and Genentech' - not faculty."
+  },
+  {
+   "name": "Jeffrey P. Spence",
+   "program_found": null,
+   "evidence_url": "https://profiles.stanford.edu/jeffrey-spence",
+   "note": "Profile fetched; no title/program affiliation found."
+  },
+  {
+   "name": "Themistocles L. Assimes",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "https://profiles.stanford.edu/themistocles-assimes returned 404; not on any matched program list."
+  },
+  {
+   "name": "Mineto Ota",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Alexander Marson",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Qiao Liu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Yusuf Roohani",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Benjamin F. Voight",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Bruna Gomes",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Sai Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Arun P. Wiita",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Tanja Kortemme",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Eric Horvitz",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Alp Tartici",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "David Juergens",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Caleb A. Lareau",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Gowri Nayar",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  },
+  {
+   "name": "Zaixi Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (6-profile cap); OpenAlex last_known suggests not Stanford faculty or a trainee."
+  }
+ ],
+ "problems": [
+  "Biosciences faculty DB is JS-filtered by URL fragment; tool cache ignores fragments, so a matching ?program= query was added to each URL (render=True) to get distinct pages.",
+  "Tool false positive: Xiaojing J. Gao has institution-like OpenAlex aliases and 'matches' on every Stanford page; kept only where 'Xiaojing Gao' actually appears (Biophysics).",
+  "Home-program individual websites (e.g. Genetics, Biophysics) not fetched; PhD evidence for home programs is from the Biosciences program-overview page.",
+  "Chemical and Systems Biology, Developmental Biology home programs checked: no genuine matches (skipped).",
+  "No separate Biostatistics PhD checked/found at Stanford; biostatistics faculty appear under Biomedical Data Science / Statistics."
+ ]
+}

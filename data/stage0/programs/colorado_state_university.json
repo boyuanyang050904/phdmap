@@ -1,0 +1,138 @@
+{
+ "institution": "Colorado State University",
+ "checked_at": "2026-11-03T09:02:22Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://graduateschool.colostate.edu/programs/cell-and-molecular-biology-phd/",
+  "quote": "Cell and Molecular Biology (Ph.D.)"
+ },
+ "programs": [
+  {
+   "program_name": "Cell and Molecular Biology (Ph.D.)",
+   "degree": "PhD",
+   "discipline": "other:cell_molecular_biology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduateschool.colostate.edu/programs/cell-and-molecular-biology-phd/",
+   "phd_evidence_quote": "Cell and Molecular Biology (Ph.D.)",
+   "faculty_list_urls": [
+    {
+     "url": "https://cmb.colostate.edu/about-us/faculty-directory/",
+     "render": false
+    },
+    {
+     "url": "https://cmb.colostate.edu/qcmb/qcmb-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Brian J. Geiss",
+    "Christopher Davis Snow",
+    "Asa Ben‐Hur",
+    "Timothy J. Stasevich"
+   ],
+   "notes": "Interdisciplinary (university-wide) program; catalog: https://catalog.colostate.edu/general-catalog/university-wide-programs/interdisciplinary-studies/cell-molecular-biology/phd/. Snow also on the qCMB (quantitative CMB) faculty list. A Cancer Biology specialization of the PhD is listed separately by the Graduate School."
+  },
+  {
+   "program_name": "Biochemistry (Ph.D.)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduateschool.colostate.edu/programs/biochemistry-phd/",
+   "phd_evidence_quote": "Biochemistry (Ph.D.)",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bmb.colostate.edu/about/people/",
+     "render": false
+    },
+    {
+     "url": "https://www.bmb.colostate.edu/research/faculty-profiles/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Christopher Davis Snow"
+   ],
+   "notes": "Department of Biochemistry and Molecular Biology. The BMB people page also lists 'Tim Stasevich' (Timothy J. Stasevich), which the name matcher did not catch (nickname)."
+  },
+  {
+   "program_name": "Bioengineering (Ph.D.)",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduateschool.colostate.edu/programs/bioengineering-phd/",
+   "phd_evidence_quote": "Bioengineering (Ph.D.)",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.engr.colostate.edu/sbme/faculty-directory/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Christopher Davis Snow"
+   ],
+   "notes": "School of Biomedical and Chemical Engineering (SBME); department site http://www.engr.colostate.edu/sbme/graduate-programs/. Faculty directory is JS-loaded (needs --render)."
+  },
+  {
+   "program_name": "Computer Science (Ph.D.)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduateschool.colostate.edu/programs/computer-science-phd/",
+   "phd_evidence_quote": "Computer Science (Ph.D.)",
+   "faculty_list_urls": [
+    {
+     "url": "https://compsci.colostate.edu/people/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Asa Ben‐Hur"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "Microbiology (Ph.D.)",
+   "degree": "PhD",
+   "discipline": "other:microbiology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduateschool.colostate.edu/programs/microbiology-phd/",
+   "phd_evidence_quote": "Microbiology (Ph.D.)",
+   "faculty_list_urls": [
+    {
+     "url": "https://vetmedbiosci.colostate.edu/mip/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Brian J. Geiss"
+   ],
+   "notes": "Department of Microbiology, Immunology and Pathology (College of Veterinary Medicine and Biomedical Sciences); department program page https://vetmedbiosci.colostate.edu/degree-programs/graduate/phd-microbiology/."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Nikita V. Pozdeyev",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known institutions are University of Colorado Cancer Center / CU Anschutz / CU Denver, not CSU; not found on any CSU faculty page fetched; no CSU profile sought."
+  },
+  {
+   "name": "Christopher R. Gignoux",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known institutions are CU Anschutz / CU Denver, not CSU; not found on any CSU faculty page fetched; no CSU profile sought."
+  }
+ ],
+ "problems": [
+  "PhD evidence quotes are the Graduate School program page headings ('<Program> (Ph.D.)').",
+  "Timothy J. Stasevich appears as 'Tim Stasevich' on https://www.bmb.colostate.edu/about/people/ but was not caught by the matcher there (matched on the CMB directory).",
+  "Chemistry (Ph.D.) (https://graduateschool.colostate.edu/programs/chemistry-phd/) and Statistics (Ph.D.) exist but their faculty pages were not checked; omitted.",
+  "Peripheral authors Pablo J Pinedo (A) and Yonghua Zhuang (B; last_known CU Anschutz) not matched; not pursued.",
+  "No biostatistics / genetics / computational-biology PhD at CSU was found in the Graduate School program listing searched (regex biochem|bioengineer|chemistry|computer science|cell and molecular|microbiolog|statistic|bioinformat|genetic)."
+ ]
+}

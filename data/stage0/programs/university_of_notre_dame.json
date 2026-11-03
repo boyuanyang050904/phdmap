@@ -1,0 +1,96 @@
+{
+ "institution": "University of Notre Dame",
+ "checked_at": "2026-11-03T09:00:00Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://graduateschool.nd.edu/degree-programs/computer-science-and-engineering-phd---doctoral/",
+  "quote": "Computer Science and Engineering: PhD"
+ },
+ "programs": [
+  {
+   "program_name": "Computer Science and Engineering PhD",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduateschool.nd.edu/degree-programs/computer-science-and-engineering-phd---doctoral/",
+   "phd_evidence_quote": "Computer Science and Engineering: PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://cse.nd.edu/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Danny Z. Chen"
+   ],
+   "notes": "Department graduate page https://cse.nd.edu/graduate/."
+  },
+  {
+   "program_name": "Biochemistry PhD",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduateschool.nd.edu/degree-programs/biochemistry-phd---doctoral/",
+   "phd_evidence_quote": "Biochemistry: PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.nd.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Francis J. Castellino"
+   ],
+   "notes": "Offered by the Department of Chemistry and Biochemistry (https://chemistry.nd.edu/graduate/); faculty list is the department directory shared with the Chemistry PhD."
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://graduateschool.nd.edu/degree-programs/chemistry-phd---doctoral/",
+   "phd_evidence_quote": "Chemistry: PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.nd.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Francis J. Castellino"
+   ],
+   "notes": "Same department (Chemistry and Biochemistry) and faculty directory as the Biochemistry PhD."
+  },
+  {
+   "program_name": "Ph.D. in Bioengineering",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://engineering.nd.edu/departments-programs/graduate-programs/phd-in-bioengineering/",
+   "phd_evidence_quote": "is an interdisciplinary program leading to the Ph.D. degree.",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.nd.edu/departments-programs/graduate-programs/phd-in-bioengineering/",
+     "render": false
+    },
+    {
+     "url": "https://engineering.nd.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Graduate School listing: 'Bioengineering: PhD' (https://graduateschool.nd.edu/degree-programs/bioengineering-phd---doctoral/). No dedicated bioengineering faculty roster found; the program page and the all-College engineering faculty page matched no relevant authors."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "No dedicated Bioengineering PhD faculty roster found (only https://engineering.nd.edu/faculty/, which appears paginated/partial, text_len ~12k).",
+  "Peripheral authors Yalin Wang (A), Wei Wang (B), Enso O. Torres Alegre (B), Diana E. Mora Jiménez (B) not matched on CSE, Chemistry & Biochemistry, Biological Sciences (https://biology.nd.edu/people/faculty/), ACMS (https://acms.nd.edu/people/faculty/) or Engineering faculty pages; not pursued (peripheral; several may be students/postdocs or have moved, per OpenAlex last_known lists).",
+  "PhD evidence quotes for Notre Dame programs are the Graduate School degree-program page headings ('<Program>: PhD').",
+  "Biological Sciences PhD and Applied and Computational Mathematics and Statistics PhD exist but matched no relevant authors; omitted."
+ ]
+}

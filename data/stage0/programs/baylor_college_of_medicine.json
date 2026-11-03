@@ -1,0 +1,41 @@
+{
+  "institution": "Baylor College of Medicine",
+  "institution_kind": "university",
+  "checked_at": "2026-11-03T08:58:55Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates", "quote": "The Graduate School of Biomedical Sciences offers 7 interdisciplinary Ph.D. programs, 2 physician scientist training programs, a Master's Program, a Graduate Certificate Program and a post-baccalaureate programs."},
+  "programs": [
+    {"program_name": "Quantitative & Computational Biosciences Graduate Program", "degree": "PhD", "discipline": "comp_bio", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/quantitative-computational-biosciences",
+     "phd_evidence_quote": "The Graduate School of Biomedical Sciences offers 7 interdisciplinary Ph.D. programs",
+     "faculty_list_urls": [{"url": "https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/quantitative-computational-biosciences/faculty", "render": false}],
+     "matched_authors": ["Zhandong Liu", "Chad A. Shaw", "Juan Botas", "José N. Onuchic"],
+     "notes": "PhD status from the GSBS degree-programs page (QCB is one of the 7 Ph.D. programs listed there); the QCB pages themselves describe coursework but not the degree name. Curriculum page: 'Computational biology was a novel concept in 1992 when the QCB program started under its original name \"Structural and Computational Biology and Molecular Biophysics.\"' Program draws faculty from seven institutions incl. Rice University, which explains José N. Onuchic (Rice/CTBP)."},
+    {"program_name": "Genetics & Genomics Graduate Program", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/genetics-genomics",
+     "phd_evidence_quote": "The Graduate School of Biomedical Sciences offers 7 interdisciplinary Ph.D. programs",
+     "faculty_list_urls": [{"url": "https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/genetics-genomics/faculty", "render": false}],
+     "matched_authors": ["Zhandong Liu", "Juan Botas"],
+     "notes": "Curriculum page (https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/genetics-genomics/curriculum) describes the BiGSB track: 'If you are interested in focusing your graduate training on bioinformatics, genomics and/or systems biology ... consider the BiGSB (pronounced 'BigsBee') track.' Students apply to Genetics & Genomics and indicate BiGSB interest."},
+    {"program_name": "Chemical, Physical & Structural Biology Graduate Program", "degree": "PhD", "discipline": "biophysics", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/chemical-physical-structural-biology",
+     "phd_evidence_quote": "Thesis projects normally take three-five years to complete—about the national average—and serve as the basis for high-quality, peer-reviewed publications and for the Ph.D. dissertation.",
+     "faculty_list_urls": [{"url": "https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/chemical-physical-structural-biology/faculty", "render": false}],
+     "matched_authors": [],
+     "notes": "Quote from https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/chemical-physical-structural-biology/curriculum. Program offers training in 'structural biology, and protein design and engineering' (direction B core type); no matched authors."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "J Engreitz", "program_found": null, "evidence_url": null, "note": "OpenAlex last_known: Broad Institute / Stanford Medicine; not a BCM faculty member per program lists; not pursued."},
+    {"name": "Yogesh Goyal", "program_found": null, "evidence_url": null, "note": "OpenAlex last_known: Northwestern University; not on BCM program faculty lists; not pursued."},
+    {"name": "Chong Wu", "program_found": null, "evidence_url": null, "note": "OpenAlex last_known: MD Anderson; not on BCM program faculty lists."},
+    {"name": "Zhongming Zhao", "program_found": null, "evidence_url": null, "note": "OpenAlex last_known: MD Anderson / UTHealth Houston / Vanderbilt; not on BCM program faculty lists."},
+    {"name": "Arjun Bhattacharya", "program_found": null, "evidence_url": null, "note": "OpenAlex last_known: MD Anderson; not on BCM program faculty lists."},
+    {"name": "Yunlong Liu", "program_found": null, "evidence_url": null, "note": "OpenAlex last_known: MD Anderson / GOSH / SickKids; not on BCM program faculty lists."},
+    {"name": "Yutaka Yasui", "program_found": null, "evidence_url": null, "note": "OpenAlex last_known: St. Jude / MD Anderson / Alberta; not on BCM program faculty lists."},
+    {"name": "Ryan Sun", "program_found": null, "evidence_url": null, "note": "OpenAlex last_known: MD Anderson; not on BCM program faculty lists."}
+  ],
+  "problems": ["All 'core' authors returned for BCM have non-BCM last_known institutions (mostly MD Anderson / UTHealth, Broad, Northwestern); none appear on BCM QCB, Genetics & Genomics, CPSB, Cancer & Cell Biology or DDMT faculty lists. Individual profiles not searched since they are not BCM faculty.", "Cancer & Cell Biology (https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/cancer-cell-biology/faculty) and Development, Disease Models & Therapeutics (https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates/development-disease-models-therapeutics-graduate-program/faculty) faculty pages checked: 0 matches, so not recorded as programs.", "No program-specific 'Ph.D.' sentence on the QCB and Genetics & Genomics pages; PhD status taken from the GSBS-wide statement listing 7 Ph.D. programs."]
+}

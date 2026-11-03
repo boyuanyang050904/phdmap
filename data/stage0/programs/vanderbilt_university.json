@@ -1,0 +1,290 @@
+{
+ "institution": "Vanderbilt University",
+ "checked_at": "2026-11-03T08:53:28Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://engineering.vanderbilt.edu/academics/graduate/",
+  "quote": "Research-oriented Master of Science (M.S.) and Doctor of Philosophy (Ph.D.) degrees are offered through the Graduate School"
+ },
+ "programs": [
+  {
+   "program_name": "Human Genetics PhD Program (HGEN)",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "IGP / QCB (Vanderbilt biomedical PhD pathways)",
+   "program_url": "https://medschool.vanderbilt.edu/humangenetics/",
+   "phd_evidence_quote": "The Human Genetics PhD Program at Vanderbilt prepares students to lead in this evolving research landscape.",
+   "faculty_list_urls": [
+    {
+     "url": "https://medschool.vanderbilt.edu/humangenetics/hgen-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Eric R. Gamazon",
+    "Bingshan Li",
+    "Todd L. Edwards",
+    "Alexander G. Bick",
+    "Jennifer Elizabeth Below",
+    "Ran Tao",
+    "Quinn Stanton Wells",
+    "Nancy Jean Cox",
+    "Jibril B Hirbo"
+   ],
+   "notes": "'Program in Human Genetics' is listed among the eleven QCB participating programs (https://medschool.vanderbilt.edu/qcb/qcb-training-programs/).",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "Biostatistics PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "program_url": "https://www.vanderbilt.edu/biostatistics-graduate/doctor-of-philosophy/",
+   "phd_evidence_quote": "The PhD program equips students with knowledge and skills to develop and apply statistical methodology to the fields of healthcare and life sciences.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.vanderbilt.edu/biostatistics-graduate/graduate-and-teaching-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Ran Tao",
+    "Shilin Zhao",
+    "Qi Liu",
+    "Yu Shyr"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "MS and PhD in Biomedical Informatics (Research MS and PhD Program)",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://medschool.vanderbilt.edu/biomedical-informatics/research-ms-and-phd-program/",
+   "phd_evidence_quote": "The MS and PhD in Biomedical Informatics is an internationally recognized research program in which students actively engage in high quality research mentored by 60+ faculty from the Department of Biomedical Informatics (DBMI).",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.vumc.org/dbmi/person/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jonathan D. Mosley",
+    "Zhongming Zhao",
+    "Xingyi Guo",
+    "QiPing Feng",
+    "Quinn Stanton Wells",
+    "Qi Liu",
+    "Yu Shyr",
+    "Ivelin S. Georgiev"
+   ],
+   "notes": "Faculty page is the VUMC DBMI faculty directory (primary + other listed faculty); it lists 'Zhongming Zhao' although OpenAlex last-known affiliations point to UTHealth Houston.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemical and Physical Biology Program (CPB)",
+   "discipline": "biophysics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "IGP / QCB (Vanderbilt biomedical PhD pathways)",
+   "program_url": "https://medschool.vanderbilt.edu/cpb/",
+   "phd_evidence_quote": "Quantitative and Chemical Biology is a transinstitutional first-year graduate pathway designed for students who wish to pursue a doctoral degree ... (CPB is listed as a participating program: 'Program in Chemical & Physical Biology')",
+   "faculty_list_urls": [
+    {
+     "url": "https://medschool.vanderbilt.edu/cpb/cpb-faculty-mentors-and-training-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Ken S. Lau",
+    "Jens Meiler",
+    "Ivelin S. Georgiev",
+    "Douglas A. Mitchell"
+   ],
+   "notes": "Tracks include structural biology and molecular biophysics, chemical biology, systems biology (faculty leadership page). PhD evidence from https://medschool.vanderbilt.edu/qcb/qcb-program-overview/ and https://medschool.vanderbilt.edu/qcb/qcb-training-programs/.",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "Biochemistry (graduate program, Department of Biochemistry)",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "IGP / QCB (Vanderbilt biomedical PhD pathways)",
+   "program_url": "https://medschool.vanderbilt.edu/biochemistry/postdocs/graduate-student-application/",
+   "phd_evidence_quote": "Biochemistry graduate students typically enter through the Interdisciplinary Graduate Pathway (IGP), the Quantitative and Chemical Biology Pathway (QCBP), or the Medical Scientists Training Program (MSTP). More information about these PhD programs",
+   "faculty_list_urls": [
+    {
+     "url": "https://medschool.vanderbilt.edu/biochemistry/faculty/primary-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Ivelin S. Georgiev",
+    "Steven M. Damo",
+    "Joseph E. Deweese"
+   ],
+   "notes": "",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "Molecular Physiology and Biophysics Graduate Program (MPB)",
+   "discipline": "biophysics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "IGP / QCB (Vanderbilt biomedical PhD pathways)",
+   "program_url": "https://medschool.vanderbilt.edu/mpb/the-mpb-graduate-program/",
+   "phd_evidence_quote": "(QCB) 'students will join their research lab and select a training program in one of the following eleven participating programs' ... 'Department of Molecular Physiology & Biophysics'",
+   "faculty_list_urls": [
+    {
+     "url": "https://medschool.vanderbilt.edu/mpb/primary-faculty-by-rank/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Bingshan Li",
+    "Hassane S. Mchaourab",
+    "Antentor Othrell Hinton Jr."
+   ],
+   "notes": "MPB program page itself has no explicit 'PhD' wording; PhD status taken from QCB pages (doctoral pathway; MPB listed as participating department). Faculty list is JS-rendered.",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://as.vanderbilt.edu/chemistry/phd-requirements/",
+   "phd_evidence_quote": "The chemistry Ph.D. program is designed to emphasize the importance of research and advanced critical thinking in graduate study",
+   "faculty_list_urls": [
+    {
+     "url": "https://as.vanderbilt.edu/chemistry/faculty/?group=primary-faculty",
+     "render": false
+    },
+    {
+     "url": "https://as.vanderbilt.edu/chemistry/faculty/?group=secondary-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Zhongyue John Yang",
+    "Douglas A. Mitchell",
+    "Hassane S. Mchaourab"
+   ],
+   "notes": "Mchaourab appears on the secondary-faculty list.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://engineering.vanderbilt.edu/departments/biomedical-engineering/",
+   "phd_evidence_quote": "Our M.Eng., M.S. and Ph.D. degrees provide advanced education and research training in many areas with emphasis on the interface between engineering, physical computing and mathematical sciences, and biology.",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.vanderbilt.edu/people/biomedical-engineering/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Core B-type program; no relevant authors matched.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Interdisciplinary Graduate Pathway / Quantitative and Chemical Biology Pathway (BRET umbrella training faculty)",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://medschool.vanderbilt.edu/igp/igp-program-overview/",
+   "phd_evidence_quote": "This pathway to entry into the Ph.D. programs in the Biological and Biomedical Sciences at Vanderbilt is designed to provide a personalized, flexible approach",
+   "faculty_list_urls": [
+    {
+     "url": "https://wag.app.vanderbilt.edu/publicpage/faculty/BRETUmbrella",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Eric R. Gamazon",
+    "Ken S. Lau",
+    "Sandra S. Zinkel",
+    "Todd L. Edwards",
+    "Alexander G. Bick",
+    "Jennifer Elizabeth Below",
+    "Hassane S. Mchaourab",
+    "Ivelin S. Georgiev",
+    "Douglas A. Mitchell",
+    "Jing‐Qiong Kang",
+    "Antentor Othrell Hinton Jr."
+   ],
+   "notes": "Umbrella admission pathways (IGP and QCB) into the participating PhD programs (HGEN, CPB, Biochemistry, MPB, Pharmacology, etc.); the shared Training Faculty list is linked from both IGP and QCB pages.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "John A. Capra",
+   "program_found": null,
+   "evidence_url": "https://www.vumc.org/dbmi/person/john-anthony-tony-capra-phd",
+   "note": "VUMC DBMI profile page still exists (Research Associate Professor / Assistant Professor) but he is not on the current DBMI faculty list; OpenAlex last-known UCSF. No graduate program stated."
+  },
+  {
+   "name": "Adriana M. Hung",
+   "program_found": null,
+   "evidence_url": "https://medicine.vumc.org/department-directory/Adriana-Hung",
+   "note": "Nephrologist/epidemiologist profile; says she taught genetic epidemiology to graduate students but names no PhD program membership."
+  },
+  {
+   "name": "Lea Karatheodoris Davis",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on HGEN, DBMI, BRET or CPB faculty lists; guessed directory URL returned a generic page. OpenAlex last-known includes New York Genome Center (possible move). Profile not located (WebSearch budget exhausted)."
+  },
+  {
+   "name": "Stephanie A. M. Wankowicz",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on CPB, MPB (rendered), Biochemistry, Chemistry or BRET lists; profile not located (WebSearch budget exhausted)."
+  },
+  {
+   "name": "Jared Phillips",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched program list (BRET list has only 'Phillips, Elizabeth J.')."
+  },
+  {
+   "name": "Eric V Strobl",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched list; OpenAlex last-known University of Pittsburgh."
+  },
+  {
+   "name": "Doug Stubbs",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (anesthesiology; limit of 6 profile checks)."
+  },
+  {
+   "name": "Miklos David Kertai",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (anesthesiology; limit of 6)."
+  },
+  {
+   "name": "Giovanni Davogustto",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked (cardiology; limit of 6)."
+  },
+  {
+   "name": "Zhaoqian Su",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked; likely non-faculty researcher (no listing found)."
+  }
+ ],
+ "problems": [
+  "medsites.vumc.org (Vanderbilt Genetics Institute HGEN pages incl. 'human-genetics-program-training-faculty') returned HTTP 403 Access denied, plain and rendered; used medschool.vanderbilt.edu/humangenetics pages instead.",
+  "MPB faculty lists are JS-built (0 names plain); matched with --render.",
+  "Computer Science PhD (https://engineering.vanderbilt.edu/people/computer-science/) checked: 0 relevant authors matched; not recorded as a program.",
+  "WebSearch budget exhausted mid-institution; remaining profile lookups limited to navigable/guessed official URLs.",
+  "'Alzheimer’s Disease Neuroimaging Initiative' is a consortium author, ignored."
+ ]
+}

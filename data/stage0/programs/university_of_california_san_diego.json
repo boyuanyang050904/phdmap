@@ -1,0 +1,232 @@
+{
+ "institution": "University of California San Diego",
+ "checked_at": "2026-11-03T08:57:37Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://bioinformatics.ucsd.edu/admissions/grad/admissions",
+  "quote": "This is a full-time PhD program. Students are admitted as full-time PhD students."
+ },
+ "programs": [
+  {
+   "program_name": "Bioinformatics and Systems Biology Graduate Program (BISB / BMI tracks)",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://bioinformatics.ucsd.edu/",
+   "phd_evidence_quote": "Thank you for your interest in the Bioinformatics & Systems Biology Graduate Program at UC San Diego. This is a full-time PhD program.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioinformatics.ucsd.edu/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Prashant Mali",
+    "Hannah K. Carter",
+    "Trey E. Ideker",
+    "Alejandro Chavez",
+    "Melissa Gymrek",
+    "Tiffany Amariuta",
+    "Abraham A. Palmer",
+    "Carolina Makowski",
+    "Wei Wang",
+    "Neville P. Bethel",
+    "Adrián Jinich",
+    "Gene Wei-Ming Yeo",
+    "Michael K. Gilson"
+   ],
+   "notes": "Applicants choose a track: Bioinformatics & Systems Biology (BISB) or Biomedical Informatics (BMI) (https://bioinformatics.ucsd.edu/admissions/grad/track). PhD evidence from https://bioinformatics.ucsd.edu/admissions/grad/admissions.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biostatistics PhD (Herbert Wertheim School of Public Health)",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "program_url": "https://ph.ucsd.edu/phd/biostat/index.html",
+   "phd_evidence_quote": "The Teaching Division of Biostatistics and Bioinformatics at the UC San Diego Herbert Wertheim School of Public Health and Human Longevity Science offers a Master of Science and a Doctor of Philosophy in Biostatistics.",
+   "faculty_list_urls": [
+    {
+     "url": "https://ph.ucsd.edu/phd/biostat/faculty-phd/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Armin Schwartzman"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Sciences (BMS) PhD Program",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "http://biomedsci.ucsd.edu/about/index.html",
+   "phd_evidence_quote": "The Biomedical Sciences (BMS) Ph.D. program is sponsored by UC San Diego Health Sciences. ... BMS is now the umbrella graduate program with participating faculty members from every Department in the UC San Diego School of Medicine",
+   "faculty_list_urls": [
+    {
+     "url": "https://biomedsci.ucsd.edu/training-areas/comp-sys-bio.html",
+     "render": false
+    },
+    {
+     "url": "https://biomedsci.ucsd.edu/training-areas/genetics-genomics.html",
+     "render": false
+    },
+    {
+     "url": "https://biomedsci.ucsd.edu/training-areas/struc-chem-bio.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Gene Wei-Ming Yeo"
+   ],
+   "notes": "Training areas include Computational Biology and Data Science, Genetics and Genomics, Molecular and Structural Biology. The full faculty directory (http://biomedsci-db.ucsd.edu/faculty_index) is blocked by robots.txt, so matches are only from the training-area pages (partial).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Bioengineering PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://bioengineering.ucsd.edu/grad/programs",
+   "phd_evidence_quote": "The graduate program offers the M.Eng., M.S., and Ph.D. degrees, and the curriculum is oriented toward a biomedical engineering career and leadership in academia or industry.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioengineering.ucsd.edu/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Prashant Mali",
+    "Trey E. Ideker",
+    "Pengtao Xie",
+    "Tyler M. Seibert",
+    "Gene Wei-Ming Yeo"
+   ],
+   "notes": "Pengtao Xie appears twice in the author list (A and B entries).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry PhD (Department of Chemistry and Biochemistry)",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://chemistry.ucsd.edu/graduate-program/doctoral-program",
+   "phd_evidence_quote": "The goal of the Chemistry PhD is to prepare students for careers in science as researchers and educators",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.ucsd.edu/faculty/alphabetical",
+     "render": false
+    },
+    {
+     "url": "https://chemistry.ucsd.edu/faculty/adjunct",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Francesco Paesani"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Computer Science and Engineering PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://cse.ucsd.edu/graduate/degree-programs/phd",
+   "phd_evidence_quote": "CSE offers Doctor of Philosophy degrees in Computer Science and in Computer Engineering",
+   "faculty_list_urls": [
+    {
+     "url": "https://cse.ucsd.edu/people/faculty-profiles",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Trey E. Ideker",
+    "Melissa Gymrek",
+    "Tajana Simunic"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Neurosciences Graduate Program (NGP) PhD",
+   "discipline": "other:neuroscience",
+   "program_type": "independent",
+   "program_url": "https://neurograd.ucsd.edu/",
+   "phd_evidence_quote": "our Ph.D program in Neurosciences boasts a long history of excellence",
+   "faculty_list_urls": [
+    {
+     "url": "https://neurograd.ucsd.edu/people/faculty-research.html",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Anders Martin Dale",
+    "Abraham A. Palmer",
+    "Carolina Makowski",
+    "Gene Wei-Ming Yeo"
+   ],
+   "notes": "Recorded because core author Anders Dale is NGP faculty (homepage: 'Featured: Anders Dale, NGP Faculty'). Faculty list is JS-built (needs --render).",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Gennady M. Verkhivker",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched UCSD program list; OpenAlex last-known Chapman University first (likely adjunct at UCSD)."
+  },
+  {
+   "name": "Zichen Wang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched list; profile not located."
+  },
+  {
+   "name": "Stephen Kevin Burley",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched list; RCSB PDB / SDSC affiliation (primary Rutgers)."
+  },
+  {
+   "name": "Chengbiao Wu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on rendered Neurosciences faculty list or others; OpenAlex last-known UNLV."
+  },
+  {
+   "name": "Joan Segura",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "RCSB PDB/SDSC researcher; not on any program faculty list."
+  },
+  {
+   "name": "José M. Duarte",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "RCSB PDB/SDSC researcher; not on any program faculty list."
+  },
+  {
+   "name": "Sebastian Bittrich",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "RCSB PDB/SDSC researcher; not on any program faculty list."
+  },
+  {
+   "name": "Yana Rose",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "RCSB PDB/SDSC researcher; not on any program faculty list."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: http://biomedsci-db.ucsd.edu/faculty_index (BMS faculty directory); BMS matches are partial (training-area pages only).",
+  "WebSearch budget exhausted; URLs discovered via site navigation (program_tool find).",
+  "No individual profile checks done for unmatched core authors (most are RCSB PDB/SDSC staff without faculty program appointments)."
+ ]
+}

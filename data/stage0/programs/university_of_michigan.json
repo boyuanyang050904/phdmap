@@ -1,0 +1,129 @@
+{
+  "institution": "University of Michigan",
+  "checked_at": "2026-11-03T08:58:42Z",
+  "grants_phd": null,
+  "grants_phd_evidence": null,
+  "programs": [],
+  "unmatched_core_authors": [
+    {
+      "name": "Joshua D. Welch",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Arvind Rao",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Jean Morrison",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Xiang Zhou",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Xiaoquan Wen",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Mingzhou Fu",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Bhramar Mukherjee",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Alan P. Boyle",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Nicholas J. Douville",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Cortney A. Turner",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Huda Akil",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Michael Boehnke",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Jeffrey Okamoto",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Anat Galor",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Joerg Lahann",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Andrew L. Ferguson",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Lydia Freddolino",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Wei Hui Zheng",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    },
+    {
+      "name": "Yang Zhang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "No University of Michigan page could be fetched (see problems)."
+    }
+  ],
+  "problems": [
+    "Every University of Michigan site tried returns a Cloudflare challenge ('Just a moment...', HTTP 403) to both plain and --render fetches: www.umich.edu, rackham.umich.edu/programs-of-study/, sph.umich.edu/biostat/, bme.umich.edu, lsa.umich.edu (biophysics, chem, stats), cse.engin.umich.edu, che.engin.umich.edu, bulletin.engin.umich.edu, medresearch.umich.edu. No program facts could be verified.",
+    "BLOCKED by robots.txt (robots.txt returns 403/unreachable): https://medicine.umich.edu/dept/computational-medicine-bioinformatics (Bioinformatics PhD / DCMB), https://pibs.med.umich.edu/, https://biostat.sph.umich.edu/, https://csph.sph.umich.edu/.",
+    "Candidate programs to retry later (NOT verified, leads only): Bioinformatics PhD (DCMB), Human Genetics PhD, Biostatistics PhD, PIBS umbrella, Biophysics PhD, Biomedical Engineering PhD, Chemistry PhD, Statistics PhD.",
+    "WebSearch budget exhausted; only official-site navigation was possible."
+  ]
+}

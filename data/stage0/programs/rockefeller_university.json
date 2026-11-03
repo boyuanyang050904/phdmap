@@ -1,0 +1,20 @@
+{
+  "institution": "Rockefeller University",
+  "institution_kind": "university",
+  "checked_at": "2026-11-03T08:57:11Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://www.rockefeller.edu/education-and-training/graduate-program-in-bioscience/admissions/", "quote": "Students who enter the Ph.D. program must have received a bachelor or master of arts or sciences, or doctor of medicine or equivalent international qualification."},
+  "programs": [
+    {"program_name": "The David Rockefeller Graduate Program in Bioscience", "degree": "PhD", "discipline": "umbrella_biomedical", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.rockefeller.edu/education-and-training/graduate-program-in-bioscience/",
+     "phd_evidence_quote": "Program title: Biological Sciences Program codes: 22043 (MS), 09328 (PhD)",
+     "faculty_list_urls": [{"url": "https://www.rockefeller.edu/research/research-areas-and-laboratories/", "render": false}, {"url": "https://www.rockefeller.edu/our-scientists/", "render": false}, {"url": "https://www.rockefeller.edu/our-scientists/tri-institutional-professors", "render": false}],
+     "matched_authors": [],
+     "notes": "Single university-wide PhD program ('research and graduate education in the biomedical sciences, chemistry, and biophysics'); students are mentored by heads of laboratories. Page also lists 'Program title: Physics Program codes: 22044 (MS), 09332 (PhD)'. No relevant author matched on the laboratories list or tri-institutional professors page. Jialong Jiang (peripheral, A) matched only on https://www.rockefeller.edu/our-scientists/independent-fellows/ as 'Fellow' (independent fellow, not a head of laboratory), so not recorded as program faculty. The grad page also links a Tri-Institutional 'chemical biology Ph.D. program' (http://chembio.triiprograms.org/), not examined because there are no direction-B authors."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Andrea Califano", "program_found": null, "evidence_url": null, "note": "Listed by 'authors' as core A, but OpenAlex last_known institutions are Columbia University Irving Medical Center / DarwinHealth / Herbert Irving Comprehensive Cancer Center; not on Rockefeller lab-head, tri-institutional or fellows pages. Likely a historical Rockefeller affiliation; not pursued."}
+  ],
+  "problems": ["Only 5 (mostly peripheral, non-current) relevant authors; none matched as faculty. Heads-of-laboratories list on /our-scientists/ appears to be JS-filtered; used /research/research-areas-and-laboratories/ (static, lists labs) instead."]
+}

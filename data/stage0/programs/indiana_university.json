@@ -1,0 +1,157 @@
+{
+  "institution": "Indiana University",
+  "checked_at": "2026-11-03T09:02:11Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://medicine.iu.edu/graduate-degrees/phd/indianapolis",
+    "quote": "IU School of Medicine—Indianapolis offers the Indiana BioMedical Gateway Program (IBMG) for PhD study that provides an opportunity for students to explore many research areas, eight PhD programs, and a variety of minors"
+  },
+  "programs": [
+    {
+      "program_name": "Medical and Molecular Genetics PhD (IU School of Medicine, Indianapolis)",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Indiana BioMedical Gateway (IBMG)",
+      "program_url": "https://medicine.iu.edu/genetics/education/graduate-degrees/phd",
+      "phd_evidence_quote": "The PhD program in Medical and Molecular Genetics provides training to students who wish to pursue a career in research and/or service in mammalian genetics.",
+      "faculty_list_urls": [
+        {
+          "url": "https://medicine.iu.edu/genetics/faculty",
+          "render": false
+        },
+        {
+          "url": "https://medicine.iu.edu/genetics/faculty/affiliated",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Zhana Duren",
+        "Yunlong Liu",
+        "Dongbing Lai",
+        "Tatiana Foroud",
+        "Howard J. Edenberg"
+      ],
+      "notes": "Admission via IBMG ('Apply to the Indiana BioMedical Gateway (IBMG) program to begin a PhD in genetics.'). Edenberg is on the affiliated-faculty page."
+    },
+    {
+      "program_name": "PhD in Biostatistics (IU Indianapolis: Dept. of Biostatistics and Health Data Science / Mathematical Sciences)",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "biostat",
+      "umbrella_name": null,
+      "program_url": "https://medicine.iu.edu/biostatistics/education/graduate-degrees",
+      "phd_evidence_quote": "We offer a Master of Science and a PhD in Biostatistics, which combines the strength in statistical theory and modeling of the Department of Mathematical Sciences and the biostatistical methods research",
+      "faculty_list_urls": [
+        {
+          "url": "https://medicine.iu.edu/biostatistics/faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [],
+      "notes": "No relevant authors matched (plain and rendered). Applications via SOPHAS/Fairbanks School of Public Health."
+    },
+    {
+      "program_name": "Bioinformatics Ph.D. (Luddy School, IU Indianapolis)",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://luddy.indianapolis.iu.edu/academics/phd/bioinformatics/index.html",
+      "phd_evidence_quote": "Our Ph.D. in Bioinformatics trains scientists to develop computational tools that analyze complex biological data",
+      "faculty_list_urls": [
+        {
+          "url": "https://luddy.indianapolis.iu.edu/research/research-areas/bioinformatics.html",
+          "render": false
+        },
+        {
+          "url": "https://luddy.indianapolis.iu.edu/people/index.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Juexin Wang",
+        "Zhana Duren",
+        "Kwangsik T. Nho"
+      ],
+      "notes": "Juexin Wang on the bioinformatics research-area page; Duren and Nho appear only on the full Luddy Indianapolis people directory (likely adjunct/affiliated; role not stated in grep). Luddy Indianapolis also lists PhDs in Biomedical and Health Informatics, Biomedical Engineering, Computer Science (not separately checked)."
+    },
+    {
+      "program_name": "Ph.D. in Informatics - Bioinformatics Track (Luddy School, IU Bloomington)",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://luddy.iu.edu/academics/doctoral/informatics/bioinformatics-track.html",
+      "phd_evidence_quote": "Ph.D. in Informatics - Bioinformatics Track",
+      "faculty_list_urls": [
+        {
+          "url": "https://luddy.iu.edu/academics/doctoral/informatics/bioinformatics-track.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Yuzhen Ye"
+      ],
+      "notes": "Track page lists its faculty (Dalkilic, Hahn, Khardon, Macklin, Tang, Ye). Ye's profile (https://luddy.iu.edu/people/ye-yuzhen.html) lists Computer Science / Informatics; Luddy Bloomington also has a Ph.D. in Computer Science (https://luddy.iu.edu/academics/doctoral/computer-science.html: 'Program details for Ph.D. in Computer Science'). Luddy people directory is a search widget (no list even rendered)."
+    },
+    {
+      "program_name": "Ph.D. in Biostatistics (School of Public Health-Bloomington)",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "biostat",
+      "umbrella_name": null,
+      "program_url": "https://publichealth.indiana.edu/doctoral/majors/phd-biostatistics.html",
+      "phd_evidence_quote": "Our Ph.D. in Biostatistics promotes the development of innovative biostatistical methodologies",
+      "faculty_list_urls": [
+        {
+          "url": "https://publichealth.indiana.edu/about/directory/index.html?department=EBIO",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Nianjun Liu",
+        "Ming Li"
+      ],
+      "notes": "Directory URL with department=EBIO returned a large page (222k chars), likely the whole school directory; department membership of matches not confirmed separately."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Yu Zhang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on Statistics core/affiliated faculty (stat.indiana.edu), SPH-Bloomington directory, or Luddy pages checked."
+    },
+    {
+      "name": "Li Shen",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on IU pages checked; last_known includes Harvard/ADNI (likely moved; not verified)."
+    },
+    {
+      "name": "Silviu‐Alin Bacanu",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on IU pages; last_known Queensland/Duke/VCU - likely mis-association."
+    },
+    {
+      "name": "Jinhyeong Bae",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not found on IU pages checked."
+    },
+    {
+      "name": "Robbee Wedow",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not found on IU pages checked; last_known Purdue/Broad."
+    }
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs found by navigating official sites.",
+    "Luddy Bloomington people directory (https://luddy.iu.edu/people/index.html) is a search widget; no faculty list even rendered.",
+    "Biochemistry and Molecular Biology PhD (IUSM, via IBMG) exists per https://medicine.iu.edu/graduate-degrees/phd/indianapolis but not recorded: no direction-B core authors plausibly there.",
+    "Kwangsik T. Nho / Zhana Duren matched only via the Luddy Indianapolis full people directory; their affiliation type there not verified."
+  ]
+}

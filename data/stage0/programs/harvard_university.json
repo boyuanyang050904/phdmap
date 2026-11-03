@@ -1,0 +1,274 @@
+{
+ "institution": "Harvard University",
+ "checked_at": "2026-11-03T08:53:59Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://gsas.harvard.edu/program/biological-and-biomedical-sciences",
+  "quote": "Degrees Offered Doctor of Philosophy (PhD)"
+ },
+ "programs": [
+  {
+   "program_name": "Biological and Biomedical Sciences (BBS)",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsas.harvard.edu/program/biological-and-biomedical-sciences",
+   "phd_evidence_quote": "Degrees Offered Doctor of Philosophy (PhD)",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "GSAS page: 'Biological and Biomedical Sciences is one of the programs in the Harvard Integrated Life Sciences'. BBS site (bbs.hms.harvard.edu) and HILS site blocked by robots.txt, so no faculty list could be fetched. HMS Genetics dept people page (https://genetics.hms.harvard.edu/people) matched George McDonald Church, but department membership does not prove BBS membership, so not recorded here."
+  },
+  {
+   "program_name": "Biomedical Informatics PhD - Bioinformatics and Integrative Genomics (BIG) track",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "PhD in Biomedical Informatics (HMS Department of Biomedical Informatics; tracks BIG and AIM)",
+   "program_url": "https://dbmi.hms.harvard.edu/education/phd-program/big-phd-track",
+   "phd_evidence_quote": "The Department of Biomedical Informatics offers a PhD in Biomedical Informatics in the areas of Artificial Intelligence in Medicine (AIM) and Bioinformatics and Integrative Genomics (BIG).",
+   "faculty_list_urls": [
+    {
+     "url": "https://dbmi.hms.harvard.edu/faculty",
+     "render": false
+    },
+    {
+     "url": "https://dbmi.hms.harvard.edu/education/phd-program/big-phd-track",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Marinka Žitnik",
+    "Tianxi Cai",
+    "Chirag J. Patel",
+    "Shamil R. Sunyaev",
+    "Pranav Rajpurkar"
+   ],
+   "notes": "Also listed on GSAS: https://gsas.harvard.edu/program/biomedical-informatics ('Degrees Offered Doctor of Philosophy (PhD)'). DBMI faculty page lists DBMI core faculty only; the broader BIG training-faculty list is on bigphd.hms.harvard.edu which is robots-blocked. AIM track shares the same DBMI core faculty."
+  },
+  {
+   "program_name": "PhD in Biostatistics",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://hsph.harvard.edu/program/phd-biostatistics/",
+   "phd_evidence_quote": "The Ph.D. program in Biostatistics trains students in the areas of probabilistic and statistical theory, biostatistical methods, statistical computation and algorithm development",
+   "faculty_list_urls": [
+    {
+     "url": "https://hsph.harvard.edu/profiles/?hsph_initiator=filterablePostListFE&hsph_department_taxonomy=209404",
+     "render": true
+    },
+    {
+     "url": "https://hsph.harvard.edu/profile/xihong-lin/",
+     "render": false
+    },
+    {
+     "url": "https://hsph.harvard.edu/profile/alkes-price/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Tianxi Cai",
+    "Rui Duan",
+    "Xihong Lin",
+    "Alkes L. Price"
+   ],
+   "notes": "Profiles listing is JS-paginated (18 pages); only page 1 readable, matched Tianxi Cai, Rui Duan. Xihong Lin profile: 'Professor of Biostatistics ... Department of Biostatistics' (also Professor and Chair, Dept of Statistics FAS). Alkes Price profile lists 'Department of Biostatistics' and 'Department of Epidemiology' ('Faculty Affiliate in the Department of Biostatistics'). Other names matched on those profile pages were publication co-authors and are excluded."
+  },
+  {
+   "program_name": "PhD in Population Health Sciences (PHS)",
+   "degree": "PhD",
+   "discipline": "other:epidemiology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://hsph.harvard.edu/program/phd-population-health-sciences/",
+   "phd_evidence_quote": "The Doctor of Philosophy (PhD) in Population Health Sciences (PHS) is a cohort-based,  multidisciplinary degree",
+   "faculty_list_urls": [
+    {
+     "url": "https://hsph.harvard.edu/profile/peter-kraft/",
+     "render": false
+    },
+    {
+     "url": "https://hsph.harvard.edu/profile/alkes-price/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Peter Kraft",
+    "Alkes L. Price"
+   ],
+   "notes": "Epidemiology is one of PHS's five fields of study (program page). No PHS/Epidemiology faculty list fetched; matches are from individual profiles listing 'Department of Epidemiology' (Kraft is 'Adjunct Professor of Epidemiology'; Price 'Professor of Statistical Genetics, Epidemiology'). Membership in PHS faculty itself not directly verified."
+  },
+  {
+   "program_name": "Systems, Synthetic, and Quantitative Biology (SSQB) PhD Program",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsas.harvard.edu/program/systems-synthetic-and-quantitative-biology",
+   "phd_evidence_quote": "SSQB is one of 14 PhD programs in the",
+   "faculty_list_urls": [
+    {
+     "url": "https://sysbio.med.harvard.edu/facultyprofiles",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Debora S. Marks",
+    "Peter Karl Sorger",
+    "Johan Paulsson"
+   ],
+   "notes": "GSAS: 'The program has 48 faculty located in the Faculty of Arts and Sciences, Harvard Medical School, and Harvard-affiliated teaching hospitals'. SSQB's own faculty list (ssqbphd.hsites.harvard.edu) is robots-blocked; the HMS Department of Systems Biology faculty profiles page was used as proxy."
+  },
+  {
+   "program_name": "Biophysics PhD",
+   "degree": "PhD",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsas.harvard.edu/program/biophysics",
+   "phd_evidence_quote": "Degrees Offered Doctor of Philosophy (PhD)",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Program site biophysics.fas.harvard.edu blocked by robots.txt; no faculty list fetched."
+  },
+  {
+   "program_name": "Chemistry and Chemical Biology PhD (PhD in Chemistry)",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsas.harvard.edu/program/chemistry-and-chemical-biology",
+   "phd_evidence_quote": "The Department of Chemistry and Chemical Biology offers a PhD in chemistry and a PhD in chemical physics.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "chemistry.harvard.edu blocked by robots.txt; no faculty list fetched (likely home of Xiaowei Zhuang, Eugene Shakhnovich - unverified)."
+  },
+  {
+   "program_name": "Molecular and Cellular Biology PhD (MCB; Molecules, Cells and Organisms)",
+   "degree": "PhD",
+   "discipline": "other:molecular_cellular_biology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsas.harvard.edu/program/molecular-and-cellular-biology",
+   "phd_evidence_quote": "The PhD program in the Department of Molecular and Cellular Biology provides a view of the broad range of the constantly evolving world of scientific experience.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.mcb.harvard.edu/faculty/faculty-profiles/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Sean R. Eddy",
+    "Norbert Perrimon",
+    "Doeke R. Hekstra",
+    "Elena Rivas"
+   ],
+   "notes": "Department faculty directory used. MCB site links an 'MCO Program' graduate page (https://www.mcb.harvard.edu/graduate/mco/, 0 matches)."
+  },
+  {
+   "program_name": "Statistics PhD (FAS)",
+   "degree": "PhD",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsas.harvard.edu/program/statistics",
+   "phd_evidence_quote": "Degrees Offered Doctor of Philosophy (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://hsph.harvard.edu/profile/xihong-lin/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Xihong Lin"
+   ],
+   "notes": "Included because Xihong Lin's profile states 'Professor of Statistics ... Chair of the Department of Statistics' (FAS). statistics.fas.harvard.edu/people blocked by robots.txt, so other Statistics faculty (e.g. Jun S. Liu) unverified."
+  },
+  {
+   "program_name": "Computer Science PhD (SEAS)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://seas.harvard.edu/computer-science/graduate-program",
+   "phd_evidence_quote": "Doctor of Philosophy (Ph.D) degree in Computer Science",
+   "faculty_list_urls": [
+    {
+     "url": "https://seas.harvard.edu/computer-science/people",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "No relevant authors matched (plain and rendered)."
+  },
+  {
+   "program_name": "Bioengineering PhD (SEAS, Engineering Sciences)",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsas.harvard.edu/program/bioengineering",
+   "phd_evidence_quote": "Degrees Offered Doctor of Philosophy (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://seas.harvard.edu/bioengineering/people",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "GSAS: 'Bioengineering is a field within the engineering sciences area of study at the Harvard John A. Paulson School of Engineering and Applied Sciences.' No relevant authors matched."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "George McDonald Church",
+   "program_found": null,
+   "evidence_url": "https://genetics.hms.harvard.edu/people",
+   "note": "Listed on HMS Department of Genetics people page; Genetics dept faculty train via BBS but BBS faculty list is robots-blocked, so program membership unverified."
+  },
+  {
+   "name": "Steven A. McCarroll",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not found on HMS Genetics people page (plain or rendered); BBS faculty list robots-blocked."
+  },
+  {
+   "name": "Andrew C. Kruse",
+   "program_found": null,
+   "evidence_url": "https://bcmp.hms.harvard.edu/people?search=&type%5B1%5D=1",
+   "note": "Not matched on BCMP faculty people page; BBS list blocked."
+  },
+  {
+   "name": "Xiaowei Zhuang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Chemistry (chemistry.harvard.edu) and Biophysics sites robots-blocked; unverified."
+  },
+  {
+   "name": "Eugene I. Shakhnovich",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "chemistry.harvard.edu robots-blocked; unverified."
+  },
+  {
+   "name": "Aviv Regev / Broad- and hospital-based core authors (e.g. Benjamin M. Neale, Alicia R. Martin, Soumya Raychaudhuri, Pradeep Natarajan, Hailiang Huang)",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked individually (call budget); most are Broad/MGH/BWH-affiliated and would train via BBS/BIG, whose full faculty lists are robots-blocked."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://bbs.hms.harvard.edu/ (BBS faculty list unavailable)",
+  "BLOCKED by robots.txt: https://bigphd.hms.harvard.edu/ (BIG training-faculty list unavailable)",
+  "BLOCKED by robots.txt: https://ssqbphd.hsites.harvard.edu/",
+  "BLOCKED by robots.txt: https://biophysics.fas.harvard.edu/",
+  "BLOCKED by robots.txt: https://chemistry.harvard.edu/ and https://chemistry.harvard.edu/faculty",
+  "BLOCKED by robots.txt: https://statistics.fas.harvard.edu/people",
+  "BLOCKED by robots.txt: https://hils.harvard.edu/",
+  "Harvard Chan profiles listing is JS-paginated (18 pages); only first page readable, so Biostatistics/Epidemiology faculty matching relied on individual profiles",
+  "WebSearch budget exhausted during this institution; URL discovery done by site navigation/guessed official URLs",
+  "Many core authors (239 relevant authors total, mostly Broad/MGH/BWH-affiliated) could not be mapped to a program because umbrella program faculty lists are robots-blocked"
+ ]
+}

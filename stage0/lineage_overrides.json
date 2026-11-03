@@ -1,0 +1,11 @@
+{
+  "_comment": "Manual corrections to OpenAlex institution lineage used in s04_homes.py. Each entry blocks rolling CHILD up to ANCESTOR. Reason must be stated.",
+  "block": [
+    {"child": "Brigham and Women's Hospital", "ancestor": "Tufts University",
+     "reason": "OpenAlex lineage error: BWH authors are otherwise affiliated with Harvard in OpenAlex; Tufts roll-up inflated Tufts with Harvard faculty"},
+    {"child": "Dana-Farber Brigham Cancer Center", "ancestor": "Tufts University",
+     "reason": "same lineage error as Brigham and Women's Hospital"},
+    {"child": "Brookhaven College", "ancestor": "Dallas County Community College District",
+     "reason": "irrelevant community-college entity (OpenAlex misassignment of Brookhaven National Laboratory authors)"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "institution": "City of Hope",
+  "institution_kind": "independent_institute",
+  "checked_at": "2026-11-03T09:03:12Z",
+  "grants_phd": null,
+  "grants_phd_evidence": null,
+  "programs": [],
+  "unmatched_core_authors": [],
+  "problems": ["BLOCKED by robots.txt: https://www.cityofhope.org/education/irell-manella-graduate-school-of-biological-sciences (guessed URL for its graduate school). https://www.cityofhope.org/robots.txt returns HTTP 403, which the project fetcher treats as disallow-all, so the whole www.cityofhope.org site (incl. the OpenAlex homepage https://www.cityofhope.org/location/antelope-valley) is blocked. Respected; no workaround. Whether City of Hope grants PhDs, its programs and faculty lists are unverified -> grants_phd=null.", "Relevant authors are all peripheral (David W. Craig [A], Andréi S. Rodin [A], Sharad S. Singhal [B]); no core authors."]
+}

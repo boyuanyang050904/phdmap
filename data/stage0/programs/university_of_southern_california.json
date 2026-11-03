@@ -1,0 +1,214 @@
+{
+ "institution": "University of Southern California",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.qcb-dornsife.usc.edu/phd",
+  "quote": "A Ph.D. in Computational Biology and Bioinformatics from the Dornsife College of Letter, Arts and Sciences at USC offers its students a truly unique graduate experience"
+ },
+ "programs": [
+  {
+   "program_name": "PhD in Computational Biology and Bioinformatics (Department of Quantitative and Computational Biology, Dornsife)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.qcb-dornsife.usc.edu/phd",
+   "phd_evidence_quote": "We are the PhD Program of USC's Department of Quantitative and Computational Biology",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.qcb-dornsife.usc.edu/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Adam L. MacLean",
+    "Nicholas Mancuso",
+    "Steven Gazal",
+    "Michael D. Edge",
+    "Charleston W. K. Chiang",
+    "Chang Shu",
+    "Remo Rohs",
+    "Arieh Warshel",
+    "Ruishan Liu"
+   ],
+   "notes": "QCB faculty page includes affiliated faculty from Keck (Mancuso, Gazal, Chiang, Shu), Chemistry (Warshel) and CS (Ruishan Liu). Dornsife doctoral-programs page also lists 'Biological Sciences – Molecular and Computational Biology' PhD (no matched authors checked)."
+  },
+  {
+   "program_name": "PhD in Biostatistics (Keck School of Medicine, Dept. of Population and Public Health Sciences)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://keck.usc.edu/biostatistics-phd-program/",
+   "phd_evidence_quote": "Students who enter our PhD program in Biostatistics will learn to creatively apply their knowledge of statistical theory and methodology to statistical problems in the biological and health sciences.",
+   "faculty_list_urls": [
+    {
+     "url": "https://keck.usc.edu/biostatistics-phd-program/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://keck.usc.edu/biostatistics/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Nicholas Mancuso",
+    "Steven Gazal"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "PhD in Epidemiology (Genetic Epidemiology track), Keck School of Medicine",
+   "degree": "PhD",
+   "discipline": "other:epidemiology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://keck.usc.edu/epidemiology-phd-program/",
+   "phd_evidence_quote": "The Doctor of Philosophy in Epidemiology is designed to produce an epidemiologist with in-depth knowledge of methodology and analytic skills.",
+   "faculty_list_urls": [
+    {
+     "url": "https://keck.usc.edu/epidemiology-phd-program/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Nicholas Mancuso",
+    "Steven Gazal",
+    "Charleston W. K. Chiang",
+    "Chang Shu"
+   ],
+   "notes": "Page: 'Students choose one track: Cancer Epidemiology, Genetic Epidemiology, Environmental Epidemiology, Clinical Trials, or General Epidemiology and Methods.'"
+  },
+  {
+   "program_name": "PIBBS - Cancer Biology and Genomics PhD program (Keck)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Programs in Biomedical and Biological Sciences (PIBBS)",
+   "program_url": "https://keck.usc.edu/pibbs/phd-programs/cancer-biology-and-genomics/",
+   "phd_evidence_quote": "PIBBS PhD Programs",
+   "faculty_list_urls": [
+    {
+     "url": "https://keck.usc.edu/pibbs/pibbs-faculty/cbg-faculty/",
+     "render": true
+    },
+    {
+     "url": "https://keck.usc.edu/pibbs/pibbs-faculty/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Charleston W. K. Chiang"
+   ],
+   "notes": "Listed under 'PhD Programs' at https://keck.usc.edu/pibbs/phd-programs/ (link text 'PIBBS PhD Programs' on https://keck.usc.edu/education/phd-programs/). Medical Biophysics PIBBS program checked: no matches."
+  },
+  {
+   "program_name": "Computer Science PhD (Thomas Lord Department of Computer Science, Viterbi)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cs.usc.edu/academic-programs/phd/",
+   "phd_evidence_quote": "The PhD degree at the USC Computer Science department prepares students for a career in research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cs.usc.edu/directory/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Matteo Sesia",
+    "Remo Rohs",
+    "Ruishan Liu"
+   ],
+   "notes": "Rohs and Sesia presumably joint/affiliated listings."
+  },
+  {
+   "program_name": "Chemistry PhD (Dornsife)",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://dornsife.usc.edu/doctoral-programs/",
+   "phd_evidence_quote": "Chemistry",
+   "faculty_list_urls": [
+    {
+     "url": "https://dornsife.usc.edu/chemistry/people/faculty/?keyword=&taxonomy=chem-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Arieh Warshel"
+   ],
+   "notes": "PhD evidence is weak: 'Chemistry' appears as an entry in the Dornsife doctoral-programs list; chemistry homepage says the department serves '175 graduate students'."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "David V. Conti",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on biostat PhD, biostat division, epidemiology PhD, QCB or PIBBS lists; profile https://keck.usc.edu/faculty-search/david-v-conti/ returned 403."
+  },
+  {
+   "name": "Patrick Turley",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on fetched lists (likely economics/other dept); not checked further."
+  },
+  {
+   "name": "Artem Kim",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on fetched lists; not checked (likely trainee)."
+  },
+  {
+   "name": "Zixuan Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on fetched lists; not checked (likely trainee)."
+  },
+  {
+   "name": "Marijana Vujković",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on fetched lists; not checked."
+  },
+  {
+   "name": "Kyoung‐Jae Won",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known Cedars-Sinai Medical Center (separate institution) - not USC."
+  },
+  {
+   "name": "Nicholas P. Tatonetti",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known Cedars-Sinai - not USC."
+  },
+  {
+   "name": "Pei-Chen Peng",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known Cedars-Sinai - not USC."
+  },
+  {
+   "name": "Ruowang Li",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known Cedars-Sinai - not USC."
+  },
+  {
+   "name": "Alzheimer’s Disease Neuroimaging Initiative",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Consortium, not a person."
+  }
+ ],
+ "problems": [
+  "Several 'USC' authors are Cedars-Sinai Medical Center faculty (Won, Tatonetti, Peng, Ruowang Li, Jesse Meyer); Cedars-Sinai has its own graduate programs and should be processed as a separate institution if desired.",
+  "https://keck.usc.edu/faculty-search/david-v-conti/ returned 403 (Conti's program unverified).",
+  "Chemistry PhD evidence is only the program's listing on https://dornsife.usc.edu/doctoral-programs/."
+ ],
+ "checked_at": "2026-11-03T09:02:33Z"
+}

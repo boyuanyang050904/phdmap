@@ -1,0 +1,305 @@
+{
+  "institution": "University of Washington",
+  "checked_at": "2026-11-03T08:54:42Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://www.gs.washington.edu/academics/ph-d-program/",
+    "quote": "The student handbook includes everything you ever wanted to know about the Genome Sciences Ph.D. program."
+  },
+  "programs": [
+    {
+      "program_name": "Genome Sciences PhD",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.gs.washington.edu/academics/ph-d-program/",
+      "phd_evidence_quote": "The student handbook includes everything you ever wanted to know about the Genome Sciences Ph.D. program.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.gs.washington.edu/about/directory/faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Sara Mostafavi",
+        "Pejman Mohammadi",
+        "Frederick A. Matsen IV",
+        "David A. Baker",
+        "William S. DeWitt",
+        "David Baker"
+      ],
+      "notes": ""
+    },
+    {
+      "program_name": "Biostatistics PhD",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "biostat",
+      "umbrella_name": null,
+      "program_url": "https://www.biostat.washington.edu/academics/phd",
+      "phd_evidence_quote": "The Doctor of Philosophy is an advanced degree, preparing you for",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.biostat.washington.edu/research/faculty-interests",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Wei Sun",
+        "Patrick J. Heagerty",
+        "Ting Ye"
+      ],
+      "notes": "Main faculty page /people/faculty lacks the list (per pilot); used the 'Faculty Interests' page instead. 'Wei Sun' also matched a homonymous direction-B author (Kunming Univ.) - only the direction-A Wei Sun (Fred Hutch/UW) is plausible."
+    },
+    {
+      "program_name": "Biomedical and Health Informatics (BHI) PhD (Dept. of Biomedical Informatics and Medical Education)",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://bime.uw.edu/bime-admission-requirements/",
+      "phd_evidence_quote": "Admission to the Biomedical and Health Informatics (BHI) MS and PhD Graduate Program is highly competitive.",
+      "faculty_list_urls": [
+        {
+          "url": "https://bime.uw.edu/faculty_type/bime-core-extended-faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Trevor Cohen",
+        "Eric Horvitz"
+      ],
+      "notes": "Faculty page is 'All BIME Core & Extended Faculty'; Eric Horvitz (Microsoft) presumably extended/affiliate."
+    },
+    {
+      "program_name": "Public Health Genetics PhD (Institute for Public Health Genetics)",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://iphg.biostat.washington.edu/programs/phd",
+      "phd_evidence_quote": "The doctoral program in Public Health Genetics offers interdisciplinary training for careers in academic institutions",
+      "faculty_list_urls": [
+        {
+          "url": "https://iphg.biostat.washington.edu/faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Alison E. Fohner"
+      ],
+      "notes": ""
+    },
+    {
+      "program_name": "Biological Physics, Structure and Design (BPSD)",
+      "degree": "PhD",
+      "discipline": "biophysics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://depts.washington.edu/bpsd/prospective-students-2/faq/",
+      "phd_evidence_quote": "BPSD is not a degree-granting program. Graduating students will receive a PhD from their advisor’s department.",
+      "faculty_list_urls": [
+        {
+          "url": "https://depts.washington.edu/bpsd/people/faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "David A. Baker",
+        "Frank DiMaio",
+        "Gaurav Bhardwaj",
+        "Neil P. King",
+        "Philip H Bradley",
+        "David Baker",
+        "Stefan Stoll"
+      ],
+      "notes": "Interdisciplinary PhD program with direct admission ('you must apply directly to the BPSD program'); degree is conferred by the advisor's department (participating: Biochemistry, Bioengineering, Chemistry, Fred Hutch, Medicinal Chemistry, Neurobiology & Biophysics, Pharmacology). FAQ also: 'Only a PhD degree is awarded.'"
+    },
+    {
+      "program_name": "Bioengineering PhD",
+      "degree": "PhD",
+      "discipline": "bioengineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://bioe.uw.edu/academic-programs/phd/",
+      "phd_evidence_quote": "The Ph.D. degree is the most advanced degree offered by UW Bioengineering.",
+      "faculty_list_urls": [
+        {
+          "url": "https://bioe.uw.edu/faculty-staff/core-faculty/",
+          "render": false
+        },
+        {
+          "url": "https://bioe.uw.edu/faculty-staff/adjunct-faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "A. Berndt",
+        "David A. Baker",
+        "Georg Seelig",
+        "David Baker"
+      ],
+      "notes": "A. Berndt on core faculty page; David Baker and Georg Seelig on adjunct faculty page."
+    },
+    {
+      "program_name": "Chemistry PhD",
+      "degree": "PhD",
+      "discipline": "chemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://chem.washington.edu/phd-chemistry",
+      "phd_evidence_quote": "Graduate students earn a Ph.D. through independent, original",
+      "faculty_list_urls": [
+        {
+          "url": "https://chem.washington.edu/people/faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Stefan Stoll"
+      ],
+      "notes": ""
+    },
+    {
+      "program_name": "Computer Science & Engineering PhD (Paul G. Allen School)",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cs.washington.edu/academics/graduate/phd-program/",
+      "phd_evidence_quote": "Each year, the Allen School welcomes around 60 new students interested in pursuing advanced academic or industry research careers to our  Ph.D. program.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cs.washington.edu/people/faculty-members/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Sara Mostafavi",
+        "Georg Seelig"
+      ],
+      "notes": ""
+    },
+    {
+      "program_name": "Molecular & Cellular Biology (MCB) Graduate Program",
+      "degree": "PhD",
+      "discipline": "umbrella_biomedical",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://mcb-seattle.edu/curriculum/",
+      "phd_evidence_quote": "First year graduate students will identify and practice skills associated with a productive, engaging and timely PhD.",
+      "faculty_list_urls": [
+        {
+          "url": "https://mcb-seattle.edu/directory/faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "David A. Baker",
+        "Gaurav Bhardwaj",
+        "David Baker"
+      ],
+      "notes": "Interdisciplinary graduate program jointly offered by UW and Fred Hutchinson Cancer Center (mcb-seattle.edu home page). Rendered fetch gave the same result."
+    },
+    {
+      "program_name": "Statistics PhD",
+      "degree": "PhD",
+      "discipline": "statistics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://stat.uw.edu/academics/graduate/phd",
+      "phd_evidence_quote": "The PhD program prepares students for research careers in theory and application of probability and statistics",
+      "faculty_list_urls": [
+        {
+          "url": "https://stat.uw.edu/people/faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Carlos Cinelli"
+      ],
+      "notes": "Has a Statistical Genetics (StatGen) PhD track. Faculty page text is short (7k chars) but did list Cinelli."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Jonathan K. Pritchard",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched UW faculty page; OpenAlex last_known includes Stanford University - likely mis-association, not checked further."
+    },
+    {
+      "name": "Benjamin F. Voight",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any UW faculty page; last_known includes Philadelphia VA - likely mis-association (not verified)."
+    },
+    {
+      "name": "Carlos Cruchaga",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on UW faculty pages; last_known includes Washington University in St. Louis - likely OpenAlex WashU/UW confusion (not verified here)."
+    },
+    {
+      "name": "Daniel Western",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on UW faculty pages; last_known includes Washington University in St. Louis - likely WashU/UW confusion."
+    },
+    {
+      "name": "Nicholas P. Tatonetti",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on UW faculty pages; last_known Cedars-Sinai / Columbia - likely mis-association."
+    },
+    {
+      "name": "Todd L. Edwards",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on UW faculty pages; last_known Vanderbilt - likely mis-association."
+    },
+    {
+      "name": "Gabriel J. Rocklin",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on UW faculty pages; last_known Northwestern (former UW IPD postdoc per OpenAlex history)."
+    },
+    {
+      "name": "Dong Si",
+      "program_found": null,
+      "evidence_url": "https://www.uwb.edu/faculty",
+      "note": "Listed in UW Bothell faculty directory (fetched). UW Bothell STEM pages fetched show MS in Computer Science & Software Engineering; no UW Bothell PhD program verified."
+    },
+    {
+      "name": "Joseph L. Watson",
+      "program_found": null,
+      "evidence_url": "https://www.ipd.uw.edu/people/faculty_and_staff/",
+      "note": "Not on the Institute for Protein Design faculty & staff page nor any program faculty list; likely IPD postdoc/research staff (not verified)."
+    },
+    {
+      "name": "Hugh K. Haddox",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched faculty list (likely trainee/staff)."
+    },
+    {
+      "name": "David E. Kim",
+      "program_found": null,
+      "evidence_url": "https://www.uwb.edu/faculty",
+      "note": "Name matched on UW Bothell faculty directory - possibly a homonym of the IPD researcher; not on IPD faculty list or any program faculty list."
+    },
+    {
+      "name": "Kathy Y. Wei / Hanlun Jiang / David Juergens / Shunzhi Wang / Ananthan Nambiar / Neville P. Bethel / Odin Zhang / Ajasja Ljubetič / Daniel‐Adriano Silva",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched UW program faculty list or the IPD faculty page; appear to be IPD trainees/staff or have moved (Ljubetič: National Institute of Chemistry). Not individually checked (6-author cap)."
+    }
+  ],
+  "problems": [
+    "UW Department of Biochemistry site (biochem.uw.edu and biochem.washington.edu) could not be fetched: robots.txt unreachable (proxy 502), so the fetcher reports BLOCKED by robots.txt. Biochemistry PhD program (likely home of Baker/King/DiMaio/Bhardwaj labs) not recorded; it is listed as a BPSD participating department on https://depts.washington.edu/bpsd/.",
+    "WebSearch budget exhausted; URLs discovered by navigating official sites with the project tool.",
+    "Biostatistics /people/faculty page lacks the faculty list; used /research/faculty-interests.",
+    "Institute for Protein Design faculty page (https://www.ipd.uw.edu/people/faculty_and_staff/) matched only Baker, DiMaio, Bhardwaj, King - many direction-B core authors appear to be non-faculty."
+  ]
+}

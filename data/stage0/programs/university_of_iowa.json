@@ -1,0 +1,106 @@
+{
+ "institution": "University of Iowa",
+ "checked_at": "2026-11-03T08:58:53Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.public-health.uiowa.edu/phd-biostatistics/",
+  "quote": "The doctoral dissertation will be the culminating experience in the Ph.D. program."
+ },
+ "programs": [
+  {
+   "program_name": "PhD in Biostatistics",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://www.public-health.uiowa.edu/phd-biostatistics/",
+   "phd_evidence_quote": "The Ph.D. program will produce biostatisticians who can develop biostatistical methodology that can be utilized to solve problems in public health and the biomedical sciences.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.public-health.uiowa.edu/biostatistics-faculty-list/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Kai Wang"
+   ],
+   "notes": "Department of Biostatistics, College of Public Health. Also listed at https://grad.admissions.uiowa.edu/academics/biostatistics-ms-or-phd."
+  },
+  {
+   "program_name": "Biochemistry and Molecular Biology PhD",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://grad.admissions.uiowa.edu/academics/biochemistry-and-molecular-biology-phd",
+   "phd_evidence_quote": "The Biochemistry and Molecular Biology PhD is awarded by the Graduate College. Instruction is offered through the Carver College of Medicine.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bmb.medicine.uiowa.edu/profile?appointment=PRIMARY",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Adrian H. Elcock"
+   ],
+   "notes": "Department site https://bmb.medicine.uiowa.edu/graduate-program: 'As a student in the Biochemistry and Molecular Biology (BMB) PhD Program, ...'. Primary-faculty list is JS-loaded (needs --render)."
+  },
+  {
+   "program_name": "Genetics PhD (Interdisciplinary Graduate Program in Genetics)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://grad.admissions.uiowa.edu/academics/genetics-phd",
+   "phd_evidence_quote": "The PhD in Genetics is an interdisciplinary graduate program. The degree is awarded by the Graduate College.",
+   "faculty_list_urls": [
+    {
+     "url": "https://genetics.grad.uiowa.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Program site https://genetics.grad.uiowa.edu/. No relevant authors matched."
+  },
+  {
+   "program_name": "Molecular Physiology and Biophysics (subprogram)",
+   "degree": "PhD",
+   "discipline": "biophysics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Science Graduate Program",
+   "program_url": "https://biomed.medicine.uiowa.edu/",
+   "phd_evidence_quote": "The University of Iowa Biomedical Science Graduate Program is a first-year umbrella program that allows students the flexibility to find their path in one of seven PhD subprograms: Cancer Biology, Cell and Developmental Biology, Experimental Pathology, Free Radical & Radiation Biology, Molecular Medicine, Molecular Physiology and Biophysics, and Pharmacology.",
+   "faculty_list_urls": [
+    {
+     "url": "https://biomed.medicine.uiowa.edu/people/current-faculty/?cohort=386",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Subprogram page https://biomed.medicine.uiowa.edu/subprograms/molecular-physiology-and-biophysics. No relevant authors matched; the general Biomedical Science current-faculty page also matched none."
+  },
+  {
+   "program_name": "Chemistry (MS or PhD)",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://grad.admissions.uiowa.edu/academics/chemistry-ms-or-phd",
+   "phd_evidence_quote": "Chemistry (MS or PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://chem.uiowa.edu/people/faculty",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "PhD evidence is only the page heading of the Graduate Admissions program page. No relevant authors matched."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "Peripheral author Xiaoming Liu (A) not matched on any fetched faculty list (Biostatistics, Genetics, Informatics, BMB, Biomedical Science pages); not pursued (peripheral).",
+  "Informatics PhD (https://informatics.grad.uiowa.edu/, subprograms Geoinformatics, Health Informatics, Human-Computer Interaction) checked: faculty list https://informatics.grad.uiowa.edu/people/faculty-members matched no relevant authors; omitted as not bioinformatics.",
+  "Biomedical Engineering, Computer Science and Statistics PhDs exist (grad.admissions.uiowa.edu areas-of-study) but were not checked; only one B author (Elcock, matched in BMB)."
+ ]
+}

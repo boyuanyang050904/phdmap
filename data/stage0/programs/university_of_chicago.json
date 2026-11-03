@@ -1,0 +1,293 @@
+{
+  "institution": "University of Chicago",
+  "checked_at": "2026-11-03T08:52:39Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://biosciences.uchicago.edu/programs/genetics-genomics-and-system-biology",
+    "quote": "The Committee on Genetics, Genomics & Systems Biology (GGSB) is an interdisciplinary PhD granting program"
+  },
+  "programs": [
+    {
+      "program_name": "Committee on Genetics, Genomics & Systems Biology (GGSB) - PhD in Genetics",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://biosciences.uchicago.edu/programs/genetics-genomics-and-system-biology",
+      "phd_evidence_quote": "GGSB offers a program of basic study leading to the Doctor of Philosophy in Genetics.",
+      "faculty_list_urls": [
+        {
+          "url": "https://ggsb.uchicago.edu/research",
+          "render": false
+        },
+        {
+          "url": "https://ggsb.uchicago.edu/program/faculty",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Mengjie Chen",
+        "Hae Kyung Im",
+        "Andrew Dahl",
+        "Matthew Stephens",
+        "Xin He",
+        "Jeremy J. Berg",
+        "Xuanyao Liu",
+        "Andy Dahl",
+        "Anindita Basu",
+        "Sebastian Pott",
+        "Yoav Gilad",
+        "Aly Azeem Khan",
+        "Jian Zhou",
+        "Aly A. Khan",
+        "Siwei Chen"
+      ],
+      "notes": "GGSB has empirical and computational tracks (per site nav). The official 'Faculty and Trainers' page (ggsb.uchicago.edu/program/faculty) is a JS directory whose names did not load even with --render; the GGSB 'Research' page lists training faculty with lab links and was used for matching (17 hits incl. duplicate OpenAlex profiles). Department of Genetic Medicine directory (medicine.uchicago.edu/genetic-medicine/faculty-directory) also lists Mengjie Chen, Hae Kyung Im, Andrew Dahl, Xuanyao Liu, Anindita Basu, Sebastian Pott, Yoav Gilad, Jian Zhou."
+    },
+    {
+      "program_name": "Graduate Program in Biophysical Sciences",
+      "degree": "PhD",
+      "discipline": "biophysics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://biophysics.uchicago.edu/",
+      "phd_evidence_quote": "The University of Chicago is offering a fundamentally interdisciplinary Ph.D. program in Biophysical Sciences.",
+      "faculty_list_urls": [
+        {
+          "url": "https://biophysics.uchicago.edu/the-faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Suriyanarayanan Vaikuntanathan",
+        "Mengjie Chen",
+        "Matthew Stephens",
+        "Xin He",
+        "Anindita Basu",
+        "Andrew L. Ferguson",
+        "Marcos M. Sotomayor",
+        "Benoı̂t Roux",
+        "Tobin R. Sosnick"
+      ],
+      "notes": "Dual-mentor program jointly run by Biological and Physical Sciences Divisions (biosciences.uchicago.edu/programs/biophysical-sciences)."
+    },
+    {
+      "program_name": "Graduate Program in Biochemistry and Molecular Biophysics (BMB)",
+      "degree": "PhD",
+      "discipline": "biochemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://bcmb.uchicago.edu/",
+      "phd_evidence_quote": "I chose to join the BMB PhD program primarily due to its strong RNA-centric research complemented by labs and facilities that specialize in structural biology and biophysics.",
+      "faculty_list_urls": [
+        {
+          "url": "https://bcmb.uchicago.edu/program/faculty",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Marcos M. Sotomayor",
+        "Benoı̂t Roux",
+        "Tobin R. Sosnick"
+      ],
+      "notes": "PhD evidence is a student testimonial on the program home page ('Graduate Program in Biochemistry and Molecular Biophysics, The University of Chicago'). Faculty list is JS-loaded; plain fetch had 0 names, --render worked."
+    },
+    {
+      "program_name": "PhD in Public Health Sciences (biostatistics area of study)",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "biostat",
+      "umbrella_name": null,
+      "program_url": "https://pbhs.uchicago.edu/page/program",
+      "phd_evidence_quote": "The PhD program in the ... at the University of Chicago offers advanced courses of study in biostatistics, epidemiology, and health services research",
+      "faculty_list_urls": [
+        {
+          "url": "https://pbhs.uchicago.edu/program/faculty",
+          "render": true
+        },
+        {
+          "url": "https://pbhs.uchicago.edu/page/research-0",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Lin Chen"
+      ],
+      "notes": "Not a stand-alone 'PhD in Biostatistics': the degree is a PhD in Public Health Sciences with biostatistics as one of three areas of study (quote has the department name as a link, elided as '...'). Lin Chen verified on rendered faculty list ('Lin Chen, PhD')."
+    },
+    {
+      "program_name": "PhD in Statistics",
+      "degree": "PhD",
+      "discipline": "statistics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://stat.uchicago.edu/academics/phd-in-statistics",
+      "phd_evidence_quote": "secure coveted positions in academia, government, or industry with a PhD in Statistics from the University of Chicago.",
+      "faculty_list_urls": [
+        {
+          "url": "https://stat.uchicago.edu/people/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Phillip B. Nicol",
+        "Mengjie Chen",
+        "Jingshu Wang",
+        "Matthew Stephens",
+        "Bradley J. Nelson"
+      ],
+      "notes": "People page mixes faculty, instructors, students and former members. Roles on page: Mengjie Chen Associate Professor; Jingshu Wang Assistant Professor; Matthew Stephens Chair, Professor of Statistics and Human Genetics; Phillip Nicol William H. Kruskal Instructor (not regular faculty); Bradley J. Nelson Former Kruskal Instructor. match also printed 'Lin Chen' but that is a false positive from adjacent names 'Chenjia Lin Chen-Ting Lin' - removed."
+    },
+    {
+      "program_name": "PhD in Molecular Engineering (Pritzker School of Molecular Engineering)",
+      "degree": "PhD",
+      "discipline": "other:molecular_engineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://pme.uchicago.edu/academics/phd-programs/phd-molecular-engineering",
+      "phd_evidence_quote": "The PhD in Molecular Engineering program at the University of Chicago Pritzker School of Molecular Engineering provides students with the opportunity to study with",
+      "faculty_list_urls": [
+        {
+          "url": "https://pme.uchicago.edu/faculty-research/faculty-directory",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Andrew L. Ferguson"
+      ],
+      "notes": ""
+    },
+    {
+      "program_name": "Ph.D. Program in Chemistry",
+      "degree": "PhD",
+      "discipline": "chemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://chemistry.uchicago.edu/phd-program",
+      "phd_evidence_quote": "The Ph.D. program in the Department of Chemistry offers wide opportunity and unusual flexibility for advanced study and research",
+      "faculty_list_urls": [
+        {
+          "url": "https://chemistry.uchicago.edu/faculty",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Andrew L. Ferguson",
+        "Benoı̂t Roux"
+      ],
+      "notes": "Faculty list is JS-loaded (plain fetch 0 names). Rendered page also lists 'Suri Vaikuntanathan' (= OpenAlex Suriyanarayanan Vaikuntanathan, peripheral A), which match missed due to the short first name."
+    },
+    {
+      "program_name": "PhD in Computer Science",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://cs.uchicago.edu/academics/phd/phd-program-overview/",
+      "phd_evidence_quote": "Opportunities for PhDs to work on world-class computer science research with faculty members.",
+      "faculty_list_urls": [
+        {
+          "url": "https://cs.uchicago.edu/people/uchicago-faculty/all-faculty/",
+          "render": false
+        },
+        {
+          "url": "https://cs.uchicago.edu/people/affiliated-faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Rick L. Stevens",
+        "Rick Stevens",
+        "Eliu A. Huerta"
+      ],
+      "notes": "Only peripheral authors matched; Eliu A. Huerta appears on the affiliated-faculty list."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Eric R. Gamazon",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "OpenAlex last_known lists Vanderbilt first; not on any fetched UChicago program faculty page; no UChicago profile checked (WebSearch budget exhausted)."
+    },
+    {
+      "name": "Yogesh Goyal",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Northwestern University; not on fetched UChicago pages."
+    },
+    {
+      "name": "Jean Morrison",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known University of Michigan (UChicago secondary); not on fetched UChicago pages."
+    },
+    {
+      "name": "Yanyu Liang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known AbbVie/23andMe; likely former trainee; not on fetched pages."
+    },
+    {
+      "name": "William R. P. Denault",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched faculty page (likely postdoc)."
+    },
+    {
+      "name": "Emily Joy Rogalski",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched genomics/biostat program page."
+    },
+    {
+      "name": "Jennifer Blanc",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched faculty page (likely trainee)."
+    },
+    {
+      "name": "Jianfeng Xu",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Endeavor Health / Chinese institutions; not on fetched pages."
+    },
+    {
+      "name": "Anirban Samaddar",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Argonne National Laboratory; not on fetched pages."
+    },
+    {
+      "name": "Huiping Liu",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Northwestern; not on fetched pages."
+    },
+    {
+      "name": "Qian Cong",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known UT Southwestern; not on fetched pages."
+    },
+    {
+      "name": "Rafael Gómez‐Bombarelli",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Argonne/ETH/MIT; not on fetched pages."
+    },
+    {
+      "name": "Sarfaraz K. Niazi",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known UIUC/WSU; not on fetched pages."
+    }
+  ],
+  "problems": [
+    "WebSearch budget (shared across agents) was exhausted after 4 searches; remaining URLs were discovered by following links on fetched official pages.",
+    "BLOCKED by robots.txt: https://humangenetics.uchicago.edu/people (Department of Human Genetics directory; dept students enter via GGSB).",
+    "GGSB official faculty directory https://ggsb.uchicago.edu/program/faculty is JS-driven and did not show names even with --render; used https://ggsb.uchicago.edu/research instead.",
+    "Step-4 profile checks for unmatched core authors not done: most have last_known institutions elsewhere, and URL discovery via search was unavailable.",
+    "Not checked: PhD in Data Science, Committee on Ecology & Evolution, BSD Molecular Medicine programs."
+  ]
+}

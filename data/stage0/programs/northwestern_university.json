@@ -1,0 +1,164 @@
+{
+ "institution": "Northwestern University",
+ "checked_at": "2026-11-03T09:02:40Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.feinberg.northwestern.edu/sites/dgp/",
+  "quote": "The Walter S. and Lucienne Driskill Graduate Program in Life Sciences is a comprehensive, interdisciplinary PhD program"
+ },
+ "programs": [
+  {
+   "program_name": "Driskill Graduate Program in Life Sciences (DGP)",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://www.feinberg.northwestern.edu/sites/dgp/",
+   "phd_evidence_quote": "The Walter S. and Lucienne Driskill Graduate Program in Life Sciences is a comprehensive, interdisciplinary PhD program that trains students in biomedical sciences",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.feinberg.northwestern.edu/sites/dgp/research-interests/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yogesh Goyal",
+    "Huiping Liu",
+    "Deyu Fang",
+    "Gabriel J. Rocklin"
+   ],
+   "notes": "Research-interest areas include Biochemistry and Structural Biology; Computational Biology and Bioinformatics; Genetics, Epigenetics and Genomics.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "DGP Computational Biology and Bioinformatics (CBB) Track",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Driskill Graduate Program in Life Sciences (DGP)",
+   "program_url": "https://www.feinberg.northwestern.edu/sites/dgp/prospective-students/biomedical-informatics-track.html",
+   "phd_evidence_quote": "The computational and bioinformatics (CBB) track in DGP reflects a growing need for training in this rapidly expanding area.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.feinberg.northwestern.edu/sites/dgp/prospective-students/biomedical-informatics-track.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yogesh Goyal"
+   ],
+   "notes": "Track within the DGP PhD program.",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "Interdisciplinary Biological Sciences Graduate Program (IBiS)",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://ibis.northwestern.edu/",
+   "phd_evidence_quote": "Interdisciplinary Biological Sciences Graduate Program ... [PhD Requirements] (link on program homepage); 'Current Program Requirements for MSTP/IBiS Students'",
+   "faculty_list_urls": [
+    {
+     "url": "https://ibis.northwestern.edu/people/faculty/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Keith E. J. Tyo"
+   ],
+   "notes": "PhD wording on fetched pages is limited to the 'PhD Requirements' navigation link.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "PhD in Chemical and Biological Engineering",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://www.mccormick.northwestern.edu/chemical-biological/academics/graduate/index.html",
+   "phd_evidence_quote": "PhD in Chemical and Biological Engineering",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.mccormick.northwestern.edu/chemical-biological/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yogesh Goyal",
+    "Keith E. J. Tyo"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Doctor of Philosophy (PhD) in Biomedical Engineering",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://www.mccormick.northwestern.edu/biomedical/academics/graduate/index.html",
+   "phd_evidence_quote": "Doctor of Philosophy (PhD) in Biomedical Engineering",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.mccormick.northwestern.edu/biomedical/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Core B-type program; no relevant authors matched.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://chemistry.northwestern.edu/graduate/index.html",
+   "phd_evidence_quote": "All Ph.D. students receive broad training that prepares them equally well for careers in industry or academia.",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.northwestern.edu/people/faculty/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Faculty directory partially JS-driven; profile slugs in raw HTML (about 50 faculty) include none of the relevant authors. --render attempt returned HTTP 502.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Malik M. Nassan",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on DGP, IBiS, BME, ChBE lists; Feinberg profile not located without search (NUIN faculty URL guessed returned 404)."
+  },
+  {
+   "name": "Jinhyeong Bae",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched program list; profile not located."
+  },
+  {
+   "name": "Shunzhi Wang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Chemistry (raw HTML), ChBE, BME, DGP or IBiS lists; profile not located."
+  },
+  {
+   "name": "Jens Meiler",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Northwestern list (primary appointments Vanderbilt/Leipzig)."
+  },
+  {
+   "name": "Girish N. Nadkarni",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched list; OpenAlex last-known also Mount Sinai."
+  }
+ ],
+ "problems": [
+  "Chemistry faculty directory rendered fetch returned HTTP 502; matched against raw HTML only.",
+  "No Biostatistics PhD found in the Feinberg education directory (only 'Master of Science in Biostatistics'); Health Sciences Integrated PhD Program listed but its link was not extractable, not checked.",
+  "Statistics and Data Science faculty page (https://statistics.northwestern.edu/people/faculty/) matched only peripheral author Han Liu; program not recorded.",
+  "Interdepartmental Neuroscience (NUIN) faculty page guessed URL 404; not checked.",
+  "WebSearch budget exhausted; URLs discovered by site navigation."
+ ]
+}

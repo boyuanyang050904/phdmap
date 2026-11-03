@@ -1,0 +1,18 @@
+{
+  "institution": "Toyota Technological Institute at Chicago",
+  "institution_kind": "independent_institute",
+  "checked_at": "2026-11-03T09:00:01Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://www.ttic.edu/phd-program", "quote": "The Toyota Technological Institute at Chicago offers a graduate program leading to a doctorate in computer science"},
+  "programs": [
+    {"program_name": "TTIC Ph.D. Program (Computer Science)", "degree": "PhD", "discipline": "computer_science", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.ttic.edu/phd-program",
+     "phd_evidence_quote": "To complete the PhD program a student must make an original and significant contribution to the field of computer science described in a PhD thesis.",
+     "faculty_list_urls": [{"url": "https://www.ttic.edu/faculty", "render": false}],
+     "matched_authors": ["Jinbo Xu"],
+     "notes": "Single PhD program in computer science. Jinbo Xu listed on the faculty page as 'Professor' ('PhD - University of Waterloo'). Program page: 'Every TTIC student has a primary advisor among the Institute's tenure-track faculty' and students may collaborate with University of Chicago researchers."}
+  ],
+  "unmatched_core_authors": [],
+  "problems": []
+}

@@ -1,0 +1,26 @@
+{
+ "list_page": "https://www.iscb.org/nucleus/education-and-training-resources/degree-and-certificate-programs-in-bioinformatics",
+ "iframe_url": "https://transition.iscb.org/cms_addon/univ_programs/displaytable.php",
+ "iframe_allowed_by_robots": false,
+ "endorsement_page": {
+  "source_url": "https://www.iscb.org/nucleus/education-and-training-resources/iscb-degree-granting-endorsement-program",
+  "fetched_at": "2026-11-03T08:47:25Z",
+  "endorsed_lines": [
+   "Bioinformatics and Systems Biology Master's programme from VU Amsterdam and the University of Amsterdam (UvA)",
+   "Master in Bioinformatics and Data Sciences in Personalized Medicine of Precision and Health)",
+   "This master's degree is organized by three scientific institutions: Instituto de Salud Carlos III (ISCIII), the Spanish National Cancer Research Centre (CNIO), and the Barcelona Supercomputing Centre (BSC).",
+   "For more information on this program, click",
+   "Master\u2019s Degree in Bioinformatics and Computational Biology from Madrid Autonomous University)",
+   "Full details about this master's program can be found",
+   "This master's program is jointly offered by the University of Milan and Politecnico di Milano. Learn more about the program",
+   "Bachelor of Engineering (Honours) (Bioinformatics)",
+   "Specifics about the undergraduate Bachelor of Engineering degree at the University of New South Wales Sydney can be found",
+   "M.S. in Bioinformatics from Georgetown University School of Medicine",
+   "Full details about the M.S. in Bioinformatics from Georgetown University can be found"
+  ],
+  "us_phd_endorsed": []
+ },
+ "status": "blocked_by_robots",
+ "rows": [],
+ "note": "transition.iscb.org/robots.txt disallows all agents; save the iframe page manually to data/manual/iscb_displaytable.html and rerun."
+}

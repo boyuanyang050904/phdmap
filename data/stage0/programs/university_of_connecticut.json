@@ -1,0 +1,132 @@
+{
+ "institution": "University of Connecticut",
+ "checked_at": "2026-11-03T09:03:57Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://computing.engineering.uconn.edu/graduate-studies/",
+  "quote": "The School of Computing offers internationally recognized Ph.D., M.S., and M.Eng. degree programs"
+ },
+ "programs": [
+  {
+   "program_name": "Biomedical Engineering Graduate Program (M.S./Ph.D.)",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.bme.uconn.edu/academics/graduate-program/about-the-graduate-program-in-biomedical-engineering/",
+   "phd_evidence_quote": "Students with a B.S. degree in BME are ideally suited for the BME M.S. and Ph.D. studies at UConn.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bme.uconn.edu/faculty-staff/core-faculty/",
+     "render": false
+    },
+    {
+     "url": "https://www.bme.uconn.edu/faculty-staff/affiliated-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Anna Tarakanova",
+    "Abhishek Dutta",
+    "Changchun Liu"
+   ],
+   "notes": "All three matched on the core-faculty page. Abhishek Dutta and Changchun Liu have non-UConn OpenAlex last_known institutions (University of Jammu; Chinese PLA General Hospital/UConn Health), so the matches for them may be homonyms or correct (Changchun Liu also on UConn Health biomedical science faculty)."
+  },
+  {
+   "program_name": "Computer Science and Engineering Ph.D. (School of Computing)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://computing.engineering.uconn.edu/graduate-studies/",
+   "phd_evidence_quote": "The School of Computing offers internationally recognized Ph.D., M.S., and M.Eng. degree programs designed for both full-time and part-time students.",
+   "faculty_list_urls": [
+    {
+     "url": "https://computing.engineering.uconn.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yufeng Wu"
+   ],
+   "notes": "Page lists bioinformatics among areas of expertise. OpenAlex last_known for this Yufeng Wu is Shihezi University; the UConn faculty-page match could be a homonym."
+  },
+  {
+   "program_name": "Biomedical Science Ph.D. (umbrella; all areas of concentration)",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Science Ph.D. (UConn Health)",
+   "program_url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/",
+   "phd_evidence_quote": "The Biomedical Science Ph.D. program is a full-time umbrella program, meaning that students are not required to identify a major advisor for dissertation work prior to matriculation.",
+   "faculty_list_urls": [
+    {
+     "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/biomedical-science-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Changchun Liu"
+   ],
+   "notes": "Matched only on the umbrella-wide faculty list; area of concentration not determined."
+  },
+  {
+   "program_name": "Genetics and Developmental Biology (area of concentration)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Science Ph.D. (UConn Health)",
+   "program_url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/genetics-and-developmental-biology-area-of-concentration/",
+   "phd_evidence_quote": "The Biomedical Science Ph.D. program is a full-time umbrella program, meaning that students are not required to identify a major advisor for dissertation work prior to matriculation.",
+   "faculty_list_urls": [
+    {
+     "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/genetics-and-developmental-biology-area-of-concentration/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "AoC page matched no relevant authors."
+  },
+  {
+   "program_name": "Molecular Biology and Biochemistry (area of concentration)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Science Ph.D. (UConn Health)",
+   "program_url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/molecular-biology-and-biophysics-graduate-program/",
+   "phd_evidence_quote": "The Biomedical Science Ph.D. program is a full-time umbrella program, meaning that students are not required to identify a major advisor for dissertation work prior to matriculation.",
+   "faculty_list_urls": [
+    {
+     "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/molecular-biology-and-biophysics-graduate-program/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "AoC page matched no relevant authors."
+  },
+  {
+   "program_name": "Chemistry Ph.D.",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://chemistry.uconn.edu/graduate/",
+   "phd_evidence_quote": "Ph.D. students in good standing are guaranteed: financial support for 5 years as teaching and/or research assistants",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.uconn.edu/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "No relevant authors matched."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "Molecular and Cell Biology Ph.D. (Storrs; https://mcb.uconn.edu/apply/ 'Molecular and Cell Biology Ph.D. Program') exists, but https://mcb.uconn.edu/faculty/ returned almost no text (text_len=23); faculty not checked; omitted.",
+  "Peripheral author Rongting Yue (B; last_known University of Florida) not matched on any page; not pursued.",
+  "Statistics (Storrs) offers a Biostatistics master's (https://statistics.uconn.edu/graduate/masters-in-biostatistics/); no biostatistics PhD found in the grad.uconn.edu program listing; statistics not checked (no A core authors).",
+  "Several matched names (Yufeng Wu, Abhishek Dutta, Changchun Liu) have non-UConn OpenAlex last_known institutions; matches may be homonyms."
+ ]
+}

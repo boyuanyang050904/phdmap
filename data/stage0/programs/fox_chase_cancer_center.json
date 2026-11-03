@@ -1,0 +1,13 @@
+{
+  "institution": "Fox Chase Cancer Center",
+  "institution_kind": "independent_institute",
+  "checked_at": "2026-11-03T09:03:47Z",
+  "grants_phd": false,
+  "grants_phd_evidence": {"url": "https://www.foxchase.org/research-training/education/research/graduate", "quote": "Fox Chase Cancer Center is not a degree-granting institution. However, every year graduate students carry out their thesis research under the supervision of Fox Chase faculty who hold adjunct faculty appointments at local academic institutions"},
+  "programs": [],
+  "unmatched_core_authors": [
+    {"name": "Roland L. Dunbrack", "program_found": null, "evidence_url": null, "note": "Fox Chase grants no degrees; students would come via a partner university where he holds an adjunct appointment (not determined here)."},
+    {"name": "John Karanicolas", "program_found": null, "evidence_url": null, "note": "Fox Chase grants no degrees; OpenAlex also lists Temple University, a partner institution (not determined here)."}
+  ],
+  "problems": ["Not degree-granting, so stopped as instructed. The graduate page lists partner institutions whose students do thesis research at Fox Chase, including Drexel University College of Medicine, Jiangsu University, Kazan Federal University, Temple University, Soochow University, University of Kansas, University of Pennsylvania, Yale University, and Penn State (link to its biomedical-sciences bulletin). Which partner programs Dunbrack/Karanicolas belong to was not checked."]
+}

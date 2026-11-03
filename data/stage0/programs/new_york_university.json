@@ -1,0 +1,150 @@
+{
+ "institution": "New York University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://cs.nyu.edu/dynamic/phd/index/",
+  "quote": "Our research-oriented Ph.D. program in Computer Science prepares exceptional students for careers at the cutting edge of academia and industry."
+ },
+ "programs": [
+  {
+   "program_name": "PhD in Biomedical Sciences - Computational Biology and Bioinformatics training area (Vilcek Institute, NYU Grossman School of Medicine)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Vilcek Institute of Graduate Biomedical Sciences - PhD in Biomedical Sciences",
+   "program_url": "https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/phd-program/phd-biomedical-sciences/phd-training-areas/computational-biology-bioinfomatics",
+   "phd_evidence_quote": "Faculty whose research focuses on Computational Biomedicine at NYU Grossman School of Medicine’s Vilcek Institute of Graduate Biomedical Sciences provide training in medical informatics and bioinformatics. We train doctoral candidates",
+   "faculty_list_urls": [
+    {
+     "url": "http://osrsites.com/findalab",
+     "render": false
+    },
+    {
+     "url": "https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/faculty",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Rahul Satija",
+    "Aristotelis Tsirigos",
+    "Jane A. Skok",
+    "Aravinda Chakravarti",
+    "Huilin Li",
+    "Richard B. Hayes",
+    "Eran Halperin",
+    "Timothée Lionnet",
+    "Neville E. Sanjana",
+    "Shunzhi Wang"
+   ],
+   "notes": "osrsites.com/findalab is the 'complete list of training faculty in our PhD programs' linked from the Vilcek PhD Training Faculty page; it is not split by training area, so matched authors are Vilcek training faculty overall (area membership unverified). Vilcek faculty page is paginated (320 results); research-area filter URLs are robots-blocked."
+  },
+  {
+   "program_name": "PhD in Biomedical Sciences - Population and Data Sciences training area (biostatistics/epidemiology)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Vilcek Institute of Graduate Biomedical Sciences - PhD in Biomedical Sciences",
+   "program_url": "https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/phd-program/phd-biomedical-sciences/phd-training-areas/population-data-sciences",
+   "phd_evidence_quote": "Our Population and Data Sciences focus houses three main disciplines: biostatistics, epidemiology, and population health",
+   "faculty_list_urls": [
+    {
+     "url": "http://osrsites.com/findalab",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "PhD status from the parent PhD in Biomedical Sciences (area page sits under /phd-program/phd-biomedical-sciences/phd-training-areas/). Faculty lists per area are not readable (filter URLs robots-blocked; osrsites list not split by area), so no per-area matches recorded. Likely candidates on the Vilcek complete training-faculty list: Huilin Li, Richard B. Hayes (unverified for this area)."
+  },
+  {
+   "program_name": "Computer Science PhD (Courant Institute)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://cs.nyu.edu/dynamic/phd/index/",
+   "phd_evidence_quote": "Our research-oriented Ph.D. program in Computer Science prepares exceptional students for careers at the cutting edge of academia and industry.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cs.nyu.edu/dynamic/people/faculty/type/21/",
+     "render": false
+    },
+    {
+     "url": "https://cs.nyu.edu/dynamic/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Romain Lopez",
+    "Kyunghyun Cho",
+    "Eran Halperin"
+   ],
+   "notes": "type/21 = 'PhD Advisors' listing."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Hans‐Hermann Wessels",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Vilcek training-faculty list or CS list; NYU Biology / CGSB pages blocked by robots.txt (as.nyu.edu, cgsb.nyu.edu)."
+  },
+  {
+   "name": "Michael Shelley",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Courant Mathematics pages (math.nyu.edu) blocked by robots.txt."
+  },
+  {
+   "name": "Richard Bonneau",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on CS PhD-advisor list or Vilcek list; OpenAlex last_known is Genentech/Roche."
+  },
+  {
+   "name": "Yong Chen",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not found on fetched NYU lists; OpenAlex last_known not NYU."
+  },
+  {
+   "name": "John Z. H. Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Chemistry dept pages (as.nyu.edu) blocked by robots.txt."
+  },
+  {
+   "name": "Yingkai Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Chemistry dept pages (as.nyu.edu) blocked by robots.txt."
+  },
+  {
+   "name": "Alexander W. Rives",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not checked; not on fetched lists."
+  },
+  {
+   "name": "Gira Bhabha",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Vilcek complete training-faculty list; OpenAlex last_known includes Johns Hopkins."
+  },
+  {
+   "name": "Damian C. Ekiert",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Vilcek complete training-faculty list; OpenAlex last_known includes Johns Hopkins."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://as.nyu.edu/departments/biology/people/faculty.html (NYU Biology PhD not verifiable)",
+  "BLOCKED by robots.txt: https://as.nyu.edu/departments/chemistry/people/faculty.html (NYU Chemistry PhD not verifiable)",
+  "BLOCKED by robots.txt: https://biology.as.nyu.edu/ , https://gsas.nyu.edu/ , https://cgsb.nyu.edu/ , https://math.nyu.edu/dynamic/people/faculty/",
+  "BLOCKED by robots.txt: https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/faculty?filter=... (research-area filters)",
+  "https://cds.nyu.edu/faculty/ returned 403 (Center for Data Science PhD not checked).",
+  "NYU School of Global Public Health lists only an MS in Biostatistics and a PhD in Public Health (https://publichealth.nyu.edu/); no biostatistics PhD found there.",
+  "Vilcek training-area pages carry no faculty names; area membership of matched faculty unverified."
+ ],
+ "checked_at": "2026-11-03T09:00:15Z"
+}

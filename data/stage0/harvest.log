@@ -1,0 +1,20 @@
+A A1_perturbseq 0 250
+A A1_perturbseq 1 47
+A A1_perturbseq 2 218
+A A2_causal_network 0 247
+A A2_causal_network 1 188
+A A2_causal_network 2 215
+A A3_statgen 0 826
+A A3_statgen 1 867
+A A3_statgen 2 2798
+A A3_statgen 3 1248
+wrote /home/user/phdmap/data/stage0/works_A.jsonl 5973
+B B4_antibody 0 299
+B B4_antibody 1 324
+B B5_denovo_design 0 478
+B B5_denovo_design 1 1031
+B B5_denovo_design 2 34
+B B6_structure_pred 0 646
+B B6_structure_pred 1 1128
+B B6_structure_pred 2 1168
+wrote /home/user/phdmap/data/stage0/works_B.jsonl 4057

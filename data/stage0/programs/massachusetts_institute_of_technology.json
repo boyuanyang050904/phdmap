@@ -1,0 +1,276 @@
+{
+ "institution": "Massachusetts Institute of Technology",
+ "checked_at": "2026-11-03T08:52:29Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.mit.edu/schools/science/biology/",
+  "quote": "The Department of Biology offers graduate work leading to the Doctor of Philosophy."
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Interdepartmental program; home page quote: 'The Ph.D. program seeks to train a new breed of quantitative biologists'. Jonathan Weissman appears on the home page only as a thesis advisor in a defense listing, not on the faculty list.",
+   "program_name": "Computational and Systems Biology PhD Program (CSB)",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://csbphd.mit.edu/",
+   "phd_evidence_quote": "Welcome to the MIT Computational and Systems Biology PhD Program (CSB)",
+   "faculty_list_urls": [
+    {
+     "url": "https://csbphd.mit.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Caroline Uhler",
+    "M Kellis",
+    "Paul C. Blainey",
+    "Bryan D. Bryson",
+    "Bonnie Berger",
+    "Regina Barzilay",
+    "Amy E. Keating",
+    "Rafael Gómez‐Bombarelli",
+    "Kevin M. Esvelt",
+    "Bin Zhang",
+    "Michael T. Laub",
+    "Gene‐Wei Li"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Biological Engineering PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://be.mit.edu/graduate-program/phd-program/",
+   "phd_evidence_quote": "MIT BE offers a graduate PhD degree, and only accepts PhD applications through the annual Departmental process",
+   "faculty_list_urls": [
+    {
+     "url": "https://be.mit.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Douglas A. Lauffenburger",
+    "Paul C. Blainey",
+    "Ram Sasisekharan",
+    "Bryan D. Bryson",
+    "Amy E. Keating",
+    "James J. Collins"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "EECS PhD (Electrical Engineering and Computer Science)",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://www.eecs.mit.edu/academics/graduate-programs/",
+   "phd_evidence_quote": "EECS has about 700 graduate students in the doctoral program at any given time.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.eecs.mit.edu/role/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Caroline Uhler",
+    "M Kellis",
+    "Tommi Jaakkola",
+    "Regina Barzilay",
+    "Paul Pu Liang"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Department program page: https://biology.mit.edu/graduate/ . Specializations include biochemistry/biophysics/structural biology, computational biology, genetics (see Areas of Research links). Catalog-page matches 'Alicia R. Martin' and 'David Reich' dropped: their surnames do not appear in the catalog text (initial-variant false positives).",
+   "program_name": "Biology PhD",
+   "discipline": "other:biology",
+   "program_type": "independent",
+   "program_url": "https://catalog.mit.edu/schools/science/biology/",
+   "phd_evidence_quote": "The Department of Biology offers graduate work leading to the Doctor of Philosophy.",
+   "faculty_list_urls": [
+    {
+     "url": "https://biology.mit.edu/faculty-and-research/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://catalog.mit.edu/schools/science/biology/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jonathan S. Weissman",
+    "Douglas A. Lauffenburger",
+    "Sergey Ovchinnikov",
+    "Amy E. Keating",
+    "Michael T. Laub",
+    "Joey Davis",
+    "Gene‐Wei Li"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Chemistry PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://chemistry.mit.edu/academic-programs/graduate-programs/",
+   "phd_evidence_quote": "Our PhD program equips graduate students with the skills necessary to succeed as independent researchers.",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.mit.edu/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Arup K. Chakraborty",
+    "Bin Zhang"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Bonnie Berger listed as math faculty in catalog ('Bonnie Berger, PhD'). Match 'David Reich' dropped (surname absent from page text; false positive).",
+   "program_name": "Mathematics PhD (Applied Mathematics)",
+   "discipline": "other:applied_mathematics",
+   "program_type": "independent",
+   "program_url": "https://catalog.mit.edu/schools/science/mathematics/",
+   "phd_evidence_quote": "The Mathematics Department offers programs covering a broad range of topics leading to the Doctor of Philosophy or Doctor of Science degree. Candidates are admitted to either the Pure or Applied Mathematics programs",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.mit.edu/schools/science/mathematics/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Bonnie Berger"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Included because core B author Kevin Esvelt (and Jacobson) are MAS faculty (catalog lists 'Kevin Esvelt, PhD', 'Joseph Jacobson, PhD').",
+   "program_name": "Media Arts and Sciences PhD",
+   "discipline": "other:media_arts_sciences",
+   "program_type": "independent",
+   "program_url": "https://catalog.mit.edu/schools/architecture-planning/media-arts-sciences/",
+   "phd_evidence_quote": "the Doctor of Philosophy (PhD) in Media Arts and Sciences",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.mit.edu/schools/architecture-planning/media-arts-sciences/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Kevin M. Esvelt",
+    "Joseph M. Jacobson",
+    "Paul Pu Liang"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Included for core B author Markus Buehler (catalog: 'Markus J. Buehler, PhD'). Dropped matches: 'Michael T. Laub' (surname absent in text, false positive) and 'Cathy H. Wu' (catalog lists 'Cathy Wu, PhD', the CEE transportation faculty; OpenAlex author is the Delaware bioinformatician, likely a different person). John R. Williams match is a name-level match only.",
+   "program_name": "Civil and Environmental Engineering PhD",
+   "discipline": "other:civil_environmental_engineering",
+   "program_type": "independent",
+   "program_url": "https://catalog.mit.edu/schools/engineering/civil-environmental-engineering/",
+   "phd_evidence_quote": "CEE grants the following advanced degrees: Master of Engineering in Civil and Environmental Engineering, Master of Science in Transportation, Master of Science, Civil Engineer, Environmental Engineer, Doctor of Science, and Doctor of Philosophy.",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.mit.edu/schools/engineering/civil-environmental-engineering/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Markus J. Buehler",
+    "John R. Williams"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Not a direct-admission program: students enter via a participating MIT doctoral program (e.g. EECS, BCS, Aero/Astro) and add the IDPS. stat.mit.edu/people/ gave 0 matches even rendered.",
+   "program_name": "Interdisciplinary Doctoral Program in Statistics (IDPS)",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://stat.mit.edu/academics/idps/",
+   "phd_evidence_quote": "The Interdisciplinary PhD in Statistics (IDPS) is designed for students currently enrolled in a participating MIT doctoral program",
+   "faculty_list_urls": [
+    {
+     "url": "https://stat.mit.edu/core/",
+     "render": false
+    },
+    {
+     "url": "https://stat.mit.edu/people/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Rahul Mazumder"
+   ]
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Rahul Raman",
+   "program_found": null,
+   "evidence_url": "https://be.mit.edu/about/staff-directory/",
+   "note": "Not on BE faculty page or BE staff directory text; likely research scientist (Sasisekharan lab); no program membership verified."
+  },
+  {
+   "name": "Shuguang Zhang",
+   "program_found": null,
+   "evidence_url": "https://www.media.mit.edu/people/shuguang/overview/",
+   "note": "Media Lab profile exists ('Shuguang Zhang — MIT Media Lab') but not listed among MAS faculty in the catalog; no program membership verified."
+  },
+  {
+   "name": "Yosuke Tanigawa",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "CSAIL person URL guess returned no name text; not on CSB or EECS faculty pages."
+  },
+  {
+   "name": "Jeremy Wohlwend",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any faculty page fetched; likely former student/researcher."
+  },
+  {
+   "name": "Thomas Abeel",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any faculty page fetched; OpenAlex also lists Erasmus MC / Broad."
+  },
+  {
+   "name": "Rohit Singh",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on MIT faculty pages; last_known includes Duke (handled under Duke)."
+  },
+  {
+   "name": "Jishnu Das",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on MIT faculty pages; last_known University of Pittsburgh."
+  },
+  {
+   "name": "Sepideh Dolatshahi",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on MIT faculty pages; last_known University of Virginia."
+  }
+ ],
+ "problems": [
+  "WebSearch budget for the turn was exhausted (shared limit), so URL discovery relied on official MIT pages/links fetched with program_tool.py and the MIT course catalog; no search-based profile lookups were possible for unmatched core authors.",
+  "Most direction-A core authors in the MIT author list (e.g. Alkes L. Price, Benjamin M. Neale, Soumya Raychaudhuri, Shamil R. Sunyaev, Steven A. McCarroll, Xihong Lin, Pradeep Natarajan, George McDonald Church and other Broad/Harvard/MGH-affiliated people) are associated with MIT only via the Broad Institute; none appeared on the MIT program faculty pages checked. They are expected to belong to Harvard programs instead.",
+  "MIT catalog pages contain course-instructor initials, which produced name-variant false positives (David Reich, Alicia R. Martin, Michael T. Laub); these were removed after grepping page text.",
+  "stat.mit.edu/people/ returned no relevant names even with --render; Caroline Uhler's IDPS/IDSS membership was not verified."
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "institution": "Duke University",
+ "checked_at": "2026-11-03T09:02:35Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://biostat.duke.edu/education-and-training/biostatistics-phd",
+  "quote": "The Department of Biostatistics and Bioinformatics offers a doctoral degree in Biostatistics through the Duke University Graduate School."
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Listed among Duke School of Medicine Biomedical PhD Programs. Program's own site cbb.duke.edu is blocked by robots.txt; used the medschool.duke.edu program pages.",
+   "program_name": "Computational Biology and Bioinformatics (CBB) PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program",
+   "phd_evidence_quote": "Computational Biology and Bioinformatics (CBB) at Duke University is an integrative, multi-disciplinary Ph.D. program",
+   "faculty_list_urls": [
+    {
+     "url": "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program/people/cbb-1",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Charles Gersbach",
+    "Rohit Singh",
+    "Ricardo Henao",
+    "Amy Schmid",
+    "Scott C. Schmidler",
+    "Bruce Randall Donald",
+    "Hiroaki Matsunami"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "/people/all-faculty page carries no names in its text (0 matches, also with --render); used primary and affiliated/secondary faculty pages.",
+   "program_name": "Biostatistics PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "program_url": "https://biostat.duke.edu/education-and-training/biostatistics-phd",
+   "phd_evidence_quote": "The Department of Biostatistics and Bioinformatics offers a doctoral degree in Biostatistics through the Duke University Graduate School.",
+   "faculty_list_urls": [
+    {
+     "url": "https://biostat.duke.edu/people/faculty/primary-faculty",
+     "render": false
+    },
+    {
+     "url": "https://biostat.duke.edu/people/faculty/affiliated-secondary-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Rohit Singh",
+    "Ricardo Henao"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Faculty-and-research page gave 0 matches with plain and rendered fetch; sub-pages by research area exist but were not checked.",
+   "program_name": "University Program in Genetics and Genomics (UPGG)",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://medschool.duke.edu/education/biomedical-phd-programs/university-program-genetics-and-genomics",
+   "phd_evidence_quote": "University Program in Genetics and Genomics; A Multidisciplinary Biomedical PhD Program",
+   "faculty_list_urls": [
+    {
+     "url": "https://medschool.duke.edu/education/biomedical-phd-programs/university-program-genetics-and-genomics/upgg-faculty-and",
+     "render": true
+    }
+   ],
+   "matched_authors": []
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Department is now 'Department of Biochemistry & Cell Biology' (www.biochem.duke.edu/phd-biochemistry redirects to bcb.duke.edu). Gersbach and Donald are on the secondary-faculty page.",
+   "program_name": "Biochemistry PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://bcb.duke.edu/education-training/graduate-training",
+   "phd_evidence_quote": "PhD in Biochemistry",
+   "faculty_list_urls": [
+    {
+     "url": "https://bcb.duke.edu/about-us/primary-joint-faculty",
+     "render": false
+    },
+    {
+     "url": "https://bcb.duke.edu/about-us/people-department/secondary-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Scott H. Soderling",
+    "Mihai L. Azoitei",
+    "Charles Gersbach",
+    "Bruce Randall Donald"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Pranam Chatterjee not found on the BME primary-faculty listing (bme.duke.edu/people unfiltered gave 0 matches).",
+   "program_name": "Biomedical Engineering PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://bme.duke.edu/admissions/phd/",
+   "phd_evidence_quote": "Duke provides significant financial support to PhD students.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bme.duke.edu/people?s=&group=faculty-primary&research_themes=&custom_taxonomy=&submit=Filter",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Charles Gersbach",
+    "Philip A. Romero"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Singh and Schmidler are secondary faculty.",
+   "program_name": "Computer Science PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://cs.duke.edu/graduate/phd",
+   "phd_evidence_quote": "We do not admit students to a Masters program. Students that wish to leave the Ph.D. program with a Masters degree will be allowed to do so.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cs.duke.edu/people/appointed-faculty/primary-faculty",
+     "render": false
+    },
+    {
+     "url": "https://cs.duke.edu/people/appointed-faculty/secondary-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Bruce Randall Donald",
+    "Rohit Singh",
+    "Scott C. Schmidler"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Statistical Science PhD",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://stat.duke.edu/phd",
+   "phd_evidence_quote": "Life as a Ph.D. student in Statistical Science at Duke involves immersion in a broad range of research experiences",
+   "faculty_list_urls": [
+    {
+     "url": "https://stat.duke.edu/people/appointed-faculty/primary-faculty",
+     "render": false
+    },
+    {
+     "url": "https://stat.duke.edu/people/appointed-faculty/secondary-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Scott C. Schmidler"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Included for core A author Mohamed Noor (evolutionary genetics).",
+   "program_name": "Biology PhD",
+   "discipline": "other:biology",
+   "program_type": "independent",
+   "program_url": "https://biology.duke.edu/graduate/degree-programs",
+   "phd_evidence_quote": "In most cases, you will pursue a Ph.D. in biology while concurrently earning a certificate.",
+   "faculty_list_urls": [
+    {
+     "url": "https://biology.duke.edu/people/appointed-faculty/primary-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Amy Schmid",
+    "Mohamed A. F. Noor"
+   ]
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Pranam Chatterjee",
+   "program_found": null,
+   "evidence_url": "https://bme.duke.edu/people?s=&group=faculty-primary&research_themes=&custom_taxonomy=&submit=Filter",
+   "note": "Not on Duke BME primary faculty list or CBB faculty list; OpenAlex last_known also includes University of Pennsylvania (may have moved)."
+  },
+  {
+   "name": "Navid Naderializadeh",
+   "program_found": null,
+   "evidence_url": "https://biostat.duke.edu/people/faculty/primary-faculty",
+   "note": "Not on biostat primary faculty page text, CBB, or CS lists."
+  },
+  {
+   "name": "Nicholas F. Polizzi",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on CBB/Biochem/BME/CS lists; OpenAlex last_known includes Harvard."
+  },
+  {
+   "name": "Hongtu Zhu B",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Duke lists checked; primarily UNC Chapel Hill."
+  },
+  {
+   "name": "Svetlana V. Ukraintseva",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any program faculty list checked (likely Social Science Research Institute research faculty)."
+  },
+  {
+   "name": "Nathan A. Kimbrel",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any program list checked (psychiatry/VA)."
+  },
+  {
+   "name": "Gary C. Hon",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any Duke list checked."
+  },
+  {
+   "name": "Silviu‐Alin Bacanu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any Duke list checked; primarily VCU."
+  },
+  {
+   "name": "Hongzhe Duan",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any Duke list checked."
+  },
+  {
+   "name": "Sarah B. Marion",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any Duke list checked."
+  },
+  {
+   "name": "Xunrong Luo",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any Duke list checked (medicine)."
+  },
+  {
+   "name": "Mengdi Wang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any Duke list checked; OpenAlex last_known not Duke."
+  },
+  {
+   "name": "Yang Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any Duke list checked; OpenAlex last_known not Duke."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://cbb.duke.edu/ (CBB program site); used medschool.duke.edu CBB pages instead.",
+  "WebSearch budget exhausted; individual faculty profiles for unmatched core authors were not looked up (no search), only program/department lists navigated from official sites.",
+  "UPGG faculty page (medschool.duke.edu .../upgg-faculty-and) yielded 0 matches plain and rendered; UPGG membership of relevant authors unverified.",
+  "Structural Biology and Biophysics and Cell & Molecular Biology programs not checked (call budget)."
+ ]
+}

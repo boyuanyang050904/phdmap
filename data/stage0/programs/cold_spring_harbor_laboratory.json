@@ -1,0 +1,10 @@
+{
+  "institution": "Cold Spring Harbor Laboratory",
+  "institution_kind": "independent_institute",
+  "checked_at": "2026-11-03T08:59:35Z",
+  "grants_phd": null,
+  "grants_phd_evidence": null,
+  "programs": [],
+  "unmatched_core_authors": [],
+  "problems": ["BLOCKED by robots.txt: https://www.cshl.edu (homepage), https://www.cshl.edu/education/, https://www.cshl.edu/education/graduate-school/. https://www.cshl.edu/robots.txt has 'User-agent: anthropic-ai Disallow: /' and 'User-agent: ClaudeBot Disallow: /', which apply to the project fetcher. Respected; no workaround attempted (other CSHL subdomains not tried). Whether CSHL grants PhDs (and its program list / faculty) is therefore unverified -> grants_phd=null.", "Relevant authors are all peripheral (Alexander T. Xue, Adam C. Siepel [A], Nyasha Chambwe [A], Adarsh Rajesh [B]); no core authors, so nothing further to resolve."]
+}

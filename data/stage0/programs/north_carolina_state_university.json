@@ -1,0 +1,178 @@
+{
+ "institution": "North Carolina State University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.ncsu.edu/graduate/interdisciplinary/bioinformatics/",
+  "quote": "The Ph.D. in Bioinformatics requires a total of 72 credits"
+ },
+ "programs": [
+  {
+   "program_name": "Bioinformatics (PhD)",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://catalog.ncsu.edu/graduate/interdisciplinary/bioinformatics/",
+   "phd_evidence_quote": "The Ph.D. in Bioinformatics requires a total of 72 credits, and all students participate in a journal club, monthly seminar series and research ethics training.",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.ncsu.edu/graduate/interdisciplinary/bioinformatics/",
+     "render": false
+    },
+    {
+     "url": "https://brc.ncsu.edu/people-2/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jung‐Ying Tzeng",
+    "Jicai Jiang",
+    "Xingcheng Lin"
+   ],
+   "notes": "Interdisciplinary program associated with the Bioinformatics Research Center (BRC); Dept. of Biological Sciences page also describes it (https://bio.sciences.ncsu.edu/graduate/graduate-programs/bioinformatics/, lists 'Ph.D.' course requirements). BRC faculty page matched Tzeng and Lin; catalog faculty list matched Tzeng, Jiang, Lin.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Statistics (PhD)",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://catalog.ncsu.edu/graduate/sciences/statistics/statistics-phd/",
+   "phd_evidence_quote": "Statistics (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://statistics.sciences.ncsu.edu/group/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://catalog.ncsu.edu/graduate/sciences/statistics/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Shu Yang",
+    "Jung‐Ying Tzeng"
+   ],
+   "notes": "Department catalog page: 'formal program concentrations in biostatistics, bioinformatics, environmental, financial and mathematical statistics'. Catalog faculty list abbreviates names (e.g. 'S. Yang'), so Shu Yang was matched on the department faculty page.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Genetics and Genomics (PhD)",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://catalog.ncsu.edu/graduate/interdisciplinary/genetics-genomics/",
+   "phd_evidence_quote": "Genetics and Genomics (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.ncsu.edu/graduate/interdisciplinary/genetics-genomics/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Interdisciplinary program ('faculty affiliated with the Genetics and Genomics Academy'). Linked from BRC academics menu. Catalog faculty list matched no relevant authors.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemical Engineering (PhD)",
+   "discipline": "other:chemical_engineering",
+   "program_type": "independent",
+   "program_url": "https://catalog.ncsu.edu/graduate/engineering/chemical-engineering/chemical-engineering-phd/",
+   "phd_evidence_quote": "Chemical Engineering (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.ncsu.edu/graduate/engineering/chemical-engineering/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Carol K. Hall"
+   ],
+   "notes": "Included because core author Carol K. Hall is on its graduate faculty.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Materials Science and Engineering (PhD)",
+   "discipline": "other:materials_science",
+   "program_type": "independent",
+   "program_url": "https://catalog.ncsu.edu/graduate/engineering/materials-science-engineering/materials-science-engineering-phd/",
+   "phd_evidence_quote": "Materials Science and Engineering (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.ncsu.edu/graduate/engineering/materials-science-engineering/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Alexey V. Gulyuk",
+    "Yaroslava G. Yingling"
+   ],
+   "notes": "Included because of matched (peripheral B) authors.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Physics (PhD)",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "program_url": "https://catalog.ncsu.edu/graduate/sciences/physics/physics-phd/",
+   "phd_evidence_quote": "Physics (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.ncsu.edu/graduate/sciences/physics/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Xingcheng Lin"
+   ],
+   "notes": "General Physics PhD (discipline set to biophysics only as nearest bucket for Xingcheng Lin's biological physics work; it is not a dedicated biophysics program).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry (PhD)",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://catalog.ncsu.edu/graduate/sciences/chemistry/chemistry-phd/",
+   "phd_evidence_quote": "Chemistry (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.ncsu.edu/graduate/sciences/chemistry/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yaroslava G. Yingling"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering (PhD) - Joint Department of Biomedical Engineering (NC State / UNC-Chapel Hill)",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://catalog.ncsu.edu/graduate/engineering/biomedical-engineering/biomedical-engineering-phd/",
+   "phd_evidence_quote": "Biomedical Engineering (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.ncsu.edu/graduate/engineering/biomedical-engineering/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "'The Joint Department of Biomedical Engineering Graduate Program is administered by the combined biomedical engineering graduate faculty from both North Carolina State University and University of North Carolina at Chapel Hill.' Core type for direction B; no relevant authors matched.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "PhD evidence quotes for most programs are the catalog program titles of the form '<Name> (PhD)' (catalog PhD pages contain little prose).",
+  "Peripheral author Tianlong Chen not matched on any page checked (Computer Science and Biochemistry catalog faculty lists matched 0; those programs were omitted).",
+  "Genetics and Genomics catalog page text also mentions 'The Ph.D. in Functional Genomics', apparently legacy wording.",
+  "https://statistics.sciences.ncsu.edu/people/faculty/ returned 404; used /group/faculty/ instead."
+ ],
+ "checked_at": "2026-11-03T08:58:26Z"
+}

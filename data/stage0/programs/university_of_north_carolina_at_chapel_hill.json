@@ -1,0 +1,234 @@
+{
+ "institution": "University of North Carolina at Chapel Hill",
+ "checked_at": "2026-11-03T08:59:22Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
+  "quote": "The doctor of philosophy (Ph.D.) degree in the Department of Biostatistics provides advanced, research-oriented training in theory and methodology of biostatistics"
+ },
+ "programs": [
+  {
+   "program_name": "Biostatistics PhD (Gillings School of Global Public Health)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
+   "phd_evidence_quote": "The doctor of philosophy (Ph.D.) degree in the Department of Biostatistics provides advanced, research-oriented training in theory and methodology of biostatistics",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Hongtu Zhu B",
+    "William S. J. Valdar",
+    "Yun Li",
+    "Dan-Yu Lin",
+    "Xihao Li",
+    "Joseph G. Ibrahim",
+    "Danyu Y. Lin",
+    "Fei Zou",
+    "Didong Li",
+    "Wei Sun"
+   ],
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. 'Wei Sun' matched an OpenAlex record (direction B, last_known Kunming/Shanghai) that may be a different person with the same name."
+  },
+  {
+   "program_name": "Bioinformatics and Computational Biology (BCB) PhD",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biological and Biomedical Sciences Program (BBSP)",
+   "program_url": "https://catalog.unc.edu/graduate/schools-departments/bioinformatics-computational-biology/",
+   "phd_evidence_quote": "Bioinformatics and Computational Biology, Doctoral Degree (Ph.D.)",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.unc.edu/graduate/schools-departments/bioinformatics-computational-biology/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "William S. J. Valdar",
+    "Yun Li",
+    "Xihao Li",
+    "Fei Zou",
+    "Didong Li",
+    "Brian A. Kuhlman",
+    "Charles W. Carter",
+    "Alex Rubinsteyn",
+    "John Sondek",
+    "Elizabeth Brunk"
+   ],
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. Catalog: applicants 'must apply to the program through a unified application program known as the Biological and Biomedical Sciences Program (BBSP)'."
+  },
+  {
+   "program_name": "Biochemistry and Biophysics PhD",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biological and Biomedical Sciences Program (BBSP)",
+   "program_url": "https://catalog.unc.edu/graduate/schools-departments/biochemistry-biophysics/",
+   "phd_evidence_quote": "The graduate program offers instruction and research opportunities leading to the Ph.D. degree.",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.unc.edu/graduate/schools-departments/biochemistry-biophysics/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Brian A. Kuhlman",
+    "Charles W. Carter",
+    "John Sondek"
+   ],
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. Listed by BBSP catalog page among programs 'affiliated with BBSP'."
+  },
+  {
+   "program_name": "Genetics and Molecular Biology (GMB) PhD",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biological and Biomedical Sciences Program (BBSP)",
+   "program_url": "https://catalog.unc.edu/graduate/schools-departments/genetics-molecular-biology/",
+   "phd_evidence_quote": "The Curriculum in Genetics and Molecular Biology is an interdepartmental predoctoral training program leading to a Ph.D. degree in genetics and molecular biology.",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.unc.edu/graduate/schools-departments/genetics-molecular-biology/",
+     "render": false
+    },
+    {
+     "url": "https://www.med.unc.edu/gmb/gmb-faculty/",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Catalog page matched 0 relevant authors; GMB faculty page https://www.med.unc.edu/gmb/gmb-faculty/ returned 403 (plain) / 502 (rendered). BBSP-affiliated."
+  },
+  {
+   "program_name": "Pharmacology PhD",
+   "degree": "PhD",
+   "discipline": "other:pharmacology",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biological and Biomedical Sciences Program (BBSP)",
+   "program_url": "https://catalog.unc.edu/graduate/schools-departments/pharmacology/",
+   "phd_evidence_quote": "The Department of Pharmacology offers a program of study that leads to the degree of doctor of philosophy in pharmacology.",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.unc.edu/graduate/schools-departments/pharmacology/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "John Sondek"
+   ],
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. BBSP-affiliated."
+  },
+  {
+   "program_name": "Chemistry PhD (incl. Biological Chemistry Division)",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.unc.edu/graduate/schools-departments/chemistry/",
+   "phd_evidence_quote": "The Department of Chemistry offers graduate programs leading to the degrees of master of arts (non-thesis), master of science (thesis), and doctor of philosophy",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.unc.edu/graduate/schools-departments/chemistry/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Elizabeth Brunk"
+   ],
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. BBSP catalog lists 'Chemistry (Biological Chemistry Division)' as BBSP-affiliated; direct admission to Chemistry also possible (not verified)."
+  },
+  {
+   "program_name": "Statistics and Operations Research (STOR) PhD",
+   "degree": "PhD",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.unc.edu/graduate/schools-departments/statistics-operations-research/",
+   "phd_evidence_quote": "The Ph.D. degree in STOR is designed for students planning a career in teaching or research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.unc.edu/graduate/schools-departments/statistics-operations-research/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Joseph G. Ibrahim"
+   ],
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty."
+  },
+  {
+   "program_name": "Computer Science PhD",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.unc.edu/graduate/schools-departments/computer-science/",
+   "phd_evidence_quote": "The Ph.D. program prepares teachers and researchers for positions with universities",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.unc.edu/graduate/schools-departments/computer-science/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Tianlong Chen",
+    "Hongtu Zhu B",
+    "Yun Li",
+    "Didong Li"
+   ],
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. Biostatistics faculty matched here are likely joint/adjunct CS appointments."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Jiandong Liu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any matched catalog faculty list; UNC School of Medicine pages (med.unc.edu) returned 403 when probing a profile."
+  },
+  {
+   "name": "Yue Wang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not matched; common name, not checked further."
+  },
+  {
+   "name": "Haoyu Zhang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not matched; OpenAlex last_known lists non-UNC institutions first; not checked further."
+  },
+  {
+   "name": "Quan Sun",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not matched on Biostatistics/BCB catalog faculty lists (possibly former student/postdoc)."
+  },
+  {
+   "name": "Nathan A. Kimbrel",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known: VA / Duke University; likely not UNC faculty."
+  },
+  {
+   "name": "Qun Lu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known: University of South Carolina; likely not UNC faculty."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://bbsp.unc.edu/",
+  "BLOCKED by robots.txt: https://bcb.unc.edu/",
+  "BLOCKED by robots.txt: https://sph.unc.edu/bios/",
+  "https://www.med.unc.edu/gmb/gmb-faculty/ returned 403 (plain) and 502 (rendered); med.unc.edu began returning 403",
+  "Biomedical Engineering PhD (joint UNC/NC State) catalog page matched 0 relevant authors; not recorded",
+  "WebSearch unavailable (budget exhausted); used UNC Graduate Catalog navigation"
+ ]
+}
