@@ -1,10 +1,56 @@
 {
-  "institution": "Cold Spring Harbor Laboratory",
-  "institution_kind": "independent_institute",
-  "checked_at": "2026-11-03T08:59:35Z",
-  "grants_phd": null,
-  "grants_phd_evidence": null,
-  "programs": [],
-  "unmatched_core_authors": [],
-  "problems": ["BLOCKED by robots.txt: https://www.cshl.edu (homepage), https://www.cshl.edu/education/, https://www.cshl.edu/education/graduate-school/. https://www.cshl.edu/robots.txt has 'User-agent: anthropic-ai Disallow: /' and 'User-agent: ClaudeBot Disallow: /', which apply to the project fetcher. Respected; no workaround attempted (other CSHL subdomains not tried). Whether CSHL grants PhDs (and its program list / faculty) is therefore unverified -> grants_phd=null.", "Relevant authors are all peripheral (Alexander T. Xue, Adam C. Siepel [A], Nyasha Chambwe [A], Adarsh Rajesh [B]); no core authors, so nothing further to resolve."]
+ "institution": "Cold Spring Harbor Laboratory",
+ "institution_kind": "independent_institute",
+ "checked_at": "2026-11-03T19:28:00Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.cshl.edu/phd-program/about/",
+  "quote": "A satisfactory defense and fulfillment of all curricular requirements results in the granting of the Ph.D. degree."
+ },
+ "programs": [
+  {
+   "program_name": "Ph.D. in Biological Sciences (School of Biological Sciences)",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cshl.edu/phd-program/",
+   "phd_evidence_quote": "The Ph.D. program matriculates approximately nine students per entering class. The average time to degree is five years.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cshl.edu/phd-program/research-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Adam C. Siepel"
+   ],
+   "notes": "CSHL's own degree-granting graduate school; about page: 'Cold Spring Harbor Laboratory School of Biological Sciences is accredited by the New England Commission of Higher Education'. Faculty list = 'SBS Research Faculty'."
+  },
+  {
+   "program_name": "PhD in Biological and Artificial Intelligence (BioAI)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cshl.edu/phd-program/bioai-phd-program/",
+   "phd_evidence_quote": "Our new BioAI Ph.D. program bypasses our standard Ph.D. program’s preliminary stages, providing a specialized, fast-track path to a degree.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cshl.edu/phd-program/bioai-phd-program/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Adam C. Siepel"
+   ],
+   "notes": "Degree title 'Biological & Artificial Intelligence'; 'PhD (3-4 years)'; requires a master's in a quantitative area and is 'limited to students pursuing only dry lab computational/quantitative research'; students are accepted directly into a lab. Program page has its own faculty section (#faculty)."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "Relevant authors are all peripheral (Alexander T. Xue, Adam C. Siepel [A], Nyasha Chambwe [A], Adarsh Rajesh [B]); no core authors. Only Siepel appears on the faculty lists; Xue, Chambwe (OpenAlex last_known Northwell/Feinstein) and Rajesh not found there.",
+  "https://www.cshl.edu/education/graduate-school/ now returns 404; the graduate school lives at https://www.cshl.edu/phd-program/.",
+  "rechecked 2026-11-03 under Claude-User robots policy: www.cshl.edu now fetchable; grants_phd=true (School of Biological Sciences, NECHE-accredited) with 2 programs (Biological Sciences PhD, BioAI PhD); Adam C. Siepel matched on both faculty lists"
+ ]
 }

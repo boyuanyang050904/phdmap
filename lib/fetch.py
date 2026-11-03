@@ -11,6 +11,8 @@
   (RFC 9309 sec. 2.3.1.3-4).  Crawl-delay is honoured.
   (Policy switched from the stricter variant at the user's explicit request, 2026-11-03.)
 * A minimum per-host delay is enforced (default 2 s).
+* Bot protection is respected: a page the site refuses to the plain fetcher (401/403) is
+  never fetched with the headless browser either (BotProtected).
 * Blocked / failed URLs are logged to cache/fetch_log.jsonl.
 """
 from __future__ import annotations
@@ -74,6 +76,12 @@ class Resp:
 
 
 class BlockedByRobots(Exception):
+    pass
+
+
+class BotProtected(BlockedByRobots):
+    """The site answers the plain fetcher with 401/403 (bot protection / access denied).
+    Rendering with a headless browser would get around that, so it is refused too."""
     pass
 
 
@@ -244,7 +252,13 @@ class Fetcher:
 
     # ------------------------------------------------------ rendered (JS)
     def get_rendered(self, url, wait_ms=2500, max_age_days=None) -> Resp:
-        """Fetch with headless Chromium (for JS-rendered pages). Same cache/robots rules."""
+        """Fetch with headless Chromium (for JS-rendered pages). Same cache/robots rules.
+        Only allowed when the site serves the plain fetcher normally: if the plain request is
+        refused with 401/403 (bot protection, access denied), rendering is refused as well."""
+        plain = self.get(url)          # robots check + cached plain status
+        if plain.status in (401, 403):
+            self.log(event="bot_protected", url=plain.url, status=plain.status)
+            raise BotProtected(plain.url)
         curl = canonical_url(url)
         frag = urlsplit(url).fragment
         # JS apps often filter by #fragment: keep it in the cache key for rendered pages

@@ -159,13 +159,8 @@
   }
  },
  "admissions_mode": {
-  "value": "rotation",
-  "source_url": "https://depts.washington.edu/bpsd/for-current-students/timeline/",
-  "fetched_at": "2026-11-03T19:02:51Z",
-  "quote": "Students are required to complete three rotations during their first year (AUT, WIN and SPR quarters).",
-  "scope": "program",
-  "cycle": null,
-  "note": "Students may rotate with any participating BPSD faculty and join a thesis lab in summer of the first year (FAQ). Page requires --render (plain fetch returns 403)."
+  "value": null,
+  "note": "source page refuses automated clients (HTTP 403 bot protection); the value previously taken from a headless-browser render was discarded under the no-bypass rule (bpsd/for-current-students/timeline/); no accessible official page states the rotation format (the FAQ only says students join a thesis lab in summer of the first year)"
  },
  "contact_faculty_advice": {
   "value": "Not recommended: applications are first reviewed by the Admissions Committee, which invites selected applicants for interviews with faculty of interest",
@@ -177,22 +172,17 @@
   "note": "FAQ question: 'Is it recommended that I contact individual professors to request their support of my application?'. The statement of purpose should name BPSD-affiliated faculty whose research interests the applicant (Application Process page)."
  },
  "stipend": {
-  "value": "$4,035 per month (first-year rate during the three rotation quarters; afterwards the degree-granting department's student salary rate, some lower)",
-  "source_url": "https://depts.washington.edu/bpsd/for-current-students/student-support/",
-  "fetched_at": "2026-11-03T19:03:16Z",
-  "quote": "The current first year graduate student salary rate is $4,035 per month.",
-  "scope": "program",
-  "cycle": null,
-  "note": "Page gives no academic year for the salary ('current'); its fee list is 'current as of Autumn 2025', so likely the 2025-26 rate. Support also includes tuition waiver and student-only health insurance; students pay quarterly fees (~$900/year). Page requires --render (plain fetch returns 403)."
+  "value": null,
+  "note": "source page refuses automated clients (HTTP 403 bot protection); the value previously taken from a headless-browser render was discarded under the no-bypass rule (bpsd/for-current-students/student-support/)"
  },
  "guaranteed_years": {
-  "value": "Full support (salary, tuition, health insurance) for the duration of the PhD while making satisfactory progress: BPSD funds the first three quarters, then the thesis advisor",
-  "source_url": "https://depts.washington.edu/bpsd/for-current-students/student-support/",
-  "fetched_at": "2026-11-03T19:03:16Z",
-  "quote": "it becomes the responsibility of the advisor to arrange to support that student (including salary, tuition, and health insurance) for the remainder of the student’s graduate education",
+  "value": "BPSD funds the first three quarters; then the thesis advisor takes over financial support",
+  "source_url": "https://depts.washington.edu/bpsd/prospective-students-2/faq/",
+  "fetched_at": "2026-11-03T08:47:31Z",
+  "quote": "The BPSD program offers full financial support for the first three quarters of a student’s first year. When the student joins their thesis lab in summer of the first year, their thesis advisor takes over their financial support.",
   "scope": "program",
   "cycle": null,
-  "note": "Continues: 'provided that the student continues making satisfactory progress in their graduate program as determined by their Supervisory Committee.' No fixed number of years stated."
+  "note": "no fixed number of years stated on accessible pages"
  },
  "pr_domestic": {
   "value": true,
@@ -753,6 +743,7 @@
   "Individual BPSD faculty profile pages (people/faculty/entry/...) return 403 even with --render; lab URLs not collected (lab_url null for all 66).",
   "Stipend figure on Student Support page is undated ('current'); fee list there dated Autumn 2025 - may not be the 2027-28 rate.",
   "Duolingo Recommended Score differs between Grad School Policy 3.2 (130) and Grad School Requirements page (125); not relevant to TOEFL fields.",
-  "pr_domestic is not defined on BPSD or Grad School pages in so many words; based on Grad School's non-immigrant-visa definition of international students plus the explicit UW Biochemistry department definition (see note)."
+  "pr_domestic is not defined on BPSD or Grad School pages in so many words; based on Grad School's non-immigrant-visa definition of international students plus the explicit UW Biochemistry department definition (see note).",
+  "2026-11-03T19:25:14Z: admissions_mode/stipend nulled and guaranteed_years re-sourced: pages behind 403 bot protection are no longer used via rendering"
  ]
 }

@@ -11,7 +11,7 @@
    "lab_url": null,
    "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
    "openalex_id": "https://openalex.org/A5012089635",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Cesar+de+la+Fuente&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_match": "stage0",
    "openalex_name": "C\u00e9sar de la Fuente\u2010N\u00fa\u00f1ez",
    "openalex_url": "https://api.openalex.org/authors/A5012089635?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
    "openalex_fetched_at": "2026-11-03T19:06:05Z",
@@ -207,26 +207,6 @@
     }
    ],
    "why": "\u8fd1\u4e24\u5e74\u4ee5\u672b\u4f4d\u4f5c\u8005\u63d0\u51fa\u7528\u4e8e\u80bd/\u86cb\u767d\u8d28\u5b9a\u5236\u8bbe\u8ba1\u7684\u4f18\u5316\u6846\u67b6\uff08key-cutting machine\uff09\u548c\u751f\u6210\u5f0f AI \u80bd\u4f18\u5316\u65b9\u6cd5\uff0c\u76f4\u63a5\u5bf9\u5e94\u65b9\u5411 B5 \u7684 de novo \u751f\u6210\u8bbe\u8ba1\u3002",
-   "title_field": {
-    "value": "Presidential Associate Professor",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9151622",
-    "fetched_at": "2026-11-03T19:12:02Z",
-    "quote": "Presidential Associate Professor"
-   },
-   "lab_field": {
-    "value": "http://delafuentelab.seas.upenn.edu",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9151622",
-    "fetched_at": "2026-11-03T19:12:02Z",
-    "quote": "de la Fuente Lab website"
-   },
-   "new_assistant_professor": {
-    "value": false,
-    "title": "Presidential Associate Professor",
-    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9151622",
-    "first_last_author_year": 2015,
-    "cutoff_year": 2021,
-    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
-   },
    "affiliation_recent": {
     "status": "consistent",
     "recent_works": [
@@ -254,6 +234,26 @@
      }
     ],
     "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Presidential Associate Professor",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9151622",
+    "fetched_at": "2026-11-03T19:12:02Z",
+    "quote": "Presidential Associate Professor"
+   },
+   "lab_field": {
+    "value": "http://delafuentelab.seas.upenn.edu",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9151622",
+    "fetched_at": "2026-11-03T19:12:02Z",
+    "quote": "de la Fuente Lab website"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Presidential Associate Professor",
+    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9151622",
+    "first_last_author_year": 2015,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
    }
   },
   {
@@ -456,14 +456,6 @@
     }
    ],
    "why": "\u4e13\u95e8\u4e3a\u5355\u7ec6\u80de CRISPR \u7b5b\u9009\u5f00\u53d1\u7edf\u8ba1\u63a8\u65ad\u65b9\u6cd5\uff08\u4f4e MOI \u4e0b\u7684\u7a33\u5065\u5dee\u5f02\u8868\u8fbe\u68c0\u9a8c\u3001\u6307\u6570\u65cf\u6d4b\u91cf\u8bef\u5dee\u6a21\u578b\uff09\uff0c\u6b63\u5bf9\u65b9\u5411 A1\u3002",
-   "lab_field": {
-    "value": "https://katsevich-lab.github.io/",
-    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
-   },
-   "new_assistant_professor": {
-    "value": null,
-    "note": "official title not found"
-   },
    "affiliation_recent": {
     "status": "consistent",
     "recent_works": [
@@ -491,6 +483,14 @@
      }
     ],
     "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "lab_field": {
+    "value": "https://katsevich-lab.github.io/",
+    "source_url": "https://www.med.upenn.edu/gcb/faculty.html"
+   },
+   "new_assistant_professor": {
+    "value": null,
+    "note": "official title not found"
    }
   },
   {
@@ -696,26 +696,6 @@
     }
    ],
    "why": "\u5f00\u53d1\u57fa\u4e8e GWAS summary statistics \u7684\u591a\u7956\u6e90\u8d1d\u53f6\u65af PRS\uff08MUSSEL\uff09\u548c\u6f5c\u53d8\u91cf\u66b4\u9732\u7684\u5b5f\u5fb7\u5c14\u968f\u673a\u5316\u65b9\u6cd5\uff0c\u540c\u65f6\u8986\u76d6\u65b9\u5411 A3 \u7684 PGS \u4e0e MR\u3002",
-   "title_field": {
-    "value": "Assistant Professor of Biostatistics and Epidemiology",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9681911",
-    "fetched_at": "2026-11-03T19:12:04Z",
-    "quote": "Assistant Professor of Biostatistics and Epidemiology"
-   },
-   "lab_field": {
-    "value": "https://jin93.github.io/",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9681911",
-    "fetched_at": "2026-11-03T19:12:04Z",
-    "quote": "Personal Website"
-   },
-   "new_assistant_professor": {
-    "value": true,
-    "title": "Assistant Professor of Biostatistics and Epidemiology",
-    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9681911",
-    "first_last_author_year": 2024,
-    "cutoff_year": 2021,
-    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
-   },
    "affiliation_recent": {
     "status": "consistent",
     "recent_works": [
@@ -743,6 +723,26 @@
      }
     ],
     "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Assistant Professor of Biostatistics and Epidemiology",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9681911",
+    "fetched_at": "2026-11-03T19:12:04Z",
+    "quote": "Assistant Professor of Biostatistics and Epidemiology"
+   },
+   "lab_field": {
+    "value": "https://jin93.github.io/",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9681911",
+    "fetched_at": "2026-11-03T19:12:04Z",
+    "quote": "Personal Website"
+   },
+   "new_assistant_professor": {
+    "value": true,
+    "title": "Assistant Professor of Biostatistics and Epidemiology",
+    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9681911",
+    "first_last_author_year": 2024,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
    }
   },
   {
@@ -942,26 +942,6 @@
     }
    ],
    "why": "\u5c06\u591a\u57fa\u56e0\u98ce\u9669\u4e0e\u5355\u7ec6\u80de\u7532\u57fa\u5316\u6570\u636e\u6574\u5408\uff08met-scDRS\uff09\uff0c\u5e76\u53c2\u4e0e\u8de8\u751f\u7269\u5e93\u7684\u5c40\u90e8\u7956\u6e90\u611f\u77e5\u5173\u8054\u5206\u6790\u6846\u67b6\uff0c\u5c5e\u65b9\u5411 A3 \u7edf\u8ba1\u9057\u4f20\u5b66\u65b9\u6cd5\u3002",
-   "title_field": {
-    "value": "Professor of Genetics",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9820129",
-    "fetched_at": "2026-11-03T19:12:06Z",
-    "quote": "Professor of Genetics"
-   },
-   "lab_field": {
-    "value": "https://www.med.upenn.edu/bogdan-group/",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9820129",
-    "fetched_at": "2026-11-03T19:12:06Z",
-    "quote": "Bogdan Research Lab Website"
-   },
-   "new_assistant_professor": {
-    "value": false,
-    "title": "Professor of Genetics",
-    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9820129",
-    "first_last_author_year": null,
-    "cutoff_year": 2021,
-    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
-   },
    "affiliation_recent": {
     "status": "consistent",
     "recent_works": [
@@ -989,6 +969,26 @@
      }
     ],
     "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Professor of Genetics",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9820129",
+    "fetched_at": "2026-11-03T19:12:06Z",
+    "quote": "Professor of Genetics"
+   },
+   "lab_field": {
+    "value": "https://www.med.upenn.edu/bogdan-group/",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9820129",
+    "fetched_at": "2026-11-03T19:12:06Z",
+    "quote": "Bogdan Research Lab Website"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Professor of Genetics",
+    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9820129",
+    "first_last_author_year": null,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
    }
   },
   {
@@ -1192,21 +1192,6 @@
     }
    ],
    "why": "\u7528\u8ba1\u7b97\u6a21\u62df\u7814\u7a76\u86cb\u767d\u8d28\u6784\u8c61\u52a8\u529b\u5b66\u4e0e\u76f8\u4e92\u4f5c\u7528\u754c\u9762\uff08\u6297\u4f53\u6210\u719f\u5982\u4f55\u6539\u53d8\u63a5\u89e6\u533a\u521a\u6027\u3001\u540c\u6e90\u5be1\u805a\u4f53\u5bf9\u79f0\u6027\u9884\u6d4b\uff09\uff0c\u4e0e\u65b9\u5411 B6 \u7ed3\u6784\u9884\u6d4b\u53ca B4 \u6297\u4f53\u4eb2\u548c\u529b\u76f8\u5173\u3002",
-   "title_field": {
-    "value": "Louis Heyman University Professor",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9637314",
-    "fetched_at": "2026-11-03T19:12:08Z",
-    "quote": "Louis Heyman University Professor"
-   },
-   "lab_field": null,
-   "new_assistant_professor": {
-    "value": false,
-    "title": "Louis Heyman University Professor",
-    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9637314",
-    "first_last_author_year": null,
-    "cutoff_year": 2021,
-    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
-   },
    "affiliation_recent": {
     "status": "consistent",
     "recent_works": [
@@ -1234,6 +1219,21 @@
      }
     ],
     "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Louis Heyman University Professor",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9637314",
+    "fetched_at": "2026-11-03T19:12:08Z",
+    "quote": "Louis Heyman University Professor"
+   },
+   "lab_field": null,
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Louis Heyman University Professor",
+    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9637314",
+    "first_last_author_year": null,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
    }
   },
   {
@@ -1243,7 +1243,7 @@
    "lab_url": null,
    "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
    "openalex_id": "https://openalex.org/A5081769614",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Marylyn+D+Ritchie&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_match": "stage0",
    "openalex_name": "Marylyn DeRiggi Ritchie",
    "openalex_url": "https://api.openalex.org/authors/A5081769614?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
    "openalex_fetched_at": "2026-11-03T19:06:03Z",
@@ -1435,26 +1435,6 @@
     }
    ],
    "why": "\u5f00\u53d1\u57fa\u4e8e GWAS summary statistics \u7684\u8d1d\u53f6\u65af\u4f4d\u70b9\u8bc6\u522b\u65b9\u6cd5\uff08SABER\uff09\uff0c\u5e76\u7814\u7a76 PGS \u5728\u4e0d\u540c\u4eba\u7fa4\u961f\u5217\u4e2d\u7684\u8868\u73b0\u5dee\u5f02\uff0c\u5c5e\u65b9\u5411 A3\u3002",
-   "title_field": {
-    "value": "Adjunct Professor of Genetics",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9023600",
-    "fetched_at": "2026-11-03T19:12:10Z",
-    "quote": "Adjunct Professor of Genetics"
-   },
-   "lab_field": {
-    "value": "http://visualization.ritchielab.org",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9023600",
-    "fetched_at": "2026-11-03T19:12:10Z",
-    "quote": "Lab website"
-   },
-   "new_assistant_professor": {
-    "value": false,
-    "title": "Adjunct Professor of Genetics",
-    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9023600",
-    "first_last_author_year": 2003,
-    "cutoff_year": 2021,
-    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
-   },
    "affiliation_recent": {
     "status": "possibly_moved",
     "recent_works": [
@@ -1480,6 +1460,26 @@
      }
     ],
     "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Adjunct Professor of Genetics",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9023600",
+    "fetched_at": "2026-11-03T19:12:10Z",
+    "quote": "Adjunct Professor of Genetics"
+   },
+   "lab_field": {
+    "value": "http://visualization.ritchielab.org",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9023600",
+    "fetched_at": "2026-11-03T19:12:10Z",
+    "quote": "Lab website"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Adjunct Professor of Genetics",
+    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9023600",
+    "first_last_author_year": 2003,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
    }
   },
   {
@@ -1681,26 +1681,6 @@
     }
    ],
    "why": "\u7814\u7a76 PRS \u4e2d\u6837\u672c\u91cd\u53e0\u9020\u6210\u7684\u8fc7\u62df\u5408\u504f\u5dee\uff0c\u5e76\u6bd4\u8f83\u86cb\u767d\u7ec4\u8bc4\u5206\u4e0e PRS \u7684\u4e92\u8865\u9884\u6d4b\u80fd\u529b\uff0c\u5c5e\u65b9\u5411 A3 \u591a\u57fa\u56e0\u8bc4\u5206\u65b9\u6cd5\u3002",
-   "title_field": {
-    "value": "Associate Professor of Informatics in Biostatistics and Epidemiology",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9240045",
-    "fetched_at": "2026-11-03T19:12:12Z",
-    "quote": "Associate Professor of Informatics in Biostatistics and Epidemiology"
-   },
-   "lab_field": {
-    "value": "https://www.biomedinfolab.com/",
-    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9240045",
-    "fetched_at": "2026-11-03T19:12:12Z",
-    "quote": "Kim Lab"
-   },
-   "new_assistant_professor": {
-    "value": false,
-    "title": "Associate Professor of Informatics in Biostatistics and Epidemiology",
-    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9240045",
-    "first_last_author_year": 2005,
-    "cutoff_year": 2021,
-    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
-   },
    "affiliation_recent": {
     "status": "consistent",
     "recent_works": [
@@ -1728,6 +1708,26 @@
      }
     ],
     "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Associate Professor of Informatics in Biostatistics and Epidemiology",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9240045",
+    "fetched_at": "2026-11-03T19:12:12Z",
+    "quote": "Associate Professor of Informatics in Biostatistics and Epidemiology"
+   },
+   "lab_field": {
+    "value": "https://www.biomedinfolab.com/",
+    "source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9240045",
+    "fetched_at": "2026-11-03T19:12:12Z",
+    "quote": "Kim Lab"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Associate Professor of Informatics in Biostatistics and Epidemiology",
+    "title_source_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9240045",
+    "first_last_author_year": 2005,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
    }
   },
   {
@@ -1892,12 +1892,6 @@
     }
    ],
    "why": "\u7528\u81ea\u76d1\u7763 transformer \u548c CNN \u505a\u7fa4\u4f53\u9057\u4f20\u63a8\u65ad\uff08\u81ea\u7136\u9009\u62e9\u4fe1\u53f7\u68c0\u6d4b\uff09\uff0c\u5c5e\u8ba1\u7b97\u57fa\u56e0\u7ec4\u5b66\u65b9\u6cd5\uff0c\u4f46\u504f\u7fa4\u4f53\u9057\u4f20\u800c\u975e GWAS/MR\u3002",
-   "title_field": null,
-   "lab_field": null,
-   "new_assistant_professor": {
-    "value": null,
-    "note": "official title not found"
-   },
    "affiliation_recent": {
     "status": "consistent",
     "recent_works": [
@@ -1927,6 +1921,12 @@
      }
     ],
     "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": null,
+   "lab_field": null,
+   "new_assistant_professor": {
+    "value": null,
+    "note": "official title not found"
    }
   }
  ],
@@ -1938,7 +1938,7 @@
    "lab_url": null,
    "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
    "openalex_id": "https://openalex.org/A5012089635",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Cesar+de+la+Fuente&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_match": "stage0",
    "openalex_name": "C\u00e9sar de la Fuente\u2010N\u00fa\u00f1ez",
    "openalex_url": "https://api.openalex.org/authors/A5012089635?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
    "openalex_fetched_at": "2026-11-03T19:06:05Z",
@@ -2375,7 +2375,7 @@
    "lab_url": null,
    "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
    "openalex_id": "https://openalex.org/A5081769614",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Marylyn+D+Ritchie&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_match": "stage0",
    "openalex_name": "Marylyn DeRiggi Ritchie",
    "openalex_url": "https://api.openalex.org/authors/A5081769614?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
    "openalex_fetched_at": "2026-11-03T19:06:03Z",
@@ -3618,7 +3618,7 @@
    "lab_url": null,
    "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
    "openalex_id": "https://openalex.org/A5088244425",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Hakon+Hakonarson&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_match": "stage0",
    "openalex_name": "Hakon H. Hakonarson",
    "openalex_url": "https://api.openalex.org/authors/A5088244425?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
    "openalex_fetched_at": "2026-11-03T19:06:42Z",
@@ -4754,7 +4754,7 @@
    "lab_url": null,
    "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
    "openalex_id": "https://openalex.org/A5033617328",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Benjamin+Franklin+Voight&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_match": "stage0",
    "openalex_name": "Benjamin F. Voight",
    "openalex_url": "https://api.openalex.org/authors/A5033617328?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
    "openalex_fetched_at": "2026-11-03T19:05:09Z",
@@ -5281,142 +5281,70 @@
    }
   },
   {
-   "name": "Rachel L. Kember",
+   "name": "Brielin Chase Brown",
    "title": null,
-   "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p8550662",
+   "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9821449",
    "lab_url": null,
    "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
-   "openalex_id": "https://openalex.org/A5054332868",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Rachel+L.+Kember&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_name": "Rachel L. Kember",
-   "openalex_url": "https://api.openalex.org/authors/A5054332868?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_fetched_at": "2026-11-03T19:07:09Z",
-   "works_in_window": 93,
-   "works_at_school": 81,
+   "openalex_id": "https://openalex.org/A5012312357",
+   "openalex_match": "stage0",
+   "openalex_name": "Brielin C. Brown",
+   "openalex_url": "https://api.openalex.org/authors/A5012312357?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:17:42Z",
+   "works_in_window": 7,
+   "works_at_school": 4,
    "score_basis": "works with school on byline",
-   "score": 1.5,
-   "score_A": 1.5,
+   "score": 1.55,
+   "score_A": 1.55,
    "score_B": 0,
    "direction": "A",
    "top_works": [
     {
-     "id": "https://openalex.org/W7213907953",
-     "doi": "https://doi.org/10.1016/j.euroneuro.2026.113459",
-     "title": "F64. DEPRESSION POLYGENIC SCORES PREDICT MDD BUT SHOW LIMITED DIFFERENTIATION OF TREATMENT RESISTANCE",
-     "year": 2026,
-     "type": "conference-abstract",
-     "venue": "European Neuropsychopharmacology",
-     "landing_url": "https://doi.org/10.1016/j.euroneuro.2026.113459",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": false,
-     "role": "last/corresponding",
-     "score": 0.15,
-     "abstract": "",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5054332868%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:07:10Z"
-    },
-    {
-     "id": "https://openalex.org/W7213931199",
-     "doi": "https://doi.org/10.1016/j.euroneuro.2026.113120",
-     "title": "W2. THE ANXIETY OF ASSOCIATION: GWAS, PHEWAS, LABWAS AND GENETIC CORRELATIONS IN SOCIAL ANXIETY DISORDER",
-     "year": 2026,
-     "type": "article",
-     "venue": "European Neuropsychopharmacology",
-     "landing_url": "https://doi.org/10.1016/j.euroneuro.2026.113120",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": false,
-     "role": "last/corresponding",
-     "score": 0.15,
-     "abstract": "",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5054332868%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:07:10Z"
-    },
-    {
-     "id": "https://openalex.org/W7222412961",
-     "doi": "https://doi.org/10.64898/2026.10.15.26365624",
-     "title": "A clinical laboratory test-wide association scan of polygenic scores identifies biomarkers of psychiatric disorders",
-     "year": 2026,
-     "type": "preprint",
-     "venue": "medRxiv",
-     "landing_url": "https://doi.org/10.64898/2026.10.15.26365624",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": false,
-     "role": "last/corresponding",
-     "score": 0.15,
-     "abstract": "ABSTRACT Background Psychiatric disorders pose a significant public health burden, and their complex genetic architecture underlies multiple biological pathways, contributing to a lack of diagnostic biomarkers. Laboratory-Wide Association Studies (LabWAS) leverage electronic health record laboratory data as intermediary phenotypes to link genetic risk to physiology. Methods Polygenic Scores (PGS) for 25 health-related, psychiatric, and substance use phenotypes were generated for individuals of African (AFR; N=10,473) and European (EUR, N=35,131) ancestry from the Penn Medicine Biobank. Laboratory data was prepared using the LabWAS pipeline, encompassing 78 laboratory tests and 6 vital signs.",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5054332868%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:07:10Z"
-    },
-    {
-     "id": "https://openalex.org/W4410200508",
-     "doi": "https://doi.org/10.1016/j.biopsych.2025.04.021",
-     "title": "Transdiagnostic and Disorder-Level Genome-Wide Association Studies Enhance Precision of Substance Use and Psychiatric Genetic Risk Profiles in African and European Ancestries",
+     "id": "https://openalex.org/W4415737168",
+     "doi": "https://doi.org/10.1038/s41467-025-64353-7",
+     "title": "Large-scale causal discovery using interventional data sheds light on gene network structure in k562 cells",
      "year": 2025,
      "type": "article",
-     "venue": "Biological Psychiatry",
-     "landing_url": "https://doi.org/10.1016/j.biopsych.2025.04.021",
+     "venue": "Nature Communications",
+     "landing_url": "https://doi.org/10.1038/s41467-025-64353-7",
      "subtopics": [
+      "A1",
+      "A2",
       "A3"
      ],
-     "methods": false,
+     "methods": true,
      "role": "last/corresponding",
-     "score": 0.15,
-     "abstract": "BACKGROUND: Substance use disorders (SUDs) and psychiatric disorders frequently co-occur, and their etiology likely reflects both transdiagnostic (i.e., common/shared) and disorder-level (i.e., independent/nonshared) genetic influences. Understanding the genetic influences that are shared and those that operate independently of the shared risk could enhance precision in diagnosis, prevention, and treatment, but this remains underexplored, particularly in non-European ancestry groups. METHODS: We applied genomic structural equation modeling to examine the common and independent genetic architecture among SUDs and psychotic, mood, and anxiety disorders using summary statistics from genome-wide",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5054332868%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:07:10Z"
+     "score": 1.5,
+     "abstract": "Inference of directed biological networks is an important but notoriously challenging problem. The recent proliferation of large-scale CRISPR perturbation data provides a new opportunity to tackle this problem by leveraging the transcriptional response to the presence of a gene-targeting guide. Here, we introduce inverse sparse regression (inspre), an approach to learning causal networks that leverages large-scale intervention-response data. Applied to 788 genes from the genome-wide perturb-seq dataset, inspre discovers a network with small-world and scale-free properties. We integrate our network estimate with external data, finding relationships between gene eigencentrality and both measur",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5012312357%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:17:42Z"
     },
     {
-     "id": "https://openalex.org/W4407068513",
-     "doi": "https://doi.org/10.1016/j.drugalcdep.2024.111574",
-     "title": "Polygenic Scores for Psychiatric Traits Are Associated With Substance Use Phenotypes in a Deeply Phenotyped Sample",
+     "id": "https://openalex.org/W4412957322",
+     "doi": "https://doi.org/10.1016/j.bpsc.2025.07.010",
+     "title": "Deriving Mendelian Randomization\u2013Based Causal Networks of Brain Imaging Phenotypes and Bipolar Disorder",
      "year": 2025,
      "type": "article",
-     "venue": "Drug and Alcohol Dependence",
-     "landing_url": "https://doi.org/10.1016/j.drugalcdep.2024.111574",
+     "venue": "Biological Psychiatry Cognitive Neuroscience and Neuroimaging",
+     "landing_url": "https://doi.org/10.1016/j.bpsc.2025.07.010",
      "subtopics": [
+      "A2",
       "A3"
      ],
      "methods": false,
-     "role": "last/corresponding",
-     "score": 0.15,
+     "role": "middle",
+     "score": 0.05,
      "abstract": "",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5054332868%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:07:10Z"
-    },
-    {
-     "id": "https://openalex.org/W4414824513",
-     "doi": "https://doi.org/10.1016/j.euroneuro.2025.08.395",
-     "title": "W32. A CLINICAL LABORATORY TEST-WIDE ASSOCIATION SCAN OF POLYGENIC SCORES IDENTIFIES BIOMARKERS OF PSYCHIATRIC DISORDERS IN THE PENN MEDICINE BIOBANK",
-     "year": 2025,
-     "type": "conference-abstract",
-     "venue": "European Neuropsychopharmacology",
-     "landing_url": "https://doi.org/10.1016/j.euroneuro.2025.08.395",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": false,
-     "role": "last/corresponding",
-     "score": 0.15,
-     "abstract": "",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5054332868%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:07:10Z"
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5012312357%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:17:42Z"
     }
    ],
    "affiliation_check": {
-    "recent_last_author_work": "https://openalex.org/W7222412961",
+    "recent_last_author_work": "https://openalex.org/W4415737168",
     "recent_work_institutions": [
-     "Philadelphia VA Medical Center",
      "University of Pennsylvania"
     ],
     "last_known_institutions": [
-     "Veterans Health Administration",
-     "Philadelphia VA Medical Center",
      "University of Pennsylvania"
     ],
     "matches_school": true
@@ -5614,6 +5542,14 @@
    "score": 1.6,
    "score_A": 0,
    "score_B": 1.6,
+   "note": null
+  },
+  {
+   "name": "Brielin Chase Brown",
+   "openalex_id": "https://openalex.org/A5012312357",
+   "score": 1.55,
+   "score_A": 1.55,
+   "score_B": 0,
    "note": null
   },
   {
@@ -6239,14 +6175,6 @@
    "score_A": 0,
    "score_B": 0,
    "note": null
-  },
-  {
-   "name": "Brielin Chase Brown",
-   "openalex_id": null,
-   "score": 0,
-   "score_A": null,
-   "score_B": null,
-   "note": "no OpenAlex author found"
   },
   {
    "name": "John Isaac Murray",

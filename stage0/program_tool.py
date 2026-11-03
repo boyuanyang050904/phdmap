@@ -26,7 +26,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from bs4 import BeautifulSoup  # noqa: E402
-from lib.fetch import fetcher, BlockedByRobots, HostUnreachable  # noqa: E402
+from lib.fetch import fetcher, BlockedByRobots, HostUnreachable, BotProtected  # noqa: E402
 from lib.names import page_text, name_variants, find_name, middle_initials, author_name_list  # noqa: E402
 
 D = ROOT / "data" / "stage0"
@@ -41,6 +41,9 @@ def get(url, render=False):
     except HostUnreachable:
         print(f"UNREACHABLE (host does not resolve / TLS or proxy error; robots.txt not retrievable, so not fetched): {url}")
         sys.exit(3)
+    except BotProtected:
+        print(f"BOT-PROTECTED (site refuses automated clients with 401/403; not rendered either): {url}")
+        sys.exit(4)
     except BlockedByRobots:
         print(f"BLOCKED by robots.txt: {url}")
         sys.exit(2)

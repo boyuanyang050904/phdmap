@@ -124,7 +124,13 @@ def main():
                         matched[a["id"]] = {"evidence_url": pg_url, "fetched_at": pg_at,
                                             "snippet": hit, "via": "agent_confirmed_surname"}
                         break
-            progs.append({**p, "pages": pages, "_matched": matched})
+            ev_status = None
+            if p.get("program_url"):
+                rr = load_page(p["program_url"], False)
+                ev_status = None if rr is None else rr.status
+            progs.append({**p, "pages": pages, "_matched": matched,
+                          "program_url_status": ev_status,
+                          "evidence_bot_protected": ev_status in (401, 403)})
         # memberships found via individual faculty profiles
         for u in d.get("unmatched_core_authors", []) or []:
             pf, ev = u.get("program_found"), u.get("evidence_url")
@@ -144,6 +150,23 @@ def main():
                         for p in tgt:
                             p["_matched"].setdefault(a["id"], {"evidence_url": ev, "fetched_at": r.fetched_at,
                                                               "snippet": None, "via": "faculty_profile"})
+        # a faculty page shared by several programs of the same institution (e.g. a university-wide
+        # directory or one umbrella list) cannot tell programs apart: there, only the names the
+        # agent assigned to this program (by department/track shown on the page) are kept.
+        from collections import Counter
+        url_use = Counter(fu["url"] if isinstance(fu, dict) else fu
+                          for p in progs for fu in (p.get("faculty_list_urls") or []))
+        for p in progs:
+            shared = any(url_use[fu["url"] if isinstance(fu, dict) else fu] > 1
+                         for fu in (p.get("faculty_list_urls") or []))
+            if shared:
+                agent = {re.sub(r"\s*\[.*$", "", n).strip() for n in (p.get("matched_authors") or [])}
+                agent_norm = {norm_prog(n) for n in agent}
+                keep = {aid: ev for aid, ev in p["_matched"].items()
+                        if ev.get("via") == "faculty_profile" or
+                        any(norm_prog(nm) in agent_norm for nm in author_names(next(a for a in auths if a["id"] == aid)))}
+                p["shared_faculty_page"] = True
+                p["_matched"] = keep
         A = {a["id"]: a for a in auths}
         for p in progs:
             ms = []

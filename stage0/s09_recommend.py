@@ -84,6 +84,19 @@ def main():
                       f"{date.today()} under the user's delegation; edit freely and re-run s07.")
     json.dump(um, open(um_path, "w"), indent=1, ensure_ascii=False)
     run_s07()
+    # second pass: types that only appear after the first re-run
+    added = 0
+    for r in rows("unresolved.csv"):
+        m = re.match(r"program type '(.+?)' has no ranking mapping", r.get("reason", ""))
+        if m and m.group(1) not in um:
+            t = table_for(m.group(1), have_biostat)
+            if t:
+                um[m.group(1)] = t
+                LOG.append(f"map program type `{m.group(1)}` -> `{t}`")
+                added += 1
+    if added:
+        json.dump(um, open(um_path, "w"), indent=1, ensure_ascii=False)
+        run_s07()
     # 2. whitelist
     wl = rows("whitelist.csv")
     for r in wl:
@@ -97,7 +110,7 @@ def main():
     # 3. unresolved keep
     un = rows("unresolved.csv")
     for r in un:
-        if r.get("keep", "") or r.get("user_rank", ""):
+        if r.get("keep", "") or r.get("user_rank", "") or r.get("decision_status") == "decided":
             continue
         n = int(float(r.get("n_relevant_faculty") or 0))
         prog, reason = r["program"], r.get("reason", "")
@@ -113,11 +126,35 @@ def main():
         LOG.append(f"unresolved `{r['school']} / {prog[:60]}` keep={r['keep']} ({why})")
     write("unresolved.csv", un)
     run_s07()
-    with open(ROOT / "decisions_log.md", "a") as f:
-        f.write(f"\n## {date.today()} - recommended decisions applied by Claude (user-delegated)\n\n")
-        for l in LOG:
-            f.write(f"* {l}\n")
-    print(f"{len(LOG)} decisions logged")
+    write_log()
+    print(f"{len(LOG)} new decisions this run")
+
+
+def write_log():
+    """decisions_log.md = the CURRENT decision state (regenerated every run)."""
+    um = json.load(open(ROOT / "user_discipline_map.json"))
+    L = ["# Decisions log", "",
+         "Recommended decisions applied by Claude under the user's delegation "
+         "(\u201c接下来全按你推荐的来\u201d, 2026-11-03). Anything set by hand in whitelist.csv, "
+         "unresolved.csv (keep / user_rank) or user_discipline_map.json takes precedence; re-run "
+         "`python3 stage0/s07_candidates.py` after editing.", "",
+         "## Ranking-table mapping for program types without a table (user_discipline_map.json)", ""]
+    L += [f"* `{k}` -> `{v}`" for k, v in sorted(um.items()) if not k.startswith("_")]
+    L += ["", "## Biostatistics", "",
+          "* biostatistics programs use rankings/biostatistics.csv (U.S. News 2026 ranks biostatistics "
+          "separately from statistics)" if (ROOT / "rankings" / "biostatistics.csv").exists() else
+          "* biostatistics programs use rankings/statistics.csv", "",
+          "## Whitelist (independent institutes)", "",
+          "rule: confirm=1 if a PhD program was verified on a fetched page and >=1 core relevant faculty matched", ""]
+    L += [f"* {r['school']}: confirm={r['confirm']} ({r['n_relevant_faculty']} core relevant faculty)"
+          for r in rows("whitelist.csv")]
+    L += ["", "## Unresolved items", "",
+          "rules: program types with no table -> keep if >=2 relevant faculty; unreadable schools -> keep "
+          "(placeholder row) if >=10 core OpenAlex authors; name-only resemblance -> drop", ""]
+    L += [f"* {r['school']} / {r['program'][:70]}: keep={r.get('keep') or '-'} "
+          f"{('user_rank=' + r['user_rank']) if r.get('user_rank') else ''} [{r.get('decision_status')}]"
+          for r in rows("unresolved.csv")]
+    (ROOT / "decisions_log.md").write_text("\n".join(L) + "\n")
 
 
 if __name__ == "__main__":

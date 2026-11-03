@@ -168,6 +168,8 @@ def main():
     wl_prev = {(r["school"]): r for r in read_csv(ROOT / "whitelist.csv")}
     un_prev = {(r["school"], r["program"]): r for r in read_csv(ROOT / "unresolved.csv")}
     sel_prev = {(r["school"], r["program"]): r.get("selected", "") for r in read_csv(ROOT / "candidates.csv")}
+    selby_prev = {(r["school"], r["program"]): (r.get("selected_by", ""), r.get("pilot", ""))
+                  for r in read_csv(ROOT / "candidates.csv")}
 
     hn = {v["name"]: v for v in H["institutions"].values()}
 
@@ -178,6 +180,13 @@ def main():
         return len(set(v["A"]["core"]) | set(v["B"]["core"]))
 
     cands, excluded, unresolved, whitelist = [], [], [], {}
+    decided = []
+
+    def record(row, prev, reason=None):
+        """keep an already-decided item in unresolved.csv so the decision persists"""
+        decided.append({**row, "reason": reason or row.get("reason", ""),
+                        "user_rank": prev.get("user_rank", ""), "user_table": prev.get("user_table", ""),
+                        "keep": prev.get("keep", ""), "decision_status": "decided"})
     today = date.today().isoformat()
     for inst in PM:
         name = inst["institution"]
@@ -195,6 +204,9 @@ def main():
                     "confirm": wl_prev.get(name, {}).get("confirm", "")})
             else:
                 prev = un_prev.get((name, "(no program verified)"), {})
+                if prev.get("keep") in ("0", "1"):
+                    record({"school": name, "program": "(no program verified)", "n_relevant_faculty": ncore},
+                           prev, "program pages could not be read: " + (note or "unknown"))
                 if prev.get("keep") == "1":
                     cands.append({"school": name, "program": "(programs not readable - verify manually)",
                                   "program_type": "", "direction": "", "ranking_subject": "",
@@ -242,6 +254,8 @@ def main():
                 "faculty_page_readable": readable,
                 "institution_openalex_id": oa.get("id", ""),
                 "school_core_authors_openalex": school_core(name),
+                "rank_note": ("program page refuses automated clients (HTTP 403); PhD evidence unverified"
+                              if p.get("evidence_bot_protected") else ""),
             }
             table = TABLE_OF.get(disc) or USER_MAP.get(disc)
             if disc in USER_MAP and disc not in TABLE_OF:
@@ -255,7 +269,11 @@ def main():
                 row.update(user_rank=prev.get("user_rank", ""), user_table=prev.get("user_table", ""),
                            keep=prev.get("keep", ""))
                 if prev.get("keep") == "1" or prev.get("user_rank"):
-                    pass  # user decision handled below
+                    record(row, prev)
+                elif prev.get("keep") == "0":
+                    record(row, prev)
+                    excluded.append({**row, "reason": row["reason"] + "; user: drop"})
+                    continue
                 else:
                     unresolved.append(row)
                     continue
@@ -271,6 +289,8 @@ def main():
                                         "statistics rank is used as a proxy")
                 if not hit and disc == "biostatistics" and table == "statistics" and kind != "independent_institute":
                     prev = un_prev.get((name, p["program_name"]), {})
+                    if prev.get("user_rank") or prev.get("keep"):
+                        record({**row}, prev, prev.get("reason"))
                     if not (prev.get("user_rank") or prev.get("keep")):
                         row.update(reason="biostatistics program; school not in statistics.csv, which (2026 edition) "
                                    "covers statistics departments only - biostatistics is ranked separately",
@@ -298,6 +318,8 @@ def main():
                         row.update(subject_rank="whitelist", rank_match="whitelist")
                     else:
                         prev = un_prev.get((name, p["program_name"]), {})
+                        if prev.get("user_rank") or prev.get("keep"):
+                            record({**row}, prev, prev.get("reason"))
                         if prev.get("user_rank"):
                             r_ = int(prev["user_rank"])
                             row.update(subject_rank=r_, rank_match="user")
@@ -332,6 +354,7 @@ def main():
                 excluded.append({**row, "reason": "no relevant faculty matched on the program's faculty page(s)"})
                 continue
             row["selected"] = sel_prev.get((name, p["program_name"]), "")
+            row["selected_by"], row["pilot"] = selby_prev.get((name, p["program_name"]), ("", ""))
             cands.append(row)
 
     # institutions with relevant authors that had no program discovery
@@ -352,8 +375,12 @@ def main():
                       for hit, _ in [match_school(names, rows)] if hit]
             if not ranked:
                 near = [(tb, s_, r_) for tb, rows in T.items() for s_, r_ in fuzzy(names, rows, 1) if s_ > 0.5]
-                if near and nc >= 2:
-                    unresolved.append({"school": v["name"], "program": "(not enumerated)",
+                prev = un_prev.get((v["name"], "(not enumerated)"), {})
+                if near and nc >= 2 and prev.get("keep") == "0":
+                    record({"school": v["name"], "program": "(not enumerated)", "n_relevant_faculty": nc},
+                           prev, prev.get("reason"))
+                if near and nc >= 2 and prev.get("keep") != "0":
+                    unresolved.append({"school": v["name"], "program": "(not enumerated)", "keep": prev.get("keep", ""),
                                        "reason": "school name not found in ranking tables; similar names: " +
                                        "; ".join(f"{tb}: {r_['school']} (#{r_['rank']}, sim {s_})" for tb, s_, r_ in near),
                                        "n_relevant_faculty": nc, "n_possible_faculty": npf})
@@ -388,12 +415,15 @@ def main():
     ccols = ["school", "program", "program_type", "direction", "ranking_subject", "subject_rank",
              "n_relevant_faculty", "top3_faculty", "program_url", "source_url",
              "n_possible_faculty", "n_core_A", "n_core_B", "umbrella_name", "discipline", "rank_match", "rank_school_name",
-             "rank_source", "rank_note", "fetched_at", "faculty_page_readable", "school_core_authors_openalex", "institution_openalex_id", "selected"]
+             "rank_source", "rank_note", "fetched_at", "faculty_page_readable", "school_core_authors_openalex", "institution_openalex_id", "selected", "selected_by", "pilot"]
     write_csv(ROOT / "candidates.csv", cands, ccols)
+    for r in unresolved:
+        r.setdefault("decision_status", "pending")
+    unresolved = unresolved + decided
     write_csv(ROOT / "unresolved.csv", unresolved,
               ["school", "program", "discipline", "program_type", "direction", "ranking_subject", "reason",
                "n_relevant_faculty", "n_possible_faculty", "top3_faculty", "program_url", "source_url",
-               "user_rank", "user_table", "keep"])
+               "user_rank", "user_table", "keep", "decision_status"])
     write_csv(ROOT / "excluded.csv", excluded,
               ["school", "program", "reason", "discipline", "program_type", "direction", "ranking_subject",
                "subject_rank", "n_relevant_faculty", "n_possible_faculty", "top3_faculty", "program_url",
@@ -404,7 +434,8 @@ def main():
         wl.append({**w, "programs": progs, "top_faculty": "; ".join(w["top_faculty"][:5])})
     write_csv(ROOT / "whitelist.csv", wl, ["school", "openalex_type", "programs", "n_relevant_faculty",
                                            "top_faculty", "phd_evidence", "confirm"])
-    print(f"candidates {len(cands)} | whitelist {len(wl)} | unresolved {len(unresolved)} | excluded {len(excluded)}")
+    print(f"candidates {len(cands)} | whitelist {len(wl)} | unresolved {len(unresolved) - len(decided)} pending "
+          f"(+{len(decided)} decided) | excluded {len(excluded)}")
 
 
 if __name__ == "__main__":

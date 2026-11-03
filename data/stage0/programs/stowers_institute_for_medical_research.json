@@ -1,13 +1,26 @@
 {
-  "institution": "Stowers Institute for Medical Research",
-  "institution_kind": "independent_institute",
-  "checked_at": "2026-11-03T09:00:27Z",
-  "grants_phd": null,
-  "grants_phd_evidence": null,
-  "programs": [],
-  "unmatched_core_authors": [
-    {"name": "Tatjana Sauka‐Spengler", "program_found": null, "evidence_url": null, "note": "Could not check: all www.stowers.org pages blocked (robots.txt unreadable, HTTP 403 bot challenge)."},
-    {"name": "Michael P. Washburn", "program_found": null, "evidence_url": null, "note": "Could not check: all www.stowers.org pages blocked (robots.txt unreadable, HTTP 403 bot challenge). OpenAlex also lists University of Kansas affiliations."}
-  ],
-  "problems": ["BLOCKED by robots.txt: https://www.stowers.org/ and https://www.stowers.org/gradschool. https://www.stowers.org/robots.txt returns HTTP 403 ('Just a moment ... We're verifying you are human'), which the project fetcher treats as disallow-all. Respected; no workaround. Whether Stowers grants PhDs (its graduate school), the program list and faculty membership are unverified -> grants_phd=null."]
+ "institution": "Stowers Institute for Medical Research",
+ "institution_kind": "independent_institute",
+ "checked_at": "2026-11-03T19:20:00Z",
+ "grants_phd": null,
+ "grants_phd_evidence": null,
+ "programs": [],
+ "unmatched_core_authors": [
+  {
+   "name": "Tatjana Sauka‐Spengler",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Could not check: all www.stowers.org pages serve an HTTP 403 bot challenge ('Just a moment ... We're verifying you are human'), also on 2026-11-03."
+  },
+  {
+   "name": "Michael P. Washburn",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Could not check: all www.stowers.org pages serve an HTTP 403 bot challenge ('Just a moment ... We're verifying you are human'), also on 2026-11-03. OpenAlex also lists University of Kansas affiliations."
+  }
+ ],
+ "problems": [
+  "https://www.stowers.org/ and https://www.stowers.org/gradschool: robots.txt no longer blocks the fetcher (4xx robots.txt = no restriction), but both pages still return HTTP 403 'Just a moment ... We're verifying you are human. This may take a few seconds.' (bot challenge, re-checked 2026-11-03T19:19Z). Not bypassed (no --render, no workaround). Whether Stowers grants PhDs (its graduate school), the program list and faculty membership remain unverified -> grants_phd=null.",
+  "rechecked 2026-11-03 under Claude-User robots policy: robots no longer blocks, but www.stowers.org still serves a bot challenge (HTTP 403); nothing changed"
+ ]
 }

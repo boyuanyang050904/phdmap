@@ -89,9 +89,12 @@ def role(w, aid):
 
 def resolve_author(name, inst_id, homes_by_name):
     """OpenAlex author for a faculty name at an institution. Prefers stage-0 authors."""
-    key = norm(name)
-    for a in homes_by_name.get(key, []):
-        return a["id"], "stage0"
+    fv = name_variants([name])
+    cands = [a for v in homes_by_name.values() for a in v if name_variants([a["name"]]) & fv]
+    if cands:
+        # several OpenAlex records for one person (e.g. 'David Baker' / 'David A. Baker'): biggest wins
+        best = max(cands, key=lambda a: a.get("works_count") or 0)
+        return best["id"], "stage0"
     toks = [t for t in re.sub(r"\(.*?\)", " ", name).replace(",", " ").split()
             if not re.fullmatch(r"(ph\.?d\.?|m\.?d\.?|jr\.?|sr\.?|iii?|iv)", t, re.I)]
     q = " ".join(toks)
@@ -100,7 +103,6 @@ def resolve_author(name, inst_id, homes_by_name):
     cands = data.get("results", [])
     if not cands:
         return None, url
-    fv = name_variants([name])
     good = [c for c in cands if name_variants([c["display_name"]]) & fv] or cands[:1]
     good.sort(key=lambda c: -(c.get("works_count") or 0))
     return good[0]["id"], url
@@ -124,8 +126,10 @@ def main(pids):
         out = []
         for fac in prog["faculty_list"]["faculty"]:
             # restrict homes match to authors associated with this school
+            fvs = name_variants([fac["name"]])
             hb = {k: [a for a in v if any(h["id"] == school_id for h in a["homes"])]
-                  for k, v in homes_by_name.items() if k == norm(fac["name"])}
+                  for k, v in homes_by_name.items()
+                  if any(name_variants([a["name"]]) & fvs for a in v)}
             aid, how = resolve_author(fac["name"], school_id, hb)
             if not aid:
                 out.append({"name": fac["name"], "openalex_id": None, "score": 0, "note": "no OpenAlex author found",

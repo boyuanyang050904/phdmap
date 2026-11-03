@@ -72,5 +72,269 @@
     "Fast pairwise coalescence enables"
    ]
   }
+ ],
+ "yale-cbb": [
+  {
+   "name": "Zhao, Hongyu",
+   "why": "末位作者开发统计遗传方法：用 knockoff 提升条件 TWAS 的因果基因识别，并联合个体级与 summary-level GWAS 数据估计遗传相关，覆盖方向 A2/A3。",
+   "papers": [
+    "Knockoff procedure improves causal gene identifications",
+    "Estimating genetic correlation jointly using individual-level",
+    "Joint modeling of effect sizes for two correlated traits"
+   ]
+  },
+  {
+   "name": "Zhou, Xiang",
+   "why": "开发生物库规模的统计遗传工具：基因–环境交互检测（fastGxE）、PGS 校准预测区间和基于 summary statistics 的性别二态性 fine-mapping，属方向 A3。",
+   "papers": [
+    "Genome-wide detection of genotype–environment interactions",
+    "Statistical construction of calibrated prediction intervals",
+    "Sex-dimorphic fine-mapping with summary statistics"
+   ]
+  },
+  {
+   "name": "Guan, Leying",
+   "why": "提出利用遗传相关和多人群信息的多祖源 PRS 框架（JointPRS），属方向 A3 多基因评分方法。",
+   "papers": [
+    "JointPRS: A data-adaptive framework",
+    "Leveraging genetic correlations and multiple populations",
+    "A supervised Bayesian factor model"
+   ]
+  },
+  {
+   "name": "Krishnaswamy, Smita",
+   "why": "用几何感知 flow matching 建模扰动条件下的单细胞动态，并用神经 ODE 推断时序调控网络，对应方向 A1（扰动预测）与 A2（网络推断）。",
+   "papers": [
+    "GeoSinkhorn Flow: Geometry-Aware Flow Matching",
+    "Revealing dynamic temporal regulatory networks",
+    "ViSENet: Joint Sequence and Structure Embeddings"
+   ]
+  },
+  {
+   "name": "Rodríguez Martínez, María",
+   "why": "同时做单细胞/空间扰动表型预测模型（Pop-Corn）和 TCR–MHC 体系中生成式肽骨架设计的基准评测，横跨方向 A1 与 B5。",
+   "papers": [
+    "Pop-Corn: Predicting Perturbation Phenotype Effects",
+    "Benchmarking generative scaffold design methods",
+    "Cell-specific gene networks and drivers"
+   ]
+  },
+  {
+   "name": "Kleinstein, Steven",
+   "why": "对预训练抗体语言模型做监督微调以预测抗原特异性，并用语言模型嵌入 BCR 序列，对应方向 B4 的抗体计算方法。",
+   "papers": [
+    "Supervised fine-tuning of pre-trained antibody language models",
+    "Language model-based B cell receptor sequence embeddings",
+    "AMULETY: A Python package"
+   ]
+  },
+  {
+   "name": "O'Hern, Corey",
+   "why": "用图神经网络设计蛋白–蛋白界面打分函数并系统评估界面模型打分，正对方向 B6 的复合物/界面预测。",
+   "papers": [
+    "Designing a Protein-Protein Interface Scoring Function",
+    "Assessment of scoring functions for computational models of protein-protein interfaces"
+   ]
+  },
+  {
+   "name": "Machta, Benjamin",
+   "why": "用蛋白语言模型的 pseudo-perplexity 估计蛋白适应度，并研究低序列重叠蛋白间的高适应度路径，与方向 B5 的序列生成/优化相关。",
+   "papers": [
+    "Pseudo-perplexity in one fell swoop",
+    "High fitness paths can connect proteins",
+    "Protein-protein interaction networks can be highly sensitive"
+   ]
+  }
+ ],
+ "stanford-biophysics": [
+  {
+   "name": "Brian Hie",
+   "why": "末位作者开发结构感知蛋白语言模型做抗体复合物的无监督进化、用 ProteinDPO 将生成模型对齐实验适应度，并生成表位定向的 de novo 抗体，同时命中方向 B4 与 B5。",
+   "papers": [
+    "Unsupervised evolution of protein and antibody complexes",
+    "Aligning protein-generative models to experimental fitness",
+    "Efficient generation of epitope-targeted de novo antibodies"
+   ]
+  },
+  {
+   "name": "Possu Huang",
+   "why": "开发条件蛋白结构生成模型（Protpardelle-1c）和集成条件序列设计，并实现零样本 de novo 金属酶设计，正对方向 B5。",
+   "papers": [
+    "Conditional Protein Structure Generation with Protpardelle-1c",
+    "Zero-shot design of a de novo metalloenzyme",
+    "Isolation of structural constraints by ensemble-conditioned"
+   ]
+  },
+  {
+   "name": "Peter Kim",
+   "why": "用结构感知语言模型对蛋白复合物做 inverse folding，实现抗体的无监督进化（亲和力提升），对应方向 B4 与 B5。",
+   "papers": [
+    "Inverse folding of protein complexes with a structure-informed language model",
+    "Unsupervised evolution of protein and antibody complexes",
+    "Design of universal Ebola virus vaccine candidates"
+   ]
+  },
+  {
+   "name": "Grant Rotskoff",
+   "why": "开发无序蛋白区域的生成式设计（IDiom）和基于 transformer 的构象系综生成，以及少样本定向进化方法，属方向 B5/B6。",
+   "papers": [
+    "Generative design of intrinsically disordered protein regions with IDiom",
+    "Data-Efficient Generation of Protein Conformational Ensembles",
+    "Efficient, Few-Shot Directed Evolution"
+   ]
+  },
+  {
+   "name": "Ron Dror",
+   "why": "在推理阶段从扩散模型中挖掘生物分子构象景观，并用预测配体结合姿态辅助结构模型选择，属方向 B6 结构预测。",
+   "papers": [
+    "Unlocking hidden biomolecular conformational landscapes",
+    "Protein Structural Model Selection Informed by Comparison",
+    "Enhancing Ligand Pose Sampling"
+   ]
+  },
+  {
+   "name": "Xiaojing Gao",
+   "why": "参与表位定向 de novo 抗体生成（Germinal），并提出对蛋白生成模型做生成式引导以适配新环境，对应方向 B4/B5。",
+   "papers": [
+    "Efficient generation of epitope-targeted de novo antibodies",
+    "Generative steering to adapt proteins",
+    "Steering Protein Generative Models at Test-Time"
+   ]
+  },
+  {
+   "name": "Russ Altman",
+   "why": "改进上下文感知的蛋白嵌入（GATSBI）并用局部结构嵌入注释蛋白功能位点，与方向 B6 的结构表征学习相关。",
+   "papers": [
+    "GATSBI: Improving context-aware protein embeddings",
+    "Protein functional site annotation using local structure embeddings",
+    "Drug-Target Interaction Prediction with PIGLET"
+   ]
+  },
+  {
+   "name": "Michael Snyder",
+   "why": "提出单细胞多基因风险评分以解析复杂疾病的细胞异质性，并用机器学习纳入罕见变异改进风险预测，属方向 A3（本项目中偏 A 方向的老师）。",
+   "papers": [
+    "Single-cell polygenic risk scores dissect",
+    "Machine Learning Reveals the Contribution of Rare Genetic Variants",
+    "Dissecting the genetic complexity of myalgic encephalomyelitis"
+   ]
+  }
+ ],
+ "uw-bpsd": [
+  {
+   "name": "David Baker",
+   "why": "末位作者持续发表 de novo 蛋白设计与全原子结构预测引导的设计优化（RFOptimization、序列特异性 DNA 结合蛋白生成、PLACER），是方向 B5/B6 的核心实验室。",
+   "papers": [
+    "Generative design of sequence specific DNA binding proteins",
+    "RFOptimization: Guiding Design Optimization",
+    "Modeling protein–small molecule conformational ensembles with PLACER"
+   ]
+  },
+  {
+   "name": "Neil King",
+   "why": "用 ProteinMPNN 等工具计算设计双组分/双面蛋白纳米材料和带功能基序的 de novo 纳米颗粒，属方向 B5。",
+   "papers": [
+    "Rapid and automated design of two-component protein nanomaterials",
+    "De novo design of protein nanoparticles with integrated functional motifs",
+    "Computational design of bifaceted protein nanomaterials"
+   ]
+  },
+  {
+   "name": "Frank DiMaio",
+   "why": "开发 RoseTTAFoldNA 复合物结构预测和 RF3/AtomWorks 建模框架，并用设计实验结果改进能量函数，正对方向 B6 与 B5。",
+   "papers": [
+    "Accurate prediction of protein–nucleic acid complexes using RoseTTAFoldNA",
+    "Accelerating Biomolecular Modeling with AtomWorks and RF3",
+    "Using experimental results of protein design"
+   ]
+  },
+  {
+   "name": "Gaurav Bhardwaj",
+   "why": "用 AlphaFold2 做环肽结构预测与设计，并用深度学习 de novo 设计高亲和力蛋白结合大环肽，属方向 B5/B6。",
+   "papers": [
+    "Cyclic peptide structure prediction and design using AlphaFold2",
+    "Accurate de novo design of high-affinity protein-binding macrocycles",
+    "A scalable recombinant pipeline"
+   ]
+  },
+  {
+   "name": "Phil Bradley",
+   "why": "设计靶向肽–MHC 的 TCR 和抗体，并参与抗体自然选择的 transformer 模型和蛋白微环境卷积网络，对应方向 B4/B5。",
+   "papers": [
+    "Targeting peptide–MHC complexes with designed T cell receptors",
+    "A Sitewise Model of Natural Selection on Individual Antibodies",
+    "Learning the shape of protein microenvironments"
+   ]
+  },
+  {
+   "name": "David Veesler",
+   "why": "做病毒融合蛋白稳定化与设计型纳米颗粒疫苗的结构研究，并研究广谱中和抗体，与方向 B4（抗体）和 B5（设计蛋白）相关，但以实验结构生物学为主。",
+   "papers": [
+    "A broadly generalizable stabilization strategy",
+    "Hierarchical design of pseudosymmetric protein nanocages",
+    "Pan-neutralization of parainfluenza viruses"
+   ]
+  },
+  {
+   "name": "Liangcai Gu",
+   "why": "参与用 AI 框架从全蛋白组中发现类结合蛋白支架，并构建化学诱导二聚化结合体系，与方向 B5 的结合蛋白设计相关。",
+   "papers": [
+    "Artificial intelligence-driven framework for discovering synthetic binding",
+    "Linker-Length Landscape Mapping",
+    "Picomolar-Level Sensing of Cannabidiol"
+   ]
+  }
+ ],
+ "unc-biostat": [
+  {
+   "name": "Yun Li",
+   "why": "提出考虑混合祖源的 LASSO 多基因评分框架并显式建模祖源差异效应以改进混合人群 PRS，属方向 A3。",
+   "papers": [
+    "An efficient LASSO framework for admixture-aware polygenic scores",
+    "Improving polygenic risk prediction in admixed populations",
+    "Weak signal inclusion under dependence"
+   ]
+  },
+  {
+   "name": "Hongtu Zhu",
+   "why": "开发面向大规模影像表型的高效 GWAS 计算方法和联邦双重机器学习，属方向 A3 统计遗传方法（偏影像遗传）。",
+   "papers": [
+    "Computation and resource efficient genome-wide association analysis",
+    "Federated double machine learning",
+    "Connectome-based spatial statistics"
+   ]
+  },
+  {
+   "name": "Xihao Li",
+   "why": "提出整合常见与罕见变异的两样本孟德尔随机化框架和多人群 PRS 方法，同时覆盖方向 A3 的 MR 与 PGS。",
+   "papers": [
+    "A novel two-sample Mendelian randomization framework",
+    "Integrating common and rare variants improves polygenic risk prediction",
+    "Integrating Genomic and Proteomic Data"
+   ]
+  },
+  {
+   "name": "Danyu Lin",
+   "why": "研究暴露变量测量不完整时的多变量孟德尔随机化，并参与整合 GWAS 与单细胞数据推断相关细胞类型（EPIC），属方向 A3。",
+   "papers": [
+    "Multivariable Mendelian randomization with incomplete measurements",
+    "EPIC: Inferring relevant cell types"
+   ]
+  },
+  {
+   "name": "Fei Zou",
+   "why": "提出带测量误差校正的线性混合模型，用于基于 summary data 的多变量孟德尔随机化，属方向 A3。",
+   "papers": [
+    "A Linear Mixed Model With Measurement Error Correction"
+   ]
+  },
+  {
+   "name": "Michael Love",
+   "why": "参与揭示相邻基因共调控如何干扰 eQTL 靶基因优先级判断，以及基因–处理交互检测方法，与方向 A2/A3 的因果基因推断相关。",
+   "papers": [
+    "Extensive co-regulation of neighboring genes",
+    "DetectGxT: detecting gene-by-treatment interactions"
+   ]
+  }
  ]
 }

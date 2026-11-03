@@ -57,6 +57,22 @@ include authors whose names appear on the program's own faculty page.
   to tables in bulk
 * `candidates.csv` → add `selected` = 1 for programs to pursue in stage 1 (kept on re-runs)
 
+## Stage 1 — pilot (`stage1/`, 5 programs listed in `data/stage1/selection.json`)
+
+| step | script | output |
+|---|---|---|
+| requirements, TOEFL, admissions, funding, faculty list | agents following `PILOT_BRIEF.md` | `data/stage1/programs/<id>.json` |
+| quote check (every value's quote must occur on its cached source page) | `validate.py` | — |
+| faculty relevance (OpenAlex works of the last 3 years, only those listing the school) | `s12_faculty.py` | `data/stage1/faculty/<id>.json` |
+| reviewed selection + reasons (written from the cited papers) | `s12c_select.py` + `data/stage1/faculty_reasons.json` | |
+| titles / lab links (official profiles), "possibly moved", new assistant professor | `s12b_enrich.py` | |
+| assemble | `s13_build_data.py` | **`data.json`** |
+| review sheet | `s14_review.py` | `stage1_review.md` |
+
+Rules: *possibly moved* = none of the person's 2 most recent topic-relevant last/corresponding-
+author works lists the school; *new assistant professor* = official title is tenure-track
+Assistant Professor and the first last-author work at the school is ≥ 2021.
+
 ### Known limitations of stage 0 (see `stage0_report.md` for details)
 
 * **Rankings** are approximations: U.S. News blocks Anthropic agents in robots.txt, so the

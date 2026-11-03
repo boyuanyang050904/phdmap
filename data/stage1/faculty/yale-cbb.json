@@ -148,7 +148,111 @@
     ],
     "matches_school": true
    },
-   "first_last_author_year": 1994
+   "first_last_author_year": 1994,
+   "chosen_papers": [
+    {
+     "id": "https://openalex.org/W4407273313",
+     "doi": "https://doi.org/10.1101/2025.02.05.636660",
+     "title": "Knockoff procedure improves causal gene identifications in conditional transcriptome-wide association studies",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.02.05.636660",
+     "subtopics": [
+      "A2",
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Transcriptome-wide association studies (TWASs) have been developed to nominate candidate genes associated with complex traits by integrating genome-wide association studies (GWASs) with expression quantitative trait loci (eQTL) data. However, most existing TWAS methods evaluate the marginal association between a single gene and the trait of interest without accounting for other genes within the same genomic region or the same gene from different tissues. Additionally, false-positive gene-trait pairs can arise due to correlations with the direct effects of genetic variants. In this study, we introduce TWASKnockoff, a new knockoff-based framework for detecting causal gene-tissue pairs using GW",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5074828414%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:27Z"
+    },
+    {
+     "id": "https://openalex.org/W4256468042",
+     "doi": "https://doi.org/10.1038/s41467-026-76693-z",
+     "title": "Estimating genetic correlation jointly using individual-level and summary-level GWAS data",
+     "year": 2026,
+     "type": "article",
+     "venue": "Nature Communications",
+     "landing_url": "https://doi.org/10.1038/s41467-026-76693-z",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract With the increasing accessibility of individual-level data from genome wide association studies, it is now common for researchers to have individual-level data of some traits in one specific population. For some traits, we can only access public released summary-level data due to privacy and safety concerns. The current methods to estimate genetic correlation can only be applied when the input data type of the two traits of interest is either both individual-level or both summary-level. When researchers have access to individual-level data for one trait and summary-level data for the other, they have to transform the individual-level data to summary-level data first and then apply s",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5074828414%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:27Z"
+    },
+    {
+     "id": "https://openalex.org/W7125701999",
+     "doi": "https://doi.org/10.1371/journal.pgen.1012026",
+     "title": "Joint modeling of effect sizes for two correlated traits: Characterizing trait properties to enhance polygenic risk prediction",
+     "year": 2026,
+     "type": "article",
+     "venue": "PLoS Genetics",
+     "landing_url": "https://doi.org/10.1371/journal.pgen.1012026",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Recent years have witnessed a surge in the development of innovative polygenic score (PGS) methods, driving their extensive application in disease prevention, monitoring, and treatment. However, the accuracy of genetic risk prediction remains moderate for most traits. Currently, most PGSs were built based on the summary statistics from the target trait, while many traits exhibit varied degrees of shared genetic architecture or pleiotropy. Appropriate leveraging of pleiotropy from correlated traits can potentially improve the performance of PGS of the target trait. In this study, we present PleioSDPR, a novel method that jointly models the genetic effects of complex traits and identifies cond",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5074828414%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:27Z"
+    }
+   ],
+   "why": "\u672b\u4f4d\u4f5c\u8005\u5f00\u53d1\u7edf\u8ba1\u9057\u4f20\u65b9\u6cd5\uff1a\u7528 knockoff \u63d0\u5347\u6761\u4ef6 TWAS \u7684\u56e0\u679c\u57fa\u56e0\u8bc6\u522b\uff0c\u5e76\u8054\u5408\u4e2a\u4f53\u7ea7\u4e0e summary-level GWAS \u6570\u636e\u4f30\u8ba1\u9057\u4f20\u76f8\u5173\uff0c\u8986\u76d6\u65b9\u5411 A2/A3\u3002",
+   "affiliation_recent": {
+    "status": "consistent",
+    "recent_works": [
+     {
+      "id": "https://openalex.org/W7213549361",
+      "title": "Identifying shared polygenic risk across cancers",
+      "date": "2026-09-18",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5074828414%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:04Z"
+     },
+     {
+      "id": "https://openalex.org/W7213287396",
+      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
+      "date": "2026-09-11",
+      "institutions": [],
+      "lists_school": false,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5074828414%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:04Z"
+     }
+    ],
+    "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Ira V. Hiscock Professor of Biostatistics, Professor of Genetics and Professor of Statistics and Data Science",
+    "source_url": "https://medicine.yale.edu/bbs/profile/hongyu-zhao/",
+    "fetched_at": "2026-11-03T19:19:05Z",
+    "quote": "Ira V. Hiscock Professor of Biostatistics, Professor of Genetics and Professor of Statistics and Data Science"
+   },
+   "lab_field": {
+    "value": "https://www.zhaocenter.org",
+    "source_url": "https://medicine.yale.edu/bbs/profile/hongyu-zhao/",
+    "fetched_at": "2026-11-03T19:19:05Z",
+    "quote": "View Lab Website"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Ira V. Hiscock Professor of Biostatistics, Professor of Genetics and Professor of Statistics and Data Science",
+    "title_source_url": "https://medicine.yale.edu/bbs/profile/hongyu-zhao/",
+    "first_last_author_year": 1994,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
+   }
   },
   {
    "name": "Zhou, Xiang",
@@ -278,7 +382,603 @@
     ],
     "matches_school": true
    },
-   "first_last_author_year": 2012
+   "first_last_author_year": 2012,
+   "chosen_papers": [
+    {
+     "id": "https://openalex.org/W4408679308",
+     "doi": "https://doi.org/10.1038/s41588-026-02809-2",
+     "title": "Genome-wide detection of genotype\u2013environment interactions at biobank scale with fastGxE",
+     "year": 2026,
+     "type": "article",
+     "venue": "Nature Genetics",
+     "landing_url": "https://doi.org/10.1038/s41588-026-02809-2",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Traditional genome-wide association studies (GWAS) have primarily focused on detecting main genotype effects, often overlooking genotype-environment interactions (GxE), which are essential for understanding context-specific genetic effects and refining disease etiology. Here, we present fastGxE, a scalable and effective genome-wide GxE method designed to identify genetic variants that interact with environmental factors to influence traits of interest. fastGxE controls for both polygenic effects and polygenic interaction effects, is robust to the number of environmental factors involved in GxE interactions, and ensures scalability for genome-wide GxE analysis in large biobank studies, achiev",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5051489598%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:31Z"
+    },
+    {
+     "id": "https://openalex.org/W4415101833",
+     "doi": "https://doi.org/10.1038/s41588-025-02360-6",
+     "title": "Statistical construction of calibrated prediction intervals for polygenic score-based phenotype prediction",
+     "year": 2025,
+     "type": "article",
+     "venue": "Nature Genetics",
+     "landing_url": "https://doi.org/10.1038/s41588-025-02360-6",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Accurately quantifying uncertainty in predicted phenotypes from polygenic score (PGS)-based applications is essential for reliable clinical interpretation of PGS, supporting effective disease risk assessment and informed decision-making. Here, we present PredInterval, a nonparametric method for constructing well-calibrated prediction intervals. PredInterval is compatible with any PGS method, takes either individual-level data or summary statistics as input and relies on information from quantiles of phenotypic residuals through cross-validation to achieve well-calibrated coverage of true phenotypic values across diverse genetic architectures. We apply PredInterval to analyze 17 traits in rea",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5051489598%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:31Z"
+    },
+    {
+     "id": "https://openalex.org/W7204760711",
+     "doi": "https://doi.org/10.5281/zenodo.22201537",
+     "title": "Sex-dimorphic fine-mapping with summary statistics in genome-wide association studies",
+     "year": 2026,
+     "type": "article",
+     "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+     "landing_url": "https://doi.org/10.5281/zenodo.22201537",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "sdSuSiE (Sex-dimorphic mapping with sum of the single effects model) is a package designed for sex-dimorphic fine-mapping using summary statistics from sex-stratified genome-wide association studies (GWAS). sdSuSiE explicitly models sex differences in genetic effects while accounting for correlations induced by linkage disequilibrium and sample size imbalances between sexes. It uses summary statistics from sex-stratified GWASs as inputs and extends the recent scalable variational inference algorithm SuSiE to fine-map sex-dimorphic effects. As a result, sdSuSiE provides calibrated credible set coverage and posterior inclusion probabilities (PIPs). sdSuSiE is available at software, and the gui",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5051489598%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:31Z"
+    }
+   ],
+   "why": "\u5f00\u53d1\u751f\u7269\u5e93\u89c4\u6a21\u7684\u7edf\u8ba1\u9057\u4f20\u5de5\u5177\uff1a\u57fa\u56e0\u2013\u73af\u5883\u4ea4\u4e92\u68c0\u6d4b\uff08fastGxE\uff09\u3001PGS \u6821\u51c6\u9884\u6d4b\u533a\u95f4\u548c\u57fa\u4e8e summary statistics \u7684\u6027\u522b\u4e8c\u6001\u6027 fine-mapping\uff0c\u5c5e\u65b9\u5411 A3\u3002",
+   "affiliation_recent": {
+    "status": "consistent",
+    "recent_works": [
+     {
+      "id": "https://openalex.org/W4408679308",
+      "title": "Genome-wide detection of genotype\u2013environment interactions at biobank scale with fastGxE",
+      "date": "2026-10-21",
+      "institutions": [
+       "University of Michigan",
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5051489598%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:06Z"
+     },
+     {
+      "id": "https://openalex.org/W7204760711",
+      "title": "Sex-dimorphic fine-mapping with summary statistics in genome-wide association studies",
+      "date": "2026-08-31",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5051489598%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:06Z"
+     }
+    ],
+    "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Professor",
+    "source_url": "https://medicine.yale.edu/bbs/profile/xiang-zhou-xz735/",
+    "fetched_at": "2026-11-03T19:19:07Z",
+    "quote": "Professor"
+   },
+   "lab_field": {
+    "value": "https://xiangzhou.github.io",
+    "source_url": "https://medicine.yale.edu/bbs/profile/xiang-zhou-xz735/",
+    "fetched_at": "2026-11-03T19:19:07Z",
+    "quote": "View Lab Website"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Professor",
+    "title_source_url": "https://medicine.yale.edu/bbs/profile/xiang-zhou-xz735/",
+    "first_last_author_year": 2012,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
+   }
+  },
+  {
+   "name": "Guan, Leying",
+   "title": null,
+   "profile_url": "https://medicine.yale.edu/bbs/profile/leying-guan/",
+   "lab_url": null,
+   "faculty_source_url": "https://medicine.yale.edu/bbs/people/cbb/",
+   "openalex_id": "https://openalex.org/A5004224053",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI32971472&mailto=boyuan.yang%40emory.edu&per_page=10&search=Guan+Leying&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Leying Guan",
+   "openalex_url": "https://api.openalex.org/authors/A5004224053?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:12:39Z",
+   "works_in_window": 49,
+   "works_at_school": 40,
+   "score_basis": "works with school on byline",
+   "score": 3.54,
+   "score_A": 2.54,
+   "score_B": 1.0,
+   "direction": "A",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4409713938",
+     "doi": "https://doi.org/10.1038/s41467-025-59243-x",
+     "title": "JointPRS: A data-adaptive framework for multi-population genetic risk prediction incorporating genetic correlation",
+     "year": 2025,
+     "type": "article",
+     "venue": "Nature Communications",
+     "landing_url": "https://doi.org/10.1038/s41467-025-59243-x",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Genetic prediction accuracy for non-European populations is hindered by the limited sample size of Genome-wide association studies (GWAS) data in these populations. Additionally, it is challenging to tune model parameters with a small tuning dataset for methods that require tuning data, which is often the case for non-European samples. To address these challenges, we propose JointPRS, a novel, data-adaptive framework that simultaneously models multiple populations using GWAS summary statistics. JointPRS incorporates genetic correlation structures into the prediction framework, enabling accurate performance even without individual-level tuning data. Additionally, it uniquely employs a data-ad",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    },
+    {
+     "id": "https://openalex.org/W4394728502",
+     "doi": "https://doi.org/10.1093/bioinformatics/btae202",
+     "title": "A supervised Bayesian factor model for the identification of multi-omics signatures",
+     "year": 2024,
+     "type": "article",
+     "venue": "Bioinformatics",
+     "landing_url": "https://doi.org/10.1093/bioinformatics/btae202",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "MOTIVATION: Predictive biological signatures provide utility as biomarkers for disease diagnosis and prognosis, as well as prediction of responses to vaccination or therapy. These signatures are identified from high-throughput profiling assays through a combination of dimensionality reduction and machine learning techniques. The genes, proteins, metabolites, and other biological analytes that compose signatures also generate hypotheses on the underlying mechanisms driving biological responses, thus improving biological understanding. Dimensionality reduction is a critical step in signature discovery to address the large number of analytes in omics datasets, especially for multi-omics profili",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    },
+    {
+     "id": "https://openalex.org/W4390174384",
+     "doi": "https://doi.org/10.21203/rs.3.rs-3741763/v1",
+     "title": "Leveraging genetic correlations and multiple populations to improve genetic risk prediction for non-European populations",
+     "year": 2023,
+     "type": "preprint",
+     "venue": "Research Square",
+     "landing_url": "https://doi.org/10.21203/rs.3.rs-3741763/v1",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract The disparity in genetic risk prediction accuracy between European and non-European individuals highlights a critical challenge in health inequality. To bridge this gap, we introduce JointPRS, a novel method that models multiple populations jointly to improve genetic risk predictions for non-European individuals. JointPRS has three key features. First, it encompasses all diverse populations to improve prediction accuracy, rather than relying solely on the target population with a singular auxiliary European group. Second, it autonomously estimates and leverages chromosome-wise cross-population genetic correlations to infer the effect sizes of genetic variants. Lastly, it provides an",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    },
+    {
+     "id": "https://openalex.org/W7164001948",
+     "doi": "https://doi.org/10.1038/s41588-026-02637-4",
+     "title": "MIXPRS enables multi-population and multi-method polygenic risk scores using summary statistics",
+     "year": 2026,
+     "type": "article",
+     "venue": "Nature Genetics",
+     "landing_url": "https://doi.org/10.1038/s41588-026-02637-4",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Many multi-population polygenic risk score (PRS) methods have been proposed to improve prediction in underrepresented populations; however, no single method performs best across all scenarios. Although integrating PRSs across multiple methods and populations may improve prediction, this approach is often limited by the need for individual-level tuning data. Here we introduce MIXPRS, a robust framework based on the data fission paradigm for combining multiple multi-population PRS methods using only genome-wide association study summary statistics. MIXPRS uses single nucleotide polymorphism pruning to mitigate linkage disequilibrium mismatch and non-negative least squares regression to estimat",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    },
+    {
+     "id": "https://openalex.org/W4411519735",
+     "doi": "https://doi.org/10.1101/2025.06.16.659952",
+     "title": "Almost Free Enhancement of Multi-Population PRS: From Data-Fission to Pseudo-GWAS Subsampling",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.06.16.659952",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Many multi-population polygenic risk score (PRS) methods have been proposed to improve prediction accuracy in underrepresented populations; however, no single method outperforms other methods across all data scenarios. Although integrating PRS results across multiple methods and populations may lead to more accurate predictions, this approach may be limited by the availability of individual-level tuning data to calculate combination weights. In this manuscript, we introduce MIXPRS, a robust PRS integration framework based on data fission principles, to effectively combine multiple multi-population PRS methods using only genome-wide association study (GWAS) summary statistics from multiple po",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    },
+    {
+     "id": "https://openalex.org/W7154564985",
+     "doi": "https://doi.org/10.5281/zenodo.19610538",
+     "title": "MIXPRS+ polygenic score files for BMI and CAD",
+     "year": 2026,
+     "type": "dataset",
+     "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+     "landing_url": "https://doi.org/10.5281/zenodo.19610538",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": false,
+     "role": "middle",
+     "score": 0.04,
+     "abstract": "This dataset contains polygenic score (PGS) scoring files generated using the MIXPRS+ framework. Files included:- BMI_EAS_MIXPRSplus- BMI_AFR_MIXPRSplus- CAD_EAS_MIXPRSplus Each file is provided in gzipped tab-delimited text format (.txt.gz) and contains rsID, chromosome, base-pair position, effect allele, other allele, and effect weight (beta). All scores are based on genome build GRCh37. Related manuscript:Xu L, Dong Y, Zeng X, Bian Z, Zhou G, Guan L, Zhao H.Almost Free Enhancement of Multi-Population PRS: From Data-Fission to Pseudo-GWAS Subsampling.bioRxiv 2025.06.16.659952.https://doi.org/10.1101/2025.06.16.659952 This work has been accepted in principle at Nature Genetics with the upda",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7164338599",
+    "recent_work_institutions": [
+     "Yale University"
+    ],
+    "last_known_institutions": [
+     "Yale University"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2017,
+   "chosen_papers": [
+    {
+     "id": "https://openalex.org/W4409713938",
+     "doi": "https://doi.org/10.1038/s41467-025-59243-x",
+     "title": "JointPRS: A data-adaptive framework for multi-population genetic risk prediction incorporating genetic correlation",
+     "year": 2025,
+     "type": "article",
+     "venue": "Nature Communications",
+     "landing_url": "https://doi.org/10.1038/s41467-025-59243-x",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Genetic prediction accuracy for non-European populations is hindered by the limited sample size of Genome-wide association studies (GWAS) data in these populations. Additionally, it is challenging to tune model parameters with a small tuning dataset for methods that require tuning data, which is often the case for non-European samples. To address these challenges, we propose JointPRS, a novel, data-adaptive framework that simultaneously models multiple populations using GWAS summary statistics. JointPRS incorporates genetic correlation structures into the prediction framework, enabling accurate performance even without individual-level tuning data. Additionally, it uniquely employs a data-ad",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    },
+    {
+     "id": "https://openalex.org/W4390174384",
+     "doi": "https://doi.org/10.21203/rs.3.rs-3741763/v1",
+     "title": "Leveraging genetic correlations and multiple populations to improve genetic risk prediction for non-European populations",
+     "year": 2023,
+     "type": "preprint",
+     "venue": "Research Square",
+     "landing_url": "https://doi.org/10.21203/rs.3.rs-3741763/v1",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract The disparity in genetic risk prediction accuracy between European and non-European individuals highlights a critical challenge in health inequality. To bridge this gap, we introduce JointPRS, a novel method that models multiple populations jointly to improve genetic risk predictions for non-European individuals. JointPRS has three key features. First, it encompasses all diverse populations to improve prediction accuracy, rather than relying solely on the target population with a singular auxiliary European group. Second, it autonomously estimates and leverages chromosome-wise cross-population genetic correlations to infer the effect sizes of genetic variants. Lastly, it provides an",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    },
+    {
+     "id": "https://openalex.org/W4394728502",
+     "doi": "https://doi.org/10.1093/bioinformatics/btae202",
+     "title": "A supervised Bayesian factor model for the identification of multi-omics signatures",
+     "year": 2024,
+     "type": "article",
+     "venue": "Bioinformatics",
+     "landing_url": "https://doi.org/10.1093/bioinformatics/btae202",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "MOTIVATION: Predictive biological signatures provide utility as biomarkers for disease diagnosis and prognosis, as well as prediction of responses to vaccination or therapy. These signatures are identified from high-throughput profiling assays through a combination of dimensionality reduction and machine learning techniques. The genes, proteins, metabolites, and other biological analytes that compose signatures also generate hypotheses on the underlying mechanisms driving biological responses, thus improving biological understanding. Dimensionality reduction is a critical step in signature discovery to address the large number of analytes in omics datasets, especially for multi-omics profili",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:39Z"
+    }
+   ],
+   "why": "\u63d0\u51fa\u5229\u7528\u9057\u4f20\u76f8\u5173\u548c\u591a\u4eba\u7fa4\u4fe1\u606f\u7684\u591a\u7956\u6e90 PRS \u6846\u67b6\uff08JointPRS\uff09\uff0c\u5c5e\u65b9\u5411 A3 \u591a\u57fa\u56e0\u8bc4\u5206\u65b9\u6cd5\u3002",
+   "affiliation_recent": {
+    "status": "consistent",
+    "recent_works": [
+     {
+      "id": "https://openalex.org/W4409713938",
+      "title": "JointPRS: A data-adaptive framework for multi-population genetic risk prediction incorporating genetic correlation",
+      "date": "2025-04-23",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:07Z"
+     },
+     {
+      "id": "https://openalex.org/W4394728502",
+      "title": "A supervised Bayesian factor model for the identification of multi-omics signatures",
+      "date": "2024-04-10",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:07Z"
+     }
+    ],
+    "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Associate Professor of Biostatistics",
+    "source_url": "https://medicine.yale.edu/bbs/profile/leying-guan/",
+    "fetched_at": "2026-11-03T19:19:09Z",
+    "quote": "Associate Professor of Biostatistics"
+   },
+   "lab_field": {
+    "value": "https://campuspress.yale.edu/lguan/",
+    "source_url": "https://medicine.yale.edu/bbs/profile/leying-guan/",
+    "fetched_at": "2026-11-03T19:19:09Z",
+    "quote": "Personal Website"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Associate Professor of Biostatistics",
+    "title_source_url": "https://medicine.yale.edu/bbs/profile/leying-guan/",
+    "first_last_author_year": 2017,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
+   }
+  },
+  {
+   "name": "Krishnaswamy, Smita",
+   "title": null,
+   "profile_url": "https://medicine.yale.edu/bbs/profile/smita-krishnaswamy/",
+   "lab_url": null,
+   "faculty_source_url": "https://medicine.yale.edu/bbs/people/cbb/",
+   "openalex_id": "https://openalex.org/A5045475274",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI32971472&mailto=boyuan.yang%40emory.edu&per_page=10&search=Krishnaswamy+Smita&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Smita Krishnaswamy",
+   "openalex_url": "https://api.openalex.org/authors/A5045475274?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:12:50Z",
+   "works_in_window": 85,
+   "works_at_school": 61,
+   "score_basis": "works with school on byline",
+   "score": 3.49,
+   "score_A": 2.14,
+   "score_B": 1.35,
+   "direction": "A+B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W7223200276",
+     "doi": "https://doi.org/10.64898/2026.10.16.759724",
+     "title": "GeoSinkhorn Flow: Geometry-Aware Flow Matching for Perturbation-Conditioned Dynamics in Single cell Data Phenoscapes",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.10.16.759724",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Single-cell technologies increasingly enable large-scale profiling of complex biological systems across many experimental perturbations, but understanding how a system reorganizes across an entire space of conditions is difficult to interpret from single-cell embeddings alone. Phenoscapes address this by embedding entire cell-state distributions, rather than individual cells, as points in a data-driven landscape. Thus, a single dot represents one experimental condition rather than one cell, yielding a map of the perturbation or patient landscape that reveals how phenotype varies continuously across conditions. Phenoscapes remain a comparatively new and underexplored representation a",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    },
+    {
+     "id": "https://openalex.org/W7171505292",
+     "doi": "https://doi.org/10.1093/jimmun/vkag141.1676",
+     "title": "ImmunoFoundation: A Multimodal Deep Learning Approach to Immunogenicity Prediction 2310036",
+     "year": 2026,
+     "type": "article",
+     "venue": "The Journal of Immunology",
+     "landing_url": "https://doi.org/10.1093/jimmun/vkag141.1676",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "first",
+     "score": 0.75,
+     "abstract": "Abstract Introduction Predicting immunogenicity remains a critical challenge in vaccine design, autoimmunity treatment, and pharmaceutical development. Current AI tools rely on limited data inputs, typically only class-I MHC-peptide sequences, missing crucial structural and biochemical information. We developed the ImmunoFoundation Model (IFM), a multimodal deep learning system that integrates not only peptide sequences, 3D molecular structures, and biochemical properties but also TCR-MHC-peptide (class-II and class-I) to achieve superior immunogenicity prediction and enable peptide optimization for therapeutic applications. Methods IFM comprises three modules: (1) ESM3 transformer for embed",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    },
+    {
+     "id": "https://openalex.org/W7171504869",
+     "doi": "https://doi.org/10.1093/jimmun/vkag141.1692",
+     "title": "ViSENet: Joint Sequence and Structure Embeddings of Spike Proteins for Predicting Viral Dynamics 2310110",
+     "year": 2026,
+     "type": "article",
+     "venue": "The Journal of Immunology",
+     "landing_url": "https://doi.org/10.1093/jimmun/vkag141.1692",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "first",
+     "score": 0.6,
+     "abstract": "Abstract Introduction Predicting which viral strains will become predominant is challenging for vaccine design and therapeutic development. Viral evolution is driven by interactions between sequence variation, molecular structure, receptor binding, and immune escape, yet most computational methods consider these factors in isolation. A unified representation integrating them is needed to better anticipate viral evolutionary dynamics. We introduce ViSENet (Viral Sequence Evolution Network), a multimodal framework that jointly embeds viral spike protein sequence and structure in a chronologically organized latent space. Methods ViSENet integrates complementary neural architectures. Spike prote",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    },
+    {
+     "id": "https://openalex.org/W4389344330",
+     "doi": "https://doi.org/10.21203/rs.3.rs-3605296/v1",
+     "title": "Revealing dynamic temporal regulatory networks driving cancer cell state plasticity with neural ODE-based optimal transport",
+     "year": 2023,
+     "type": "preprint",
+     "venue": "Research Square",
+     "landing_url": "https://doi.org/10.21203/rs.3.rs-3605296/v1",
+     "subtopics": [
+      "A2"
+     ],
+     "methods": true,
+     "role": "first",
+     "score": 0.6,
+     "abstract": "Abstract Despite advances in single-cell technologies and temporal sampling, the seamless connection of cell states over time and the inference of gene-gene relationships driving cancer cell state remains a formidable challenge. We present Cflows, a framework that combines neural ordinary differential equation network designed to unravel continuous cellular dynamics from timelapsed scRNAseq data with causality analysis to learn gene regulatory networks underlying cell state changes. When applied to a novel scRNAseq data from breast cancer in vitro models, we trace cell states back to their origins, allowing us to refine a marker profile for cancer stem cells (CSCs), and compute rich and comp",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    },
+    {
+     "id": "https://openalex.org/W7165536864",
+     "doi": "https://doi.org/10.21203/rs.3.rs-10019683/v1",
+     "title": "Stromal Prostaglandin is a Dominant Spatial Regulator of Cell-fate Plasticity in Colorectal Cancer",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "Research Square",
+     "landing_url": "https://doi.org/10.21203/rs.3.rs-10019683/v1",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Abstract Colorectal cancer (CRC) tumours with high stromal content have a worse outcome, but the mechanisms governing this are unclear. Using high-throughput single-cell perturbation analysis of CRC patient-derived organoids (PDOs) and cancer-associated fibroblasts (CAFs) we find that epithelial cells with high stromal-communication potential are marked by the transcriptional co-repressor DACH1 . To define the causal regulators of stromal-epithelial signalling, we developed a novel CRISPR screening platform to perturb the CAF secretome and measure epithelial stem cell responses at single-cell resolution. Intercellular CRISPR screening and full factorial ligand analysis revealed that stromal ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    },
+    {
+     "id": "https://openalex.org/W7213456819",
+     "doi": "https://doi.org/10.21203/rs.3.rs-10954762/v1",
+     "title": "AI Scientists for Building Virtual-Cell Models",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "Research Square",
+     "landing_url": "https://doi.org/10.21203/rs.3.rs-10954762/v1",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Abstract Autonomous agents, from virtual laboratories to biological data-analysis agents and co-scientists, have begun to turn scientific goals into hypotheses. Whether they can go further and convert real, noisy and complex biological data into executable model hypotheses and architectures that encode testable assumptions remains unclear. Predicting how cells respond to genetic and chemical perturbations (i.e., modeling virtual cells) is a natural test of this ability: it is central to decoding disease mechanisms and therapeutic discovery, yet it demands cross-disciplinary expertise rarely concentrated in a single research group. Here, we introduce CellForge, an organized team of autonomous",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7223200276",
+    "recent_work_institutions": [
+     "Yale University"
+    ],
+    "last_known_institutions": [
+     "Yale University",
+     "Mila - Quebec Artificial Intelligence Institute"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2010,
+   "chosen_papers": [
+    {
+     "id": "https://openalex.org/W7223200276",
+     "doi": "https://doi.org/10.64898/2026.10.16.759724",
+     "title": "GeoSinkhorn Flow: Geometry-Aware Flow Matching for Perturbation-Conditioned Dynamics in Single cell Data Phenoscapes",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.10.16.759724",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Single-cell technologies increasingly enable large-scale profiling of complex biological systems across many experimental perturbations, but understanding how a system reorganizes across an entire space of conditions is difficult to interpret from single-cell embeddings alone. Phenoscapes address this by embedding entire cell-state distributions, rather than individual cells, as points in a data-driven landscape. Thus, a single dot represents one experimental condition rather than one cell, yielding a map of the perturbation or patient landscape that reveals how phenotype varies continuously across conditions. Phenoscapes remain a comparatively new and underexplored representation a",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    },
+    {
+     "id": "https://openalex.org/W4389344330",
+     "doi": "https://doi.org/10.21203/rs.3.rs-3605296/v1",
+     "title": "Revealing dynamic temporal regulatory networks driving cancer cell state plasticity with neural ODE-based optimal transport",
+     "year": 2023,
+     "type": "preprint",
+     "venue": "Research Square",
+     "landing_url": "https://doi.org/10.21203/rs.3.rs-3605296/v1",
+     "subtopics": [
+      "A2"
+     ],
+     "methods": true,
+     "role": "first",
+     "score": 0.6,
+     "abstract": "Abstract Despite advances in single-cell technologies and temporal sampling, the seamless connection of cell states over time and the inference of gene-gene relationships driving cancer cell state remains a formidable challenge. We present Cflows, a framework that combines neural ordinary differential equation network designed to unravel continuous cellular dynamics from timelapsed scRNAseq data with causality analysis to learn gene regulatory networks underlying cell state changes. When applied to a novel scRNAseq data from breast cancer in vitro models, we trace cell states back to their origins, allowing us to refine a marker profile for cancer stem cells (CSCs), and compute rich and comp",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    },
+    {
+     "id": "https://openalex.org/W7171504869",
+     "doi": "https://doi.org/10.1093/jimmun/vkag141.1692",
+     "title": "ViSENet: Joint Sequence and Structure Embeddings of Spike Proteins for Predicting Viral Dynamics 2310110",
+     "year": 2026,
+     "type": "article",
+     "venue": "The Journal of Immunology",
+     "landing_url": "https://doi.org/10.1093/jimmun/vkag141.1692",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "first",
+     "score": 0.6,
+     "abstract": "Abstract Introduction Predicting which viral strains will become predominant is challenging for vaccine design and therapeutic development. Viral evolution is driven by interactions between sequence variation, molecular structure, receptor binding, and immune escape, yet most computational methods consider these factors in isolation. A unified representation integrating them is needed to better anticipate viral evolutionary dynamics. We introduce ViSENet (Viral Sequence Evolution Network), a multimodal framework that jointly embeds viral spike protein sequence and structure in a chronologically organized latent space. Methods ViSENet integrates complementary neural architectures. Spike prote",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:51Z"
+    }
+   ],
+   "why": "\u7528\u51e0\u4f55\u611f\u77e5 flow matching \u5efa\u6a21\u6270\u52a8\u6761\u4ef6\u4e0b\u7684\u5355\u7ec6\u80de\u52a8\u6001\uff0c\u5e76\u7528\u795e\u7ecf ODE \u63a8\u65ad\u65f6\u5e8f\u8c03\u63a7\u7f51\u7edc\uff0c\u5bf9\u5e94\u65b9\u5411 A1\uff08\u6270\u52a8\u9884\u6d4b\uff09\u4e0e A2\uff08\u7f51\u7edc\u63a8\u65ad\uff09\u3002",
+   "affiliation_recent": {
+    "status": "consistent",
+    "recent_works": [
+     {
+      "id": "https://openalex.org/W7223200276",
+      "title": "GeoSinkhorn Flow: Geometry-Aware Flow Matching for Perturbation-Conditioned Dynamics in Single cell Data Phenoscapes",
+      "date": "2026-10-22",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:09Z"
+     },
+     {
+      "id": "https://openalex.org/W7161610424",
+      "title": "RNAGenScape: Property-Guided, Optimized Generation of mRNA Sequences with Manifold Langevin Dynamics.",
+      "date": "2026-05-08",
+      "institutions": [],
+      "lists_school": false,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:09Z"
+     }
+    ],
+    "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Professor of Genetics and of Computer Science",
+    "source_url": "https://medicine.yale.edu/bbs/profile/smita-krishnaswamy/",
+    "fetched_at": "2026-11-03T19:19:11Z",
+    "quote": "Professor of Genetics and of Computer Science"
+   },
+   "lab_field": {
+    "value": "https://www.krishnaswamylab.org/",
+    "source_url": "https://medicine.yale.edu/bbs/profile/smita-krishnaswamy/",
+    "fetched_at": "2026-11-03T19:19:11Z",
+    "quote": "View Lab Website"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Professor of Genetics and of Computer Science",
+    "title_source_url": "https://medicine.yale.edu/bbs/profile/smita-krishnaswamy/",
+    "first_last_author_year": 2010,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
+   }
   },
   {
    "name": "Rodr\u00edguez Mart\u00ednez, Mar\u00eda",
@@ -422,569 +1122,108 @@
     ],
     "matches_school": true
    },
-   "first_last_author_year": 2001
-  },
-  {
-   "name": "Chen, Sidi",
-   "title": "Associate Professor of Genetics and of Neurosurgery",
-   "profile_url": "https://medicine.yale.edu/bbs/profile/sidi-chen/",
-   "lab_url": null,
-   "faculty_source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/",
-   "openalex_id": "https://openalex.org/A5076821347",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI32971472&mailto=boyuan.yang%40emory.edu&per_page=10&search=Chen+Sidi&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_name": "Sidi Chen",
-   "openalex_url": "https://api.openalex.org/authors/A5076821347?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_fetched_at": "2026-11-03T19:12:27Z",
-   "works_in_window": 76,
-   "works_at_school": 36,
-   "score_basis": "works with school on byline",
-   "score": 4.11,
-   "score_A": 2.6,
-   "score_B": 1.51,
-   "direction": "A+B",
-   "top_works": [
+   "first_last_author_year": 2001,
+   "chosen_papers": [
     {
-     "id": "https://openalex.org/W7164338587",
-     "doi": "https://doi.org/10.1038/s41587-026-03127-y",
-     "title": "Large-scale, spatially resolved panoramic CRISPR screening in native tissue environments using Perturb-DBiT",
-     "year": 2026,
-     "type": "article",
-     "venue": "Nature Biotechnology",
-     "landing_url": "https://doi.org/10.1038/s41587-026-03127-y",
-     "subtopics": [
-      "A1"
-     ],
-     "methods": true,
-     "role": "last/corresponding",
-     "score": 1.0,
-     "abstract": "Spatially resolved in vivo CRISPR screening integrates gene editing with spatial transcriptomics to examine how genetic perturbations alter gene expression within native tissue environments. However, current methods are limited to small perturbation panels and the detection of a narrow subset of protein-coding RNAs. We present Perturb-DBiT, a distinct and versatile approach for the simultaneous co-sequencing of spatial total RNA whole-transcriptome and single-guide RNAs (sgRNAs), base-by-base, on the same tissue section. This method enables unbiased discovery of how genetic perturbations influence RNA regulation, cellular dynamics, and tissue architecture in situ. Applying Perturb-DBiT to a ",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076821347%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:28Z"
-    },
-    {
-     "id": "https://openalex.org/W4407910352",
-     "doi": "https://doi.org/10.1016/j.patter.2025.101184",
-     "title": "Sensitive detection of synthetic response to cancer immunotherapy driven by gene paralog pairs",
-     "year": 2025,
-     "type": "article",
-     "venue": "Patterns",
-     "landing_url": "https://doi.org/10.1016/j.patter.2025.101184",
-     "subtopics": [
-      "B6"
-     ],
-     "methods": true,
-     "role": "last/corresponding",
-     "score": 1.0,
-     "abstract": "Emerging immunotherapies such as immune checkpoint blockade (ICB) and chimeric antigen receptor T-cell (CAR-T) therapy have revolutionized cancer treatment and have improved the survival of patients with multiple cancer types. Despite this success many patients are unresponsive to these treatments or relapse following treatment. CRISPR activation and knockout (KO) screens have been used to identify novel single gene targets that can enhance effector T cell function and promote immune cell targeting and eradication of tumors. However, cancer cells often employ multiple genes to promote an immunosuppressive pathway and thus modulating individual genes often has a limited effect. Paralogs are g",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076821347%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:28Z"
-    },
-    {
-     "id": "https://openalex.org/W4404053148",
-     "doi": "https://doi.org/10.1136/jitc-2024-sitc2024.0065",
-     "title": "65 High-fidelity enhanced AsCas12a knock-in mice for efficient multiplexed gene editing, disease modeling and orthogonal immunogenetics",
-     "year": 2024,
-     "type": "conference-abstract",
-     "venue": "Journal for ImmunoTherapy of Cancer",
-     "landing_url": "https://doi.org/10.1136/jitc-2024-sitc2024.0065",
-     "subtopics": [
-      "A1"
-     ],
-     "methods": true,
-     "role": "last/corresponding",
-     "score": 1.0,
-     "abstract": "Background Developing successful immunotherapies heavily relies on the identification of potent and specific targets, and has been a longstanding challenge in the field. It is thus essential to have versatile toolkits enabling efficient endogenous gene editing. The advancement of Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) technology,1 especially the development of Cas9 knock-in mice, has significantly boosted the functional discovery of various genetics factors in diverse fields including genetics, immunology, and oncology.2-5 However, the pleiotropic effects on human disease and the complex nature of gene interaction networks emphasize the need to perform multiplexed",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076821347%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:28Z"
-    },
-    {
-     "id": "https://openalex.org/W7143962955",
-     "doi": "https://doi.org/10.64898/2026.03.27.714913",
-     "title": "eSIG-Net: Accurate prediction of single-mutation induced perturbations on protein interactions using a language model",
+     "id": "https://openalex.org/W7214431488",
+     "doi": "https://doi.org/10.64898/2026.09.25.754560",
+     "title": "Pop-Corn: Predicting Perturbation Phenotype Effects Across Single-Cell and Spatial Contexts",
      "year": 2026,
      "type": "preprint",
      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-     "landing_url": "https://doi.org/10.64898/2026.03.27.714913",
+     "landing_url": "https://doi.org/10.64898/2026.09.25.754560",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Genetic perturbations can reshape cell populations by altering the relative abundance of specific cell types and states within the profiled population, including increases, decreases and states that become detectable after perturbation. Pooled single-cell screens, such as Perturb-seq, measure such responses at scale. However, only a small fraction of possible perturbations can be tested experimentally. A central challenge is therefore to predict compositional shifts induced by unseen perturbations. Many perturbation-prediction methods do not directly optimize for this outcome; instead, they predict gene-expression responses and infer cell-type and cell-state composition downstream. Surprisin",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5016524881%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:15Z"
+    },
+    {
+     "id": "https://openalex.org/W7125597729",
+     "doi": "https://doi.org/10.64898/2026.01.22.701133",
+     "title": "Benchmarking generative scaffold design methods for peptide engineering in TCR\u2013MHC complexes",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.01.22.701133",
      "subtopics": [
       "B5",
       "B6"
      ],
      "methods": true,
-     "role": "middle",
-     "score": 0.31,
-     "abstract": "Abstract Most proteins exert their functions in complex with other interactors. Single mutations can exhibit a profound impact on perturbing protein interactions, leading to human disease. However, predicting the effect of single mutations on protein interactions remains a major computational challenge. Deep learning, particularly protein language models or transformers, has become an effective tool in bioinformatics for protein structure prediction. However, the functional divergence of mutations makes it difficult to predict their interaction perturbation profiles. To address this fundamental challenge, we present eSIG-Net (edgetic mutation Sequence-based Interaction Grammar Network), a no",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076821347%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:28Z"
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Abstract De novo peptide design at T cell receptor\u2013peptide\u2013major histocompatibility complex (TCR\u2013pMHC) interfaces is a central challenge in computational immunology, with direct implications for vaccine development, cancer immunotherapy, and autoimmune disease. Despite rapid advances in generative protein modeling, there is currently no systematic benchmark evaluating these methods in the highly constrained and immunologically relevant setting of peptide\u2013MHC presentation and TCR recognition. Here, we present two complementary contributions. First, we introduce a multi-stage computational pipeline for peptide design in predefined TCR-pMHC contexts, integrating generative modeling with sequenc",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5016524881%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:15Z"
     },
     {
-     "id": "https://openalex.org/W7170054885",
-     "doi": "https://doi.org/10.64898/2026.07.20.26358470",
-     "title": "Germline Variants in Centromere Binding Protein 126 Predispose to Glioblastoma",
-     "year": 2026,
-     "type": "preprint",
-     "venue": "medRxiv",
-     "landing_url": "https://doi.org/10.64898/2026.07.20.26358470",
-     "subtopics": [
-      "A1"
-     ],
-     "methods": false,
-     "role": "last/corresponding",
-     "score": 0.15,
-     "abstract": "Background: Glioblastoma (GBM) is the most common primary malignant brain tumor in adults. While only 5% of GBM cases arise in a familial context, the genetic basis of familial GBM remains unresolved in most affected clusters, suggesting that important susceptibility variants may reside outside recognized cancer-predisposition genes. Proband-based genomic studies of such families provide a rational path to discover rare inherited variants with large biological effects, prioritize candidate genes for functional validation, and define early mechanisms of gliomagenesis that may not be apparent from studies of sporadic tumors alone. Methods: In this study, we investigated a family with GBM clust",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076821347%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:28Z"
-    },
-    {
-     "id": "https://openalex.org/W4416548258",
-     "doi": "https://doi.org/10.1158/2326-6066.cir-25-0168",
-     "title": "TCPGdb: A Comprehensive T-cell Perturbation Genomics Database for the Identification of Critical T-cell Regulators",
-     "year": 2025,
-     "type": "article",
-     "venue": "Cancer Immunology Research",
-     "landing_url": "https://doi.org/10.1158/2326-6066.cir-25-0168",
-     "subtopics": [
-      "A1"
-     ],
-     "methods": false,
-     "role": "last/corresponding",
-     "score": 0.15,
-     "abstract": "Abstract CAR-T therapies utilizing T cells engineered with chimeric antigen receptors (CARs) have revolutionized the treatment of hematologic and immune-related malignancies. However, the anti-tumor capability of engineered CAR-T cells are often not persistent, which greatly dampen its clinical efficacy. To address this limitation, massive parallel genetic screens were widely used to identified novel targets and regulators that enhance T cell anti-tumor capability and persistence in tumor microenvironment. We hypothesized that by combining the pooled screen data from multiple independent genetic screens we could provide a systematic, comprehensive, and robust analysis of the effect of gene p",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076821347%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:28Z"
-    }
-   ],
-   "affiliation_check": {
-    "recent_last_author_work": "https://openalex.org/W7202264708",
-    "recent_work_institutions": [
-     "Yale Cancer Center",
-     "Yale University"
-    ],
-    "last_known_institutions": [
-     "Yale Cancer Center",
-     "Yale University"
-    ],
-    "matches_school": true
-   }
-  },
-  {
-   "name": "Guan, Leying",
-   "title": null,
-   "profile_url": "https://medicine.yale.edu/bbs/profile/leying-guan/",
-   "lab_url": null,
-   "faculty_source_url": "https://medicine.yale.edu/bbs/people/cbb/",
-   "openalex_id": "https://openalex.org/A5004224053",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI32971472&mailto=boyuan.yang%40emory.edu&per_page=10&search=Guan+Leying&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_name": "Leying Guan",
-   "openalex_url": "https://api.openalex.org/authors/A5004224053?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_fetched_at": "2026-11-03T19:12:39Z",
-   "works_in_window": 49,
-   "works_at_school": 40,
-   "score_basis": "works with school on byline",
-   "score": 3.54,
-   "score_A": 2.54,
-   "score_B": 1.0,
-   "direction": "A",
-   "top_works": [
-    {
-     "id": "https://openalex.org/W4409713938",
-     "doi": "https://doi.org/10.1038/s41467-025-59243-x",
-     "title": "JointPRS: A data-adaptive framework for multi-population genetic risk prediction incorporating genetic correlation",
-     "year": 2025,
-     "type": "article",
-     "venue": "Nature Communications",
-     "landing_url": "https://doi.org/10.1038/s41467-025-59243-x",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
-     "role": "last/corresponding",
-     "score": 1.0,
-     "abstract": "Genetic prediction accuracy for non-European populations is hindered by the limited sample size of Genome-wide association studies (GWAS) data in these populations. Additionally, it is challenging to tune model parameters with a small tuning dataset for methods that require tuning data, which is often the case for non-European samples. To address these challenges, we propose JointPRS, a novel, data-adaptive framework that simultaneously models multiple populations using GWAS summary statistics. JointPRS incorporates genetic correlation structures into the prediction framework, enabling accurate performance even without individual-level tuning data. Additionally, it uniquely employs a data-ad",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:39Z"
-    },
-    {
-     "id": "https://openalex.org/W4394728502",
-     "doi": "https://doi.org/10.1093/bioinformatics/btae202",
-     "title": "A supervised Bayesian factor model for the identification of multi-omics signatures",
+     "id": "https://openalex.org/W4401345924",
+     "doi": "https://doi.org/10.3389/fimmu.2024.1428773",
+     "title": "Cell-specific gene networks and drivers in rheumatoid arthritis synovial tissues",
      "year": 2024,
      "type": "article",
-     "venue": "Bioinformatics",
-     "landing_url": "https://doi.org/10.1093/bioinformatics/btae202",
-     "subtopics": [
-      "B5"
-     ],
-     "methods": true,
-     "role": "last/corresponding",
-     "score": 1.0,
-     "abstract": "MOTIVATION: Predictive biological signatures provide utility as biomarkers for disease diagnosis and prognosis, as well as prediction of responses to vaccination or therapy. These signatures are identified from high-throughput profiling assays through a combination of dimensionality reduction and machine learning techniques. The genes, proteins, metabolites, and other biological analytes that compose signatures also generate hypotheses on the underlying mechanisms driving biological responses, thus improving biological understanding. Dimensionality reduction is a critical step in signature discovery to address the large number of analytes in omics datasets, especially for multi-omics profili",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:39Z"
-    },
-    {
-     "id": "https://openalex.org/W4390174384",
-     "doi": "https://doi.org/10.21203/rs.3.rs-3741763/v1",
-     "title": "Leveraging genetic correlations and multiple populations to improve genetic risk prediction for non-European populations",
-     "year": 2023,
-     "type": "preprint",
-     "venue": "Research Square",
-     "landing_url": "https://doi.org/10.21203/rs.3.rs-3741763/v1",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
-     "role": "last/corresponding",
-     "score": 1.0,
-     "abstract": "Abstract The disparity in genetic risk prediction accuracy between European and non-European individuals highlights a critical challenge in health inequality. To bridge this gap, we introduce JointPRS, a novel method that models multiple populations jointly to improve genetic risk predictions for non-European individuals. JointPRS has three key features. First, it encompasses all diverse populations to improve prediction accuracy, rather than relying solely on the target population with a singular auxiliary European group. Second, it autonomously estimates and leverages chromosome-wise cross-population genetic correlations to infer the effect sizes of genetic variants. Lastly, it provides an",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:39Z"
-    },
-    {
-     "id": "https://openalex.org/W7164001948",
-     "doi": "https://doi.org/10.1038/s41588-026-02637-4",
-     "title": "MIXPRS enables multi-population and multi-method polygenic risk scores using summary statistics",
-     "year": 2026,
-     "type": "article",
-     "venue": "Nature Genetics",
-     "landing_url": "https://doi.org/10.1038/s41588-026-02637-4",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
-     "role": "middle",
-     "score": 0.25,
-     "abstract": "Many multi-population polygenic risk score (PRS) methods have been proposed to improve prediction in underrepresented populations; however, no single method performs best across all scenarios. Although integrating PRSs across multiple methods and populations may improve prediction, this approach is often limited by the need for individual-level tuning data. Here we introduce MIXPRS, a robust framework based on the data fission paradigm for combining multiple multi-population PRS methods using only genome-wide association study summary statistics. MIXPRS uses single nucleotide polymorphism pruning to mitigate linkage disequilibrium mismatch and non-negative least squares regression to estimat",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:39Z"
-    },
-    {
-     "id": "https://openalex.org/W4411519735",
-     "doi": "https://doi.org/10.1101/2025.06.16.659952",
-     "title": "Almost Free Enhancement of Multi-Population PRS: From Data-Fission to Pseudo-GWAS Subsampling",
-     "year": 2025,
-     "type": "preprint",
-     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-     "landing_url": "https://doi.org/10.1101/2025.06.16.659952",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
-     "role": "middle",
-     "score": 0.25,
-     "abstract": "Many multi-population polygenic risk score (PRS) methods have been proposed to improve prediction accuracy in underrepresented populations; however, no single method outperforms other methods across all data scenarios. Although integrating PRS results across multiple methods and populations may lead to more accurate predictions, this approach may be limited by the availability of individual-level tuning data to calculate combination weights. In this manuscript, we introduce MIXPRS, a robust PRS integration framework based on data fission principles, to effectively combine multiple multi-population PRS methods using only genome-wide association study (GWAS) summary statistics from multiple po",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:39Z"
-    },
-    {
-     "id": "https://openalex.org/W7154564985",
-     "doi": "https://doi.org/10.5281/zenodo.19610538",
-     "title": "MIXPRS+ polygenic score files for BMI and CAD",
-     "year": 2026,
-     "type": "dataset",
-     "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-     "landing_url": "https://doi.org/10.5281/zenodo.19610538",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": false,
-     "role": "middle",
-     "score": 0.04,
-     "abstract": "This dataset contains polygenic score (PGS) scoring files generated using the MIXPRS+ framework. Files included:- BMI_EAS_MIXPRSplus- BMI_AFR_MIXPRSplus- CAD_EAS_MIXPRSplus Each file is provided in gzipped tab-delimited text format (.txt.gz) and contains rsID, chromosome, base-pair position, effect allele, other allele, and effect weight (beta). All scores are based on genome build GRCh37. Related manuscript:Xu L, Dong Y, Zeng X, Bian Z, Zhou G, Guan L, Zhao H.Almost Free Enhancement of Multi-Population PRS: From Data-Fission to Pseudo-GWAS Subsampling.bioRxiv 2025.06.16.659952.https://doi.org/10.1101/2025.06.16.659952 This work has been accepted in principle at Nature Genetics with the upda",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5004224053%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:39Z"
-    }
-   ],
-   "affiliation_check": {
-    "recent_last_author_work": "https://openalex.org/W7164338599",
-    "recent_work_institutions": [
-     "Yale University"
-    ],
-    "last_known_institutions": [
-     "Yale University"
-    ],
-    "matches_school": true
-   },
-   "first_last_author_year": 2017
-  },
-  {
-   "name": "Krishnaswamy, Smita",
-   "title": null,
-   "profile_url": "https://medicine.yale.edu/bbs/profile/smita-krishnaswamy/",
-   "lab_url": null,
-   "faculty_source_url": "https://medicine.yale.edu/bbs/people/cbb/",
-   "openalex_id": "https://openalex.org/A5045475274",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI32971472&mailto=boyuan.yang%40emory.edu&per_page=10&search=Krishnaswamy+Smita&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_name": "Smita Krishnaswamy",
-   "openalex_url": "https://api.openalex.org/authors/A5045475274?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_fetched_at": "2026-11-03T19:12:50Z",
-   "works_in_window": 85,
-   "works_at_school": 61,
-   "score_basis": "works with school on byline",
-   "score": 3.49,
-   "score_A": 2.14,
-   "score_B": 1.35,
-   "direction": "A+B",
-   "top_works": [
-    {
-     "id": "https://openalex.org/W7223200276",
-     "doi": "https://doi.org/10.64898/2026.10.16.759724",
-     "title": "GeoSinkhorn Flow: Geometry-Aware Flow Matching for Perturbation-Conditioned Dynamics in Single cell Data Phenoscapes",
-     "year": 2026,
-     "type": "preprint",
-     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-     "landing_url": "https://doi.org/10.64898/2026.10.16.759724",
-     "subtopics": [
-      "A1"
-     ],
-     "methods": true,
-     "role": "last/corresponding",
-     "score": 1.0,
-     "abstract": "Abstract Single-cell technologies increasingly enable large-scale profiling of complex biological systems across many experimental perturbations, but understanding how a system reorganizes across an entire space of conditions is difficult to interpret from single-cell embeddings alone. Phenoscapes address this by embedding entire cell-state distributions, rather than individual cells, as points in a data-driven landscape. Thus, a single dot represents one experimental condition rather than one cell, yielding a map of the perturbation or patient landscape that reveals how phenotype varies continuously across conditions. Phenoscapes remain a comparatively new and underexplored representation a",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:51Z"
-    },
-    {
-     "id": "https://openalex.org/W7171505292",
-     "doi": "https://doi.org/10.1093/jimmun/vkag141.1676",
-     "title": "ImmunoFoundation: A Multimodal Deep Learning Approach to Immunogenicity Prediction 2310036",
-     "year": 2026,
-     "type": "article",
-     "venue": "The Journal of Immunology",
-     "landing_url": "https://doi.org/10.1093/jimmun/vkag141.1676",
-     "subtopics": [
-      "B5",
-      "B6"
-     ],
-     "methods": true,
-     "role": "first",
-     "score": 0.75,
-     "abstract": "Abstract Introduction Predicting immunogenicity remains a critical challenge in vaccine design, autoimmunity treatment, and pharmaceutical development. Current AI tools rely on limited data inputs, typically only class-I MHC-peptide sequences, missing crucial structural and biochemical information. We developed the ImmunoFoundation Model (IFM), a multimodal deep learning system that integrates not only peptide sequences, 3D molecular structures, and biochemical properties but also TCR-MHC-peptide (class-II and class-I) to achieve superior immunogenicity prediction and enable peptide optimization for therapeutic applications. Methods IFM comprises three modules: (1) ESM3 transformer for embed",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:51Z"
-    },
-    {
-     "id": "https://openalex.org/W7171504869",
-     "doi": "https://doi.org/10.1093/jimmun/vkag141.1692",
-     "title": "ViSENet: Joint Sequence and Structure Embeddings of Spike Proteins for Predicting Viral Dynamics 2310110",
-     "year": 2026,
-     "type": "article",
-     "venue": "The Journal of Immunology",
-     "landing_url": "https://doi.org/10.1093/jimmun/vkag141.1692",
-     "subtopics": [
-      "B6"
-     ],
-     "methods": true,
-     "role": "first",
-     "score": 0.6,
-     "abstract": "Abstract Introduction Predicting which viral strains will become predominant is challenging for vaccine design and therapeutic development. Viral evolution is driven by interactions between sequence variation, molecular structure, receptor binding, and immune escape, yet most computational methods consider these factors in isolation. A unified representation integrating them is needed to better anticipate viral evolutionary dynamics. We introduce ViSENet (Viral Sequence Evolution Network), a multimodal framework that jointly embeds viral spike protein sequence and structure in a chronologically organized latent space. Methods ViSENet integrates complementary neural architectures. Spike prote",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:51Z"
-    },
-    {
-     "id": "https://openalex.org/W4389344330",
-     "doi": "https://doi.org/10.21203/rs.3.rs-3605296/v1",
-     "title": "Revealing dynamic temporal regulatory networks driving cancer cell state plasticity with neural ODE-based optimal transport",
-     "year": 2023,
-     "type": "preprint",
-     "venue": "Research Square",
-     "landing_url": "https://doi.org/10.21203/rs.3.rs-3605296/v1",
+     "venue": "Frontiers in Immunology",
+     "landing_url": "https://doi.org/10.3389/fimmu.2024.1428773",
      "subtopics": [
       "A2"
      ],
      "methods": true,
-     "role": "first",
-     "score": 0.6,
-     "abstract": "Abstract Despite advances in single-cell technologies and temporal sampling, the seamless connection of cell states over time and the inference of gene-gene relationships driving cancer cell state remains a formidable challenge. We present Cflows, a framework that combines neural ordinary differential equation network designed to unravel continuous cellular dynamics from timelapsed scRNAseq data with causality analysis to learn gene regulatory networks underlying cell state changes. When applied to a novel scRNAseq data from breast cancer in vitro models, we trace cell states back to their origins, allowing us to refine a marker profile for cancer stem cells (CSCs), and compute rich and comp",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:51Z"
-    },
-    {
-     "id": "https://openalex.org/W7165536864",
-     "doi": "https://doi.org/10.21203/rs.3.rs-10019683/v1",
-     "title": "Stromal Prostaglandin is a Dominant Spatial Regulator of Cell-fate Plasticity in Colorectal Cancer",
-     "year": 2026,
-     "type": "preprint",
-     "venue": "Research Square",
-     "landing_url": "https://doi.org/10.21203/rs.3.rs-10019683/v1",
-     "subtopics": [
-      "A1"
-     ],
-     "methods": true,
-     "role": "middle",
-     "score": 0.25,
-     "abstract": "Abstract Colorectal cancer (CRC) tumours with high stromal content have a worse outcome, but the mechanisms governing this are unclear. Using high-throughput single-cell perturbation analysis of CRC patient-derived organoids (PDOs) and cancer-associated fibroblasts (CAFs) we find that epithelial cells with high stromal-communication potential are marked by the transcriptional co-repressor DACH1 . To define the causal regulators of stromal-epithelial signalling, we developed a novel CRISPR screening platform to perturb the CAF secretome and measure epithelial stem cell responses at single-cell resolution. Intercellular CRISPR screening and full factorial ligand analysis revealed that stromal ",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:51Z"
-    },
-    {
-     "id": "https://openalex.org/W7213456819",
-     "doi": "https://doi.org/10.21203/rs.3.rs-10954762/v1",
-     "title": "AI Scientists for Building Virtual-Cell Models",
-     "year": 2026,
-     "type": "preprint",
-     "venue": "Research Square",
-     "landing_url": "https://doi.org/10.21203/rs.3.rs-10954762/v1",
-     "subtopics": [
-      "A1"
-     ],
-     "methods": true,
-     "role": "middle",
-     "score": 0.25,
-     "abstract": "Abstract Autonomous agents, from virtual laboratories to biological data-analysis agents and co-scientists, have begun to turn scientific goals into hypotheses. Whether they can go further and convert real, noisy and complex biological data into executable model hypotheses and architectures that encode testable assumptions remains unclear. Predicting how cells respond to genetic and chemical perturbations (i.e., modeling virtual cells) is a natural test of this ability: it is central to decoding disease mechanisms and therapeutic discovery, yet it demands cross-disciplinary expertise rarely concentrated in a single research group. Here, we introduce CellForge, an organized team of autonomous",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5045475274%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:12:51Z"
-    }
-   ],
-   "affiliation_check": {
-    "recent_last_author_work": "https://openalex.org/W7223200276",
-    "recent_work_institutions": [
-     "Yale University"
-    ],
-    "last_known_institutions": [
-     "Yale University",
-     "Mila - Quebec Artificial Intelligence Institute"
-    ],
-    "matches_school": true
-   },
-   "first_last_author_year": 2010
-  },
-  {
-   "name": "Zhang, Heping",
-   "title": null,
-   "profile_url": "https://medicine.yale.edu/bbs/profile/heping-zhang/",
-   "lab_url": null,
-   "faculty_source_url": "https://medicine.yale.edu/bbs/people/cbb/",
-   "openalex_id": "https://openalex.org/A5100775543",
-   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI32971472&mailto=boyuan.yang%40emory.edu&per_page=10&search=Zhang+Heping&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_name": "Heping Zhang D",
-   "openalex_url": "https://api.openalex.org/authors/A5100775543?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
-   "openalex_fetched_at": "2026-11-03T19:13:24Z",
-   "works_in_window": 65,
-   "works_at_school": 57,
-   "score_basis": "works with school on byline",
-   "score": 3.39,
-   "score_A": 3.39,
-   "score_B": 0,
-   "direction": "A",
-   "top_works": [
-    {
-     "id": "https://openalex.org/W7160046585",
-     "doi": "https://doi.org/10.1080/01621459.2026.2657607",
-     "title": "Genetically Informed Brain Parcellation Through Structured Multi-Task Modeling",
-     "year": 2026,
-     "type": "article",
-     "venue": "Journal of the American Statistical Association",
-     "landing_url": "https://doi.org/10.1080/01621459.2026.2657607",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
      "role": "last/corresponding",
      "score": 1.0,
-     "abstract": "The organization of human brain subnetworks is fundamental to understanding cognition and neuropsychiatric health. Existing approaches predominantly construct subnetworks by clustering brain regions according to measured imaging phenotypes or functional correlation. Although successful, such phenotype-based parcellations reflect composite effects of genetics, environment, lifestyle, and measurement noise, thereby limiting biological interpretability and obscuring subnetworks attributable to specific mechanisms. Accumulating evidence suggests that brain connectivity is substantially heritable and genetic influences are regionally heterogeneous and aligned with functional architecture. Motivat",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100775543%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:13:25Z"
-    },
-    {
-     "id": "https://openalex.org/W4407938784",
-     "doi": "https://doi.org/10.1073/pnas.2419721122",
-     "title": "Empowering genome-wide association studies via a visualizable test based on the regional association score",
-     "year": 2025,
-     "type": "article",
-     "venue": "Proceedings of the National Academy of Sciences",
-     "landing_url": "https://doi.org/10.1073/pnas.2419721122",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
-     "role": "last/corresponding",
-     "score": 1.0,
-     "abstract": "The genome-wide association studies identified genes associated with many diseases, but the identification and verification of disease variants are still challenging due to small effects and large number of individual variants. In this paper, we propose a powerful method that first quantifies the strength of regional associations at each single nucleotide polymorphism and converts these measures into time series data before using a change point detection algorithm to identify significant regions. In our extensive simulation study, the proposed method consistently demonstrates greater power than existing alternatives, achieving a relative increase of over 20% in challenging scenarios where tr",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100775543%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:13:25Z"
-    },
-    {
-     "id": "https://openalex.org/W7153347429",
-     "doi": "https://doi.org/10.64898/2026.04.09.717492",
-     "title": "Connectome-based spatial statistics enabling large-scale population analyses of human connectome across cohorts",
-     "year": 2026,
-     "type": "preprint",
-     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-     "landing_url": "https://doi.org/10.64898/2026.04.09.717492",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
-     "role": "middle",
-     "score": 0.25,
-     "abstract": "Abstract Large-scale population analyses of structural connectome organization remain challenging because of cross-subject alignment, pathway interpretability and computational burden. No widely adopted standard exists for systematic evaluation across processing methods. We developed connectome-based spatial statistics (CBSS), a scalable framework for anatomically aligned and functionally informed quantification of white-matter microstructure that yields atlas-defined pathways organized into 13 functional networks. Using data from 56,510 UK Biobank participants together with five independent lifespan cohorts, we evaluated the streamline-, voxel\u2013 and network-level measures in the aspects of r",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100775543%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:13:25Z"
-    },
-    {
-     "id": "https://openalex.org/W7161230848",
-     "doi": "https://doi.org/10.1371/journal.pdig.0001376",
-     "title": "Structure-aware retinal disentanglement reveals the genetic architecture of ocular and systemic diseases",
-     "year": 2026,
-     "type": "article",
-     "venue": "PLOS Digital Health",
-     "landing_url": "https://doi.org/10.1371/journal.pdig.0001376",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
-     "role": "middle",
-     "score": 0.25,
-     "abstract": "Deep learning effectively extracts retinal phenotypes but often functions as an entangled black box, obscuring specific genetic mechanisms and hindering clinical interpretability. To resolve this, we present the Unsupervised Ophthalmic Feature Extraction (UOFE) framework. Our approach feeds full fundus images, optic disc masks, and vessel masks into three isolated structure-aware autoencoders. Crucially, these streams share no parameters and are optimized separately to explicitly encode the macular background, optic disc, and retinal vasculature. Models were trained on 53,600 EyePACS images, utilizing a median smoothing kernel to disentangle the background, optic disc/cup, and retinal vascul",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100775543%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:13:25Z"
-    },
-    {
-     "id": "https://openalex.org/W4412786560",
-     "doi": "https://doi.org/10.1002/hbm.70297",
-     "title": "S\u2010 GMAS : Genome\u2010Wide Mediation Analysis With Brain Subcortical Shape Mediators",
-     "year": 2025,
-     "type": "article",
-     "venue": "Human Brain Mapping",
-     "landing_url": "https://doi.org/10.1002/hbm.70297",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": true,
-     "role": "middle",
-     "score": 0.25,
-     "abstract": "Mediation analysis is widely utilized in neuroscience to investigate the role of brain image phenotypes in the neurological pathways from genetic exposures to clinical outcomes. However, it is still difficult to conduct mediation analyses with whole genome-wide exposures and brain subcortical shape mediators due to several challenges including (i) large-scale genetic exposures, that is, millions of single-nucleotide polymorphisms (SNPs); (ii) nonlinear Hilbert space for shape mediators; and (iii) statistical inference on the direct and indirect effects. To tackle these challenges, this paper proposes a genome-wide mediation analysis framework with brain subcortical shape mediators. First, to",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100775543%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:13:25Z"
-    },
-    {
-     "id": "https://openalex.org/W7128216179",
-     "doi": "https://doi.org/10.1073/pnas.2527955123",
-     "title": "Identifying genome-by-childhood trauma interactions for depression using a forest-based approach in the UK Biobank and Adolescent Brain Cognitive Development Study",
-     "year": 2026,
-     "type": "article",
-     "venue": "Proceedings of the National Academy of Sciences",
-     "landing_url": "https://doi.org/10.1073/pnas.2527955123",
-     "subtopics": [
-      "A3"
-     ],
-     "methods": false,
-     "role": "last/corresponding",
-     "score": 0.15,
-     "abstract": "Depression is shaped by both genetic and environmental factors, but genome-wide interaction studies (GWIS) often lack power to detect complex gene-environment (G \u00d7 E) interactions. We applied a forest-based machine learning approach to 38,018 UK Biobank (UKB) participants, examining interactions between 285,677 single-nucleotide polymorphisms (SNPs) and three trauma types (childhood, adult, and catastrophic trauma). While GWIS detected no significant interactions, we identified 8,225 potentially important SNP-environment pairs across 1,732 genes, with childhood trauma contributing most prominently. Stratified heritability was higher among childhood trauma-exposed individuals (13.3%) versus t",
-     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100775543%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
-     "fetched_at": "2026-11-03T19:13:25Z"
+     "abstract": "Rheumatoid arthritis (RA) is a common autoimmune and inflammatory disease characterized by inflammation and hyperplasia of the synovial tissues. RA pathogenesis involves multiple cell types, genes, transcription factors (TFs) and networks. Yet, little is known about the TFs, and key drivers and networks regulating cell function and disease at the synovial tissue level, which is the site of disease. In the present study, we used available RNA-seq databases generated from synovial tissues and developed a novel approach to elucidate cell type-specific regulatory networks on synovial tissue genes in RA. We leverage established computational methodologies to infer sample-specific gene regulatory ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5016524881%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:15Z"
     }
    ],
-   "affiliation_check": {
-    "recent_last_author_work": "https://openalex.org/W7214512244",
-    "recent_work_institutions": [],
-    "last_known_institutions": [
-     "Yale University"
+   "why": "\u540c\u65f6\u505a\u5355\u7ec6\u80de/\u7a7a\u95f4\u6270\u52a8\u8868\u578b\u9884\u6d4b\u6a21\u578b\uff08Pop-Corn\uff09\u548c TCR\u2013MHC \u4f53\u7cfb\u4e2d\u751f\u6210\u5f0f\u80bd\u9aa8\u67b6\u8bbe\u8ba1\u7684\u57fa\u51c6\u8bc4\u6d4b\uff0c\u6a2a\u8de8\u65b9\u5411 A1 \u4e0e B5\u3002",
+   "affiliation_recent": {
+    "status": "consistent",
+    "recent_works": [
+     {
+      "id": "https://openalex.org/W7214431488",
+      "title": "Pop-Corn: Predicting Perturbation Phenotype Effects Across Single-Cell and Spatial Contexts",
+      "date": "2026-09-26",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5016524881%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:12Z"
+     },
+     {
+      "id": "https://openalex.org/W7125597729",
+      "title": "Benchmarking generative scaffold design methods for peptide engineering in TCR\u2013MHC complexes",
+      "date": "2026-01-23",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5016524881%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:12Z"
+     }
     ],
-    "matches_school": true
+    "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
    },
-   "first_last_author_year": 1987
+   "title_field": {
+    "value": "Associate Professor of Biomedical Informatics and Data Science",
+    "source_url": "https://medicine.yale.edu/bbs/profile/maria-rodriguezmartinez/",
+    "fetched_at": "2026-11-03T19:19:13Z",
+    "quote": "Associate Professor of Biomedical Informatics and Data Science"
+   },
+   "lab_field": null,
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Associate Professor of Biomedical Informatics and Data Science",
+    "title_source_url": "https://medicine.yale.edu/bbs/profile/maria-rodriguezmartinez/",
+    "first_last_author_year": 2001,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
+   }
   },
   {
    "name": "Kleinstein, Steven",
@@ -1126,6 +1365,467 @@
      "Yale University"
     ],
     "matches_school": true
+   },
+   "chosen_papers": [
+    {
+     "id": "https://openalex.org/W4409011676",
+     "doi": "https://doi.org/10.1371/journal.pcbi.1012153",
+     "title": "Supervised fine-tuning of pre-trained antibody language models improves antigen specificity prediction",
+     "year": 2025,
+     "type": "article",
+     "venue": "PLoS Computational Biology",
+     "landing_url": "https://doi.org/10.1371/journal.pcbi.1012153",
+     "subtopics": [
+      "B4",
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Abstract Antibodies play a crucial role in adaptive immune responses by determining B cell specificity to antigens and focusing immune function on target pathogens. Accurate prediction of antibody-antigen specificity directly from antibody sequencing data would be a great aid in understanding immune responses, guiding vaccine design, and developing antibody-based therapeutics. In this study, we present a method of supervised fine-tuning for antibody language models, which improves on previous results in binding specificity prediction to SARS-CoV-2 spike protein and influenza hemagglutinin. We perform supervised fine-tuning on four pre-trained antibody language models to predict specificity t",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5066562919%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:49Z"
+    },
+    {
+     "id": "https://openalex.org/W4389924610",
+     "doi": "https://doi.org/10.1093/nar/gkad1128",
+     "title": "Language model-based B cell receptor sequence embeddings can effectively encode receptor specificity",
+     "year": 2023,
+     "type": "article",
+     "venue": "Nucleic Acids Research",
+     "landing_url": "https://doi.org/10.1093/nar/gkad1128",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "High throughput sequencing of B cell receptors (BCRs) is increasingly applied to study the immense diversity of antibodies. Learning biologically meaningful embeddings of BCR sequences is beneficial for predictive modeling. Several embedding methods have been developed for BCRs, but no direct performance benchmarking exists. Moreover, the impact of the input sequence length and paired-chain information on the prediction remains to be explored. We evaluated the performance of multiple embedding models to predict BCR sequence properties and receptor specificity. Despite the differences in model architectures, most embeddings effectively capture BCR sequence properties and specificity. BCR-spec",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5066562919%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:49Z"
+    },
+    {
+     "id": "https://openalex.org/W4408875987",
+     "doi": "https://doi.org/10.1101/2025.03.21.644583",
+     "title": "AMULETY: A Python package to embed adaptive immune receptor sequences",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.03.21.644583",
+     "subtopics": [
+      "B4",
+      "B5"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.31,
+     "abstract": "Large language models have been developed to capture relevant features of adaptive immune receptors, each with unique potential applications. However, the diversity in available models presents challenges in accessibility and usability for downstream applications. Here we present AMULETY (Adaptive imMUne receptor Language model Embedding Tool), a Python-based software package to generate language model embeddings for adaptive immune receptor sequences, enabling users to leverage the strengths of different models without the need for complex configuration. AMULETY offers functions for embedding adaptive immune receptor amino acid sequences using pre-trained protein or antibody language models",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5066562919%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:49Z"
+    }
+   ],
+   "why": "\u5bf9\u9884\u8bad\u7ec3\u6297\u4f53\u8bed\u8a00\u6a21\u578b\u505a\u76d1\u7763\u5fae\u8c03\u4ee5\u9884\u6d4b\u6297\u539f\u7279\u5f02\u6027\uff0c\u5e76\u7528\u8bed\u8a00\u6a21\u578b\u5d4c\u5165 BCR \u5e8f\u5217\uff0c\u5bf9\u5e94\u65b9\u5411 B4 \u7684\u6297\u4f53\u8ba1\u7b97\u65b9\u6cd5\u3002",
+   "affiliation_recent": {
+    "status": "consistent",
+    "recent_works": [
+     {
+      "id": "https://openalex.org/W7223092014",
+      "title": "Severity-stratified, longitudinal cis-eQTL mapping enables high-sensitivity detection of candidate causal genes for critical COVID-19",
+      "date": "2026-10-21",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5066562919%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:13Z"
+     },
+     {
+      "id": "https://openalex.org/W4409011676",
+      "title": "Supervised fine-tuning of pre-trained antibody language models improves antigen specificity prediction",
+      "date": "2025-03-31",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5066562919%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:13Z"
+     }
+    ],
+    "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Co-Director of Graduate Studies, CBB Track; Anthony N Brady Professor of Pathology; Co-Director of Graduate Studies, Computational Biology and  Biomedical Informatics",
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/",
+    "quote": "Co-Director of Graduate Studies, CBB Track; Anthony N Brady Professor of Pathology; Co-Director of Graduate Studies, Computational Biology and  Biomedical Informatics"
+   },
+   "lab_field": {
+    "value": "https://medicine.yale.edu/lab/kleinstein/",
+    "source_url": "https://medicine.yale.edu/bbs/profile/steven-kleinstein/",
+    "fetched_at": "2026-11-03T19:19:15Z",
+    "quote": "Kleinstein Lab"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Co-Director of Graduate Studies, CBB Track; Anthony N Brady Professor of Pathology; Co-Director of Graduate Studies, Computational Biology and  Biomedical Informatics",
+    "title_source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/",
+    "first_last_author_year": null,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
+   }
+  },
+  {
+   "name": "O'Hern, Corey",
+   "title": "Co-Director of Graduate Admissions, CBB Track; Professor; Assoc Prof Dept of Mechanical Engineering & Materials Science and Physics; Associate Professor",
+   "profile_url": "https://medicine.yale.edu/bbs/profile/corey-ohern/",
+   "lab_url": null,
+   "faculty_source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/",
+   "openalex_id": "https://openalex.org/A5052304826",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI32971472&mailto=boyuan.yang%40emory.edu&per_page=10&search=O%27Hern+Corey&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Corey S. O\u2019Hern",
+   "openalex_url": "https://api.openalex.org/authors/A5052304826?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:13:05Z",
+   "works_in_window": 49,
+   "works_at_school": 42,
+   "score_basis": "works with school on byline",
+   "score": 3.25,
+   "score_A": 0,
+   "score_B": 3.25,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4413278539",
+     "doi": "https://doi.org/10.1109/wibi64774.2025.11115392",
+     "title": "Designing a Protein-Protein Interface Scoring Function Using Graph Neural Networks",
+     "year": 2025,
+     "type": "conference-abstract",
+     "venue": null,
+     "landing_url": "https://doi.org/10.1109/wibi64774.2025.11115392",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Machine learning approaches have been applied to numerous biological problems, including the scoring of protein-protein interface (PPI) models. Graph neural networks (GNNs) have been identified as an effective tool for PPI scoring due to their ability to represent three-dimensional protein structures as nodes and edges of a graph, preserving rotational invariance without loss of structural information. However, in a comparison study of leading PPI scoring functions, we observed that GNN-based models consistently underperformed compared to non-GNN-based methods. Using a large dataset of unique heterodimers, we demonstrated that the number of heavy atom contacts at the protein interface showed",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5052304826%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:06Z"
+    },
+    {
+     "id": "https://openalex.org/W7160281564",
+     "doi": "https://doi.org/10.1103/krhp-fxv3",
+     "title": "Assessment of scoring functions for computational models of protein-protein interfaces",
+     "year": 2026,
+     "type": "article",
+     "venue": "Physical review. E",
+     "landing_url": "https://doi.org/10.1103/krhp-fxv3",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "An important goal of computational studies of protein-protein interfaces (PPIs) is to predict the binding site between two monomers that form a heterodimer. The simplest version of this problem is to rigidly redock the bound forms of the monomers, which involves generating computational models of the heterodimer and then scoring them to determine the most nativelike models. PPI scoring functions have been assessed previously using rank- and classification-based metrics; however, these methods are sensitive to the number and quality of models in the scoring function training set. We assess the accuracy of seven physical, statistical, or deep-learning-based PPI scoring functions by comparing t",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5052304826%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:06Z"
+    },
+    {
+     "id": "https://openalex.org/W7124669276",
+     "doi": null,
+     "title": "Assessment of scoring functions for computational models of protein-protein interfaces.",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "PubMed",
+     "landing_url": "https://pubmed.ncbi.nlm.nih.gov/41542155",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "An important goal of computational studies of protein-protein interfaces (PPIs) is to predict the binding site between two monomers that form a heterodimer. The simplest version of this problem is to rigidly re-dock the bound forms of the monomers, which involves generating computational models of the heterodimer and then scoring them to determine the most native-like models. PPI scoring functions have been assessed previously using rank- and classification-based metrics; however, these methods are sensitive to the number and quality of models in the scoring function training set. We assess the accuracy of seven PPI scoring functions by comparing their scores of computational models of PPIs ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5052304826%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:06Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7154734553",
+    "recent_work_institutions": [],
+    "last_known_institutions": [
+     "Yale University"
+    ],
+    "matches_school": true
+   },
+   "chosen_papers": [
+    {
+     "id": "https://openalex.org/W4413278539",
+     "doi": "https://doi.org/10.1109/wibi64774.2025.11115392",
+     "title": "Designing a Protein-Protein Interface Scoring Function Using Graph Neural Networks",
+     "year": 2025,
+     "type": "conference-abstract",
+     "venue": null,
+     "landing_url": "https://doi.org/10.1109/wibi64774.2025.11115392",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Machine learning approaches have been applied to numerous biological problems, including the scoring of protein-protein interface (PPI) models. Graph neural networks (GNNs) have been identified as an effective tool for PPI scoring due to their ability to represent three-dimensional protein structures as nodes and edges of a graph, preserving rotational invariance without loss of structural information. However, in a comparison study of leading PPI scoring functions, we observed that GNN-based models consistently underperformed compared to non-GNN-based methods. Using a large dataset of unique heterodimers, we demonstrated that the number of heavy atom contacts at the protein interface showed",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5052304826%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:06Z"
+    },
+    {
+     "id": "https://openalex.org/W7160281564",
+     "doi": "https://doi.org/10.1103/krhp-fxv3",
+     "title": "Assessment of scoring functions for computational models of protein-protein interfaces",
+     "year": 2026,
+     "type": "article",
+     "venue": "Physical review. E",
+     "landing_url": "https://doi.org/10.1103/krhp-fxv3",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "An important goal of computational studies of protein-protein interfaces (PPIs) is to predict the binding site between two monomers that form a heterodimer. The simplest version of this problem is to rigidly redock the bound forms of the monomers, which involves generating computational models of the heterodimer and then scoring them to determine the most nativelike models. PPI scoring functions have been assessed previously using rank- and classification-based metrics; however, these methods are sensitive to the number and quality of models in the scoring function training set. We assess the accuracy of seven physical, statistical, or deep-learning-based PPI scoring functions by comparing t",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5052304826%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:06Z"
+    }
+   ],
+   "why": "\u7528\u56fe\u795e\u7ecf\u7f51\u7edc\u8bbe\u8ba1\u86cb\u767d\u2013\u86cb\u767d\u754c\u9762\u6253\u5206\u51fd\u6570\u5e76\u7cfb\u7edf\u8bc4\u4f30\u754c\u9762\u6a21\u578b\u6253\u5206\uff0c\u6b63\u5bf9\u65b9\u5411 B6 \u7684\u590d\u5408\u7269/\u754c\u9762\u9884\u6d4b\u3002",
+   "affiliation_recent": {
+    "status": "consistent",
+    "recent_works": [
+     {
+      "id": "https://openalex.org/W7160281564",
+      "title": "Assessment of scoring functions for computational models of protein-protein interfaces",
+      "date": "2026-05-05",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5052304826%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:15Z"
+     },
+     {
+      "id": "https://openalex.org/W7124669276",
+      "title": "Assessment of scoring functions for computational models of protein-protein interfaces.",
+      "date": "2026-01-07",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5052304826%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:15Z"
+     }
+    ],
+    "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Co-Director of Graduate Admissions, CBB Track; Professor; Assoc Prof Dept of Mechanical Engineering & Materials Science and Physics; Associate Professor",
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/",
+    "quote": "Co-Director of Graduate Admissions, CBB Track; Professor; Assoc Prof Dept of Mechanical Engineering & Materials Science and Physics; Associate Professor"
+   },
+   "lab_field": null,
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Co-Director of Graduate Admissions, CBB Track; Professor; Assoc Prof Dept of Mechanical Engineering & Materials Science and Physics; Associate Professor",
+    "title_source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/",
+    "first_last_author_year": null,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
+   }
+  },
+  {
+   "name": "Machta, Benjamin",
+   "title": null,
+   "profile_url": "https://medicine.yale.edu/bbs/profile/benjamin-machta/",
+   "lab_url": null,
+   "faculty_source_url": "https://medicine.yale.edu/bbs/people/cbb/",
+   "openalex_id": "https://openalex.org/A5008418985",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI32971472&mailto=boyuan.yang%40emory.edu&per_page=10&search=Machta+Benjamin&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Benjamin B. Machta",
+   "openalex_url": "https://api.openalex.org/authors/A5008418985?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:13:01Z",
+   "works_in_window": 25,
+   "works_at_school": 19,
+   "score_basis": "works with school on byline",
+   "score": 3.0,
+   "score_A": 0,
+   "score_B": 3.0,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4413440590",
+     "doi": "https://doi.org/10.1103/zhx7-hcmm",
+     "title": "Pseudo-perplexity in one fell swoop for protein fitness estimation",
+     "year": 2025,
+     "type": "article",
+     "venue": "PRX Life",
+     "landing_url": "https://doi.org/10.1103/zhx7-hcmm",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Protein language models trained on the masked language modeling objective learn to predict the identity of hidden amino acid residues within a sequence using the remaining observable sequence as context. They do so by embedding the residues into a high dimensional space that encapsulates the relevant contextual cues. These embedding vectors serve as an informative context-sensitive representation that not only aids with the defined training objective, but can also be used for other tasks by downstream models. We propose a scheme to use the embeddings of an unmasked sequence to estimate the corresponding masked probability vectors for all the positions in a single forward pass through the lan",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5008418985%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:02Z"
+    },
+    {
+     "id": "https://openalex.org/W4415755647",
+     "doi": "https://doi.org/10.1101/2025.10.30.685611",
+     "title": "Protein-protein interaction networks can be highly sensitive to the membrane phase transition",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.10.30.685611",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Many protein-protein interaction (PPI) networks take place in the fluid yet structured plasma membrane. Lipid domains, sometimes termed rafts, have been implicated in the functioning of various membrane-bound signaling processes. Here, we present a model and a Monte Carlo simulation framework to investigate how changes in the domain size that arise from perturbations to membrane criticality can lead to changes in the rate of interactions among components, leading to altered outcomes. For simple PPI networks, we show that the activity can be highly sensitive to thermodynamic parameters near the critical point of the membrane phase transition. When protein-protein interactions change the parti",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5008418985%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:02Z"
+    },
+    {
+     "id": "https://openalex.org/W4404406284",
+     "doi": "https://doi.org/10.1101/2024.11.13.623265",
+     "title": "High fitness paths can connect proteins with low sequence overlap",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.11.13.623265",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "The structure and function of a protein are determined by its amino acid sequence. While random mutations change a protein's sequence, evolutionary forces shape its structural fold and biological activity. Studies have shown that neutral networks can connect a local region of sequence space by single residue mutations that preserve viability. However, the larger-scale connectedness of protein morphospace remains poorly understood. Recent advances in artificial intelligence have enabled us to computationally predict a protein's structure and quantify its functional plausibility. Here we build on these tools to develop an algorithm that generates viable paths between distantly related extant p",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5008418985%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:02Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7221529813",
+    "recent_work_institutions": [
+     "Yale University"
+    ],
+    "last_known_institutions": [
+     "Yale University",
+     "Quantitative BioSciences"
+    ],
+    "matches_school": true
+   },
+   "chosen_papers": [
+    {
+     "id": "https://openalex.org/W4413440590",
+     "doi": "https://doi.org/10.1103/zhx7-hcmm",
+     "title": "Pseudo-perplexity in one fell swoop for protein fitness estimation",
+     "year": 2025,
+     "type": "article",
+     "venue": "PRX Life",
+     "landing_url": "https://doi.org/10.1103/zhx7-hcmm",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Protein language models trained on the masked language modeling objective learn to predict the identity of hidden amino acid residues within a sequence using the remaining observable sequence as context. They do so by embedding the residues into a high dimensional space that encapsulates the relevant contextual cues. These embedding vectors serve as an informative context-sensitive representation that not only aids with the defined training objective, but can also be used for other tasks by downstream models. We propose a scheme to use the embeddings of an unmasked sequence to estimate the corresponding masked probability vectors for all the positions in a single forward pass through the lan",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5008418985%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:02Z"
+    },
+    {
+     "id": "https://openalex.org/W4404406284",
+     "doi": "https://doi.org/10.1101/2024.11.13.623265",
+     "title": "High fitness paths can connect proteins with low sequence overlap",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.11.13.623265",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "The structure and function of a protein are determined by its amino acid sequence. While random mutations change a protein's sequence, evolutionary forces shape its structural fold and biological activity. Studies have shown that neutral networks can connect a local region of sequence space by single residue mutations that preserve viability. However, the larger-scale connectedness of protein morphospace remains poorly understood. Recent advances in artificial intelligence have enabled us to computationally predict a protein's structure and quantify its functional plausibility. Here we build on these tools to develop an algorithm that generates viable paths between distantly related extant p",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5008418985%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:02Z"
+    },
+    {
+     "id": "https://openalex.org/W4415755647",
+     "doi": "https://doi.org/10.1101/2025.10.30.685611",
+     "title": "Protein-protein interaction networks can be highly sensitive to the membrane phase transition",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.10.30.685611",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Many protein-protein interaction (PPI) networks take place in the fluid yet structured plasma membrane. Lipid domains, sometimes termed rafts, have been implicated in the functioning of various membrane-bound signaling processes. Here, we present a model and a Monte Carlo simulation framework to investigate how changes in the domain size that arise from perturbations to membrane criticality can lead to changes in the rate of interactions among components, leading to altered outcomes. For simple PPI networks, we show that the activity can be highly sensitive to thermodynamic parameters near the critical point of the membrane phase transition. When protein-protein interactions change the parti",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5008418985%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:13:02Z"
+    }
+   ],
+   "why": "\u7528\u86cb\u767d\u8bed\u8a00\u6a21\u578b\u7684 pseudo-perplexity \u4f30\u8ba1\u86cb\u767d\u9002\u5e94\u5ea6\uff0c\u5e76\u7814\u7a76\u4f4e\u5e8f\u5217\u91cd\u53e0\u86cb\u767d\u95f4\u7684\u9ad8\u9002\u5e94\u5ea6\u8def\u5f84\uff0c\u4e0e\u65b9\u5411 B5 \u7684\u5e8f\u5217\u751f\u6210/\u4f18\u5316\u76f8\u5173\u3002",
+   "affiliation_recent": {
+    "status": "consistent",
+    "recent_works": [
+     {
+      "id": "https://openalex.org/W4415755647",
+      "title": "Protein-protein interaction networks can be highly sensitive to the membrane phase transition",
+      "date": "2025-10-31",
+      "institutions": [
+       "Yale University"
+      ],
+      "lists_school": true,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5008418985%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:17Z"
+     },
+     {
+      "id": "https://openalex.org/W4415913561",
+      "title": "Protein-protein interaction networks can be highly sensitive to the membrane phase transition",
+      "date": "2025-10-30",
+      "institutions": [],
+      "lists_school": false,
+      "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5008418985%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Ctitle%2Cpublication_date%2Cauthorships%2Cabstract_inverted_index&sort=publication_date%3Adesc",
+      "fetched_at": "2026-11-03T19:19:17Z"
+     }
+    ],
+    "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author works lists the school"
+   },
+   "title_field": {
+    "value": "Associate Professor Tenure",
+    "source_url": "https://medicine.yale.edu/bbs/profile/benjamin-machta/",
+    "fetched_at": "2026-11-03T19:19:19Z",
+    "quote": "Associate Professor Tenure"
+   },
+   "lab_field": {
+    "value": "https://machtagroup.yale.edu/",
+    "source_url": "https://medicine.yale.edu/bbs/profile/benjamin-machta/",
+    "fetched_at": "2026-11-03T19:19:19Z",
+    "quote": "View Lab Website"
+   },
+   "new_assistant_professor": {
+    "value": false,
+    "title": "Associate Professor Tenure",
+    "title_source_url": "https://medicine.yale.edu/bbs/profile/benjamin-machta/",
+    "first_last_author_year": null,
+    "cutoff_year": 2021,
+    "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex last/corresponding-author work listing this school >= 2021"
    }
   }
  ],
@@ -4863,5 +5563,6 @@
    "score_B": 0,
    "note": null
   }
- ]
+ ],
+ "selection": "reviewed: heuristic shortlist (sum of 10 best relevant works) re-ranked by reading paper content"
 }

@@ -230,7 +230,7 @@
   "graduate.ucsf.edu, www.ucsf.edu, bmi.ucsf.edu, biophysics.ucsf.edu, ccb.ucsf.edu, tetrad.ucsf.edu, qbc.ucsf.edu, bms.ucsf.edu, pspg.ucsf.edu, pharmacy.ucsf.edu, epibiostat.ucsf.edu: robots.txt now allows them, but every fetch (plain and --render) on 2026-11-03 returned HTTP 403 Cloudflare 'Attention Required! ... Sorry, you have been blocked' (also bts/pharmchem/humangenetics.ucsf.edu); not bypassed, so program faculty lists remain unfetched",
   "Program existence/PhD status taken from UCSF General Catalog (catalog.ucsf.edu), which is accessible; faculty membership mostly unverifiable",
   "UCSF Profiles (profiles.ucsf.edu, accessible) lists department/title only (e.g. https://profiles.ucsf.edu/james.fraser: 'Professor, Bioengineering' / 'School of Pharmacy'), not graduate-program membership",
-  "WebSearch unavailable (budget exhausted); URLs discovered via catalog navigation",
+  "Earlier run: WebSearch unavailable (budget exhausted), URLs discovered via catalog navigation. 2026-11-03 recheck: one WebSearch found no program faculty list outside the Cloudflare-blocked ucsf.edu hosts.",
   "rechecked 2026-11-03 under Claude-User robots policy: robots now allows the ucsf.edu program hosts but they serve a Cloudflare 403 block page, so no new faculty lists; added Epidemiology and Translational Science PhD from the catalog (faculty list unfetchable)"
  ]
 }

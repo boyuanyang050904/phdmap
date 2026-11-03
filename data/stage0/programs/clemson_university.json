@@ -54,12 +54,33 @@
     "Trudy F. C. Mackay"
    ],
    "notes": "Same department and faculty lists as the Genetics PhD."
+  },
+  {
+   "program_name": "Biomedical Data Science and Informatics (BDSI) Ph.D. (joint Clemson University - MUSC program)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.clemson.edu/cecas/departments/computing/academics/graduates/degrees/phd-bdsi.html",
+   "phd_evidence_quote": "The Ph.D. in Biomedical Data Science and Informatics (BDSI) is a collaborative program between Clemson University and the Medical University of South Carolina (MUSC)",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.clemson.edu/cecas/departments/computing/academics/graduates/degrees/phd-bdsi.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Fabio Morgante",
+    "Trudy F. C. Mackay"
+   ],
+   "notes": "Hosted by the School of Computing (www.cs.clemson.edu/bdsi redirects here). Section 'Meet our faculty members at both Clemson University and the Medical University of South Carolina' lists 'Fabio Morgante' and 'Truday Mackay' [sic], both 'Genetics & Biochemistry'. Applicants indicate a Clemson or MUSC placement preference."
   }
  ],
  "unmatched_core_authors": [],
  "problems": [
-  "BLOCKED by robots.txt: https://scienceweb.clemson.edu/chg/ (Center for Human Genetics site).",
-  "BLOCKED by robots.txt: https://degrees.clemson.edu/s/search.html?profile=_default&collection=cleu%7Esp-program-finder&f.Program+Type%7CprogramTypeFormal=Doctoral+Degree (Clemson graduate program finder), so other doctoral programs (e.g. biomedical data science/informatics, statistics, bioengineering) could not be listed or verified.",
-  "https://www.clemson.edu/science/academics/departments/genetics-biochemistry/ returned 404; the department lives at /science/academics/departments/genbio/."
+  "https://scienceweb.clemson.edu/chg/ (Center for Human Genetics) and https://scienceweb.clemson.edu/: no longer robots-blocked but return HTTP 403 Forbidden (plain and --render).",
+  "https://degrees.clemson.edu/ (graduate program finder, doctoral filter): no longer robots-blocked but returns HTTP 403 Cloudflare 'Just a moment...' (plain and --render); the full doctoral program list still could not be enumerated (statistics/bioengineering PhDs not checked; no relevant authors beyond Morgante and Mackay).",
+  "https://www.clemson.edu/science/academics/departments/genetics-biochemistry/ returned 404; the department lives at /science/academics/departments/genbio/.",
+  "rechecked 2026-11-03 under Claude-User robots policy: degrees.clemson.edu and scienceweb.clemson.edu now robots-allowed but both return HTTP 403. Using 1 WebSearch to discover the URL, added Biomedical Data Science and Informatics Ph.D. (joint with MUSC; School of Computing page lists Morgante and Mackay as faculty)."
  ]
 }

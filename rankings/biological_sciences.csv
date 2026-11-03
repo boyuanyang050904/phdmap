@@ -11,6 +11,7 @@ Johns Hopkins University,7,estimate
 Princeton University,10,estimate
 Rockefeller University,10,estimate
 Yale University,10,estimate
+University of Illinois Urbana-Champaign,12,https://illinois.edu/about/rankings/
 Columbia University,13,estimate
 "University of California, San Diego",13,estimate
 Washington University in St. Louis,13,estimate
@@ -28,16 +29,15 @@ Emory University,26,estimate
 Icahn School of Medicine at Mount Sinai,26,estimate
 University of North Carolina--Chapel Hill,26,https://www.unc.edu/posts/2026/04/07/unc-chapel-hill-earns-top-national-rankings-for-graduate-education/
 Vanderbilt University,26,estimate
+University of Colorado Boulder,26,https://www.colorado.edu/artsandsciences/about-us/what-anding/rankings
 Ohio State University,30,estimate
-University of Illinois Urbana-Champaign,30,estimate
 University of Minnesota--Twin Cities,30,estimate
 University of Wisconsin--Madison,30,https://news.wisc.edu/uw-madison-graduate-programs-ranked-among-the-nations-best-by-u-s-news/
 Weill Cornell Medicine,30,estimate
 Albert Einstein College of Medicine,35,estimate
-Brown University,35,estimate
+Brown University,35,https://patch.com/rhode-island/across-ri/these-are-ris-best-graduate-schools-u-s-news-says-new-ranking
 Dartmouth College,35,estimate
 New York University,35,estimate
-University of Colorado Boulder,35,estimate
 University of Rochester,35,estimate
 Carnegie Mellon University,39,https://www.wpxi.com/news/business/heres-which-local-grad-school-programs-earned-top-spots-us-news-rankings/AN2GUDXLGVAXJAZ7NIG7R6Y6SE
 Georgia Institute of Technology,41,https://eas.gatech.edu/news/07/us-news-ranks-college-sciences-graduate-programs-among-nations-best
@@ -52,13 +52,13 @@ University of Pittsburgh,46,https://www.wpxi.com/news/business/heres-which-local
 Texas A&M University--College Station,49,estimate
 Arizona State University,50,estimate
 Indiana University--Bloomington,50,estimate
-Michigan State University,50,estimate
+Michigan State University,50,https://ir.msu.edu/rankings/domestic-rankings
 University of Florida,50,estimate
 University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences,50,https://houston.innovationmap.com/best-graduate-programs-houston-2676811070.html
+"University of Maryland, College Park",50,https://cmns.umd.edu/news-events/news/umd-computer-science-physics-math-grad-programs-rank-top-25
 Pennsylvania State University--University Park,55,https://www.psu.edu/this-is-penn-state/rankings
 Rice University,55,https://houston.innovationmap.com/best-graduate-programs-houston-2676811070.html
 Rutgers University--New Brunswick,55,estimate
-"University of Maryland, College Park",55,estimate
 University of Utah,55,https://attheu.utah.edu/arts-humanities/usnwr-2026-graduate-rankings/
 "University of California, Riverside",72,https://insideucr.ucr.edu/stories/2026/04/07/ucr-grad-programs-ranked-highly
 University of Houston,104,https://houston.innovationmap.com/best-graduate-programs-houston-2676811070.html

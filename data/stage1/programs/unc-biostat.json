@@ -40,13 +40,8 @@
   "note": null
  },
  "fee_waiver": {
-  "value": "Graduate School waivers for ten groups: full-time UNC-CH employees; US active-duty/veteran military; participants in SUP, Carolina College Advising Corps, IMSD, MARC, McNair, PREP, U-RISE/G-RISE; and U.S. citizens meeting need-based eligibility (currently enrolled in a degree program and received need-based aid each term). Request inside the application with documentation; must be submitted before the deadline; no reimbursement once paid.",
-  "source_url": "https://gradschool.unc.edu/admissions/feewaiver/",
-  "fetched_at": "2026-11-03T19:02:06Z",
-  "quote": "U.S. citizens who meet the following need-based eligibility",
-  "scope": "graduate_school",
-  "cycle": null,
-  "note": "The need-based category is worded for U.S. citizens only; the page does not mention permanent residents, so a PR would need one of the program-participation/military/employee categories. The PhD page links to this Graduate School page ('Information on UNC Graduate School Fee Waiver Requests')."
+  "value": null,
+  "note": "source page refuses automated clients (HTTP 403 bot protection); the value previously taken from a headless-browser render was discarded under the no-bypass rule (gradschool.unc.edu/admissions/feewaiver/); the program page only links to the Graduate School fee-waiver information"
  },
  "gre_policy": {
   "value": "optional",
@@ -177,13 +172,8 @@
   "note": "No explicit advice about emailing PIs before applying. The department also runs a student-led MAPS mentorship program for applicants (separate from admissions)."
  },
  "stipend": {
-  "value": "$10,796 per semester (Graduate School minimum stipend for doctoral RAs/TAs, 2026-2027); department stipend amount not stated",
-  "source_url": "https://gradschool.unc.edu/funding/stipends/",
-  "fetched_at": "2026-11-03T19:06:08Z",
-  "quote": "$10,796/semester (RAs and TAs)",
-  "scope": "graduate_school",
-  "cycle": "2026-2027",
-  "note": "Minimum stipend required for tuition/fee benefits at UNC ('Minimum Stipend 2026-2027 / Doctoral and Master's/Doctoral programs'). Biostatistics Awards and Funding page only says 'The yearly stipend ranges depend on degree program' and gives no amount."
+  "value": null,
+  "note": "source page refuses automated clients (HTTP 403 bot protection); the value previously taken from a headless-browser render was discarded under the no-bypass rule (gradschool.unc.edu/funding/stipends/); no stipend amount on accessible Biostatistics pages"
  },
  "guaranteed_years": {
   "value": "not guaranteed",
@@ -860,6 +850,7 @@
   "pr_exempt / pr_domestic rely on the UNC STOR PhD FAQ (sibling UNC program) because no Biostatistics, Gillings or Graduate School page defines 'international applicant'; the applicant is waived from TOEFL anyway via the US-degree category (Emory bachelor's in progress). Confirm with biosadmissions@unc.edu if needed.",
   "Stipend: no Biostatistics-specific amount published; value is the Graduate School 2026-2027 minimum doctoral RA/TA stipend ($10,796/semester).",
   "Funding is explicitly not guaranteed at admission (department funds >90% of doctoral students currently).",
-  "Faculty list: 77 entries from the department directory (41 primary incl. teaching/assistant professors, 22 adjunct, 14 emeritus) plus 2 names only on the Graduate Catalog page (Yufeng Liu, joint with STOR; Vanessa Miller, adjunct). Instructors Kinsey Helton, Jeff Laux, Vincent Toups appear as adjunct instructors. Name forms differ slightly between the two pages (e.g. 'David Couper' vs 'David J. Couper'); department-page forms used."
+  "Faculty list: 77 entries from the department directory (41 primary incl. teaching/assistant professors, 22 adjunct, 14 emeritus) plus 2 names only on the Graduate Catalog page (Yufeng Liu, joint with STOR; Vanessa Miller, adjunct). Instructors Kinsey Helton, Jeff Laux, Vincent Toups appear as adjunct instructors. Name forms differ slightly between the two pages (e.g. 'David Couper' vs 'David J. Couper'); department-page forms used.",
+  "2026-11-03T19:25:14Z: fee_waiver/stipend nulled: gradschool.unc.edu refuses automated clients (403); render-derived values discarded"
  ]
 }

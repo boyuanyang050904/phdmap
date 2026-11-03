@@ -1,41 +1,99 @@
 {
-  "institution": "Mayo Clinic",
-  "institution_kind": "independent_institute",
-  "checked_at": "2026-11-03T09:02:04Z",
-  "grants_phd": true,
-  "grants_phd_evidence": {"url": "https://college.mayo.edu/academics/biomedical-research-training/", "quote": "Mayo Clinic Graduate School of Biomedical Sciences offers world-class graduate education leading to Ph.D. and M.D.-Ph.D. degrees, as well as master's degree programs for Mayo Clinic residents and fellows."},
-  "programs": [
-    {"program_name": "Clinical and Translational Science (CTS) Track, Ph.D. Program in Biomedical Science", "degree": "PhD", "discipline": "other:clinical_translational_science", "program_type": "umbrella_track",
-     "umbrella_name": "Ph.D. Program in Biomedical Science, Mayo Clinic Graduate School of Biomedical Sciences",
-     "program_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/clinical-and-translational-science/",
-     "phd_evidence_quote": "The Clinical and Translational Science (CTS) Track within the Ph.D. Program at Mayo Clinic Graduate School of Biomedical Science is built upon Mayo Clinic's extensive interdisciplinary research and medical environment.",
-     "faculty_list_urls": [{"url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/clinical-and-translational-science/faculty/", "render": false}],
-     "matched_authors": ["Samuel O. Antwi", "Michael John Ackerman"],
-     "notes": "Listed as 'Samuel O. Antwi, Ph.D.' (Jacksonville, Florida; Associate Professor of Epidemiology) and 'Michael Ackerman, M.D., Ph.D.' (Rochester; Professor of Pharmacology). Included because of matched authors; Mayo has no dedicated genomics/bioinformatics/biostatistics PhD track among its 8 tracks."},
-    {"program_name": "Molecular Pharmacology and Experimental Therapeutics (MPET) Track, Ph.D. Program in Biomedical Science", "degree": "PhD", "discipline": "other:pharmacology", "program_type": "umbrella_track",
-     "umbrella_name": "Ph.D. Program in Biomedical Science, Mayo Clinic Graduate School of Biomedical Sciences",
-     "program_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/molecular-pharmacology-and-experimental-therapeutics/",
-     "phd_evidence_quote": "The Molecular Pharmacology and Experimental Therapeutics (MPET) Track of the Ph.D. Program at Mayo Clinic Graduate School of Biomedical Science is a unique and innovative Ph.D. training opportunity",
-     "faculty_list_urls": [{"url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/molecular-pharmacology-and-experimental-therapeutics/faculty/", "render": false}],
-     "matched_authors": ["Michael John Ackerman"],
-     "notes": "Included only because Michael Ackerman (B, peripheral) is track faculty."},
-    {"program_name": "Biochemistry and Molecular Biology (BMB) Track, Ph.D. Program in Biomedical Science", "degree": "PhD", "discipline": "biochemistry", "program_type": "umbrella_track",
-     "umbrella_name": "Ph.D. Program in Biomedical Science, Mayo Clinic Graduate School of Biomedical Sciences",
-     "program_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/biochemistry-and-molecular-biology/",
-     "phd_evidence_quote": "As a student in the Biochemistry and Molecular Biology (BMB) Track within the Ph.D. Program at Mayo Clinic Graduate School of Biomedical Sciences, you’ll learn to conduct hypothesis-driven, molecular research",
-     "faculty_list_urls": [{"url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/biochemistry-and-molecular-biology/faculty/", "render": false}],
-     "matched_authors": [],
-     "notes": "Core direction-B type (biochemistry); no matched authors."},
-    {"program_name": "Biomedical Engineering and Physiology Track, Ph.D. Program in Biomedical Science", "degree": "PhD", "discipline": "bioengineering", "program_type": "umbrella_track",
-     "umbrella_name": "Ph.D. Program in Biomedical Science, Mayo Clinic Graduate School of Biomedical Sciences",
-     "program_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/biomedical-engineering-and-physiology/",
-     "phd_evidence_quote": "The Biomedical Engineering and Physiology Track within the Ph.D. Program at Mayo Clinic Graduate School of Biomedical Science is built on a foundation of world-renowned research programs",
-     "faculty_list_urls": [{"url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/biomedical-engineering-and-physiology/faculty/", "render": false}],
-     "matched_authors": [],
-     "notes": "Core direction-B type (bioengineering); no matched authors."}
-  ],
-  "unmatched_core_authors": [
-    {"name": "Tatiana Foroud", "program_found": null, "evidence_url": null, "note": "Not on any of the 8 Mayo PhD track faculty lists (BMB, BME&P, CTS, Immunology, MPET, Neuroscience, Regenerative Sciences, Virology & Gene Therapy). Mayo research faculty search (https://www.mayo.edu/research/faculty/search-results?keyword=Foroud) is BLOCKED by robots.txt; Find-a-Mentor page is a JS search. Possibly a collaborator affiliation in OpenAlex."}
-  ],
-  "problems": ["Other 4 track faculty pages (Immunology, Neuroscience, Regenerative Sciences, Virology and Gene Therapy) checked: 0 matches.", "BLOCKED by robots.txt: https://www.mayo.edu/research/faculty/search-results?keyword=Foroud (www.mayo.edu research faculty search).", "Peripheral authors Ganesh M. Babulal, Elisa J. F. Houwink, Robert R. Freimuth, Joshua Meehl, Steven N. Hart, Antentor O. Hinton Jr. not found on any track faculty list."]
+ "institution": "Mayo Clinic",
+ "institution_kind": "independent_institute",
+ "checked_at": "2026-11-03T19:22:00Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://college.mayo.edu/academics/biomedical-research-training/",
+  "quote": "Mayo Clinic Graduate School of Biomedical Sciences offers world-class graduate education leading to Ph.D. and M.D.-Ph.D. degrees, as well as master's degree programs for Mayo Clinic residents and fellows."
+ },
+ "programs": [
+  {
+   "program_name": "Clinical and Translational Science (CTS) Track, Ph.D. Program in Biomedical Science",
+   "degree": "PhD",
+   "discipline": "other:clinical_translational_science",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Ph.D. Program in Biomedical Science, Mayo Clinic Graduate School of Biomedical Sciences",
+   "program_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/clinical-and-translational-science/",
+   "phd_evidence_quote": "The Clinical and Translational Science (CTS) Track within the Ph.D. Program at Mayo Clinic Graduate School of Biomedical Science is built upon Mayo Clinic's extensive interdisciplinary research and medical environment.",
+   "faculty_list_urls": [
+    {
+     "url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/clinical-and-translational-science/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Samuel O. Antwi",
+    "Michael John Ackerman"
+   ],
+   "notes": "Listed as 'Samuel O. Antwi, Ph.D.' (Jacksonville, Florida; Associate Professor of Epidemiology) and 'Michael Ackerman, M.D., Ph.D.' (Rochester; Professor of Pharmacology). Included because of matched authors; Mayo has no dedicated genomics/bioinformatics/biostatistics PhD track among its 8 tracks."
+  },
+  {
+   "program_name": "Molecular Pharmacology and Experimental Therapeutics (MPET) Track, Ph.D. Program in Biomedical Science",
+   "degree": "PhD",
+   "discipline": "other:pharmacology",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Ph.D. Program in Biomedical Science, Mayo Clinic Graduate School of Biomedical Sciences",
+   "program_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/molecular-pharmacology-and-experimental-therapeutics/",
+   "phd_evidence_quote": "The Molecular Pharmacology and Experimental Therapeutics (MPET) Track of the Ph.D. Program at Mayo Clinic Graduate School of Biomedical Science is a unique and innovative Ph.D. training opportunity",
+   "faculty_list_urls": [
+    {
+     "url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/molecular-pharmacology-and-experimental-therapeutics/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Michael John Ackerman"
+   ],
+   "notes": "Included only because Michael Ackerman (B, peripheral) is track faculty."
+  },
+  {
+   "program_name": "Biochemistry and Molecular Biology (BMB) Track, Ph.D. Program in Biomedical Science",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Ph.D. Program in Biomedical Science, Mayo Clinic Graduate School of Biomedical Sciences",
+   "program_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/biochemistry-and-molecular-biology/",
+   "phd_evidence_quote": "As a student in the Biochemistry and Molecular Biology (BMB) Track within the Ph.D. Program at Mayo Clinic Graduate School of Biomedical Sciences, you’ll learn to conduct hypothesis-driven, molecular research",
+   "faculty_list_urls": [
+    {
+     "url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/biochemistry-and-molecular-biology/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Core direction-B type (biochemistry); no matched authors."
+  },
+  {
+   "program_name": "Biomedical Engineering and Physiology Track, Ph.D. Program in Biomedical Science",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Ph.D. Program in Biomedical Science, Mayo Clinic Graduate School of Biomedical Sciences",
+   "program_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/biomedical-engineering-and-physiology/",
+   "phd_evidence_quote": "The Biomedical Engineering and Physiology Track within the Ph.D. Program at Mayo Clinic Graduate School of Biomedical Science is built on a foundation of world-renowned research programs",
+   "faculty_list_urls": [
+    {
+     "url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/biomedical-engineering-and-physiology/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Core direction-B type (bioengineering); no matched authors."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Tatiana Foroud",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any of the 8 Mayo PhD track faculty lists (BMB, BME&P, CTS, Immunology, MPET, Neuroscience, Regenerative Sciences, Virology & Gene Therapy). Mayo research faculty search (https://www.mayo.edu/research/faculty/search-results?keyword=Foroud) was robots-blocked; on 2026-11-03 robots.txt allows it but it returns HTTP 403 Akamai 'Access Denied' (plain and --render); Find-a-Mentor page is a JS search. Possibly a collaborator affiliation in OpenAlex."
+  }
+ ],
+ "problems": [
+  "Other 4 track faculty pages (Immunology, Neuroscience, Regenerative Sciences, Virology and Gene Therapy) checked: 0 matches.",
+  "www.mayo.edu (https://www.mayo.edu/research/faculty and https://www.mayo.edu/research/faculty/search-results?keyword=Foroud): robots.txt no longer blocks, but every fetch on 2026-11-03 (plain and --render) returned HTTP 403 Akamai 'Access Denied' (\"You don't have permission to access ... on this server.\"); research faculty profiles therefore still unverifiable.",
+  "Peripheral authors Ganesh M. Babulal, Elisa J. F. Houwink, Robert R. Freimuth, Joshua Meehl, Steven N. Hart, Antentor O. Hinton Jr. not found on any track faculty list.",
+  "rechecked 2026-11-03 under Claude-User robots policy: www.mayo.edu no longer robots-blocked but serves HTTP 403 Access Denied to the fetcher (also rendered); no change to programs or unmatched authors"
+ ]
 }
