@@ -1,0 +1,100 @@
+{
+ "institution": "University of Utah",
+ "checked_at": "2026-11-03T09:19:15Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://medicine.utah.edu/dbmi/academics-education/phd-program",
+  "quote": "PhD in Biomedical Informatics"
+ },
+ "programs": [
+  {
+   "program_name": "Molecular Biology (MB) PhD Program",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://bioscience.utah.edu/molecular_biology/index.php",
+   "phd_evidence_quote": "Molecular Biology PHD",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioscience.utah.edu/faculty/index.php",
+     "render": false
+    },
+    {
+     "url": "https://medicine.utah.edu/biochemistry/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Christopher P. Hill"
+   ],
+   "notes": "One of the two 'Bioscience PhD Programs' (https://bioscience.utah.edu/graduate-programs/index.php: 'The Molecular Biology (MB) Program and Biological Chemistry (BC) Program are two complementary interdepartmental graduate programs'). MB draws on 'Biochemistry, Human Genetics, Neurobiology, Oncological Sciences, Pharmacology and Toxicology, the School of Biological Sciences, and the Division of Microbiology and Immunology'. The Faculty Research Index lists faculty as 'Last, First' with program tags; the matcher missed them, but it shows 'Hill, Chris' -> 'MB, BC' and 'Safavi, Helena' -> 'MB, BC'. Christopher P. Hill was matched by the matcher on the Biochemistry department faculty page (a participating department)."
+  },
+  {
+   "program_name": "Biological Chemistry (BC) PhD Program",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://bioscience.utah.edu/biological-chemistry/index.php",
+   "phd_evidence_quote": "Biological Chemistry PHD",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioscience.utah.edu/faculty/index.php",
+     "render": false
+    },
+    {
+     "url": "https://medicine.utah.edu/biochemistry/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Christopher P. Hill"
+   ],
+   "notes": "Bioscience PhD program 'at the interface of biology and chemistry' with faculty from 'the Departments of Biochemistry, Chemistry, Medicinal Chemistry, Molecular Pharmaceutics, Oncological Sciences, Pharmacology and Toxicology, and the School of Biological Sciences'. Faculty Research Index: 'Hill, Chris' and 'Safavi, Helena' both tagged 'MB, BC' (not caught by matcher due to 'Last, First' format)."
+  },
+  {
+   "program_name": "Population Health Sciences (PHS) PhD (emphases incl. Biostatistics)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://medicine.utah.edu/population-health-sciences/phd",
+   "phd_evidence_quote": "students elect to complete the program within one of the emphases offered: Biostatistics, Clinical & Translational Epidemiology, and Health Systems Research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://medicine.utah.edu/population-health-sciences/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Britton L. Trabert"
+   ],
+   "notes": "Department of Population Health Sciences. Not a stand-alone biostatistics PhD: Biostatistics is one of three emphases. Trabert (A peripheral) matched on the department faculty page; her emphasis is not stated."
+  },
+  {
+   "program_name": "PhD in Biomedical Informatics",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://medicine.utah.edu/dbmi/academics-education/phd-program",
+   "phd_evidence_quote": "PhD in Biomedical Informatics",
+   "faculty_list_urls": [
+    {
+     "url": "https://medicine.utah.edu/dbmi/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Department of Biomedical Informatics. No relevant authors matched."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "BLOCKED by robots.txt: https://genetics.utah.edu/ (Department of Human Genetics), so a Human Genetics PhD and its faculty could not be checked; Human Genetics participates in the Molecular Biology PhD per the Bioscience page.",
+  "Matcher missed 'Last, First' names on the Bioscience Faculty Research Index (https://bioscience.utah.edu/faculty/index.php): 'Hill, Chris' (MB, BC) and 'Safavi, Helena' (MB, BC) are listed; Helena Safavi-Hemami is therefore NOT in matched_authors though listed as MB/BC faculty.",
+  "All Utah authors are peripheral; Jeffrey A. Swan (B) and LeAnn M. Lindsey (B; last_known NIH/NLM) not matched anywhere; not pursued.",
+  "Bioengineering, Chemistry and Computing (CS) PhDs not checked (only peripheral B authors, already placed in MB/BC)."
+ ]
+}

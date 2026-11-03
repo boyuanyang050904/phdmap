@@ -1,0 +1,252 @@
+{
+ "institution": "Tufts University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://engineering.tufts.edu/cs/prospective-students/phd",
+  "quote": "Tufts offers a PhD program in Computer Science, with admission granted at the department level"
+ },
+ "programs": [
+  {
+   "program_name": "Computer Science PhD",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://engineering.tufts.edu/cs/prospective-students/phd",
+   "phd_evidence_quote": "Tufts offers a PhD program in Computer Science, with admission granted at the department level, not to individual faculty members’ research groups.",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.tufts.edu/cs/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Donna K. Slonim",
+    "Lenore Cowen",
+    "Soha Hassoun",
+    "Hari Sundar",
+    "Samantha Petti"
+   ],
+   "notes": "Petti may be a Mathematics faculty member with CS affiliation."
+  },
+  {
+   "program_name": "Genetics, Molecular and Cellular Biology (GMCB) PhD program (Graduate School of Biomedical Sciences)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsbs.tufts.edu/academics/basic-science-phd-programs/genetics-molecular-and-cellular-biology",
+   "phd_evidence_quote": "The GMCB PhD program offers a uniquely flexible and collaborative environment",
+   "faculty_list_urls": [
+    {
+     "url": "https://gsbs.tufts.edu/people/faculty?field_person_extd_tags_2_target_id=1031",
+     "render": false
+    },
+    {
+     "url": "https://gsbs.tufts.edu/people/faculty?field_person_extd_tags_2_target_id=1031&page=1",
+     "render": false
+    },
+    {
+     "url": "https://gsbs.tufts.edu/people/faculty?field_person_extd_tags_2_target_id=1031&page=2",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Lenore Cowen",
+    "Alexei Degterev",
+    "Peter A. Bullock",
+    "Ralph R. Isberg",
+    "Donna K. Slonim"
+   ],
+   "notes": "Faculty list filtered by program tag 'Genetics, Molecular and Cellular Biology Program' (id 1031), 3 pages."
+  },
+  {
+   "program_name": "Clinical and Translational Science PhD (Graduate School of Biomedical Sciences)",
+   "degree": "PhD",
+   "discipline": "other:clinical_translational_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://gsbs.tufts.edu/academics/clinical-translational-science-programs",
+   "phd_evidence_quote": "The Tufts Clinical and Translational Science (CTS) programs equip researchers, clinicians, and public health professionals with the skills to translate research findings into real-world health impact through PhD, MS, and Certificate options.",
+   "faculty_list_urls": [
+    {
+     "url": "https://gsbs.tufts.edu/people/faculty?field_person_extd_tags_2_target_id=756",
+     "render": false
+    },
+    {
+     "url": "https://gsbs.tufts.edu/people/faculty?field_person_extd_tags_2_target_id=756&page=1",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Paola Sebastiani B"
+   ],
+   "notes": "Included only because core author Sebastiani is CTS program faculty."
+  },
+  {
+   "program_name": "Chemical and Biological Engineering doctoral programs (Chemical Engineering; Biotechnology Engineering)",
+   "degree": "PhD",
+   "discipline": "other:chemical_biological_engineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://engineering.tufts.edu/chbe/prospective-students/phd",
+   "phd_evidence_quote": "The department offers three doctoral degree programs: Chemical Engineering, Biotechnology Engineering, and a Joint-PhD in Materials Science and Engineering.",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.tufts.edu/chbe/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Soha Hassoun",
+    "Kyongbum Lee"
+   ],
+   "notes": ""
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Rajat M. Gupta",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Jonathan S. Gootenberg",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Tamar Sofer",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "John F Quackenbush",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Soumya Raychaudhuri",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Pradeep Natarajan",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Gina Marie Peloso",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Alexander Gusev",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Tiffany Amariuta",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Alexander G. Bick",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Danielle Rasooly",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Brian R. Ferolito",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Alexandre C. Pereira",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Patrick T. Ellinor",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Jason L. Vassy",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Michael H. Cho",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Sophia Gunn",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Georg Hahn",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Martha L. Bulyk",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Shamil R. Sunyaev",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Omar O. Abudayyeh",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Min Wu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  },
+  {
+   "name": "Ramnik J. Xavier",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched Tufts faculty list; OpenAlex last_known is Broad/Brigham/Harvard/BIDMC/other - likely not Tufts faculty; not checked individually."
+  }
+ ],
+ "problems": [
+  "The OpenAlex author set for Tufts is dominated by Broad/Brigham/Harvard/BU researchers (Gupta, Sofer, Quackenbush, Raychaudhuri, Natarajan, Peloso, Gusev, Amariuta, Bick, Ellinor, Bulyk, Sunyaev, Abudayyeh, Xavier, Min Wu, etc.) who are not on any fetched Tufts faculty list; they were not checked individually.",
+  "Tufts Chemistry faculty page not reached: https://chemistry.tufts.edu/people/faculty UNREACHABLE; https://as.tufts.edu/chemistry/people/faculty 404 (Yu-Shan Lin, peripheral, unverified)."
+ ],
+ "checked_at": "2026-11-03T09:16:38Z"
+}

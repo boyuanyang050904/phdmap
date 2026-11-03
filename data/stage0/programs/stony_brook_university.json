@@ -1,0 +1,140 @@
+{
+  "institution": "Stony Brook University",
+  "checked_at": "2026-11-03T09:32:06Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://www.stonybrook.edu/bsb/phd-program/index.html",
+    "quote": "The Graduate Program in Biochemistry and Structural Biology is an interdepartmental graduate training program"
+  },
+  "programs": [
+    {
+      "program_name": "Applied Mathematics and Statistics PhD - Computational Biology track",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.stonybrook.edu/ams/academics/graduate/computational-biology.html",
+      "phd_evidence_quote": "The standard professional degree in computational biology and biomedical sciences is a Ph.D.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.stonybrook.edu/ams/faculty/index.html",
+          "render": false
+        },
+        {
+          "url": "https://www.stonybrook.edu/ams/faculty/affiliated-faculty/index.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Dima Kozakov",
+        "Eugene Aleksandrovich Feinberg",
+        "Zhenhua Liu"
+      ],
+      "notes": "Track of the AMS PhD (Graduate School list: 'Applied Mathematics and Statistics PhD'). Kozakov is on the AMS affiliated-faculty page; Feinberg and Zhenhua Liu (core AMS faculty) are peripheral direction-B authors, likely not protein-design relevant (Feinberg = operations research)."
+    },
+    {
+      "program_name": "Biochemistry and Structural Biology (BSB) PhD",
+      "degree": "PhD",
+      "discipline": "biochemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.stonybrook.edu/bsb/phd-program/index.html",
+      "phd_evidence_quote": "The Graduate Program in Biochemistry and Structural Biology is an interdepartmental graduate training program that stresses biochemical, structural, and computational",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.stonybrook.edu/bsb/faculty/index.html",
+          "render": false
+        },
+        {
+          "url": "https://www.stonybrook.edu/bsb/faculty/computational-biology.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "İvet Bahar"
+      ],
+      "notes": "Listed as 'Biochemistry and Structural Biology PhD' on the Graduate School program list (https://www.stonybrook.edu/grad/academics/programs.html). Bahar on the BSB Computational Biology faculty page. Department of Biochemistry & Cell Biology people page (https://www.stonybrook.edu/biochem/people.html) also lists Anupam Banerjee and Ivet Bahar."
+    },
+    {
+      "program_name": "Computer Science PhD",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cs.stonybrook.edu/academics/graduate/phd-programs/phd-cs-program.html",
+      "phd_evidence_quote": "This page provides detailed information regarding the Ph.D. Qualifier System and Research Proficiency Exam at Stony Brook University's Department of Computer Science.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cs.stonybrook.edu/people/index.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Dima Kozakov",
+        "Zhenhua Liu"
+      ],
+      "notes": "Department also offers a PhD in Data Science (not recorded)."
+    },
+    {
+      "program_name": "Biomedical Informatics PhD",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://catalog.stonybrook.edu/preview_program.php?catoid=16&poid=2540",
+      "phd_evidence_quote": "Biomedical Informatics PhD",
+      "faculty_list_urls": [
+        {
+          "url": "https://laufercenter.org/faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Evidence is the link text on the Graduate School program list (https://www.stonybrook.edu/grad/academics/programs.html); catalog page returns HTTP 202 with empty body, and the department site https://renaissance.stonybrookmedicine.edu/bmi returns 403 'Access Restricted' (plain and rendered). Ramana V. Davuluri (peripheral) appears on the Laufer Center faculty page, not a BMI faculty list - BMI membership unverified."
+    },
+    {
+      "program_name": "Genetics PhD",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://catalog.stonybrook.edu/preview_program.php?catoid=16&poid=2587",
+      "phd_evidence_quote": "Genetics PhD",
+      "faculty_list_urls": [],
+      "matched_authors": [],
+      "notes": "Evidence is the link text on the Graduate School program list (https://www.stonybrook.edu/grad/academics/programs.html); catalog page returns HTTP 202 with empty body; https://www.stonybrook.edu/genetics/ and /commcms/genetics/ are 404. No faculty list found; Adam C. Siepel (peripheral, Cold Spring Harbor Laboratory) not verified."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Christina S. Leslie / Kushal K. Dey / Caleb A. Lareau / Nikolaus D. Schultz / Justin Jee",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Memorial Sloan Kettering authors associated with Stony Brook only through OpenAlex related-institution links; not on any Stony Brook list checked. Belong in the MSK file."
+    },
+    {
+      "name": "Dzmitry Padhorny",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on AMS, CS, Laufer or BSB faculty lists (likely research staff in the Kozakov group; not verified)."
+    },
+    {
+      "name": "Anupam Banerjee",
+      "program_found": null,
+      "evidence_url": "https://www.stonybrook.edu/biochem/people.html",
+      "note": "Listed on the Biochemistry & Cell Biology department people page (role not checked); not on BSB faculty pages."
+    },
+    {
+      "name": "Alzheimer’s Disease Neuroimaging Initiative",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Consortium pseudo-author, not a person."
+    }
+  ],
+  "problems": [
+    "catalog.stonybrook.edu program pages return HTTP 202 with an empty body (plain fetch); Genetics and Biomedical Informatics PhD evidence comes only from link text on the Graduate School program list.",
+    "Biomedical Informatics department site https://renaissance.stonybrookmedicine.edu/bmi returns 403 Access Restricted (plain and --render).",
+    "Laufer Center (https://laufercenter.org/faculty) is a research center, not a degree program; it lists Davuluri, Kozakov and Bahar.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

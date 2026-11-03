@@ -1,0 +1,42 @@
+{
+  "institution": "University of the Sciences",
+  "checked_at": "2026-11-03T09:25:25Z",
+  "grants_phd": false,
+  "grants_phd_evidence": {
+    "url": "https://www.sju.edu/history-mission",
+    "quote": "2022: Saint Joseph’s merges with University of the Sciences and expands to a new University City location."
+  },
+  "programs": [],
+  "unmatched_core_authors": [
+    {
+      "name": "Eugene Katsevich",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "OpenAlex last_known also lists University of Pennsylvania and Philadelphia University; almost certainly an OpenAlex affiliation mis-assignment to University of the Sciences. Should be handled under University of Pennsylvania."
+    },
+    {
+      "name": "Eric Tchetgen Tchetgen",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Same pattern (last_known includes University of Pennsylvania); likely mis-assignment."
+    },
+    {
+      "name": "Pranam Chatterjee",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known includes Duke and University of Pennsylvania; likely mis-assignment."
+    },
+    {
+      "name": "Jacob R. Gardner",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known includes University of Pennsylvania; likely mis-assignment."
+    }
+  ],
+  "problems": [
+    "University of the Sciences no longer exists as an independent institution: the OpenAlex homepage http://www.usciences.edu/ redirects to https://www.sju.edu/ (Saint Joseph's University), and SJU's history page records the 2022 merger.",
+    "The successor (Saint Joseph's University) lists only two research PhDs on its doctoral-programs page (https://www.sju.edu/degree-programs?field_degree_certificates_target_id[4111]=4111): 'Pharmaceutics PhD' and 'Pharmacology and Toxicology PhD' - neither is a relevant program type and no relevant authors were associated with them, so no programs recorded.",
+    "All 4 relevant authors look like University of Pennsylvania faculty mis-attributed by OpenAlex (Penn/USciences/Philadelphia University name confusion); recommend mapping them via University of Pennsylvania instead. Not verified on Penn pages here.",
+    "WebSearch budget exhausted; URLs discovered by navigating official sites."
+  ]
+}

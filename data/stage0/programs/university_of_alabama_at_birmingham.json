@@ -1,0 +1,138 @@
+{
+ "institution": "University of Alabama at Birmingham",
+ "checked_at": "2026-11-03T09:21:10Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.uab.edu/degrees/graduate/ggb-phd",
+  "quote": "Genetics, Genomics, and Bioinformatics, PhD | Find Your Degree"
+ },
+ "programs": [
+  {
+   "program_name": "Genetics, Genomics, and Bioinformatics (GGB) PhD theme",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Graduate Biomedical Sciences (GBS)",
+   "program_url": "https://www.uab.edu/degrees/graduate/ggb-phd",
+   "phd_evidence_quote": "Genetics, Genomics, and Bioinformatics, PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.uab.edu/gbs/home/people/gbs-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Nita A. Limdi",
+    "Jake Y. Chen",
+    "Bingdong Sha"
+   ],
+   "notes": "Program website https://www.uab.edu/gbs/home/themes/ggb. The GBS faculty page lists all GBS faculty without theme assignment, so matches are umbrella-level (Sha's listed interest is protein folding, more BSB-like)."
+  },
+  {
+   "program_name": "Biochemistry & Structural Biology (BSB) PhD theme",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Graduate Biomedical Sciences (GBS)",
+   "program_url": "https://www.uab.edu/degrees/graduate/bsb-phd",
+   "phd_evidence_quote": "Biochemistry & Structural Biology, PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.uab.edu/gbs/home/people/gbs-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jake Y. Chen",
+    "Bingdong Sha"
+   ],
+   "notes": "Program website https://www.uab.edu/gbs/home/themes/bsb. GBS faculty list is umbrella-wide (no per-theme lists); Bingdong Sha: 'Protein folding and transport; ER stress, molecular chaperones'."
+  },
+  {
+   "program_name": "Biomedical and Health Informatics PhD",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.uab.edu/degrees/graduate/biomed-health-informatics-phd",
+   "phd_evidence_quote": "Position yourself on the cutting edge of healthcare advancements by earning a doctorate that blends computer science, statistics, clinical care, and bioinformatics.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.uab.edu/medicine/informatics/faculty",
+     "render": false
+    },
+    {
+     "url": "https://www.uab.edu/medicine/informatics/faculty/secondary",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jake Y. Chen",
+    "Jin Chen"
+   ],
+   "notes": "Program website https://www.uab.edu/medicine/informatics/education/postgraduate-program; Department of Biomedical Informatics and Data Science primary/secondary faculty used."
+  },
+  {
+   "program_name": "Computer Science PhD",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.uab.edu/degrees/graduate/computer-science-phd",
+   "phd_evidence_quote": "A PhD can help you prepare for a career in academia, research, forensics, and more.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.uab.edu/cas/computerscience/people/faculty-directory",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jake Y. Chen",
+    "Truong Son Hy",
+    "Truong-Son Hy"
+   ],
+   "notes": "Program website https://www.uab.edu/cas/computerscience/graduate-programs/doctoral-program. 'Truong-Son Hy' printed for two duplicate OpenAlex records."
+  },
+  {
+   "program_name": "Epidemiology PhD",
+   "degree": "PhD",
+   "discipline": "other:epidemiology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.uab.edu/degrees/graduate/epidemiology-phd",
+   "phd_evidence_quote": "Our highly competitive PhD program will give you exceptional training for a career in research or teaching.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.uab.edu/soph/home/about/people/epidemiology-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Marguerite R. Irvin",
+    "Nita A. Limdi"
+   ],
+   "notes": "Program website https://www.uab.edu/soph/home/graduate/programs/phd-epidemiology. Included because core author Marguerite R. Irvin (genetic epidemiology) is Epidemiology faculty."
+  },
+  {
+   "program_name": "Biostatistics PhD",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://www.uab.edu/degrees/graduate/biostatistics-phd",
+   "phd_evidence_quote": "Earning a doctorate in biostatistics can prepare you for a career in govern",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.uab.edu/soph/home/about/people/biostatistics-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "No relevant authors on Biostatistics faculty list."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "WebSearch unavailable (budget exhausted); URLs found via UAB degree finder navigation"
+ ]
+}

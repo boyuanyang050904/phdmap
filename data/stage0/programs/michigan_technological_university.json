@@ -1,0 +1,63 @@
+{
+ "institution": "Michigan Technological University",
+ "checked_at": "2026-11-03T09:24:48Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.mtu.edu/math/graduate/statistics/",
+  "quote": "Statistics MS, PhD Degree Program | Mathematical Sciences"
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Department of Mathematical Sciences (page title 'Statistics MS, PhD Degree Program | Mathematical Sciences'). Faculty list is the department directory; Sha and Kui Zhang work in statistical genetics.",
+   "program_name": "Statistics PhD",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://www.mtu.edu/math/graduate/statistics/",
+   "phd_evidence_quote": "Discover the power of data with a master's or doctoral degree in Statistics at Michigan",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.mtu.edu/math/department/faculty-staff/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Qiuying Sha",
+    "Kui Zhang"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Quote is the program link text on the fetched department pages; same department faculty as the Statistics PhD.",
+   "program_name": "Mathematical Sciences PhD",
+   "discipline": "other:mathematical_sciences",
+   "program_type": "independent",
+   "program_url": "https://www.mtu.edu/math/graduate/mathematical-sciences/",
+   "phd_evidence_quote": "Mathematical Sciences MS, PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.mtu.edu/math/department/faculty-staff/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Qiuying Sha",
+    "Kui Zhang"
+   ]
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Shuanglin Zhang",
+   "program_found": null,
+   "evidence_url": "https://www.mtu.edu/math/department/faculty-staff/",
+   "note": "Not on the Mathematical Sciences faculty/staff directory (only 'Kui Zhang' among Zhangs in the grep); OpenAlex last_known is a hospital in Inner Mongolia; possibly retired/emeritus."
+  }
+ ],
+ "problems": [
+  "No dedicated bioinformatics/genomics PhD found at Michigan Tech among pages fetched; relevant authors are statisticians in Mathematical Sciences.",
+  "WebSearch budget exhausted; URLs found by navigating www.mtu.edu/math."
+ ]
+}

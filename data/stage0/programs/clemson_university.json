@@ -1,0 +1,65 @@
+{
+ "institution": "Clemson University",
+ "checked_at": "2026-11-03T09:16:20Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.clemson.edu/science/academics/departments/genbio/academics/doctorate.html",
+  "quote": "The Department of Genetics and Biochemistry offers programs leading to the Doctor of Philosophy degree in either of two subject areas: genetics or biochemistry and molecular biology."
+ },
+ "programs": [
+  {
+   "program_name": "Genetics PhD (Department of Genetics and Biochemistry)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.clemson.edu/science/academics/departments/genbio/academics/doctorate.html",
+   "phd_evidence_quote": "The Department of Genetics and Biochemistry offers programs leading to the Doctor of Philosophy degree in either of two subject areas: genetics or biochemistry and molecular biology.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.clemson.edu/science/academics/departments/genbio/about/people.html",
+     "render": false
+    },
+    {
+     "url": "https://www.clemson.edu/science/academics/departments/genbio/research/faculty.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Fabio Morgante",
+    "Trudy F. C. Mackay"
+   ],
+   "notes": "Department-level faculty lists (shared by the Genetics and BMB PhDs); which subject area each faculty member advises in is not stated on the lists."
+  },
+  {
+   "program_name": "Biochemistry and Molecular Biology PhD (Department of Genetics and Biochemistry)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.clemson.edu/science/academics/departments/genbio/academics/doctorate.html",
+   "phd_evidence_quote": "The Department of Genetics and Biochemistry offers programs leading to the Doctor of Philosophy degree in either of two subject areas: genetics or biochemistry and molecular biology.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.clemson.edu/science/academics/departments/genbio/about/people.html",
+     "render": false
+    },
+    {
+     "url": "https://www.clemson.edu/science/academics/departments/genbio/research/faculty.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Fabio Morgante",
+    "Trudy F. C. Mackay"
+   ],
+   "notes": "Same department and faculty lists as the Genetics PhD."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "BLOCKED by robots.txt: https://scienceweb.clemson.edu/chg/ (Center for Human Genetics site).",
+  "BLOCKED by robots.txt: https://degrees.clemson.edu/s/search.html?profile=_default&collection=cleu%7Esp-program-finder&f.Program+Type%7CprogramTypeFormal=Doctoral+Degree (Clemson graduate program finder), so other doctoral programs (e.g. biomedical data science/informatics, statistics, bioengineering) could not be listed or verified.",
+  "https://www.clemson.edu/science/academics/departments/genetics-biochemistry/ returned 404; the department lives at /science/academics/departments/genbio/."
+ ]
+}

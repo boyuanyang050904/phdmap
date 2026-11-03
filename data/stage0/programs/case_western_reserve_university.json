@@ -1,0 +1,180 @@
+{
+  "institution": "Case Western Reserve University",
+  "checked_at": "2026-11-03T09:18:17Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://case.edu/medicine/education/phd-programs",
+    "quote": "Eleven of our 17 PhD programs have a common entryway known as the Biomedical Sciences Training Program."
+  },
+  "programs": [
+    {
+      "program_name": "PhD in Systems Biology and Bioinformatics (SYBB)",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Biomedical Sciences Training Program (BSTP)",
+      "program_url": "https://case.edu/medicine/nutrition/education/phd-programs/phd-systems-biology-and-bioinformatics",
+      "phd_evidence_quote": "PhD in Systems Biology and Bioinformatics",
+      "faculty_list_urls": [
+        {
+          "url": "https://case.edu/medicine/nutrition/education/phd-programs/phd-systems-biology-and-bioinformatics/sybb-training-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Xiaofeng Zhu",
+        "Feixiong Cheng",
+        "Rong Xu",
+        "William S. Bush"
+      ],
+      "notes": "Listed as one of the BSTP PhD pathways on https://case.edu/medicine/bstp/. Training-faculty list matched (Xiaofeng Zhu twice = two OpenAlex profiles)."
+    },
+    {
+      "program_name": "PhD Program in Genetics and Genome Sciences",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Biomedical Sciences Training Program (BSTP)",
+      "program_url": "https://case.edu/medicine/genetics/graduate-programs/phd-program",
+      "phd_evidence_quote": "Applications to the PhD program in Genetics and Genome Sciences are through the",
+      "faculty_list_urls": [
+        {
+          "url": "https://case.edu/medicine/genetics/people/primary-faculty",
+          "render": false
+        },
+        {
+          "url": "https://case.edu/medicine/genetics/people/secondary-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "William S. Bush"
+      ],
+      "notes": "Bush is on the secondary-faculty list. Applications go through BSTP (sentence continues with a link)."
+    },
+    {
+      "program_name": "PhD in Epidemiology & Biostatistics",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "biostat",
+      "umbrella_name": null,
+      "program_url": "https://case.edu/medicine/pqhs/education/biostatistics-epidemiology/phd-epidemiology-and-biostatistics",
+      "phd_evidence_quote": "The educational mission of the Epidemiology & Biostatistics PhD Program is to train students using an integrated approach",
+      "faculty_list_urls": [
+        {
+          "url": "https://case.edu/medicine/pqhs/about/people/primary-faculty",
+          "render": false
+        },
+        {
+          "url": "https://case.edu/medicine/pqhs/about/people/secondary-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Xiaofeng Zhu",
+        "William S. Bush"
+      ],
+      "notes": "Combined epidemiology + biostatistics PhD (direct admit), Department of Population and Quantitative Health Sciences; areas include genomic epidemiology and computational biology. Not a stand-alone biostatistics PhD."
+    },
+    {
+      "program_name": "PhD in Biomedical & Health Informatics",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://case.edu/medicine/pqhs/education/biomedical-health-informatics/phd-biomedical-health-informatics",
+      "phd_evidence_quote": "The Biomedical & Health Informatics doctoral program trains researchers in biomedicine, population health, and clinical care domains.",
+      "faculty_list_urls": [
+        {
+          "url": "https://case.edu/medicine/pqhs/education/biomedical-health-informatics/bhi-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Xiaofeng Zhu",
+        "William S. Bush"
+      ],
+      "notes": "Direct-admit program."
+    },
+    {
+      "program_name": "Molecular Medicine PhD Program (Cleveland Clinic Lerner College of Medicine of CWRU)",
+      "degree": "PhD",
+      "discipline": "umbrella_biomedical",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.lerner.ccf.org/education/molecular-medicine/",
+      "phd_evidence_quote": "Molecular Medicine PhD program offers class-based instruction and translational-focused research experience at one of the nation's top hospitals.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.lerner.ccf.org/education/molecular-medicine/overview/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Feixiong Cheng"
+      ],
+      "notes": "Listed as a CWRU School of Medicine direct-admit PhD (case.edu/medicine/education/phd-programs) and housed at Cleveland Clinic. Overview page shows a partial faculty list; Dennis Lal, Daniel Blankenberg, Yunguang Qiu (Cleveland Clinic) not matched there."
+    },
+    {
+      "program_name": "PhD Program in Biomedical Engineering",
+      "degree": "PhD",
+      "discipline": "bioengineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://case.edu/bme/academics/graduate/doctoral-programs",
+      "phd_evidence_quote": "PhD Program in Biomedical Engineering",
+      "faculty_list_urls": [
+        {
+          "url": "https://case.edu/bme/people/primary-faculty",
+          "render": false
+        },
+        {
+          "url": "https://case.edu/bme/people/associated-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Vipin Chaudhary"
+      ],
+      "notes": "Chaudhary (peripheral) on associated-faculty list only."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Noah J Lorincz‐Comi",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched faculty list (likely postdoc/staff, Cleveland Clinic)."
+    },
+    {
+      "name": "Pradeep Natarajan",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Broad/MGH; not CWRU faculty on fetched pages."
+    },
+    {
+      "name": "Yousef Mustafa",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched faculty list."
+    },
+    {
+      "name": "Aniruddh P. Patel",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Broad/MGH; not on fetched pages."
+    },
+    {
+      "name": "Dennis Lal",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Cleveland Clinic; not on SYBB/Genetics/Molecular Medicine overview lists fetched."
+    }
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites.",
+    "Computer and Data Sciences dept site (https://case.edu/engineering/computer-data-sciences/) returned 404; CS PhD not checked (only peripheral authors Chaudhary, Xiaotian Han).",
+    "Molecular Medicine full training-faculty roster not found; only the overview page's faculty section was matched.",
+    "BSTP Biochemistry / Physiology & Biophysics PhDs not matched (no core B authors at CWRU proper)."
+  ]
+}

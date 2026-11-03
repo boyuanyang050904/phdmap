@@ -1,0 +1,34 @@
+{
+ "institution": "Innovative Genomics Institute",
+ "checked_at": "2026-11-03T09:19:44Z",
+ "grants_phd": false,
+ "grants_phd_evidence": {
+  "url": "https://innovativegenomics.org/about-us/",
+  "quote": "The Innovative Genomics Institute is a joint effort between four of California’s leading scientific research institutions, UC Berkeley, UC San Francisco, UC Davis, and UC San Diego"
+ },
+ "programs": [],
+ "unmatched_core_authors": [
+  {
+   "name": "Alexander Marson",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "IGI does not grant degrees; PhD programs are at partner campuses (UCSF/Gladstone per OpenAlex)."
+  },
+  {
+   "name": "Yun S. Song",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "IGI does not grant degrees; UC Berkeley faculty per OpenAlex — handle under UC Berkeley."
+  },
+  {
+   "name": "Ksenia V. Krasileva",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "IGI does not grant degrees; UC Berkeley per OpenAlex — handle under UC Berkeley."
+  }
+ ],
+ "problems": [
+  "IGI is a multi-campus research institute (UC Berkeley, UCSF, UC Davis, UC San Diego per its About page); no degree programs or graduate school found on fetched pages (home page education links are e.g. an 'Undergrad CRISPR Course'). Treated as non-degree-granting; students enroll via partner-campus PhD programs.",
+  "grants_phd=false is inferred from the institute's self-description as a joint effort of UC campuses; no page explicitly states 'does not grant degrees'."
+ ]
+}

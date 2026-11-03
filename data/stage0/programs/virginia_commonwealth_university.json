@@ -1,0 +1,46 @@
+{
+  "institution": "Virginia Commonwealth University",
+  "checked_at": "2026-11-03T09:24:38Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://bulletin.vcu.edu/graduate/school-medicine/human-genetics-phd/", "quote": "Human Genetics, Doctor of Philosophy (Ph.D.) < Virginia Commonwealth University Academic Catalog"},
+  "programs": [
+    {"program_name": "Integrative Life Sciences PhD, Behavioral and Statistical Genetics concentration (ILS-BSG)", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "umbrella_track",
+     "umbrella_name": "Integrative Life Sciences (ILS) PhD",
+     "program_url": "https://vipbg.vcu.edu/academics/phd-programs/",
+     "phd_evidence_quote": "The doctoral degree in Integrative Life Sciences with the Behavioral and Statistical Genetics concentration (ILS-BSG) was designed by faculty at the",
+     "faculty_list_urls": [{"url": "https://vipbg.vcu.edu/people/faculty/", "render": false}],
+     "matched_authors": ["Silviu‐Alin Bacanu", "Jared V. Balbona", "Michael Churton Neale", "Roseann Elizabeth Peterson"],
+     "notes": "Bulletin: 'Integrative Life Sciences, Doctor of Philosophy (Ph.D.) with a concentration in behavioral and statistical genetics' (https://bulletin.vcu.edu/graduate/college-humanities-sciences/vcu-life-sciences/integrative-life-sciences-phd/). Faculty page is the VIPBG faculty list (program designed by VIPBG faculty)."},
+    {"program_name": "Human Genetics PhD (incl. quantitative human genetics concentration)", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://bulletin.vcu.edu/graduate/school-medicine/human-genetics-phd/",
+     "phd_evidence_quote": "Human Genetics, Doctor of Philosophy (Ph.D.) < Virginia Commonwealth University Academic Catalog",
+     "faculty_list_urls": [],
+     "matched_authors": [],
+     "notes": "Program website https://gen.vcu.edu/graduate-and-training-programs/phd-in-human-genetics/curriculum/ (and https://gen.vcu.edu/) BLOCKED by robots.txt, so the program faculty list could not be checked. VIPBG page says 'Graduate students in PhD programs from other departments ... often work with and receive mentoring from VIPBG faculty' but does not list which faculty are Human Genetics program faculty."},
+    {"program_name": "Biostatistics PhD (incl. genomic biostatistics concentration)", "degree": "PhD", "discipline": "biostatistics", "program_type": "biostat",
+     "umbrella_name": null,
+     "program_url": "https://bulletin.vcu.edu/graduate/p-health/biostatistics/biostatistics-phd-conc-genomic-biostatistics/",
+     "phd_evidence_quote": "Biostatistics, Doctor of Philosophy (Ph.D.) with a concentration in genomic biostatistics",
+     "faculty_list_urls": [{"url": "https://biostatistics.vcu.edu/people/faculty/", "render": false}],
+     "matched_authors": [],
+     "notes": "Faculty page plain fetch (text_len ~6k) matched 0; --render returned 502. Department also lists 'Ph.D. Genomics Concentration' at https://biostatistics.vcu.edu/education/phd-genomics/ (not fetched)."},
+    {"program_name": "Computer Science PhD", "degree": "PhD", "discipline": "computer_science", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://bulletin.vcu.edu/graduate/school-engineering/computer-science/computer-science-phd/",
+     "phd_evidence_quote": "Computer Science, Doctor of Philosophy (Ph.D.) < Virginia Commonwealth University Academic Catalog",
+     "faculty_list_urls": [{"url": "https://egr.vcu.edu/departments/computer-science/people/faculty/", "render": false}],
+     "matched_authors": ["Lukasz Kurgan"],
+     "notes": ""}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Luís Fernando Silva Castro-de-Araujo", "program_found": null, "evidence_url": "https://vipbg.vcu.edu/people/post-doctorals/", "note": "Listed on VIPBG post-doctorals page (not faculty)."},
+    {"name": "Qiqige Wuyun", "program_found": null, "evidence_url": null, "note": "Not on CS faculty page; likely a researcher/postdoc (no profile URL discoverable without search)."}
+  ],
+  "problems": [
+    "BLOCKED by robots.txt: https://gen.vcu.edu/ (Department of Human and Molecular Genetics; Human Genetics PhD program site).",
+    "https://biostatistics.vcu.edu/people/faculty/ --render returned 502; plain fetch had no matches.",
+    "Biochemistry, Biomedical Engineering and Chemistry PhDs exist in the VCU bulletin A-Z list but were not recorded (no relevant B authors besides Kurgan/Wuyun in CS).",
+    "WebSearch budget exhausted; URLs discovered via bulletin.vcu.edu/azprograms/ and site navigation."
+  ]
+}

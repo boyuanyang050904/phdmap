@@ -1,0 +1,69 @@
+{
+  "institution": "Cedars-Sinai Medical Center",
+  "checked_at": "2026-11-03T09:31:19Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://www.cedars-sinai.edu/health-sciences-university/education/graduate-school/phd-programs.html",
+    "quote": "At the Graduate School of Biomedical Science, learners work side by side with world‑renowned medical investigators ... Since the program’s launch in 2008, PhD graduates have gone on to prestigious postdoctoral fellowships and leadership roles in academia and industry."
+  },
+  "programs": [
+    {
+      "program_name": "PhD in Health Artificial Intelligence (Graduate School of Biomedical Sciences, Cedars-Sinai Health Sciences University)",
+      "degree": "PhD",
+      "discipline": "other:health_ai",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cedars-sinai.edu/health-sciences-university/education/programs/graduate-school/phd-in-health-artificial-intelligence/overview",
+      "phd_evidence_quote": "Students join a four-year, fully funded PhD program embedded in a leading academic medical center, focused on designing, building and evaluating AI for real-world healthcare.",
+      "faculty_list_urls": [
+        {
+          "url": "https://researchers.cedars-sinai.edu/Nicholas.Tatonetti",
+          "render": true
+        },
+        {
+          "url": "https://researchers.cedars-sinai.edu/Pei-Chen.Peng",
+          "render": true
+        },
+        {
+          "url": "https://researchers.cedars-sinai.edu/Ruowang.Li",
+          "render": true
+        },
+        {
+          "url": "https://researchers.cedars-sinai.edu/KyoungJae.Won",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Nicholas P. Tatonetti",
+        "Pei-Chen Peng",
+        "Ruowang Li",
+        "Kyoung‐Jae Won",
+        "Kyoung Jae Won"
+      ],
+      "notes": "No program faculty roster found (researchers.cedars-sinai.edu is a JS directory). Each of the four core authors' official researcher profiles (rendered) carries the tag 'PhD in Health Artificial Intelligence'. Admission asks for 'a bachelor’s degree in a quantitative field such as bioinformatics, computational biology, computer science, engineering or mathematics'. Discipline closest to comp_bio/AI."
+    },
+    {
+      "program_name": "PhD in Biomedical and Translational Sciences (BTS)",
+      "degree": "PhD",
+      "discipline": "umbrella_biomedical",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cedars-sinai.edu/health-sciences-university/education/programs/graduate-school/phd-in-biomedical-and-translational-sciences/overview",
+      "phd_evidence_quote": "Provide a personal narrative detailing your reasons for wanting to pursue a PhD degree in Biomedical and Translational Sciences.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cedars-sinai.edu/health-sciences-university/research/faculty.html",
+          "render": true
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Umbrella biomedical PhD (core type). No program faculty roster readable; none of the relevant authors' profiles were tagged with this program (they carry the Health AI tag)."
+    }
+  ],
+  "unmatched_core_authors": [],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites (cedars-sinai.org home -> cedars-sinai.edu Health Sciences University; pages need --render).",
+    "No program-level faculty lists available; program membership taken from 'PhD in Health Artificial Intelligence' tags on individual researcher profiles (researchers.cedars-sinai.edu, rendered).",
+    "Kyoung-Jae Won profile URL was guessed: https://researchers.cedars-sinai.edu/Kyoung-Jae.Won returned 404; https://researchers.cedars-sinai.edu/KyoungJae.Won resolved to his profile (page shows 'Kyoung Jae Won', KyoungJae.Won@csmc.edu)."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+ "institution": "University of Nebraska Medical Center",
+ "checked_at": "2026-11-03T09:25:00Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.unmc.edu/gradstudies/programs/igpbs/index.html",
+  "quote": "The IGPBS PhD allows students to experience training in a variety of research laboratories before selecting their area of interest."
+ },
+ "programs": [
+  {
+   "program_name": "PhD in Bioinformatics & Systems Biology (BISB), IGPBS",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Interdisciplinary Graduate Program in Biomedical Sciences (IGPBS)",
+   "program_url": "https://www.unmc.edu/gradstudies/programs/igpbs/bioinformatics-systems-biology/index.html",
+   "phd_evidence_quote": "PhD in Bioinformatics & Systems Biology | Office of Graduate Studies | University of Nebraska Medical Center",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.unmc.edu/gradstudies/_documents/igpbsfaculty.json?v=a986623a-1115-4c93-9ce2-50161e405cc5",
+     "render": false
+    },
+    {
+     "url": "https://www.unmc.edu/gradstudies/programs/igpbs/faculty-list.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Shibiao Wan",
+    "David E. Warren"
+   ],
+   "notes": "The faculty-list.html page loads its list from igpbsfaculty.json (matching the HTML page gave 0, including with --render). Each JSON entry lists 'DOCTORAL PROGRAMS'. Wan: Bioinformatics & Systems Biology; Cancer Research; Molecular Genetics & Cellular Biology. Warren: Bioinformatics & Systems Biology; Neuroscience."
+  },
+  {
+   "program_name": "PhD in Molecular Genetics & Cell Biology (MGCB), IGPBS",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Interdisciplinary Graduate Program in Biomedical Sciences (IGPBS)",
+   "program_url": "https://www.unmc.edu/gradstudies/programs/igpbs/molecular-genetics-cell-biology/index.html",
+   "phd_evidence_quote": "PhD in Molecular Genetics & Cell Biology | Office of Graduate Studies | University of Nebraska Medical Center",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.unmc.edu/gradstudies/_documents/igpbsfaculty.json?v=a986623a-1115-4c93-9ce2-50161e405cc5",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Shibiao Wan"
+   ],
+   "notes": "Membership is from the 'DOCTORAL PROGRAMS' field of the IGPBS faculty JSON."
+  },
+  {
+   "program_name": "PhD in Cancer Research (CR), IGPBS",
+   "degree": "PhD",
+   "discipline": "other:cancer_biology",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Interdisciplinary Graduate Program in Biomedical Sciences (IGPBS)",
+   "program_url": "https://www.unmc.edu/gradstudies/programs/igpbs/cancer-research/index.html",
+   "phd_evidence_quote": "PhD in Cancer Research | Office of Graduate Studies | University of Nebraska Medical Center",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.unmc.edu/gradstudies/_documents/igpbsfaculty.json?v=a986623a-1115-4c93-9ce2-50161e405cc5",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Shibiao Wan",
+    "Samuel M. Cohen"
+   ],
+   "notes": "Included because core author Samuel M. Cohen's listed doctoral programs are Cancer Research and Immunology, Pathology & Infectious Diseases."
+  },
+  {
+   "program_name": "PhD in Biostatistics (College of Public Health)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://www.unmc.edu/gradstudies/programs/doctoral/biostatistics/index.html",
+   "phd_evidence_quote": "PhD in Biostatistics | Office of Graduate Studies | University of Nebraska Medical Center",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.unmc.edu/publichealth/departments/biostatistics/facultyandstaff/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Core biostatistics type; no relevant authors among its faculty. The program page's own description reads 'develops biomedical informaticians' (apparently boilerplate)."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "The IGPBS faculty-list.html page is JS-populated from a JSON file, which was fetched with the project fetcher and matched.",
+  "WebSearch budget exhausted; URLs found by navigating official sites."
+ ]
+}

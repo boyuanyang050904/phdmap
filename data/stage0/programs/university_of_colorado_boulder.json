@@ -1,0 +1,70 @@
+{
+ "institution": "University of Colorado Boulder",
+ "checked_at": "2026-11-03T09:23:54Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.colorado.edu/psych-neuro/graduate-programs/graduate-program-subplans",
+  "quote": "The Department of Psychology and Neuroscience at the University of Colorado Boulder offers PhD degrees in five subplans"
+ },
+ "programs": [
+  {
+   "program_name": "Psychology and Neuroscience PhD - Behavioral, Psychiatric, and Statistical Genetics (BPSG) subplan",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://www.colorado.edu/behavioral-genetics/",
+   "phd_evidence_quote": "The Department of Psychology and Neuroscience at the University of Colorado Boulder offers PhD degrees in five subplans: Behavioral, Psychiatric, and Statistical Genetics",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.colorado.edu/behavioral-genetics/faculty-0",
+     "render": true
+    },
+    {
+     "url": "https://www.colorado.edu/psych-neuro/people/research-and-teaching-faculty",
+     "render": true
+    },
+    {
+     "url": "https://www.colorado.edu/ibg/people/faculty",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Matthew C. Keller"
+   ],
+   "notes": "PhD subplan of the Psychology & Neuroscience PhD (closely tied to the Institute for Behavioral Genetics, IBG). IBG faculty page also lists Andrew Grotzinger, but as 'Adjunct Professor, Memorial University Department of Psychology'. All faculty lists are JS-built (need --render).",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Andrew David Grotzinger",
+   "program_found": null,
+   "evidence_url": "https://www.colorado.edu/ibg/people/faculty",
+   "note": "IBG faculty list (rendered) shows 'Andrew Grotzinger / Adjunct Professor / Memorial University Department of Psychology' - not on the BPSG or Psychology & Neuroscience faculty lists."
+  },
+  {
+   "name": "Joanne B. Cole",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any CU Boulder list; OpenAlex affiliations suggest CU Anschutz (separate campus) / Broad."
+  },
+  {
+   "name": "Nikita V. Pozdeyev",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "CU Anschutz / CU Cancer Center affiliation; not a CU Boulder faculty member on fetched lists."
+  },
+  {
+   "name": "Christopher R. Gignoux",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "CU Anschutz affiliation; not on fetched CU Boulder lists."
+  }
+ ],
+ "problems": [
+  "IQ Biology at CU Boulder is now a graduate certificate (https://www.colorado.edu/certificate/iqbiology/, 'Expand Your PhD'), not a PhD program; its people page (2 fetches) matched 0 authors.",
+  "Direction B has only peripheral, off-topic authors (NLP, microbiology, atmospheric science); no B programs recorded.",
+  "Core A authors Cole, Pozdeyev and Gignoux appear to be CU Anschutz Medical Campus faculty; CU Anschutz programs (e.g. Human Medical Genetics & Genomics) not checked since the institution is CU Boulder.",
+  "WebSearch budget exhausted; URLs discovered by site navigation."
+ ]
+}

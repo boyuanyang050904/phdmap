@@ -1,0 +1,86 @@
+{
+ "institution": "Florida State University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://stat.fsu.edu/graduate/phd-program",
+  "quote": "The FSU Department of Statistics offers a Ph.D. in statistics and a Ph.D. in biostatistics."
+ },
+ "programs": [
+  {
+   "program_name": "Ph.D. in Statistics",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://stat.fsu.edu/graduate/phd-program",
+   "phd_evidence_quote": "The FSU Department of Statistics offers a Ph.D. in statistics and a Ph.D. in biostatistics.",
+   "faculty_list_urls": [
+    {
+     "url": "https://stat.fsu.edu/people",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Zhaotong Lin",
+    "Wei Wu"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Ph.D. in Biostatistics (Department of Statistics)",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "program_url": "https://stat.fsu.edu/graduate/phd-program",
+   "phd_evidence_quote": "The FSU Department of Statistics offers a Ph.D. in statistics and a Ph.D. in biostatistics.",
+   "faculty_list_urls": [
+    {
+     "url": "https://stat.fsu.edu/people",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Zhaotong Lin",
+    "Wei Wu"
+   ],
+   "notes": "Same department faculty as the Statistics PhD.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Ph.D. Program in Biomedical Sciences (College of Medicine)",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://med.fsu.edu/phd/home",
+   "phd_evidence_quote": "The Ph.D. Program in Biomedical Sciences at the Florida State University College of Medicine trains students to answer important questions of medical relevance using cutting-edge approaches.",
+   "faculty_list_urls": [
+    {
+     "url": "https://med.fsu.edu/phd/directory/graduate-faculty",
+     "render": true
+    },
+    {
+     "url": "https://med.fsu.edu/biosci/faculty",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Graduate faculty and department faculty pages matched 0 even with --render; the visible text seems to lack individual names (only degree suffixes like 'Ph.D.' found), so the roster may be loaded in a way the fetcher cannot read.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Michael Blaber",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not matched on College of Medicine BMS graduate faculty, Biomedical Sciences faculty (incl. retired) or Chemistry & Biochemistry faculty pages. Molecular Biophysics program site (https://www.biophysics.fsu.edu/) UNREACHABLE. Program unverified."
+  }
+ ],
+ "problems": [
+  "https://www.biophysics.fsu.edu/ UNREACHABLE (robots.txt not retrievable) - Molecular Biophysics PhD not checked.",
+  "College of Medicine faculty rosters appear unreadable to the fetcher (names missing from text, also with --render).",
+  "Chemistry & Biochemistry faculty page (https://www.chem.fsu.edu/people/faculty/) matched 0; Chemistry/Biochemistry PhD not recorded.",
+  "Peripheral author Jinfeng Zhang (OpenAlex last_known: Florida Department of Environmental Protection) not on https://stat.fsu.edu/people."
+ ],
+ "checked_at": "2026-11-03T09:26:03Z"
+}

@@ -1,0 +1,45 @@
+{
+  "institution": "St. Jude Children's Research Hospital",
+  "checked_at": "2026-11-03T09:18:31Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://www.stjude.org/education-training/st-jude-graduate-school-of-biomedical-sciences/academics/phd-biomedical-sciences.html",
+    "quote": "A PhD from the St. Jude Children's Research Hospital Graduate School of Biomedical Sciences is like no other."
+  },
+  "programs": [
+    {
+      "program_name": "PhD in Biomedical Sciences (St. Jude Graduate School of Biomedical Sciences)",
+      "degree": "PhD",
+      "discipline": "umbrella_biomedical",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.stjude.org/education-training/st-jude-graduate-school-of-biomedical-sciences/academics/phd-biomedical-sciences.html",
+      "phd_evidence_quote": "St. Jude Graduate School of Biomedical Sciences PhD Program",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.stjude.org/education-training/st-jude-graduate-school-of-biomedical-sciences/faculty.html",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Guolian Kang",
+        "Daniel A. Mulrooney",
+        "Yutaka Yasui",
+        "Yadav Sapkota"
+      ],
+      "notes": "The Graduate School is St. Jude's own degree-granting school (home page: 'St. Jude Graduate School Announces Accreditation' by SACSCOC). Single PhD program; faculty page is the Graduate School faculty list (large, 311k chars). The page also lists 'Paulina Velasquez, MD' (not matched by the tool; see unmatched_core_authors)."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Mireya Paulina Velasquez",
+      "program_found": "PhD in Biomedical Sciences (St. Jude Graduate School of Biomedical Sciences)",
+      "evidence_url": "https://www.stjude.org/education-training/st-jude-graduate-school-of-biomedical-sciences/faculty.html",
+      "note": "Graduate School faculty page lists 'Paulina Velasquez, MD' (paulina.velasquez@stjude.org); the match tool did not match the OpenAlex name form - likely the same person (not verified beyond the name)."
+    }
+  ],
+  "problems": [
+    "Other Graduate School degrees are master's only (MS in Clinical Investigations, MS in Global Child Health, MS in Applied Biomedical Data Sciences) - not recorded.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

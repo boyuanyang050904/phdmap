@@ -1,0 +1,51 @@
+{
+  "institution": "University of Colorado Anschutz",
+  "checked_at": "2026-11-03T09:26:03Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home", "quote": "The Human Medical Genetics and Genomics at CU is an interdepartmental program that provides world-class PhD training in genetics and genomics"},
+  "programs": [
+    {"program_name": "Human Medical Genetics and Genomics (HMGG) PhD", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home",
+     "phd_evidence_quote": "The Human Medical Genetics and Genomics at CU is an interdepartmental program that provides world-class PhD training in genetics and genomics",
+     "faculty_list_urls": [{"url": "https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/faculty", "render": false}],
+     "matched_authors": ["Gregory P. Way", "Joanne B. Cole", "Audrey E. Hendricks", "Christopher R. Gignoux", "Katerina J. Kechris"],
+     "notes": "Graduate school program list shows 'Human Medical Genetics and Genomics / School of Medicine; Graduate School / PhD'."},
+    {"program_name": "Computational Bioscience (CPBS) PhD", "degree": "PhD", "discipline": "comp_bio", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.cuanschutz.edu/graduate-programs/computational-bioscience",
+     "phd_evidence_quote": "The Computational Bioscience PhD Program brings a pioneering approach to computation in the biomedical sciences to advance human health.",
+     "faculty_list_urls": [{"url": "https://www.cuanschutz.edu/graduate-programs/computational-bioscience/faculty", "render": false}],
+     "matched_authors": ["Gregory P. Way", "Audrey E. Hendricks", "Katerina J. Kechris"],
+     "notes": ""},
+    {"program_name": "PhD in Biostatistics (Colorado School of Public Health)", "degree": "PhD", "discipline": "biostatistics", "program_type": "biostat",
+     "umbrella_name": null,
+     "program_url": "https://coloradosph.cuanschutz.edu/education/degrees-and-programs/doctor-of-philosophy/phd-in-biostatistics",
+     "phd_evidence_quote": "PhD in Biostatistics | Colorado School of Public Health",
+     "faculty_list_urls": [{"url": "https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics/directory", "render": false}],
+     "matched_authors": ["David V. Conti", "Katerina J. Kechris"],
+     "notes": "Directory lists 'David / Conti / PhD / Professor' and 'Katerina / Kechris / PhD / Professor'. OpenAlex last_known for David V. Conti lists USC first; same name on CSPH directory (possible move or namesake). Directory may be partial/paginated (text_len ~12.6k)."},
+    {"program_name": "Biomedical Sciences Program (BSP)", "degree": "PhD", "discipline": "umbrella_biomedical", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.cuanschutz.edu/graduate-programs/biomedical-sciences-program/home",
+     "phd_evidence_quote": "The Biomedical Sciences Program (BSP) at the University of Colorado Anschutz has the largest training faculty of any biomedical PhD program in Colorado, with over 200 active faculty.",
+     "faculty_list_urls": [{"url": "https://www.cuanschutz.edu/graduate-programs/biomedical-sciences-program/training-faculty", "render": false}],
+     "matched_authors": ["Gregory P. Way", "Joanne B. Cole", "Audrey E. Hendricks", "Christopher R. Gignoux", "Wendy B. Macklin", "Katerina J. Kechris"],
+     "notes": "Umbrella entry program: a student quote on the page says BSP 'allowed me to select a PhD program'. Fetched page lists disciplines 'Cancer Biology, Microbiology, Immunology, Stem Cell Biology, Molecular Biology, and Pharmacology'; it does not state whether HMGG or CPBS admit through BSP."},
+    {"program_name": "Structural Biology, Biochemistry, and Biophysics (SBBB) PhD", "degree": "PhD", "discipline": "biophysics", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.cuanschutz.edu/graduate-programs/structural-biology-biochemistry-biophysics/home",
+     "phd_evidence_quote": "Structural Biology, Biochemistry, and Biophysics / School of Medicine; Graduate School / PhD",
+     "faculty_list_urls": [{"url": "https://www.cuanschutz.edu/graduate-programs/structural-biology-biochemistry-biophysics/faculty", "render": false}],
+     "matched_authors": [],
+     "notes": "PhD evidence quote is from the graduate school program list https://graduateschool.cuanschutz.edu/programs-of-study/graduate-and-certificate-programs. No relevant authors matched."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Nikita V. Pozdeyev", "program_found": null, "evidence_url": null, "note": "Not on HMGG, CPBS, BSP or CSPH biostat faculty pages; no profile URL discoverable without search."},
+    {"name": "Meng Hsuan Lin", "program_found": null, "evidence_url": null, "note": "Not on fetched program faculty pages; possibly trainee/staff."}
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered via graduateschool.cuanschutz.edu program list.",
+    "Pharmaceutical Sciences / Pharmacology PhDs not checked (no relevant authors expected)."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+ "institution": "Florida International University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://stempel.fiu.edu/academics/public-health/disciplines/biostatistics/index.html",
+  "quote": "Currently, Stempel College, located in Miami, Florida, offers MPH and PhD degrees with a concentration in biostatistics."
+ },
+ "programs": [
+  {
+   "program_name": "PhD with a concentration in Biostatistics (Robert Stempel College of Public Health & Social Work)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://stempel.fiu.edu/academics/public-health/disciplines/biostatistics/index.html",
+   "phd_evidence_quote": "Currently, Stempel College, located in Miami, Florida, offers MPH and PhD degrees with a concentration in biostatistics.",
+   "faculty_list_urls": [
+    {
+     "url": "https://stempel.fiu.edu/academics/public-health/disciplines/biostatistics/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Changwon Yoo"
+   ],
+   "notes": "Page: 'For information about the Ph.D. program, contact Dr. Changwon Yoo'. No separate biostatistics faculty list found; Stempel directory (https://stempel.fiu.edu/faculty-staff/index.html) not matched. Likely a concentration of the PhD in Public Health."
+  },
+  {
+   "program_name": "Doctor of Philosophy in Computer Science (Knight Foundation School of Computing and Information Sciences)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cis.fiu.edu/degree/doctor-of-philosophy-in-computer-science/",
+   "phd_evidence_quote": "Doctor of Philosophy in Computer Science - Knight Foundation School of Computing and Information Sciences",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cis.fiu.edu/faculty-staff/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Giri Narasimhan",
+    "Fahad Saeed"
+   ],
+   "notes": "Faculty list is JS-rendered. PhD evidence is the page title (page body is mostly an embedded PDF flyer)."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "FIU has no dedicated bioinformatics/comp-bio PhD found in this pass; only CS and biostatistics checked (all core authors matched)."
+ ],
+ "checked_at": "2026-11-03T09:17:47Z"
+}

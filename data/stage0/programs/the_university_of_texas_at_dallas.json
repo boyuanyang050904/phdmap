@@ -1,0 +1,93 @@
+{
+ "institution": "The University of Texas at Dallas",
+ "checked_at": "2026-11-03T09:32:20Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://biology.utdallas.edu/graduates/",
+  "quote": "Doctor of Philosophy in Molecular and Cell Biology"
+ },
+ "programs": [
+  {
+   "program_name": "Doctor of Philosophy in Molecular and Cell Biology (Department of Biological Sciences)",
+   "discipline": "other:molecular_cell_biology",
+   "program_type": "independent",
+   "program_url": "https://biology.utdallas.edu/graduates/phd-program/",
+   "phd_evidence_quote": "Doctor of Philosophy in Molecular and Cell Biology",
+   "faculty_list_urls": [
+    {
+     "url": "https://biology.utdallas.edu/faculty/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Zhenyu Xuan",
+    "Faruck Morcos"
+   ],
+   "notes": "Faculty list is JS-built (needs --render). PhD evidence from https://biology.utdallas.edu/graduates/ and the NSM doctoral pathways list (https://nsm.utdallas.edu/academics/?defaultSelect=sort-phd).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering PhD (Department of Bioengineering)",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://be.utdallas.edu/graduate/degree-programs/",
+   "phd_evidence_quote": "PhD graduates will have the ability to evaluate difficult life sciences-related issues and create solutions for the future.",
+   "faculty_list_urls": [
+    {
+     "url": "https://be.utdallas.edu/people/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://be.utdallas.edu/people/affiliated-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Lakshman S. Tamil",
+    "Faruck Morcos"
+   ],
+   "notes": "Both matched on the affiliated-faculty list (Tamil's home is ECE; Morcos's home is Biological Sciences).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Doctor of Philosophy in Chemistry",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://chemistry.utdallas.edu/graduates/",
+   "phd_evidence_quote": "Doctor of Philosophy in Chemistry",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.utdallas.edu/research-faculty/",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Core B-type program; no relevant authors matched.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Dajiang J. Liu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched UTD list; OpenAlex last-known Pennsylvania State University first (likely mis-association)."
+  },
+  {
+   "name": "Chance M Gammill",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Biology, Bioengineering or Chemistry faculty lists (possibly student/staff); no profile found."
+  }
+ ],
+ "problems": [
+  "UNREACHABLE: https://bioengineering.utdallas.edu/ (used https://be.utdallas.edu/ instead).",
+  "Data Science and Statistics PhD exists (NSM doctoral list) but no relevant core A authors expected there; not checked.",
+  "Computer Science PhD (cs.utdallas.edu) not checked; only peripheral A author William J. Beksi plausibly there.",
+  "UTD sites are slow (fetches near 30 s each).",
+  "WebSearch budget exhausted; URLs discovered by site navigation."
+ ]
+}

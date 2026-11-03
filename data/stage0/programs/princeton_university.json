@@ -1,0 +1,89 @@
+{
+  "institution": "Princeton University",
+  "checked_at": "2026-11-03T09:21:15Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://chemistry.princeton.edu/grad-program/",
+    "quote": "The Department of Chemistry offers a program of study leading to the degree of Doctor of Philosophy (Ph.D.)."
+  },
+  "programs": [
+    {
+      "program_name": "PhD in Computer Science",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cs.princeton.edu/grad/graduate-program",
+      "phd_evidence_quote": "The Computer Science Department at Princeton University is dedicated to preparing doctoral and master’s degree students to take on the challenges of research and innovation in computer science.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cs.princeton.edu/people/faculty?facultyType=faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Olga G. Troyanskaya",
+        "Ellen D. Zhong",
+        "Mona Singh"
+      ],
+      "notes": "Roles on page: Mona Singh 'Wang Family Professor in Computer Science'; Olga Troyanskaya 'Maduraperuma/Khot Professor of Computer Science'; Ellen Zhong 'Assistant Professor'. (Mona Singh has two OpenAlex profiles.)"
+    },
+    {
+      "program_name": "Ph.D. in Chemistry",
+      "degree": "PhD",
+      "discipline": "chemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://chemistry.princeton.edu/grad-program/",
+      "phd_evidence_quote": "The Department of Chemistry offers a program of study leading to the degree of Doctor of Philosophy (Ph.D.).",
+      "faculty_list_urls": [
+        {
+          "url": "https://chemistry.princeton.edu/faculty-research/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Michelle C. Y. Chang"
+      ],
+      "notes": "Only a peripheral B author matched."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Mengdi Wang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Likely Electrical & Computer Engineering / CSML, but ece.princeton.edu and csml.princeton.edu are behind a Cloudflare 403 challenge."
+    },
+    {
+      "name": "Xiao Fan",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on fetched CS/Chemistry lists."
+    },
+    {
+      "name": "Claire D. McWhite",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known University of Arizona (likely former Lewis-Sigler fellow); lsi.princeton.edu blocked by Cloudflare."
+    },
+    {
+      "name": "Minh Hoang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on fetched CS faculty/research/grad lists."
+    },
+    {
+      "name": "Zaixi Zhang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on fetched lists (likely postdoc)."
+    }
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites.",
+    "UNREACHABLE: https://qcb.princeton.edu/ (host does not resolve) - the Quantitative and Computational Biology (QCB) PhD, the most relevant program, could not be verified.",
+    "Cloudflare 'Just a moment...' 403 challenge (also with --render on lsi) on: https://lsi.princeton.edu/ (Lewis-Sigler Institute / QCB), https://gradschool.princeton.edu/, https://www.princeton.edu/, https://ece.princeton.edu/, https://molbio.princeton.edu/, https://eeb.princeton.edu/, https://csml.princeton.edu/, https://orfe.princeton.edu/ - QCB, ECE, Molecular Biology, EEB PhDs not verified.",
+    "Only 2 programs could be verified; Princeton record is incomplete."
+  ]
+}

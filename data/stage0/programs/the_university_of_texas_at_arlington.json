@@ -1,0 +1,57 @@
+{
+  "institution": "The University of Texas at Arlington",
+  "checked_at": "2026-11-03T09:28:11Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://www.uta.edu/academics/programs/computer-science-phd",
+    "quote": "The computer science Ph.D. program follows UTA’s standard admissions criteria."
+  },
+  "programs": [
+    {
+      "program_name": "Ph.D. in Computer Science (Department of Computer Science and Engineering)",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.uta.edu/academics/programs/computer-science-phd",
+      "phd_evidence_quote": "Apply to UTA through the ApplyUTA graduate application. The computer science Ph.D. program follows UTA’s standard admissions criteria.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse/faculty-directory",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "William J. Beksi",
+        "Wei Jiang",
+        "Dennis Lal",
+        "Junzhou Huang"
+      ],
+      "notes": "Junzhou Huang listed as Professor. Dennis Lal listed as 'Professor of Research' (also on the Bioengineering directory). CSE also offers a Ph.D. in Computer Engineering (https://www.uta.edu/academics/programs/computer-engineering-phd)."
+    },
+    {
+      "program_name": "Ph.D. in Biomedical Engineering (Department of Bioengineering)",
+      "degree": "PhD",
+      "discipline": "bioengineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.uta.edu/academics/programs/biomedical-engineering-phd",
+      "phd_evidence_quote": "The biomedical engineering Ph.D. program follows UTA’s standard admissions criteria.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/bioengineering/faculty-directory",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Dennis Lal"
+      ],
+      "notes": "Directory entry: 'Dr. Dennis Lal, Professor of Research' with interests 'Clinical genomics; large-scale human genetics; AI-driven variant interpretation; ...', consistent with the OpenAlex genetics author (core A/B)."
+    }
+  ],
+  "unmatched_core_authors": [],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites.",
+    "No genetics/biostatistics PhD checked at UTA (no such core program identified while navigating; Biology/Mathematics PhDs not examined)."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+ "institution": "University of Delaware",
+ "checked_at": "2026-11-03T09:21:53Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://bme.udel.edu/graduate/",
+  "quote": "The Biomedical Engineering (BME) PhD program in the College of Engineering is built on an advanced core curriculum"
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Hosted by the Center for Bioinformatics & Computational Biology (CBCB); the affiliated-faculty list is CBCB's (center affiliation, used as the program's faculty proxy).",
+   "program_name": "PhD in Bioinformatics Data Science (BIDS-PhD)",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://bioinformatics.udel.edu/education/degrees/binf-phd/",
+   "phd_evidence_quote": "A Ph.D. in Bioinformatics Data Science will train the next-generation of researchers and professionals",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioinformatics.udel.edu/people/affiliated-faculty/",
+     "render": false
+    },
+    {
+     "url": "https://bioinformatics.udel.edu/people/cbcb-personnel/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Abhyudai Singh",
+    "Jason P. Gleghorn",
+    "Manju Anandakrishnan",
+    "Cathy H. Wu"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "People page is 'Primary & Joint Faculty'.",
+   "program_name": "Biomedical Engineering PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://bme.udel.edu/graduate/",
+   "phd_evidence_quote": "The Biomedical Engineering (BME) PhD program in the College of Engineering is built on an advanced core curriculum",
+   "faculty_list_urls": [
+    {
+     "url": "https://bme.udel.edu/people/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Abhyudai Singh",
+    "Jason P. Gleghorn",
+    "Cathy H. Wu"
+   ]
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Michael Saint-Antoine",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any faculty list checked (likely former student of A. Singh; now UPenn per OpenAlex)."
+  }
+ ],
+ "problems": [
+  "Abhyudai Singh is also on the ECE faculty page (https://www.ece.udel.edu/people/faculty/); ECE PhD not recorded separately (PhD quote not fetched).",
+  "Computer & Information Sciences PhD not checked (call budget).",
+  "WebSearch budget exhausted; URLs found by navigating official udel.edu sites."
+ ]
+}

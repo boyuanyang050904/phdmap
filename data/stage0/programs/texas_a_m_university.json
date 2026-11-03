@@ -1,0 +1,173 @@
+{
+ "institution": "Texas A&M University",
+ "checked_at": "2026-11-03T09:17:09Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://bcbp.tamu.edu/graduate/",
+  "quote": "The Ph.D. degree program in Biochemistry and Molecular Biophysics provides a rigorous training ground"
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Site title: 'Genetics at Texas A&M University – Graduate degree in Genetics'. Directory is JS-loaded (0 matches plain); rendered version may be incomplete/paginated.",
+   "program_name": "Genetics and Genomics PhD (Interdisciplinary Program in Genetics & Genomics)",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://genetics.tamu.edu/phd-overview/",
+   "phd_evidence_quote": "The Ph.D. degree is awarded principally on demonstrated ability to conduct significant and original scientific research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://genetics.tamu.edu/directory/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "James J. Cai"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "stat.tamu.edu redirects to artsci.tamu.edu/statistics. Two OpenAlex 'Yang Ni' records matched (same person, split IDs). Profiles list is JS-loaded.",
+   "program_name": "Statistics PhD",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://artsci.tamu.edu/statistics/academics/graduate/statistics-doctoral-admissions.html",
+   "phd_evidence_quote": "Prospective Statistics Ph.D. students apply online through the",
+   "faculty_list_urls": [
+    {
+     "url": "https://artsci.tamu.edu/statistics/contact/profiles/index.html",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Yang Ni",
+    "Yuchao Jiang",
+    "Xianyang Zhang"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Computer Science PhD (Computer Science and Engineering)",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://engineering.tamu.edu/cse/academics/degrees/graduate/index.html",
+   "phd_evidence_quote": "The Texas A&M University Department of Computer Science and Engineering (CSE) offers three types of graduate degrees (non-thesis Master of Computer Science or Master of Engineering, Master of Science with thesis, and Ph.D.)",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.tamu.edu/cse/profiles/index.html",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Shuiwang Ji"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Included because core authors Yang Shen (A+B core) and Byung-Jun Yoon (B core) are ECE faculty (bioinformatics/protein ML groups).",
+   "program_name": "Electrical Engineering PhD",
+   "discipline": "other:electrical_computer_engineering",
+   "program_type": "independent",
+   "program_url": "https://engineering.tamu.edu/electrical/academics/degrees/graduate/index.html",
+   "phd_evidence_quote": "Doctor of Philosophy - Electrical Engineering",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.tamu.edu/electrical/profiles/index.html",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Yang Shen",
+    "Byung-Jun Yoon",
+    "Xiaoning Qian"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Biochemistry and Molecular Biophysics PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://bcbp.tamu.edu/graduate/",
+   "phd_evidence_quote": "The Ph.D. degree program in Biochemistry and Molecular Biophysics provides a rigorous training ground for individuals aspiring to become university professors",
+   "faculty_list_urls": [
+    {
+     "url": "https://bcbp.tamu.edu/types/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Wenshe Ray Liu",
+    "Junjie Zhang"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Biomedical Engineering PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://engineering.tamu.edu/biomedical/academics/degrees/graduate/index.html",
+   "phd_evidence_quote": "Students with a bachelor's degree and the ultimate goal of receiving a Doctor of Philosophy in biomedical engineering should apply directly to the Doctor of Philosophy program.",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.tamu.edu/biomedical/profiles/index.html",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Jason Thomas George"
+   ]
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Yubin Zhou",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any list checked; OpenAlex last_known Texas A&M Health Science Center (Institute of Biosciences & Technology, Houston); Medical Sciences PhD not checked."
+  },
+  {
+   "name": "Yogesh Goyal",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on TAMU lists; last_known Northwestern / MD Anderson."
+  },
+  {
+   "name": "Zhongming Zhao",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on TAMU lists; UTHealth Houston / MD Anderson."
+  },
+  {
+   "name": "Chong Wu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on TAMU lists; MD Anderson."
+  },
+  {
+   "name": "Arjun Bhattacharya",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on TAMU lists; MD Anderson."
+  },
+  {
+   "name": "Ryan Sun",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on TAMU lists; MD Anderson."
+  }
+ ],
+ "problems": [
+  "Many direction-A core authors in this list (Chong Wu, Arjun Bhattacharya, Ryan Sun, Yunlong Liu, Yutaka Yasui, Zhongming Zhao, Yogesh Goyal) are MD Anderson / UTHealth-affiliated and did not appear on any TAMU faculty page; they likely belong to MD Anderson/UTHealth programs.",
+  "Most TAMU faculty directories (engineering profiles, statistics profiles, genetics directory) are JS-loaded; matches came from --render fetches.",
+  "WebSearch budget exhausted; URLs found by navigating official tamu.edu sites. Chemistry PhD (Wenshe Liu also chemistry) and Medical Sciences PhD not checked (call budget)."
+ ]
+}

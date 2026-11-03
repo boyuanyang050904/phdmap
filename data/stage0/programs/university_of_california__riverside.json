@@ -1,0 +1,190 @@
+{
+  "institution": "University of California, Riverside",
+  "checked_at": "2026-11-03T09:27:06Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://genetics.ucr.edu/",
+    "quote": "The Graduate Program in Genetics, Genomics & Bioinformatics (GGB) at UC Riverside is a multidisciplinary Ph.D. program."
+  },
+  "programs": [
+    {
+      "program_name": "Genetics, Genomics & Bioinformatics (GGB) PhD",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://genetics.ucr.edu/",
+      "phd_evidence_quote": "The Graduate Program in Genetics, Genomics & Bioinformatics (GGB) at UC Riverside is a multidisciplinary Ph.D. program.",
+      "faculty_list_urls": [
+        {
+          "url": "https://genetics.ucr.edu/people/faculty",
+          "render": false
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=97391&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=5232936&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=10465835&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=4227079&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=5847584&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=5847627&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=5847644&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=5847739&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=7597038&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=7597068&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=7596927&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=7596812&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=9951469&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=14476474&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=7597149&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=7597169&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=7440103&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=All&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false&excludeAffiliates=false",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Joy S. Xiang",
+        "Adam Godzik",
+        "Stefano Lonardi"
+      ],
+      "notes": "Faculty page https://genetics.ucr.edu/people/faculty embeds 16 profiles.ucr.edu iframes (one per group); matched via the rendered iframe URLs (Xiang+Godzik in groupId=4227079, Lonardi in groupId=5847739). GGB offers experimental or computational specializations."
+    },
+    {
+      "program_name": "Biomedical Sciences PhD (School of Medicine)",
+      "degree": "PhD",
+      "discipline": "umbrella_biomedical",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://biomed.ucr.edu/phd-program",
+      "phd_evidence_quote": "The long-standing Ph.D. Program in Biomedical Sciences provides a unique integration of systems and disease-based medical curriculum",
+      "faculty_list_urls": [
+        {
+          "url": "https://biomed.ucr.edu/graduate-faculty",
+          "render": false
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=23284&profilePictureMode=ifPresent&viewProfileButtonMode=ifPresent&showAlphaLinks=true&showFilter=false&showTitle=false&affiliationFilter=Faculty&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=true&excludeStudentEmployees=true&excludeSecondaryDepartmentEmployees=false",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Joy S. Xiang",
+        "Adam Godzik"
+      ],
+      "notes": "Graduate faculty list is a profiles.ucr.edu iframe (rendered)."
+    },
+    {
+      "program_name": "PhD in Computer Science",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www1.cs.ucr.edu/graduate/programs/computer-science-phd",
+      "phd_evidence_quote": "The Department of Computer Science and Engineering offers a Ph.D. degree in Computer Science",
+      "faculty_list_urls": [
+        {
+          "url": "https://www1.cs.ucr.edu/people/faculty",
+          "render": false
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=1787&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=All&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false&customCssUrl=https%3A%2F%2Fcnas.ucr.edu%2Fthemes%2Fcustom%2Fucr_cnas_1%2Fcss%2Fcnas-profiles.css",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Stefano Lonardi"
+      ],
+      "notes": "Tenure-track faculty iframe (groupId=1787) rendered. Department lists Bioinformatics as a research area."
+    },
+    {
+      "program_name": "Bioengineering PhD (BIG Ph.D., Bioengineering Departmental Graduate Program)",
+      "degree": "PhD",
+      "discipline": "bioengineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://bioeng.ucr.edu/academics/graduate-phd",
+      "phd_evidence_quote": "The BIG Ph.D. (Bioengineering Departmental Graduate Program) is heavily integrated with research activities",
+      "faculty_list_urls": [
+        {
+          "url": "https://bioeng.ucr.edu/about/faculty",
+          "render": false
+        },
+        {
+          "url": "https://bioeng.ucr.edu/cooperating-faculty",
+          "render": false
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=4462&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=All",
+          "render": true
+        },
+        {
+          "url": "https://profiles.ucr.edu/app/embed?groupId=62441&profilePictureMode=always&viewProfileButtonMode=always&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=All&excludeStudentEmployees=false",
+          "render": true
+        }
+      ],
+      "matched_authors": [
+        "Joy S. Xiang"
+      ],
+      "notes": "Xiang matched on the cooperating-faculty iframe (groupId=62441)."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Brent Hughes",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on GGB, Biomedical Sciences, CS or Bioengineering faculty lists (rendered profile embeds). Not checked further."
+    }
+  ],
+  "problems": [
+    "All UCR faculty lists are profiles.ucr.edu iframes that require --render; URLs of the embeds are recorded with render=true.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

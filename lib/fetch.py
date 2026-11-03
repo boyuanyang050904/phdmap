@@ -243,7 +243,9 @@ class Fetcher:
     def get_rendered(self, url, wait_ms=2500, max_age_days=None) -> Resp:
         """Fetch with headless Chromium (for JS-rendered pages). Same cache/robots rules."""
         curl = canonical_url(url)
-        p = self._key(curl, method="RENDER")
+        frag = urlsplit(url).fragment
+        # JS apps often filter by #fragment: keep it in the cache key for rendered pages
+        p = self._key(curl + (("#" + frag) if frag else ""), method="RENDER")
         rec = self._load(p)
         if rec is not None and max_age_days is None:
             return Resp(rec["url"], rec["final_url"], rec["status"], rec["text"],

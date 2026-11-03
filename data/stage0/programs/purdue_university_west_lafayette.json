@@ -1,0 +1,119 @@
+{
+ "institution": "Purdue University West Lafayette",
+ "checked_at": "2026-11-03T09:19:08Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.purdue.edu/academics/ogsps/oigp/program/pulse/",
+  "quote": "Purdue University Interdisciplinary Life Science Program (PULSe) is a highly selective PhD program for motivated students with interests in a life science discipline."
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "www.purdue.edu/gradschool/pulse/ redirects here. No PULSe faculty roster found on the fetched page; relevant authors' PULSe membership unverified.",
+   "program_name": "Purdue University Interdisciplinary Life Science Program (PULSe)",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://www.purdue.edu/academics/ogsps/oigp/program/pulse/",
+   "phd_evidence_quote": "Purdue University Interdisciplinary Life Science Program (PULSe) is a highly selective PhD program for motivated students with interests in a life science discipline.",
+   "faculty_list_urls": [],
+   "matched_authors": []
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Graduate program areas include 'Structural and Computational Biology and Biophysics' and 'Cell and Molecular Biology (CMB)'. None of the fetched Biological Sciences graduate pages (index, programs summary, prospective students, OGSPS admission requirements) states 'PhD' in text, so the PhD quote is null.",
+   "program_name": "Biological Sciences graduate program (incl. Structural and Computational Biology and Biophysics area)",
+   "discipline": "other:biology",
+   "program_type": "independent",
+   "program_url": "https://www.bio.purdue.edu/Academic/graduate/grad-programs-summary-new.html",
+   "phd_evidence_quote": null,
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bio.purdue.edu/People/faculty/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Boran Gao",
+    "Peristera Paschou",
+    "Geyu Zhou",
+    "Daisuke Kihara"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "",
+   "program_name": "Computer Science PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://www.cs.purdue.edu/graduate/curriculum/doctoral.html",
+   "phd_evidence_quote": "The doctoral program is designed to prepare students for a career in computer science research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cs.purdue.edu/people/faculty/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Daisuke Kihara",
+    "Guang Lin"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Quote is from https://www.stat.purdue.edu/academic_programs/index.html (certificate description referring to the Statistics Ph.D. program). Graduate page lists research areas incl. 'Bioinformatics/Statistical Genetics/Genomics'.",
+   "program_name": "Statistics PhD",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "program_url": "https://www.stat.purdue.edu/academic_programs/graduate/index.html",
+   "phd_evidence_quote": "who are not enrolled in the Statistics M.S. or Ph.D. program",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.stat.purdue.edu/people/faculty/index.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Boran Gao",
+    "Geyu Zhou",
+    "Guang Lin"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Included for core A author Luiz Brito (quantitative genetics/genomics).",
+   "program_name": "Animal Sciences PhD",
+   "discipline": "other:animal_sciences",
+   "program_type": "independent",
+   "program_url": "https://ag.purdue.edu/department/ansc/graduate-program/index.html",
+   "phd_evidence_quote": "The program offers master of science and doctor of philosophy degrees.",
+   "faculty_list_urls": [
+    {
+     "url": "https://ag.purdue.edu/department/ansc/faculty-by-area-research.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Luiz F. Brito",
+    "Hinayah Rojas de Oliveira"
+   ]
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Robbee Wedow",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Bio/CS/Stat/ANSC lists; likely Sociology (not checked)."
+  }
+ ],
+ "problems": [
+  "Biological Sciences PhD: no fetched page states the PhD degree in text; quote null.",
+  "PULSe faculty roster not found; Biochemistry and Molecular Biology, Chemistry and Weldon BME PhDs not checked (no matched relevant authors expected; call budget).",
+  "WebSearch budget exhausted; URLs found by navigating official purdue.edu sites."
+ ]
+}

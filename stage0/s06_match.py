@@ -81,6 +81,7 @@ def main():
         for p in d.get("programs", []):
             matched = {}
             pages = []
+            page_texts = []
             for fu in p.get("faculty_list_urls") or []:
                 url = fu["url"] if isinstance(fu, dict) else fu
                 render = bool(fu.get("render")) if isinstance(fu, dict) else False
@@ -92,6 +93,7 @@ def main():
                 txt = page_text(r.text)
                 pages.append({"url": url, "status": r.status, "fetched_at": r.fetched_at,
                               "text_len": len(txt), "readable": len(txt) > 500})
+                page_texts.append((url, txt, r.fetched_at))
                 for a in auths:
                     if a["id"] in matched:
                         continue
@@ -99,6 +101,29 @@ def main():
                     if m:
                         matched[a["id"]] = {"evidence_url": url, "fetched_at": r.fetched_at,
                                             "snippet": m, "via": "faculty_list"}
+            # names the agent confirmed by reading the page but that strict matching missed
+            # (nicknames, e.g. "Zaida (Zan) Luthey-Schulten"): accept only if the surname
+            # appears with a token starting with the first initial within the 3 preceding tokens
+            for nm in p.get("matched_authors") or []:
+                base = re.sub(r"\s*\[.*$", "", nm).strip()
+                a = next((x for x in auths if x["name"] == base and x["id"] not in matched), None)
+                if not a:
+                    continue
+                vs = name_variants([a["name"]])
+                for pg_url, pg_txt, pg_at in page_texts:
+                    hit = None
+                    for f0, l0 in vs:
+                        for mm in re.finditer(rf"\b{re.escape(l0)}\b", pg_txt):
+                            before = pg_txt[max(0, mm.start() - 60):mm.start()].split()[-3:]
+                            if any(t.startswith(f0[0]) for t in before):
+                                hit = pg_txt[max(0, mm.start() - 40): mm.end() + 20]
+                                break
+                        if hit:
+                            break
+                    if hit:
+                        matched[a["id"]] = {"evidence_url": pg_url, "fetched_at": pg_at,
+                                            "snippet": hit, "via": "agent_confirmed_surname"}
+                        break
             progs.append({**p, "pages": pages, "_matched": matched})
         # memberships found via individual faculty profiles
         for u in d.get("unmatched_core_authors", []) or []:

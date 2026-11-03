@@ -1,0 +1,80 @@
+{
+  "institution": "University of Central Florida",
+  "checked_at": "2026-11-03T09:27:04Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "http://www.cs.ucf.edu/ph-d-in-computer-science/",
+    "quote": "The Ph.D. in Computer Science requires 72 credit hours beyond the bachelor’s degree, including core and elective courses and the dissertation."
+  },
+  "programs": [
+    {
+      "program_name": "Ph.D. in Computer Science",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "http://www.cs.ucf.edu/ph-d-in-computer-science/",
+      "phd_evidence_quote": "With a Ph.D. in Computer Science from UCF, you can hone your expertise in any number of developing subfields, including ... bioinformatics",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cs.ucf.edu/faculty-directory/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Jiann Shiun Yuan",
+        "Kirill E. Medvedev"
+      ],
+      "notes": "Kirill Medvedev listed as 'Assistant Professor' (CS). Jiann-Shiun Yuan appears in the joint/affiliated section as 'Department of Electrical and Computer Engineering'."
+    },
+    {
+      "program_name": "Ph.D. in Computer Engineering",
+      "degree": "PhD",
+      "discipline": "other:computer_engineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "http://www.ece.ucf.edu/ph-d-in-computer-engineering-copy/",
+      "phd_evidence_quote": "Design the future of computing systems with a Ph.D. in Computer Engineering from UCF.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.ece.ucf.edu/faculty-directory/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Jiann Shiun Yuan"
+      ],
+      "notes": "ECE department also offers a Ph.D. in Electrical Engineering (http://www.ece.ucf.edu/ph-d-in-electrical-engineering/); same faculty directory. Core B author Yuan's home department is ECE."
+    },
+    {
+      "program_name": "Biomedical Sciences PhD (Burnett School of Biomedical Sciences, College of Medicine)",
+      "degree": "PhD",
+      "discipline": "umbrella_biomedical",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://med.ucf.edu/biomed/graduate-programs/",
+      "phd_evidence_quote": "The Graduate Program at the Burnett School of Biomedical Sciences offers MS, PhD, and MD-PhD opportunities.",
+      "faculty_list_urls": [
+        {
+          "url": "https://med.ucf.edu/biomed/faculty-research-key-word-search/",
+          "render": false
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Core umbrella type; faculty keyword-search page has no names in static HTML (0 matches)."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Milad Salem",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on CS/ECE faculty directories (likely a PhD student/alumnus in ECE)."
+    }
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites.",
+    "Burnett School faculty list not readable in static HTML (keyword-search page); not rendered since no relevant authors are expected there.",
+    "Ph.D. in Big Data Analytics (https://www.ucf.edu/degree/big-data-analytics-phd/) and Statistics not checked (only peripheral author Niloofar Yousefi)."
+  ]
+}

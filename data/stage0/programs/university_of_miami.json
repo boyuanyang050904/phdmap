@@ -1,0 +1,47 @@
+{
+  "institution": "University of Miami",
+  "checked_at": "2026-11-03T09:33:00Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://med.miami.edu/graduate-studies/doctoral-programs/human-genetics-and-genomics", "quote": "The interdepartmental Ph.D. Program in Human Genetics and Genomics (HGG) is a multidisciplinary program aimed at training scientists broadly in areas of human genetics and genomics relevant to human health and disease."},
+  "programs": [
+    {"program_name": "Human Genetics and Genomics (Ph.D.), Miller School of Medicine", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "umbrella_track",
+     "umbrella_name": "Program in Biomedical Sciences (PIBS)", "program_url": "https://med.miami.edu/graduate-studies/doctoral-programs/human-genetics-and-genomics",
+     "phd_evidence_quote": "The interdepartmental Ph.D. Program in Human Genetics and Genomics (HGG) is a multidisciplinary program aimed at training scientists broadly in areas of human genetics and genomics relevant to human health and disease.",
+     "faculty_list_urls": [{"url": "https://med.miami.edu/graduate-studies/doctoral-programs/human-genetics-and-genomics/faculty-profiles", "render": false}],
+     "matched_authors": ["Eden R. Martin", "Yan Ping Guo", "Stephan C. Schürer"],
+     "notes": "'Yan Ping Guo' matched the page's 'Yan Guo, Ph.D.' (Public Health Sciences; Sylvester Biostatistics and Bioinformatics Shared Resource). The OpenAlex profile also lists Kunming institutions and may be merged. umbrella_name is based on the 'PIBS First-Year Biomedical Science Program' link on the doctoral-programs page; whether HGG admits via PIBS was not explicitly verified."},
+    {"program_name": "Biostatistics (Ph.D.), Department of Public Health Sciences", "degree": "PhD", "discipline": "biostatistics", "program_type": "biostat",
+     "umbrella_name": null, "program_url": "https://graduatestudies.publichealth.med.miami.edu/academic-programs/doctoral-degrees/phd-biostatistics/index.html",
+     "phd_evidence_quote": "The Ph.D. in Biostatistics, offered through the Division of Biostatistics in the Department of Public Health Sciences at the Miller School of Medicine, provides a comprehensive curriculum that covers both theoretical and computational aspects of Biostatistics.",
+     "faculty_list_urls": [{"url": "https://graduatestudies.publichealth.med.miami.edu/faculty/index.html", "render": false}],
+     "matched_authors": ["Yan Ping Guo"],
+     "notes": "Also listed at https://med.miami.edu/graduate-studies/doctoral-programs/biostatistics ('Our Ph.D. in Biostatistics prepares you with innovative theory and methods ...'). Emir Veledar (peripheral) not matched."},
+    {"program_name": "Molecular & Cellular Pharmacology (Ph.D.), Miller School of Medicine", "degree": "PhD", "discipline": "other:pharmacology", "program_type": "umbrella_track",
+     "umbrella_name": "Program in Biomedical Sciences (PIBS)", "program_url": "https://med.miami.edu/graduate-studies/doctoral-programs/molecular-and-cellular-pharmacology",
+     "phd_evidence_quote": "Molecular and Cellular Pharmacology (Ph.D.)  Miller School of Medicine",
+     "faculty_list_urls": [{"url": "https://med.miami.edu/graduate-studies/doctoral-programs/molecular-and-cellular-pharmacology/faculty-profiles", "render": false}],
+     "matched_authors": ["Stephan C. Schürer"],
+     "notes": "Included for the core-B author Stephan C. Schürer (cheminformatics/drug discovery)."},
+    {"program_name": "Biochemistry and Molecular Biology (Ph.D.), Miller School of Medicine", "degree": "PhD", "discipline": "biochemistry", "program_type": "umbrella_track",
+     "umbrella_name": "Program in Biomedical Sciences (PIBS)", "program_url": "https://med.miami.edu/graduate-studies/doctoral-programs/biochemistry-and-molecular-biology",
+     "phd_evidence_quote": "Biochemistry and Molecular Biology (Ph.D.)  Miller School of Medicine",
+     "faculty_list_urls": [{"url": "https://med.miami.edu/graduate-studies/doctoral-programs/biochemistry-and-molecular-biology/faculty-profiles", "render": false}],
+     "matched_authors": [],
+     "notes": "PENDING"},
+    {"program_name": "PhD in Computer Science (College of Arts & Sciences)", "degree": "PhD", "discipline": "computer_science", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://csc.as.miami.edu/programs/doctor-of-philosophy/index.html",
+     "phd_evidence_quote": "The Doctor of Philosophy program in Computer Science is overseen by the Computer Science Graduate Committee (CSGC).",
+     "faculty_list_urls": [{"url": "https://csc.as.miami.edu/people/faculty/index.html", "render": false}],
+     "matched_authors": ["Zheng Wang", "Stefan Wuchty"],
+     "notes": "Zheng Wang (core B, protein structure prediction) is CS faculty."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Farid Rajabli", "program_found": null, "evidence_url": "https://med.miami.edu/graduate-studies/doctoral-programs/human-genetics-and-genomics/faculty-profiles", "note": "No 'Rajabli' in the HGG faculty-profiles page text. Hussman Institute researcher; profile not located without WebSearch."},
+    {"name": "Anat Galor", "program_found": null, "evidence_url": null, "note": "Not on the HGG, biostatistics, pharmacology or CS lists. Ophthalmology clinician-scientist, unlikely a PhD-program fit."}
+  ],
+  "problems": [
+    "med.miami.edu pages are very slow to fetch: several match runs timed out and were re-run in the background.",
+    "https://biomed.med.miami.edu/ UNREACHABLE (host does not resolve / TLS or proxy error).",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

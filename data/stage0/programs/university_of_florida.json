@@ -1,0 +1,121 @@
+{
+ "institution": "University of Florida",
+ "checked_at": "2026-11-03T09:20:19Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://ufgi.ufl.edu/grad-program/",
+  "quote": "Genetics & Genomics PhD Program"
+ },
+ "programs": [
+  {
+   "program_name": "Genetics & Genomics PhD Program (UF Genetics Institute)",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://ufgi.ufl.edu/grad-program/",
+   "phd_evidence_quote": "Genetics & Genomics PhD Program",
+   "faculty_list_urls": [
+    {
+     "url": "https://ufgi.ufl.edu/ufgi-faculty-directory/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jinying Zhao",
+    "Sai Zhang",
+    "Lauren M. McIntyre",
+    "Qing Ling Lu",
+    "Xiao Fan",
+    "Wen Jun Xie",
+    "Yousong Ding",
+    "Meera Sitharam"
+   ],
+   "notes": "Faculty list is the UF Genetics Institute faculty member directory (institute membership; not necessarily all G&G PhD mentors) - the only faculty list linked from the G&G program pages.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://chem.ufl.edu/academics/grad/apply-faqs/",
+   "phd_evidence_quote": "Although M.S. degrees can be obtained en route to the Ph.D., we do not recruit an annual class of M.S.-seeking students.",
+   "faculty_list_urls": [
+    {
+     "url": "https://chem.ufl.edu/people-2/faculty-2/",
+     "render": false
+    },
+    {
+     "url": "https://chem.ufl.edu/people-2/associated-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Alberto Pérez",
+    "Ramón Alain Miranda‐Quintana"
+   ],
+   "notes": "",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering PhD (J. Crayton Pruitt Family Department of BME)",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://bme.ufl.edu/admissions/graduate-admissions/",
+   "phd_evidence_quote": "Master’s (MS or ME) or Doctor of Philosophy (PhD)",
+   "faculty_list_urls": [
+    {
+     "url": "https://bme.ufl.edu/people/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://bme.ufl.edu/people/affiliate-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Xiao Fan",
+    "Sai Zhang",
+    "Wen Jun Xie"
+   ],
+   "notes": "Sai Zhang and Wen Jun Xie are on the affiliate-faculty list.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Computer & Information Science & Engineering (CISE) PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://cise.ufl.edu/",
+   "phd_evidence_quote": null,
+   "faculty_list_urls": [
+    {
+     "url": "https://cise.ufl.edu/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Meera Sitharam"
+   ],
+   "notes": "PhD status not quoted from a fetched page (null).",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Panayiotis V. Benos",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on UFGI, Chemistry, BME or CISE lists; College of Medicine / PHHP / epidemiology sites blocked by robots.txt."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://phhp.ufl.edu/about/departments/biostatistics/ and https://phhp.ufl.edu/academics/phd-and-professional-programs/phd-biostatistics/ (Biostatistics PhD; biostat.ufl.edu redirects there) - Biostatistics PhD and faculty not recorded.",
+  "BLOCKED by robots.txt: https://idp.med.ufl.edu/ (Biomedical Sciences IDP umbrella PhD)",
+  "BLOCKED by robots.txt: https://med.ufl.edu/, https://hobi.med.ufl.edu/ (Health Outcomes & Biomedical Informatics), https://epi.ufl.edu/, https://ufhealth.org/",
+  "UNREACHABLE: https://epidemiology.ufl.edu/",
+  "CISE PhD evidence not fetched (null quote).",
+  "WebSearch budget exhausted; URLs discovered by site navigation."
+ ]
+}

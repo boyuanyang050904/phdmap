@@ -1,0 +1,75 @@
+{
+ "institution": "University of South Carolina",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://sc.edu/study/colleges_schools/engineering_and_computing/academics/graduate_programs/computer_science/index.php",
+  "quote": "We offer the Ph.D. and M.S. in computer science."
+ },
+ "programs": [
+  {
+   "program_name": "Computer Science (Ph.D.) - Department of Computer Science and Engineering",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://sc.edu/study/colleges_schools/engineering_and_computing/academics/graduate_programs/computer_science/index.php",
+   "phd_evidence_quote": "We offer the Ph.D. and M.S. in computer science.",
+   "faculty_list_urls": [
+    {
+     "url": "https://sc.edu/study/colleges_schools/engineering_and_computing/departments/computer_science_and_engineering/our_people/index.php",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jianjun Hu",
+    "Homayoun Valafar"
+   ],
+   "notes": "Both OpenAlex 'Jianjun Hu' records (core and peripheral) map to the same printed name on the CSE people page; the USC one is the core B author.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering (Ph.D.)",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://sc.edu/study/colleges_schools/engineering_and_computing/academics/graduate_programs/biomedical_engineering/index.php",
+   "phd_evidence_quote": "Doctor of Philosophy (Ph.D.)",
+   "faculty_list_urls": [
+    {
+     "url": "https://sc.edu/study/colleges_schools/engineering_and_computing/departments/biomedical_engineering/our_people/index.php",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Homayoun Valafar"
+   ],
+   "notes": "Page also states 'The Ph.D. is essential for biomedical engineering faculty'. Valafar appears on the BME people page (role there - primary vs affiliated - not determined).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry and Biochemistry (Ph.D.)",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://www.sc.edu/study/colleges_schools/chemistry_and_biochemistry/study/graduate/index.php",
+   "phd_evidence_quote": "When you join the department's doctoral program, you also become an integral part",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.sc.edu/study/colleges_schools/chemistry_and_biochemistry/our_people/directory/index.php",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Qun Lu"
+   ],
+   "notes": "Department offers chemistry and biochemistry graduate study; linked as 'Ph.D.' from https://sc.edu/study/colleges_schools/artsandsciences/academics/graduate/index.php.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "https://academicbulletins.sc.edu/azindex/ BLOCKED by robots.txt (graduate bulletin A-Z index not used).",
+  "Peripheral A author Yalin Wang (last_known also ASU/Notre Dame) not matched; no direction-A program (e.g. Arnold School Biostatistics PhD) checked because direction A has only this peripheral author.",
+  "Biomedical Engineering PhD evidence is a heading quote ('Doctor of Philosophy (Ph.D.)')."
+ ],
+ "checked_at": "2026-11-03T09:15:47Z"
+}

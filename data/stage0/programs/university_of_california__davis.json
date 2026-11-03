@@ -1,0 +1,165 @@
+{
+ "institution": "University of California, Davis",
+ "checked_at": "2026-11-03T09:17:37Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biophysics/biophysics-phd/",
+  "quote": "Biophysics, Doctor of Philosophy"
+ },
+ "programs": [
+  {
+   "program_name": "Biophysics Graduate Group PhD",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "program_url": "https://catalog.ucdavis.edu/departments-programs-degrees/biophysics/biophysics-phd/",
+   "phd_evidence_quote": "General Catalog - Biophysics, Doctor of Philosophy",
+   "faculty_list_urls": [
+    {
+     "url": "https://catalog.ucdavis.edu/departments-programs-degrees/biophysics/",
+     "render": false
+    },
+    {
+     "url": "https://health.ucdavis.edu/basic-sciences/biochemistry/team/faculty/siegel",
+     "render": false
+    },
+    {
+     "url": "https://health.ucdavis.edu/basic-sciences/physiology/team/faculty/clancy",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Vladimir M. Yarov-Yarovoy",
+    "Justin B. Siegel",
+    "Colleen E. Clancy"
+   ],
+   "notes": "No full member list reachable (biophysics.ucdavis.edu unreachable). Catalog page names 'Vladimir Yarov-Yarovoy, Ph.D., Chairperson of the Group'; Siegel's and Clancy's UC Davis Health profiles list 'Graduate Group Affiliations: ... Biophysics'.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biochemistry, Molecular, Cellular & Developmental Biology (BMCDB) PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://catalog.ucdavis.edu/departments-programs-degrees/biochemistry-molecular-cellular-developmental-biology/biochemistry-molecular-cellular-developmental-biology-doctor-phd/",
+   "phd_evidence_quote": "General Catalog - Biochemistry, Molecular, Cellular & Developmental Biology, Doctor of Philosophy",
+   "faculty_list_urls": [
+    {
+     "url": "https://health.ucdavis.edu/basic-sciences/biochemistry/team/faculty/siegel",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Justin B. Siegel"
+   ],
+   "notes": "Membership from Siegel's profile graduate-group list; BMCDB site (bmcdb.ucdavis.edu) returns a Cloudflare 403 challenge.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry & Chemical Biology PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://catalog.ucdavis.edu/departments-programs-degrees/chemistry/chemistry-phd/",
+   "phd_evidence_quote": "General Catalog - Chemistry & Chemical Biology, Doctor of Philosophy",
+   "faculty_list_urls": [
+    {
+     "url": "https://health.ucdavis.edu/basic-sciences/biochemistry/team/faculty/siegel",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Justin B. Siegel"
+   ],
+   "notes": "Membership from Siegel's profile ('Graduate Group Affiliations ... Chemistry'). chemistry.ucdavis.edu returns Cloudflare 403; chem.ucdavis.edu unreachable.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Biomedical Engineering Graduate Group PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://catalog.ucdavis.edu/departments-programs-degrees/biomedical-engineering-graduate-group/biomedical-engineering-phd/",
+   "phd_evidence_quote": "General Catalog - Biomedical Engineering, Doctor of Philosophy",
+   "faculty_list_urls": [
+    {
+     "url": "https://health.ucdavis.edu/basic-sciences/physiology/team/faculty/clancy",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Colleen E. Clancy"
+   ],
+   "notes": "Membership from Clancy's profile ('Graduate Group Affiliations: Biophysics, Biomedical Engineering'). bme.ucdavis.edu returns Cloudflare 403, so peripheral BME authors (Steven C. George, Sharon Aviran) could not be checked.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Integrative Genetics & Genomics (IGG) PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "program_url": "https://catalog.ucdavis.edu/departments-programs-degrees/integrative-genetics-genomics-graduate-group/integrative-genetics-genomics-phd/",
+   "phd_evidence_quote": "General Catalog - Integrative Genetics & Genomics, Doctor of Philosophy",
+   "faculty_list_urls": [
+    {
+     "url": "https://health.ucdavis.edu/basic-sciences/biochemistry/team/faculty/siegel",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Justin B. Siegel"
+   ],
+   "notes": "Membership from Siegel's profile graduate-group list.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Molecular, Cellular and Integrative Physiology / Pharmacology and Toxicology graduate groups (Physiology & Membrane Biology faculty)",
+   "discipline": "other:physiology_pharmacology",
+   "program_type": "independent",
+   "program_url": "https://health.ucdavis.edu/basic-sciences/physiology/academic-programs/graduate-groups",
+   "phd_evidence_quote": "Graduate students in our Physiology labs may participate in one of several doctoral programs. Physiology faculty members belong to the following groups",
+   "faculty_list_urls": [
+    {
+     "url": "https://health.ucdavis.edu/basic-sciences/physiology/team/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Vladimir M. Yarov-Yarovoy",
+    "Colleen E. Clancy",
+    "Igor V. Vorobyov"
+   ],
+   "notes": "Department-level record: PMB faculty belong to graduate groups incl. Biophysics, BMCDB, BME, MCIP, Pharmacology and Toxicology, Neuroscience; individual group not stated for Vorobyov.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Igor V. Vorobyov",
+   "program_found": null,
+   "evidence_url": "https://health.ucdavis.edu/basic-sciences/physiology/team/faculty/vorobyov",
+   "note": "PMB faculty profile lists no specific graduate group; dept page says PMB faculty belong to Biophysics/BMCDB/BME/MCIP/Pharmacology & Toxicology etc."
+  },
+  {
+   "name": "Khoa Ngo",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on PMB or BMM faculty lists (likely non-faculty researcher)."
+  },
+  {
+   "name": "Andriy Kryshtafovych",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Genome Center (CASP) researcher; genomecenter.ucdavis.edu returns Cloudflare 403; no program membership found."
+  }
+ ],
+ "problems": [
+  "Most ucdavis.edu sites return a Cloudflare 'Just a moment...' 403 challenge to the fetcher, also with --render: grad.ucdavis.edu/programs, gradstudies.ucdavis.edu, bmcdb.ucdavis.edu, bme.ucdavis.edu, chemistry.ucdavis.edu, genomecenter.ucdavis.edu.",
+  "BLOCKED by robots.txt: https://www.ucdavis.edu/",
+  "UNREACHABLE: https://biophysics.ucdavis.edu/, https://chem.ucdavis.edu/, https://physiology.ucdavis.edu/",
+  "No graduate-group member lists were reachable; memberships come from catalog (chair) and UC Davis Health faculty profile 'Graduate Group Affiliations' sections. Lists are therefore incomplete.",
+  "Computer Science PhD exists in the catalog (Computer Science, Doctor of Philosophy) but no faculty list reachable; not recorded.",
+  "WebSearch budget exhausted; URLs discovered by site navigation."
+ ]
+}

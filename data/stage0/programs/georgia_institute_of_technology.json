@@ -1,0 +1,173 @@
+{
+  "institution": "Georgia Institute of Technology",
+  "checked_at": "2026-11-03T09:15:34Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://bioinformatics.gatech.edu/",
+    "quote": "The program includes an interdisciplinary doctoral (PhD) program spanning a variety of academic departments at Georgia Tech"
+  },
+  "programs": [
+    {
+      "program_name": "Ph.D. in Bioinformatics (Bioinformatics Graduate Program)",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://bioinformatics.gatech.edu/",
+      "phd_evidence_quote": "The program includes an interdisciplinary doctoral (PhD) program spanning a variety of academic departments at Georgia Tech and a Professional Science Masters (MS) program",
+      "faculty_list_urls": [
+        {
+          "url": "https://bioinformatics.gatech.edu/index.php/bioinformatics-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Saurabh Sinha",
+        "Yunan Luo",
+        "Amirali Aghazadeh",
+        "Jeffrey Skolnick",
+        "Andrew C. McShan"
+      ],
+      "notes": "Xiuwei Zhang (core A) is not on this faculty list."
+    },
+    {
+      "program_name": "Ph.D. in Computational Science and Engineering (CSE)",
+      "degree": "PhD",
+      "discipline": "other:computational_science_engineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cc.gatech.edu/degree-programs/phd-computational-science-and-engineering",
+      "phd_evidence_quote": "Georgia Tech’s interdisciplinary Ph.D. degree program, in Computational Science and Engineering (CSE) is devoted to the creation, study, and application of computer-based models of natural and engineered systems.",
+      "faculty_list_urls": [
+        {
+          "url": "https://cse.gatech.edu/people/faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Xiuwei Zhang",
+        "Yunan Luo"
+      ],
+      "notes": "School of CSE faculty list (the School's home PhD). School of CSE also lists PhD in Computer Science, ML, Bioengineering and Bioinformatics as programs its students can enter (cse.gatech.edu/phd-programs links)."
+    },
+    {
+      "program_name": "Interdisciplinary Graduate Program in Quantitative Biosciences (QBioS) Ph.D.",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://qbios.gatech.edu/",
+      "phd_evidence_quote": "Apply by December 1, annually to join the class of students entering the QBioS Ph.D. program in August.",
+      "faculty_list_urls": [
+        {
+          "url": "https://qbios.gatech.edu/all-faculty-areas-specialization",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Jeffrey Skolnick",
+        "James C. Gumbart",
+        "Andrew C. McShan",
+        "Peter M. Kasson"
+      ],
+      "notes": "'QBioS has 60 participating program faculty representing six participating Schools within the College of Sciences.'"
+    },
+    {
+      "program_name": "Bioengineering (BioE) Interdisciplinary Graduate Program - PhD",
+      "degree": "PhD",
+      "discipline": "bioengineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://bioengineering.gatech.edu/",
+      "phd_evidence_quote": "The BioE Graduate PhD and MS program is a unique and interdisciplinary program",
+      "faculty_list_urls": [
+        {
+          "url": "https://bioengineering.gatech.edu/program-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Saurabh Sinha",
+        "Philip J. Santangelo",
+        "Amirali Aghazadeh",
+        "Craig R. Forest",
+        "James C. Gumbart",
+        "Peter M. Kasson"
+      ],
+      "notes": "Students apply through one of 8 participating home schools; program faculty list used."
+    },
+    {
+      "program_name": "PhD in Chemistry and Biochemistry",
+      "degree": "PhD",
+      "discipline": "chemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://chemistry.gatech.edu/graduate-degree-programs",
+      "phd_evidence_quote": "In addition to the more traditional MS and PhD in Chemistry and Biochemistry, our school also participates in several interdisciplinary graduate degree programs.",
+      "faculty_list_urls": [
+        {
+          "url": "https://chemistry.gatech.edu/faculty/academic-faculty-PI",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "James C. Gumbart",
+        "Andrew C. McShan",
+        "Peter M. Kasson"
+      ],
+      "notes": "Shina Caroline Lynn Kamerlin (peripheral B) not on the tenure-track list."
+    },
+    {
+      "program_name": "Ph.D. Biology (School of Biological Sciences)",
+      "degree": "PhD",
+      "discipline": "other:biology",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://biosciences.gatech.edu/phd-programs",
+      "phd_evidence_quote": "Experience 6 doctoral programs that value both scientific rigor and researcher well-being",
+      "faculty_list_urls": [
+        {
+          "url": "https://biosciences.gatech.edu/people",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Jeffrey Skolnick",
+        "Mu Gao"
+      ],
+      "notes": "Program name 'Ph.D. Biology' from the School's navigation; the dedicated page https://biosciences.gatech.edu/phd-biology returned HTTP 406. People page is the School directory (faculty + research staff; Mu Gao likely research scientist)."
+    },
+    {
+      "program_name": "Ph.D. in Physics (School of Physics)",
+      "degree": "PhD",
+      "discipline": "biophysics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://physics.gatech.edu/",
+      "phd_evidence_quote": null,
+      "faculty_list_urls": [
+        {
+          "url": "https://physics.gatech.edu/people/professors",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "James C. Gumbart"
+      ],
+      "notes": "Gumbart (core B, molecular simulation) is a Physics professor; PhD-in-Physics page not fetched, so PhD evidence quote is null."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Mohamed Deraz Nasr",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any fetched faculty list (likely a student/postdoc)."
+    }
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites.",
+    "HTTP 406 from https://bme.gatech.edu/ (Wallace H. Coulter Dept. of Biomedical Engineering, joint GT/Emory PhD) and from https://biosciences.gatech.edu/phd-biology - not verified.",
+    "Physics PhD evidence not fetched (quote null)."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+ "institution": "University of Illinois Chicago",
+ "checked_at": "2026-11-03T09:18:14Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.uic.edu/gcat/colleges-schools/engineering/bme/",
+  "quote": "The Richard and Loan Hill Department of Biomedical Engineering offers graduate programs leading to Master of Science and Doctor of Philosophy degrees in Biomedical Engineering and Bioinformatics"
+ },
+ "programs": [
+  {
+   "program_name": "PhD in Bioinformatics",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.uic.edu/gcat/colleges-schools/engineering/bioi/phd/",
+   "phd_evidence_quote": "The Richard and Loan Hill Department of Biomedical Engineering offers a program leading to degrees in Bioinformatics at both the master’s and doctoral levels.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bme.uic.edu/about-faculty-and-staff/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://bme.uic.edu/about-faculty-and-staff/affiliate-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yang David Dai",
+    "Ao Ma"
+   ],
+   "notes": "Quote from https://catalog.uic.edu/gcat/colleges-schools/engineering/bioi/ (program title page: 'PhD in Bioinformatics'). Offered by the BME department; BME core faculty list used."
+  },
+  {
+   "program_name": "PhD in Biomedical Engineering",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.uic.edu/gcat/colleges-schools/engineering/bme/phd/",
+   "phd_evidence_quote": "The Richard and Loan Hill Department of Biomedical Engineering offers graduate programs leading to Master of Science and Doctor of Philosophy degrees in Biomedical Engineering and Bioinformatics",
+   "faculty_list_urls": [
+    {
+     "url": "https://bme.uic.edu/about-faculty-and-staff/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://bme.uic.edu/about-faculty-and-staff/affiliate-faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yang David Dai",
+    "Ao Ma"
+   ],
+   "notes": "Same department faculty list as Bioinformatics PhD."
+  },
+  {
+   "program_name": "PhD in Biological Sciences",
+   "degree": "PhD",
+   "discipline": "other:biological_sciences",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.uic.edu/gcat/colleges-schools/liberal-arts-sciences/bios/phd/",
+   "phd_evidence_quote": "PhD in Biological Sciences",
+   "faculty_list_urls": [
+    {
+     "url": "https://bios.uic.edu/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Kevin Drew"
+   ],
+   "notes": "Included because core author Kevin Drew is on the Biological Sciences faculty list. PhD evidence is the catalog page title."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Sarfaraz K. Niazi",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known UIUC / Washington State; not on BME/BIOS lists; Pharmacy programs not checked."
+  }
+ ],
+ "problems": [
+  "Jie Liang (peripheral, BME) not matched on BME core faculty page despite expected membership (possible name-format issue)",
+  "College of Pharmacy PhD programs (peripheral authors Terry W. Moore, Hyun Lee) not checked",
+  "WebSearch unavailable (budget exhausted)"
+ ]
+}

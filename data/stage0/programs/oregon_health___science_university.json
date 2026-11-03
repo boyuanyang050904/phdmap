@@ -1,0 +1,39 @@
+{
+  "institution": "Oregon Health & Science University",
+  "checked_at": "2026-11-03T09:23:30Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://www.ohsu.edu/school-of-medicine/graduate-studies/degree-programs", "quote": "Ph.D. Programs Behavioral Neuroscience Biomedical Engineering Biomedical Informatics Health & Clinical Informatics Biomedical Sciences Clinical Psychology Joint M.D./Ph.D"},
+  "programs": [
+    {"program_name": "Biomedical Informatics PhD (Department of Medical Informatics and Clinical Epidemiology, DMICE)", "degree": "PhD", "discipline": "comp_bio", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://www.ohsu.edu/school-of-medicine/medical-informatics-and-clinical-epidemiology/program-curriculum",
+     "phd_evidence_quote": "Our Ph.D. program is designed to prepare you to carry out advanced research or take on leadership roles that require a thorough understanding of information technology, health and biomedicine.",
+     "faculty_list_urls": [{"url": "https://www.ohsu.edu/school-of-medicine/medical-informatics-and-clinical-epidemiology/faculty-and-trainees", "render": false}],
+     "matched_authors": ["Michael A. Mooney"],
+     "notes": "Listed as 'Biomedical Informatics' under Ph.D. Programs on the SoM degree-programs page. The fetched curriculum page describes the Health & Clinical Informatics major; a separate bioinformatics/computational track page was not found by navigation."},
+    {"program_name": "Biomedical Engineering Ph.D. Program", "degree": "PhD", "discipline": "bioengineering", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://www.ohsu.edu/school-of-medicine/biomedical-engineering/graduate-program",
+     "phd_evidence_quote": "Biomedical Engineering Ph.D. Program | OHSU",
+     "faculty_list_urls": [{"url": "https://www.ohsu.edu/school-of-medicine/biomedical-engineering/our-team", "render": false}],
+     "matched_authors": ["Daniel M. Zuckerman", "Kyle Ellrott", "Chi Zhang", "Andrew Emili"],
+     "notes": "The BME department team page is used as the faculty list."},
+    {"program_name": "Graduate Program in Biomedical Sciences (PBMS) - Biochemical, Molecular and Structural Biology (BMSB) research hub", "degree": "PhD", "discipline": "biochemistry", "program_type": "umbrella_track",
+     "umbrella_name": "Graduate Program in Biomedical Sciences (PBMS)", "program_url": "https://www.ohsu.edu/school-of-medicine/biomedical-sciences-graduate-program/biochemical-molecular-and-structural",
+     "phd_evidence_quote": "Biochemistry & Molecular Biology (Ph.D.)",
+     "faculty_list_urls": [{"url": "https://www.ohsu.edu/school-of-medicine/biomedical-sciences-graduate-program/biochemical-molecular-and-structural", "render": false}],
+     "matched_authors": ["Daniel M. Zuckerman", "Jonathan N. Pruneda"],
+     "notes": "'Biomedical Sciences' is under Ph.D. Programs on the degree-programs page, which also lists PhD home programs such as 'Biochemistry & Molecular Biology (Ph.D.)'. The PBMS main faculty page (/faculty) matched 0 (it points to research-hub search)."},
+    {"program_name": "Graduate Program in Biomedical Sciences (PBMS) - Genome Sciences (GS) research hub", "degree": "PhD", "discipline": "genetics_genomics", "program_type": "umbrella_track",
+     "umbrella_name": "Graduate Program in Biomedical Sciences (PBMS)", "program_url": "https://www.ohsu.edu/school-of-medicine/biomedical-sciences-graduate-program/genome-sciences-gs",
+     "phd_evidence_quote": "Molecular & Medical Genetics (Ph.D.)",
+     "faculty_list_urls": [{"url": "https://www.ohsu.edu/school-of-medicine/biomedical-sciences-graduate-program/genome-sciences-gs", "render": false}],
+     "matched_authors": [],
+     "notes": "Core genetics/genomics type. The hub page matched 0 relevant authors. The PhD quote is from the SoM degree-programs page list."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Joel T. Nigg", "program_found": null, "evidence_url": "https://www.ohsu.edu/school-of-medicine/behavioral-neuroscience/bsn-training-faculty", "note": "Not on the Behavioral and Systems Neuroscience training-faculty or department faculty pages, nor on the DMICE, BME or PBMS hub pages. Probably Psychiatry (Clinical Psychology PhD not checked)."}
+  ],
+  "problems": [
+    "No standalone Biostatistics PhD found on the SoM degree-programs page (its PhD list has no biostatistics). The OHSU-PSU School of Public Health was not checked.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

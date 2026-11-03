@@ -1,0 +1,61 @@
+{
+ "institution": "George Mason University",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.gmu.edu/colleges-schools/engineering-computing/school-computing/computer-science/computer-science-phd/",
+  "quote": "Computer Science, PhD | George Mason University Catalog"
+ },
+ "programs": [
+  {
+   "program_name": "Computer Science, PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://catalog.gmu.edu/colleges-schools/engineering-computing/school-computing/computer-science/computer-science-phd/",
+   "phd_evidence_quote": "Computer Science, PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://cs.gmu.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Linked from https://cs.gmu.edu/academics/graduate-programs ('PhD Degree Requirements'). The CS faculty page appears JS-built: plain fetch had no faculty names (matched 0) and --render returned HTTP 502 twice, so membership of Amarda Shehu / Anowarul Kabir could not be verified.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Bioinformatics and Computational Biology, PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://catalog.gmu.edu/colleges-schools/science/systems-biology/bioinformatics-computational-biology-phd/",
+   "phd_evidence_quote": "Bioinformatics and Computational Biology, PhD",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "School of Systems Biology (College of Science). Catalog pages (school page and program page) contain no faculty roster (matched 0); no SSB faculty directory found (guessed URLs 404).",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Amarda Shehu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "cs.gmu.edu/~ashehu/ redirected to the CS department homepage; cs.gmu.edu/people/faculty unreadable (JS; render 502); peoplefinder search returned no match. Program membership unverified."
+  },
+  {
+   "name": "Anowarul Kabir",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not found on any fetched page; possibly a PhD student/postdoc of Shehu's group (not verified)."
+  }
+ ],
+ "problems": [
+  "https://cs.gmu.edu/people/faculty: plain fetch lacks names; --render returned 502 (twice).",
+  "No readable faculty roster found for the School of Systems Biology (Bioinformatics and Computational Biology PhD).",
+  "Biosciences, PhD (https://catalog.gmu.edu/colleges-schools/science/systems-biology/biosciences-phd/) listed in catalog but not recorded (no matched authors, not a core type).",
+  "Bioengineering and Chemistry & Biochemistry PhDs not checked (budget; no matched authors expected from available pages).",
+  "Peripheral authors Christopher Lockhart, Mohsin Saleet Jafri, Taseef Rahman not matched (no readable rosters)."
+ ],
+ "checked_at": "2026-11-03T09:18:01Z"
+}

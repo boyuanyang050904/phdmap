@@ -1,0 +1,46 @@
+{
+  "institution": "Virginia Tech",
+  "checked_at": "2026-11-03T09:31:16Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://website.cs.vt.edu/academic/graduate/doctorate.html", "quote": "The Doctor of Philosophy (Ph.D.) is the highest academic degree awarded by the university to students who do outstanding original scholarship during advanced study."},
+  "programs": [
+    {"program_name": "Genetics, Bioinformatics, and Computational Biology (GBCB) PhD", "degree": "PhD", "discipline": "comp_bio", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://catalog.vt.edu/graduate/degree-programs/genetics-bioinformatics-computational-biology-phd/",
+     "phd_evidence_quote": "Genetics, Bioinformatics, and Computational Biology, PhD | Virginia Tech Academic Catalog",
+     "faculty_list_urls": [{"url": "https://gbcb.graduateschool.vt.edu/faculty/computer-science-faculty.html", "render": false}, {"url": "https://gbcb.graduateschool.vt.edu/faculty/life-sciences-faculty.html", "render": false}, {"url": "https://gbcb.graduateschool.vt.edu/faculty/mathematics-faculty.html", "render": false}],
+     "matched_authors": ["Liqing Zhang", "Song Li"],
+     "notes": "Program website https://gbcb.graduateschool.vt.edu/ (gbcb.vt.edu UNREACHABLE). 'Liqing Zhang' matched for 3 OpenAlex records; Song Li on Life Sciences faculty list."},
+    {"program_name": "Computer Science PhD", "degree": "PhD", "discipline": "computer_science", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://website.cs.vt.edu/academic/graduate/doctorate.html",
+     "phd_evidence_quote": "The Doctor of Philosophy (Ph.D.) is the highest academic degree awarded by the university to students who do outstanding original scholarship during advanced study.",
+     "faculty_list_urls": [{"url": "https://website.cs.vt.edu/people/faculty.html", "render": false}],
+     "matched_authors": ["Liqing Zhang", "Xuan Wang", "Debswapna Bhattacharya", "Song Li"],
+     "notes": "'Xuan Wang' matched two OpenAlex records whose last_known are Chinese institutions (name collision with a VT CS faculty member). 'Song Li' on the CS faculty page may be a different person from the plant-sciences Song Li on the GBCB life-sciences list (possible name collision)."},
+    {"program_name": "Biological Systems Engineering PhD", "degree": "PhD", "discipline": "bioengineering", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://bse.vt.edu/graduate/doctor-of-philosophy-program.html",
+     "phd_evidence_quote": "The BSE Ph.D. program seeks to prepare its graduates to become successful educators, researchers and practitioners of biological systems engineering or other complementary disciplines.",
+     "faculty_list_urls": [{"url": "https://www.bse.vt.edu/about/people/faculty.html", "render": false}],
+     "matched_authors": ["Anna Duraj‐Thatte"],
+     "notes": "https://bse.vt.edu/about/people.html (plain and --render) did not list her; the /about/people/faculty.html page did."},
+    {"program_name": "Statistics PhD", "degree": "PhD", "discipline": "statistics", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://catalog.vt.edu/graduate/degree-programs/statistics/",
+     "phd_evidence_quote": "Statistics, PhD",
+     "faculty_list_urls": [{"url": "https://stat.vt.edu/people/stat-faculty.html", "render": false}],
+     "matched_authors": ["Marco A. R. Ferreira"],
+     "notes": "Included because Ferreira (direction A peripheral) is department faculty."}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Wei Hui Zheng", "program_found": null, "evidence_url": null, "note": "Not on CS, GBCB, BSE or Statistics faculty pages; OpenAlex last_known includes Nankai University; no profile URL discoverable without search."}
+  ],
+  "problems": [
+    "https://gbcb.vt.edu/ and https://www.gbcb.vt.edu/ UNREACHABLE; used https://gbcb.graduateschool.vt.edu/ (linked from the catalog).",
+    "BLOCKED by robots.txt: https://fralin.vt.edu/.",
+    "Graduate-school program finder (https://graduateschool.vt.edu/academics/programs.html) is JS-built; used catalog.vt.edu instead.",
+    "Biochemistry, Biomedical Engineering and Translational Biology, Medicine, and Health PhDs exist in the catalog but were not recorded (no matched authors checked).",
+    "WebSearch budget exhausted; URLs discovered by navigation."
+  ]
+}

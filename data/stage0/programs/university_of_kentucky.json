@@ -1,0 +1,98 @@
+{
+ "institution": "University of Kentucky",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://medicine.uky.edu/sites/graduate/phd-program",
+  "quote": "The Integrated Biomedical Sciences (IBS) is an undifferentiated, first-year, core curriculum that serves as the entry point for seven doctoral programs housed in the University of Kentucky College of Medicine."
+ },
+ "programs": [
+  {
+   "program_name": "Integrated Biomedical Sciences (IBS) - College of Medicine PhD entry program",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://medicine.uky.edu/sites/graduate/phd-program",
+   "phd_evidence_quote": "The Integrated Biomedical Sciences (IBS) is an undifferentiated, first-year, core curriculum that serves as the entry point for seven doctoral programs housed in the University of Kentucky College of Medicine.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Umbrella entry point ('186 faculty members in six departments'); departments listed on the page include Microbiology, Immunology, and Molecular Genetics; Neuroscience; Pharmacology and Nutritional Sciences; Physiology; Pathology and Laboratory Medicine. No IBS faculty roster was found/checked.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Doctoral Degree in Pharmaceutical Sciences",
+   "discipline": "other:pharmaceutical_sciences",
+   "program_type": "independent",
+   "program_url": "https://academics.uky.edu/programs/doctoral/pharmaceutical-sciences",
+   "phd_evidence_quote": "Doctoral Degree in Pharmaceutical Sciences | University of Kentucky",
+   "faculty_list_urls": [
+    {
+     "url": "https://pharmacy.uky.edu/people/chang-guo-zhan",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Chang‐Guo Zhan"
+   ],
+   "notes": "Faculty evidence is Zhan's College of Pharmacy profile, which lists 'Pharmaceutical Sciences Department'. The paginated people list https://pharmacy.uky.edu/people (first page) matched 0.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Doctoral Degree in Chemical Engineering",
+   "discipline": "other:chemical_engineering",
+   "program_type": "independent",
+   "program_url": "https://academics.uky.edu/programs/doctoral/chemical-engineering",
+   "phd_evidence_quote": "Doctoral Degree in Chemical Engineering | University of Kentucky",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Recorded as the likely home of core B author Qing Shao, but the department/faculty site (engineering.uky.edu, cme.engr.uky.edu) was UNREACHABLE, so membership is unverified.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Doctoral Degree in Biomedical Engineering",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://academics.uky.edu/programs/doctoral/biomedical-engineering",
+   "phd_evidence_quote": "Doctoral Degree in Biomedical Engineering | University of Kentucky",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Core type for direction B; faculty list on engineering.uky.edu unreachable.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Doctoral Degree in Biochemistry",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "program_url": "https://academics.uky.edu/programs/doctoral/biochemistry",
+   "phd_evidence_quote": "Doctoral Degree in Biochemistry | University of Kentucky",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Core type for direction B; faculty list not checked (budget).",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Justin B. Miller",
+   "program_found": null,
+   "evidence_url": "https://medicine.uky.edu/users?combine=justin+miller",
+   "note": "Rendered College of Medicine directory search matched 'Justin B. Miller'; the result page also shows 'Pathology and Laboratory Medicine' and 'Sanders-Brown Center on Aging' but which belongs to him could not be isolated from the text. Pathology and Laboratory Medicine is one of the departments listed for IBS, but his PhD-program membership is unverified."
+  },
+  {
+   "name": "Qing Shao",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "engineering.uky.edu and cme.engr.uky.edu UNREACHABLE via the project fetcher; Chemical Engineering doctoral program recorded but membership unverified."
+  }
+ ],
+ "problems": [
+  "https://engineering.uky.edu/ UNREACHABLE (robots.txt not retrievable); https://cme.engr.uky.edu/ UNREACHABLE.",
+  "https://academics.uky.edu/programs/doctoral/biostatistics returned 404 (the listing shows Biostatistics only at masters level on the first page); no Biostatistics PhD verified. Direction A core author Justin B. Miller's program unverified.",
+  "PhD evidence quotes for academics.uky.edu programs are page titles ('Doctoral Degree in ...').",
+  "Graduate program listing https://academics.uky.edu/programs?... appears paginated; only first page seen."
+ ],
+ "checked_at": "2026-11-03T09:29:26Z"
+}

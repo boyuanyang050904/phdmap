@@ -1,0 +1,59 @@
+{
+  "institution": "University of South Florida",
+  "checked_at": "2026-11-03T09:22:10Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/graduate/index.aspx",
+    "quote": "Graduate programs within the college include the existing Master of Science and PhD"
+  },
+  "programs": [
+    {
+      "program_name": "PhD in Computer Science and Engineering (Bellini College of Artificial Intelligence, Cybersecurity and Computing)",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.usf.edu/ai-cybersecurity-computing/academics/graduate/index.aspx",
+      "phd_evidence_quote": "Graduate programs within the college include the existing Master of Science and PhD degrees, which have moved from the Department of Computer Science and Engineering",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/index.aspx",
+          "render": false
+        },
+        {
+          "url": "https://www.usf.edu/ai-cybersecurity-computing/people/affiliate-courtesy.aspx",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Anowarul Kabir",
+        "Taseef Rahman"
+      ],
+      "notes": "Quote spans two lines on the page. Catalog link https://usf.to/PhD-Computer-Science-and-Engineering redirects to https://catalog.usf.edu/preview_program.php?catoid=28&poid=16127&returnto=5315 (HTTP 202; plain fetch empty, rendered title 'Program: Computer Science and Engineering, Ph.D. - University of South Florida'). The college also offers a 'PhD in Data Science and AI (formerly PhD in Big Data Analytics)' (not recorded separately; same faculty list)."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Dong He Xu",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on Bellini, Molecular Biosciences, or Chemistry faculty lists; last_known University of Missouri - likely mis-association."
+    },
+    {
+      "name": "Duolin Wang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on USF faculty lists checked; last_known University of Missouri - likely mis-association."
+    },
+    {
+      "name": "Bi Zhao",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on Bellini, Molecular Biosciences (https://www.usf.edu/arts-sciences/departments/molecular-biosciences/directory/faculty/index.aspx) or Chemistry faculty lists."
+    }
+  ],
+  "problems": [
+    "Molecular Biosciences and Chemistry faculty lists matched no relevant authors; their PhD programs not recorded. USF Health (Morsani) graduate-program URL guessed (https://health.usf.edu/medicine/research/graduate-programs) returned 404; biomedical sciences umbrella not checked further.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

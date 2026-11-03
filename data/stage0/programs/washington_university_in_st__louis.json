@@ -1,0 +1,332 @@
+{
+  "institution": "Washington University in St. Louis",
+  "checked_at": "2026-11-03T09:17:17Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://dbbs.wustl.edu/programs/",
+    "quote": "Each of the 11 programs establishes its own requirements for earning the PhD degree, and progress toward the degree is monitored by the program steering committee."
+  },
+  "programs": [
+    {
+      "program_name": "Computational & Systems Biology PhD (DBBS)",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Division of Biology & Biomedical Sciences (DBBS)",
+      "program_url": "https://dbbs.wustl.edu/programs/computational-system-biology/",
+      "phd_evidence_quote": "Each of the 11 programs establishes its own requirements for earning the PhD degree",
+      "faculty_list_urls": [
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/2/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/3/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/4/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/5/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/6/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/7/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/8/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/9/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/10/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/11/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/12/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/computational-and-systems-biology/page/13/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Carlos Cruchaga",
+        "Benjamin D. Humphreys",
+        "Eva‐Maria Strauch"
+      ],
+      "notes": "PhD quote from the DBBS programs page (https://dbbs.wustl.edu/programs/), which lists CSB among the 11 degree-granting programs. Faculty list is the paginated DBBS directory filtered by program (pages 1-13; page 14 = 404). Entries show 'Program affiliation'."
+    },
+    {
+      "program_name": "Molecular Genetics & Genomics PhD (DBBS)",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Division of Biology & Biomedical Sciences (DBBS)",
+      "program_url": "https://dbbs.wustl.edu/programs/molecular-genetics-genomics/",
+      "phd_evidence_quote": "will find scores of laboratories within the program in which to pursue their doctoral research.",
+      "faculty_list_urls": [
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/2/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/3/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/4/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/5/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/6/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/7/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/8/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/9/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/10/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/11/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/12/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/13/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/14/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/15/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/16/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/17/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/molecular-genetics-and-genomics/page/18/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Carlos Cruchaga",
+        "Benjamin D. Humphreys",
+        "Eva‐Maria Strauch"
+      ],
+      "notes": "Paginated DBBS directory filtered by program (pages 1-18; page 19 = 404). 'Human and Statistical Genetics' exists only as a DBBS faculty tag (https://dbbs.wustl.edu/people/type/program/human-and-statistical-genetics/, 3 pages; matched Carlos Cruchaga) and is not among the 11 programs listed on https://dbbs.wustl.edu/programs/."
+    },
+    {
+      "program_name": "Biomedical Informatics & Data Science PhD (DBBS)",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Division of Biology & Biomedical Sciences (DBBS)",
+      "program_url": "https://dbbs.wustl.edu/programs/biomedical-informatics-data-science/",
+      "phd_evidence_quote": "PhD training in Biomedical Informatics and Data Science (BIDS) at WashU Medicine is offered by the Division of Biology and Biomedical Sciences",
+      "faculty_list_urls": [
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/page/2/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/page/3/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/page/4/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/page/5/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/page/6/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/page/7/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/page/8/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biomedical-informatics-and-data-science/page/9/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Carlos Cruchaga",
+        "Eva‐Maria Strauch"
+      ],
+      "notes": "Faculty leadership from the Institute for Informatics, Data Science and Biostatistics (I2DB). Directory pages 1-9 (page 10 = 404)."
+    },
+    {
+      "program_name": "Biochemistry, Biophysics, & Structural Biology PhD (DBBS)",
+      "degree": "PhD",
+      "discipline": "biophysics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Division of Biology & Biomedical Sciences (DBBS)",
+      "program_url": "https://dbbs.wustl.edu/programs/biochemistry-biophysics-structural-biology/",
+      "phd_evidence_quote": "Each of the 11 programs establishes its own requirements for earning the PhD degree",
+      "faculty_list_urls": [
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/2/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/3/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/4/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/5/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/6/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/7/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/8/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/9/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/10/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/11/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/12/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/13/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/14/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/15/",
+          "render": false
+        },
+        {
+          "url": "https://dbbs.wustl.edu/people/type/program/biochemistry-biophysics-and-structural-biology/page/16/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Eva‐Maria Strauch"
+      ],
+      "notes": "PhD quote from https://dbbs.wustl.edu/programs/. Directory pages 1-16 (page 17 = 404)."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Eric P. Xing",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on DBBS lists; last_known MBZUAI / Carnegie Mellon - likely mis-association."
+    },
+    {
+      "name": "Jared V. Balbona",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on DBBS faculty lists (likely trainee/staff)."
+    },
+    {
+      "name": "Daniel Western",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on DBBS faculty lists (likely trainee/staff)."
+    },
+    {
+      "name": "Lydia Freddolino",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on DBBS lists; last_known University of Michigan."
+    }
+  ],
+  "problems": [
+    "No WashU biostatistics PhD found: I2DB education pages (https://i2db.wustl.edu/) list a Master's in Biostatistics and Data Science and link the BIDS PhD only.",
+    "Plant & Microbial Biosciences faculty pages (1-6) checked for peripheral authors (Vierstra, Yuan): no match; program not recorded.",
+    "McKelvey Engineering programs (CSE, BME) not checked: no matched direction-B author besides Strauch (DBBS).",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

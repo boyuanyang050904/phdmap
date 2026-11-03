@@ -1,0 +1,33 @@
+{
+ "institution": "Philadelphia University",
+ "checked_at": "2026-11-03T09:29:10Z",
+ "grants_phd": null,
+ "grants_phd_evidence": null,
+ "programs": [],
+ "unmatched_core_authors": [
+  {
+   "name": "Eugene Katsevich",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known lists University of Pennsylvania alongside Philadelphia University; Philadelphia University association appears to be an OpenAlex affiliation-matching artifact. Not found on Wharton Statistics faculty page (plain fetch, possibly JS-built)."
+  },
+  {
+   "name": "Eric Tchetgen Tchetgen",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Same as above (University of Pennsylvania per OpenAlex last_known); not matched on Wharton Statistics faculty page (plain fetch)."
+  },
+  {
+   "name": "Jacob R. Gardner",
+   "program_found": null,
+   "evidence_url": "https://www.cis.upenn.edu/faculty/",
+   "note": "Listed on University of Pennsylvania CIS faculty page, i.e. a Penn (not Philadelphia University) faculty member; map under University of Pennsylvania instead."
+  }
+ ],
+ "problems": [
+  "Official homepage from OpenAlex (http://www.philau.edu/) returned status 503; https://www.philau.edu/ UNREACHABLE (host does not resolve / TLS error) - could not verify whether the institution exists/grants PhDs, so grants_phd=null",
+  "https://www.jefferson.edu/ fetched (200) but no fetched text confirming a Philadelphia University merger or PhD offerings; not used as evidence",
+  "All 4 relevant authors are University of Pennsylvania researchers per OpenAlex last_known; Jacob R. Gardner and Konrad Paul Kording confirmed on https://www.cis.upenn.edu/faculty/. Institution attribution likely spurious; no programs recorded",
+  "WebSearch unavailable (budget exhausted)"
+ ]
+}

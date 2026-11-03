@@ -21,7 +21,7 @@ def page_text(html: str) -> str:
     soup = BeautifulSoup(html, "lxml")
     for t in soup(["script", "style", "noscript"]):
         t.decompose()
-    txt = soup.get_text(" ", strip=True)
+    txt = soup.get_text(" ", strip=True).replace(",", " qqcommaqq ")
     # also include link texts/alts/titles and mailto/profile slugs (names often live in hrefs)
     extras = []
     for a in soup.find_all(["a", "img"]):
@@ -29,7 +29,9 @@ def page_text(html: str) -> str:
             v = a.get(attr)
             if v:
                 extras.append(v.replace("-", " ").replace("_", " ").replace("/", " ").replace(".", " "))
-    return norm(txt + " " + " ".join(extras))
+    # commas are kept as a " , " token: "Last, First" ordering can then be recognised and a
+    # forward "first ... last" match cannot span two comma-separated names
+    return norm(txt + " " + " ".join(extras)).replace("qqcommaqq", ",")
 
 
 DEGREES = {"phd", "md", "dr", "prof", "professor", "mph", "scd", "msc", "ms", "mba", "dphil", "bs", "ba",
@@ -89,7 +91,8 @@ def find_name(text: str, variants: set[tuple[str, str]], middles: set[str] | Non
     for first, last in variants:
         fl = re.escape(first)
         ll = re.escape(last)
-        pat = rf"\b{fl}(?: {mid_word}){{0,2}} {ll}\b|\b{ll} {fl}\b"
+        # forward order, or reversed only when written "Last, First" (avoids Guo-Wei Wei ~ "Wei Guo")
+        pat = rf"\b{fl}(?: {mid_word}){{0,2}} {ll}\b|\b{ll} , {fl}\b"
         m = re.search(pat, text)
         if m:
             return text[max(0, m.start() - 30): m.end() + 30]

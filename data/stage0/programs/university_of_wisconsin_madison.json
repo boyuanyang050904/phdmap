@@ -10,7 +10,7 @@
   {
    "degree": "PhD",
    "umbrella_name": null,
-   "notes": "Department of Biostatistics and Medical Informatics; its education page offers an 'MS Degree Program in Biomedical Data Science' and a 'Doctoral Degree Program in Biomedical Data Science' (no separately named Biostatistics PhD found; a 'Biostatistics Degree Option' is mentioned). biostat.wisc.edu/people/ includes affiliate faculty (e.g. Wayment-Steele).",
+   "notes": "Department of Biostatistics and Medical Informatics; 'The program blends the best of statistics, computer sciences, biostatistics and biomedical informatics.' biostat.wisc.edu/people/ includes affiliate faculty (e.g. Wayment-Steele).",
    "program_name": "PhD in Biomedical Data Science",
    "discipline": "comp_bio",
    "program_type": "independent",
@@ -58,6 +58,31 @@
     "Guanhua Chen",
     "Xiao Luo"
    ]
+  },
+  {
+   "program_name": "PhD Statistics, Biostatistics Option",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://stat.wisc.edu/graduate-admissions/phd-program/",
+   "phd_evidence_quote": "PhD Statistics, Biostatistics Option",
+   "faculty_list_urls": [
+    {
+     "url": "https://stat.wisc.edu/people-main-faculty/",
+     "render": true
+    },
+    {
+     "url": "https://biostat.wisc.edu/people/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Sündüz Keleş",
+    "Qiongshi Lu",
+    "Guanhua Chen"
+   ],
+   "notes": "Option within the Statistics PhD (guide: https://guide.wisc.edu/graduate/statistics/statistics-phd/statistics-biostatistics-phd/). Matched = authors on both the Statistics faculty list (rendered) and the BMI people page; option-specific faculty roster not found."
   },
   {
    "degree": "PhD",
@@ -186,7 +211,7 @@
  "problems": [
   "WebSearch budget exhausted; URLs found by navigating official wisc.edu sites and guide.wisc.edu.",
   "biophysics.wisc.edu/labs/ faculty list unreadable (plain and rendered).",
-  "No standalone Biostatistics PhD found on fetched pages; BMI offers the Biomedical Data Science PhD (with a 'Biostatistics Degree Option' mentioned on https://biostat.wisc.edu/education/, not explored).",
-  "Biomedical Engineering PhD not recorded: guide page had 0 relevant names and the relevant author (Romero) has moved to Duke."
+  "Biomedical Engineering PhD not recorded: guide page had 0 relevant names and the relevant author (Romero) has moved to Duke.",
+  "Biostatistics at UW is offered as the 'Biostatistics Option' of the Statistics PhD (stat.wisc.edu) and via the BMI Biomedical Data Science PhD; no standalone Biostatistics PhD found."
  ]
 }

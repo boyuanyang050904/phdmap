@@ -1,0 +1,129 @@
+{
+  "institution": "The University of Texas MD Anderson Cancer Center",
+  "checked_at": "2026-11-03T09:24:23Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://gsbs.uth.edu/programs/index.htm",
+    "quote": "UT MD Anderson UTHealth Houston Graduate (GSBS) is a partnership between two institutions: UT MD Anderson and UTHealth Houston. ... Students pursuing their PhD degree at the GSBS may work with outstanding faculty at both UT MD Anderson and UTHealth Houston."
+  },
+  "programs": [
+    {
+      "program_name": "Biomedical Data and AI-Driven Decision Sciences (BDADS; formerly Quantitative Sciences) PhD Program",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences (GSBS) - umbrella admission",
+      "program_url": "https://gsbs.uth.edu/biomedical-data-ai-decision-sciences/",
+      "phd_evidence_quote": "Students must affiliate with one of 9 PhD programs within their first year at GSBS.",
+      "faculty_list_urls": [
+        {
+          "url": "https://gsbs.uth.edu/directory/?ptype=faculty&prg=quantitativeSciences",
+          "render": false
+        },
+        {
+          "url": "https://gsbs.uth.edu/directory/?page=2&ptype=faculty&prg=quantitativeSciences",
+          "render": false
+        },
+        {
+          "url": "https://gsbs.uth.edu/directory/?page=3&ptype=faculty&prg=quantitativeSciences",
+          "render": false
+        },
+        {
+          "url": "https://gsbs.uth.edu/directory/?page=4&ptype=faculty&prg=quantitativeSciences",
+          "render": false
+        },
+        {
+          "url": "https://gsbs.uth.edu/directory/?page=5&ptype=faculty&prg=quantitativeSciences",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Arjun Bhattacharya",
+        "James Patrick Long",
+        "Muxuan Liang",
+        "Sanjay S. Shete",
+        "Ryan Sun",
+        "Chong Wu",
+        "Zhongming Zhao"
+      ],
+      "notes": "Listed under 'PhD Programs' on the GSBS program directory (quote is from that page). Program page: 'The study of biostatistics, bioinformatics, systems biology and genomics focuses on developing and applying statistical and mathematical models...' and 'QS Program ranks #13 in Biostatistics on U.S. News & World Report list'. Old URL gsbs.uth.edu/quantitative-sciences/ redirects here. Covers biostatistics + bioinformatics (not a pure biostat PhD). Faculty directory is 5 pages."
+    },
+    {
+      "program_name": "Genetics & Epigenetics (G&E) PhD Program",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences (GSBS) - umbrella admission",
+      "program_url": "https://gsbs.uth.edu/genetics-and-epigenetics/index.htm",
+      "phd_evidence_quote": "The Genetics & Epigenetics (G&E) Program is a research-oriented PhD and MS program at The University of Texas MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences.",
+      "faculty_list_urls": [
+        {
+          "url": "https://gsbs.uth.edu/directory/?ptype=faculty&prg=geneticsAndEpigenetics",
+          "render": false
+        },
+        {
+          "url": "https://gsbs.uth.edu/directory/?page=5&ptype=faculty&prg=geneticsAndEpigenetics",
+          "render": false
+        },
+        {
+          "url": "https://gsbs.uth.edu/directory/?page=6&ptype=faculty&prg=geneticsAndEpigenetics",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Chong Wu",
+        "John A. Tainer",
+        "Zhongming Zhao"
+      ],
+      "notes": "Directory has 6 pages (all 6 matched; hits on pages 5 and 6)."
+    },
+    {
+      "program_name": "Molecular & Translational Biology (MTB) Graduate Program",
+      "degree": "PhD",
+      "discipline": "biochemistry",
+      "program_type": "umbrella_track",
+      "umbrella_name": "MD Anderson Cancer Center UTHealth Houston Graduate School of Biomedical Sciences (GSBS) - umbrella admission",
+      "program_url": "https://gsbs.uth.edu/molecular-and-translational-biology/",
+      "phd_evidence_quote": "The program equips MS, PhD and MD/PhD students with a robust training in the fields of molecular biology, biochemistry, cellular biology and genetic engineering ranging from structural biology to whole organism physiology",
+      "faculty_list_urls": [
+        {
+          "url": "https://gsbs.uth.edu/directory/?ptype=faculty&prg=biochemistryAndCellBiology",
+          "render": false
+        },
+        {
+          "url": "https://gsbs.uth.edu/directory/?page=5&ptype=faculty&prg=biochemistryAndCellBiology",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "John A. Tainer"
+      ],
+      "notes": "Directory code 'biochemistryAndCellBiology'; 6 pages, all matched. Only peripheral B author (Tainer, structural biology)."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "Yogesh Goyal",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "OpenAlex last_known Northwestern; not on GSBS directories."
+    },
+    {
+      "name": "Yunlong Liu",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on BDADS or G&E directory pages."
+    },
+    {
+      "name": "Yutaka Yasui",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known St. Jude; not on GSBS directories."
+    }
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites (gsbs.uth.edu).",
+    "MD Anderson itself (mdanderson.org) not fetched; degree-granting established via the joint MD Anderson-UTHealth Houston GSBS pages. The fetched text does not state which institution's name is on the diploma.",
+    "The specific BDADS page does not itself contain the word 'PhD' in the fetched text; PhD status taken from the GSBS program directory listing it under 'PhD Programs'."
+  ]
+}

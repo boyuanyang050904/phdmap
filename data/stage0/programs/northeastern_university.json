@@ -1,0 +1,126 @@
+{
+ "institution": "Northeastern University",
+ "checked_at": "2026-11-03T09:16:16Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-phd/",
+  "quote": "The PhD in Computer Science is designed to prepare students for careers in academia, industrial and national research labs"
+ },
+ "programs": [
+  {
+   "program_name": "Computer Science PhD (Khoury College)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-phd/",
+   "phd_evidence_quote": "The PhD in Computer Science is designed to prepare students for careers in academia, industrial and national research labs, and technical leadership in industry and government.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.khoury.northeastern.edu/people/?filters%5B%5D=people_roles%7C931#meet-the-people",
+     "render": false
+    },
+    {
+     "url": "https://www.khoury.northeastern.edu/people/predrag-radivojac/",
+     "render": false
+    },
+    {
+     "url": "https://www.khoury.northeastern.edu/people/wengong-jin/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Predrag Radivojac A",
+    "Wengong Jin"
+   ],
+   "notes": "Khoury tenure-track faculty listing is JS-built (0 matches plain; rendered fetch returned 502). Matches from individual profiles: Radivojac 'professor in the Khoury College of Computer Sciences'; Jin 'assistant professor in the Khoury College of Computer Sciences'."
+  },
+  {
+   "program_name": "Biomedical Science PhD (Bouvé, Dept. of Pharmaceutical Sciences)",
+   "degree": "PhD",
+   "discipline": "other:pharmaceutical_sciences",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.northeastern.edu/graduate/health-sciences/pharmacy/biomedical-sciences-phd/",
+   "phd_evidence_quote": "The PhD program in Biomedical Science focuses on the cross-disciplinary integration of human (patho)biology with drug action, invention, and clinical utility.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bouve.northeastern.edu/directory/lei-xie/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Lei Xie"
+   ],
+   "notes": "Lei Xie profile: 'Professor, Pharmaceutical and Biomedical Sciences'. Program membership inferred from department (no program faculty list fetched); Pharmacology / Medicinal Chemistry and Drug Discovery / Pharmaceutics PhDs in the same department are alternatives."
+  },
+  {
+   "program_name": "Biophysics PhD",
+   "degree": "PhD",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.northeastern.edu/graduate/science/interdisciplinary/biophysics-phd-bos/",
+   "phd_evidence_quote": "The Biophysics PhD program at Northeastern University is a combined and cross-disciplinary program that draws expertise from the physics, biology, and chemistry departments.",
+   "faculty_list_urls": [
+    {
+     "url": "https://cos.northeastern.edu/biophysics-phd/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Srirupa Chakraborty"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "Bioengineering PhD",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.northeastern.edu/graduate/engineering/bioengineering/bioengineering-bachelors-degree-entrance-phd/",
+   "phd_evidence_quote": "Bioengineering, PhD (Boston)",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioe.northeastern.edu/faculty/faculty-directory/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Directory matched 0 (likely JS-built; rendered fetch returned 502). Peripheral authors Sidi A. Bencherif, Jiahe Li unverified."
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.northeastern.edu/graduate/science/chemistry-chemical-biology/chemistry-phd/",
+   "phd_evidence_quote": "The PhD program in chemistry is designed for students who have earned a bachelor’s or a master’s degree in chemistry or related areas and who wish to earn a doctorate in chemistry.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Faculty list not fetched (no core authors expected here)."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Wangxin Xiao",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known 'Northeastern University' + Shaoyang University suggests Northeastern University (Shenyang, China), a different institution."
+  },
+  {
+   "name": "J Engreitz",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Stanford/Broad; Northeastern association spurious/historical."
+  }
+ ],
+ "problems": [
+  "OpenAlex 'Northeastern University' author set likely mixes in Northeastern University (China) authors (e.g. Guibing Guo, Wangxin Xiao, Xiangling Liu)",
+  "Rendered fetches (Khoury people listing, BioE directory) returned status 502",
+  "No Bioinformatics PhD listed in the 2026 catalog PhD program list",
+  "WebSearch unavailable (budget exhausted)"
+ ]
+}

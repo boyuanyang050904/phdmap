@@ -68,12 +68,12 @@
   {
    "degree": "PhD",
    "umbrella_name": null,
-   "notes": "Home page: 'The goal of the Program is to provide an educational structure for graduate students at The Ohio State University to develop as scientists at this interface of physics and biology.' The fetched home / prospective-students / steps-apply pages do not state the degree (PhD) explicitly.",
+   "notes": "PhD quote from https://biophysics.osu.edu/prospective-students/steps-apply (which also lists 'Biophysics-PhD and Biophysics-MS').",
    "program_name": "Biophysics Graduate Program",
    "discipline": "biophysics",
    "program_type": "independent",
    "program_url": "https://biophysics.osu.edu/",
-   "phd_evidence_quote": null,
+   "phd_evidence_quote": "Fee waivers are available through the Biophysics PhD Program for domestic students with a 3.0 cumulative GPA and above.",
    "faculty_list_urls": [
     {
      "url": "https://biophysics.osu.edu/people?field_appointment_target_id%5B4%5D=4",
@@ -107,12 +107,12 @@
   {
    "degree": "PhD",
    "umbrella_name": null,
-   "notes": "Department of Chemistry and Biochemistry; site links a 'Chemistry Graduate Program Handbook', but no fetched page text states the PhD explicitly (chemistry.osu.edu/graduate gave no PhD text). Steffen Lindert not found on the people page (grep 'Lindert' empty).",
+   "notes": "Department of Chemistry and Biochemistry. Steffen Lindert not found on the people page (grep 'Lindert' empty).",
    "program_name": "Chemistry and Biochemistry graduate program (Chemistry PhD)",
    "discipline": "chemistry",
    "program_type": "independent",
-   "program_url": "https://chemistry.osu.edu/",
-   "phd_evidence_quote": null,
+   "program_url": "https://chemistry.osu.edu/graduate",
+   "phd_evidence_quote": "Apply to Chemistry Ph.D Program",
    "faculty_list_urls": [
     {
      "url": "https://chemistry.osu.edu/people",
@@ -159,7 +159,6 @@
  "problems": [
   "BLOCKED by robots.txt: https://cse.osu.edu/ (Computer Science and Engineering PhD not checked).",
   "UNREACHABLE: https://biochemistry.osu.edu/ (used osbp.osu.edu).",
-  "Biophysics Graduate Program and Chemistry PhD: degree not explicitly stated on fetched pages; phd_evidence_quote null.",
   "WebSearch budget exhausted; URLs found by navigating official osu.edu pages."
  ]
 }

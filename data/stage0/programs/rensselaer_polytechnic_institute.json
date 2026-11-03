@@ -1,0 +1,39 @@
+{
+  "institution": "Rensselaer Polytechnic Institute",
+  "checked_at": "2026-11-03T09:31:00Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://chemistry.rpi.edu/programs/phd-chemistry", "quote": "To complete the Ph.D., students must meet institutional and departmental requirements including an oral candidacy examination and a final defense of the doctoral thesis"},
+  "programs": [
+    {"program_name": "Ph.D in Biochemistry and Biophysics (Biological Sciences)", "degree": "PhD", "discipline": "biochemistry", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://biology.rpi.edu/programs/phd-biochemistry-and-biophysics",
+     "phd_evidence_quote": "Candidates for the Ph.D. must satisfy the requirements of the Graduate Program Committee (GPC) including passing the first year Core Course",
+     "faculty_list_urls": [{"url": "https://biology.rpi.edu/programs/phd-biochemistry-and-biophysics", "render": false}, {"url": "https://biology.rpi.edu/people", "render": false}],
+     "matched_authors": ["Mattheos A. G. Koffas", "Gaetano Thomas Montelione"],
+     "notes": "Both names appear on the program page itself. The biology people page matched only Koffas."},
+    {"program_name": "Ph.D in Chemistry (Chemistry and Chemical Biology)", "degree": "PhD", "discipline": "chemistry", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://chemistry.rpi.edu/programs/phd-chemistry",
+     "phd_evidence_quote": "To complete the Ph.D., students must meet institutional and departmental requirements including an oral candidacy examination and a final defense of the doctoral thesis",
+     "faculty_list_urls": [{"url": "https://chemistry.rpi.edu/people", "render": false}, {"url": "https://chemistry.rpi.edu/research/biophysics-biochemistry-and-chemical-biology", "render": false}],
+     "matched_authors": ["Steven Cramer", "Gaetano Thomas Montelione"],
+     "notes": "Montelione is also on the Biophysics, Biochemistry and Chemical Biology research-area page."},
+    {"program_name": "Chemical and Biological Engineering, Ph.D.", "degree": "PhD", "discipline": "other:chemical_engineering", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://cbe.rpi.edu/graduate/doctoral-program",
+     "phd_evidence_quote": "Within the Chemical and Biological Engineering Department, 72 credits of graduate-level studies, including the dissertation, are required for a Ph.D.",
+     "faculty_list_urls": [{"url": "https://cbe.rpi.edu/people", "render": false}],
+     "matched_authors": ["Steven Cramer", "Mattheos A. G. Koffas"],
+     "notes": "Included for the core-B author Koffas (metabolic/protein engineering)."},
+    {"program_name": "Ph.D. in Biomedical Engineering", "degree": "PhD", "discipline": "bioengineering", "program_type": "independent",
+     "umbrella_name": null, "program_url": "https://bme.rpi.edu/programs/phd-biomedical-engineering",
+     "phd_evidence_quote": "Ph.D. in Biomedical Engineering | Biomedical Engineering",
+     "faculty_list_urls": [{"url": "https://bme.rpi.edu/people", "render": false}],
+     "matched_authors": ["Steven Cramer"],
+     "notes": ""}
+  ],
+  "unmatched_core_authors": [
+    {"name": "Yuanpeng Janet Huang", "program_found": null, "evidence_url": null, "note": "No 'Huang' in the Chemistry people page text, and not on the Biology, CBE or BME people pages. Guessed faculty.rpi.edu profile URLs returned 404. Probably research staff in the Montelione lab. Profile not located without WebSearch."}
+  ],
+  "problems": [
+    "No PhD program was checked for Ali Tajer (peripheral A, ECSE); RPI has no biostatistics or genomics PhD found by navigation.",
+    "WebSearch budget exhausted; URLs found by navigating official sites."
+  ]
+}

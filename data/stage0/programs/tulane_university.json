@@ -1,0 +1,69 @@
+{
+ "institution": "Tulane University",
+ "checked_at": "2026-11-03T09:23:54Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://sph.tulane.edu/bios/phd",
+  "quote": "The PhD program in Biostatistics educates advanced students in the theory and application of biostatistics and data science methods"
+ },
+ "programs": [
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "School of Public Health and Tropical Medicine. Hong-Wen Deng not on the SPH Faculty A-Z page (grep 'Deng' empty); no department-specific faculty page found (/bios/faculty, /bios/people 404).",
+   "program_name": "PhD in Biostatistics",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "program_url": "https://sph.tulane.edu/bios/phd",
+   "phd_evidence_quote": "The PhD program in Biostatistics educates advanced students in the theory and application of biostatistics and data science methods",
+   "faculty_list_urls": [
+    {
+     "url": "https://sph.tulane.edu/all-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Samuel Kakraba"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "Both OpenAlex records for Hong-Wen Deng matched (same person); page text lists 'Hong-Wen Deng' (role on CS people page not determined; may be affiliated/adjunct).",
+   "program_name": "Computer Science PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://sse.tulane.edu/cs/computer-science-phd",
+   "phd_evidence_quote": "The PhD Program in Computer Science guides students from the beginning of graduate study in Computer Science all the way through to completion of their dissertation research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://sse.tulane.edu/cs/people?dept=3796",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Hong‐Wen Deng",
+    "Hong-Wen Deng",
+    "Ramgopal R. Mettu"
+   ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "School of Medicine umbrella; specialties include Biomedical Informatics, Medical Genetics and Genomics, Biochemistry and Molecular Biology. No faculty roster checked.",
+   "program_name": "Biomedical Sciences Graduate Program (PhD in Biomedical Science)",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://medicine.tulane.edu/education/biomedical-sciences-graduate-program",
+   "phd_evidence_quote": "PhD candidates graduate with a Biomedical Science degree and may specialize in one of the basic science Master's specialties listed above.",
+   "faculty_list_urls": [],
+   "matched_authors": []
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "Hong-Wen Deng (core A; Center for Biomedical Informatics & Genomics) not found on SPH faculty A-Z; his Biostatistics PhD / BMS membership is unverified (only matched on CS people page).",
+  "BMS umbrella faculty roster not found/checked.",
+  "WebSearch budget exhausted; URLs found by navigating official tulane.edu sites."
+ ]
+}

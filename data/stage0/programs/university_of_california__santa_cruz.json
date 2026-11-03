@@ -1,0 +1,84 @@
+{
+ "institution": "University of California, Santa Cruz",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://grad.engineering.ucsc.edu/bmeb/",
+  "quote": "The Department of Biomolecular Engineering at UC Santa Cruz offers interdisciplinary M.S. and Ph.D. degrees in biomolecular engineering and bioinformatics"
+ },
+ "programs": [
+  {
+   "program_name": "Biomolecular Engineering and Bioinformatics Ph.D.",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "program_url": "https://grad.engineering.ucsc.edu/bmeb/",
+   "phd_evidence_quote": "The Department of Biomolecular Engineering at UC Santa Cruz offers interdisciplinary M.S. and Ph.D. degrees in biomolecular engineering and bioinformatics, welcoming students from a wide variety of academic fields.",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.ucsc.edu/departments/biomolecular-engineering/people/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Benedict Paten",
+    "Alexander G. Ioannidis",
+    "Andy Hsien-Wei Yeh"
+   ],
+   "notes": "Linked from https://engineering.ucsc.edu/departments/biomolecular-engineering/degree-programs/ ('Biomolecular Engineering and Bioinformatics Ph.D.'). Serves both direction A (Paten, Ioannidis) and B (Yeh).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemistry Ph.D.",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "program_url": "https://chemistry.ucsc.edu/academics/graduate/",
+   "phd_evidence_quote": "Chemistry Ph.D.",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.ucsc.edu/people-auto/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Catalog link: https://catalog.ucsc.edu/en/current/general-catalog/academic-units/physical-and-biological-sciences-division/chemistry-and-biochemistry/chemistry-phd/ (not fetched). Core type for direction B; no matches.",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Chemical Biology, Biochemistry, & Biophysics Ph.D.",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "program_url": "https://chemistry.ucsc.edu/academics/graduate/",
+   "phd_evidence_quote": "Chemical Biology, Biochemistry, & Biophysics Ph.D.",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.ucsc.edu/people-auto/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Listed on the Chemistry & Biochemistry graduate page; a program-specific (possibly cross-departmental) faculty roster was not found, so only the Chemistry & Biochemistry people page was matched (0).",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Tanja Kortemme",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "last_known affiliations QB3 / UCSF / CZ Biohub SF; not on UCSC Biomolecular Engineering or Chemistry people pages. Likely associated with UCSC only via QB3; not UCSC faculty (not verified further)."
+  },
+  {
+   "name": "Bronwyn A. Lucas",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "last_known affiliations QB3 / LBNL / UC Berkeley; not on UCSC pages checked. Likely QB3-only association."
+  }
+ ],
+ "problems": [
+  "Peripheral authors Jamie H. D. Cate, Andrej Šali, Susan Marqusee (QB3 / Berkeley / UCSF) and David Bonet not matched at UCSC; the QB3 authors are presumably not UCSC faculty.",
+  "Guessed URLs https://chemistry.ucsc.edu/faculty/index.html and https://mcd.ucsc.edu/faculty/index.html returned 404; MCD Biology, Statistics and CSE PhDs not checked (all matched relevant UCSC authors already placed in BMEB)."
+ ],
+ "checked_at": "2026-11-03T09:22:34Z"
+}
