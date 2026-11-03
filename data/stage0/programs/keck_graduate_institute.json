@@ -1,0 +1,18 @@
+{
+  "institution": "Keck Graduate Institute",
+  "institution_kind": "independent_institute",
+  "checked_at": "2026-11-03T09:05:23Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {"url": "https://www.kgi.edu/degrees-and-programs/applied-life-sciences/doctor-of-philosophy-in-applied-life-sciences.html", "quote": "The Doctor of Philosophy (PhD) in Applied Life Sciences at Keck Graduate Institute (KGI) positions you at the forefront of the biosciences industry with advanced bioscience expertise in research, discovery, and application."},
+  "programs": [
+    {"program_name": "Doctor of Philosophy in Applied Life Sciences", "degree": "PhD", "discipline": "other:applied_life_sciences", "program_type": "independent",
+     "umbrella_name": null,
+     "program_url": "https://www.kgi.edu/degrees-and-programs/applied-life-sciences/doctor-of-philosophy-in-applied-life-sciences.html",
+     "phd_evidence_quote": "KGI’s PhD in Applied Life Sciences degree program blends the scientific rigor of laboratory research with the business insights essential to the bioscience industry.",
+     "faculty_list_urls": [{"url": "https://www.kgi.edu/people/index.html", "render": true}, {"url": "https://www.kgi.edu/people/animesh-ray.html", "render": false}, {"url": "https://www.kgi.edu/people/ilya-tolstorukov.html", "render": false}],
+     "matched_authors": ["Animesh Ray", "Ilya Tolstorukov"],
+     "notes": "Program page: 'KGI Offers Two Tracks in PhD' (Traditional Track: 'you conduct your PhD studies on KGI’s campus under the supervision of faculty from the Henry E. Riggs School of Applied Life Sciences, the School of Pharmacy, or the School of Health Sciences'). People directory is a JS-paginated table ('Showing 1 to 25 of 201 entries', first/last names in separate cells) so match found nothing there; matches come from the individual KGI profile pages. Animesh Ray profile: 'Animesh Ray, PhD' ... 'He was KGI's faculty chair (2010-2016) and director of KGI's PhD program (2006-2016).' Tolstorukov profile: 'Ilya Tolstorukov, PhD, DSc' who 'joined the Keck Graduate Institute (KGI) of Applied Life Sciences in May 2001' (current title/school not shown in extracted text)."}
+  ],
+  "unmatched_core_authors": [],
+  "problems": ["People directory https://www.kgi.edu/people/index.html is unreadable for name matching even with --render (paginated, names split across cells); used guessed profile URLs https://www.kgi.edu/people/animesh-ray.html and https://www.kgi.edu/people/ilya-tolstorukov.html, both fetched (HTTP 200). PhD-program faculty membership is inferred from KGI faculty status plus the program's statement that Traditional Track students are supervised by Riggs School / Pharmacy / Health Sciences faculty; no explicit PhD-program faculty roster found."]
+}

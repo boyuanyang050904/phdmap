@@ -1,0 +1,203 @@
+{
+ "institution": "University of Illinois Urbana-Champaign",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://bioengineering.illinois.edu/academics/graduate/PhD",
+  "quote": "All PhD students must successfully pass the Qualifying exam, Preliminary exam, Final Defense and deposit a dissertation."
+ },
+ "programs": [
+  {
+   "program_name": "Biophysics and Quantitative Biology PhD (Center for Biophysics and Quantitative Biology)",
+   "degree": "PhD",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://biophysics.illinois.edu/academics/courses-requirements",
+   "phd_evidence_quote": "Biophysics Doctoral Degree Requirements",
+   "faculty_list_urls": [
+    {
+     "url": "https://biophysics.illinois.edu/directory/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Huimin Zhao",
+    "Sergei Maslov",
+    "Diwakar Shukla",
+    "Zaida Ann Luthey-Schulten",
+    "Emad Tajkhorshid",
+    "Yang‐Yu Liu"
+   ],
+   "notes": "Admissions page lists program code 'Biophysics and Quantitative Biology = 10KS5414PHD'. Huimin Zhao has two OpenAlex records (listed once)."
+  },
+  {
+   "program_name": "Ph.D. in Bioengineering",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://bioengineering.illinois.edu/academics/graduate/PhD",
+   "phd_evidence_quote": "All PhD students must successfully pass the Qualifying exam, Preliminary exam, Final Defense and deposit a dissertation.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+     "render": false
+    },
+    {
+     "url": "https://bioengineering.illinois.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Saurabh Sinha",
+    "Huimin Zhao",
+    "Sergei Maslov",
+    "Diwakar Shukla",
+    "Emad Tajkhorshid",
+    "Yang‐Yu Liu"
+   ],
+   "notes": "'Graduate Program Faculty' list."
+  },
+  {
+   "program_name": "Computer Science Ph.D. (Siebel School of Computing and Data Science)",
+   "degree": "PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://siebelschool.illinois.edu/academics/graduate/phd-program",
+   "phd_evidence_quote": "The Ph.D. (Doctor of Philosophy) requires original research, specialization, and a thesis.",
+   "faculty_list_urls": [
+    {
+     "url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Haohan Wang",
+    "Mohammed El-Kebir",
+    "Ge Liu",
+    "Hanghang Tong",
+    "Jingrui He",
+    "Heng Ji",
+    "Deming Chen",
+    "Dong Wang"
+   ],
+   "notes": "All-faculty list may include affiliates."
+  },
+  {
+   "program_name": "Chemical & Biomolecular Engineering Doctoral Program",
+   "degree": "PhD",
+   "discipline": "other:chemical_biomolecular_engineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://chbe.illinois.edu/academics/graduate",
+   "phd_evidence_quote": "Ph.D. students typically take about eight courses in their first two years",
+   "faculty_list_urls": [
+    {
+     "url": "https://chbe.illinois.edu/people/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Huimin Zhao",
+    "Diwakar Shukla"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "Chemistry PhD",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://chemistry.illinois.edu/admissions/graduate/graduate-degrees-chemistry",
+   "phd_evidence_quote": "The requirements for a Ph.D. degree involve formal course work, a seminar presentation, special examinations, teaching, and research leading to the Ph.D. thesis.",
+   "faculty_list_urls": [
+    {
+     "url": "https://chemistry.illinois.edu/directory/faculty-by-type",
+     "render": false
+    },
+    {
+     "url": "https://chemistry.illinois.edu/directory/faculty",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Huimin Zhao",
+    "Diwakar Shukla",
+    "Emad Tajkhorshid",
+    "Zaida Ann Luthey-Schulten"
+   ],
+   "notes": "Zhao, Shukla listed as 'Faculty Affiliate in Chemistry'. Luthey-Schulten appears as 'Zaida (Zan)  Luthey-Schulten' (matcher missed her because of the nickname; verified by text grep on faculty-by-type page). Page also says 'a student may choose to work with any faculty member in the Department of Chemistry'."
+  },
+  {
+   "program_name": "PhD Programs, School of Molecular & Cellular Biology (incl. Biochemistry)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://mcb.illinois.edu/academics/phd-programs",
+   "phd_evidence_quote": "PhD students are an integral part of the university's and school’s traditions of excellence.",
+   "faculty_list_urls": [
+    {
+     "url": "https://mcb.illinois.edu/directory/faculty",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Huimin Zhao",
+    "Emad Tajkhorshid"
+   ],
+   "notes": "MCB PhD programs page mentions 'Biochemistry'; specific Biochemistry PhD page not fetched, so program-level split not verified."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Douglas A. Mitchell",
+   "program_found": null,
+   "evidence_url": "https://chemistry.illinois.edu/directory/faculty-by-type",
+   "note": "Name not found on Chemistry faculty-by-type page; OpenAlex last_known includes Vanderbilt."
+  },
+  {
+   "name": "Sarfaraz K. Niazi",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched UIUC faculty list."
+  },
+  {
+   "name": "Ananthan Nambiar",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on faculty lists (likely trainee)."
+  },
+  {
+   "name": "Yogesh Goyal",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known Northwestern - not UIUC faculty."
+  },
+  {
+   "name": "Costas D. Maranas",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known Penn State - not on UIUC lists."
+  },
+  {
+   "name": "Huiping Liu",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known Northwestern."
+  },
+  {
+   "name": "Lydia Freddolino",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known includes Michigan; not on UIUC lists."
+  }
+ ],
+ "problems": [
+  "https://biophysics.illinois.edu/people/faculty and https://mcb.illinois.edu/faculty/ were 404; used /directory/faculty pages instead.",
+  "No relevant UIUC statistics/biostatistics PhD checked: no core direction-A UIUC faculty (direction-A authors are peripheral)."
+ ],
+ "checked_at": "2026-11-03T09:05:13Z"
+}

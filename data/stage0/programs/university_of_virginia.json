@@ -1,0 +1,169 @@
+{
+ "institution": "University of Virginia",
+ "checked_at": "2026-11-03T09:05:06Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://med.virginia.edu/education/biomedical-sciences",
+  "quote": "The Doctor of Philosophy, a PhD, can be earned by students who successfully complete their studies in one of the degree-granting departments/entities that participate in the BIMS program."
+ },
+ "programs": [
+  {
+   "program_name": "PhD Program in Computational Biology",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Sciences Graduate Program (BIMS)",
+   "program_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/computational-biology/",
+   "phd_evidence_quote": "UVA's Ph.D. Program in Computational Biology equips",
+   "faculty_list_urls": [
+    {
+     "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/computational-biology/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Wei‐Min Chen",
+    "Stephen S. Rich",
+    "Ani W Manichaikul"
+   ],
+   "notes": "Listed under BIMS 'Ph.D. Degree Options'.",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "PhD in Biochemistry & Molecular Genetics",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Sciences Graduate Program (BIMS)",
+   "program_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+   "phd_evidence_quote": "The Department of Biochemistry and Molecular Genetics offers a comprehensive personalized program of study that incorporates both didactic and practical training leading to the Doctorate in Biochemistry.",
+   "faculty_list_urls": [
+    {
+     "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Mohammad Fallahi‐Sichani",
+    "John Platig",
+    "Stephen S. Rich",
+    "Ani W Manichaikul",
+    "Tian Zhang"
+   ],
+   "notes": "",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "PhD in Biophysics",
+   "discipline": "biophysics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Sciences Graduate Program (BIMS)",
+   "program_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biophysics/",
+   "phd_evidence_quote": "The Biophysics Program is an interdisciplinary degree-granting program that has faculty in 13 departments over three schools or colleges",
+   "faculty_list_urls": [
+    {
+     "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biophysics/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Nikolay V. Dokholyan"
+   ],
+   "notes": "",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "Biomedical Engineering (BIMS-approved BME mentors / BME PhD)",
+   "discipline": "bioengineering",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Sciences Graduate Program (BIMS)",
+   "program_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biomedical-engineering/",
+   "phd_evidence_quote": "BIMS students can elect to train with a BME faculty member who is approved to mentor students in one of the BIMS degree-granting programs in the School of Medicine",
+   "faculty_list_urls": [
+    {
+     "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biomedical-engineering/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "BME department site (engineering.virginia.edu) blocked by robots.txt, so the BME PhD program page and department faculty list could not be checked. Dolatshahi matched only on the general BIMS faculty list.",
+   "degree": "PhD"
+  },
+  {
+   "program_name": "Biomedical Sciences Graduate Program (BIMS) - all faculty",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "program_url": "https://med.virginia.edu/education/biomedical-sciences",
+   "phd_evidence_quote": "The Biomedical Sciences Graduate Program (BIMS) at UVA is a vibrant interdisciplinary graduate program committed to training PhD candidates",
+   "faculty_list_urls": [
+    {
+     "url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Mohammad Fallahi‐Sichani",
+    "John Platig",
+    "Wei‐Min Chen",
+    "Stephen S. Rich",
+    "Ani W Manichaikul",
+    "Sepideh Dolatshahi",
+    "Nikolay V. Dokholyan",
+    "Tian Zhang",
+    "Steven L. Zeichner"
+   ],
+   "notes": "Umbrella admission program; the PhD is conferred by one of the participating degree programs (Biochemistry & Molecular Genetics, Biophysics, Cell Biology, Computational Biology, Experimental Pathology, Microbiology, Neuroscience, Pharmacology, Physiology; BME mentors).",
+   "degree": "PhD",
+   "umbrella_name": null
+  },
+  {
+   "program_name": "Ph.D. in Data Science (School of Data Science)",
+   "discipline": "other:data_science",
+   "program_type": "independent",
+   "program_url": "https://datascience.virginia.edu/degrees/phd",
+   "phd_evidence_quote": "The Ph.D. in Data Science is designed to impart the skills and knowledge necessary to enable research and discovery in data science methods.",
+   "faculty_list_urls": [
+    {
+     "url": "https://datascience.virginia.edu/faculty-research",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Sheng Li"
+   ],
+   "notes": "Two OpenAlex 'Sheng Li' records exist (one core, one peripheral; match printed the name twice); identity of the core record (last-known Nanchang/Sichuan) with the UVA data-science faculty member is uncertain.",
+   "degree": "PhD",
+   "umbrella_name": null
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Xiaowei Hu",
+   "program_found": null,
+   "evidence_url": "https://med.virginia.edu/research/genome-sciences/faculty/",
+   "note": "Listed on Genome Sciences (CPHG) faculty page, which is a research center, not a PhD program; not on BIMS program lists."
+  },
+  {
+   "name": "Chunlin Li",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched list; statistics faculty page URL guessed (404); profile not located."
+  },
+  {
+   "name": "Mete Civelek",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on BIMS or Genome Sciences lists; likely BME (engineering.virginia.edu blocked by robots.txt). OpenAlex last-known UCLA first."
+  },
+  {
+   "name": "Peter M. Kasson",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on any fetched list; OpenAlex last-known Uppsala/Georgia Tech."
+  }
+ ],
+ "problems": [
+  "BLOCKED by robots.txt: https://engineering.virginia.edu/departments/biomedical-engineering (and https://engineering.virginia.edu/) - BME PhD and department faculty unverifiable.",
+  "Chemistry faculty (https://chemistry.as.virginia.edu/faculty, /affiliated-faculty) matched 0 relevant authors; program not recorded.",
+  "Statistics department faculty URL not found (guess 404); not checked.",
+  "WebSearch budget exhausted; URLs discovered by site navigation."
+ ]
+}
