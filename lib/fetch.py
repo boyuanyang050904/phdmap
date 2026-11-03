@@ -3,9 +3,13 @@
 * Every response is cached on disk (cache/http/<sha256>.json.gz) together with
   the URL, final URL, HTTP status and the UTC fetch timestamp, so every
   extracted fact can cite source_url + fetched_at.
-* robots.txt is honoured for our own UA token AND for Anthropic's agent tokens
-  (Claude-User, ClaudeBot, anthropic-ai) plus '*'; a URL is fetched only if all
-  of them allow it.  Crawl-delay is honoured.
+* robots.txt (RFC 9309) is honoured for our own UA token ("phdmap"), for
+  "Claude-User" (Anthropic's token for fetches made on a user's behalf, which is
+  what this tool does; its older name "Claude-Web" is honoured too) and for "*"; a URL is fetched only if all of them allow it.
+  ClaudeBot / anthropic-ai are Anthropic's *training* crawlers, not this tool.
+  robots.txt 4xx => no restrictions; 5xx / unreachable => complete disallow
+  (RFC 9309 sec. 2.3.1.3-4).  Crawl-delay is honoured.
+  (Policy switched from the stricter variant at the user's explicit request, 2026-11-03.)
 * A minimum per-host delay is enforced (default 2 s).
 * Blocked / failed URLs are logged to cache/fetch_log.jsonl.
 """
@@ -33,7 +37,7 @@ CACHE_DIR = ROOT / "cache" / "http"
 LOG_PATH = ROOT / "cache" / "fetch_log.jsonl"
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/124.0 Safari/537.36 phdmap/0.1 (personal PhD-application research tool)")
-ROBOT_TOKENS = ["phdmap", "Claude-User", "ClaudeBot", "anthropic-ai", "*"]
+ROBOT_TOKENS = ["phdmap", "Claude-User", "Claude-Web", "*"]  # Claude-Web = older name of Claude-User
 SECRET_PARAMS = {"api_key"}
 
 
@@ -133,14 +137,13 @@ class Fetcher:
         rurl = base + "/robots.txt"
         rp = urllib.robotparser.RobotFileParser()
         rec = self._raw_get(rurl, check_robots=False, max_age_days=7)
-        if rec.status == 0:
-            # robots.txt unreachable (network/TLS): do not fetch the site at all
+        if rec.status == 0 or rec.status >= 500:
+            # robots.txt unreachable (network/TLS/5xx): do not fetch the site at all
             rp.disallow_all = True
             rp.unreachable = True
-            self.log(event="robots_unreachable", url=rurl)
-        elif rec.status in (401, 403):
-            rp.disallow_all = True
+            self.log(event="robots_unreachable", url=rurl, status=rec.status)
         elif rec.status >= 400:
+            # RFC 9309: 4xx "unavailable" => crawler may access any resource
             rp.allow_all = True
         else:
             rp.parse(rec.text.splitlines())

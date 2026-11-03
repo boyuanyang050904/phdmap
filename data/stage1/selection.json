@@ -1,0 +1,203 @@
+{
+ "penn-gcb": {
+  "school": "University of Pennsylvania",
+  "program": "Genomics and Computational Biology (GCB) Graduate Group",
+  "institution_id": "https://openalex.org/I79576946",
+  "program_url": "https://www.med.upenn.edu/gcb/",
+  "program_type": "umbrella_track",
+  "umbrella_name": "Biomedical Graduate Studies (BGS)",
+  "discipline": "comp_bio",
+  "faculty_list_urls": [
+   {
+    "url": "https://www.med.upenn.edu/gcb/faculty.html",
+    "render": false
+   }
+  ],
+  "stage0_matched": [
+   "Scott M. Damrauer",
+   "C\u00e9sar de la Fuente\u2010N\u00fa\u00f1ez",
+   "Dokyoon Kim",
+   "Bogdan Pa\u015faniuc",
+   "Hakon H. Hakonarson",
+   "Michael G. Levin",
+   "Michael J. Gandal",
+   "Bingxin Zhao",
+   "Jin Jin",
+   "Eugene Katsevich",
+   "Benjamin F. Voight",
+   "Hongzhe Li",
+   "Marylyn DeRiggi Ritchie",
+   "Brielin C. Brown",
+   "Li Shen",
+   "Li\u2010San Wang",
+   "Marijana Vujkovi\u0107",
+   "Anurag Verma",
+   "Kai Tan",
+   "Konrad Paul Kording",
+   "Qi Long",
+   "Theodore G. Drivas",
+   "Ravi Radhakrishnan"
+  ],
+  "geo": {
+   "city": "Philadelphia",
+   "geonames_city_id": "4560349",
+   "region": "Pennsylvania",
+   "country_code": "US",
+   "country": "United States",
+   "latitude": 39.95238,
+   "longitude": -75.16362
+  }
+ },
+ "stanford-biophysics": {
+  "school": "Stanford University",
+  "program": "Biophysics (Stanford Biosciences Home Program)",
+  "institution_id": "https://openalex.org/I97018004",
+  "program_url": "https://biosciences.stanford.edu/program-overview/",
+  "program_type": "umbrella_track",
+  "umbrella_name": "Stanford Biosciences PhD Programs",
+  "discipline": "biophysics",
+  "faculty_list_urls": [
+   {
+    "url": "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Biophysics#?program=Biophysics",
+    "render": true
+   }
+  ],
+  "stage0_matched": [
+   "Brian Hie",
+   "Po\u2010Ssu Huang",
+   "Ron O. Dror",
+   "Peter S. Kim",
+   "Michael P. Snyder",
+   "Russ Biagio Altman",
+   "Grant M. Rotskoff",
+   "Emma K. Lundberg",
+   "Rhiju Das",
+   "Xiaojing J. Gao",
+   "Anne Brunet",
+   "Xiaojie Qiu",
+   "Alice Y. Ting",
+   "Wah Chiu"
+  ],
+  "geo": {
+   "city": "Stanford",
+   "geonames_city_id": "5398563",
+   "region": "California",
+   "country_code": "US",
+   "country": "United States",
+   "latitude": 37.42411,
+   "longitude": -122.16608
+  }
+ },
+ "yale-cbb": {
+  "school": "Yale University",
+  "program": "Computational Biology and Biomedical Informatics (CBB) track, BBS",
+  "institution_id": "https://openalex.org/I32971472",
+  "program_url": "https://cbb.yale.edu/graduate-program",
+  "program_type": "umbrella_track",
+  "umbrella_name": "Yale Combined Program in the Biological and Biomedical Sciences (BBS)",
+  "discipline": "comp_bio",
+  "faculty_list_urls": [
+   {
+    "url": "https://medicine.yale.edu/bbs/people/cbb/",
+    "render": false
+   }
+  ],
+  "stage0_matched": [
+   "Hongyu Zhao",
+   "Xiang Zhou",
+   "Qiao Liu",
+   "Sai Zhang",
+   "Mark Gerstein",
+   "Mar\u00eda Rodr\u00edguez Mart\u00ednez",
+   "Degui Zhi",
+   "Steven H. Kleinstein",
+   "Benjamin B. Machta",
+   "Corey S. O\u2019Hern",
+   "Smita Krishnaswamy",
+   "David van Dijk",
+   "Leying Guan",
+   "Jihoon Kim",
+   "Yize Zhao",
+   "Stephen L. Dellaporta",
+   "Gur Yaari",
+   "Yuval Kluger"
+  ],
+  "geo": {
+   "city": "New Haven",
+   "geonames_city_id": "4839366",
+   "region": "Connecticut",
+   "country_code": "US",
+   "country": "United States",
+   "latitude": 41.30815,
+   "longitude": -72.92816
+  }
+ },
+ "uw-bpsd": {
+  "school": "University of Washington",
+  "program": "Biological Physics, Structure and Design (BPSD)",
+  "institution_id": "https://openalex.org/I201448701",
+  "program_url": "https://depts.washington.edu/bpsd/prospective-students-2/faq/",
+  "program_type": "independent",
+  "umbrella_name": null,
+  "discipline": "biophysics",
+  "faculty_list_urls": [
+   {
+    "url": "https://depts.washington.edu/bpsd/people/faculty/",
+    "render": false
+   }
+  ],
+  "stage0_matched": [
+   "David A. Baker",
+   "Frank DiMaio",
+   "Gaurav Bhardwaj",
+   "Neil P. King",
+   "Philip H Bradley",
+   "Stefan Stoll"
+  ],
+  "geo": {
+   "city": "Seattle",
+   "geonames_city_id": "5809844",
+   "region": "Washington",
+   "country_code": "US",
+   "country": "United States",
+   "latitude": 47.60621,
+   "longitude": -122.33207
+  }
+ },
+ "unc-biostat": {
+  "school": "University of North Carolina at Chapel Hill",
+  "program": "Biostatistics PhD (Gillings School of Global Public Health)",
+  "institution_id": "https://openalex.org/I114027177",
+  "program_url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
+  "program_type": "biostat",
+  "umbrella_name": null,
+  "discipline": "biostatistics",
+  "faculty_list_urls": [
+   {
+    "url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
+    "render": false
+   }
+  ],
+  "stage0_matched": [
+   "Hongtu Zhu B",
+   "Yun Li",
+   "Xihao Li",
+   "Danyu Y. Lin",
+   "William S. J. Valdar",
+   "Dan-Yu Lin",
+   "Joseph G. Ibrahim",
+   "Fei Zou",
+   "Didong Li",
+   "Wei Sun"
+  ],
+  "geo": {
+   "city": "Chapel Hill",
+   "geonames_city_id": "4460162",
+   "region": "North Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "latitude": 35.9132,
+   "longitude": -79.05584
+  }
+ }
+}

@@ -152,6 +152,10 @@ def main():
     global USER_MAP
     USER_MAP = load_user_discipline_map()
     T = load_tables()
+    if "biostatistics" in T:
+        # U.S. News 2026 ranks biostatistics separately: use that table for biostatistics
+        # programs (user-delegated recommendation); otherwise fall back to statistics.csv
+        TABLE_OF["biostatistics"] = "biostatistics"
     if not T:
         sys.exit("no ranking tables in rankings/")
     H = json.load(open(D / "homes.json"))
@@ -190,9 +194,23 @@ def main():
                     "n_relevant_faculty": 0, "top_faculty": [], "phd_evidence": "",
                     "confirm": wl_prev.get(name, {}).get("confirm", "")})
             else:
-                unresolved.append({"school": name, "program": "(no program verified)",
-                                   "reason": "program pages could not be read: " + (note or "unknown"),
-                                   "n_relevant_faculty": ncore})
+                prev = un_prev.get((name, "(no program verified)"), {})
+                if prev.get("keep") == "1":
+                    cands.append({"school": name, "program": "(programs not readable - verify manually)",
+                                  "program_type": "", "direction": "", "ranking_subject": "",
+                                  "subject_rank": "user-kept", "n_relevant_faculty": 0,
+                                  "n_possible_faculty": 0, "top3_faculty": "", "program_url": "",
+                                  "source_url": "", "rank_match": "user",
+                                  "rank_note": "school pages unreadable: " + (note or ""),
+                                  "school_core_authors_openalex": ncore,
+                                  "institution_openalex_id": oa.get("id", ""),
+                                  "selected": sel_prev.get((name, "(programs not readable - verify manually)"), "")})
+                elif prev.get("keep") == "0":
+                    excluded.append({"school": name, "program": "(no program verified)", "reason": "user: drop"})
+                else:
+                    unresolved.append({"school": name, "program": "(no program verified)",
+                                       "reason": "program pages could not be read: " + (note or "unknown"),
+                                       "n_relevant_faculty": ncore, "keep": ""})
             continue
         if inst.get("grants_phd") is False:
             excluded.append({"school": name, "program": "(institution)", "reason":
@@ -248,10 +266,10 @@ def main():
             if table:
                 hit, how = match_school(names, T[table])
                 row["ranking_subject"] = table
-                if disc == "biostatistics":
+                if disc == "biostatistics" and table == "statistics":
                     row["rank_note"] = ("U.S. News 2026 ranks biostatistics separately; per the mapping the school's "
                                         "statistics rank is used as a proxy")
-                if not hit and disc == "biostatistics" and kind != "independent_institute":
+                if not hit and disc == "biostatistics" and table == "statistics" and kind != "independent_institute":
                     prev = un_prev.get((name, p["program_name"]), {})
                     if not (prev.get("user_rank") or prev.get("keep")):
                         row.update(reason="biostatistics program; school not in statistics.csv, which (2026 edition) "
