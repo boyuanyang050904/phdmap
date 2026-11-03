@@ -1,6 +1,6 @@
 {
  "institution": "University of California, San Francisco",
- "checked_at": "2026-11-03T08:57:11Z",
+ "checked_at": "2026-11-03T19:02:00Z",
  "grants_phd": true,
  "grants_phd_evidence": {
   "url": "https://catalog.ucsf.edu/programs/biological-medical-informatics/",
@@ -17,7 +17,7 @@
    "phd_evidence_quote": "The Biological and Medical Informatics (BMI) program trains diverse PhD students to become scientific leaders at the interface between computation, statistics, and biology.",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "Program faculty list linked from the catalog (https://bmi.ucsf.edu/people/faculty) is blocked by robots.txt; no faculty list fetched. Catalog: 'Over 50 faculty members teach and mentor students in the BMI program.'"
+   "notes": "Program faculty list linked from the catalog (https://bmi.ucsf.edu/people/faculty) was robots-blocked; on 2026-11-03 robots.txt allows it but the host returns HTTP 403 Cloudflare block page (\"Sorry, you have been blocked\"), so still no faculty list fetched. Catalog: 'Over 50 faculty members teach and mentor students in the BMI program.'"
   },
   {
    "program_name": "Biophysics",
@@ -29,7 +29,7 @@
    "phd_evidence_quote": "Biophysics (PhD) ... students in the UCSF Biophysics graduate program",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "Program faculty list linked from the catalog (https://biophysics.ucsf.edu/people/faculty) is blocked by robots.txt; no faculty list fetched."
+   "notes": "Program faculty list linked from the catalog (https://biophysics.ucsf.edu/people/faculty) was robots-blocked; on 2026-11-03 robots.txt allows it but the host returns HTTP 403 Cloudflare block page (\"Sorry, you have been blocked\"), so still no faculty list fetched."
   },
   {
    "program_name": "Chemistry and Chemical Biology (CCB)",
@@ -41,7 +41,7 @@
    "phd_evidence_quote": "Chemistry and Chemical Biology (PhD) ... The Chemistry and Chemical Biology Graduate Program (CCB) prepares scientists to address problems at the intersection of chemistry and biology.",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "Program faculty list linked from the catalog (https://ccb.ucsf.edu/people/faculty) is blocked by robots.txt; no faculty list fetched."
+   "notes": "Program faculty list linked from the catalog (https://ccb.ucsf.edu/people/faculty) was robots-blocked; on 2026-11-03 robots.txt allows it but the host returns HTTP 403 Cloudflare block page (\"Sorry, you have been blocked\"), so still no faculty list fetched."
   },
   {
    "program_name": "UC Berkeley-UCSF Graduate Program in Bioengineering",
@@ -78,7 +78,7 @@
    "phd_evidence_quote": "Biochemistry and Molecular Biology (Tetrad) (PhD) ... The Tetrad graduate program prepares students to pose and address fundamental research problems in modern biology.",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "Program faculty list linked from the catalog (https://tetrad.ucsf.edu/faculty) is blocked by robots.txt; no faculty list fetched."
+   "notes": "Program faculty list linked from the catalog (https://tetrad.ucsf.edu/faculty) was robots-blocked; on 2026-11-03 robots.txt allows it but the host returns HTTP 403 Cloudflare block page (\"Sorry, you have been blocked\"), so still no faculty list fetched."
   },
   {
    "program_name": "Genetics (Tetrad)",
@@ -90,7 +90,7 @@
    "phd_evidence_quote": "Genetics (Tetrad) (PhD) ... The Tetrad graduate program prepares students to pose and address fundamental research problems in modern biology.",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "Program faculty list linked from the catalog (https://tetrad.ucsf.edu/faculty) is blocked by robots.txt; no faculty list fetched."
+   "notes": "Program faculty list linked from the catalog (https://tetrad.ucsf.edu/faculty) was robots-blocked; on 2026-11-03 robots.txt allows it but the host returns HTTP 403 Cloudflare block page (\"Sorry, you have been blocked\"), so still no faculty list fetched."
   },
   {
    "program_name": "Biomedical Sciences (BMS)",
@@ -102,7 +102,7 @@
    "phd_evidence_quote": "Biomedical Sciences (PhD)",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "Program faculty list linked from the catalog (https://bms.ucsf.edu/faculty/) is blocked by robots.txt; no faculty list fetched."
+   "notes": "Program faculty list linked from the catalog (https://bms.ucsf.edu/faculty/) was robots-blocked; on 2026-11-03 robots.txt allows it but the host returns HTTP 403 Cloudflare block page (\"Sorry, you have been blocked\"), so still no faculty list fetched."
   },
   {
    "program_name": "Computational Precision Health (CPH)",
@@ -167,7 +167,19 @@
    "phd_evidence_quote": "Pharmaceutical Sciences and Pharmacogenomics (PhD)",
    "faculty_list_urls": [],
    "matched_authors": [],
-   "notes": "Program faculty list linked from the catalog (https://pspg.ucsf.edu/people/faculty) is blocked by robots.txt; no faculty list fetched."
+   "notes": "Program faculty list linked from the catalog (https://pspg.ucsf.edu/people/faculty) was robots-blocked; on 2026-11-03 robots.txt allows it but the host returns HTTP 403 Cloudflare block page (\"Sorry, you have been blocked\"), so still no faculty list fetched."
+  },
+  {
+   "program_name": "Epidemiology and Translational Science",
+   "degree": "PhD",
+   "discipline": "other:epidemiology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://catalog.ucsf.edu/programs/epidemiology-translational-science/",
+   "phd_evidence_quote": "The Epidemiology and Translational Science PhD program is a four to five year course of study for individuals wishing to pursue independent research careers.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Housed in the Department of Epidemiology and Biostatistics; catalog lists 'Biostatistics' and 'Genetic epidemiology' among emphasis areas and states 'The program has about 90 primary faculty members in the Department of Epidemiology and Biostatistics and an additional 60 affiliated faculty'. No separate biostatistics PhD found in the UCSF catalog program list. Program faculty list (https://epibiostat.ucsf.edu/faculty) and program site return HTTP 403 Cloudflare block page, so no faculty list fetched."
   }
  ],
  "unmatched_core_authors": [
@@ -175,37 +187,37 @@
    "name": "James S. Fraser",
    "program_found": null,
    "evidence_url": null,
-   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked earlier and now (2026-11-03) behind an HTTP 403 Cloudflare block page; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
   },
   {
    "name": "William F. DeGrado",
    "program_found": null,
    "evidence_url": null,
-   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked earlier and now (2026-11-03) behind an HTTP 403 Cloudflare block page; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
   },
   {
    "name": "James A. Wells",
    "program_found": null,
    "evidence_url": null,
-   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked earlier and now (2026-11-03) behind an HTTP 403 Cloudflare block page; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
   },
   {
    "name": "Nevan J. Krogan",
    "program_found": null,
    "evidence_url": null,
-   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked earlier and now (2026-11-03) behind an HTTP 403 Cloudflare block page; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
   },
   {
    "name": "Luke A. Gilbert",
    "program_found": null,
    "evidence_url": null,
-   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked earlier and now (2026-11-03) behind an HTTP 403 Cloudflare block page; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
   },
   {
    "name": "David Ronan Raleigh",
    "program_found": null,
    "evidence_url": null,
-   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
+   "note": "Program faculty lists (bmi/biophysics/ccb/tetrad/bms/pspg.ucsf.edu) robots-blocked earlier and now (2026-11-03) behind an HTTP 403 Cloudflare block page; UCSF Profiles pages do not list graduate-program membership (checked https://profiles.ucsf.edu/tanja.kortemme), so unverifiable."
   },
   {
    "name": "Other core authors not individually checked: Jeffrey P. Spence, Vasilis Ntranos, Noah Zaitlen, Harold Pimentel, Mineto Ota, Bronwyn A. Lucas, K. Christopher García, Peter S. Kim, Emma K. Lundberg, Livnat Jerby‐Arnon, James Zou, James P. Pirruccello, Jonathan S. Weissman",
@@ -215,17 +227,10 @@
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://graduate.ucsf.edu/ (and /programs)",
-  "BLOCKED by robots.txt: https://www.ucsf.edu/",
-  "BLOCKED by robots.txt: https://bmi.ucsf.edu/ (faculty list https://bmi.ucsf.edu/people/faculty)",
-  "BLOCKED by robots.txt: https://biophysics.ucsf.edu/",
-  "BLOCKED by robots.txt: https://ccb.ucsf.edu/",
-  "BLOCKED by robots.txt: https://tetrad.ucsf.edu/",
-  "BLOCKED by robots.txt: https://qbc.ucsf.edu/",
-  "BLOCKED by robots.txt: https://bms.ucsf.edu/faculty/",
-  "BLOCKED by robots.txt: https://pspg.ucsf.edu/ and https://pharmacy.ucsf.edu/",
-  "BLOCKED by robots.txt: https://epibiostat.ucsf.edu/ (Epidemiology and Translational Science PhD faculty; program not recorded)",
+  "graduate.ucsf.edu, www.ucsf.edu, bmi.ucsf.edu, biophysics.ucsf.edu, ccb.ucsf.edu, tetrad.ucsf.edu, qbc.ucsf.edu, bms.ucsf.edu, pspg.ucsf.edu, pharmacy.ucsf.edu, epibiostat.ucsf.edu: robots.txt now allows them, but every fetch (plain and --render) on 2026-11-03 returned HTTP 403 Cloudflare 'Attention Required! ... Sorry, you have been blocked' (also bts/pharmchem/humangenetics.ucsf.edu); not bypassed, so program faculty lists remain unfetched",
   "Program existence/PhD status taken from UCSF General Catalog (catalog.ucsf.edu), which is accessible; faculty membership mostly unverifiable",
-  "WebSearch unavailable (budget exhausted); URLs discovered via catalog navigation"
+  "UCSF Profiles (profiles.ucsf.edu, accessible) lists department/title only (e.g. https://profiles.ucsf.edu/james.fraser: 'Professor, Bioengineering' / 'School of Pharmacy'), not graduate-program membership",
+  "WebSearch unavailable (budget exhausted); URLs discovered via catalog navigation",
+  "rechecked 2026-11-03 under Claude-User robots policy: robots now allows the ucsf.edu program hosts but they serve a Cloudflare 403 block page, so no new faculty lists; added Epidemiology and Translational Science PhD from the catalog (faculty list unfetchable)"
  ]
 }
