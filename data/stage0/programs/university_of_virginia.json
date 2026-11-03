@@ -84,7 +84,7 @@
     }
    ],
    "matched_authors": [],
-   "notes": "BME department site (engineering.virginia.edu) blocked by robots.txt, so the BME PhD program page and department faculty list could not be checked. Dolatshahi matched only on the general BIMS faculty list.",
+   "notes": "BME department site engineering.virginia.edu is now allowed by robots.txt but every URL tried (/, /departments/biomedical-engineering, .../people, .../academics/graduate-programs) returned HTTP 403 Cloudflare 'Just a moment...' (plain) and 502 (--render) on 2026-11-03; bme.virginia.edu still blocked. BME PhD program page and department faculty list therefore still unverified. Dolatshahi matched only on the general BIMS faculty list.",
    "degree": "PhD"
   },
   {
@@ -149,9 +149,9 @@
   },
   {
    "name": "Mete Civelek",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not on BIMS or Genome Sciences lists; likely BME (engineering.virginia.edu blocked by robots.txt). OpenAlex last-known UCLA first."
+   "program_found": "Biomedical Engineering (as of a 2024 news item; current BME roster unreachable)",
+   "evidence_url": "https://news.med.virginia.edu/honors-awards/department-of-biomedical-engineering-faculty-inducted-into-the-2024-class-of-aimbe-college-of-fellows/",
+   "note": "UVA news page 'Department of Biomedical Engineering Faculty Inducted into the 2024 Class of AIMBE College of Fellows' lists 'Mete Civelek, PhD' among the 'faculty members' inducted and says he is 'an associate professor and resident faculty member in the School of Medicine's Center for Public Health Genomics' and 'the founding chair of the biomedical engineering department's diversity, equity, and inclusion (DEI) committee'. Current status unverified (engineering.virginia.edu returns 403); OpenAlex last-known lists UCLA first and he appears on UCLA Human Genetics/MBI rosters, so he has likely moved."
   },
   {
    "name": "Peter M. Kasson",
@@ -161,9 +161,10 @@
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://engineering.virginia.edu/departments/biomedical-engineering (and https://engineering.virginia.edu/) - BME PhD and department faculty unverifiable.",
+  "https://engineering.virginia.edu/ (incl. /departments/biomedical-engineering, /people, /academics/graduate-programs): no longer robots-blocked, but returns HTTP 403 Cloudflare challenge (plain) and 502 (--render) - BME PhD page and department faculty still unverifiable. bme.virginia.edu remains BLOCKED by robots.txt.",
   "Chemistry faculty (https://chemistry.as.virginia.edu/faculty, /affiliated-faculty) matched 0 relevant authors; program not recorded.",
   "Statistics department faculty URL not found (guess 404); not checked.",
-  "WebSearch budget exhausted; URLs discovered by site navigation."
+  "WebSearch budget exhausted; URLs discovered by site navigation.",
+  "rechecked 2026-11-03 under Claude-User robots policy: engineering.virginia.edu now robots-allowed but unreachable (403 Cloudflare / 502 render), so no BME roster; Mete Civelek tied to BME via a fetched 2024 UVA news page (1 WebSearch used to find it). No programs added or changed."
  ]
 }

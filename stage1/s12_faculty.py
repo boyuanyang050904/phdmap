@@ -218,7 +218,9 @@ def main(pids):
                         break
                 x["first_last_author_year"] = first
         json.dump({"program_id": pid, "school_institution_id": school_id, "window_from": WINDOW_FROM,
-                   "n_faculty": len(out), "top": top, "all_scores": [
+                   "n_faculty": len(out), "top": top,
+                   "all_full": [x for x in out if x.get("score", 0) > 0][:25],
+                   "all_scores": [
                        {k: x.get(k) for k in ("name", "openalex_id", "score", "score_A", "score_B", "note")}
                        for x in out]},
                   open(D1 / "faculty" / f"{pid}.json", "w"), indent=1)

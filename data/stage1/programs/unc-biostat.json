@@ -1,0 +1,865 @@
+{
+ "program_id": "unc-biostat",
+ "school": "University of North Carolina at Chapel Hill",
+ "program": "PhD in Biostatistics (Gillings School of Global Public Health)",
+ "checked_at": "2026-11-03T19:10:07Z",
+ "program_url": {
+  "value": "https://sph.unc.edu/bios/phd/",
+  "source_url": "https://sph.unc.edu/bios/phd/",
+  "fetched_at": "2026-11-03T18:59:50Z",
+  "quote": "Doctor of Philosophy (PhD) Biostatistics",
+  "scope": "program",
+  "cycle": null,
+  "note": null
+ },
+ "deadline": {
+  "value": "December 1, 2026",
+  "source_url": "https://sph.unc.edu/bios/phd/",
+  "fetched_at": "2026-11-03T18:59:50Z",
+  "quote": "Application Deadline Dec. 1, 2026",
+  "scope": "program",
+  "cycle": "Fall 2027",
+  "note": "Same date on the Graduate School program listing (gradschool.sites.unc.edu/biostatistics: 'December 1, 2026') and the Gillings How to Apply page ('PhD Biostatistics: Dec. 1, 2026'). Portal closes 11:59pm Eastern on the deadline date (Graduate School instructions)."
+ },
+ "priority_deadline": {
+  "value": "December 15, 2026",
+  "source_url": "https://gradschool.sites.unc.edu/biostatistics/",
+  "fetched_at": "2026-11-03T19:03:10Z",
+  "quote": "Fall Graduate School Fellowships December 15, 2026 – PLEASE NOTE, ALL APPLICATIONS MUST BE RECEIVED PRIOR TO APPLICATION DEADLINE IN ORDER TO BE CONSIDERED FOR FALL 2027 ADMISSION",
+  "scope": "graduate_school",
+  "cycle": "Fall 2027",
+  "note": "Graduate School fellowship-nomination date; it is LATER than the PhD deadline (Dec 1, 2026), so applying by Dec 1 already meets it. No earlier program priority deadline found. Biostatistics Awards and Funding page also says 'Students must submit applications by December 15 to be considered for any graduate school award.'"
+ },
+ "application_fee": {
+  "value": "$95",
+  "source_url": "https://gradschool.unc.edu/admissions/instructions/",
+  "fetched_at": "2026-11-03T19:01:11Z",
+  "quote": "A non-refundable $95.00 application fee is required for each program to which you apply.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": null
+ },
+ "fee_waiver": {
+  "value": "Graduate School waivers for ten groups: full-time UNC-CH employees; US active-duty/veteran military; participants in SUP, Carolina College Advising Corps, IMSD, MARC, McNair, PREP, U-RISE/G-RISE; and U.S. citizens meeting need-based eligibility (currently enrolled in a degree program and received need-based aid each term). Request inside the application with documentation; must be submitted before the deadline; no reimbursement once paid.",
+  "source_url": "https://gradschool.unc.edu/admissions/feewaiver/",
+  "fetched_at": "2026-11-03T19:02:06Z",
+  "quote": "U.S. citizens who meet the following need-based eligibility",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "The need-based category is worded for U.S. citizens only; the page does not mention permanent residents, so a PR would need one of the program-participation/military/employee categories. The PhD page links to this Graduate School page ('Information on UNC Graduate School Fee Waiver Requests')."
+ },
+ "gre_policy": {
+  "value": "optional",
+  "source_url": "https://sph.unc.edu/bios/phd/",
+  "fetched_at": "2026-11-03T18:59:50Z",
+  "quote": "GRE scores are neither required nor typically recommended for applicants.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Not required and typically not recommended; Graduate School program listing says 'GRE not required'. Biostatistics FAQ: 'The GRE is not required.'"
+ },
+ "letters_required": {
+  "value": 3,
+  "source_url": "https://sph.unc.edu/bios/phd/",
+  "fetched_at": "2026-11-03T18:59:50Z",
+  "quote": "3 Letters of Recommendations are required.",
+  "scope": "program",
+  "cycle": null,
+  "note": null
+ },
+ "application_system_url": {
+  "value": "https://applynow.unc.edu/apply/",
+  "source_url": "https://sph.unc.edu/bios/phd/",
+  "fetched_at": "2026-11-03T18:59:50Z",
+  "quote": "The Graduate School Application is a common application system for UNC Chapel Hill programs.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "The 'UNC Graduate School application' link on the PhD page points to https://applynow.unc.edu/apply/."
+ },
+ "toefl": {
+  "waiver_conditions": {
+   "value": "Required only of international applicants. Exceptions: (1) applicants from countries where English is the sole official language (Australia, Bahamas, Barbados, Canada except Quebec, England, Ghana, Ireland, India, Jamaica, Kenya, New Zealand, Nigeria, Scotland, St. Vincent and the Grenadines, Trinidad, Tobago, Uganda, Wales) - automatic; (2) applicants who have received or will receive a degree from an accredited university in the United States - request in the application and upload transcript/registrar letter; (3) degree from an accredited university where English is the sole language of instruction - official verification required.",
+   "source_url": "https://gradschool.unc.edu/admissions/instructions/",
+   "fetched_at": "2026-11-03T19:01:11Z",
+   "quote": "Exceptions to the English Standardized exams are available for the three categories listed below:",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": null
+  },
+  "waiver_basis": {
+   "value": "native_language+degree+citizenship_status",
+   "source_url": "https://gradschool.unc.edu/admissions/instructions/",
+   "fetched_at": "2026-11-03T19:01:11Z",
+   "quote": "applicants from countries where English is the SOLE OFFICIAL language of instruction.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Country-of-origin (English sole official language) category, two degree-based categories, and the requirement itself applies only to 'international applicants'."
+  },
+  "us_degree_waives": {
+   "value": true,
+   "source_url": "https://gradschool.unc.edu/admissions/instructions/",
+   "fetched_at": "2026-11-03T19:01:11Z",
+   "quote": "applicants who have received or will receive a degree from an accredited university in the United States.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Covers a degree in progress (e.g. Emory bachelor's expected spring 2027): applicant must request the waiver in the online application and upload an unofficial transcript showing degree in progress or a Registrar/Dean letter; if admitted, the official transcript must be received or English scores will be required to enroll."
+  },
+  "pr_exempt": {
+   "value": true,
+   "source_url": "https://stor.unc.edu/phd/faq/",
+   "fetched_at": "2026-11-03T19:05:23Z",
+   "quote": "English proficiency exams are only required of international applicants. LPR’s are considered domestic applicants and do not need to take these exams. There is no need to request a waiver.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Quote is from the UNC Department of Statistics and Operations Research (STOR) PhD FAQ, an official unc.edu page of a sibling program, describing the UNC Graduate School's English-test rule, which applies to all UNC graduate programs including Biostatistics. The Biostatistics, Gillings and Graduate School pages themselves only say 'international applicants' must submit TOEFL/IELTS/Duolingo and do not define the term. Independently of PR status, an applicant with a US bachelor's degree (e.g. Emory) is covered by the Graduate School's US-degree waiver (see us_degree_waives)."
+  },
+  "min_total": {
+   "value": "TOEFL iBT 90 (tests before Jan 26, 2026) or 5 (tests on/after Jan 26, 2026); IELTS 7; Duolingo 110 (recommended minimum totals)",
+   "source_url": "https://gradschool.unc.edu/admissions/instructions/",
+   "fetched_at": "2026-11-03T19:01:11Z",
+   "quote": "TOEFL tests taken prior to January 26, 2026 = 90 TOEFL tests taken on or after January 26, 2026 = 5",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Page calls these 'The recommended minimum total score on the exams'; IELTS = 7 and Duolingo English Test = 110 on the same list. Programs may set higher minimums; none stated by Biostatistics."
+  },
+  "min_subscores": {
+   "value": null,
+   "source_url": null,
+   "fetched_at": null,
+   "quote": null,
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "No section/subscore minimums stated on the Graduate School application instructions page, the Graduate School Biostatistics listing, or the Biostatistics PhD/FAQ pages."
+  },
+  "validity_rule": {
+   "value": "no more than 2 years old as of the date of application submission",
+   "source_url": "https://gradschool.unc.edu/admissions/instructions/",
+   "fetched_at": "2026-11-03T19:01:11Z",
+   "quote": "TOEFL, IELTS, or Duolingo English Test score (no more than 2 years old as of the date of application submission)",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Same page also says scores 'are reportable for a period of two years from the date of the exam'; PhD page: 'TOEFL/IELTS scores must be no more than two years old.'"
+  },
+  "di_code": {
+   "value": "5816",
+   "source_url": "https://sph.unc.edu/bios/phd/",
+   "fetched_at": "2026-11-03T18:59:50Z",
+   "quote": "International applicants must submit official TOEFL or IELTS standardized test scores. Code 5816 routes to UNC.",
+   "scope": "program",
+   "cycle": null,
+   "note": "Graduate School: institution code #5816, no department code."
+  },
+  "self_report_accepted": {
+   "value": "Self-reported scores are used for informal evaluation only; official scores must arrive before final review/admission",
+   "source_url": "https://gradschool.unc.edu/admissions/instructions/",
+   "fetched_at": "2026-11-03T19:01:11Z",
+   "quote": "While self-reported scores are useful for informal evaluation, the official report of your scores must arrive before final review and admission can be offered.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": null
+  }
+ },
+ "admissions_mode": {
+  "value": "direct",
+  "source_url": "https://sph.unc.edu/bios/phd/",
+  "fetched_at": "2026-11-03T18:59:50Z",
+  "quote": "Department reviews application and recommends a decision.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Applicants apply directly to the Biostatistics PhD through the Graduate School application; the department admissions committee recommends decisions and the Graduate School renders them. No lab-rotation system is described on the program pages."
+ },
+ "contact_faculty_advice": {
+  "value": "Not required; listing faculty supporters is not considered, but applicants are asked to list faculty they would like to work with, which can help the committee.",
+  "source_url": "https://sph.unc.edu/bios/phd/",
+  "fetched_at": "2026-11-03T18:59:50Z",
+  "quote": "We do not require that you list faculty who support your application. Such information is not considered in the admissions process. You are asked to list faculty with whom you’d like to work; this information can be helpful to the admissions committee.",
+  "scope": "program",
+  "cycle": null,
+  "note": "No explicit advice about emailing PIs before applying. The department also runs a student-led MAPS mentorship program for applicants (separate from admissions)."
+ },
+ "stipend": {
+  "value": "$10,796 per semester (Graduate School minimum stipend for doctoral RAs/TAs, 2026-2027); department stipend amount not stated",
+  "source_url": "https://gradschool.unc.edu/funding/stipends/",
+  "fetched_at": "2026-11-03T19:06:08Z",
+  "quote": "$10,796/semester (RAs and TAs)",
+  "scope": "graduate_school",
+  "cycle": "2026-2027",
+  "note": "Minimum stipend required for tuition/fee benefits at UNC ('Minimum Stipend 2026-2027 / Doctoral and Master's/Doctoral programs'). Biostatistics Awards and Funding page only says 'The yearly stipend ranges depend on degree program' and gives no amount."
+ },
+ "guaranteed_years": {
+  "value": "not guaranteed",
+  "source_url": "https://sph.unc.edu/bios/phd/",
+  "fetched_at": "2026-11-03T18:59:50Z",
+  "quote": "Funding offers through the department, such as research assistantships, are possible but not guaranteed.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Biostatistics FAQ: support 'is not guaranteed with admission'. Awards and Funding page: 'more than 90 percent of our doctoral students are funded by the department, typically by Graduate Research Assistantships or Training Grants.' No number of guaranteed years stated."
+ },
+ "pr_domestic": {
+  "value": true,
+  "source_url": "https://stor.unc.edu/phd/faq/",
+  "fetched_at": "2026-11-03T19:05:23Z",
+  "quote": "I am a lawful permanent resident of the United States, do I need to submit a TOEFL or IELTS score? English proficiency exams are only required of international applicants. LPR’s are considered domestic applicants",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "Quote is from the UNC Department of Statistics and Operations Research (STOR) PhD FAQ, an official unc.edu page of a sibling program, describing the UNC Graduate School's English-test rule, which applies to all UNC graduate programs including Biostatistics. The Biostatistics, Gillings and Graduate School pages themselves only say 'international applicants' must submit TOEFL/IELTS/Duolingo and do not define the term. Independently of PR status, an applicant with a US bachelor's degree (e.g. Emory) is covered by the Graduate School's US-degree waiver (see us_degree_waives). Biostatistics FAQ separately groups 'US citizens and permanent visa (green card) holders' together for NIH traineeships. Note: in-state tuition depends on North Carolina residency classification, a separate determination."
+ },
+ "t32_citizen_pr_only": {
+  "value": true,
+  "source_url": "https://sph.unc.edu/bios/awards-and-funding/",
+  "fetched_at": "2026-11-03T19:00:21Z",
+  "quote": "Recipients of these fellowships must be either U.S. citizens or have permanent resident status.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Applies to both the Environmental Biostatistics Training Grant and the Genomics and Cancer Training Grant (NCI). Biostatistics FAQ: 'National Institutes of Health non-service traineeships to a limited number of US citizens and permanent visa (green card) holders'. To be considered, describe interest in environmental or genomics/cancer biostatistics in the personal statement."
+ },
+ "faculty_list": {
+  "source_urls": [
+   "https://sph.unc.edu/bios/bios-people/",
+   "https://catalog.unc.edu/graduate/schools-departments/biostatistics/"
+  ],
+  "render": false,
+  "faculty": [
+   {
+    "name": "Kevin Anstrom",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/kevin-anstrom-phd-ms/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Jianwen Cai",
+    "title": "Cary C. Boshamer Distinguished Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/jianwen-cai-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "David Couper",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/david-couper-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Jamie Crandell",
+    "title": "Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/jamie-crandell-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Tanya P. Garcia",
+    "title": "Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/tanya-garcia/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Bethany Hedt-Gauthier",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/bethany-hedt-gauthier/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Annie Green Howard",
+    "title": "Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/annie-green-howard-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Michael Hudgens",
+    "title": "Professor and Chair",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/michael-hudgens-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Joseph G. Ibrahim",
+    "title": "Alumni Distinguished Professor and Director of Graduate Studies",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/joseph-g-ibrahim-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Anastasia Ivanova",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/anastasia-ivanova-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Parker Knight",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/parker-knight/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Gary Koch",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/gary-koch-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Michael R. Kosorok",
+    "title": "W.R. Kenan, Jr. Distinguished Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/michael-r-kosorok-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Didong Li",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/didong-li/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Xihao Li",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/xihao-li-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Quefeng Li",
+    "title": "Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/quefeng-li-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Yun Li",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/yun-li-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Feng-Chang Lin",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/feng-chang-lin-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Danyu Lin",
+    "title": "Dennis Gillings Distinguished Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/danyu-lin-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Yusha Liu",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/yusha-liu/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Michael Love",
+    "title": "Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/michael-love-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Ivana Malenica",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/ivana-malenica/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "James Stephen Marron",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/james-stephen-marron-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Kara McCormack",
+    "title": "Teaching Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/kara-mccormack/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Jane Monaco",
+    "title": "Professor and Assistant Dean of Undergraduate Programs",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/jane-monaco-drph/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Lina Montoya",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/lina-montoya/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Andrew B. Nobel",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/andrew-nobel-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "John S. Preisser",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/john-preisser-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Naim Rashid",
+    "title": "Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/naim-rashid-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Bryce Rowland",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/bryce-rowland/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Todd Schwartz",
+    "title": "Professor and Associate Chair",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/todd-schwartz-drph/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Richard Smith",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/richard-smith-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Daniela Sotres-Alvarez",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/daniela-sotres-alvarez-drph/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Xianming Tan",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/xianming-tan-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Di Wu",
+    "title": "Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/di-wu-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Daiwei (David) Zhang",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/david-zhang/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Beibo Zhao",
+    "title": "Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/beibo-zhao/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Haibo Zhou",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/haibo-zhou-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Hongtu Zhu",
+    "title": "Kenan Distinguished Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/hongtu-zhu-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Fei Zou",
+    "title": "Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/fei-zou-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Baiming Zou",
+    "title": "Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/baiming-zou-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Marcella H. Boynton",
+    "title": "Adjunct Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/marcella-h-boynton/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Luiz Carvalho",
+    "title": "Adjunct Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/luiz-carvalho/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Can Chen",
+    "title": "Adjunct Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/can-chen/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Nikki L. B. Freeman",
+    "title": "Adjunct Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/nikki-l-b-freeman-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Haoda Fu",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/haoda-fu/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Kinsey Helton",
+    "title": "Adjunct Instructor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/kinsey-helton/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Eric Laber",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/eric-b-laber-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Jeff Laux",
+    "title": "Adjunct Instructor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/jeff-laux/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Haolin (Leo) Li",
+    "title": "Adjunct Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/haolin-leo-li/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Charles Pepe-Ranney",
+    "title": "Adjunct Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/charles-pepe-ranney/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Matthew A. Psioda",
+    "title": "Adjunct Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/matthew-a-psioda/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Sean Simpson",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/sean-simpson/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Wei Sun",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/wei-sun/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Vincent Toups",
+    "title": "Adjunct Instructor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/vincent-toups-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "William Valdar",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/william-valdar-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Clarice Weinberg",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/clarice-weinberg-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Donglin Zeng",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/donglin-zeng-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Zhengwu Zhang",
+    "title": "Adjunct Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/zhengwu-zhang-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Shanshan Zhao",
+    "title": "Adjunct Associate Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/shanshan-zhao-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Xiaojing Zheng",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/xiaojiang-zheng-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Tarek Zikry",
+    "title": "Assistant Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/tarek-zikry-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Richard C. Zink",
+    "title": "Adjunct Professor",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/richard-zink-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Robert Agans",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/robert-agans-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Shrikant Bangdiwala",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/shrikant-bangdiwala-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Lloyd Chambless",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/lloyd-chambless/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Clarence E. Davis",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/clarence-e-davis/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "James E. Grizzle",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/james-e-grizzle/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Ronald W. Helms",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/ronald-w-helms/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "William D. Kalsbeek",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/william-d-kalsbeek/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Lawrence L. Kupper",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/lawrence-l-kupper/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Lisa M. LaVange",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/lisa-m-lavange-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Keith E. Muller",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/keith-e-muller/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Bahjat Qaqish",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/bahjat-qaqish-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Paul W. Stewart",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/paul-w-stewart/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Michael J. Symons",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/michael-j-symons/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Kinh Truong",
+    "title": "Professor Emeritus",
+    "department": "Biostatistics",
+    "profile_url": "https://sph.unc.edu/adv_profile/kinh-truong-phd/",
+    "lab_url": null,
+    "source_url": "https://sph.unc.edu/bios/bios-people/"
+   },
+   {
+    "name": "Yufeng Liu",
+    "title": "Professor",
+    "department": "Biostatistics (joint with the Department of Statistics and Operations Research)",
+    "profile_url": null,
+    "lab_url": null,
+    "source_url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/"
+   },
+   {
+    "name": "Vanessa Miller",
+    "title": "Adjunct Assistant Professor",
+    "department": "Biostatistics",
+    "profile_url": null,
+    "lab_url": null,
+    "source_url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/"
+   }
+  ]
+ },
+ "problems": [
+  "https://gradschool.unc.edu/* returns 403 (bot check) without --render; pages were fetched with --render (instructions, fee waiver, stipends).",
+  "https://gradschool.unc.edu/admissions/deadlines/ returned 403 even with --render; deadline taken from the Biostatistics PhD page and confirmed on the Graduate School program listing https://gradschool.sites.unc.edu/biostatistics/.",
+  "https://sph.unc.edu/bios/faqs-graduates-2/ returns 403 without --render (fetched with --render; redirects to /bios/bios-faqs/).",
+  "pr_exempt / pr_domestic rely on the UNC STOR PhD FAQ (sibling UNC program) because no Biostatistics, Gillings or Graduate School page defines 'international applicant'; the applicant is waived from TOEFL anyway via the US-degree category (Emory bachelor's in progress). Confirm with biosadmissions@unc.edu if needed.",
+  "Stipend: no Biostatistics-specific amount published; value is the Graduate School 2026-2027 minimum doctoral RA/TA stipend ($10,796/semester).",
+  "Funding is explicitly not guaranteed at admission (department funds >90% of doctoral students currently).",
+  "Faculty list: 77 entries from the department directory (41 primary incl. teaching/assistant professors, 22 adjunct, 14 emeritus) plus 2 names only on the Graduate Catalog page (Yufeng Liu, joint with STOR; Vanessa Miller, adjunct). Instructors Kinsey Helton, Jeff Laux, Vincent Toups appear as adjunct instructors. Name forms differ slightly between the two pages (e.g. 'David Couper' vs 'David J. Couper'); department-page forms used."
+ ]
+}

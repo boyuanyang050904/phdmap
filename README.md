@@ -14,9 +14,14 @@ Personal tool for choosing and tracking US PhD applications (Fall 2027 entry) in
 * Every fact (faculty, program, deadline, link, requirement) comes from an actual API
   response or fetched page and carries `source_url` + fetch date. Unverifiable → `null`.
   The only exception is the coarse ranking tables (`rankings/`, rows marked `estimate`).
-* All HTTP goes through `lib/fetch.py`: on-disk cache (`cache/http/`), robots.txt honoured
-  for our UA **and** Anthropic agent tokens (`Claude-User`, `ClaudeBot`, `anthropic-ai`),
-  crawl-delay honoured, ≥2 s per host. Blocked/failed URLs → `cache/fetch_log.jsonl`.
+* All HTTP goes through `lib/fetch.py`: on-disk cache (`cache/http/`), robots.txt (RFC 9309)
+  honoured for our UA (`phdmap`), `Claude-User` (Anthropic's token for fetches made on a
+  user's behalf), its older name `Claude-Web`, and `*`; a 4xx robots.txt means no
+  restriction, unreachable/5xx means do not fetch. Crawl-delay honoured, ≥2 s per host.
+  Blocked/failed URLs → `cache/fetch_log.jsonl`. (Until 2026-11-03 the stricter variant also
+  obeyed rules for Anthropic's training crawler `ClaudeBot` and treated a 403 robots.txt as
+  disallow-all; the user authorised the switch.) Bot challenges (Cloudflare etc.) are never
+  bypassed.
 * OpenAlex calls (`lib/openalex.py`) send `mailto=boyuan.yang@emory.edu` and the API key
   from `.env` (git-ignored).
 * TLS verification is never disabled. `lib/tlsfix.py` adds Mozilla's current root store

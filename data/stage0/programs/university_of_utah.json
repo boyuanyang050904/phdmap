@@ -23,12 +23,20 @@
     {
      "url": "https://medicine.utah.edu/biochemistry/faculty",
      "render": false
+    },
+    {
+     "url": "https://www.genetics.utah.edu/faculty?page=1&track=tenure-track",
+     "render": false
+    },
+    {
+     "url": "https://www.genetics.utah.edu/faculty?page=1&track=adjunct",
+     "render": false
     }
    ],
    "matched_authors": [
     "Christopher P. Hill"
    ],
-   "notes": "One of the two 'Bioscience PhD Programs' (https://bioscience.utah.edu/graduate-programs/index.php: 'The Molecular Biology (MB) Program and Biological Chemistry (BC) Program are two complementary interdepartmental graduate programs'). MB draws on 'Biochemistry, Human Genetics, Neurobiology, Oncological Sciences, Pharmacology and Toxicology, the School of Biological Sciences, and the Division of Microbiology and Immunology'. The Faculty Research Index lists faculty as 'Last, First' with program tags; the matcher missed them, but it shows 'Hill, Chris' -> 'MB, BC' and 'Safavi, Helena' -> 'MB, BC'. Christopher P. Hill was matched by the matcher on the Biochemistry department faculty page (a participating department)."
+   "notes": "One of the two 'Bioscience PhD Programs' (https://bioscience.utah.edu/graduate-programs/index.php: 'The Molecular Biology (MB) Program and Biological Chemistry (BC) Program are two complementary interdepartmental graduate programs'). MB draws on 'Biochemistry, Human Genetics, Neurobiology, Oncological Sciences, Pharmacology and Toxicology, the School of Biological Sciences, and the Division of Microbiology and Immunology'. The Faculty Research Index lists faculty as 'Last, First' with program tags; the matcher missed them, but it shows 'Hill, Chris' -> 'MB, BC' and 'Safavi, Helena' -> 'MB, BC'. Christopher P. Hill was matched by the matcher on the Biochemistry department faculty page (a participating department). Human Genetics graduate page (https://www.genetics.utah.edu/graduate-program-overview-how-to-apply): 'The Department of Human Genetics offers graduate education in modern molecular genetics. Ph.D. candidates enter the Department through one of the campus-wide programs: the' followed by links 'Molecular Biology Program', 'Biological Chemistry Program', 'Neurosciences Graduate Program' - so there is no separate Human Genetics PhD. Human Genetics tenure-track and adjunct faculty pages: 0 relevant authors matched."
   },
   {
    "program_name": "Biological Chemistry (BC) PhD Program",
@@ -51,7 +59,7 @@
    "matched_authors": [
     "Christopher P. Hill"
    ],
-   "notes": "Bioscience PhD program 'at the interface of biology and chemistry' with faculty from 'the Departments of Biochemistry, Chemistry, Medicinal Chemistry, Molecular Pharmaceutics, Oncological Sciences, Pharmacology and Toxicology, and the School of Biological Sciences'. Faculty Research Index: 'Hill, Chris' and 'Safavi, Helena' both tagged 'MB, BC' (not caught by matcher due to 'Last, First' format)."
+   "notes": "Bioscience PhD program 'at the interface of biology and chemistry' with faculty from 'the Departments of Biochemistry, Chemistry, Medicinal Chemistry, Molecular Pharmaceutics, Oncological Sciences, Pharmacology and Toxicology, and the School of Biological Sciences'. Faculty Research Index: 'Hill, Chris' and 'Safavi, Helena' both tagged 'MB, BC' (not caught by matcher due to 'Last, First' format). Human Genetics PhD candidates may also enter through BC (see MB notes); Human Genetics faculty pages matched no relevant authors."
   },
   {
    "program_name": "Population Health Sciences (PHS) PhD (emphases incl. Biostatistics)",
@@ -92,9 +100,9 @@
  ],
  "unmatched_core_authors": [],
  "problems": [
-  "BLOCKED by robots.txt: https://genetics.utah.edu/ (Department of Human Genetics), so a Human Genetics PhD and its faculty could not be checked; Human Genetics participates in the Molecular Biology PhD per the Bioscience page.",
   "Matcher missed 'Last, First' names on the Bioscience Faculty Research Index (https://bioscience.utah.edu/faculty/index.php): 'Hill, Chris' (MB, BC) and 'Safavi, Helena' (MB, BC) are listed; Helena Safavi-Hemami is therefore NOT in matched_authors though listed as MB/BC faculty.",
   "All Utah authors are peripheral; Jeffrey A. Swan (B) and LeAnn M. Lindsey (B; last_known NIH/NLM) not matched anywhere; not pursued.",
-  "Bioengineering, Chemistry and Computing (CS) PhDs not checked (only peripheral B authors, already placed in MB/BC)."
+  "Bioengineering, Chemistry and Computing (CS) PhDs not checked (only peripheral B authors, already placed in MB/BC).",
+  "rechecked 2026-11-03 under Claude-User robots policy: genetics.utah.edu now fetchable; Human Genetics has no separate PhD (students enter via MB, BC or Neurosciences programs); its faculty pages added to MB faculty_list_urls, 0 relevant authors matched; no programs or matches added."
  ]
 }

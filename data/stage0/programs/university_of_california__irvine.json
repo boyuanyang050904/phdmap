@@ -2,45 +2,151 @@
   "institution": "University of California, Irvine",
   "checked_at": "2026-11-03T09:29:00Z",
   "grants_phd": true,
-  "grants_phd_evidence": {"url": "https://mcsb.uci.edu/", "quote": "The goal of UCI's program in Mathematical, Computational and Systems Biology (MCSB) is to provide students from a variety of educational backgrounds with Ph.D. training suitable for research careers in the nascent field of Systems Biology."},
+  "grants_phd_evidence": {
+    "url": "https://mcsb.uci.edu/",
+    "quote": "The goal of UCI's program in Mathematical, Computational and Systems Biology (MCSB) is to provide students from a variety of educational backgrounds with Ph.D. training suitable for research careers in the nascent field of Systems Biology."
+  },
   "programs": [
-    {"program_name": "Mathematical, Computational and Systems Biology (MCSB) PhD", "degree": "PhD", "discipline": "comp_bio", "program_type": "independent",
-     "umbrella_name": null, "program_url": "https://mcsb.uci.edu/",
-     "phd_evidence_quote": "The goal of UCI's program in Mathematical, Computational and Systems Biology (MCSB) is to provide students from a variety of educational backgrounds with Ph.D. training suitable for research careers in the nascent field of Systems Biology.",
-     "faculty_list_urls": [{"url": "https://ccbs.uci.edu/education/mcsb/mcsb-program-faculty/", "render": false}, {"url": "https://ccbs.uci.edu/education/mcsb/mcsb-program-faculty/?tpage=2", "render": false}, {"url": "https://ccbs.uci.edu/education/mcsb/mcsb-program-faculty/?tpage=3", "render": false}, {"url": "https://ccbs.uci.edu/education/mcsb/mcsb-program-faculty/?tpage=4", "render": false}, {"url": "https://ccbs.uci.edu/directory/ccbs-faculty/", "render": false}],
-     "matched_authors": ["Qing Hua Nie", "Vivek Swarup", "Xiaohui S. Xie", "James P. Brody"],
-     "notes": "The program faculty list is paginated (?tpage=1..4); Nie, Swarup and Xie are on page 3. James P. Brody is on the CCBS faculty directory, not on the MCSB program-faculty pages. mcsb.uci.edu redirects to http://ccbs.uci.edu/education/mcsb/."},
-    {"program_name": "Statistics, Ph.D.", "degree": "PhD", "discipline": "statistics", "program_type": "independent",
-     "umbrella_name": null, "program_url": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/statistics_phd/",
-     "phd_evidence_quote": "Statistics, Ph.D. < University of California Irvine",
-     "faculty_list_urls": [{"url": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/", "render": false}],
-     "matched_authors": ["Daniel L. Gillen"],
-     "notes": "The department site www.stat.uci.edu is blocked by robots.txt, so the catalogue faculty list was used. Dabao Zhang (peripheral) was not matched there."},
-    {"program_name": "Biomedical Engineering, Ph.D.", "degree": "PhD", "discipline": "bioengineering", "program_type": "independent",
-     "umbrella_name": null, "program_url": "https://catalogue.uci.edu/thehenrysamuelischoolofengineering/departmentofbiomedicalengineering/biomedicalengineering_phd/",
-     "phd_evidence_quote": "Biomedical Engineering, Ph.D. < University of California Irvine",
-     "faculty_list_urls": [{"url": "https://catalogue.uci.edu/thehenrysamuelischoolofengineering/departmentofbiomedicalengineering/", "render": false}],
-     "matched_authors": ["Qing Hua Nie", "James P. Brody"],
-     "notes": "Catalogue faculty list (includes affiliated faculty)."},
-    {"program_name": "Computer Science, Ph.D.", "degree": "PhD", "discipline": "computer_science", "program_type": "independent",
-     "umbrella_name": null, "program_url": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_phd/",
-     "phd_evidence_quote": "Computer Science, Ph.D. < University of California Irvine",
-     "faculty_list_urls": [{"url": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/", "render": false}],
-     "matched_authors": ["Xiaohui S. Xie"],
-     "notes": ""},
-    {"program_name": "Chemistry, Ph.D.", "degree": "PhD", "discipline": "chemistry", "program_type": "independent",
-     "umbrella_name": null, "program_url": "https://catalogue.uci.edu/schoolofphysicalsciences/departmentofchemistry/chemistry_phd/",
-     "phd_evidence_quote": "The Department offers an M.S. and a Ph.D. in Chemistry.",
-     "faculty_list_urls": [{"url": "https://catalogue.uci.edu/schoolofphysicalsciences/departmentofchemistry/", "render": false}, {"url": "https://www.chem.uci.edu/people/faculty", "render": false}, {"url": "https://www.chem.uci.edu/people/staff", "render": false}],
-     "matched_authors": [],
-     "notes": "Included for the core-B author Dmitrij Rappoport (computational chemistry), but he is not on the catalogue or department faculty/staff lists."}
+    {
+      "program_name": "Mathematical, Computational and Systems Biology (MCSB) PhD",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://mcsb.uci.edu/",
+      "phd_evidence_quote": "The goal of UCI's program in Mathematical, Computational and Systems Biology (MCSB) is to provide students from a variety of educational backgrounds with Ph.D. training suitable for research careers in the nascent field of Systems Biology.",
+      "faculty_list_urls": [
+        {
+          "url": "https://ccbs.uci.edu/education/mcsb/mcsb-program-faculty/",
+          "render": false
+        },
+        {
+          "url": "https://ccbs.uci.edu/education/mcsb/mcsb-program-faculty/?tpage=2",
+          "render": false
+        },
+        {
+          "url": "https://ccbs.uci.edu/education/mcsb/mcsb-program-faculty/?tpage=3",
+          "render": false
+        },
+        {
+          "url": "https://ccbs.uci.edu/education/mcsb/mcsb-program-faculty/?tpage=4",
+          "render": false
+        },
+        {
+          "url": "https://ccbs.uci.edu/directory/ccbs-faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Qing Hua Nie",
+        "Vivek Swarup",
+        "Xiaohui S. Xie",
+        "James P. Brody"
+      ],
+      "notes": "The program faculty list is paginated (?tpage=1..4); Nie, Swarup and Xie are on page 3. James P. Brody is on the CCBS faculty directory, not on the MCSB program-faculty pages. mcsb.uci.edu redirects to http://ccbs.uci.edu/education/mcsb/."
+    },
+    {
+      "program_name": "Statistics, Ph.D.",
+      "degree": "PhD",
+      "discipline": "statistics",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://stat.ics.uci.edu/graduate-statistics-programs/",
+      "phd_evidence_quote": "The Department of Statistics offers research-oriented graduate programs that lead to the Doctor of Philosophy (Ph.D.) or Master of Science (M.S.) degree.",
+      "faculty_list_urls": [
+        {
+          "url": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Daniel L. Gillen"
+      ],
+      "notes": "Catalogue page: https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofstatistics/statistics_phd/ ('Statistics, Ph.D. < University of California Irvine'). www.stat.uci.edu is now allowed and redirects to https://stat.ics.uci.edu/ (program page above fetched 2026-11-03), but the department people page https://stat.ics.uci.edu/people and the ICS directory https://ics.uci.edu/people/ are BLOCKED by robots.txt, so the catalogue faculty list is still used (https://stat.ics.uci.edu/research-areas/ names no relevant authors). Dabao Zhang (peripheral) was not matched there."
+    },
+    {
+      "program_name": "Biomedical Engineering, Ph.D.",
+      "degree": "PhD",
+      "discipline": "bioengineering",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://catalogue.uci.edu/thehenrysamuelischoolofengineering/departmentofbiomedicalengineering/biomedicalengineering_phd/",
+      "phd_evidence_quote": "Biomedical Engineering, Ph.D. < University of California Irvine",
+      "faculty_list_urls": [
+        {
+          "url": "https://catalogue.uci.edu/thehenrysamuelischoolofengineering/departmentofbiomedicalengineering/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Qing Hua Nie",
+        "James P. Brody"
+      ],
+      "notes": "Catalogue faculty list (includes affiliated faculty)."
+    },
+    {
+      "program_name": "Computer Science, Ph.D.",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/computerscience_phd/",
+      "phd_evidence_quote": "Computer Science, Ph.D. < University of California Irvine",
+      "faculty_list_urls": [
+        {
+          "url": "https://catalogue.uci.edu/donaldbrenschoolofinformationandcomputersciences/departmentofcomputerscience/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Xiaohui S. Xie"
+      ],
+      "notes": ""
+    },
+    {
+      "program_name": "Chemistry, Ph.D.",
+      "degree": "PhD",
+      "discipline": "chemistry",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://catalogue.uci.edu/schoolofphysicalsciences/departmentofchemistry/chemistry_phd/",
+      "phd_evidence_quote": "The Department offers an M.S. and a Ph.D. in Chemistry.",
+      "faculty_list_urls": [
+        {
+          "url": "https://catalogue.uci.edu/schoolofphysicalsciences/departmentofchemistry/",
+          "render": false
+        },
+        {
+          "url": "https://www.chem.uci.edu/people/faculty",
+          "render": false
+        },
+        {
+          "url": "https://www.chem.uci.edu/people/staff",
+          "render": false
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Included for the core-B author Dmitrij Rappoport (computational chemistry), but he is not on the catalogue or department faculty/staff lists."
+    }
   ],
   "unmatched_core_authors": [
-    {"name": "Tatiana Foroud", "program_found": null, "evidence_url": null, "note": "Not on any UCI list; she is an Indiana University geneticist per OpenAlex co-affiliations (association probably spurious)."},
-    {"name": "Dmitrij Rappoport", "program_found": null, "evidence_url": "https://www.chem.uci.edu/people/faculty", "note": "Not on the Chemistry faculty or staff pages or the catalogue faculty list. Probably research (non-faculty) staff. Profile not searched (WebSearch budget exhausted)."}
+    {
+      "name": "Tatiana Foroud",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on any UCI list; she is an Indiana University geneticist per OpenAlex co-affiliations (association probably spurious)."
+    },
+    {
+      "name": "Dmitrij Rappoport",
+      "program_found": null,
+      "evidence_url": "https://www.chem.uci.edu/people/faculty",
+      "note": "Not on the Chemistry faculty or staff pages or the catalogue faculty list. Probably research (non-faculty) staff. A candidate profile URL found by WebSearch (https://ffgroup.chem.uci.edu/members/dmitrij, a research-group member page) is UNREACHABLE via the fetcher, so unverified."
+    }
   ],
   "problems": [
-    "BLOCKED by robots.txt: https://www.stat.uci.edu/ (Statistics department site). Used catalogue.uci.edu instead.",
-    "WebSearch budget exhausted; URLs found by navigating official sites and the UCI catalogue."
+    "BLOCKED by robots.txt: https://stat.ics.uci.edu/people and https://ics.uci.edu/people/ (Statistics faculty list). Used catalogue.uci.edu faculty list instead.",
+    "UNREACHABLE: https://ffgroup.chem.uci.edu/members/dmitrij (Rappoport profile candidate).",
+    "WebSearch budget exhausted; URLs found by navigating official sites and the UCI catalogue.",
+    "rechecked 2026-11-03 under Claude-User robots policy: www.stat.uci.edu now allowed (-> stat.ics.uci.edu); Statistics PhD program_url/evidence quote replaced with the department's own graduate-programs page; department people list still robots-blocked, so no matches added."
   ]
 }

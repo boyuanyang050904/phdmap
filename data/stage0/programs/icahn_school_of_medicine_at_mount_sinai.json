@@ -1,107 +1,262 @@
 {
  "institution": "Icahn School of Medicine at Mount Sinai",
- "checked_at": "2026-11-03T08:58:56Z",
- "grants_phd": null,
- "grants_phd_evidence": null,
- "programs": [],
+ "checked_at": "2026-11-03T19:15:00Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://icahn.mssm.edu/education/phd",
+  "quote": "Rich in research milestones, the PhD programs at the Icahn School of Medicine at Mount Sinai provide rigorous, collaborative training that prepares our students to launch the next generation of biomedical breakthroughs."
+ },
+ "programs": [
+  {
+   "program_name": "PhD in Biomedical Sciences - Genetics and Genomic Sciences (GGS) multidisciplinary training area",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "PhD in Biomedical Sciences (Graduate School of Biomedical Sciences)",
+   "program_url": "https://icahn.mssm.edu/education/phd/biomedical-sciences/genetics-genomics",
+   "phd_evidence_quote": "The Genetics and Genomic Sciences multidisciplinary training area focuses on the genetics of human disease and the application of data science to address disease detection, prediction, and treatment.",
+   "faculty_list_urls": [
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&sort=desc",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=O%27Reilly",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Nadkarni",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Gumus",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Lea%20Davis",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Roussos",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Schlessinger",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Voloudakis",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Asgari",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Bin%20Zhang",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Samira Asgari",
+    "Bin Zhang",
+    "Georgios Voloudakis",
+    "Paul F. O’Reilly",
+    "Girish N. Nadkarni",
+    "Zeynep Hulya Gumus",
+    "Lea Karatheodoris Davis",
+    "Panos Roussos",
+    "Avner Schlessinger"
+   ],
+   "notes": "Training-area faculty list: 'Showing 1 - 10 of 119 results'. Results list paginates client-side (10 per page, no URL parameter for later pages), so only the first page (A-Z), the first page sorted descending (&sort=desc) and keyword-filtered result pages could be fetched; keyword pages echo the search term, so membership was confirmed from the result cards on each page, not from `match` alone. Cards seen: 'Paul O'reilly, PhD', 'Girish N Nadkarni, MD', 'Zeynep H Gumus, PhD', 'Lea Davis, PhD', 'Panagiotis Roussos, MD, MS, PhD', 'Avner Schlessinger, PhD', 'Georgios Voloudakis, MD, PhD', 'Samira Asgari, PhD', 'Bin Zhang, PhD'. Roussos profile (https://profiles.icahn.mssm.edu/panagiotis-roussos) also lists 'Genetics and Genomic Sciences [GGS], Neuroscience [NEU]'. Keyword searches gave no card for Huckins, Kovacic, Pandey, Filizola, Hoffman, Choi, Hoggart, Losic, Iyegbe, Glicksberg, Dunaif, Yanqing Wang, Pei Wang, Jenny Tam, Hei Man Wu (match hits for the last four were keyword echoes and are excluded)."
+  },
+  {
+   "program_name": "PhD in Biomedical Sciences - Artificial Intelligence and Emerging Technologies in Medicine (AIET) multidisciplinary training area",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "umbrella_track",
+   "umbrella_name": "PhD in Biomedical Sciences (Graduate School of Biomedical Sciences)",
+   "program_url": "https://icahn.mssm.edu/education/phd/biomedical-sciences/artificial-intelligence",
+   "phd_evidence_quote": "The Artificial Intelligence and Emerging Technologies in Medicine multidisciplinary training area of the PhD in Biomedical Sciences program offers students with solid quantitative and technical backgrounds educational and research opportunities in AI/machine learning",
+   "faculty_list_urls": [
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900091230503091&selectedFilter=training&tab=faculty",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900091230503091&selectedFilter=training&tab=faculty&sort=desc",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900091230503091&selectedFilter=training&tab=faculty&keyword=Nadkarni",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900091230503091&selectedFilter=training&tab=faculty&keyword=Gumus",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900091230503091&selectedFilter=training&tab=faculty&keyword=Filizola",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900091230503091&selectedFilter=training&tab=faculty&keyword=Schlessinger",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900091230503091&selectedFilter=training&tab=faculty&keyword=Lea%20Davis",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900091230503091&selectedFilter=training&tab=faculty&keyword=Glicksberg",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Georgios Voloudakis",
+    "Girish N. Nadkarni",
+    "Zeynep Hulya Gumus",
+    "Marta Filizola",
+    "Avner Schlessinger",
+    "Lea Karatheodoris Davis",
+    "Benjamin Scott Glicksberg"
+   ],
+   "notes": "Training-area faculty list: 'Showing 1 - 10 of 87 results'. Results list paginates client-side (10 per page, no URL parameter for later pages), so only the first page (A-Z), the first page sorted descending (&sort=desc) and keyword-filtered result pages could be fetched; keyword pages echo the search term, so membership was confirmed from the result cards on each page, not from `match` alone. Cards seen: Nadkarni, 'Zeynep H Gumus, PhD', 'Marta Filizola, PhD', 'Avner Schlessinger, PhD', 'Lea Davis, PhD', 'Benjamin Glicksberg, PhD'; Voloudakis on the descending page. No card for Pandey, Roussos, O'Reilly, Asgari, Hoffman, Bin Zhang. Glicksberg profile (https://profiles.icahn.mssm.edu/benjamin-glicksberg) lists 'Artificial Intelligence and Emerging Technologies in Medicine [AIET]'; Filizola profile lists 'Artificial Intelligence and Emerging Technologies in Medicine [AIET], Disease Mechanisms and Therapeutics (DMT), Neuroscience [NEU]'."
+  },
+  {
+   "program_name": "PhD in Biomedical Sciences - Disease Mechanisms and Therapeutics (DMT) multidisciplinary training area",
+   "degree": "PhD",
+   "discipline": "other:pharmacology_drug_discovery",
+   "program_type": "umbrella_track",
+   "umbrella_name": "PhD in Biomedical Sciences (Graduate School of Biomedical Sciences)",
+   "program_url": "https://icahn.mssm.edu/education/phd/biomedical-sciences/therapeutics",
+   "phd_evidence_quote": "The Disease Mechanisms and Therapeutics multidisciplinary training area provides cutting-edge training at the intersection between computation and experiments, to train you as part of the next generation of biomedical scientists.",
+   "faculty_list_urls": [
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900039037253091&selectedFilter=training&tab=faculty",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900039037253091&selectedFilter=training&tab=faculty&sort=desc",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900039037253091&selectedFilter=training&tab=faculty&keyword=Filizola",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900039037253091&selectedFilter=training&tab=faculty&keyword=Schlessinger",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Marta Filizola",
+    "Avner Schlessinger"
+   ],
+   "notes": "Page title 'Disease Mechanisms and Therapeutics - PhD in Biomedical Sciences'; page says 'we facilitate discovery and development of chemical probes to study the pathophysiology of human diseases'. Training-area faculty list: 'Showing 1 - 10 of 122 results'. Results list paginates client-side (10 per page, no URL parameter for later pages), so only the first page (A-Z), the first page sorted descending (&sort=desc) and keyword-filtered result pages could be fetched; keyword pages echo the search term, so membership was confirmed from the result cards on each page, not from `match` alone. Cards seen: 'Marta Filizola, PhD', 'Avner Schlessinger, PhD'. No card for Pandey, Gumus, Kovacic."
+  },
+  {
+   "program_name": "PhD in Neuroscience",
+   "degree": "PhD",
+   "discipline": "other:neuroscience",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://icahn.mssm.edu/education/phd/neuroscience",
+   "phd_evidence_quote": "As a student in the Neuroscience PhD program at the Graduate School of Biomedical Sciences at the Icahn School of Medicine at Mount Sinai, you will be part of a team driving innovative, life-changing scientific discoveries.",
+   "faculty_list_urls": [
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064101&selectedFilter=training&tab=faculty",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064101&selectedFilter=training&tab=faculty&sort=desc",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064101&selectedFilter=training&tab=faculty&keyword=Roussos",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064101&selectedFilter=training&tab=faculty&keyword=Filizola",
+     "render": true
+    },
+    {
+     "url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064101&selectedFilter=training&tab=faculty&keyword=Voloudakis",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Bin Zhang",
+    "Panos Roussos",
+    "Marta Filizola",
+    "Georgios Voloudakis"
+   ],
+   "notes": "Included only because relevant authors are its faculty (not a core program type). Results list paginates client-side (10 per page, no URL parameter for later pages), so only the first page (A-Z), the first page sorted descending (&sort=desc) and keyword-filtered result pages could be fetched; keyword pages echo the search term, so membership was confirmed from the result cards on each page, not from `match` alone. Cards seen: 'Panagiotis Roussos, MD, MS, PhD', 'Marta Filizola, PhD', 'Georgios Voloudakis, MD, PhD'; Bin Zhang on the descending page. No card for Huckins."
+  },
+  {
+   "program_name": "PhD in Health Sciences Engineering (joint with Rensselaer Polytechnic Institute)",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://icahn.mssm.edu/education/phd/health-sciences-engineering",
+   "phd_evidence_quote": "The PhD in Health Sciences Engineering is a unique, immersive program designed to cultivate future leaders and entrepreneurs who bridge the gap between engineering and medicine. Jointly offered by Rensselaer Polytechnic Institute and the Icahn School of Medicine at Mount Sinai",
+   "faculty_list_urls": [
+    {
+     "url": "https://icahn.mssm.edu/education/phd/health-sciences-engineering",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Girish N. Nadkarni",
+    "Panos Roussos",
+    "Benjamin Scott Glicksberg"
+   ],
+   "notes": "Program page lists its faculty (Mount Sinai and RPI). Page: 'Learn about our admissions requirements and submit your application through Rensselaer Polytechnic Institute.'"
+  }
+ ],
  "unmatched_core_authors": [
   {
    "name": "Laura M. Huckins",
    "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Bin Zhang",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+   "evidence_url": "https://faculty.icahn.mssm.edu/results?tab=faculty&keyword=Huckins",
+   "note": "Faculty directory keyword search returns no Huckins card (only an unrelated faculty member); no card in GGS or NEU training-area keyword searches. OpenAlex last_known includes Yale University; likely no longer at Mount Sinai."
   },
   {
    "name": "Yanqing Wang",
    "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+   "evidence_url": "https://faculty.icahn.mssm.edu/results?trainingAreaId=0000149900020829064071&selectedFilter=training&tab=faculty&keyword=Yanqing%20Wang",
+   "note": "GGS keyword search shows no Yanqing Wang card (only other Wangs); OpenAlex last_known is Shandong University, likely an author-disambiguation artifact."
   },
   {
    "name": "Jason Ciril Kovacic",
    "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Paul F. O’Reilly",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Girish N. Nadkarni",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Zeynep Hulya Gumus",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Lea Karatheodoris Davis",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+   "evidence_url": "https://profiles.icahn.mssm.edu/jason-c-kovacic",
+   "note": "Profile: 'CLINICAL PROFESSOR | Medicine, Cardiology'; no Multi-Disciplinary Training Area listed, and no card in GGS/AIET/DMT keyword searches."
   },
   {
    "name": "Conrad Osamede Iyegbe",
    "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Panos Roussos",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Samira Asgari",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Marta Filizola",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Benjamin Scott Glicksberg",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+   "evidence_url": "https://profiles.icahn.mssm.edu/conrad-iyegbe",
+   "note": "Profile: 'INSTRUCTOR | Genetics and Genomic Sciences'; no Multi-Disciplinary Training Area listed; GGS keyword search found no card."
   },
   {
    "name": "Gaurav Shankar Pandey",
    "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
-  },
-  {
-   "name": "Avner Schlessinger",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not checked: all Mount Sinai sites blocked by robots.txt for the project fetcher."
+   "evidence_url": "https://faculty.icahn.mssm.edu/results?tab=faculty&keyword=Gaurav",
+   "note": "Faculty directory search 'Gaurav' lists only Gaurav Chandra and Gaurav Sharma; no Pandey card in GGS/AIET/DMT. OpenAlex last_known is IBM / Indian institutions, probably a different person or departed."
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://icahn.mssm.edu/ (also https://icahn.mssm.edu/education/phd, https://icahn.mssm.edu/about/departments/genetics-genomic-sciences; robots.txt itself returns 403 Access Denied)",
-  "BLOCKED by robots.txt: https://labs.icahn.mssm.edu/",
-  "BLOCKED by robots.txt: https://gsbs.icahn.mssm.edu/",
-  "BLOCKED by robots.txt: https://www.mountsinai.org/",
-  "Could not verify PhD-granting status or any program (Graduate School of Biomedical Sciences pages unreachable); all fields null. WebSearch budget exhausted, so no alternative official domains could be discovered.",
-  "'Alzheimer’s Disease Neuroimaging Initiative' is a consortium author, ignored."
+  "Plain (non-rendered) fetches of icahn.mssm.edu, faculty.icahn.mssm.edu, profiles.icahn.mssm.edu, labs.icahn.mssm.edu and www.mountsinai.org return HTTP 403 Akamai 'Access Denied'; robots.txt no longer blocks (4xx robots.txt = no restriction). All recorded pages were fetched with --render (headless Chromium, status 200, normal content, no challenge page).",
+  "UNREACHABLE: https://gsbs.icahn.mssm.edu/ (host does not resolve / TLS or proxy error); program pages now live under https://icahn.mssm.edu/education/phd",
+  "Training-area faculty lists on faculty.icahn.mssm.edu paginate client-side (10 per page; GGS 119, AIET 87, DMT 122 faculty); full lists not fetchable, so peripheral authors were only checked via first/last pages and selected keyword searches; keyword result pages echo the search term, so `match` output on them was checked against the result cards.",
+  "No PhD in Biostatistics found: Public Health Programs page lists 'Master of Science in Biostatistics' and 'PhD in Clinical Research' only (https://icahn.mssm.edu/education/public-health). Cancer Biology, Development/Regeneration/Stem Cells, Immunology and Microbiology training areas not checked (no evident relevance).",
+  "'Alzheimer’s Disease Neuroimaging Initiative' is a consortium author, ignored.",
+  "rechecked 2026-11-03 under Claude-User robots policy: icahn.mssm.edu now fetchable (with --render); established grants_phd=true and 5 programs (BMS training areas GGS, AIET, DMT; PhD in Neuroscience; PhD in Health Sciences Engineering) with training-area faculty lists; 9 core authors matched, 5 core authors remain unmatched with profile/search evidence"
  ]
 }

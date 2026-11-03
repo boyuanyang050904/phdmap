@@ -51,6 +51,42 @@ def from_profile(url):
     return title, lab, r.fetched_at
 
 
+def first_last_author_year_at_school(aid, school_id):
+    """Earliest last/corresponding-author OpenAlex work whose byline (for this author)
+    lists the school.  Restricting to the school avoids merged same-name profiles."""
+    from stage1.s12_faculty import oa, role, on_school_byline
+    for w, _, _ in oa.paginate("/works", per_page=200, filter=f"author.id:{aid.rsplit('/', 1)[-1]}",
+                               select="id,publication_year,authorships", sort="publication_year:asc"):
+        if role(w, aid)[0] == "last/corresponding" and on_school_byline(w, aid, school_id):
+            return w.get("publication_year")
+    return None
+
+
+def affiliation_from_recent(aid, school_id):
+    """Spec: compare the byline of the most recent papers with the program faculty page.
+    Uses the 2 most recent last/corresponding-author works in the 3-year window."""
+    from stage1.s12_faculty import oa, role, on_school_byline, WINDOW_FROM, TOPICS, work_text
+    ws = []
+    for w, url, at in oa.paginate("/works", per_page=200,
+                                  filter=f"author.id:{aid.rsplit('/', 1)[-1]},from_publication_date:{WINDOW_FROM}",
+                                  select="id,title,publication_date,authorships,abstract_inverted_index",
+                                  sort="publication_date:desc"):
+        # only works in the person's relevant research line (guards against merged namesakes)
+        if role(w, aid)[0] == "last/corresponding" and any(rx.search(work_text(w)) for _, rx in TOPICS.values()):
+            _, _, au = role(w, aid)
+            ws.append({"id": w["id"], "title": w.get("title"), "date": w.get("publication_date"),
+                       "institutions": [i["display_name"] for i in (au or {}).get("institutions", [])],
+                       "lists_school": on_school_byline(w, aid, school_id), "source_url": url, "fetched_at": at})
+        if len(ws) >= 2:
+            break
+    if not ws:
+        return {"status": "unknown", "recent_works": [], "note": "no last/corresponding-author work in window"}
+    ok = any(w["lists_school"] for w in ws)
+    return {"status": "consistent" if ok else "possibly_moved", "recent_works": ws,
+            "rule": "possibly_moved if none of the 2 most recent topic-relevant last/corresponding-author "
+                    "works lists the school"}
+
+
 def main(pids):
     for pid in pids:
         p = D1 / "faculty" / f"{pid}.json"
@@ -58,6 +94,8 @@ def main(pids):
         prog = json.load(open(D1 / "programs" / f"{pid}.json"))
         flist = {f["name"]: f for f in prog["faculty_list"]["faculty"]}
         for x in d["top"]:
+            if x.get("openalex_id"):
+                x["affiliation_recent"] = affiliation_from_recent(x["openalex_id"], d["school_institution_id"])
             src = flist.get(x["name"], {})
             # title/lab from the faculty list (official page) if present
             if src.get("title"):
@@ -76,14 +114,8 @@ def main(pids):
             else:
                 is_ap = "assistant professor" in tv and not re.search(r"adjunct|research|clinical|visiting", tv)
                 fy = x.get("first_last_author_year")
-                if is_ap and fy is None:
-                    from stage1.s12_faculty import oa, role  # lazy
-                    for w, _, _ in oa.paginate("/works", per_page=200,
-                                               filter=f"author.id:{x['openalex_id'].rsplit('/', 1)[-1]}",
-                                               select="id,publication_year,authorships", sort="publication_year:asc"):
-                        if role(w, x["openalex_id"])[0] == "last/corresponding":
-                            fy = w.get("publication_year")
-                            break
+                if is_ap:
+                    fy = first_last_author_year_at_school(x["openalex_id"], d["school_institution_id"])
                     x["first_last_author_year"] = fy
                 x["new_assistant_professor"] = {
                     "value": bool(is_ap and fy is not None and fy >= CUTOFF_YEAR),
@@ -91,10 +123,10 @@ def main(pids):
                     "title_source_url": (x.get("title_field") or {}).get("source_url"),
                     "first_last_author_year": fy, "cutoff_year": CUTOFF_YEAR,
                     "rule": "official title is (tenure-track) Assistant Professor AND first OpenAlex "
-                            f"last/corresponding-author work >= {CUTOFF_YEAR}"}
+                            f"last/corresponding-author work listing this school >= {CUTOFF_YEAR}"}
         json.dump(d, open(p, "w"), indent=1)
-        print(pid, [(x["name"], (x.get("title_field") or {}).get("value"), x["new_assistant_professor"]["value"])
-                    for x in d["top"]])
+        print(pid, [(x["name"], (x.get("title_field") or {}).get("value"), x["new_assistant_professor"]["value"],
+                     (x.get("affiliation_recent") or {}).get("status")) for x in d["top"]])
 
 
 if __name__ == "__main__":

@@ -156,10 +156,11 @@
  ],
  "problems": [
   "Most ucdavis.edu sites return a Cloudflare 'Just a moment...' 403 challenge to the fetcher, also with --render: grad.ucdavis.edu/programs, gradstudies.ucdavis.edu, bmcdb.ucdavis.edu, bme.ucdavis.edu, chemistry.ucdavis.edu, genomecenter.ucdavis.edu.",
-  "BLOCKED by robots.txt: https://www.ucdavis.edu/",
+  "https://www.ucdavis.edu/ is now allowed by robots.txt but returns HTTP 403 Forbidden ('Error 54113', Fastly edge; not bypassed) for https://www.ucdavis.edu/, /majors and /academics/graduate-programs (2026-11-03).",
   "UNREACHABLE: https://biophysics.ucdavis.edu/, https://chem.ucdavis.edu/, https://physiology.ucdavis.edu/",
   "No graduate-group member lists were reachable; memberships come from catalog (chair) and UC Davis Health faculty profile 'Graduate Group Affiliations' sections. Lists are therefore incomplete.",
   "Computer Science PhD exists in the catalog (Computer Science, Doctor of Philosophy) but no faculty list reachable; not recorded.",
-  "WebSearch budget exhausted; URLs discovered by site navigation."
+  "WebSearch budget exhausted; URLs discovered by site navigation.",
+  "rechecked 2026-11-03 under Claude-User robots policy: www.ucdavis.edu no longer robots-blocked but returns HTTP 403 Forbidden; no programs or matches added."
  ]
 }

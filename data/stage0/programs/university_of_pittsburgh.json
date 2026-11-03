@@ -1,218 +1,238 @@
 {
-  "institution": "University of Pittsburgh",
-  "checked_at": "2026-11-03T09:11:07Z",
-  "grants_phd": true,
-  "grants_phd_evidence": {
-    "url": "https://www.publichealth.pitt.edu/biostatistics/degree-programs/doctor-philosophy-biostatistics",
-    "quote": "The PhD in biostatistics is an academic degree program for students with a background in mathematics and a strong interest in biology and public health."
+ "institution": "University of Pittsburgh",
+ "checked_at": "2026-11-03T09:11:07Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.publichealth.pitt.edu/biostatistics/degree-programs/doctor-philosophy-biostatistics",
+  "quote": "The PhD in biostatistics is an academic degree program for students with a background in mathematics and a strong interest in biology and public health."
+ },
+ "programs": [
+  {
+   "program_name": "Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology (CPCB)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.cmu.edu/compbio/",
+   "phd_evidence_quote": "Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.cmu.edu/compbio/people/core-faculty.html",
+     "render": false
+    },
+    {
+     "url": "https://www.cmu.edu/compbio/people/affiliate-faculty.html",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Harinder Singh",
+    "Jishnu Das",
+    "Xinghua Lu",
+    "George C. Tseng",
+    "Andreas R. Pfenning",
+    "Junmei Wang",
+    "David Ryan Koes",
+    "Hyun Jung Park",
+    "Xiang‐Qun Xie",
+    "Alok V. Joglekar"
+   ],
+   "notes": "Joint program with Carnegie Mellon (www.compbio.pitt.edu redirects to www.cmu.edu/compbio/). Core training faculty: Singh, Das, Lu, Tseng, Pfenning, Junmei Wang, Koes; affiliate faculty: Hyun Jung Park, Xiang-Qun Xie, Joglekar."
   },
-  "programs": [
+  {
+   "program_name": "PhD Program in Biomedical Informatics (Department of Biomedical Informatics)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.dbmi.pitt.edu/education/training-programs/",
+   "phd_evidence_quote": "Our doctoral program trains scientists and scholars to conduct original, rigorous research at the intersection of biomedicine and computing.",
+   "faculty_list_urls": [
     {
-      "program_name": "Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology (CPCB)",
-      "degree": "PhD",
-      "discipline": "comp_bio",
-      "program_type": "independent",
-      "umbrella_name": null,
-      "program_url": "https://www.cmu.edu/compbio/",
-      "phd_evidence_quote": "Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program in Computational Biology",
-      "faculty_list_urls": [
-        {
-          "url": "https://www.cmu.edu/compbio/people/core-faculty.html",
-          "render": false
-        },
-        {
-          "url": "https://www.cmu.edu/compbio/people/affiliate-faculty.html",
-          "render": false
-        }
-      ],
-      "matched_authors": [
-        "Harinder Singh",
-        "Jishnu Das",
-        "Xinghua Lu",
-        "George C. Tseng",
-        "Andreas R. Pfenning",
-        "Junmei Wang",
-        "David Ryan Koes",
-        "Hyun Jung Park",
-        "Xiang‐Qun Xie",
-        "Alok V. Joglekar"
-      ],
-      "notes": "Joint program with Carnegie Mellon (www.compbio.pitt.edu redirects to www.cmu.edu/compbio/). Core training faculty: Singh, Das, Lu, Tseng, Pfenning, Junmei Wang, Koes; affiliate faculty: Hyun Jung Park, Xiang-Qun Xie, Joglekar."
+     "url": "https://www.dbmi.pitt.edu/people/",
+     "render": false
     },
     {
-      "program_name": "PhD Program in Biomedical Informatics (Department of Biomedical Informatics)",
-      "degree": "PhD",
-      "discipline": "comp_bio",
-      "program_type": "independent",
-      "umbrella_name": null,
-      "program_url": "https://www.dbmi.pitt.edu/education/training-programs/",
-      "phd_evidence_quote": "Our doctoral program trains scientists and scholars to conduct original, rigorous research at the intersection of biomedicine and computing.",
-      "faculty_list_urls": [
-        {
-          "url": "https://www.dbmi.pitt.edu/people/",
-          "render": false
-        },
-        {
-          "url": "https://www.dbmi.pitt.edu/education/research-advisors/",
-          "render": false
-        }
-      ],
-      "matched_authors": [
-        "Eric V Strobl",
-        "Jishnu Das",
-        "Xinghua Lu",
-        "Lujia Chen",
-        "Gregory F. Cooper",
-        "Hyun Jung Park",
-        "George C. Tseng",
-        "Erik S. Wright"
-      ],
-      "notes": "Matches come from the DBMI People page (department people, may include secondary/adjunct appointees); the 'Research Advisors' page gave 0 name matches (content not in static HTML)."
-    },
-    {
-      "program_name": "Doctor of Philosophy in Biostatistics (Biostatistics and Health Data Science)",
-      "degree": "PhD",
-      "discipline": "biostatistics",
-      "program_type": "biostat",
-      "umbrella_name": null,
-      "program_url": "https://www.publichealth.pitt.edu/biostatistics/degree-programs/doctor-philosophy-biostatistics",
-      "phd_evidence_quote": "The PhD in biostatistics is an academic degree program for students with a background in mathematics and a strong interest in biology and public health.",
-      "faculty_list_urls": [
-        {
-          "url": "https://www.publichealth.pitt.edu/directory/biostatistics",
-          "render": false
-        }
-      ],
-      "matched_authors": [
-        "Hyun Jung Park",
-        "Daniel E. Weeks",
-        "George C. Tseng"
-      ],
-      "notes": "Department directory (includes secondary appointments)."
-    },
-    {
-      "program_name": "Doctor of Philosophy in Human Genetics",
-      "degree": "PhD",
-      "discipline": "genetics_genomics",
-      "program_type": "independent",
-      "umbrella_name": null,
-      "program_url": "https://www.publichealth.pitt.edu/hugen/degree-programs/doctor-philosophy-human-genetics",
-      "phd_evidence_quote": "The doctoral program in human genetics prepares students for careers leading genetics and genomics research in academia or industry.",
-      "faculty_list_urls": [
-        {
-          "url": "https://www.publichealth.pitt.edu/directory/hugen",
-          "render": false
-        }
-      ],
-      "matched_authors": [
-        "Hyun Jung Park",
-        "Daniel E. Weeks",
-        "George C. Tseng",
-        "Juan Carlos Celedon"
-      ],
-      "notes": "Concentrations include statistical genetics and genetic epidemiology. Department directory (includes secondary appointments)."
-    },
-    {
-      "program_name": "Molecular Biophysics and Structural Biology (MBSB) Graduate Program",
-      "degree": "PhD",
-      "discipline": "biophysics",
-      "program_type": "independent",
-      "umbrella_name": null,
-      "program_url": "https://www.mbsb.pitt.edu/index.php/about",
-      "phd_evidence_quote": "The Molecular Biophysics & Structural Biology (MBSB) Graduate Program at the University of Pittsburgh and Carnegie Mellon University is an interdisciplinary program for PhD studies",
-      "faculty_list_urls": [
-        {
-          "url": "https://mbsb.pitt.edu/people?type=1",
-          "render": false
-        }
-      ],
-      "matched_authors": [
-        "Junmei Wang"
-      ],
-      "notes": "Joint Pitt/CMU program."
-    },
-    {
-      "program_name": "PhD in Pharmaceutical Sciences (School of Pharmacy)",
-      "degree": "PhD",
-      "discipline": "other:pharmaceutical_sciences",
-      "program_type": "independent",
-      "umbrella_name": null,
-      "program_url": "https://www.pharmacy.pitt.edu/academics/pharmaceutical-science-graduate-programs",
-      "phd_evidence_quote": "PhD in Pharmaceutical Sciences",
-      "faculty_list_urls": [
-        {
-          "url": "https://www.pharmacy.pitt.edu/people?type=88&field_department_target_id=All&field_affiliated_program_target_id=All&field_office_location_target_id=All&field_accepting_students_value=All&combine=",
-          "render": false
-        }
-      ],
-      "matched_authors": [
-        "Junmei Wang",
-        "Xiang‐Qun Xie"
-      ],
-      "notes": "Computational drug design / CADD group (Xie, Junmei Wang). Zhiwei Feng and Ying Xue not on the faculty list."
-    },
-    {
-      "program_name": "Bioengineering PhD Program (Swanson School of Engineering)",
-      "degree": "PhD",
-      "discipline": "bioengineering",
-      "program_type": "independent",
-      "umbrella_name": null,
-      "program_url": "https://www.engineering.pitt.edu/departments/bioengineering/programs/graduate/graduate-overview/",
-      "phd_evidence_quote": "This program is directed toward graduate bioengineering education and research, with particular emphasis on the PhD program.",
-      "faculty_list_urls": [
-        {
-          "url": "https://www.engineering.pitt.edu/departments/bioengineering/people/faculty/",
-          "render": false
-        }
-      ],
-      "matched_authors": [
-        "Partha Dutta"
-      ],
-      "notes": "Core program type for direction B; only a peripheral A author matched."
+     "url": "https://www.dbmi.pitt.edu/education/research-advisors/",
+     "render": false
     }
-  ],
-  "unmatched_core_authors": [
+   ],
+   "matched_authors": [
+    "Eric V Strobl",
+    "Jishnu Das",
+    "Xinghua Lu",
+    "Lujia Chen",
+    "Gregory F. Cooper",
+    "Hyun Jung Park",
+    "George C. Tseng",
+    "Erik S. Wright"
+   ],
+   "notes": "Matches come from the DBMI People page (department people, may include secondary/adjunct appointees); the 'Research Advisors' page gave 0 name matches (content not in static HTML)."
+  },
+  {
+   "program_name": "Doctor of Philosophy in Biostatistics (Biostatistics and Health Data Science)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://www.publichealth.pitt.edu/biostatistics/degree-programs/doctor-philosophy-biostatistics",
+   "phd_evidence_quote": "The PhD in biostatistics is an academic degree program for students with a background in mathematics and a strong interest in biology and public health.",
+   "faculty_list_urls": [
     {
-      "name": "Panayiotis V. Benos",
-      "program_found": null,
-      "evidence_url": null,
-      "note": "Not on CPCB or DBMI lists; OpenAlex last_known includes University of Florida (likely moved)."
-    },
-    {
-      "name": "Amr H. Sawalha",
-      "program_found": null,
-      "evidence_url": null,
-      "note": "Clinical (rheumatology/pediatrics); not on any fetched program faculty page."
-    },
-    {
-      "name": "Wei Li",
-      "program_found": null,
-      "evidence_url": null,
-      "note": "Ambiguous name; not identifiable on fetched pages."
-    },
-    {
-      "name": "Zhiwei Feng",
-      "program_found": null,
-      "evidence_url": null,
-      "note": "Not on the School of Pharmacy faculty list (likely research staff in the Xie lab)."
-    },
-    {
-      "name": "Ying Xue",
-      "program_found": null,
-      "evidence_url": null,
-      "note": "last_known Shenzhen University of Advanced Technology; not on fetched pages."
-    },
-    {
-      "name": "Heng Huang",
-      "program_found": null,
-      "evidence_url": null,
-      "note": "last_known University of Maryland / Google; not on fetched pages."
+     "url": "https://www.publichealth.pitt.edu/directory/biostatistics",
+     "render": false
     }
-  ],
-  "problems": [
-    "WebSearch budget exhausted; URLs discovered by navigating official sites.",
-    "BLOCKED by robots.txt: https://www.statistics.pitt.edu/people/faculty (Statistics PhD not checked; Chris G. McKennan, peripheral, likely there).",
-    "UNREACHABLE: https://cpcb.pitt.edu/ and https://www.biomedicalgradstudies.pitt.edu/ (host does not resolve); School of Medicine umbrella (IBGP / somgrad.pitt.edu) not examined.",
-    "DBMI research-advisors page returned no names in static HTML; matched on the DBMI People page instead."
-  ]
+   ],
+   "matched_authors": [
+    "Hyun Jung Park",
+    "Daniel E. Weeks",
+    "George C. Tseng"
+   ],
+   "notes": "Department directory (includes secondary appointments)."
+  },
+  {
+   "program_name": "Doctor of Philosophy in Human Genetics",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.publichealth.pitt.edu/hugen/degree-programs/doctor-philosophy-human-genetics",
+   "phd_evidence_quote": "The doctoral program in human genetics prepares students for careers leading genetics and genomics research in academia or industry.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.publichealth.pitt.edu/directory/hugen",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Hyun Jung Park",
+    "Daniel E. Weeks",
+    "George C. Tseng",
+    "Juan Carlos Celedon"
+   ],
+   "notes": "Concentrations include statistical genetics and genetic epidemiology. Department directory (includes secondary appointments)."
+  },
+  {
+   "program_name": "Molecular Biophysics and Structural Biology (MBSB) Graduate Program",
+   "degree": "PhD",
+   "discipline": "biophysics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.mbsb.pitt.edu/index.php/about",
+   "phd_evidence_quote": "The Molecular Biophysics & Structural Biology (MBSB) Graduate Program at the University of Pittsburgh and Carnegie Mellon University is an interdisciplinary program for PhD studies",
+   "faculty_list_urls": [
+    {
+     "url": "https://mbsb.pitt.edu/people?type=1",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Junmei Wang"
+   ],
+   "notes": "Joint Pitt/CMU program."
+  },
+  {
+   "program_name": "PhD in Pharmaceutical Sciences (School of Pharmacy)",
+   "degree": "PhD",
+   "discipline": "other:pharmaceutical_sciences",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.pharmacy.pitt.edu/academics/pharmaceutical-science-graduate-programs",
+   "phd_evidence_quote": "PhD in Pharmaceutical Sciences",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.pharmacy.pitt.edu/people?type=88&field_department_target_id=All&field_affiliated_program_target_id=All&field_office_location_target_id=All&field_accepting_students_value=All&combine=",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Junmei Wang",
+    "Xiang‐Qun Xie"
+   ],
+   "notes": "Computational drug design / CADD group (Xie, Junmei Wang). Zhiwei Feng and Ying Xue not on the faculty list."
+  },
+  {
+   "program_name": "Bioengineering PhD Program (Swanson School of Engineering)",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.engineering.pitt.edu/departments/bioengineering/programs/graduate/graduate-overview/",
+   "phd_evidence_quote": "This program is directed toward graduate bioengineering education and research, with particular emphasis on the PhD program.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.engineering.pitt.edu/departments/bioengineering/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Partha Dutta"
+   ],
+   "notes": "Core program type for direction B; only a peripheral A author matched."
+  },
+  {
+   "program_name": "PhD in Statistics (Department of Statistics, Dietrich School)",
+   "degree": "PhD",
+   "discipline": "statistics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://stat.pitt.edu/graduate/phd-statistics",
+   "phd_evidence_quote": "The student is required to complete a dissertation in some area of theoretical statistics, applied statistics, or probability that is an original contribution of publishable quality",
+   "faculty_list_urls": [
+    {
+     "url": "https://stat.pitt.edu/people",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Chris G. McKennan"
+   ],
+   "notes": "Page title 'PhD in Statistics | Department of Statistics'. www.statistics.pitt.edu (old host) returns HTTP 403 'Access is denied' (server-side, not robots) and 502 with --render; department site is now stat.pitt.edu (found via 1 WebSearch). https://stat.pitt.edu/people/faculty has no names in static or rendered HTML; https://stat.pitt.edu/people lists 'Chris McKennan, Assistant Professor' in the primary 'Faculty' section (before 'Faculty - Secondary'). Only a peripheral A author matched."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Panayiotis V. Benos",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on CPCB or DBMI lists; OpenAlex last_known includes University of Florida (likely moved)."
+  },
+  {
+   "name": "Amr H. Sawalha",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Clinical (rheumatology/pediatrics); not on any fetched program faculty page."
+  },
+  {
+   "name": "Wei Li",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Ambiguous name; not identifiable on fetched pages."
+  },
+  {
+   "name": "Zhiwei Feng",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on the School of Pharmacy faculty list (likely research staff in the Xie lab)."
+  },
+  {
+   "name": "Ying Xue",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "last_known Shenzhen University of Advanced Technology; not on fetched pages."
+  },
+  {
+   "name": "Heng Huang",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "last_known University of Maryland / Google; not on fetched pages."
+  }
+ ],
+ "problems": [
+  "WebSearch budget exhausted; URLs discovered by navigating official sites.",
+  "UNREACHABLE: https://cpcb.pitt.edu/ and https://www.biomedicalgradstudies.pitt.edu/ (host does not resolve); School of Medicine umbrella (IBGP / somgrad.pitt.edu) not examined.",
+  "DBMI research-advisors page returned no names in static HTML; matched on the DBMI People page instead.",
+  "https://www.statistics.pitt.edu/ and /people/faculty: robots now allow, but server returns HTTP 403 'Access is denied' (502 with --render); used the department's current host stat.pitt.edu instead.",
+  "rechecked 2026-11-03 under Claude-User robots policy: www.statistics.pitt.edu still unusable (HTTP 403), but department now at stat.pitt.edu; added PhD in Statistics with roster https://stat.pitt.edu/people (matched Chris G. McKennan, peripheral). Unmatched core authors unchanged."
+ ]
 }

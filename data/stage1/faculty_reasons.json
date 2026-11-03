@@ -1,0 +1,76 @@
+{
+ "penn-gcb": [
+  {
+   "name": "Cesar de la Fuente",
+   "why": "近两年以末位作者提出用于肽/蛋白质定制设计的优化框架（key-cutting machine）和生成式 AI 肽优化方法，直接对应方向 B5 的 de novo 生成设计。",
+   "papers": [
+    "Key-cutting machine: A novel optimization framework",
+    "Tailored structured peptide design",
+    "A generative artificial intelligence approach for peptide"
+   ]
+  },
+  {
+   "name": "Eugene Katsevich",
+   "why": "专门为单细胞 CRISPR 筛选开发统计推断方法（低 MOI 下的稳健差异表达检验、指数族测量误差模型），正对方向 A1。",
+   "papers": [
+    "Robust differential expression testing for single-cell CRISPR",
+    "Exponential family measurement error models for single-cell CRISPR",
+    "Saddlepoint approximations for plug-in resampling"
+   ]
+  },
+  {
+   "name": "Jin Jin",
+   "why": "开发基于 GWAS summary statistics 的多祖源贝叶斯 PRS（MUSSEL）和潜变量暴露的孟德尔随机化方法，同时覆盖方向 A3 的 PGS 与 MR。",
+   "papers": [
+    "MUSSEL: Enhanced Bayesian polygenic risk prediction",
+    "Bayesian Mendelian Randomization Analysis for Latent Exposures",
+    "Mendelian randomization analysis using multiple biomarkers"
+   ]
+  },
+  {
+   "name": "Bogdan Pasaniuc",
+   "why": "将多基因风险与单细胞甲基化数据整合（met-scDRS），并参与跨生物库的局部祖源感知关联分析框架，属方向 A3 统计遗传学方法。",
+   "papers": [
+    "Integration of polygenic risk with single cell methylation data",
+    "Integration of polygenic risk with single cell methylation profiles",
+    "A unified framework for local-ancestry-aware"
+   ]
+  },
+  {
+   "name": "Gregory R. Bowman",
+   "why": "用计算模拟研究蛋白质构象动力学与相互作用界面（抗体成熟如何改变接触区刚性、同源寡聚体对称性预测），与方向 B6 结构预测及 B4 抗体亲和力相关。",
+   "papers": [
+    "Antibody maturation increases rigidity",
+    "Rapid and accurate prediction of protein homo-oligomer symmetry",
+    "G Protein Activation Occurs via a Largely Universal Mechanism"
+   ]
+  },
+  {
+   "name": "Marylyn D Ritchie",
+   "why": "开发基于 GWAS summary statistics 的贝叶斯位点识别方法（SABER），并研究 PGS 在不同人群队列中的表现差异，属方向 A3。",
+   "papers": [
+    "SABER: Statistical Identification of Loci of Interest",
+    "Risk factors affecting polygenic score performance",
+    "CASTER-DTA: equivariant graph neural networks"
+   ]
+  },
+  {
+   "name": "Dokyoon Kim",
+   "why": "研究 PRS 中样本重叠造成的过拟合偏差，并比较蛋白组评分与 PRS 的互补预测能力，属方向 A3 多基因评分方法。",
+   "papers": [
+    "Addressing overfitting bias due to sample overlap",
+    "Plasma protein-based and polygenic risk scores",
+    "Pathway Modeling of Genomic and Tissue-Specific"
+   ]
+  },
+  {
+   "name": "Sara Mathieson",
+   "why": "用自监督 transformer 和 CNN 做群体遗传推断（自然选择信号检测），属计算基因组学方法，但偏群体遗传而非 GWAS/MR。",
+   "papers": [
+    "Popformer: Learning general signatures of positive selection",
+    "Interpreting convolutional neural networks in population genetics",
+    "Fast pairwise coalescence enables"
+   ]
+  }
+ ]
+}

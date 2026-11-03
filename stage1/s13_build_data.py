@@ -41,7 +41,6 @@ SIMPLE = ["program_url", "deadline", "priority_deadline", "application_fee", "fe
 
 def main():
     sel = json.load(open(D1 / "selection.json"))
-    reasons = json.load(open(D1 / "faculty_reasons.json")) if (D1 / "faculty_reasons.json").exists() else {}
     I = json.load(open(ROOT / "data" / "stage0" / "institutions.json"))
     cands = {(r["school"], r["program"]): r for r in csv.DictReader(open(ROOT / "candidates.csv"))}
     schools, programs = {}, []
@@ -63,9 +62,11 @@ def main():
         mode_l = str(mode).lower()
         out_fac = []
         for x in fac.get("top", []):
-            r = (reasons.get(pid) or {}).get(x["name"], {})
+            r = {"why": x.get("why"), "papers": x.get("chosen_papers"),
+                 "based_on": [w["id"] for w in x.get("chosen_papers") or []]} if x.get("why") else {}
             ac = x.get("affiliation_check") or {}
-            status = {True: "consistent", False: "possibly_moved"}.get(ac.get("matches_school"), "unknown")
+            ar = x.get("affiliation_recent") or {}
+            status = ar.get("status") or "unknown"
             out_fac.append({
                 "name": x["name"], "title": x.get("title_field"), "lab_url": x.get("lab_field"),
                 "profile_url": x.get("profile_url"),
@@ -76,10 +77,9 @@ def main():
                             "source_url": w["source_url"], "fetched_at": w["fetched_at"]}
                            for w in (r.get("papers") or x.get("top_works", [])[:3])],
                 "why": {"text": r.get("why"), "based_on": r.get("based_on", [])} if r else None,
-                "affiliation": {"status": status, "openalex_recent": ac.get("recent_work_institutions"),
-                                "last_known": ac.get("last_known_institutions"),
-                                "recent_work": ac.get("recent_last_author_work"),
-                                "source_url": x.get("openalex_url")},
+                "affiliation": {"status": status, "recent_works": ar.get("recent_works"),
+                                "rule": ar.get("rule"), "last_known": ac.get("last_known_institutions"),
+                                "program_page": s["school"], "source_url": x.get("openalex_url")},
                 "new_assistant_professor": x.get("new_assistant_professor"),
                 "openalex_id": x.get("openalex_id"), "openalex_url": x.get("openalex_url")})
         dirs = sorted({d for f in out_fac for d in (f.get("direction") or "").split("+") if d}) or \

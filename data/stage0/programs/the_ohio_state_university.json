@@ -1,6 +1,6 @@
 {
  "institution": "The Ohio State University",
- "checked_at": "2026-11-03T09:14:11Z",
+ "checked_at": "2026-11-03T19:13:00Z",
  "grants_phd": true,
  "grants_phd_evidence": {
   "url": "https://medicine.osu.edu/education/phd/biomedical-sciences",
@@ -122,6 +122,30 @@
    "matched_authors": [
     "Dehua Pei"
    ]
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "PhD status from the Graduate School 'Find Your Program' list, where 'Computer Science and Engineering' is listed with degree 'Doctor of Philosophy' (and Master of Science). Department site cse.osu.edu (incl. /people) returns HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render), so no faculty list could be checked and no authors matched.",
+   "program_name": "Computer Science and Engineering PhD",
+   "discipline": "computer_science",
+   "program_type": "independent",
+   "program_url": "https://gradsch.osu.edu/future-students/find-your-program",
+   "phd_evidence_quote": "Doctor of Philosophy",
+   "faculty_list_urls": [],
+   "matched_authors": []
+  },
+  {
+   "degree": "PhD",
+   "umbrella_name": null,
+   "notes": "PhD status from the Graduate School 'Find Your Program' list, where 'Biomedical Engineering' is listed with degree 'Doctor of Philosophy' (contact bmegrad@osu.edu). Department site bme.osu.edu (incl. /people) returns HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render), so no faculty list could be checked and no authors matched.",
+   "program_name": "Biomedical Engineering PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "program_url": "https://gradsch.osu.edu/future-students/find-your-program",
+   "phd_evidence_quote": "Doctor of Philosophy",
+   "faculty_list_urls": [],
+   "matched_authors": []
   }
  ],
  "unmatched_core_authors": [
@@ -135,7 +159,7 @@
    "name": "Blaise R. Kimmel",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not on BSGP/Biophysics/OSBP/Chemistry lists; likely Chemical & Biomolecular Engineering (not checked)."
+   "note": "Not on BSGP/Biophysics/OSBP/Chemistry lists. Recheck: cbe.osu.edu and bme.osu.edu (incl. /people) return Cloudflare 403 even with --render, so Chemical & Biomolecular Engineering / BME membership unverifiable; one WebSearch found no OSU profile page. Graduate School list shows 'Chemical Engineering' with 'Doctor of Philosophy' (program not added: no verified relevant author)."
   },
   {
    "name": "Wei Li",
@@ -157,8 +181,9 @@
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://cse.osu.edu/ (Computer Science and Engineering PhD not checked).",
+  "Now allowed by robots.txt but every page returns HTTP 403 Cloudflare 'Just a moment...' challenge (robots.txt now allows us; also 403 with --render): https://cse.osu.edu/ (and /people, /graduate/graduate-minor), https://bme.osu.edu/ (and /people), https://cbe.osu.edu/ (and /people), https://engineering.osu.edu/. CSE and BME PhD programs added from the Graduate School program list without faculty lists; CBE not added.",
   "UNREACHABLE: https://biochemistry.osu.edu/ (used osbp.osu.edu).",
-  "WebSearch budget exhausted; URLs found by navigating official osu.edu pages."
+  "WebSearch budget exhausted; URLs found by navigating official osu.edu pages.",
+  "rechecked 2026-11-03 under Claude-User robots policy: cse/bme/cbe.osu.edu pass robots.txt but sit behind a Cloudflare 403 challenge (also with --render); added CSE PhD and BME PhD entries with PhD evidence from gradsch.osu.edu Find Your Program (no faculty lists, no matches); Kimmel still unverified; 1 WebSearch used."
  ]
 }

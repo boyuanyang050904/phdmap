@@ -1,6 +1,6 @@
 {
  "institution": "University of North Carolina at Chapel Hill",
- "checked_at": "2026-11-03T08:59:22Z",
+ "checked_at": "2026-11-03T19:11:00Z",
  "grants_phd": true,
  "grants_phd_evidence": {
   "url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
@@ -13,11 +13,15 @@
    "discipline": "biostatistics",
    "program_type": "biostat",
    "umbrella_name": null,
-   "program_url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
-   "phd_evidence_quote": "The doctor of philosophy (Ph.D.) degree in the Department of Biostatistics provides advanced, research-oriented training in theory and methodology of biostatistics",
+   "program_url": "https://sph.unc.edu/bios/phd/",
+   "phd_evidence_quote": "Doctor of Philosophy (PhD) Biostatistics",
    "faculty_list_urls": [
     {
      "url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
+     "render": false
+    },
+    {
+     "url": "https://sph.unc.edu/bios/bios-people/",
      "render": false
     }
    ],
@@ -33,7 +37,7 @@
     "Didong Li",
     "Wei Sun"
    ],
-   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. 'Wei Sun' matched an OpenAlex record (direction B, last_known Kunming/Shanghai) that may be a different person with the same name."
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. 'Wei Sun' matched an OpenAlex record (direction B, last_known Kunming/Shanghai) that may be a different person with the same name. Recheck: department people page https://sph.unc.edu/bios/bios-people/ matched the same 11 names (incl. Xihao Li twice and the doubtful 'Wei Sun'); catalog page https://catalog.unc.edu/graduate/schools-departments/biostatistics/ kept as second evidence."
   },
   {
    "program_name": "Bioinformatics and Computational Biology (BCB) PhD",
@@ -41,11 +45,19 @@
    "discipline": "comp_bio",
    "program_type": "umbrella_track",
    "umbrella_name": "Biological and Biomedical Sciences Program (BBSP)",
-   "program_url": "https://catalog.unc.edu/graduate/schools-departments/bioinformatics-computational-biology/",
-   "phd_evidence_quote": "Bioinformatics and Computational Biology, Doctoral Degree (Ph.D.)",
+   "program_url": "https://bcb.unc.edu/about-curriculum/",
+   "phd_evidence_quote": "The Bioinformatics and Computational Biology (BCB) PhD Curriculum provides a home for students whose research focuses on the development and application of quantitative methods to address modern biological problems.",
    "faculty_list_urls": [
     {
      "url": "https://catalog.unc.edu/graduate/schools-departments/bioinformatics-computational-biology/",
+     "render": false
+    },
+    {
+     "url": "https://bcb.unc.edu/faculty/",
+     "render": false
+    },
+    {
+     "url": "https://bbsp.unc.edu/research-and-faculty/faculty-database/",
      "render": false
     }
    ],
@@ -61,7 +73,7 @@
     "John Sondek",
     "Elizabeth Brunk"
    ],
-   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. Catalog: applicants 'must apply to the program through a unified application program known as the Biological and Biomedical Sciences Program (BBSP)'."
+   "notes": "BCB site: 'BCB is a specialized PhD program within the Biological and Biomedical Sciences Program umbrella program'. https://bcb.unc.edu/faculty/ matched Valdar, Yun Li, Xihao Li, Fei Zou, Kuhlman, Carter, Rubinsteyn, Sondek, Brunk; Didong Li is on the catalog BCB faculty list but not on bcb.unc.edu/faculty/ (kept from catalog). BBSP faculty database lists 'PHD PROGRAM Bioinformatics & Computational Biology' for Brunk, Yun Li, Rubinsteyn, Sondek, Valdar, Zou."
   },
   {
    "program_name": "Biochemistry and Biophysics PhD",
@@ -75,6 +87,10 @@
     {
      "url": "https://catalog.unc.edu/graduate/schools-departments/biochemistry-biophysics/",
      "render": false
+    },
+    {
+     "url": "https://bbsp.unc.edu/research-and-faculty/faculty-database/",
+     "render": false
     }
    ],
    "matched_authors": [
@@ -82,7 +98,7 @@
     "Charles W. Carter",
     "John Sondek"
    ],
-   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. Listed by BBSP catalog page among programs 'affiliated with BBSP'."
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. Listed by BBSP catalog page among programs 'affiliated with BBSP'. BBSP faculty database lists Sondek under 'PHD PROGRAM Biochemistry & Biophysics' (Kuhlman and Carter not found in the database page)."
   },
   {
    "program_name": "Genetics and Molecular Biology (GMB) PhD",
@@ -100,10 +116,14 @@
     {
      "url": "https://www.med.unc.edu/gmb/gmb-faculty/",
      "render": true
+    },
+    {
+     "url": "https://bbsp.unc.edu/phdprogram/genetics-molecular-biology/",
+     "render": false
     }
    ],
    "matched_authors": [],
-   "notes": "Catalog page matched 0 relevant authors; GMB faculty page https://www.med.unc.edu/gmb/gmb-faculty/ returned 403 (plain) / 502 (rendered). BBSP-affiliated."
+   "notes": "Catalog page and BBSP 'PhD Program: Genetics & Molecular Biology' faculty listing (https://bbsp.unc.edu/phdprogram/genetics-molecular-biology/ and /page/2/ ... /page/8/, all fetched) matched 0 relevant authors; https://www.med.unc.edu/gmb/gmb-faculty/ returned 403 (plain) / 502 (rendered). BBSP-affiliated."
   },
   {
    "program_name": "Pharmacology PhD",
@@ -117,12 +137,17 @@
     {
      "url": "https://catalog.unc.edu/graduate/schools-departments/pharmacology/",
      "render": false
+    },
+    {
+     "url": "https://bbsp.unc.edu/research-and-faculty/faculty-database/",
+     "render": false
     }
    ],
    "matched_authors": [
-    "John Sondek"
+    "John Sondek",
+    "Elizabeth Brunk"
    ],
-   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. BBSP-affiliated."
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. BBSP-affiliated. BBSP faculty database lists Pharmacology among the PhD programs of both Sondek and Brunk (Brunk added on recheck)."
   },
   {
    "program_name": "Chemistry PhD (incl. Biological Chemistry Division)",
@@ -136,12 +161,16 @@
     {
      "url": "https://catalog.unc.edu/graduate/schools-departments/chemistry/",
      "render": false
+    },
+    {
+     "url": "https://bbsp.unc.edu/research-and-faculty/faculty-database/",
+     "render": false
     }
    ],
    "matched_authors": [
     "Elizabeth Brunk"
    ],
-   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. BBSP catalog lists 'Chemistry (Biological Chemistry Division)' as BBSP-affiliated; direct admission to Chemistry also possible (not verified)."
+   "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. BBSP catalog lists 'Chemistry (Biological Chemistry Division)' as BBSP-affiliated; direct admission to Chemistry also possible (not verified). BBSP faculty database lists Chemistry among Brunk's PhD programs."
   },
   {
    "program_name": "Statistics and Operations Research (STOR) PhD",
@@ -183,32 +212,53 @@
     "Didong Li"
    ],
    "notes": "Faculty matched against the UNC Graduate Catalog department page, which lists the program's faculty. Biostatistics faculty matched here are likely joint/adjunct CS appointments."
+  },
+  {
+   "program_name": "Biomedical Engineering PhD (Lampe Joint Department of Biomedical Engineering, UNC/NC State)",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://bme.unc.edu/graduate/doctor-of-philosophy/",
+   "phd_evidence_quote": "The doctoral program prepares a diverse community of students for excellence in innovation, leadership and service in biomedical engineering so that our students are uniquely empowered to drive forward human healthcare.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bme.unc.edu/people/primary-faculty/",
+     "render": true
+    },
+    {
+     "url": "https://bme.unc.edu/people/affiliated-faculty/",
+     "render": true
+    }
+   ],
+   "matched_authors": [],
+   "notes": "bme.unc.edu returns 403 'Checking connection' to the plain fetcher but 200 with --render. Primary-faculty page matched 0 relevant authors; affiliated-faculty page returned 403 even with --render. BBSP page: 'Some faculty in the UNC/NCSU Joint Department of Biomedical Engineering are part of BBSP, though students will still complete a degree in one of our 15 PhD programs rather than Biomedical Engineering.' Recorded because it is a core program type; no relevant author verified."
   }
  ],
  "unmatched_core_authors": [
   {
    "name": "Jiandong Liu",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not on any matched catalog faculty list; UNC School of Medicine pages (med.unc.edu) returned 403 when probing a profile."
+   "program_found": "Cell Biology & Physiology; Pathobiology & Translational Science (BBSP PhD programs)",
+   "evidence_url": "https://bbsp.unc.edu/research-and-faculty/faculty-database/",
+   "note": "BBSP faculty database entry 'Liu, Jiandong' lists PHD PROGRAM 'Cell Biology & Physiology', 'Pathobiology & Translational Science'; research text is cardiac development in zebrafish, so this may not be the same person as the OpenAlex direction-A author (same-name risk). Programs not added (not core types)."
   },
   {
    "name": "Yue Wang",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not matched; common name, not checked further."
+   "note": "Not matched; common name, not checked further. Recheck: not found on bcb.unc.edu/faculty/, sph.unc.edu/bios/bios-people/ or the BBSP faculty database."
   },
   {
    "name": "Haoyu Zhang",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not matched; OpenAlex last_known lists non-UNC institutions first; not checked further."
+   "note": "Not matched; OpenAlex last_known lists non-UNC institutions first; not checked further. Recheck: not found on bcb.unc.edu/faculty/, sph.unc.edu/bios/bios-people/ or the BBSP faculty database."
   },
   {
    "name": "Quan Sun",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not matched on Biostatistics/BCB catalog faculty lists (possibly former student/postdoc)."
+   "note": "Not matched on Biostatistics/BCB catalog faculty lists (possibly former student/postdoc). Recheck: not found on bcb.unc.edu/faculty/, sph.unc.edu/bios/bios-people/ or the BBSP faculty database."
   },
   {
    "name": "Nathan A. Kimbrel",
@@ -224,11 +274,10 @@
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://bbsp.unc.edu/",
-  "BLOCKED by robots.txt: https://bcb.unc.edu/",
-  "BLOCKED by robots.txt: https://sph.unc.edu/bios/",
   "https://www.med.unc.edu/gmb/gmb-faculty/ returned 403 (plain) and 502 (rendered); med.unc.edu began returning 403",
-  "Biomedical Engineering PhD (joint UNC/NC State) catalog page matched 0 relevant authors; not recorded",
-  "WebSearch unavailable (budget exhausted); used UNC Graduate Catalog navigation"
+  "WebSearch unavailable (budget exhausted); used UNC Graduate Catalog navigation",
+  "https://bme.unc.edu/people/affiliated-faculty/ returned 403 even with --render (BME affiliated faculty unchecked).",
+  "BBSP faculty database page (https://bbsp.unc.edu/research-and-faculty/faculty-database/, 353 entries) does not include Kuhlman or Carter, so it may be incomplete; catalog lists kept as primary evidence for them.",
+  "rechecked 2026-11-03 under Claude-User robots policy: bbsp.unc.edu, bcb.unc.edu and sph.unc.edu now readable -> BCB and Biostatistics PhD evidence now from program sites, added bcb.unc.edu/faculty/, sph.unc.edu/bios/bios-people/ and BBSP faculty database/GMB listings (no new GMB matches; Brunk added to Pharmacology); bme.unc.edu readable with --render -> added BME PhD (0 matches); Jiandong Liu located in BBSP database (Cell Biology & Physiology / Pathobiology; identity uncertain). No WebSearch used."
  ]
 }

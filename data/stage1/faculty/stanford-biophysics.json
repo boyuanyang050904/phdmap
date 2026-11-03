@@ -1,0 +1,2108 @@
+{
+ "program_id": "stanford-biophysics",
+ "school_institution_id": "https://openalex.org/I97018004",
+ "window_from": "2023-11-04",
+ "n_faculty": 119,
+ "top": [
+  {
+   "name": "Brian Hie",
+   "title": "Assistant Professor of Chemical Engineering",
+   "profile_url": "https://med.stanford.edu/profiles/brian-hie",
+   "lab_url": null,
+   "faculty_source_url": "https://med.stanford.edu/biophysics/faculty1.html",
+   "openalex_id": "https://openalex.org/A5021962955",
+   "openalex_match": "stage0",
+   "openalex_name": "Brian Hie",
+   "openalex_url": "https://api.openalex.org/authors/A5021962955?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:11:31Z",
+   "works_in_window": 34,
+   "works_at_school": 28,
+   "score_basis": "works with school on byline",
+   "score": 11.0,
+   "score_A": 0,
+   "score_B": 11.0,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4400313991",
+     "doi": "https://doi.org/10.1126/science.adk8946",
+     "title": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
+     "year": 2024,
+     "type": "article",
+     "venue": "Science",
+     "landing_url": "https://doi.org/10.1126/science.adk8946",
+     "subtopics": [
+      "B4",
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.5,
+     "abstract": "Large language models trained on sequence information alone can learn high-level principles of protein design. However, beyond sequence, the three-dimensional structures of proteins determine their specific function, activity, and evolvability. Here, we show that a general protein language model augmented with protein structure backbone coordinates can guide evolution for diverse proteins without the need to model individual functional tasks. We also demonstrate that ESM-IF1, which was only trained on single-chain structures, can be extended to engineer protein complexes. Using this approach, we screened about 30 variants of two therapeutic clinical antibodies used to treat severe acute resp",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021962955%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:31Z"
+    },
+    {
+     "id": "https://openalex.org/W7203439560",
+     "doi": "https://doi.org/10.1038/s41592-026-03137-3",
+     "title": "Aligning protein-generative models to experimental fitness with ProteinDPO",
+     "year": 2026,
+     "type": "article",
+     "venue": "Nature Methods",
+     "landing_url": "https://doi.org/10.1038/s41592-026-03137-3",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Biological generative models can predict biological functions without task-specific training data but often under-perform specialized models. This is due to a fundamental 'alignment gap', where the rules learned during unsupervised training are not related to the function of interest. Here we demonstrate how to provide task-specific information without losing the general knowledge learned during pretraining by using direct preference optimization to align a structure-conditioned protein language model to preferentially generate stable protein sequences. Our aligned model, ProteinDPO, achieves stability prediction competitive to task-specific models and consistently outperforms unsupervised a",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021962955%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:31Z"
+    },
+    {
+     "id": "https://openalex.org/W4414452494",
+     "doi": "https://doi.org/10.1101/2025.09.19.677421",
+     "title": "Efficient generation of epitope-targeted de novo antibodies with Germinal",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.09.19.677421",
+     "subtopics": [
+      "B4",
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Abstract Obtaining novel antibodies against specific protein targets is a widely important yet experimentally laborious process. Meanwhile, computational methods for antibody design have been limited by low success rates that currently require resource-intensive screening. Here, we introduce Germinal, a broadly enabling generative pipeline that designs antibodies against specific epitopes with nanomolar binding affinities while requiring only low-n experimental testing. Our method co-optimizes antibody structure and sequence by integrating a structure predictor with an antibody-specific protein language model to perform de novo design of functional complementarity-determining regions (CDRs) ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021962955%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:31Z"
+    },
+    {
+     "id": "https://openalex.org/W7165839880",
+     "doi": "https://doi.org/10.64898/2026.06.22.733870",
+     "title": "A high-level programming language for generative biology with Proto",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.06.22.733870",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Programmable composition of complex systems is a longstanding goal of biological research. Generative modeling has improved the reliability of computational design, but existing methods are highly specialized and are difficult to extend or compose. Here, we introduce Proto, a high-level programming language for generative biology. By composing a small set of abstract primitives into structured programs, Proto encodes generative design campaigns across diverse modalities and scales\u2014spanning DNA, RNA, proteins, ligands, and their interactions. Proto readily incorporates predictive models into generative workflows, which we leveraged to design alternatively spliced introns with experim",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021962955%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:31Z"
+    },
+    {
+     "id": "https://openalex.org/W7224242055",
+     "doi": "https://doi.org/10.64898/2026.10.28.762643",
+     "title": "Efficient biological design via genomic in-context learning",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.10.28.762643",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract In-context learning (ICL), the ability to perform new tasks from a few examples supplied in a prompt, is a defining emergent capability of large language models. Here, we show that ICL emerges in the genome language model Evo 2 and enables biological design. With as few as four examples in the prompt and no additional training, Evo 2 generates realistic metal-binding proteins, de novo antibodies, protein-RNA systems, and entire bacteriophage genomes. For \u03a6X174-like bacteriophage design, ICL surpasses previously fine-tuned models on computational measures of design quality and diversity. Beyond \u03a6X174, conditioning the model with different phage prompts enables us to efficiently desig",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021962955%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:31Z"
+    },
+    {
+     "id": "https://openalex.org/W4416386075",
+     "doi": "https://doi.org/10.1038/s41586-025-09749-7",
+     "title": "Semantic design of functional de novo genes from a genomic language model",
+     "year": 2025,
+     "type": "article",
+     "venue": "Nature",
+     "landing_url": "https://doi.org/10.1038/s41586-025-09749-7",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Generative genomic models can design increasingly complex biological systems 1 . However, controlling these models to generate novel sequences with desired functions remains challenging. Here, we show that Evo, a genomic language model, can leverage genomic context to perform function-guided design that accesses novel regions of sequence space. By learning semantic relationships across prokaryotic genes 2 , Evo enables a genomic \u2018autocomplete\u2019 in which a DNA prompt encoding genomic context for a function of interest guides the generation of novel sequences enriched for related functions, which we refer to as \u2018semantic design\u2019. We validate this approach by experimentally testing the ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021962955%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:31Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7224242055",
+    "recent_work_institutions": [
+     "Arc Research Institute",
+     "Stanford University"
+    ],
+    "last_known_institutions": [
+     "Stanford Medicine",
+     "Arc Research Institute",
+     "Stanford University"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2018
+  },
+  {
+   "name": "Russ Altman",
+   "title": "Kenneth Fong Professor and Professor of Bioengineering, of Genetics, of Medicine, of Biomedical Data Science, Senior Fellow at the Stanford Institute for Human-Centered AI and Professor, by courtesy, of Computer Science",
+   "profile_url": "https://med.stanford.edu/profiles/russ-altman",
+   "lab_url": null,
+   "faculty_source_url": "https://med.stanford.edu/biophysics/faculty1.html",
+   "openalex_id": "https://openalex.org/A5084043782",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI97018004&mailto=boyuan.yang%40emory.edu&per_page=10&search=Russ+Altman&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Russ Biagio Altman",
+   "openalex_url": "https://api.openalex.org/authors/A5084043782?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:10:35Z",
+   "works_in_window": 72,
+   "works_at_school": 59,
+   "score_basis": "works with school on byline",
+   "score": 10.0,
+   "score_A": 1.0,
+   "score_B": 9.0,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W7128946383",
+     "doi": "https://doi.org/10.64898/2026.02.13.705830",
+     "title": "GATSBI: Improving context-aware protein embeddings through biologically motivated data splits",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.02.13.705830",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Motivation -: Understanding protein function requires integrating diverse biological evidence while accounting for strong contextual dependence. Recent protein embedding methods increasingly leverage heterogeneous biological networks, yet their evaluation protocols often fail to reflect the specific biological tasks for which the embeddings are intended. Prediction of missing interactions, annotation of new proteins, and discovery of functional modules require fundamentally different data partitions, such as edge-masked versus node-held-out splits. Moreover, most approaches report performance primarily on well-studied proteins, where computational predictions are least needed, risking substa",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5084043782%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:10:35Z"
+    },
+    {
+     "id": "https://openalex.org/W7130433990",
+     "doi": "https://doi.org/10.64898/2026.02.18.706530",
+     "title": "Drug-Target Interaction Prediction with PIGLET",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.02.18.706530",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Drug-target interaction (DTI) prediction is a key task for computed-aided drug development that has been widely approached by deep learning models. Despite extremely high reported performance, these models have yet to find widespread success in accelerating real-world drug discovery. In contrast with the most common approach of creating embeddings from one-dimensional or three-dimensional representations of the input drug and input target, we create a novel graph transformer method for DTI prediction that operates on a proteome-wide knowledge graph of binding pocket similarity, protein-protein interactions, drug similarity, and known binding relationships. We benchmark our method, named PIGL",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5084043782%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:10:35Z"
+    },
+    {
+     "id": "https://openalex.org/W7167614825",
+     "doi": "https://doi.org/10.1093/bioinformatics/btag233",
+     "title": "GATSBI: improving context-aware protein embeddings through biologically motivated data splits",
+     "year": 2026,
+     "type": "article",
+     "venue": "Bioinformatics",
+     "landing_url": "https://doi.org/10.1093/bioinformatics/btag233",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "MOTIVATION: Understanding protein function requires integrating diverse biological evidence while accounting for strong contextual dependence. Recent protein embedding methods increasingly leverage heterogeneous biological networks, yet their evaluation protocols often fail to reflect the specific biological tasks for which the embeddings are intended. Prediction of missing interactions, annotation of new proteins, and discovery of functional modules require fundamentally different data partitions, such as edge-masked versus node-held-out splits. Moreover, most approaches report performance primarily on well-studied proteins, where computational predictions are least needed, risking substant",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5084043782%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:10:35Z"
+    },
+    {
+     "id": "https://openalex.org/W4413342662",
+     "doi": "https://doi.org/10.1073/pnas.2513219122",
+     "title": "Protein functional site annotation using local structure embeddings",
+     "year": 2025,
+     "type": "article",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "landing_url": "https://doi.org/10.1073/pnas.2513219122",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "The rapid expansion of protein sequence and structure databases has resulted in a significant number of proteins with ambiguous or unknown function. While advances in machine learning techniques hold great potential to fill this annotation gap, current methods for function prediction are unable to associate global function reliably to the specific residues responsible for that function. We address this issue by introducing PARSE (Protein Annotation by Residue-Specific Enrichment), a knowledge-based method which combines pre-trained embeddings of local structural environments with traditional statistical techniques to simultaneously predict function and provide residue-level annotations. For ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5084043782%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:10:35Z"
+    },
+    {
+     "id": "https://openalex.org/W4414162128",
+     "doi": "https://doi.org/10.1371/journal.pcbi.1013424",
+     "title": "Paying attention to attention: High attention sites as indicators of protein family and function in language models",
+     "year": 2025,
+     "type": "article",
+     "venue": "PLoS Computational Biology",
+     "landing_url": "https://doi.org/10.1371/journal.pcbi.1013424",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Protein Language Models (PLMs) use transformer architectures to capture patterns within protein sequences, providing a powerful computational representation of the protein sequence [1]. Through large-scale training on protein sequence data, PLMs generate vector representations that encapsulate the biochemical and structural properties of proteins [2]. At the core of PLMs is the attention mechanism, which facilitates the capture of long-range dependencies by computing pairwise importance scores across residues, thereby highlighting regions of biological interaction within the sequence [3]. The attention matrices offer an untapped opportunity to uncover specific biological properties ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5084043782%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:10:35Z"
+    },
+    {
+     "id": "https://openalex.org/W4410975694",
+     "doi": "https://doi.org/10.1093/bioinformatics/btaf330",
+     "title": "Pool PaRTI: a PageRank-based pooling method for identifying critical residues and enhancing protein sequence representations",
+     "year": 2025,
+     "type": "article",
+     "venue": "Bioinformatics",
+     "landing_url": "https://doi.org/10.1093/bioinformatics/btaf330",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "MOTIVATION: Protein language models (PLMs) produce token-level embeddings for each residue, resulting in an output matrix with dimensions that vary based on sequence length. However, downstream machine learning models typically require fixed-length input vectors, necessitating a pooling method to compress the output matrix into a single vector representation of the entire protein. Traditional pooling methods often result in substantial information loss, impacting downstream task performance. We aim to develop a pooling method that produces more expressive general-purpose protein embedding vectors while offering biological interpretability. RESULTS: We introduce Pool PaRTI, a novel pooling me",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5084043782%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:10:35Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7220847505",
+    "recent_work_institutions": [
+     "Stanford University"
+    ],
+    "last_known_institutions": [
+     "Stanford Medicine",
+     "Stanford University"
+    ],
+    "matches_school": true
+   }
+  },
+  {
+   "name": "Possu Huang",
+   "title": "Assistant Professor of Bioengineering",
+   "profile_url": "https://med.stanford.edu/profiles/possu-huang",
+   "lab_url": null,
+   "faculty_source_url": "https://med.stanford.edu/biophysics/faculty1.html",
+   "openalex_id": "https://openalex.org/A5021369429",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI97018004&mailto=boyuan.yang%40emory.edu&per_page=10&search=Possu+Huang&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Po\u2010Ssu Huang",
+   "openalex_url": "https://api.openalex.org/authors/A5021369429?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:11:33Z",
+   "works_in_window": 29,
+   "works_at_school": 24,
+   "score_basis": "works with school on byline",
+   "score": 8.5,
+   "score_A": 0,
+   "score_B": 8.5,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W7155623016",
+     "doi": "https://doi.org/10.64898/2026.04.23.720277",
+     "title": "Zero-shot design of a de novo metalloenzyme",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.04.23.720277",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract The de novo design of enzymes remains a central challenge, requiring consideration of catalytic mechanism and optimization across biochemical and biophysical criteria. Here we present dEVA (design by EVolutionary Algorithm), a multi-objective protein design framework built on principles drawn from evolutionary biology. We apply dEVA to the zero-shot, de novo design of metalloenzymes by optimizing the coordination sphere of catalytic metals. We characterize a bizinc metalloenzyme that exhibits promiscuous hydrolytic activity towards both phosphomonoesters and phosphodiesters. This design achieves a rate enhancement ((k cat /K M )/k w ) up to 3 \u00d7 10 13 , comparable to characterized na",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021369429%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:33Z"
+    },
+    {
+     "id": "https://openalex.org/W7211868091",
+     "doi": "https://doi.org/10.48550/arxiv.2609.04465",
+     "title": "The physical foundation beneath protein generative modeling",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "PubMed Central",
+     "landing_url": "https://doi.org/10.48550/arxiv.2609.04465",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "protein structures has become much more efficient. However, such models can also learn non-physical features and break down with out-of-distribution settings which are typical in protein design campaigns. In this review, we highlight where the physics persists in protein generative modeling pipelines and the issues that linger when physically relevant components of a macromolecular system are left unmodeled. We present a perspective that respecting the underlying physics of macromolecular systems, increasingly through learned representations that are physically grounded and updating generative models with experimental data, is foundational to generative modeling for functional protein design",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021369429%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:33Z"
+    },
+    {
+     "id": "https://openalex.org/W4413304128",
+     "doi": "https://doi.org/10.1101/2025.08.18.670959",
+     "title": "Conditional Protein Structure Generation with Protpardelle-1c",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.08.18.670959",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "We present Protpardelle-1c, a collection of protein structure generative models with robust motif scaffolding and support for multi-chain complex generation under hotspot-conditioning. Enabling sidechain-conditioning to a backbone-only model increased Protpardelle-1c's MotifBench score from 4.97 to 28.16, outperforming RFdiffusion's 21.27. The crop-conditional all-atom model achieved 208 unique solutions on the La-Proteina all-atom motif scaffolding benchmark, on par with La-Proteina while having ~10 times fewer parameters. At 22M parameters, Protpardelle-1c enables rapid sampling, taking 40 minutes to sample all 3000 MotifBench backbones on an NVIDIA A100-80GB, compared to 31 hours for RFdi",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021369429%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:33Z"
+    },
+    {
+     "id": "https://openalex.org/W4414769131",
+     "doi": "https://doi.org/10.1101/2025.09.30.679633",
+     "title": "Isolation of structural constraints by ensemble-conditioned protein sequence design",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.09.30.679633",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Natural sequences have long been the assumed ground truth for protein sequence design methods. But natural sequences encode more than the structural fold, carrying evolutionary history that reflects ancestry, drift, and function. Deep learning models for protein sequence design inherit this signal, achieving higher native sequence recovery but lower predicted foldability. Motivated by this trade-off, we introduce Caliby, a Potts model-based sequence design method capable of conditioning on structural ensembles. By conditioning on synthetic ensembles generated from an input backbone, Caliby samples sequences consistent with shared structural constraints while averaging out native seq",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021369429%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:33Z"
+    },
+    {
+     "id": "https://openalex.org/W4415836957",
+     "doi": "https://doi.org/10.21203/rs.3.rs-7827245/v1",
+     "title": "Leveraging protein representations to explore uncharted fold spaces with generative models",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "Research Square",
+     "landing_url": "https://doi.org/10.21203/rs.3.rs-7827245/v1",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract A major challenge in computational de novo protein design is the exploration of uncharted areas within the protein structural space. However, the large degrees of freedom of protein backbones complicate the sampling process during protein design. Machine learning-based models have made great strides in this problem, however due to their nature they tend to exploit rather than explore the data distribution used for training the neural networks. To address some of these challenges, we propose a new coarse grained protein structure representation generative method, DiffTopo , a diffusion model which increases the sampling efficiency and diversity. Combined with a backbone level protein",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021369429%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:33Z"
+    },
+    {
+     "id": "https://openalex.org/W7107887556",
+     "doi": null,
+     "title": "Sidechain conditioning and modeling for full-atom protein sequence design with FAMPNN.",
+     "year": 2025,
+     "type": "article",
+     "venue": "PubMed",
+     "landing_url": "https://pubmed.ncbi.nlm.nih.gov/41307002",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Leading deep learning-based methods for fixed-backbone protein sequence design do not model protein sidechain conformation during sequence generation despite the large role the three-dimensional arrangement of sidechain atoms play in protein conformation, stability, and overall protein function. Instead, these models implicitly reason about crucial sidechain interactions based on backbone geometry and known amino acid sequence labels. To address this, we present FAMPNN (Full-Atom MPNN), a sequence design method that explicitly models both sequence identity and sidechain conformation for each residue, where the per-token distribution of a residue's discrete amino acid identity and its continu",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5021369429%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:33Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7211868091",
+    "recent_work_institutions": [
+     "Stanford University"
+    ],
+    "last_known_institutions": [
+     "Stanford Medicine",
+     "Stanford University"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2004
+  },
+  {
+   "name": "Michael Snyder",
+   "title": "Stanford W. Ascherman Professor of Genetics",
+   "profile_url": "https://med.stanford.edu/profiles/michael-snyder",
+   "lab_url": null,
+   "faculty_source_url": "https://med.stanford.edu/biophysics/faculty1.html",
+   "openalex_id": "https://openalex.org/A5024120181",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI97018004&mailto=boyuan.yang%40emory.edu&per_page=10&search=Michael+Snyder&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Michael P. Snyder",
+   "openalex_url": "https://api.openalex.org/authors/A5024120181?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:12:03Z",
+   "works_in_window": 338,
+   "works_at_school": 279,
+   "score_basis": "works with school on byline",
+   "score": 7.31,
+   "score_A": 6.31,
+   "score_B": 1.31,
+   "direction": "A",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4401537058",
+     "doi": "https://doi.org/10.1161/circgen.125.005341",
+     "title": "Machine Learning Reveals the Contribution of Rare Genetic Variants and Enhances Risk Prediction for Coronary Artery Disease in the Japanese Population",
+     "year": 2026,
+     "type": "article",
+     "venue": "Circulation Genomic and Precision Medicine",
+     "landing_url": "https://doi.org/10.1161/circgen.125.005341",
+     "subtopics": [
+      "A2",
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "BACKGROUND: GWASs (genome-wide association studies) have advanced our understanding of coronary artery disease (CAD) genetics and enabled the development of polygenic risk scores (PRSs) for estimating genetic risk based on common variant burden. However, GWASs have limitations in analyzing rare variants due to insufficient statistical power, thereby constraining PRS performance. METHODS: We conducted whole-genome sequencing of 1752 Japanese patients with CAD and 3019 controls. A machine learning-based analytical framework was applied to identify and interpret rare genetic variants associated with CAD pathogenesis. RESULTS: This approach identified 59 CAD-related genes, including known causal",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5024120181%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:05Z"
+    },
+    {
+     "id": "https://openalex.org/W4412707941",
+     "doi": "https://doi.org/10.1038/s41587-025-02725-6",
+     "title": "Single-cell polygenic risk scores dissect cellular and molecular heterogeneity of complex human diseases",
+     "year": 2025,
+     "type": "article",
+     "venue": "Nature Biotechnology",
+     "landing_url": "https://doi.org/10.1038/s41587-025-02725-6",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Polygenic risk scores (PRSs) predict an individual's genetic risk for complex diseases, yet their utility in elucidating disease biology remains limited. We introduce scPRS, a graph neural network-based framework that computes single-cell-resolved PRSs by integrating reference single-cell chromatin accessibility profiles. scPRS outperforms traditional PRS approaches in genetic risk prediction, as demonstrated across multiple diseases including type 2 diabetes, hypertrophic cardiomyopathy, Alzheimer disease and severe COVID-19. Beyond risk prediction, scPRS prioritizes disease-critical cells and, when combined with a layered multiomic analysis, links risk variants to gene regulation in a cell",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5024120181%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:05Z"
+    },
+    {
+     "id": "https://openalex.org/W4409569456",
+     "doi": "https://doi.org/10.1101/2025.04.15.25325899",
+     "title": "Dissecting the genetic complexity of myalgic encephalomyelitis/chronic fatigue syndrome via deep learning-powered genome analysis",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "medRxiv",
+     "landing_url": "https://doi.org/10.1101/2025.04.15.25325899",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex, heterogeneous, and systemic disease defined by a suite of symptoms, including unexplained persistent fatigue, post-exertional malaise (PEM), cognitive impairment, myalgia, orthostatic intolerance, and unrefreshing sleep. The disease mechanism of ME/CFS is unknown, with no effective curative treatments. In this study, we present a multi-site ME/CFS whole-genome analysis, which is powered by a novel deep learning framework, HEAL2. We show that HEAL2 not only has predictive value for ME/CFS based on personal rare variants, but also links genetic risk to various ME/CFS-associated symptoms. Model interpretation of HEAL2 ide",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5024120181%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:05Z"
+    },
+    {
+     "id": "https://openalex.org/W4412088913",
+     "doi": "https://doi.org/10.1021/acs.jproteome.4c01108",
+     "title": "ProMix: Enhancing Protein Quantification through Experimental Design and Statistical Normalization",
+     "year": 2025,
+     "type": "article",
+     "venue": "Journal of Proteome Research",
+     "landing_url": "https://doi.org/10.1021/acs.jproteome.4c01108",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Isobaric labeling of biospecimens followed by mass spectrometry (MS) has become the method of choice for large-scale, untargeted, quantitative proteomic profiling. However, subtle variation in experimental conditions can amplify sample variability and introduce systematic biases. Motivated by the challenges and opportunities arose in a recent proteogenomic study, we developed ProMix, a flexible analytical framework designed to improve protein normalization by leveraging two key experimental design features: (1) the inclusion of an additional reference sample to serve as an internal standard, and (2) the incorporation of replicates of each specimen. ProMix can utilize either or both features.",
+     "source_url": "https://api.openalex.org/works?cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDExMjg4NzcyJ10i&filter=author.id%3AA5024120181%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:06Z"
+    },
+    {
+     "id": "https://openalex.org/W4396932693",
+     "doi": "https://doi.org/10.1101/2024.05.14.594252",
+     "title": "Deconvolution of polygenic risk score in single cells unravels cellular and molecular heterogeneity of complex human diseases",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.05.14.594252",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Polygenic risk scores (PRSs) are commonly used for predicting an individual's genetic risk of complex diseases. Yet, their implication for disease pathogenesis remains largely limited. Here, we introduce scPRS, a geometric deep learning model that constructs single-cell-resolved PRS leveraging reference single-cell chromatin accessibility profiling data to enhance biological discovery as well as disease prediction. Real-world applications across multiple complex diseases, including type 2 diabetes (T2D), hypertrophic cardiomyopathy (HCM), and Alzheimer's disease (AD), showcase the superior prediction power of scPRS compared to traditional PRS methods. Importantly, scPRS not only predicts dis",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5024120181%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:05Z"
+    },
+    {
+     "id": "https://openalex.org/W4405626215",
+     "doi": "https://doi.org/10.1101/2024.12.17.628199",
+     "title": "Comparative atlas of genome-wide chromatin-associated protein co-occupancy",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.12.17.628199",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "ABSTRACT Accurate transcriptional regulation and chromatin dynamics requires the coordination and activity of chromatin-associated proteins (CAPs) at distinct loci. While the combinatorial activity of a select set of CAPs has been previously examined, these studies are limited by the underrepresentation of proteins and cell types explored, making it difficult to identify the global associations as well as the conservation of these associations across different cell types. Here, we performed 270 CAP chromatin immunoprecipitation followed by high-throughput sequencing (ChIP-Seq) experiments in both K562 and HepG2 cancer cell lines and explored the relationship between cell identity and CAP co-",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5024120181%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:05Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7225118333",
+    "recent_work_institutions": [],
+    "last_known_institutions": [
+     "Stanford Medicine",
+     "Diabetes Technology Society",
+     "Stanford Diabetes Research Center",
+     "Stanford Cardiovascular Institute",
+     "The University of Tokyo",
+     "International University of Health and Welfare",
+     "Stanford University"
+    ],
+    "matches_school": true
+   }
+  },
+  {
+   "name": "Grant Rotskoff",
+   "title": "Assistant Professor of Chemistry",
+   "profile_url": "https://med.stanford.edu/profiles/rotskoff",
+   "lab_url": null,
+   "faculty_source_url": "https://med.stanford.edu/biophysics/faculty1.html",
+   "openalex_id": "https://openalex.org/A5071403558",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI97018004&mailto=boyuan.yang%40emory.edu&per_page=10&search=Grant+Rotskoff&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Grant M. Rotskoff",
+   "openalex_url": "https://api.openalex.org/authors/A5071403558?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:11:59Z",
+   "works_in_window": 52,
+   "works_at_school": 42,
+   "score_basis": "works with school on byline",
+   "score": 5.94,
+   "score_A": 0,
+   "score_B": 5.94,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W7153739331",
+     "doi": "https://doi.org/10.64898/2026.04.10.717777",
+     "title": "Generative design of intrinsically disordered protein regions with IDiom",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.04.10.717777",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Intrinsically disordered protein regions are ubiquitous across all kingdoms of life. These structurally heterogeneous regions play central roles in cellular processes such as transcriptional regulation, cellular signaling, and subcellular organization, yet they have remained largely inaccessible to rational design. Structure-based generative methods are not applicable to proteins that lack a stable fold, and existing sequence-based approaches for disordered regions rely on sampling methods that do not capture the evolutionary statistics of natural disordered regions. Here, we introduce IDiom, an autoregressive protein language model trained on 37 million intrinsically disordered region seque",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5071403558%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:00Z"
+    },
+    {
+     "id": "https://openalex.org/W7216359772",
+     "doi": "https://doi.org/10.48550/arxiv.2610.02189",
+     "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "arXiv (Cornell University)",
+     "landing_url": "https://doi.org/10.48550/arxiv.2610.02189",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Intrinsically disordered protein regions (IDRs) play central roles in cellular processes such as transcriptional regulation, signal transduction, and subcellular localization, yet their functional design remains challenging. Structure-based design methods do not readily apply to IDRs, and existing protein language models are trained on full-length protein sequences, thus learning a prior that is biased towards folded domains. Here, we present IDiom, an autoregressive protein language model trained on IDiom-DB, a dataset of 54 million predicted IDRs curated from the AlphaFold Database. IDiom generates diverse sequences that recapitulate the composition, patterning, motifs, and predicted disor",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5071403558%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:00Z"
+    },
+    {
+     "id": "https://openalex.org/W4392093164",
+     "doi": "https://doi.org/10.1021/acs.jpcb.3c08195",
+     "title": "Data-Efficient Generation of Protein Conformational Ensembles with Backbone-to-Side-Chain Transformers",
+     "year": 2024,
+     "type": "article",
+     "venue": "The Journal of Physical Chemistry B",
+     "landing_url": "https://doi.org/10.1021/acs.jpcb.3c08195",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Excitement at the prospect of using data-driven generative models to sample configurational ensembles of biomolecular systems stems from the extraordinary success of these models on a diverse set of high-dimensional sampling tasks. Unlike image generation or even the closely related problem of protein structure prediction, there are currently no data sources with sufficient breadth to parametrize generative models for conformational ensembles. To enable discovery, a fundamentally different approach to building generative models is required: models should be able to propose rare, albeit physical, conformations that may not arise in even the largest data sets. Here we introduce a modular strat",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5071403558%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:00Z"
+    },
+    {
+     "id": "https://openalex.org/W7128194519",
+     "doi": "https://doi.org/10.1021/acs.jcim.6c01333",
+     "title": "Efficient, Few-Shot Directed Evolution with Energy Rank Alignment",
+     "year": 2026,
+     "type": "article",
+     "venue": "Journal of Chemical Information and Modeling",
+     "landing_url": "https://doi.org/10.1021/acs.jcim.6c01333",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Directed evolution is a powerful and widely used technique for protein engineering, and reducing the cost of iterated experimental observations has become a major priority for practitioners. A number of recent efforts to use machine-learning-based predictors to improve sequence selection have led to remarkable improvements in efficiency, but the sparse data at each experimental iteration restricts these approaches to extremely simple models. Adapting large-scale pre-trained protein language models using experimental data offers an alternative that we show productively leverages the strong inductive biases of the natural distribution of protein sequences to navigate high-dimensional, combinat",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5071403558%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:00Z"
+    },
+    {
+     "id": "https://openalex.org/W7196936353",
+     "doi": "https://doi.org/10.52202/085713-3917",
+     "title": "Aligning Transformers with Continuous Feedback via Energy Rank Alignment",
+     "year": 2025,
+     "type": "conference-paper",
+     "venue": "neural information processing systems",
+     "landing_url": "https://doi.org/10.52202/085713-3917",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Searching through chemical space is an exceptionally challenging problem because the number of possible molecules grows combinatorially with the number of atoms. Large, autoregressive models trained on databases of chemical compounds have yielded powerful generators, but we still lack robust strategies for generating molecules with desired properties. This molecular search problem closely resembles the \"alignment\" problem for large language models, though for many chemical tasks we have a specific and easily evaluable reward function. Here, we introduce an algorithm called energy rank alignment (ERA) that leverages an explicit reward function to produce a gradient-based objective that we use",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5071403558%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:00Z"
+    },
+    {
+     "id": "https://openalex.org/W4407482308",
+     "doi": "https://doi.org/10.1016/j.bpj.2024.11.066",
+     "title": "BPS2025 - Building efficient and transferable generative models of intrinsically disordered protein conformational ensembles",
+     "year": 2025,
+     "type": "conference-abstract",
+     "venue": "Biophysical Journal",
+     "landing_url": "https://doi.org/10.1016/j.bpj.2024.11.066",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": false,
+     "role": "last/corresponding",
+     "score": 0.15,
+     "abstract": "",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5071403558%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:12:00Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7216359772",
+    "recent_work_institutions": [
+     "Stanford University"
+    ],
+    "last_known_institutions": [
+     "Institute of Mathematical Statistics",
+     "Stanford University"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2014
+  },
+  {
+   "name": "Ron Dror",
+   "title": "Cheriton Family Professor and Professor, by courtesy, of Structural Biology and of Molecular & Cellular Physiology",
+   "profile_url": "https://med.stanford.edu/profiles/ron-dror",
+   "lab_url": null,
+   "faculty_source_url": "https://med.stanford.edu/biophysics/faculty1.html",
+   "openalex_id": "https://openalex.org/A5061322136",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI97018004&mailto=boyuan.yang%40emory.edu&per_page=10&search=Ron+Dror&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Ron O. Dror",
+   "openalex_url": "https://api.openalex.org/authors/A5061322136?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:11:17Z",
+   "works_in_window": 51,
+   "works_at_school": 43,
+   "score_basis": "works with school on byline",
+   "score": 5.74,
+   "score_A": 0,
+   "score_B": 5.74,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4389325602",
+     "doi": "https://doi.org/10.48550/arxiv.2312.00191",
+     "title": "Enhancing Ligand Pose Sampling for Molecular Docking",
+     "year": 2023,
+     "type": "preprint",
+     "venue": "PubMed",
+     "landing_url": "https://doi.org/10.48550/arxiv.2312.00191",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Deep learning promises to dramatically improve scoring functions for molecular docking, leading to substantial advances in binding pose prediction and virtual screening. To train scoring functions-and to perform molecular docking-one must generate a set of candidate ligand binding poses. Unfortunately, the sampling protocols currently used to generate candidate poses frequently fail to produce any poses close to the correct, experimentally determined pose, unless information about the correct pose is provided. This limits the accuracy of learned scoring functions and molecular docking. Here, we describe two improved protocols for pose sampling: GLOW (auGmented sampLing with sOftened vdW pote",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5061322136%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:18Z"
+    },
+    {
+     "id": "https://openalex.org/W4417028074",
+     "doi": "https://doi.org/10.52202/085713-5589",
+     "title": "Unlocking hidden biomolecular conformational landscapes in diffusion models at inference time",
+     "year": 2025,
+     "type": "conference-paper",
+     "venue": "neural information processing systems",
+     "landing_url": "https://doi.org/10.52202/085713-5589",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "The function of biomolecules such as proteins depends on their ability to interconvert between a wide range of structures or \"conformations.\" Researchers have endeavored for decades to develop computational methods to predict the distribution of conformations, which is far harder to determine experimentally than a static folded structure. We present ConforMix, an inference-time algorithm that enhances sampling of conformational distributions using a combination of classifier guidance, filtering, and free energy estimation. Our approach upgrades diffusion models-whether trained for static structure prediction or conformational generation-to enable more efficient discovery of conformational va",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5061322136%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:18Z"
+    },
+    {
+     "id": "https://openalex.org/W4415933118",
+     "doi": "https://doi.org/10.1021/acs.jcim.5c01925",
+     "title": "Protein Structural Model Selection Informed by Comparison of Predicted Ligand Binding Poses",
+     "year": 2025,
+     "type": "article",
+     "venue": "Journal of Chemical Information and Modeling",
+     "landing_url": "https://doi.org/10.1021/acs.jcim.5c01925",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Recent advances in protein structure prediction have highlighted the importance of a longstanding problem: given multiple structural models of a protein, how does one select the best model to use when predicting interactions between that protein and candidate drug molecules? Here we demonstrate the value of a previously unutilized source of information in addressing this problem. We show that given multiple ligands known to bind the protein, one can perform effective model selection by comparing the predicted binding poses of multiple ligands at each model. We introduce a method, RevBind, that exploits this information, leveraging the statistical tendency of different ligands to form similar",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5061322136%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:18Z"
+    },
+    {
+     "id": "https://openalex.org/W4410396340",
+     "doi": "https://doi.org/10.1101/2025.05.10.653107",
+     "title": "MedSAGE: Bridging Generative AI and Medicinal Chemistry for Structure-Based Design of Small Molecule Drugs",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.05.10.653107",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract While generative AI is transforming the de novo design of proteins, its effectiveness for structure-based design of small molecules remains limited. Current methods, including diffusion models, often produce small molecules with difficult-to-synthesize structures, poor medicinal chemistry properties, and limited target selectivity. To address these limitations, we introduce MedSAGE, a novel generative AI framework that adapts diffusion models specifically for de novo small-molecule design. Rather than using atoms or strings, we develop a novel representation for generating molecules using fragments relevant for medicinal chemistry. Chemical and geometric information characterizing t",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5061322136%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:18Z"
+    },
+    {
+     "id": "https://openalex.org/W4394688967",
+     "doi": "https://doi.org/10.1146/annurev-biochem-030222-120000",
+     "title": "The Art and Science of Molecular Docking",
+     "year": 2024,
+     "type": "review",
+     "venue": "Annual Review of Biochemistry",
+     "landing_url": "https://doi.org/10.1146/annurev-biochem-030222-120000",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Molecular docking has become an essential part of a structural biologist's and medicinal chemist's toolkits. Given a chemical compound and the three-dimensional structure of a molecular target-for example, a protein-docking methods fit the compound into the target, predicting the compound's bound structure and binding energy. Docking can be used to discover novel ligands for a target by screening large virtual compound libraries. Docking can also provide a useful starting point for structure-based ligand optimization or for investigating a ligand's mechanism of action. Advances in computational methods, including both physics-based and machine learning approaches, as well as in complementary",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5061322136%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:18Z"
+    },
+    {
+     "id": "https://openalex.org/W4391657827",
+     "doi": "https://doi.org/10.1016/j.bpj.2023.11.1852",
+     "title": "How accurate are drug-binding pose predictions using AlphaFold models?",
+     "year": 2024,
+     "type": "article",
+     "venue": "Biophysical Journal",
+     "landing_url": "https://doi.org/10.1016/j.bpj.2023.11.1852",
+     "subtopics": [
+      "B6"
+     ],
+     "methods": false,
+     "role": "last/corresponding",
+     "score": 0.15,
+     "abstract": "",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5061322136%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:18Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7224963354",
+    "recent_work_institutions": [
+     "Stanford University"
+    ],
+    "last_known_institutions": [
+     "Stanford Medicine",
+     "Stanford University"
+    ],
+    "matches_school": true
+   }
+  },
+  {
+   "name": "Christopher Garcia",
+   "title": "Younger Family Professor and Professor of Structural Biology",
+   "profile_url": "https://med.stanford.edu/profiles/chris-garcia",
+   "lab_url": null,
+   "faculty_source_url": "https://med.stanford.edu/biophysics/faculty1.html",
+   "openalex_id": "https://openalex.org/A5017426114",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI97018004&mailto=boyuan.yang%40emory.edu&per_page=10&search=Christopher+Garcia&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "K. Christopher Garc\u00eda",
+   "openalex_url": "https://api.openalex.org/authors/A5017426114?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:11:24Z",
+   "works_in_window": 84,
+   "works_at_school": 64,
+   "score_basis": "works with school on byline",
+   "score": 4.16,
+   "score_A": 0,
+   "score_B": 4.16,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W7160980357",
+     "doi": "https://doi.org/10.1038/s41587-026-03128-x",
+     "title": "Deep peptide recognition profiling decodes TCR specificity and enables disease-associated antigen discovery",
+     "year": 2026,
+     "type": "article",
+     "venue": "Nature Biotechnology",
+     "landing_url": "https://doi.org/10.1038/s41587-026-03128-x",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Predicting T cell receptor (TCR) specificity on the basis of sequence is challenging because TCRs of similar sequence can recognize entirely different antigens, whereas TCRs of different sequence can recognize the same antigens. Here we present a system that integrates high-throughput yeast display with fine-tuned protein language models (pLMs) to generate deep peptide recognition profiles (PRPs) for individual TCRs, each detailing binding against millions of peptides. We provide detailed PRPs for a panel of HLA-B*27:05-restricted TCRs from persons with ankylosing spondylitis and acute anterior uveitis that almost exclusively recognize peptides through CDR3\u03b2. pLMs trained on these PRPs outpe",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5017426114%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:25Z"
+    },
+    {
+     "id": "https://openalex.org/W7147148408",
+     "doi": "https://doi.org/10.5061/dryad.h70rxwdzk",
+     "title": "Data from: Deep peptide recognition profiling decodes TCR specificity and enables disease-associated antigen discovery",
+     "year": 2026,
+     "type": "dataset",
+     "venue": "DRYAD",
+     "landing_url": "https://doi.org/10.5061/dryad.h70rxwdzk",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Predicting T cell receptor (TCR) specificity based on sequence is challenging because TCRs of similar sequence can recognize entirely different antigens, whereas TCRs of different sequence can recognize the same antigens. Here, we present a system that integrates high-throughput yeast display with fine-tuned protein language models (pLMs) to generate deep Peptide Recognition Profiles (PRPs) for individual TCRs, each detailing binding against millions of peptides. We provide detailed PRPs for a panel of HLA-B*27:05-restricted TCRs from patients with ankylosing spondylitis and acute anterior uveitis that almost exclusively recognize peptides through CDR3\u03b2. pLMs trained on these PRPs outperform",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5017426114%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:25Z"
+    },
+    {
+     "id": "https://openalex.org/W4414457751",
+     "doi": "https://doi.org/10.1038/s41586-025-09549-z",
+     "title": "Design of facilitated dissociation enables timing of cytokine signalling",
+     "year": 2025,
+     "type": "article",
+     "venue": "Nature",
+     "landing_url": "https://doi.org/10.1038/s41586-025-09549-z",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.31,
+     "abstract": "Abstract Protein design has focused on the design of ground states, ensuring that they are sufficiently low energy to be highly populated 1 . Designing the kinetics and dynamics of a system requires, in addition, the design of excited states that are traversed in transitions from one low-lying state to another 2,3 . This is a challenging task because such states must be sufficiently strained to be poorly populated, but not so strained that they are not populated at all, and because protein design methods have focused on generating near-ideal structures 4\u20137 . Here we describe a general approach for designing systems that use an induced-fit power stroke 8 to generate a structurally frustrated ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5017426114%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:25Z"
+    },
+    {
+     "id": "https://openalex.org/W4412622931",
+     "doi": "https://doi.org/10.1126/science.adv0185",
+     "title": "Design of high-specificity binders for peptide\u2013MHC-I complexes",
+     "year": 2025,
+     "type": "article",
+     "venue": "Science",
+     "landing_url": "https://doi.org/10.1126/science.adv0185",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Abstract Class I MHC molecules present peptides derived from intracellular antigens on the cell surface for immune surveillance, and specific targeting of these peptide-MHC (pMHC) complexes could have considerable utility for treating diseases. Such targeting is challenging as it requires readout of the few outward facing peptide antigen residues and the avoidance of extensive contacts with the MHC carrier which is present on almost all cells. Here we describe the use of deep learning-based protein design tools to de novo design small proteins that arc above the peptide binding groove of pMHC complexes and make extensive contacts with the peptide. We identify specific binders for ten target ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5017426114%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:25Z"
+    },
+    {
+     "id": "https://openalex.org/W4416429012",
+     "doi": "https://doi.org/10.1101/2025.11.19.689381",
+     "title": "Targeting peptide\u2013MHC complexes with designed T cell receptors and antibodies",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.11.19.689381",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Class I major histocompatibility complexes (MHCs), expressed on the surface of all nucleated cells, present peptides derived from intracellular proteins for surveillance by T cells. The precise recognition of foreign or mutated peptide-MHC (pMHC) complexes by T cell receptors (TCRs) is central to immune defense against pathogens and tumors. Although patient-derived TCRs specific for cancer-associated antigens have been used to engineer tumor-targeting therapies, their reactivity toward self- or near-self antigens may be constrained by negative selection in the thymus. Here, we introduce a structure-based deep learning framework, ADAPT (Antigen-receptor Design Against Peptide-MHC Targets), fo",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5017426114%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:25Z"
+    },
+    {
+     "id": "https://openalex.org/W4391338426",
+     "doi": "https://doi.org/10.1101/2024.01.26.577489",
+     "title": "A general platform for targeting MHC-II antigens via a single loop",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.01.26.577489",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Abstract Class-II major histocompatibility complexes (MHC-IIs) are central to the communications between CD4+ T cells and antigen presenting cells (APCs), but intrinsic structural features associated with MHC-II make it difficult to develop a general targeting system with high affinity and antigen specificity. Here, we introduce a protein platform, Targeted Recognition of Antigen-MHC Complex Reporter for MHC-II ( TRACeR-II ), to enable the rapid development of peptide-specific MHC-II binders. TRACeR-II has a small helical bundle scaffold and uses an unconventional mechanism to recognize antigens via a single loop. This unique antigen-recognition mechanism renders this platform highly versati",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5017426114%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:25Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7214754411",
+    "recent_work_institutions": [
+     "Howard Hughes Medical Institute",
+     "Stanford Medicine",
+     "Stanford University"
+    ],
+    "last_known_institutions": [
+     "Howard Hughes Medical Institute",
+     "University of California, San Francisco",
+     "Parker Institute for Cancer Immunotherapy",
+     "Stanford Medicine",
+     "Stanford University"
+    ],
+    "matches_school": true
+   }
+  },
+  {
+   "name": "Lacramioara Bintu",
+   "title": "Associate Professor of Bioengineering",
+   "profile_url": "https://med.stanford.edu/profiles/lacramioara-bintu",
+   "lab_url": null,
+   "faculty_source_url": "https://med.stanford.edu/biophysics/faculty1.html",
+   "openalex_id": "https://openalex.org/A5076007108",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI97018004&mailto=boyuan.yang%40emory.edu&per_page=10&search=Lacramioara+Bintu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Lacramioara Bintu",
+   "openalex_url": "https://api.openalex.org/authors/A5076007108?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:11:01Z",
+   "works_in_window": 41,
+   "works_at_school": 30,
+   "score_basis": "works with school on byline",
+   "score": 3.99,
+   "score_A": 0.08,
+   "score_B": 3.91,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4416666188",
+     "doi": "https://doi.org/10.7554/elife.109165",
+     "title": "High-throughput development and characterization of new functional nanobodies for gene regulation and epigenetic control in human cells",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "eLife",
+     "landing_url": "https://doi.org/10.7554/elife.109165",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Controlling gene expression and chromatin state via the recruitment of transcriptional effector proteins to specific genetic loci has advanced the potential of mammalian synthetic biology, but is still hindered by the challenge of delivering large chromatin regulators. Here, we develop a new method for generating small nanobodies against human chromatin regulators that can repress or activate gene expression. We start with a large and diverse nanobody library and perform enrichment against chromatin regulatory complexes using yeast display, followed by high-throughput pooled selection for transcriptional control when recruited to a reporter in human cells. This workflow allows us to efficien",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076007108%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4416666253",
+     "doi": "https://doi.org/10.7554/elife.109165.1",
+     "title": "High-throughput development and characterization of new functional nanobodies for gene regulation and epigenetic control in human cells",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "eLife",
+     "landing_url": "https://doi.org/10.7554/elife.109165.1",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Controlling gene expression and chromatin state via the recruitment of transcriptional effector proteins to specific genetic loci has advanced the potential of mammalian synthetic biology, but is still hindered by the challenge of delivering large chromatin regulators. Here, we develop a new method for generating small nanobodies against human chromatin regulators that can repress or activate gene expression. We start with a large and diverse nanobody library and perform enrichment against chromatin regulatory complexes using yeast display, followed by high-throughput pooled selection for transcriptional control when recruited to a reporter in human cells. This workflow allows us to efficien",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076007108%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4404016077",
+     "doi": "https://doi.org/10.1101/2024.11.01.621523",
+     "title": "High-throughput development and characterization of new functional nanobodies for gene regulation and epigenetic control in human cells",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.11.01.621523",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Controlling gene expression and chromatin state via the recruitment of transcriptional effector proteins to specific genetic loci has advanced the potential of mammalian synthetic biology, but is still hindered by the challenge of delivering large chromatin regulators. Here, we develop a new method for generating small nanobodies against human chromatin regulators that can repress or activate gene expression. We start with a large and diverse nanobody library and perform enrichment against chromatin regulatory complexes using yeast display, followed by high-throughput pooled selection for transcriptional control when recruited to a reporter in human cells. This workflow allows us to efficien",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076007108%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:01Z"
+    },
+    {
+     "id": "https://openalex.org/W7216359772",
+     "doi": "https://doi.org/10.48550/arxiv.2610.02189",
+     "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "arXiv (Cornell University)",
+     "landing_url": "https://doi.org/10.48550/arxiv.2610.02189",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.31,
+     "abstract": "Intrinsically disordered protein regions (IDRs) play central roles in cellular processes such as transcriptional regulation, signal transduction, and subcellular localization, yet their functional design remains challenging. Structure-based design methods do not readily apply to IDRs, and existing protein language models are trained on full-length protein sequences, thus learning a prior that is biased towards folded domains. Here, we present IDiom, an autoregressive protein language model trained on IDiom-DB, a dataset of 54 million predicted IDRs curated from the AlphaFold Database. IDiom generates diverse sequences that recapitulate the composition, patterning, motifs, and predicted disor",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076007108%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4401898591",
+     "doi": "https://doi.org/10.1101/2024.08.19.608698",
+     "title": "High-throughput affinity measurements of direct interactions between activation domains and co-activators",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.08.19.608698",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.31,
+     "abstract": "Abstract Sequence-specific activation by transcription factors is essential for gene regulation 1,2 . Key to this are activation domains, which often fall within disordered regions of transcription factors 3,4 and recruit co-activators to initiate transcription 5 . These interactions are difficult to characterize via most experimental techniques because they are typically weak and transient 6,7 . Consequently, we know very little about whether these interactions are promiscuous or specific, the mechanisms of binding, and how these interactions tune the strength of gene activation. To address these questions, we developed a microfluidic platform for expression and purification of hundreds of ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076007108%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4402794971",
+     "doi": "https://doi.org/10.1101/2024.09.21.614253",
+     "title": "Prediction and design of transcriptional repressor domains with large-scale mutational scans and deep learning",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.09.21.614253",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Regulatory proteins have evolved diverse repressor domains (RDs) to enable precise context-specific repression of transcription. However, our understanding of how sequence variation impacts the functional activity of RDs is limited. To address this gap, we generated a high-throughput mutational scanning dataset measuring the repressor activity of 115,000 variant sequences spanning more than 50 RDs in human cells. We identified thousands of clinical variants with loss or gain of repressor function, including TWIST1 HLH variants associated with Saethre-Chotzen syndrome and MECP2 domain variants associated with Rett syndrome. We also leveraged these data to annotate short linear interacting mot",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5076007108%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:11:01Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7212025820",
+    "recent_work_institutions": [
+     "Stanford University"
+    ],
+    "last_known_institutions": [
+     "Stanford University"
+    ],
+    "matches_school": true
+   }
+  }
+ ],
+ "all_scores": [
+  {
+   "name": "Brian Hie",
+   "openalex_id": "https://openalex.org/A5021962955",
+   "score": 11.0,
+   "score_A": 0,
+   "score_B": 11.0,
+   "note": null
+  },
+  {
+   "name": "Russ Altman",
+   "openalex_id": "https://openalex.org/A5084043782",
+   "score": 10.0,
+   "score_A": 1.0,
+   "score_B": 9.0,
+   "note": null
+  },
+  {
+   "name": "Possu Huang",
+   "openalex_id": "https://openalex.org/A5021369429",
+   "score": 8.5,
+   "score_A": 0,
+   "score_B": 8.5,
+   "note": null
+  },
+  {
+   "name": "Michael Snyder",
+   "openalex_id": "https://openalex.org/A5024120181",
+   "score": 7.31,
+   "score_A": 6.31,
+   "score_B": 1.31,
+   "note": null
+  },
+  {
+   "name": "Grant Rotskoff",
+   "openalex_id": "https://openalex.org/A5071403558",
+   "score": 5.94,
+   "score_A": 0,
+   "score_B": 5.94,
+   "note": null
+  },
+  {
+   "name": "Ron Dror",
+   "openalex_id": "https://openalex.org/A5061322136",
+   "score": 5.74,
+   "score_A": 0,
+   "score_B": 5.74,
+   "note": null
+  },
+  {
+   "name": "Christopher Garcia",
+   "openalex_id": "https://openalex.org/A5017426114",
+   "score": 4.16,
+   "score_A": 0,
+   "score_B": 4.16,
+   "note": null
+  },
+  {
+   "name": "Lacramioara Bintu",
+   "openalex_id": "https://openalex.org/A5076007108",
+   "score": 3.99,
+   "score_A": 0.08,
+   "score_B": 3.91,
+   "note": null
+  },
+  {
+   "name": "Emma Lundberg",
+   "openalex_id": "https://openalex.org/A5052101351",
+   "score": 3.74,
+   "score_A": 0.65,
+   "score_B": 3.09,
+   "note": null
+  },
+  {
+   "name": "Anshul Kundaje",
+   "openalex_id": "https://openalex.org/A5083952534",
+   "score": 3.51,
+   "score_A": 2.26,
+   "score_B": 1.25,
+   "note": null
+  },
+  {
+   "name": "Xiaojie Qiu",
+   "openalex_id": "https://openalex.org/A5046718695",
+   "score": 3.35,
+   "score_A": 3.35,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Xiaojing Gao",
+   "openalex_id": "https://openalex.org/A5031411983",
+   "score": 3.24,
+   "score_A": 0.25,
+   "score_B": 2.99,
+   "note": null
+  },
+  {
+   "name": "Polly Fordyce",
+   "openalex_id": "https://openalex.org/A5085863617",
+   "score": 3.14,
+   "score_A": 0,
+   "score_B": 3.14,
+   "note": null
+  },
+  {
+   "name": "Rhiju Das",
+   "openalex_id": "https://openalex.org/A5071548009",
+   "score": 2.66,
+   "score_A": 0,
+   "score_B": 2.66,
+   "note": null
+  },
+  {
+   "name": "Alice Ting",
+   "openalex_id": "https://openalex.org/A5048170851",
+   "score": 2.19,
+   "score_A": 0,
+   "score_B": 2.19,
+   "note": null
+  },
+  {
+   "name": "Stephen Quake",
+   "openalex_id": "https://openalex.org/A5090505297",
+   "score": 2.14,
+   "score_A": 0.7,
+   "score_B": 1.44,
+   "note": null
+  },
+  {
+   "name": "Barbara Engelhardt",
+   "openalex_id": "https://openalex.org/A5065136437",
+   "score": 2.0,
+   "score_A": 2.0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Julia Salzman",
+   "openalex_id": "https://openalex.org/A5049726850",
+   "score": 2.0,
+   "score_A": 1.0,
+   "score_B": 1.0,
+   "note": null
+  },
+  {
+   "name": "Jin Li",
+   "openalex_id": "https://openalex.org/A5100364769",
+   "score": 1.96,
+   "score_A": 1.5,
+   "score_B": 0.46,
+   "note": null
+  },
+  {
+   "name": "Roger Kornberg",
+   "openalex_id": "https://openalex.org/A5049465163",
+   "score": 1.7,
+   "score_A": 0,
+   "score_B": 1.7,
+   "note": null
+  },
+  {
+   "name": "Christopher Barnes",
+   "openalex_id": "https://openalex.org/A5039779778",
+   "score": 1.57,
+   "score_A": 0,
+   "score_B": 1.57,
+   "note": null
+  },
+  {
+   "name": "Wah Chiu",
+   "openalex_id": "https://openalex.org/A5049689333",
+   "score": 1.48,
+   "score_A": 0,
+   "score_B": 1.48,
+   "note": null
+  },
+  {
+   "name": "Steven Boxer",
+   "openalex_id": "https://openalex.org/A5007451401",
+   "score": 1.4,
+   "score_A": 0,
+   "score_B": 1.4,
+   "note": null
+  },
+  {
+   "name": "William Greenleaf",
+   "openalex_id": "https://openalex.org/A5066136174",
+   "score": 1.2,
+   "score_A": 1.2,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Brian Kobilka",
+   "openalex_id": "https://openalex.org/A5079682203",
+   "score": 1.19,
+   "score_A": 0,
+   "score_B": 1.19,
+   "note": null
+  },
+  {
+   "name": "Anne Brunet",
+   "openalex_id": "https://openalex.org/A5088357328",
+   "score": 1.0,
+   "score_A": 1.0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Andrew Spakowitz",
+   "openalex_id": "https://openalex.org/A5016622605",
+   "score": 1.0,
+   "score_A": 1.0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Crystal Mackall",
+   "openalex_id": "https://openalex.org/A5087779758",
+   "score": 0.94,
+   "score_A": 0.25,
+   "score_B": 0.69,
+   "note": null
+  },
+  {
+   "name": "Mark Davis",
+   "openalex_id": "https://openalex.org/A5025539602",
+   "score": 0.69,
+   "score_A": 0.09,
+   "score_B": 0.6,
+   "note": null
+  },
+  {
+   "name": "Liang Feng",
+   "openalex_id": "https://openalex.org/A5100676926",
+   "score": 0.65,
+   "score_A": 0,
+   "score_B": 0.65,
+   "note": null
+  },
+  {
+   "name": "Alexander Dunn",
+   "openalex_id": "https://openalex.org/A5057324568",
+   "score": 0.62,
+   "score_A": 0,
+   "score_B": 0.62,
+   "note": null
+  },
+  {
+   "name": "Judith Frydman",
+   "openalex_id": "https://openalex.org/A5041204065",
+   "score": 0.59,
+   "score_A": 0,
+   "score_B": 0.59,
+   "note": null
+  },
+  {
+   "name": "Olivier Gevaert",
+   "openalex_id": "https://openalex.org/A5078274543",
+   "score": 0.58,
+   "score_A": 0.58,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Benjamin Good",
+   "openalex_id": "https://openalex.org/A5069948947",
+   "score": 0.55,
+   "score_A": 0.15,
+   "score_B": 0.4,
+   "note": null
+  },
+  {
+   "name": "Daniel Herschlag",
+   "openalex_id": "https://openalex.org/A5076625801",
+   "score": 0.54,
+   "score_A": 0,
+   "score_B": 0.54,
+   "note": null
+  },
+  {
+   "name": "Michael Kapiloff",
+   "openalex_id": "https://openalex.org/A5037031481",
+   "score": 0.34,
+   "score_A": 0,
+   "score_B": 0.34,
+   "note": null
+  },
+  {
+   "name": "Tino Pleiner",
+   "openalex_id": "https://openalex.org/A5020407670",
+   "score": 0.34,
+   "score_A": 0,
+   "score_B": 0.34,
+   "note": null
+  },
+  {
+   "name": "Bianxiao Cui",
+   "openalex_id": "https://openalex.org/A5048840728",
+   "score": 0.33,
+   "score_A": 0,
+   "score_B": 0.33,
+   "note": null
+  },
+  {
+   "name": "Axel Brunger",
+   "openalex_id": "https://openalex.org/A5056911622",
+   "score": 0.3,
+   "score_A": 0,
+   "score_B": 0.3,
+   "note": null
+  },
+  {
+   "name": "Kristy Red-Horse",
+   "openalex_id": "https://openalex.org/A5069632263",
+   "score": 0.3,
+   "score_A": 0.3,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Longzhi Tan",
+   "openalex_id": "https://openalex.org/A5085943317",
+   "score": 0.27,
+   "score_A": 0.27,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Roxana Daneshjou",
+   "openalex_id": "https://openalex.org/A5014300312",
+   "score": 0.25,
+   "score_A": 0.25,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Jose Dinneny",
+   "openalex_id": "https://openalex.org/A5046543783",
+   "score": 0.25,
+   "score_A": 0.25,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Shaul Druckmann",
+   "openalex_id": "https://openalex.org/A5033395053",
+   "score": 0.25,
+   "score_A": 0.25,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Jonathan Long",
+   "openalex_id": "https://openalex.org/A5035266773",
+   "score": 0.23,
+   "score_A": 0,
+   "score_B": 0.23,
+   "note": null
+  },
+  {
+   "name": "Anthony Wagner",
+   "openalex_id": "https://openalex.org/A5019507128",
+   "score": 0.21,
+   "score_A": 0.21,
+   "score_B": 0.05,
+   "note": null
+  },
+  {
+   "name": "Jan Skotheim",
+   "openalex_id": "https://openalex.org/A5068790564",
+   "score": 0.2,
+   "score_A": 0.16,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Annelise Barron",
+   "openalex_id": "https://openalex.org/A5013082584",
+   "score": 0.19,
+   "score_A": 0,
+   "score_B": 0.19,
+   "note": null
+  },
+  {
+   "name": "Zev Bryant",
+   "openalex_id": "https://openalex.org/A5021110994",
+   "score": 0.19,
+   "score_A": 0,
+   "score_B": 0.19,
+   "note": null
+  },
+  {
+   "name": "Lynette Cegelski",
+   "openalex_id": "https://openalex.org/A5037608231",
+   "score": 0.19,
+   "score_A": 0,
+   "score_B": 0.19,
+   "note": null
+  },
+  {
+   "name": "Katrin Svensson",
+   "openalex_id": "https://openalex.org/A5017377309",
+   "score": 0.19,
+   "score_A": 0.04,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Laura Dassama",
+   "openalex_id": "https://openalex.org/A5066215358",
+   "score": 0.15,
+   "score_A": 0.15,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Eric Kool",
+   "openalex_id": "https://openalex.org/A5078529502",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Lingyin Li",
+   "openalex_id": "https://openalex.org/A5050344230",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Ashby Morrison",
+   "openalex_id": "https://openalex.org/A5035066706",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Julia Palacios",
+   "openalex_id": "https://openalex.org/A5072491898",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Manu Prakash",
+   "openalex_id": "https://openalex.org/A5033422995",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Kacper Rogala",
+   "openalex_id": "https://openalex.org/A5065168278",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Serena Sanulli",
+   "openalex_id": "https://openalex.org/A5039572019",
+   "score": 0.15,
+   "score_A": 0.15,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Edward Solomon",
+   "openalex_id": "https://openalex.org/A5024342453",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Richard Zare",
+   "openalex_id": "https://openalex.org/A5024513735",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Dmitri Petrov",
+   "openalex_id": "https://openalex.org/A5079594157",
+   "score": 0.13,
+   "score_A": 0.13,
+   "score_B": 0.05,
+   "note": null
+  },
+  {
+   "name": "Jennifer Cochran",
+   "openalex_id": "https://openalex.org/A5058204963",
+   "score": 0.08,
+   "score_A": 0,
+   "score_B": 0.08,
+   "note": null
+  },
+  {
+   "name": "Hawa Racine Thiam",
+   "openalex_id": "https://openalex.org/A5077476585",
+   "score": 0.08,
+   "score_A": 0,
+   "score_B": 0.08,
+   "note": null
+  },
+  {
+   "name": "Soichi Wakatsuki",
+   "openalex_id": "https://openalex.org/A5043378745",
+   "score": 0.08,
+   "score_A": 0,
+   "score_B": 0.08,
+   "note": null
+  },
+  {
+   "name": "Theodore Jardetzky",
+   "openalex_id": "https://openalex.org/A5077136795",
+   "score": 0.05,
+   "score_A": 0,
+   "score_B": 0.05,
+   "note": null
+  },
+  {
+   "name": "Monther Abu-Remaileh",
+   "openalex_id": "https://openalex.org/A5045437960",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Ovijit Chaudhuri",
+   "openalex_id": "https://openalex.org/A5015357747",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Pehr Harbury",
+   "openalex_id": "https://openalex.org/A5069719269",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Kerwyn Huang",
+   "openalex_id": "https://openalex.org/A5052019253",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Christine Jacobs-Wagner",
+   "openalex_id": "https://openalex.org/A5111718369",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Jianghong Rao",
+   "openalex_id": "https://openalex.org/A5073112631",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "James Spudich",
+   "openalex_id": "https://openalex.org/A5049037453",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Bo Wang",
+   "openalex_id": "https://openalex.org/A5100408139",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Raag Airan",
+   "openalex_id": "https://openalex.org/A5022335287",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Manuel Amieva",
+   "openalex_id": "https://openalex.org/A5019192377",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Steven Block",
+   "openalex_id": "https://openalex.org/A5103440719",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Alistair Boettiger",
+   "openalex_id": "https://openalex.org/A5079862746",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Onn Brandman",
+   "openalex_id": "https://openalex.org/A5002019876",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "David Camarillo",
+   "openalex_id": "https://openalex.org/A5051027391",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Gheorghe Chistol",
+   "openalex_id": "https://openalex.org/A5056925498",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Gilbert Chu",
+   "openalex_id": "https://openalex.org/A5005971897",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Steven Chu",
+   "openalex_id": "https://openalex.org/A5001967033",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Jonas Cremer",
+   "openalex_id": "https://openalex.org/A5022798442",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Hongjie Dai",
+   "openalex_id": "https://openalex.org/A5102781933",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Kyle Daniels",
+   "openalex_id": "https://openalex.org/A5059129537",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Rongxin Fang",
+   "openalex_id": null,
+   "score": 0,
+   "score_A": null,
+   "score_B": null,
+   "note": "no OpenAlex author found"
+  },
+  {
+   "name": "Jessica Feldman",
+   "openalex_id": "https://openalex.org/A5010411927",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "James Ferrell",
+   "openalex_id": "https://openalex.org/A5007372909",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Daniel Fisher",
+   "openalex_id": "https://openalex.org/A5009844754",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Alex Gao",
+   "openalex_id": "https://openalex.org/A5111633409",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Matthias Garten",
+   "openalex_id": "https://openalex.org/A5073675327",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Gary Glover",
+   "openalex_id": "https://openalex.org/A5006640580",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Miriam Goodman",
+   "openalex_id": "https://openalex.org/A5015759073",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Keren Haroush",
+   "openalex_id": "https://openalex.org/A5088546786",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Felix Horns",
+   "openalex_id": "https://openalex.org/A5027298635",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Peter Kim",
+   "openalex_id": "https://openalex.org/A5107825888",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Ron Kopito",
+   "openalex_id": "https://openalex.org/A5058767055",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Craig Levin",
+   "openalex_id": "https://openalex.org/A5000818804",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Michael Levitt",
+   "openalex_id": "https://openalex.org/A5019080704",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Richard Lewis",
+   "openalex_id": "https://openalex.org/A5015532094",
+   "score": 0.0,
+   "score_A": 0.0,
+   "score_B": 0.0,
+   "note": null
+  },
+  {
+   "name": "Jan Liphardt",
+   "openalex_id": "https://openalex.org/A5006142941",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Sharon Long",
+   "openalex_id": "https://openalex.org/A5101592758",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Merritt Maduke",
+   "openalex_id": "https://openalex.org/A5084403209",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Todd Martinez",
+   "openalex_id": "https://openalex.org/A5133101500",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Michaelle Mayalu",
+   "openalex_id": "https://openalex.org/A5052555015",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Matteo Mole'",
+   "openalex_id": "https://openalex.org/A5067938744",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Vijay Pande",
+   "openalex_id": "https://openalex.org/A5032418986",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Joseph Puglisi",
+   "openalex_id": "https://openalex.org/A5071796341",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Jian Qin",
+   "openalex_id": "https://openalex.org/A5071678608",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Manish Saggar",
+   "openalex_id": "https://openalex.org/A5045525642",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Mark Schnitzer",
+   "openalex_id": "https://openalex.org/A5009631067",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Naima Sharaf",
+   "openalex_id": "https://openalex.org/A5075746167",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Sindy Tang",
+   "openalex_id": "https://openalex.org/A5019601221",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Shreyas Vasanawala",
+   "openalex_id": "https://openalex.org/A5070743328",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Haopeng Xiao",
+   "openalex_id": "https://openalex.org/A5049862161",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Shannon Yan",
+   "openalex_id": null,
+   "score": 0,
+   "score_A": null,
+   "score_B": null,
+   "note": "no OpenAlex author found"
+  },
+  {
+   "name": "Brad Zuchero",
+   "openalex_id": "https://openalex.org/A5033204695",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Adam de la Zerda",
+   "openalex_id": "https://openalex.org/A5030652147",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  }
+ ]
+}
