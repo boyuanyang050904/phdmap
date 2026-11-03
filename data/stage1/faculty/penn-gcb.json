@@ -1,0 +1,2273 @@
+{
+ "program_id": "penn-gcb",
+ "school_institution_id": "https://openalex.org/I79576946",
+ "window_from": "2023-11-04",
+ "n_faculty": 144,
+ "top": [
+  {
+   "name": "Cesar de la Fuente",
+   "title": null,
+   "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9151622",
+   "lab_url": null,
+   "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
+   "openalex_id": "https://openalex.org/A5012089635",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Cesar+de+la+Fuente&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "C\u00e9sar de la Fuente\u2010N\u00fa\u00f1ez",
+   "openalex_url": "https://api.openalex.org/authors/A5012089635?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:06:05Z",
+   "works_in_window": 132,
+   "works_at_school": 120,
+   "score_basis": "works with school on byline",
+   "score": 10.75,
+   "score_A": 0,
+   "score_B": 10.75,
+   "direction": "B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W7215032795",
+     "doi": "https://doi.org/10.1016/j.celbio.2026.100598",
+     "title": "Peptide-protein interactions in drug discovery",
+     "year": 2026,
+     "type": "article",
+     "venue": "Cell Biomaterials",
+     "landing_url": "https://doi.org/10.1016/j.celbio.2026.100598",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Peptide-protein interactions are emerging as a major focus in drug discovery because they underpin many biological processes and provide a powerful means to modulate protein-protein interactions (PPIs), including targets long considered \"undruggable.\" Peptide therapeutics occupy a unique middle ground between small molecules and biologics, combining high target selectivity with structural and functional versatility. This review integrates experimental and computational perspectives, summarizing current strategies for peptide ligand discovery, AI-based modeling, and generative peptide design. We highlight therapeutic applications, including peptide modulators of challenging targets such as Ki",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5012089635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:06Z"
+    },
+    {
+     "id": "https://openalex.org/W4415376141",
+     "doi": "https://doi.org/10.1038/s42256-025-01119-2",
+     "title": "Tailored structured peptide design with a key-cutting machine approach",
+     "year": 2025,
+     "type": "article",
+     "venue": "Nature Machine Intelligence",
+     "landing_url": "https://doi.org/10.1038/s42256-025-01119-2",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Computational protein and peptide design is emerging as a transformative framework for engineering macromolecules with precise structures and functions, offering innovative solutions in medicine, biotechnology and materials science. However, current methods predominantly rely on generative models, which are expensive to train and modify. Here, we introduce the Key-Cutting Machine (KCM), an optimization-based platform that iteratively leverages structure prediction to match desired backbone geometries. KCM requires only a single graphics processing unit and enables seamless incorporation of user-defined requirements into the objective function, circumventing the high retraining costs typical ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5012089635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:06Z"
+    },
+    {
+     "id": "https://openalex.org/W4406108286",
+     "doi": "https://doi.org/10.1101/2025.01.05.631393",
+     "title": "Key-cutting machine: A novel optimization framework for tailored protein and peptide design",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.01.05.631393",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Computational protein and peptide design is emerging as a transformative framework for engineering macromolecules with precise structures and functions, offering innovative solutions in medicine, biotechnology, and materials science. However, current methods predominantly rely on generative models, which are expensive to train and inflexible to modify. Here, we introduce the Key-Cutting Machine (KCM), a novel optimization-based platform that iteratively leverages structure prediction to match desired backbone geometries. KCM requires only a single GPU and enables seamless incorporation of user-defined requirements into the objective function, circumventing the high retraining costs typical o",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5012089635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:06Z"
+    },
+    {
+     "id": "https://openalex.org/W7161005196",
+     "doi": "https://doi.org/10.1038/s42256-026-01237-5",
+     "title": "A generative artificial intelligence approach for peptide antibiotic optimization",
+     "year": 2026,
+     "type": "article",
+     "venue": "Nature Machine Intelligence",
+     "landing_url": "https://doi.org/10.1038/s42256-026-01237-5",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Antibiotic resistance is rising globally, demanding faster, more reliable routes to design antimicrobial candidates. Although artificial-intelligence-based methods have accelerated antimicrobial discovery, most are designed to screen fixed libraries or generate candidates broadly, rather than optimize existing peptide scaffolds under practical design constraints. Here, to address this challenge, we present APEX generative optimization (ApexGO). ApexGO uses a transformer variational autoencoder that embeds peptide sequences in a continuous latent space, whereas Bayesian optimization efficiently proposes sequence edits to boost antimicrobial potency. Unlike traditional approaches, Ape",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5012089635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:06Z"
+    },
+    {
+     "id": "https://openalex.org/W7158754851",
+     "doi": "https://doi.org/10.1016/j.cbpa.2026.102685",
+     "title": "From generation to validation: Deep generative models for antimicrobial peptide discovery",
+     "year": 2026,
+     "type": "review",
+     "venue": "Current Opinion in Chemical Biology",
+     "landing_url": "https://doi.org/10.1016/j.cbpa.2026.102685",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "The global escalation of antibiotic resistance has renewed interest in antimicrobial peptides (AMPs) as promising alternatives to conventional antibiotics. Although extensive experimental evidence supports their effectiveness against drug-resistant pathogens, identifying new candidates remains time-consuming and labor-intensive. Recent advances in artificial intelligence (AI) are helping to alleviate this bottleneck by accelerating the discovery of AMPs. In particular, generative approaches, including variational autoencoders (VAEs), generative adversarial networks (GANs), and diffusion models, have enabled the de novo design of AMPs with potent activity and reduced toxicity. Despite this pr",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5012089635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:06Z"
+    },
+    {
+     "id": "https://openalex.org/W7154569370",
+     "doi": "https://doi.org/10.1016/j.celbio.2026.100445",
+     "title": "Artificial intelligence in antibiotic discovery: Applications, challenges, and future outlook",
+     "year": 2026,
+     "type": "article",
+     "venue": "Cell Biomaterials",
+     "landing_url": "https://doi.org/10.1016/j.celbio.2026.100445",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "The rise of antimicrobial resistance has outpaced the discovery of antibiotics, creating a pressing global health crisis. Artificial intelligence (AI) offers tools to explore chemical and biological space more efficiently than traditional methods. Here, we review the use of AI in antibiotic research. We outline machine-learning models that have been applied to screen and optimize known compounds, including small molecules and peptides. We also summarize modern generative models leveraged to design antibiotic candidates. We cover approaches such as protein language models for advanced sequence and structural analysis, graph neural networks for modeling complex molecular interactions, and gene",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5012089635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:06Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7223399960",
+    "recent_work_institutions": [
+     "University of Pennsylvania"
+    ],
+    "last_known_institutions": [
+     "University of Oxford",
+     "Bioengineering Center",
+     "University of Pennsylvania"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2015
+  },
+  {
+   "name": "Li Shen",
+   "title": null,
+   "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9075258",
+   "lab_url": null,
+   "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
+   "openalex_id": "https://openalex.org/A5100333320",
+   "openalex_match": "stage0",
+   "openalex_name": "Li Shen",
+   "openalex_url": "https://api.openalex.org/authors/A5100333320?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:06:25Z",
+   "works_in_window": 248,
+   "works_at_school": 172,
+   "score_basis": "works with school on byline",
+   "score": 6.25,
+   "score_A": 4.0,
+   "score_B": 2.25,
+   "direction": "A+B",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W7171544649",
+     "doi": "https://doi.org/10.1145/3807503.3819482",
+     "title": "UniPocket: Unified Ligand and Cryptic Pocket Prediction from Protein Language Model Embeddings",
+     "year": 2026,
+     "type": "conference-paper",
+     "venue": "ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB)",
+     "landing_url": "https://doi.org/10.1145/3807503.3819482",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Identifying druggable pockets in proteins is central to structure-based drug discovery, yet conventional ligand-binding-site prediction and cryptic-pocket prediction are typically treated as separate tasks requiring distinct tools, preprocessing pipelines, and evaluation protocols. This separation is limiting because the two problems share a common biological foundation: co-evolutionary patterns encoded in protein sequences carry implicit signals about both conventional and cryptic binding sites. We present UniPocket, a unified multitask framework for residue-level prediction of both ligand-binding and cryptic-pocket residues within a single shared-backbone architecture. UniPocket uses froze",
+     "source_url": "https://api.openalex.org/works?cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTQzNTgxNTI0J10i&filter=author.id%3AA5100333320%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:27Z"
+    },
+    {
+     "id": "https://openalex.org/W7221550712",
+     "doi": "https://doi.org/10.3390/jdad3040049",
+     "title": "Estrogen and Alzheimer\u2019s Disease: Neurobiology, Epigenetics, and AI-Driven Therapeutic Design",
+     "year": 2026,
+     "type": "article",
+     "venue": "Journal of dementia and Alzheimer's disease",
+     "landing_url": "https://doi.org/10.3390/jdad3040049",
+     "subtopics": [
+      "B5"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Alzheimer\u2019s disease (AD) is a progressive neurodegenerative disorder, and women are disproportionately affected. This review examines the evidence that estrogen signaling contributes to this disparity and asks what a molecularly targeted therapeutic would require. We first distinguish prevalence from incidence in the gender-difference literature and review the genetic, epigenetic, and ascertainment factors that structure female-specific risk, noting that the associations localize consistently to tau rather than to amyloid pathology. We then examine estrogen receptor (ER) biology in the brain, reconciling apparently contradictory accounts of ER\u03b1 and ER\u03b2 function by resolving them at the level",
+     "source_url": "https://api.openalex.org/works?cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTQzNTgxNTI0J10i&filter=author.id%3AA5100333320%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:27Z"
+    },
+    {
+     "id": "https://openalex.org/W4408768884",
+     "doi": "https://doi.org/10.1186/s13040-025-00432-1",
+     "title": "High-dimensional mediation analysis reveals the mediating role of physical activity patterns in genetic pathways leading to AD-like brain atrophy",
+     "year": 2025,
+     "type": "article",
+     "venue": "BioData Mining",
+     "landing_url": "https://doi.org/10.1186/s13040-025-00432-1",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "BACKGROUND: Alzheimer's disease (AD) is a complex disorder that affects multiple biological systems including cognition, behavior and physical health. Unfortunately, the pathogenic mechanisms behind AD are not yet clear and the treatment options are still limited. Despite the increasing number of studies examining the pairwise relationships between genetic factors, physical activity (PA), and AD, few have successfully integrated all three domains of data, which may help reveal mechanisms and impact of these genomic and phenomic factors on AD. We use high-dimensional mediation analysis as an integrative framework to study the relationships among genetic factors, PA and AD-like brain atrophy q",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100333320%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:27Z"
+    },
+    {
+     "id": "https://openalex.org/W7117245959",
+     "doi": "https://doi.org/10.1002/alz70855_106783",
+     "title": "Causal Network of TRIM11: Exploring Druggable Pathways in Alzheimer's Disease",
+     "year": 2025,
+     "type": "article",
+     "venue": "Alzheimer s & Dementia",
+     "landing_url": "https://doi.org/10.1002/alz70855_106783",
+     "subtopics": [
+      "A2"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "BACKGROUND: It has been found that the Tripartite motif-containing protein 11 (TRIM11) is downregulated in Alzheimer's Disease (AD). When overexpressed in AD mouse models, this gene is associated with the degradation of the amyloid tau protein and improving cognitive functions. The finding poses a promising pathway for potentially new targets that can upregulate TRIM11 expression and control AD symptoms. In this research, we employ single-nucleus RNA sequencing (snRNA-seq) data, Bayesian Networks, and Causal DAGs using the NOTEARS algorithm to identify potential genetic expression regulators of TRIM11, aiming to upregulate this gene in AD. METHOD: The snRNA-seq dataset GSE173731 was obtained",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100333320%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:27Z"
+    },
+    {
+     "id": "https://openalex.org/W4406200940",
+     "doi": "https://doi.org/10.1002/alz.092392",
+     "title": "Physical activity pattern mediating the relationship between genetic variants and AD\u2010like brain atrophy",
+     "year": 2024,
+     "type": "article",
+     "venue": "Alzheimer s & Dementia",
+     "landing_url": "https://doi.org/10.1002/alz.092392",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Background Studies have shown physical activity (PA) patterns are heritable traits and are correlated with several known genetic risk factors including APOE, the best\u2010known gene associated with Alzheimer\u2019s Disease (AD). SPARE\u2010AD was a previously developed machine learning index known to be sensitive to AD\u2010like brain atrophy. However, the relationship between genetic variants, physical activity patterns and AD\u2010related neuroimaging features have yet been extensively studied due to the lack of appropriate data and statistical methods for handling complex multimodal data. To bridge this gap, we perform a high\u2010dimensional mediation analysis to decompose the pathway from known genetic var",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100333320%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:27Z"
+    },
+    {
+     "id": "https://openalex.org/W7143293243",
+     "doi": "https://doi.org/10.1186/s13040-026-00550-4",
+     "title": "A biology-based quality-diversity algorithm for drug repurposing in Alzheimer\u2019s disease using automated machine learning",
+     "year": 2026,
+     "type": "article",
+     "venue": "BioData Mining",
+     "landing_url": "https://doi.org/10.1186/s13040-026-00550-4",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "BACKGROUND: Alzheimer\u2019s disease (AD) remains a major therapeutic challenge, characterized by high clinical trial failure rates and limited efficacy of current treatments. Drug repurposing offers a faster, lower-risk route to new therapies; however, existing computational approaches often prioritize predictive accuracy over mechanistic novelty and interpretability, both of which are critical for clinical translation. RESULTS: We introduce a quality-diversity Automated Machine Learning (AutoML) framework that integrates biologically informed graph neural network (GNN) embeddings with a MAP-Elites-guided search to discover predictive yet mechanistically distinct therapeutic hypotheses. Drugs an",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100333320%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:27Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7223390329",
+    "recent_work_institutions": [
+     "University of Pennsylvania"
+    ],
+    "last_known_institutions": [
+     "Harvard University",
+     "Alzheimer\u2019s Disease Neuroimaging Initiative",
+     "Indiana University Bloomington",
+     "Indiana University School of Medicine",
+     "Indiana University",
+     "University of Pennsylvania"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 1999
+  },
+  {
+   "name": "Jin Jin",
+   "title": null,
+   "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9681911",
+   "lab_url": null,
+   "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
+   "openalex_id": "https://openalex.org/A5100684967",
+   "openalex_match": "stage0",
+   "openalex_name": "Jin Jin",
+   "openalex_url": "https://api.openalex.org/authors/A5100684967?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:07:00Z",
+   "works_in_window": 35,
+   "works_at_school": 11,
+   "score_basis": "works with school on byline",
+   "score": 5.79,
+   "score_A": 5.79,
+   "score_B": 0,
+   "direction": "A",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4407301221",
+     "doi": "https://doi.org/10.1101/2025.02.07.25321875",
+     "title": "PennPRS: a centralized cloud computing platform for efficient polygenic risk score training in precision medicine",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "medRxiv",
+     "landing_url": "https://doi.org/10.1101/2025.02.07.25321875",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Polygenic risk scores (PRS) are becoming increasingly vital for risk prediction and stratification in precision medicine. However, PRS model training presents significant challenges for broader adoption of PRS, including limited access to computational resources, difficulties in implementing advanced PRS methods, and availability and privacy concerns over individual-level genetic data. Cloud computing provides a promising solution with centralized computing and data resources. Here we introduce PennPRS (https://pennprs.org), a scalable cloud computing platform for online PRS model training in precision medicine. We developed novel pseudo-training algorithms for multiple PRS methods and ensem",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100684967%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4394676737",
+     "doi": "https://doi.org/10.1016/j.xgen.2024.100539",
+     "title": "MUSSEL: Enhanced Bayesian polygenic risk prediction leveraging information across multiple ancestry groups",
+     "year": 2024,
+     "type": "article",
+     "venue": "Cell Genomics",
+     "landing_url": "https://doi.org/10.1016/j.xgen.2024.100539",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Polygenic risk scores (PRS) are now showing promising predictive performance on a wide variety of complex traits and diseases, but there exists a substantial performance gap across different populations. We propose MUSSEL, a method for ancestry-specific polygenic prediction that borrows information in the summary statistics from genome-wide association studies (GWAS) across multiple ancestry groups. MUSSEL conducts Bayesian hierarchical modeling under a MUltivariate Spike-and-Slab model for effect-size distribution and incorporates an Ensemble Learning step using super learner to combine information across different tuning parameter settings and ancestry groups. In our simulation st",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100684967%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4392619699",
+     "doi": "https://doi.org/10.1093/biostatistics/kxae006",
+     "title": "Mendelian randomization analysis using multiple biomarkers of an underlying common exposure",
+     "year": 2024,
+     "type": "article",
+     "venue": "Biostatistics",
+     "landing_url": "https://doi.org/10.1093/biostatistics/kxae006",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Mendelian randomization (MR) analysis is increasingly popular for testing the causal effect of exposures on disease outcomes using data from genome-wide association studies. In some settings, the underlying exposure, such as systematic inflammation, may not be directly observable, but measurements can be available on multiple biomarkers or other types of traits that are co-regulated by the exposure. We propose a method for MR analysis on latent exposures (MRLE), which tests the significance for, and the direction of, the effect of a latent exposure by leveraging information from multiple related traits. The method is developed by constructing a set of estimating functions based on the second",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100684967%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4404788469",
+     "doi": "https://doi.org/10.1101/2024.11.25.24317939",
+     "title": "Bayesian Mendelian Randomization Analysis for Latent Exposures Leveraging GWAS Summary Statistics for Traits Co-Regulated by the Exposures",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "medRxiv",
+     "landing_url": "https://doi.org/10.1101/2024.11.25.24317939",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Mendelian Randomization analysis is a popular method to infer causal relationships between exposures and outcomes, utilizing data from genome-wide association studies (GWAS) to overcome limitations of observational research by treating genetic variants as instrumental variables. This study focuses on a specific problem setting, where causal signals may exist among a series of correlated traits, but the exposures of interest, such as biological functions or lower-dimensional latent factors that regulate the observable traits, are not directly observable. We propose a Bayesian Mendelian randomization analysis framework that allows joint analysis of the causal effects of multiple latent exposur",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100684967%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4402895114",
+     "doi": "https://doi.org/10.1101/2024.09.24.614661",
+     "title": "A Graph-Informed Modeling Framework Empowering Gene Pathway Discovery",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.09.24.614661",
+     "subtopics": [
+      "A2"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "This study introduces a novel graph-informed modeling framework for improving the statistical analysis of gene expression data, particularly in the context of identifying differentially expressed gene pathways and gene expression-assisted disease classification in a high-dimensional data setting. By integrating gene regulatory network information into hypothesis testing for the difference between mean vectors and linear discriminant analysis, we aim to effectively capture and utilize previously validated external gene interaction information. Our method leverages a block-coordinate descent approach which enables us to incorporate mixed graph information into linear structural equation modeli",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100684967%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:01Z"
+    },
+    {
+     "id": "https://openalex.org/W4391372005",
+     "doi": "https://doi.org/10.1080/01621459.2026.2663587",
+     "title": "Constructing Genetic Risk Scores: Robust Bayesian Approach through Projected Summary Statistics and Flexible Shrinkage",
+     "year": 2026,
+     "type": "article",
+     "venue": "Journal of the American Statistical Association",
+     "landing_url": "https://doi.org/10.1080/01621459.2026.2663587",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Polygenic risk scores (PRS) developed from genome-wide association studies (GWAS) can be used for risk stratification by quantifying the genetic contribution to disease, and many clinical applications have been proposed. Bayesian methods are popular for building PRS because of their natural ability to regularize models and incorporate external information. In this article, we present new theoretical results, methods, and extensive numerical studies to advance Bayesian methods for PRS applications. We identify a potential risk, under a common Bayesian PRS framework, of posterior impropriety when integrating the required GWAS summary statistics and linkage disequilibrium (LD) data from distinc",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5100684967%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:01Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7171943601",
+    "recent_work_institutions": [
+     "Shanghai Mental Health Center"
+    ],
+    "last_known_institutions": [
+     "University of Science and Technology of China",
+     "Sun Yat-sen University",
+     "Sir Run Run Shaw Hospital",
+     "Shanghai Mental Health Center",
+     "Third Affiliated Hospital of Sun Yat-sen University",
+     "Yellow River Institute of Hydraulic Research",
+     "Zhejiang University",
+     "University of Pennsylvania"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2001
+  },
+  {
+   "name": "Marylyn D Ritchie",
+   "title": null,
+   "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9023600",
+   "lab_url": null,
+   "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
+   "openalex_id": "https://openalex.org/A5081769614",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Marylyn+D+Ritchie&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Marylyn DeRiggi Ritchie",
+   "openalex_url": "https://api.openalex.org/authors/A5081769614?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:06:03Z",
+   "works_in_window": 142,
+   "works_at_school": 103,
+   "score_basis": "works with school on byline",
+   "score": 5.75,
+   "score_A": 4.5,
+   "score_B": 1.25,
+   "direction": "A",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4415614836",
+     "doi": "https://doi.org/10.1093/bib/bbaf554",
+     "title": "CASTER-DTA: equivariant graph neural networks for predicting drug\u2013target affinity",
+     "year": 2025,
+     "type": "article",
+     "venue": "Briefings in Bioinformatics",
+     "landing_url": "https://doi.org/10.1093/bib/bbaf554",
+     "subtopics": [
+      "B5",
+      "B6"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Abstract Accurately determining the binding affinity of a ligand with a protein is important for drug design, development, and screening. With the advent of accessible protein structure prediction methods such as AlphaFold, predicted protein 3D structures are readily available; however, scalable methods for predicting binding affinity currently do not take full advantage of 3D protein information. Here, we present CASTER-DTA (Cross-Attention with Structural Target Equivariant Representations for Drug\u2013Target Affinity), which uses an equivariant graph neural network (GNN) to learn more robust protein representations alongside a standard GNN to learn molecular representations to predict DTA. We",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5081769614%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:05Z"
+    },
+    {
+     "id": "https://openalex.org/W4376609971",
+     "doi": "https://doi.org/10.7554/elife.88149.3",
+     "title": "Risk factors affecting polygenic score performance across diverse cohorts",
+     "year": 2025,
+     "type": "article",
+     "venue": "eLife",
+     "landing_url": "https://doi.org/10.7554/elife.88149.3",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Apart from ancestry, personal or environmental covariates may contribute to differences in polygenic score (PGS) performance. We analyzed effects of covariate stratification and interaction on body mass index (BMI) PGS (PGS BMI ) across four cohorts of European (N=491,111) and African (N=21,612) ancestry. Stratifying on binary covariates and quintiles for continuous covariates, 18/62 covariates had significant and replicable R 2 differences among strata. Covariates with the largest differences included age, sex, blood lipids, physical activity, and alcohol consumption, with R 2 being nearly double between best and worst performing quintiles for certain covariates. 28 covariates had ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5081769614%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:05Z"
+    },
+    {
+     "id": "https://openalex.org/W4399566767",
+     "doi": "https://doi.org/10.7554/elife.88149.2",
+     "title": "Risk factors affecting polygenic score performance across diverse cohorts",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "eLife",
+     "landing_url": "https://doi.org/10.7554/elife.88149.2",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Apart from ancestry, personal or environmental covariates may contribute to differences in polygenic score (PGS) performance. We analyzed effects of covariate stratification and interaction on body mass index (BMI) PGS (PGSBMI) across four cohorts of European (N=491,111) and African (N=21,612) ancestry. Stratifying on binary covariates and quintiles for continuous covariates, 18/62 covariates had significant and replicable R2 differences among strata. Covariates with the largest differences included age, sex, blood lipids, physical activity, and alcohol consumption, with R2 being nearly double between best and worst performing quintiles for certain covariates. 28 covariates had sign",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5081769614%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:05Z"
+    },
+    {
+     "id": "https://openalex.org/W4399317516",
+     "doi": null,
+     "title": "SABER: Statistical Identification of Loci of Interest in GWAS Summary Statistics using a Bayesian Gaussian Mixture Model.",
+     "year": 2024,
+     "type": "article",
+     "venue": "PubMed Central",
+     "landing_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11141805",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Genome-wide association studies (GWAS) remain a popular method for identifying novel genetic associations with human phenotypes and have provided many insights into the etiology of many diseases. However, GWAS provide limited support for how a genetic association might contribute to disease due to inherent limitations, such as linkage disequilibrium. As such, many methods that operate on GWAS summary statistics have been developed to generate evidence for functional pathways or for variants of interest, but they require defining the genomic region bounds for loci of interest. At present, there are limited methods for determining these bounds in a rigorous, reproducible way. We present a nove",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5081769614%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:05Z"
+    },
+    {
+     "id": "https://openalex.org/W7204670706",
+     "doi": "https://doi.org/10.1038/s41467-026-77128-5",
+     "title": "A pre-train and fine-tune framework for adaptive boosting of pre-trained polygenic risk scores",
+     "year": 2026,
+     "type": "article",
+     "venue": "Nature Communications",
+     "landing_url": "https://doi.org/10.1038/s41467-026-77128-5",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Polygenic risk scores are widely used for predicting genetic risk across complex diseases and traits, and several pre-trained models have been developed. Few approaches leverage these pre-trained polygenic risk scores to further refine predictive performance. Here, we present Adaptive Boosting of pre-trained Polygenic Risk Socres, a fine-tuning framework that refines pre-trained polygenic risk score models through adaptive variable selection and model boosting to identify additional predictive signals that may not be fully captured by the original models. Simulations show that our framework can identify signals orthogonal to pre-trained polygenic risk scores while controlling false discovery",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5081769614%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:05Z"
+    },
+    {
+     "id": "https://openalex.org/W7143293243",
+     "doi": "https://doi.org/10.1186/s13040-026-00550-4",
+     "title": "A biology-based quality-diversity algorithm for drug repurposing in Alzheimer\u2019s disease using automated machine learning",
+     "year": 2026,
+     "type": "article",
+     "venue": "BioData Mining",
+     "landing_url": "https://doi.org/10.1186/s13040-026-00550-4",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "BACKGROUND: Alzheimer\u2019s disease (AD) remains a major therapeutic challenge, characterized by high clinical trial failure rates and limited efficacy of current treatments. Drug repurposing offers a faster, lower-risk route to new therapies; however, existing computational approaches often prioritize predictive accuracy over mechanistic novelty and interpretability, both of which are critical for clinical translation. RESULTS: We introduce a quality-diversity Automated Machine Learning (AutoML) framework that integrates biologically informed graph neural network (GNN) embeddings with a MAP-Elites-guided search to discover predictive yet mechanistically distinct therapeutic hypotheses. Drugs an",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5081769614%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:06:05Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7224756933",
+    "recent_work_institutions": [
+     "Medical University of South Carolina"
+    ],
+    "last_known_institutions": [
+     "Medical University of South Carolina",
+     "University of Pennsylvania"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2003
+  },
+  {
+   "name": "Dokyoon Kim",
+   "title": null,
+   "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p9240045",
+   "lab_url": null,
+   "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
+   "openalex_id": "https://openalex.org/A5078473635",
+   "openalex_match": "stage0",
+   "openalex_name": "Dokyoon Kim",
+   "openalex_url": "https://api.openalex.org/authors/A5078473635?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:07:14Z",
+   "works_in_window": 70,
+   "works_at_school": 64,
+   "score_basis": "works with school on byline",
+   "score": 5.4,
+   "score_A": 5.15,
+   "score_B": 0.25,
+   "direction": "A",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W7204797406",
+     "doi": "https://doi.org/10.64898/2026.08.25.26361369",
+     "title": "Pathway Modeling of Genomic and Tissue-Specific Transcriptomic Architecture Identifies Personalized Mechanisms of Atrial Fibrillation Risk \u2020",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "medRxiv",
+     "landing_url": "https://doi.org/10.64898/2026.08.25.26361369",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia and a major cause of cardioembolic stroke. Although polygenic risk scores (PRS) are well characterized to quantify inherited susceptibility for AF, they provide limited insight into the pathways and tissues underlying genetic risk, which are critical to uncover for individual risk prediction. In this study, we develop a pathway-level multi-omics representation learning framework that converts individual genetic profiles into interpretable biological features by integrating GWAS-derived pathway burden scores with tissue-specific transcriptomic pathway signals. We constructed machine learning models to assess population-l",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5078473635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:14Z"
+    },
+    {
+     "id": "https://openalex.org/W4409205913",
+     "doi": "https://doi.org/10.1002/alz.70109",
+     "title": "Addressing overfitting bias due to sample overlap in polygenic risk scoring",
+     "year": 2025,
+     "type": "article",
+     "venue": "Alzheimer s & Dementia",
+     "landing_url": "https://doi.org/10.1002/alz.70109",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "INTRODUCTION: Numerous studies on Alzheimer's disease polygenic risk scores (PRSs) overlook sample overlap between International Genomics of Alzheimer's Project (IGAP) and target datasets like Alzheimer's Disease Neuroimaging Initiative (ADNI). METHODS: To address this, we developed overlap-adjusted PRS (OA PRS) and tested it on simulated data to assess biases from different scenarios by varying training, testing, and overlap proportions. OA PRS was used to adjust for sample bias in simulations; then, we applied OA PRS to IGAP and ADNI datasets and validated through visual diagnosis. RESULTS: OA PRS effectively adjusted for sample overlap in all simulation scenarios, as well as for IGAP and ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5078473635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:14Z"
+    },
+    {
+     "id": "https://openalex.org/W4404622691",
+     "doi": "https://doi.org/10.1142/9789819807024_0037",
+     "title": "Plasma protein-based and polygenic risk scores serve complementary roles in predicting inflammatory bowel disease",
+     "year": 2024,
+     "type": "conference-paper",
+     "venue": "Pacific Symposium on Biocomputing (PSB)",
+     "landing_url": "https://doi.org/10.1142/9789819807024_0037",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Inflammatory bowel disease (IBD), encompassing Crohn's disease (CD) and ulcerative colitis (UC), has a significant genetic component and is increasingly prevalent due to environmental factors. Current polygenic risk scores (PRS) have limited predictive power and cannot inform time of symptom onset. Circulating proteomics profiling offers a novel, non-invasive approach for understanding the inflammatory state of complex diseases, enabling the creation of proteomic risk scores (ProRS). This study utilizes data from 51,772 individuals in the UK Biobank to evaluate the unique and combined contributions of PRS and ProRS to IBD risk prediction. We developed ProRS models for CD and UC, assessed the",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5078473635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:14Z"
+    },
+    {
+     "id": "https://openalex.org/W4406050471",
+     "doi": "https://doi.org/10.1002/alz.084351",
+     "title": "BrainNetScore: Enhancing Alzheimer\u2019s disease risk prediction using genetic\u2010guided brain volumetric phenotype network",
+     "year": 2024,
+     "type": "article",
+     "venue": "Alzheimer s & Dementia",
+     "landing_url": "https://doi.org/10.1002/alz.084351",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "BACKGROUND: Alzheimer's disease (AD), characterized by significant brain volume reduction, is influenced by genetic predispositions related to brain volumetric phenotypes. While genome-wide association studies (GWASs) have linked brain imaging-derived phenotypes (IDPs) with AD, existing polygenic risk scores (PRSs) based models inadequately capture this relationship. We develop BrainNetScore, a network-based model enhancing AD risk prediction by integrating genetic associations between multiple brain IDPs and AD incidence. METHOD: Utilizing UK Biobank GWAS summary statistics, we constructed a brain connectivity network from 96 regional brain volume IDPs. This network was expanded into a hete",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5078473635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:14Z"
+    },
+    {
+     "id": "https://openalex.org/W7222350693",
+     "doi": "https://doi.org/10.1093/bib/bbag563",
+     "title": "DeepU-PRS: nonlinear and uncertainty-aware SNP heritability modeling for annotation-informed polygenic risk scoring",
+     "year": 2026,
+     "type": "article",
+     "venue": "Briefings in Bioinformatics",
+     "landing_url": "https://doi.org/10.1093/bib/bbag563",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Polygenic risk scores (PRSs) are widely used to quantify genetic predisposition to complex traits, and their predictive accuracy can be enhanced by incorporating functional annotations into single-nucleotide polymorphism (SNP) effect-size estimation. Existing approaches typically assume linear relationships between annotations and SNP effects, neglecting predictive aleatoric variance and potential nonlinear regulatory interactions. To evaluate the gains of nonlinear and uncertainty-aware modeling, we developed DeepU-PRS, a deep ensemble framework that extends the linear BLD-LDAK model with a neural network trained on functional annotations to jointly estimate SNP heritability and its aleator",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5078473635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:14Z"
+    },
+    {
+     "id": "https://openalex.org/W4416402482",
+     "doi": "https://doi.org/10.1038/s41588-025-02403-y",
+     "title": "Scalable and accurate rare variant meta-analysis with Meta-SAIGE",
+     "year": 2025,
+     "type": "article",
+     "venue": "Nature Genetics",
+     "landing_url": "https://doi.org/10.1038/s41588-025-02403-y",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Meta-analysis enhances the power of rare variant association tests by combining summary statistics across several cohorts. However, existing methods often fail to control type I error for low-prevalence binary traits and are computationally intensive. Here we introduce Meta-SAIGE\u2014a scalable method for rare variant meta-analysis that accurately estimates the null distribution to control type I error and reuses the linkage disequilibrium matrix across phenotypes to boost computational efficiency in phenome-wide analyses. Simulations using UK Biobank whole-exome sequencing data show that Meta-SAIGE effectively controls type I error and achieves power comparable to pooled individual-level analys",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5078473635%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:14Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7222272999",
+    "recent_work_institutions": [
+     "University of Pennsylvania"
+    ],
+    "last_known_institutions": [
+     "Samsung Medical Center",
+     "Research Institute for Future Medicine",
+     "University of Pennsylvania",
+     "Sungkyunkwan University"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2005
+  },
+  {
+   "name": "Eugene Katsevich",
+   "title": null,
+   "profile_url": null,
+   "lab_url": "https://katsevich-lab.github.io/",
+   "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
+   "openalex_id": "https://openalex.org/A5020452709",
+   "openalex_match": "stage0",
+   "openalex_name": "Eugene Katsevich",
+   "openalex_url": "https://api.openalex.org/authors/A5020452709?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:07:07Z",
+   "works_in_window": 16,
+   "works_at_school": 13,
+   "score_basis": "works with school on byline",
+   "score": 4.82,
+   "score_A": 4.82,
+   "score_B": 0,
+   "direction": "A",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4400667748",
+     "doi": "https://doi.org/10.1093/biomet/asag063",
+     "title": "Saddlepoint approximations for plug-in resampling",
+     "year": 2026,
+     "type": "article",
+     "venue": "Biometrika",
+     "landing_url": "https://doi.org/10.1093/biomet/asag063",
+     "subtopics": [
+      "A1",
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.25,
+     "abstract": "Abstract Resampling-based procedures can improve on normal approximations in sparse, large-scale testing problems, but their computational cost can be prohibitive. We recognize that several existing procedures belong to a faster plug-in resampling subclass, fixing fitted nuisance parameters during resampling. When the resampled statistic is a sum of conditionally independent terms, the saddlepoint approximation for the resampling p -value offers further acceleration, replacing resampling with an analytical tail approximation. However, standard Edgeworth-based approximation-error bounds impose regularity conditions that are hard to verify for plug-in resampling laws. We use an alternative app",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5020452709%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:08Z"
+    },
+    {
+     "id": "https://openalex.org/W4416398757",
+     "doi": "https://doi.org/10.1016/j.spl.2025.110590",
+     "title": "Location tests with noisy proxies for latent variables",
+     "year": 2025,
+     "type": "article",
+     "venue": "Statistics & Probability Letters",
+     "landing_url": "https://doi.org/10.1016/j.spl.2025.110590",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "We investigate inference in a latent binary variable model where a noisy proxy of the latent variable is available, motivated by the variable perturbation effectiveness problem in single-cell CRISPR screens. The baseline approach is to ignore the perturbation effectiveness problem, while a recent proposal employs a weighted average based on the proxies. Our main goals are to determine how accurate the proxies must be in order for a weighted test to gain power over the unweighted baseline, and to develop tests that are powerful regardless of the accuracy of the proxies. To address the first goal, we compute the Pitman relative efficiency of the weighted test relative to the unweighted test, y",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5020452709%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:08Z"
+    },
+    {
+     "id": "https://openalex.org/W4397012384",
+     "doi": "https://doi.org/10.1186/s13059-024-03254-2",
+     "title": "Robust differential expression testing for single-cell CRISPR screens at low multiplicity of infection",
+     "year": 2024,
+     "type": "article",
+     "venue": "Genome biology",
+     "landing_url": "https://doi.org/10.1186/s13059-024-03254-2",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Single-cell CRISPR screens (perturb-seq) link genetic perturbations to phenotypic changes in individual cells. The most fundamental task in perturb-seq analysis is to test for association between a perturbation and a count outcome, such as gene expression. We conduct the first-ever comprehensive benchmarking study of association testing methods for low multiplicity-of-infection (MOI) perturb-seq data, finding that existing methods produce excess false positives. We conduct an extensive empirical investigation of the data, identifying three core analysis challenges: sparsity, confounding, and model misspecification. Finally, we develop an association testing method - SCEPTRE low-MOI - that re",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5020452709%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:08Z"
+    },
+    {
+     "id": "https://openalex.org/W4395030665",
+     "doi": "https://doi.org/10.1093/biostatistics/kxae010",
+     "title": "Exponential family measurement error models for single-cell CRISPR screens",
+     "year": 2024,
+     "type": "article",
+     "venue": "Biostatistics",
+     "landing_url": "https://doi.org/10.1093/biostatistics/kxae010",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "CRISPR genome engineering and single-cell RNA sequencing have accelerated biological discovery. Single-cell CRISPR screens unite these two technologies, linking genetic perturbations in individual cells to changes in gene expression and illuminating regulatory networks underlying diseases. Despite their promise, single-cell CRISPR screens present considerable statistical challenges. We demonstrate through theoretical and real data analyses that a standard method for estimation and inference in single-cell CRISPR screens-\"thresholded regression\"-exhibits attenuation bias and a bias-variance tradeoff as a function of an intrinsic, challenging-to-select tuning parameter. To overcome these diffi",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5020452709%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:08Z"
+    },
+    {
+     "id": "https://openalex.org/W4414347531",
+     "doi": "https://doi.org/10.1101/2025.09.16.676677",
+     "title": "A systematic survey of distal element-gene regulatory interactions with Direct-Capture Targeted Perturb-seq",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.09.16.676677",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Abstract Identifying the impact of distal regulatory elements on gene expression is a core challenge in human genetics. Large-scale CRISPR screens have not captured lower effect size element-gene interactions due to selection bias and limited statistical power. We developed a framework for highly powered CRISPR screens, consisting of Direct-Capture Targeted Perturb-seq (DC-TAP-seq), unbiased target selection, and a pipeline accounting for statistical power. Surveying 10,000 random distal element-gene pairs revealed most element-gene interactions have effect sizes <10%, which were virtually undetectable in prior studies. Most interactions occur within 100kb, many elements bind CTCF without cl",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5020452709%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:08Z"
+    },
+    {
+     "id": "https://openalex.org/W7162189304",
+     "doi": "https://doi.org/10.64898/2026.05.22.727199",
+     "title": "PerturbPlan: An analytical framework for designing Perturb-seq experiments",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.05.22.727199",
+     "subtopics": [
+      "A1"
+     ],
+     "methods": false,
+     "role": "last/corresponding",
+     "score": 0.15,
+     "abstract": "CRISPR screens with single-cell RNA-seq readouts provide a powerful tool for characterizing the functions of noncoding elements and genes. However, designing these experiments to balance statistical power and cost is challenging, given the large number of design parameters. The only available tool for this purpose is a simulation-based power calculator, but it is computationally costly and requires high-performance computing to run. We derive a novel analytical formula for the power to detect perturbation-expression associations, recapitulating power estimates from the simulation-based tool while reducing runtime by up to seven orders of magnitude. This acceleration unlocks the possibility o",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5020452709%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:08Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W4400667748",
+    "recent_work_institutions": [
+     "University of Pennsylvania"
+    ],
+    "last_known_institutions": [
+     "University of the Sciences",
+     "University of Pennsylvania",
+     "Philadelphia University"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2020
+  },
+  {
+   "name": "Li-San Wang",
+   "title": null,
+   "profile_url": "https://www.med.upenn.edu/apps/faculty/index.php/g20000322/p2002194",
+   "lab_url": null,
+   "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
+   "openalex_id": "https://openalex.org/A5038370606",
+   "openalex_match": "stage0",
+   "openalex_name": "Li\u2010San Wang",
+   "openalex_url": "https://api.openalex.org/authors/A5038370606?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:07:06Z",
+   "works_in_window": 51,
+   "works_at_school": 46,
+   "score_basis": "works with school on byline",
+   "score": 4.14,
+   "score_A": 4.14,
+   "score_B": 0,
+   "direction": "A",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4404018013",
+     "doi": "https://doi.org/10.1101/2024.10.30.621077",
+     "title": "BTS: scalable Bayesian Tissue Score for prioritizing GWAS variants and their functional contexts across omics data",
+     "year": 2024,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2024.10.30.621077",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Motivation Summary statistics from genome-wide association studies (GWAS) are widely used in fine-mapping and colocalization analyses to identify causal variants and their enrichment in functional contexts, such as affected cell types and genomic features. With the expansion of functional genomic (FG) datasets, which now include hundreds of thousands of tracks across various cell and tissue types, it is critical to establish scalable algorithms integrating thousands of diverse FG annotations with GWAS results. Results We propose BTS (Bayesian Tissue Score), a novel, highly efficient algorithm uniquely designed for 1) identifying affected cell types and functional elements (context-m",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5038370606%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:07Z"
+    },
+    {
+     "id": "https://openalex.org/W4406050287",
+     "doi": "https://doi.org/10.1002/alz.086500",
+     "title": "Multi\u2010omic cell type\u2010level inference of mechanisms underlying non\u2010coding genetic variants for Alzheimer\u2019s disease",
+     "year": 2024,
+     "type": "article",
+     "venue": "Alzheimer s & Dementia",
+     "landing_url": "https://doi.org/10.1002/alz.086500",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "BACKGROUND: Recent Alzheimer's disease (AD) genome-wide association studies () have identified >75 risk loci, with >98% of genome-wide significant variants residing in non-coding genomic regions, making it more difficult to infer their functional contexts. In this study, we aim to jointly 1) fine-map causal loci/variants, and 2) identify affected cell types and functional elements by interrogating large-scale collections of thousands of heterogenous, cell type-specific functional genomic (FG) datasets. METHOD: We analyzed the full genome-wide summary statistics (n = 21,101,114 variants) from the recent AD GWAS (Bellenguez et al, 2022) (Ncases = 111,326, Ncontrols = 677,663). The variants wer",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5038370606%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:07Z"
+    },
+    {
+     "id": "https://openalex.org/W4406050797",
+     "doi": "https://doi.org/10.1002/alz.092685",
+     "title": "NIA Genetics of Alzheimer\u2019s Disease Data Storage Site (NIAGADS) AI\u2010Enhanced Search",
+     "year": 2024,
+     "type": "article",
+     "venue": "Alzheimer s & Dementia",
+     "landing_url": "https://doi.org/10.1002/alz.092685",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "BACKGROUND: NIAGADS is a national data repository that offers qualified investigators access to genomic data for Alzheimer's disease (AD) and related dementia. In addition, NIAGADS has made substantial effort to curate, harmonize, standardize, and disseminate AD-relevant variant, gene, and sequence annotations from publications, functional genomics datasets, and summary statistics deposited at NIAGADS. These results are made available to the public in a collection of interactive knowledgebases (AD Variant Portal, FILER Functional Genomics Repository, VariXam, Alzheimer's GenomicsDB & Genome Browser), all of which are accessible programmatically via the NIAGADS API. However, as these offering",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5038370606%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:07Z"
+    },
+    {
+     "id": "https://openalex.org/W7171354353",
+     "doi": "https://doi.org/10.5281/zenodo.21630677",
+     "title": "Data package for evaluating sequence-to-function deep learning models for ancestry-stratified regulatory variant effect prediction",
+     "year": 2026,
+     "type": "dataset",
+     "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+     "landing_url": "https://doi.org/10.5281/zenodo.21630677",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "This dataset contains derived summary resources supporting the manuscript Evaluating sequence-to-function deep learning models for ancestry-stratified regulatory variant effect prediction. The package includes source tables for manuscript figures and supplementary tables, model-score summaries, fine-mapping benchmark tables, AUROC bootstrap summaries, functional-annotation summaries, compact supporting inputs, negative-control sensitivity summaries, and row-level prediction tables used for the summary analyses. The top-level README and MANIFEST describe the included files. Analysis code for model scoring, summary analyses, and manuscript figure/table generation is available at https://github",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5038370606%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:07Z"
+    },
+    {
+     "id": "https://openalex.org/W4406223498",
+     "doi": "https://doi.org/10.1002/alz.095693",
+     "title": "Leveraging a Novel Phenotype to Identify Complex Traits and Biological Pathways Associated with Resilience to Alzheimer\u2019s Disease",
+     "year": 2024,
+     "type": "article",
+     "venue": "Alzheimer s & Dementia",
+     "landing_url": "https://doi.org/10.1002/alz.095693",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "middle",
+     "score": 0.25,
+     "abstract": "Abstract Background Previous models of resilience to Alzheimer\u2019s Disease (AD) have relied on cross\u2010sectional designs and inclusion of measures of neuropathology. Here, we present a novel modeling approach incorporating longitudinal data and the use of APOE and higher order interaction terms to approximate neuropathological resilience, vastly increasing participant diversity and statistical power. We validate this approach and report novel genetic associations with neuropathological resilience. Method Leveraging 20,513 participants (Table 1), we explored the genetics of resilience metrics using mixed\u2010effects regressions across ancestries. We conducted GWAS on four resilience metrics: two in a",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5038370606%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:07Z"
+    },
+    {
+     "id": "https://openalex.org/W4411530900",
+     "doi": "https://doi.org/10.1002/alz.70255",
+     "title": "NIAGADS: A data repository for Alzheimer's disease and related dementia genomics",
+     "year": 2025,
+     "type": "article",
+     "venue": "Alzheimer s & Dementia",
+     "landing_url": "https://doi.org/10.1002/alz.70255",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": false,
+     "role": "last/corresponding",
+     "score": 0.15,
+     "abstract": "The National Institute on Aging Genetics of Alzheimer's Disease Data Storage Site (NIAGADS) is the National Institute on Aging-designated national data repository for human genetics research on Alzheimer's disease and related dementias (ADRD). NIAGADS maintains a high-quality data collection for ADRD genetic/genomic research and supports genetics data production and analysis, including whole genome and exome sequence data from the Alzheimer's Disease Sequencing Project and other genotype/phenotype data, encompassing 211,000 samples. NIAGADS shares these data with hundreds of research groups around the world via the Data Sharing Service, a Federal Information Security Modernization Act modera",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5038370606%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:07:07Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W7134262732",
+    "recent_work_institutions": [
+     "University of Pennsylvania"
+    ],
+    "last_known_institutions": [
+     "University of Pennsylvania"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2000
+  },
+  {
+   "name": "Sara Mathieson",
+   "title": null,
+   "profile_url": "https://www.bio.upenn.edu/people/sara-mathieson",
+   "lab_url": null,
+   "faculty_source_url": "https://www.med.upenn.edu/gcb/faculty.html",
+   "openalex_id": "https://openalex.org/A5002178567",
+   "openalex_match": "https://api.openalex.org/authors?filter=affiliations.institution.lineage%3AI79576946&mailto=boyuan.yang%40emory.edu&per_page=10&search=Sara+Mathieson&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_name": "Sara Mathieson",
+   "openalex_url": "https://api.openalex.org/authors/A5002178567?mailto=boyuan.yang%40emory.edu&select=id%2Cdisplay_name%2Cworks_count%2Clast_known_institutions%2Caffiliations%2Corcid%2Csummary_stats",
+   "openalex_fetched_at": "2026-11-03T19:05:27Z",
+   "works_in_window": 9,
+   "works_at_school": 6,
+   "score_basis": "works with school on byline",
+   "score": 4.0,
+   "score_A": 4.0,
+   "score_B": 0,
+   "direction": "A",
+   "top_works": [
+    {
+     "id": "https://openalex.org/W4417171272",
+     "doi": "https://doi.org/10.1093/molbev/msag256",
+     "title": "Interpreting convolutional neural networks in population genetics",
+     "year": 2026,
+     "type": "article",
+     "venue": "Molecular Biology and Evolution",
+     "landing_url": "https://doi.org/10.1093/molbev/msag256",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Machine learning approaches have become a powerful alternative to traditional methods in population genetics. Convolutional neural networks (CNNs) in particular have been successful in inferring natural selection, recombination rates, introgression, dispersal distances, and effective population size changes. One limitation of CNNs and other deep learning methods is that they can be difficult to interpret. When they have been shown to be as or more successful than summary-statistic-based methods, what are they learning? Here, we investigate CNNs from two different methods: the pg-gan discriminator for identifying real vs. simulated data, and two networks trained to detect selective sweeps. We",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5002178567%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:05:27Z"
+    },
+    {
+     "id": "https://openalex.org/W7162090854",
+     "doi": "https://doi.org/10.64898/2026.05.21.726777",
+     "title": "Fast pairwise coalescence enables gene-resolution scans for recent selection in diverse human populations",
+     "year": 2026,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.64898/2026.05.21.726777",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Identifying the genetic changes that shaped recent human adaptation depends on our ability to detect selection from genomic data. Summary statistics from haplotype scans have been widely used for that purpose, aggregating genetic signal over windows, though resolution is limited by linkage and their power may diminish as sweeps approach fixation, as in the case of the integrated haplotype score (iHS). Ancient DNA based scans recover signal by analysing time-series trajectories, but the majority of human populations fall outside the geographic range of any existing ancient DNA dataset. Pairwise coalescence times provide a way to complement statistics and can be applied to any modern ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5002178567%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:05:27Z"
+    },
+    {
+     "id": "https://openalex.org/W7168391545",
+     "doi": "https://doi.org/10.1371/journal.pcbi.1014492",
+     "title": "Popformer: Learning general signatures of positive selection with a self-supervised transformer",
+     "year": 2026,
+     "type": "article",
+     "venue": "PLoS Computational Biology",
+     "landing_url": "https://doi.org/10.1371/journal.pcbi.1014492",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "Abstract Understanding natural selection can help shed light on the genetics underpinning adaptive evolution. The widespread availability of large-scale human genetic variation data has led to the development of data-driven methods for detecting signatures of selection, many of which are based on deep learning. However, these methods often fail to generalize well to the diversity of selection signatures across a broad range of evolutionary scenarios. We propose a novel transformer-based model, Popformer, for learning encodings of general patterns of genetic variation. Popformer includes site-wise and haplotype-wise attention, allowing us to capture variation among both genetic positions and ",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5002178567%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:05:27Z"
+    },
+    {
+     "id": "https://openalex.org/W4411744012",
+     "doi": "https://doi.org/10.1101/2025.06.26.661760",
+     "title": "On the use of generative models for evolutionary inference of malaria vectors from genomic data",
+     "year": 2025,
+     "type": "preprint",
+     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+     "landing_url": "https://doi.org/10.1101/2025.06.26.661760",
+     "subtopics": [
+      "A3"
+     ],
+     "methods": true,
+     "role": "last/corresponding",
+     "score": 1.0,
+     "abstract": "complex. Here, we first quantify the genetic structure of mosquito populations in sub-Saharan Africa using unsupervised machine learning. We then adapt and apply an innovative generative deep learning algorithm to infer the joint evolutionary history of populations sampled in Guinea and Burkina Faso, West Africa. We further develop a novel model selection approach and discover that an evolutionary model with migration fits this pair of populations better than a model without post-split migration. For the migration model, we find that our method outperforms earlier work based on summary statistics, especially in capturing population genetic differentiation. These findings demonstrate that mac",
+     "source_url": "https://api.openalex.org/works?cursor=%2A&filter=author.id%3AA5002178567%2Cfrom_publication_date%3A2023-11-04&mailto=boyuan.yang%40emory.edu&per_page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location",
+     "fetched_at": "2026-11-03T19:05:27Z"
+    }
+   ],
+   "affiliation_check": {
+    "recent_last_author_work": "https://openalex.org/W4417171272",
+    "recent_work_institutions": [
+     "Haverford College",
+     "University of Pennsylvania"
+    ],
+    "last_known_institutions": [
+     "Haverford College",
+     "University of Pennsylvania"
+    ],
+    "matches_school": true
+   },
+   "first_last_author_year": 2021
+  }
+ ],
+ "all_scores": [
+  {
+   "name": "Cesar de la Fuente",
+   "openalex_id": "https://openalex.org/A5012089635",
+   "score": 10.75,
+   "score_A": 0,
+   "score_B": 10.75,
+   "note": null
+  },
+  {
+   "name": "Li Shen",
+   "openalex_id": "https://openalex.org/A5100333320",
+   "score": 6.25,
+   "score_A": 4.0,
+   "score_B": 2.25,
+   "note": null
+  },
+  {
+   "name": "Jin Jin",
+   "openalex_id": "https://openalex.org/A5100684967",
+   "score": 5.79,
+   "score_A": 5.79,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Marylyn D Ritchie",
+   "openalex_id": "https://openalex.org/A5081769614",
+   "score": 5.75,
+   "score_A": 4.5,
+   "score_B": 1.25,
+   "note": null
+  },
+  {
+   "name": "Dokyoon Kim",
+   "openalex_id": "https://openalex.org/A5078473635",
+   "score": 5.4,
+   "score_A": 5.15,
+   "score_B": 0.25,
+   "note": null
+  },
+  {
+   "name": "Eugene Katsevich",
+   "openalex_id": "https://openalex.org/A5020452709",
+   "score": 4.82,
+   "score_A": 4.82,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Li-San Wang",
+   "openalex_id": "https://openalex.org/A5038370606",
+   "score": 4.14,
+   "score_A": 4.14,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Sara Mathieson",
+   "openalex_id": "https://openalex.org/A5002178567",
+   "score": 4.0,
+   "score_A": 4.0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Anurag Verma",
+   "openalex_id": "https://openalex.org/A5012994745",
+   "score": 3.61,
+   "score_A": 3.61,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Bogdan Pasaniuc",
+   "openalex_id": "https://openalex.org/A5057630970",
+   "score": 3.6,
+   "score_A": 3.6,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Ophir Shalem",
+   "openalex_id": "https://openalex.org/A5074055600",
+   "score": 3.08,
+   "score_A": 2.04,
+   "score_B": 2.48,
+   "note": null
+  },
+  {
+   "name": "Scott M. Damrauer",
+   "openalex_id": "https://openalex.org/A5082890040",
+   "score": 3.01,
+   "score_A": 3.01,
+   "score_B": 0.31,
+   "note": null
+  },
+  {
+   "name": "Hakon Hakonarson",
+   "openalex_id": "https://openalex.org/A5088244425",
+   "score": 2.65,
+   "score_A": 1.65,
+   "score_B": 1.0,
+   "note": null
+  },
+  {
+   "name": "Gregory R. Bowman",
+   "openalex_id": "https://openalex.org/A5029297375",
+   "score": 2.57,
+   "score_A": 0,
+   "score_B": 2.57,
+   "note": null
+  },
+  {
+   "name": "Bingxin Zhao",
+   "openalex_id": "https://openalex.org/A5030275398",
+   "score": 2.34,
+   "score_A": 2.19,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Shefali Setia Verma",
+   "openalex_id": "https://openalex.org/A5080251530",
+   "score": 2.27,
+   "score_A": 2.27,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Jeffery G. Saven",
+   "openalex_id": "https://openalex.org/A5030959205",
+   "score": 2.13,
+   "score_A": 0,
+   "score_B": 2.13,
+   "note": null
+  },
+  {
+   "name": "Iain Mathieson",
+   "openalex_id": "https://openalex.org/A5063643733",
+   "score": 2.12,
+   "score_A": 2.12,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Katalin Susztak",
+   "openalex_id": "https://openalex.org/A5057297665",
+   "score": 2.02,
+   "score_A": 1.71,
+   "score_B": 0.31,
+   "note": null
+  },
+  {
+   "name": "Michael J. Gandal",
+   "openalex_id": "https://openalex.org/A5008274391",
+   "score": 2.01,
+   "score_A": 2.01,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Benjamin Franklin Voight",
+   "openalex_id": "https://openalex.org/A5033617328",
+   "score": 1.98,
+   "score_A": 1.98,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Christopher Thom",
+   "openalex_id": "https://openalex.org/A5047085656",
+   "score": 1.79,
+   "score_A": 1.79,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Struan F.A. Grant",
+   "openalex_id": "https://openalex.org/A5069461209",
+   "score": 1.74,
+   "score_A": 1.74,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Ravi Radhakrishnan",
+   "openalex_id": "https://openalex.org/A5037007496",
+   "score": 1.6,
+   "score_A": 0,
+   "score_B": 1.6,
+   "note": null
+  },
+  {
+   "name": "Rachel L. Kember",
+   "openalex_id": "https://openalex.org/A5054332868",
+   "score": 1.5,
+   "score_A": 1.5,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Daniel J Rader",
+   "openalex_id": "https://openalex.org/A5067149045",
+   "score": 1.49,
+   "score_A": 1.49,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Theodore G. Drivas",
+   "openalex_id": "https://openalex.org/A5073553407",
+   "score": 1.32,
+   "score_A": 1.32,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Kai Tan",
+   "openalex_id": "https://openalex.org/A5044710449",
+   "score": 1.31,
+   "score_A": 1.0,
+   "score_B": 0.31,
+   "note": null
+  },
+  {
+   "name": "Pablo G C\u00e1mara",
+   "openalex_id": "https://openalex.org/A5055994495",
+   "score": 1.25,
+   "score_A": 0,
+   "score_B": 1.25,
+   "note": null
+  },
+  {
+   "name": "Gerard D Schellenberg",
+   "openalex_id": "https://openalex.org/A5091305213",
+   "score": 1.25,
+   "score_A": 1.25,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Wanding Zhou",
+   "openalex_id": "https://openalex.org/A5010106597",
+   "score": 1.23,
+   "score_A": 1.23,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Yoseph Barash",
+   "openalex_id": "https://openalex.org/A5040287362",
+   "score": 1.08,
+   "score_A": 1.0,
+   "score_B": 0.08,
+   "note": null
+  },
+  {
+   "name": "Frederic D. Bushman",
+   "openalex_id": "https://openalex.org/A5016535188",
+   "score": 1.08,
+   "score_A": 0.08,
+   "score_B": 1.0,
+   "note": null
+  },
+  {
+   "name": "Konrad P Kording",
+   "openalex_id": "https://openalex.org/A5072047827",
+   "score": 1.04,
+   "score_A": 1.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Thomas P. Cappola",
+   "openalex_id": "https://openalex.org/A5029333303",
+   "score": 1.0,
+   "score_A": 0.96,
+   "score_B": 0.09,
+   "note": null
+  },
+  {
+   "name": "Marijana Vujkovi\u0107",
+   "openalex_id": "https://openalex.org/A5007930206",
+   "score": 0.9,
+   "score_A": 0.9,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Katherine L. Nathanson",
+   "openalex_id": "https://openalex.org/A5072490052",
+   "score": 0.83,
+   "score_A": 0.83,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Allan I. Pack",
+   "openalex_id": "https://openalex.org/A5060919649",
+   "score": 0.75,
+   "score_A": 0.75,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Joseph Daniel Romano",
+   "openalex_id": "https://openalex.org/A5078589723",
+   "score": 0.64,
+   "score_A": 0.29,
+   "score_B": 0.35,
+   "note": null
+  },
+  {
+   "name": "Theodore Daniel Satterthwaite",
+   "openalex_id": "https://openalex.org/A5039906500",
+   "score": 0.63,
+   "score_A": 0.59,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Marcella Devoto",
+   "openalex_id": "https://openalex.org/A5076593030",
+   "score": 0.57,
+   "score_A": 0.57,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "E. John Wherry",
+   "openalex_id": "https://openalex.org/A5057824723",
+   "score": 0.54,
+   "score_A": 0.04,
+   "score_B": 0.5,
+   "note": null
+  },
+  {
+   "name": "Michael Guo",
+   "openalex_id": "https://openalex.org/A5065978633",
+   "score": 0.53,
+   "score_A": 0.53,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Laura Almasy",
+   "openalex_id": "https://openalex.org/A5001935511",
+   "score": 0.52,
+   "score_A": 0.52,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Kara N Maxwell",
+   "openalex_id": "https://openalex.org/A5061783891",
+   "score": 0.52,
+   "score_A": 0.52,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Klaus H. Kaestner",
+   "openalex_id": "https://openalex.org/A5012746992",
+   "score": 0.39,
+   "score_A": 0.24,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Russell Takeshi Shinohara",
+   "openalex_id": "https://openalex.org/A5037974362",
+   "score": 0.37,
+   "score_A": 0.33,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Sokratis Apostolidis",
+   "openalex_id": "https://openalex.org/A5088705194",
+   "score": 0.33,
+   "score_A": 0.33,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Ron C Anafi",
+   "openalex_id": "https://openalex.org/A5044447178",
+   "score": 0.29,
+   "score_A": 0.29,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Bo Li",
+   "openalex_id": "https://openalex.org/A5100374429",
+   "score": 0.27,
+   "score_A": 0.12,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Qin Li",
+   "openalex_id": "https://openalex.org/A5102786795",
+   "score": 0.25,
+   "score_A": 0.21,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Glennis Logsdon",
+   "openalex_id": "https://openalex.org/A5009521650",
+   "score": 0.25,
+   "score_A": 0,
+   "score_B": 0.25,
+   "note": null
+  },
+  {
+   "name": "Yanxiang Deng",
+   "openalex_id": "https://openalex.org/A5055207189",
+   "score": 0.25,
+   "score_A": 0.25,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Zhi Huang",
+   "openalex_id": "https://openalex.org/A5064652614",
+   "score": 0.25,
+   "score_A": 0.25,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "John Matthew Maris",
+   "openalex_id": "https://openalex.org/A5005797590",
+   "score": 0.24,
+   "score_A": 0.19,
+   "score_B": 0.05,
+   "note": null
+  },
+  {
+   "name": "Brian Gregory",
+   "openalex_id": "https://openalex.org/A5027736631",
+   "score": 0.23,
+   "score_A": 0,
+   "score_B": 0.23,
+   "note": null
+  },
+  {
+   "name": "Blanca E Himes",
+   "openalex_id": "https://openalex.org/A5021188210",
+   "score": 0.23,
+   "score_A": 0.23,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Michael G. Levin",
+   "openalex_id": "https://openalex.org/A5085228887",
+   "score": 0.2,
+   "score_A": 0.2,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Ingo Helbig",
+   "openalex_id": "https://openalex.org/A5102859760",
+   "score": 0.19,
+   "score_A": 0.15,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Mitchell A. Lazar",
+   "openalex_id": "https://openalex.org/A5075882004",
+   "score": 0.19,
+   "score_A": 0.19,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Liming Pei",
+   "openalex_id": "https://openalex.org/A5007650284",
+   "score": 0.17,
+   "score_A": 0,
+   "score_B": 0.17,
+   "note": null
+  },
+  {
+   "name": "Benjamin C. Reiner",
+   "openalex_id": "https://openalex.org/A5006965852",
+   "score": 0.17,
+   "score_A": 0.17,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Hao Wu",
+   "openalex_id": "https://openalex.org/A5083170497",
+   "score": 0.17,
+   "score_A": 0.04,
+   "score_B": 0.13,
+   "note": null
+  },
+  {
+   "name": "Shelley L. Berger",
+   "openalex_id": "https://openalex.org/A5031423026",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Gerd A. Blobel",
+   "openalex_id": "https://openalex.org/A5048392622",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Roberto Bonasio",
+   "openalex_id": "https://openalex.org/A5073191110",
+   "score": 0.15,
+   "score_A": 0.15,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Richard Scott Poethig",
+   "openalex_id": "https://openalex.org/A5090954431",
+   "score": 0.15,
+   "score_A": 0.15,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Justin L Cotney",
+   "openalex_id": "https://openalex.org/A5085994243",
+   "score": 0.15,
+   "score_A": 0,
+   "score_B": 0.15,
+   "note": null
+  },
+  {
+   "name": "Suneeta Senapati",
+   "openalex_id": "https://openalex.org/A5066763006",
+   "score": 0.15,
+   "score_A": 0.15,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Yi Xing",
+   "openalex_id": "https://openalex.org/A5087568641",
+   "score": 0.15,
+   "score_A": 0.15,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Rui Feng",
+   "openalex_id": "https://openalex.org/A5100680619",
+   "score": 0.12,
+   "score_A": 0.12,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Hongzhe Li (Lee)",
+   "openalex_id": "https://openalex.org/A5047882207",
+   "score": 0.09,
+   "score_A": 0.09,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Sharon J. Diskin",
+   "openalex_id": "https://openalex.org/A5064372210",
+   "score": 0.09,
+   "score_A": 0.09,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Daniel P. Beiting",
+   "openalex_id": "https://openalex.org/A5090415813",
+   "score": 0.08,
+   "score_A": 0.04,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Beverly S. Emanuel",
+   "openalex_id": "https://openalex.org/A5023255205",
+   "score": 0.08,
+   "score_A": 0.08,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Darko Stefanovski",
+   "openalex_id": "https://openalex.org/A5036971008",
+   "score": 0.08,
+   "score_A": 0.04,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Mingyao Li",
+   "openalex_id": "https://openalex.org/A5001685590",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Andy J. Minn",
+   "openalex_id": "https://openalex.org/A5090259280",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Robert L Bowman",
+   "openalex_id": "https://openalex.org/A5043291968",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Maja Bucan",
+   "openalex_id": "https://openalex.org/A5103465140",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Brian C Capell",
+   "openalex_id": "https://openalex.org/A5013617649",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Sara Cherry",
+   "openalex_id": "https://openalex.org/A5050524280",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "David S. Roos",
+   "openalex_id": "https://openalex.org/A5038050740",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Andrew Santiago-Frangos",
+   "openalex_id": "https://openalex.org/A5007173393",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Kim A. Sharp",
+   "openalex_id": "https://openalex.org/A5059008811",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Garret A. FitzGerald",
+   "openalex_id": "https://openalex.org/A5028802207",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Ziyue Gao",
+   "openalex_id": "https://openalex.org/A5034721059",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Mark D Goulian",
+   "openalex_id": "https://openalex.org/A5023992004",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Yijing Su",
+   "openalex_id": "https://openalex.org/A5037498132",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Sarah A. Tishkoff",
+   "openalex_id": "https://openalex.org/A5080098465",
+   "score": 0.04,
+   "score_A": 0.04,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Zhaolan (Joe) Zhou",
+   "openalex_id": "https://openalex.org/A5014989628",
+   "score": 0.04,
+   "score_A": 0,
+   "score_B": 0.04,
+   "note": null
+  },
+  {
+   "name": "Aaron Felix Alexander-Bloch",
+   "openalex_id": null,
+   "score": 0,
+   "score_A": null,
+   "score_B": null,
+   "note": "no OpenAlex author found"
+  },
+  {
+   "name": "Michael Z. Levy",
+   "openalex_id": "https://openalex.org/A5043514054",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Rebecca L. Ashare",
+   "openalex_id": "https://openalex.org/A5084013548",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Noam Auslander",
+   "openalex_id": "https://openalex.org/A5020874644",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Joel Babdor",
+   "openalex_id": "https://openalex.org/A5010632836",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Qi Long",
+   "openalex_id": "https://openalex.org/A5002149616",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Danielle S. Bassett",
+   "openalex_id": "https://openalex.org/A5009266404",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Louise H Moncla",
+   "openalex_id": "https://openalex.org/A5076865790",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Ahmed M Moustafa",
+   "openalex_id": "https://openalex.org/A5065785713",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Dustin Brisson",
+   "openalex_id": "https://openalex.org/A5080982463",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Danielle L. Mowery",
+   "openalex_id": "https://openalex.org/A5077461380",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Brielin Chase Brown",
+   "openalex_id": null,
+   "score": 0,
+   "score_A": null,
+   "score_B": null,
+   "note": "no OpenAlex author found"
+  },
+  {
+   "name": "John Isaac Murray",
+   "openalex_id": "https://openalex.org/A5070787487",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Derek Alan Oldridge",
+   "openalex_id": null,
+   "score": 0,
+   "score_A": null,
+   "score_B": null,
+   "note": "no OpenAlex author found"
+  },
+  {
+   "name": "Ian Campbell",
+   "openalex_id": "https://openalex.org/A5070762803",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Yuyan Cheng",
+   "openalex_id": "https://openalex.org/A5015678181",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Samantha N Piekos",
+   "openalex_id": "https://openalex.org/A5020092196",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Joshua B Plotkin",
+   "openalex_id": "https://openalex.org/A5073702596",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Lewis A. Chodosh",
+   "openalex_id": "https://openalex.org/A5018069190",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Modupe Coker",
+   "openalex_id": "https://openalex.org/A5020744609",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Laura K Conlin",
+   "openalex_id": "https://openalex.org/A5049699006",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Arjun Raj",
+   "openalex_id": "https://openalex.org/A5023835186",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Harvey Rubin",
+   "openalex_id": "https://openalex.org/A5051987821",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "James H. Eberwine",
+   "openalex_id": "https://openalex.org/A5064895830",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Amelia J. Eisch",
+   "openalex_id": "https://openalex.org/A5060118711",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Robert Babak Faryabi",
+   "openalex_id": "https://openalex.org/A5028743173",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Dana Silverbush",
+   "openalex_id": "https://openalex.org/A5003550890",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Daniel B Goodman",
+   "openalex_id": "https://openalex.org/A5067984297",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Nishant Sinha",
+   "openalex_id": "https://openalex.org/A5025795521",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Paul D. Sniegowski",
+   "openalex_id": "https://openalex.org/A5063110688",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Nancy B. Spinner",
+   "openalex_id": "https://openalex.org/A5028020710",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Avi Srivastava",
+   "openalex_id": "https://openalex.org/A5085346602",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Elizabeth A Grice",
+   "openalex_id": "https://openalex.org/A5004603001",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Adam J Stevens",
+   "openalex_id": "https://openalex.org/A5025240687",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Mohammad Haj Dezfulian",
+   "openalex_id": "https://openalex.org/A5044626250",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Christian J. Stoeckert",
+   "openalex_id": "https://openalex.org/A5069334659",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Tristan Hayeck",
+   "openalex_id": "https://openalex.org/A5028754322",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Paula S. Henthorn",
+   "openalex_id": "https://openalex.org/A5111990876",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Daniel S Herman",
+   "openalex_id": "https://openalex.org/A5077078280",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Bin Tian",
+   "openalex_id": "https://openalex.org/A5105359232",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "John H. Holmes",
+   "openalex_id": "https://openalex.org/A5032708536",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Lyle H Ungar",
+   "openalex_id": "https://openalex.org/A5044944954",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Golnaz Vahedi",
+   "openalex_id": "https://openalex.org/A5010733473",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Shane T Jensen",
+   "openalex_id": "https://openalex.org/A5038551920",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Kevin B Johnson",
+   "openalex_id": "https://openalex.org/A5051551743",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Eric F. Joyce",
+   "openalex_id": "https://openalex.org/A5025796462",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Doris Wagner",
+   "openalex_id": "https://openalex.org/A5040273544",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Sampath Kannan",
+   "openalex_id": "https://openalex.org/A5103555404",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Kai Wang",
+   "openalex_id": "https://openalex.org/A5100436981",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Junhyong Kim",
+   "openalex_id": "https://openalex.org/A5112924724",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Jina Ko",
+   "openalex_id": "https://openalex.org/A5065605894",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Nancy R Zhang",
+   "openalex_id": "https://openalex.org/A5022335574",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  },
+  {
+   "name": "Vijay Kumar",
+   "openalex_id": "https://openalex.org/A5113696439",
+   "score": 0,
+   "score_A": 0,
+   "score_B": 0,
+   "note": null
+  }
+ ]
+}

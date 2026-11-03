@@ -18,13 +18,18 @@
     {
      "url": "https://biomed.emory.edu/PROGRAM_SITES/GMB/about-us/faculty-search.html",
      "render": true
+    },
+    {
+     "url": "https://med.emory.edu/directory/profile/?u=JYANG51",
+     "render": true
     }
    ],
    "matched_authors": [
     "Yana Bromberg",
-    "Michael P. Epstein"
+    "Michael P. Epstein",
+    "Jingjing Yang"
    ],
-   "notes": "PhD status: Laney Graduate School degree-program list (https://gs.emory.edu/degree-programs/index.html) lists 'Genetics and Molecular Biology (GDBBS)' among PhD programs; GDBBS page: 'All of our graduate programs are interdepartmental'. Epstein appears as 'Mike Epstein, PhD (he/him)' (matcher missed the nickname; verified in rendered text). Faculty table is client-side paginated ('Showing 1 to 50 of 75 entries'); only the first 50 were readable."
+   "notes": "PhD status: Laney Graduate School degree-program list (https://gs.emory.edu/degree-programs/index.html) lists 'Genetics and Molecular Biology (GDBBS)' among PhD programs; GDBBS page: 'All of our graduate programs are interdepartmental'. Epstein appears as 'Mike Epstein, PhD (he/him)' (matcher missed the nickname; verified in rendered text). Faculty table is client-side paginated ('Showing 1 to 50 of 75 entries'); only the first 50 were readable. Jingjing Yang (not in the readable 50 GMB entries) verified from her rendered School of Medicine profile: 'Dr. Yang accepts Ph.D. students from the GMB/PBEE graduate program of the GDBBS and the Ph.D. program of the Department of Biostatistics and Bioinformatics School of Public Health.' Human Genetics dept faculty page (https://med.emory.edu/departments/human-genetics/faculty-staff/index.html) matched Jingjing Yang, Michael P. Epstein, Rohan H. C. Palmer, Joshua S. Weinstock (department listing only, not GMB membership)."
   },
   {
    "program_name": "Computer Science and Informatics (CSI) PhD",
@@ -55,36 +60,43 @@
    "program_type": "biostat",
    "umbrella_name": null,
    "program_url": "https://gs.emory.edu/degree-programs/index.html",
-   "phd_evidence_quote": "Biostatistics PhD",
-   "faculty_list_urls": [],
-   "matched_authors": [],
-   "notes": "Laney degree-program list shows 'Biostatistics' with degree 'PhD' and program website http://www.sph.emory.edu/departments/bios/degree-programs/phd/index.html, which is robots-blocked, so faculty could not be matched. Zhaohui Steve Qin is likely biostat faculty (unverified)."
+   "phd_evidence_quote": "The PhD program in Biostatistics prepares students for research careers by offering a blend of theoretical and methodological courses.",
+   "faculty_list_urls": [
+    {
+     "url": "https://med.emory.edu/directory/profile/?u=JYANG51",
+     "render": true
+    },
+    {
+     "url": "https://med.emory.edu/directory/profile/?u=MPEPSTE",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Jingjing Yang",
+    "Michael P. Epstein"
+   ],
+   "notes": "Laney degree-program list (https://gs.emory.edu/degree-programs/index.html) shows 'Biostatistics' with the quote above and program website http://www.sph.emory.edu/departments/bios/degree-programs/phd/index.html; sph.emory.edu is now allowed by robots.txt but returns HTTP 403 'Access Denied' ('This browser is no longer supported', plain and --render, 2026-11-03), so the department faculty list could not be fetched. Matches come from individual School of Medicine profiles (rendered): Jingjing Yang 'Associate Professor, Human Genetics of SOM & Bistatistics and Bioinformatics of SPH' and 'accepts Ph.D. students from ... the Ph.D. program of the Department of Biostatistics and Bioinformatics School of Public Health'; Michael P. Epstein 'Adjunct Professor, Department of Biostatistics and Bioinformatics, Emory University' (adjunct appointment; Biostat PhD advising not explicitly stated). Zhaohui Steve Qin likely biostat faculty (unverified)."
   }
  ],
  "unmatched_core_authors": [
   {
-   "name": "Jingjing Yang",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not in the readable first 50 of 75 GMB faculty entries nor CSI list; profile not checked."
-  },
-  {
    "name": "Joshua David Wallach",
    "program_found": null,
    "evidence_url": null,
-   "note": "Likely Epidemiology (SPH, robots-blocked); not verified."
+   "note": "Likely Epidemiology (SPH); sph.emory.edu returns HTTP 403 'Access Denied' (no longer robots-blocked); not verified."
   },
   {
    "name": "Rohan H. C. Palmer",
    "program_found": null,
-   "evidence_url": null,
-   "note": "Not on GMB/CSI lists; not checked further."
+   "evidence_url": "https://med.emory.edu/departments/human-genetics/faculty-staff/index.html",
+   "note": "Listed on the Human Genetics department faculty page (links to psychology.emory.edu profile, which returns 404); not on GMB (first 50 entries)/CSI lists; graduate program unverified."
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://sph.emory.edu/departments/bios/ and http://www.sph.emory.edu/departments/bios/degree-programs/phd/index.html (Biostatistics PhD faculty).",
+  "HTTP 403 'Access Denied' (Akamai, 'This browser is no longer supported'; not robots; plain and --render): https://sph.emory.edu/departments/bios/, https://sph.emory.edu/departments/bios/faculty/index.html, https://www.sph.emory.edu/, http://www.sph.emory.edu/departments/bios/degree-programs/phd/index.html (Biostatistics PhD faculty list unavailable; matches rely on individual profiles).",
   "GMB faculty table paginated client-side (50 of 75 entries readable).",
-  "Biomedical Engineering PhD (joint Emory/Georgia Tech, listed on gs.emory.edu) not processed: only peripheral B authors (Santangelo)."
+  "Biomedical Engineering PhD (joint Emory/Georgia Tech, listed on gs.emory.edu) not processed: only peripheral B authors (Santangelo).",
+  "rechecked 2026-11-03 under Claude-User robots policy: sph.emory.edu no longer robots-blocked but returns HTTP 403 for every page; via School of Medicine profiles added Jingjing Yang to GMB and Biostatistics PhD and Michael P. Epstein (adjunct) to Biostatistics PhD; replaced Biostatistics PhD evidence quote with the Laney program description."
  ],
  "checked_at": "2026-11-03T09:11:28Z"
 }

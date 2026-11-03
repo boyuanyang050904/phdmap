@@ -1,0 +1,1183 @@
+{
+ "program_id": "stanford-biophysics",
+ "school": "Stanford University",
+ "program": "Biophysics PhD (Stanford Biosciences home program)",
+ "checked_at": "2026-11-03T19:09:27Z",
+ "program_url": {
+  "value": "https://med.stanford.edu/biophysics.html",
+  "source_url": "https://med.stanford.edu/biophysics.html",
+  "fetched_at": "2026-11-03T19:00:34Z",
+  "quote": "The Stanford Biophysics Program is an interdisciplinary, interdepartmental training program leading to the Ph.D. Degree in biophysics.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Admissions page: https://med.stanford.edu/biophysics/admissions.html. Biophysics is one of the 14 Stanford Biosciences PhD home programs; applications go through Biosciences/Graduate Admissions."
+ },
+ "deadline": {
+  "value": "Tuesday, December 1, 2026, 11:59:59 pm PST",
+  "source_url": "https://biosciences.stanford.edu/how-to-apply/",
+  "fetched_at": "2026-11-03T18:59:45Z",
+  "quote": "The application deadline for Autumn 2027-28 is Tuesday, December 1, 2026, at 11:59:59 pm (PST)",
+  "scope": "program",
+  "cycle": "Fall 2027",
+  "note": "Biosciences-wide deadline (all 14 home programs incl. Biophysics); late applications not accepted. The Biophysics admissions page gives the same date ('Deadline for application submission: Tuesday, December 1, 2026, at 11:59:59 PM (PST)') although its heading still reads 'Autumn 2025'."
+ },
+ "priority_deadline": {
+  "value": "Tuesday, October 6, 2026, 1:00 pm PST (Knight-Hennessy Scholars, separate application)",
+  "source_url": "https://biosciences.stanford.edu/how-to-apply/application-faq/",
+  "fetched_at": "2026-11-03T19:00:49Z",
+  "quote": "you must apply to both the Knight-Hennessy Scholars by Tuesday, October 6, 2026, at 1:00 pm (PST)",
+  "scope": "graduate_school",
+  "cycle": "Fall 2027",
+  "note": "Not a program priority deadline: it is the deadline of the separate Knight-Hennessy Scholars fellowship application (already passed as of 2026-11-03). No earlier Biophysics/Biosciences priority deadline is stated; the program application deadline remains December 1, 2026."
+ },
+ "application_fee": {
+  "value": "$125",
+  "source_url": "https://gradadmissions.stanford.edu/apply/application-fee",
+  "fetched_at": "2026-11-03T19:02:21Z",
+  "quote": "The application fee is $125 and is nonrefundable.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "Biosciences How to Apply and the Biophysics admissions page also state $125."
+ },
+ "fee_waiver": {
+  "value": "Fee waivers available via Graduate Admissions (GRE Fee Reduction Waiver for U.S. citizens/permanent residents holding an ETS GRE Fee Reduction Voucher; Program Participation Waiver; School-Based Waiver); Biosciences gives priority to U.S. citizens/permanent residents; request at least 10 business days before the deadline",
+  "source_url": "https://biosciences.stanford.edu/how-to-apply/",
+  "fetched_at": "2026-11-03T18:59:45Z",
+  "quote": "Applicants who need assistance with the application fee are encouraged to apply for a fee waiver. Priority for fee waivers is given to applicants who are U.S. citizens or permanent residents.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "Waiver types/eligibility/deadline from https://gradadmissions.stanford.edu/apply/application-fee ('GRE Fee Reduction Waiver U.S. citizens or permanent residents who have received a GRE Fee Reduction Voucher from ETS 10 business days (two weeks) before application deadline*'). Requests are not processed by the Biosciences Admissions Office."
+ },
+ "gre_policy": {
+  "value": "not accepted",
+  "source_url": "https://med.stanford.edu/biophysics/admissions.html",
+  "fetched_at": "2026-11-03T19:00:35Z",
+  "quote": "Graduate Record Examination (GRE) General test scores are not considered. The Subject Test in Physics or Mathematics is optional.",
+  "scope": "program",
+  "cycle": null,
+  "note": "GRE General: 'Not Considered'. GRE Subject Test (Physics or Mathematics): optional (Biosciences GRE table: 'Biophysics Not Considered Optional')."
+ },
+ "letters_required": {
+  "value": 3,
+  "source_url": "https://med.stanford.edu/biophysics/admissions.html",
+  "fetched_at": "2026-11-03T19:00:35Z",
+  "quote": "Three letters of recommendation are required.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Biosciences How to Apply: up to four letters may be submitted; all via the online application system (no Interfolio/mail/email)."
+ },
+ "application_system_url": {
+  "value": "https://applygrad.stanford.edu/portal/grad-app",
+  "source_url": "https://gradadmissions.stanford.edu/apply/apply-now",
+  "fetched_at": "2026-11-03T19:08:11Z",
+  "quote": "The online application for 2027 entry is open. Apply Now",
+  "scope": "graduate_school",
+  "cycle": "Fall 2027",
+  "note": "The 'Apply Now' button on this page links to https://applygrad.stanford.edu/portal/grad-app."
+ },
+ "toefl": {
+  "waiver_conditions": {
+   "value": "Not required if ANY of: U.S. citizen or permanent resident; first language is English; earned a U.S. bachelor's, master's or doctoral degree (or international equivalent from a university where all instruction was in English); 2+ consecutive years of full-time professional or educational experience in English in the past 10 years",
+   "source_url": "https://gradadmissions.stanford.edu/apply/test-scores",
+   "fetched_at": "2026-11-03T19:02:10Z",
+   "quote": "You are a U.S. citizen or permanent resident. Your first language is English. You earned a U.S. bachelor’s, master’s or doctoral degree, or international equivalent from a university where all instruction was conducted in English.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Fourth criterion on the same page: 'You have two or more consecutive years of full-time professional or educational experience in English, in the past 10 years.' Same list on the Biosciences How to Apply page. Applicant (U.S. permanent resident, Emory bachelor's spring 2027) meets two criteria; no documentation needed at application time."
+  },
+  "waiver_basis": {
+   "value": "citizenship_status+native_language+degree",
+   "source_url": "https://gradadmissions.stanford.edu/apply/test-scores",
+   "fetched_at": "2026-11-03T19:02:10Z",
+   "quote": "You are not required to submit English proficiency test scores if you meet one or more of the following criteria: You are a U.S. citizen or permanent resident.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Plus a professional/educational-experience criterion (2+ years full-time in English within 10 years)."
+  },
+  "us_degree_waives": {
+   "value": true,
+   "source_url": "https://gradadmissions.stanford.edu/apply/test-scores",
+   "fetched_at": "2026-11-03T19:02:10Z",
+   "quote": "You earned a U.S. bachelor’s, master’s or doctoral degree, or international equivalent from a university where all instruction was conducted in English.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Graduate Admissions FAQ phrases the application question as 'earned (or expect to earn prior to enrollment at Stanford) a U.S. bachelor’s, master’s or doctoral degree', so an Emory bachelor's expected spring 2027 qualifies."
+  },
+  "pr_exempt": {
+   "value": true,
+   "source_url": "https://gradadmissions.stanford.edu/apply/test-scores",
+   "fetched_at": "2026-11-03T19:02:10Z",
+   "quote": "You are not required to submit English proficiency test scores if you meet one or more of the following criteria: You are a U.S. citizen or permanent resident.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": null
+  },
+  "min_total": {
+   "value": "TOEFL iBT 90 (tests before Jan 21, 2026) / 4.5 (tests on or after Jan 21, 2026); IELTS Academic 7",
+   "source_url": "https://biosciences.stanford.edu/how-to-apply/",
+   "fetched_at": "2026-11-03T18:59:45Z",
+   "quote": "The minimum score is 90 ( TOEFL taken before 1/21/26) / 4.5 ( TOEFL taken on or after 1/21/26) / 7 ( IELTS )",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "University minimum (gradadmissions test-scores page table: 90 / 4.5 / 7); no higher Biophysics minimum found. English Placement Test required below 109 / 5.5 / 8. Not applicable to the applicant (exempt)."
+  },
+  "min_subscores": {
+   "value": null,
+   "source_url": null,
+   "fetched_at": null,
+   "quote": null,
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "No section/subscore minimums stated on https://gradadmissions.stanford.edu/apply/test-scores, the Biosciences How to Apply page or the Biophysics admissions page (only total minimums and placement-test thresholds)."
+  },
+  "validity_rule": {
+   "value": "Valid for two years; earliest valid test date for Autumn 2027-28 entry is September 1, 2024",
+   "source_url": "https://gradadmissions.stanford.edu/apply/test-scores",
+   "fetched_at": "2026-11-03T19:02:10Z",
+   "quote": "Stanford considers English proficiency test scores to be valid for two years.",
+   "scope": "graduate_school",
+   "cycle": "Fall 2027",
+   "note": "Table on same page: 'Autumn 2027-2028 September 2026 September 1, 2024' (entry term, application open date, earliest valid test date)."
+  },
+  "di_code": {
+   "value": "4704",
+   "source_url": "https://biosciences.stanford.edu/how-to-apply/",
+   "fetched_at": "2026-11-03T18:59:45Z",
+   "quote": "If you are submitting TOEFL scores to satisfy Stanford’s English proficiency test requirement, you must report your official scores directly to Stanford from ETS. Stanford’s ETS institutional code is 4704",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Department code not needed ('it does not matter which one you choose'). Same code for GRE."
+  },
+  "self_report_accepted": {
+   "value": true,
+   "source_url": "https://gradadmissions.stanford.edu/apply/test-scores",
+   "fetched_at": "2026-11-03T19:02:10Z",
+   "quote": "Any scores you self-report on the application are considered unofficial but sufficient for the initial review process.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Self-reported scores suffice for initial review, but an applicant using TOEFL to meet the requirement must also have official scores sent from ETS (code 4704)."
+  }
+ },
+ "admissions_mode": {
+  "value": "rotation",
+  "source_url": "https://biosciences.stanford.edu/how-to-apply/application-faq/",
+  "fetched_at": "2026-11-03T19:00:49Z",
+  "quote": "You will not need to secure a research supervisor prior to applying. Incoming students usually conduct 2-4 lab rotations during their first year.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Admission is to a Biosciences home program (Biophysics), with access to faculty in all 14 home programs for rotations and thesis work."
+ },
+ "contact_faculty_advice": {
+  "value": "Not required: applicants do not need to secure a research supervisor before applying; the application asks for a rank-ordered list of 8-12 Biosciences faculty of interest (majority in the primary home program)",
+  "source_url": "https://biosciences.stanford.edu/how-to-apply/application-faq/",
+  "fetched_at": "2026-11-03T19:00:49Z",
+  "quote": "Do I need to secure a Lab/Thesis Supervisor prior to applying? You will not need to secure a research supervisor prior to applying.",
+  "scope": "program",
+  "cycle": null,
+  "note": "No explicit advice for or against emailing PIs found. The Biosciences site 'strongly recommend[s]' contacting the programs (not PIs) about course requirements for Biophysics, which has course background requirements."
+ },
+ "stipend": {
+  "value": "$58,460 for 2026-27 ($14,615 per quarter); 2027-28 amount to be set in March 2027",
+  "source_url": "https://biosciences.stanford.edu/how-to-apply/application-faq/",
+  "fetched_at": "2026-11-03T19:00:49Z",
+  "quote": "The offer of admission for the 2026-27 Academic Year included a stipend of $58,460 ($14,615 per quarter), health and dental insurance, and graduate tuition.",
+  "scope": "program",
+  "cycle": "2026-27",
+  "note": "Same page: 'The stipend and benefits for the 2027-28 Academic Year will be set sometime in March 2027.'"
+ },
+ "guaranteed_years": {
+  "value": "Full funding (stipend, tuition, health insurance) for all Biosciences PhD students in good standing; no fixed number of years stated",
+  "source_url": "https://biosciences.stanford.edu/prospective-students/support-for-students/",
+  "fetched_at": "2026-11-03T19:01:33Z",
+  "quote": "All Biosciences PhD students in good standing receive a competitive stipend, as well as tuition and health insurance.",
+  "scope": "program",
+  "cycle": null,
+  "note": "FAQ: 'Students are required to be enrolled at Stanford and in good academic standing within their graduate program to maintain these benefits.' No explicit year count found on Biosciences or Biophysics pages."
+ },
+ "pr_domestic": {
+  "value": true,
+  "source_url": "https://biosciences.stanford.edu/how-to-apply/",
+  "fetched_at": "2026-11-03T18:59:45Z",
+  "quote": "Priority for fee waivers is given to applicants who are U.S. citizens or permanent residents. International applicants who need assistance with the application fee are eligible to apply for the School-Based fee waiver.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Inferred: no page explicitly defines 'domestic', but Biosciences and Graduate Admissions pages consistently group U.S. permanent residents with citizens and separate them from international applicants (fee-waiver priority, GRE fee-reduction waiver, English-test exemption, T32 eligibility). International admission is limited by a 'limited number of fellowships' (Biosciences FAQ)."
+ },
+ "t32_citizen_pr_only": {
+  "value": true,
+  "source_url": "https://molpharmprogram.stanford.edu/program/eligibility-application/",
+  "fetched_at": "2026-11-03T19:05:19Z",
+  "quote": "Applicants must be US Citizens or Permanent Residents. Applicants must be in their first year of the Stanford Biosciences or Chemistry Ph.D. Program.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Molecular Pharmacology Training Program (NIH T32; funds 2nd-3rd years) open to first-year Stanford Biosciences PhD students incl. Biophysics; not Biophysics-specific. No Biophysics-specific training grant page found on med.stanford.edu/biophysics (program, admissions, students, forms pages)."
+ },
+ "faculty_list": {
+  "source_urls": [
+   "https://biosciences.stanford.edu/faculty/biosciences-faculty-database/?program=Biophysics#?program=Biophysics"
+  ],
+  "render": true,
+  "faculty": [
+   {
+    "name": "Monther Abu-Remaileh",
+    "title": "Assistant Professor of Chemical Engineering and of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/monther-abu-remaileh",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Raag Airan",
+    "title": "Associate Professor of Radiology (Neuroimaging and Neurointervention) and, by courtesy, of Materials Science & Engineering and of Psychiatry and Behavioral Sciences",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/raag-airan",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Russ Altman",
+    "title": "Kenneth Fong Professor and Professor of Bioengineering, of Genetics, of Medicine, of Biomedical Data Science, Senior Fellow at the Stanford Institute for Human-Centered AI and Professor, by courtesy, of Computer Science",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/russ-altman",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Manuel Amieva",
+    "title": "Professor of Pediatrics (Infectious Diseases) and of Microbiology and Immunology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/manuel-amieva",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Christopher Barnes",
+    "title": "Assistant Professor of Biology and, by courtesy, of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/christopher-barnes",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Annelise Barron",
+    "title": "Associate Professor of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/annelise-barron",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Lacramioara Bintu",
+    "title": "Associate Professor of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/lacramioara-bintu",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Steven Block",
+    "title": "The Stanford W. Ascherman, M.D., Professor and Professor of Applied Physics and of Biology, Emeritus",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/steven-block",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Alistair Boettiger",
+    "title": "Associate Professor of Developmental Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/alistair-boettiger",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Steven Boxer",
+    "title": "Camille Dreyfus Professor of Chemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/steven-boxer",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Onn Brandman",
+    "title": "Associate Professor of Biochemistry and, by courtesy, of Chemical and Systems Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/onn-brandman",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Anne Brunet",
+    "title": "Michele and Timothy Barakett Endowed Professor",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/anne-brunet",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Axel Brunger",
+    "title": "Professor of Molecular and Cellular Physiology, of Neurology and Neurological Sciences, of Photon Science and, by courtesy, of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/axel-brunger",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Zev Bryant",
+    "title": "Associate Professor of Bioengineering and, by courtesy, of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/zev-bryant",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "David Camarillo",
+    "title": "Associate Professor of Bioengineering and, by courtesy, of Neurosurgery and of Mechanical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/david-camarillo",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Lynette Cegelski",
+    "title": "Monroe E. Spaght Professor of Chemistry and Professor, by courtesy, of Chemical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/lynette-cegelski",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Ovijit Chaudhuri",
+    "title": "Professor of Mechanical Engineering and, by courtesy, of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/ovijit-chaudhuri",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Gheorghe Chistol",
+    "title": "Assistant Professor of Chemical and Systems Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/gheorghe-chistol",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Wah Chiu",
+    "title": "Wallenberg-Bienenstock Professor and Professor of Bioengineering and, by courtesy, of Microbiology and Immunology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/wah-chiu",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Gilbert Chu",
+    "title": "Professor of Medicine (Oncology) and of Biochemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/gilbert-chu",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Steven Chu",
+    "title": "William R. Kenan Jr. Professor, Professor of Molecular and Cellular Physiology and of Energy Science and Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/steve-chu",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jennifer Cochran",
+    "title": "Vice President for SLAC National Accelerator Laboratory and for Strategic Initiatives, Addie and Al Macovski Professor, Professor of Bioengineering and, by courtesy, of Chemical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jennifer-cochran",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jonas Cremer",
+    "title": "Assistant Professor of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jonas-cremer",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Bianxiao Cui",
+    "title": "Job and Gertrud Tamaki Professor of Chemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/bianxiao-cui",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Hongjie Dai",
+    "title": "The J.G. Jackson and C.J. Wood Professor of Chemistry, Emeritus",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/hongjie-dai",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Roxana Daneshjou",
+    "title": "Assistant Professor of Biomedical Data Science and of Dermatology and, by courtesy, of Radiology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/roxana-daneshjou",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Kyle Daniels",
+    "title": "Assistant Professor of Genetics and, by courtesy, of Neurosurgery (Adult Neurosurgery)",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/kyle-daniels",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Rhiju Das",
+    "title": "Professor of Biochemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/rhiju-das",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Laura Dassama",
+    "title": "Assistant Professor of Chemistry and of Microbiology and Immunology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/laura-dassama",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Mark Davis",
+    "title": "Burt and Marion Avery Family Professor",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/mark-davis",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jose Dinneny",
+    "title": "Professor of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jose-dinneny",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Ron Dror",
+    "title": "Cheriton Family Professor and Professor, by courtesy, of Structural Biology and of Molecular & Cellular Physiology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/ron-dror",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Shaul Druckmann",
+    "title": "Associate Professor of Neurobiology, of Psychiatry and Behavioral Sciences and, by courtesy, of Electrical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/shaul-druckmann",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Alexander Dunn",
+    "title": "Professor of Chemical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/alexander-dunn",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Barbara Engelhardt",
+    "title": "Professor (Research) of Biomedical Data Science and, by courtesy, of Statistics and of Computer Science",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/barbara-engelhardt",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Rongxin Fang",
+    "title": "Assistant Professor of Neurosurgery and, by courtesy, of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/rongxin-fang",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jessica Feldman",
+    "title": "Professor of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jessica-feldman",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Liang Feng",
+    "title": "Associate Professor of Molecular and Cellular Physiology and, by courtesy, of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/liang-feng",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "James Ferrell",
+    "title": "Professor of Chemical and Systems Biology and of Biochemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/james-ferrell",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Daniel Fisher",
+    "title": "Marjorie Mhoon Fair Professor",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/daniel-fisher",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Polly Fordyce",
+    "title": "Associate Professor of Bioengineering and of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/polly-fordyce",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Judith Frydman",
+    "title": "Donald Kennedy Chair in the School of Humanities and Sciences and Professor of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/judith-frydman",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Alex Gao",
+    "title": "Assistant Professor of Biochemistry and of Microbiology and Immunology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/alex-gao",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Xiaojing Gao",
+    "title": "Assistant Professor of Chemical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/xiaojing-gao",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Christopher Garcia",
+    "title": "Younger Family Professor and Professor of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/chris-garcia",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Matthias Garten",
+    "title": "Assistant Professor of Microbiology and Immunology and of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/matthias-garten",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Olivier Gevaert",
+    "title": "Associate Professor of Medicine (Computational Medicine) and of Biomedical Data Science",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/olivier-gevaert",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Gary Glover",
+    "title": "Professor of Radiology (Radiological Sciences Lab) and, by courtesy, of Psychology and of Electrical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/gary-glover",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Benjamin Good",
+    "title": "Assistant Professor of Applied Physics and, by courtesy, of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/benjamin-good",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Miriam Goodman",
+    "title": "Mrs. George A. Winzer Professor of Cell Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/miriam-goodman",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "William Greenleaf",
+    "title": "Professor of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/william-greenleaf",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Pehr Harbury",
+    "title": "Associate Professor of Biochemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/pehr-harbury",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Keren Haroush",
+    "title": "Assistant Professor of Neurobiology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/keren-haroush",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Daniel Herschlag",
+    "title": "Professor of Biochemistry and, by courtesy, of Chemical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/daniel-herschlag",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Brian Hie",
+    "title": "Assistant Professor of Chemical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/brian-hie",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Felix Horns",
+    "title": "Assistant Professor of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/richard-horns",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Kerwyn Huang",
+    "title": "LeRa Professor and Professor of Microbiology and Immunology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/kerwyn-huang",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Possu Huang",
+    "title": "Assistant Professor of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/possu-huang",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Christine Jacobs-Wagner",
+    "title": "Dennis Cunningham Professor, Professor of Biology and of Microbiology and Immunology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/christine-jacobs-wagner",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Theodore Jardetzky",
+    "title": "Professor of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/theodore-jardetzky",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Michael Kapiloff",
+    "title": "Reinhard Family Professor, Professor (Research) of Ophthalmology and, by courtesy, of Medicine (Cardiovascular Medicine)",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/michael-kapiloff",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Peter Kim",
+    "title": "Virginia and D. K. Ludwig Professor of Biochemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/peterkim",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Brian Kobilka",
+    "title": "Hélène Irwin Fagan Chair of Cardiology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/brian-kobilka",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Eric Kool",
+    "title": "George A. and Hilda M. Daubert Professor of Chemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/eric-kool",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Ron Kopito",
+    "title": "Professor of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/ron-kopito",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Roger Kornberg",
+    "title": "Mrs. George A. Winzer Professor of Medicine",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/roger-kornberg",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Anshul Kundaje",
+    "title": "Associate Professor of Genetics and of Computer Science",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/anshul-kundaje",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Craig Levin",
+    "title": "Professor of Radiology (Molecular Imaging Program at Stanford/Nuclear Medicine) and, by courtesy, of Physics, of Electrical Engineering and of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/craig-levin",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Michael Levitt",
+    "title": "Robert W. and Vivian K. Cahill Professor of Cancer Research",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/michael-levitt",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Richard Lewis",
+    "title": "Professor of Molecular and Cellular Physiology, Emeritus",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/richard-lewis",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jin Li",
+    "title": "Professor of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jin-li",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Lingyin Li",
+    "title": "Professor of Biochemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/lingyin-li",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jan Liphardt",
+    "title": "Associate Professor of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jan-liphardt",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jonathan Long",
+    "title": "Associate Professor of Pathology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jonathan-long",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Sharon Long",
+    "title": "William C. Steere, Jr. - Pfizer Inc. Professor of Biological Sciences and Professor, by courtesy, of Biochemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/sharon-long",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Emma Lundberg",
+    "title": "Associate Professor of Bioengineering and of Pathology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/emma-lundberg",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Crystal Mackall",
+    "title": "Ernest and Amelia Gallo Family Professor and Professor of Pediatrics and of Medicine",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/crystal-mackall",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Merritt Maduke",
+    "title": "Professor of Molecular and Cellular Physiology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/merritt-maduke",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Todd Martinez",
+    "title": "David Mulvane Ehrsam and Edward Curtis Franklin Professor of Chemistry and Professor of Photon Science",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/todd-martinez",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Michaelle Mayalu",
+    "title": "Assistant Professor of Mechanical Engineering and, by courtesy, of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/michaelle-mayalu",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Matteo Mole'",
+    "title": "Assistant Professor of Obstetrics and Gynecology (Reproductive, Perinatal & Stem Cell Biology Research)",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/matteo-mole",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Ashby Morrison",
+    "title": "Professor of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/ashby-morrison",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Julia Palacios",
+    "title": "Associate Professor of Statistics and of Biomedical Data Science",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/julia-palacios",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Vijay Pande",
+    "title": "Adjunct Professor, Structural Biology Department",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/vijay-pande",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Dmitri Petrov",
+    "title": "Michelle and Kevin Douglas Professor in the School of Humanities and Sciences",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/dmitri-petrov",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Tino Pleiner",
+    "title": "Assistant Professor of Molecular and Cellular Physiology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/tino-pleiner",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Manu Prakash",
+    "title": "Associate Professor of Bioengineering, Senior Fellow at the Woods Institute for the Environment and Associate Professor, by courtesy, of Oceans",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/manu-prakash",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Joseph Puglisi",
+    "title": "Jauch Professor and Professor of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/joseph-puglisi",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jian Qin",
+    "title": "Associate Professor of Chemical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jian-qin",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Xiaojie Qiu",
+    "title": "Assistant Professor of Genetics and, by courtesy, of Computer Science",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/xiaojie-qiu",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Stephen Quake",
+    "title": "Lee Otterson Professor in the School of Engineering and Professor of Bioengineering, of Applied Physics and, by courtesy, of Physics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/stephen-quake",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jianghong Rao",
+    "title": "Professor of Radiology (Molecular Imaging Program at Stanford) and, by courtesy, of Chemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jianghong-rao",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Kristy Red-Horse",
+    "title": "Professor of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/kristy-red-horse",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Kacper Rogala",
+    "title": "Assistant Professor of Structural Biology and of Chemical and Systems Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/kacper-rogala",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Grant Rotskoff",
+    "title": "Assistant Professor of Chemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/rotskoff",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Manish Saggar",
+    "title": "Associate Professor (Research) of Psychiatry and Behavioral Sciences (Interdisciplinary Brain Science Research)",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/manish-saggar",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Julia Salzman",
+    "title": "Associate Professor of Biomedical Data Science, of Biochemistry and, by courtesy, of Statistics and of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/julia-salzman",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Serena Sanulli",
+    "title": "Assistant Professor of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/serena-sanulli",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Mark Schnitzer",
+    "title": "Anne T. and Robert M. Bass Professor in the School of Humanities and Sciences and Professor of Biology, of Applied Physics and of Neurosurgery",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/mark-schnitzer",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Naima Sharaf",
+    "title": "Assistant Professor of Biology and, by courtesy, of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/naima-sharaf",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Jan Skotheim",
+    "title": "Professor of Biology and, by courtesy, of Chemical and Systems Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/jan-skotheim",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Michael Snyder",
+    "title": "Stanford W. Ascherman Professor of Genetics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/michael-snyder",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Edward Solomon",
+    "title": "Monroe E. Spaght Professor of Chemistry, Emeritus",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/edward-solomon",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Andrew Spakowitz",
+    "title": "Senior Associate Dean for Research and Faculty Affairs, Professor of Chemical Engineering, of Materials Science and Engineering and, by courtesy, of Applied Physics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/andrew-spakowitz",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "James Spudich",
+    "title": "Douglass M. and Nola Leishman Professor of Cardiovascular Disease, Emeritus",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/james-spudich",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Katrin Svensson",
+    "title": "Associate Professor of Pathology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/katrin-svensson",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Longzhi Tan",
+    "title": "Assistant Professor of Neurobiology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/longzhi-tan",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Sindy Tang",
+    "title": "Associate Professor of Mechanical Engineering, Senior Fellow at the Woods Institute for the Environment and Professor, by courtesy, of Radiology and of Bioengineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/sindy-tang",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Hawa Racine Thiam",
+    "title": "Assistant Professor of Bioengineering and of Microbiology and Immunology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/hawa-racine-thiam",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Alice Ting",
+    "title": "Professor of Genetics, of Biology and, by courtesy, of Chemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/alice-ting",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Shreyas Vasanawala",
+    "title": "William R. Brody Professor of Pediatric Radiology and Child Health",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/shreyas-vasanawala",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Anthony Wagner",
+    "title": "Lucie Stern Professor in the Social Sciences",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/anthony-wagner",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Soichi Wakatsuki",
+    "title": "Professor of Photon Science and of Structural Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/soichi-wakatsuki",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Bo Wang",
+    "title": "Associate Professor of Bioengineering and, by courtesy, of Developmental Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/65244",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Haopeng Xiao",
+    "title": "Assistant Professor of Biochemistry",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/haopeng-xiao",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Shannon Yan",
+    "title": "Assistant Professor of Biology",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/shannonyan",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Richard Zare",
+    "title": "Marguerite Blake Wilbur Professor of Natural Science and Professor, by courtesy, of Physics",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/dick-zare",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Brad Zuchero",
+    "title": "Associate Professor of Neurosurgery",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/brad-zuchero",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   },
+   {
+    "name": "Adam de la Zerda",
+    "title": "Associate Professor of Structural Biology and, by courtesy, of Electrical Engineering",
+    "department": null,
+    "profile_url": "https://med.stanford.edu/profiles/adam-de-la-zerda",
+    "lab_url": null,
+    "source_url": "https://med.stanford.edu/biophysics/faculty1.html"
+   }
+  ]
+ },
+ "problems": [
+  "Biophysics admissions page (https://med.stanford.edu/biophysics/admissions.html) heading still says 'Program Application & Admission Requirements for Autumn 2025' while listing the December 1, 2026 deadline and March 3-6, 2027 interview dates; deadline taken from the Biosciences How to Apply page (Autumn 2027-28).",
+  "Faculty list = the 119 names in the Biosciences faculty database (Biophysics filter, rendered). Titles and profile URLs come from the Biophysics program's own faculty page https://med.stanford.edu/biophysics/faculty1.html (matched by Stanford CAP profile id), which is then each entry's source_url; names are kept as printed in the database (the program page prints e.g. 'Russ B. Altman', 'KC Huang', 'Chris Garcia', 'J. Bradley Zuchero').",
+  "The program faculty page lists 126 people: the 119 above plus 7 emeriti not in the Biosciences database: Shamit Kachru (Professor of Physics and Director, Stanford Institute for Theoretical Physics, Emeritus, https://med.stanford.edu/profiles/shamit-kachru); W. E. Moerner (Harry S. Mosher Professor, Emeritus, https://med.stanford.edu/profiles/w-moerner); Tom Wandless (Professor of Chemical and Systems Biology, Emeritus, https://med.stanford.edu/profiles/thomas-wandless); Sebastian Doniach (Professor of Applied Physics and of Physics, Emeritus, https://med.stanford.edu/profiles/sebastian-doniach); Philip C. Hanawalt (Dr. Morris Herzstein Professor in Biology, Emeritus, https://med.stanford.edu/profiles/philip-hanawalt); Norbert Pelc (Boston Scientific Applied Biomedical Engineering Professor and Professor of Radiology, Emeritus, https://med.stanford.edu/profiles/norbert-pelc); Stephen J Smith (Professor of Molecular and Cellular Physiology, Emeritus, https://med.stanford.edu/profiles/stephen-smith). They are not in faculty_list because faculty_list.render must be true (the database is JS-built) and the rendered fetch of med.stanford.edu returns HTTP 502 ('upstream request failed') here, so the validator cannot see that page in render mode.",
+  "No department or lab URLs on either faculty page (department left null; titles include departments).",
+  "pr_domestic is inferred from consistent citizen/PR vs international grouping; no explicit definition of domestic applicant found.",
+  "t32_citizen_pr_only is based on the Molecular Pharmacology T32 (open to all first-year Biosciences students), not a Biophysics-specific training grant."
+ ]
+}

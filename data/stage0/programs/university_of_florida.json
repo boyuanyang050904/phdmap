@@ -100,22 +100,105 @@
    "notes": "PhD status not quoted from a fetched page (null).",
    "degree": "PhD",
    "umbrella_name": null
+  },
+  {
+   "program_name": "Biostatistics PhD (Department of Biostatistics, College of Public Health & Health Professions / College of Medicine)",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://phhp.ufl.edu/academics/phd-and-professional-programs/phd-biostatistics/",
+   "phd_evidence_quote": "Advance your expertise in statistical methodologies and data analysis with the University of Florida’s Ph.D. in Biostatistics program.",
+   "faculty_list_urls": [
+    {
+     "url": "https://phhp.ufl.edu/about/departments/biostatistics/about/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Lauren M. McIntyre",
+    "Qing Ling Lu"
+   ],
+   "notes": "Roster lists 'Qing Lu' and 'Lauren M McIntyre'. Core author Panayiotis V. Benos appears as 'Takis Benos' (pbenos@ufl.edu) in the roster's 'Courtesy faculty' section (not matched by the tool)."
+  },
+  {
+   "program_name": "Epidemiology PhD (College of Public Health & Health Professions)",
+   "degree": "PhD",
+   "discipline": "other:epidemiology",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://phhp.ufl.edu/academics/phd-and-professional-programs/phd-epidemiology/",
+   "phd_evidence_quote": "The Ph.D. in Epidemiology is a terminal research degree granted on evidence of overall proficiency in epidemiology",
+   "faculty_list_urls": [
+    {
+     "url": "https://phhp.ufl.edu/about/departments/epidemiology/about-the-epi-department/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Jinying Zhao"
+   ],
+   "notes": "Included because core author Panayiotis V. Benos is listed as 'Takis Benos' under 'Core faculty' on the Epi Faculty page (tool did not match the nickname). 'Jinying Zhao' match: OpenAlex record's last_known is Chinese institutions (possible name collision)."
+  },
+  {
+   "program_name": "Biomedical Informatics PhD (PhD in Medical Sciences, Biomedical Informatics concentration; Dept. of Health Outcomes & Biomedical Informatics)",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://hobi.med.ufl.edu/education/bmi-phd/",
+   "phd_evidence_quote": "The University of Florida’s Doctor of Philosophy in Medical Sciences with a concentration in Biomedical Informatics offers advanced training in computer science, health and medicine, biostatistics, data science and analytics, engineering, and research methodology",
+   "faculty_list_urls": [
+    {
+     "url": "https://hobi.med.ufl.edu/education/student-resources/hobi-graduate-faculty/",
+     "render": false
+    },
+    {
+     "url": "https://hobi.med.ufl.edu/about/faculty-directory/",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Core program type (biomedical informatics); no relevant OpenAlex authors on HOBI Graduate Faculty or Faculty Directory pages. Applicants apply via 'HOBI PhD Application Instructions', so recorded as independent rather than umbrella track."
+  },
+  {
+   "program_name": "Molecular Genetics and Genomics Concentration (Graduate Program in Biomedical Sciences PhD)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Graduate Program in Biomedical Sciences (BMS), UF College of Medicine",
+   "program_url": "https://biomed.med.ufl.edu/about/genetics/",
+   "phd_evidence_quote": "The Advanced Concentration in Molecular Genetics and Genomics is one of the advanced concentrations leading to the Ph.D. degree under the auspices of the Graduate Program (BMS) in Biomedical Sciences at the University of Florida College of Medicine.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "idp.med.ufl.edu redirects to https://biomed.med.ufl.edu/. Admissions page: 'The BMS program is an umbrella Ph.D. program that offers students the opportunity to explore one or more areas of study before choosing their mentor and concentration of study.' Concentration faculty list link https://biomed.med.ufl.edu/faculty/faculty-database-2/ returned HTTP 500; the 'Search for Faculty' database https://bmsdatabase.softr.app/ is BLOCKED by robots.txt. Concentration page itself matched 0 relevant authors. Membership unverified."
+  },
+  {
+   "program_name": "Biochemistry and Molecular Biology Concentration (Graduate Program in Biomedical Sciences PhD)",
+   "degree": "PhD",
+   "discipline": "biochemistry",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Graduate Program in Biomedical Sciences (BMS), UF College of Medicine",
+   "program_url": "https://biomed.med.ufl.edu/about/biochemistry-and-molecular-biology/",
+   "phd_evidence_quote": "The Advanced Concentration in Biochemistry and Molecular Biology is one of the advanced concentrations leading to the Ph.D. degree under the auspices of the Graduate Program  in Biomedical Sciences (BMS) at the University of Florida College of Medicine.",
+   "faculty_list_urls": [],
+   "matched_authors": [],
+   "notes": "Has a 'Structural Biology Track'. Faculty list link (faculty-database-2 filtered to Biochemistry and Molecular Biology) returned HTTP 500; bmsdatabase.softr.app BLOCKED by robots.txt; concentration page matched 0 relevant authors. Membership unverified."
   }
  ],
  "unmatched_core_authors": [
   {
    "name": "Panayiotis V. Benos",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Not on UFGI, Chemistry, BME or CISE lists; College of Medicine / PHHP / epidemiology sites blocked by robots.txt."
+   "program_found": "Epidemiology PhD (listed under 'Core faculty' of the PHHP Epidemiology faculty page; also 'Courtesy faculty' on the Biostatistics roster)",
+   "evidence_url": "https://phhp.ufl.edu/about/departments/epidemiology/about-the-epi-department/faculty/",
+   "note": "Listed as 'Takis Benos', 'William Bushnell Presidential Chaired Professor', pbenos@ufl.edu, ORCID 0000-0003-3172-3132; nickname not matched by the tool."
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://phhp.ufl.edu/about/departments/biostatistics/ and https://phhp.ufl.edu/academics/phd-and-professional-programs/phd-biostatistics/ (Biostatistics PhD; biostat.ufl.edu redirects there) - Biostatistics PhD and faculty not recorded.",
-  "BLOCKED by robots.txt: https://idp.med.ufl.edu/ (Biomedical Sciences IDP umbrella PhD)",
-  "BLOCKED by robots.txt: https://med.ufl.edu/, https://hobi.med.ufl.edu/ (Health Outcomes & Biomedical Informatics), https://epi.ufl.edu/, https://ufhealth.org/",
   "UNREACHABLE: https://epidemiology.ufl.edu/",
   "CISE PhD evidence not fetched (null quote).",
-  "WebSearch budget exhausted; URLs discovered by site navigation."
+  "WebSearch budget exhausted; URLs discovered by site navigation.",
+  "BMS (Biomedical Sciences umbrella) faculty roster unavailable: https://biomed.med.ufl.edu/faculty/faculty-database-2/ returns HTTP 500 and https://bmsdatabase.softr.app/ is BLOCKED by robots.txt; BMS concentration memberships unverified.",
+  "rechecked 2026-11-03 under Claude-User robots policy: phhp.ufl.edu, idp.med.ufl.edu (-> biomed.med.ufl.edu), hobi.med.ufl.edu, med.ufl.edu, epi.ufl.edu (= Emerging Pathogens Institute, not a program) now fetchable. Added Biostatistics PhD (matched McIntyre, Qing Ling Lu), Epidemiology PhD (Jinying Zhao; core author Benos = 'Takis Benos' core epi faculty), Biomedical Informatics PhD (HOBI; 0 matches), BMS concentrations Molecular Genetics and Genomics and Biochemistry and Molecular Biology (faculty unverified). ufhealth.org not needed after Benos was found on PHHP rosters."
  ]
 }

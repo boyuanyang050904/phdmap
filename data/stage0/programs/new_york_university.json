@@ -79,6 +79,64 @@
     "Eran Halperin"
    ],
    "notes": "type/21 = 'PhD Advisors' listing."
+  },
+  {
+   "program_name": "Biology PhD (Graduate School of Arts and Science, Department of Biology)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://bulletins.nyu.edu/graduate/arts-science/programs/biology-phd/",
+   "phd_evidence_quote": "The full-time Doctor of Philosophy Program in Biology is designed to develop independent research scientists.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bulletins.nyu.edu/nyu/faculty-information/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Rahul Satija",
+    "Neville E. Sanjana"
+   ],
+   "notes": "Department faculty pages (as.nyu.edu/departments/biology/..., biology.as.nyu.edu) now pass robots.txt but return HTTP 403 Forbidden (also with --render), as do all gsas.nyu.edu inner pages, so PhD evidence is from the NYU Bulletin. Faculty membership from the university-wide NYU Bulletin 'Faculty Information' list, where Rahul Satija and Neville Sanjana are listed as Professor, 'Biology and Genomics, Faculty of Arts and Science' (match on that page also hits non-Biology faculty, so only these two are recorded here). No separate computational-biology PhD/track found: the bulletin page names the 'Center for Genomics and Systems Biology' and a learning outcome 'Be well-trained in quantitative and computational methods that can be applied to biological research questions.'; the only named track is Developmental Genetics. Discipline is a judgment call (genomics/systems biology emphasis)."
+  },
+  {
+   "program_name": "Chemistry PhD (Graduate School of Arts and Science)",
+   "degree": "PhD",
+   "discipline": "chemistry",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://bulletins.nyu.edu/graduate/arts-science/programs/chemistry-phd/",
+   "phd_evidence_quote": "The Doctor of Philosophy is a research degree. It signifies that the recipient is able to conduct independent research and has both a broad basic knowledge of all areas of chemistry and a comprehensive knowledge of one field in particular.",
+   "faculty_list_urls": [
+    {
+     "url": "https://bulletins.nyu.edu/nyu/faculty-information/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Yingkai Zhang"
+   ],
+   "notes": "as.nyu.edu/departments/chemistry/people/faculty.html returns HTTP 403 Forbidden (robots now allows). Membership from NYU Bulletin 'Faculty Information': 'Yingkai Zhang | Professor | Chemistry Department, Faculty of Arts and Science'."
+  },
+  {
+   "program_name": "Mathematics PhD (Courant Institute)",
+   "degree": "PhD",
+   "discipline": "other:applied_mathematics",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/overview/",
+   "phd_evidence_quote": "A candidate for the Ph.D. degree in mathematics must fulfill a number of different",
+   "faculty_list_urls": [
+    {
+     "url": "https://math.nyu.edu/dynamic/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Michael Shelley"
+   ],
+   "notes": "Faculty page lists 'Michael J. Shelley — Professor of Mathematics, Neural Science, and Mechanical Engineering, and the Lilian and George Lyttle Professor of Applied Mathematics'. Bulletin page https://bulletins.nyu.edu/graduate/arts-science/programs/mathematics-phd/ also exists. Included only because a core author (Shelley) is its faculty."
   }
  ],
  "unmatched_core_authors": [
@@ -86,37 +144,25 @@
    "name": "Hans‐Hermann Wessels",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not on Vilcek training-faculty list or CS list; NYU Biology / CGSB pages blocked by robots.txt (as.nyu.edu, cgsb.nyu.edu)."
-  },
-  {
-   "name": "Michael Shelley",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Courant Mathematics pages (math.nyu.edu) blocked by robots.txt."
+   "note": "Not on Vilcek training-faculty list, CS list, or NYU Bulletin university-wide faculty list; as.nyu.edu Biology faculty page returns 403 Forbidden; cgsb.nyu.edu still BLOCKED by robots.txt. OpenAlex last_known is New York Genome Center."
   },
   {
    "name": "Richard Bonneau",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not on CS PhD-advisor list or Vilcek list; OpenAlex last_known is Genentech/Roche."
+   "note": "Not on CS PhD-advisor list or Vilcek list; OpenAlex last_known is Genentech/Roche. Not in NYU Bulletin faculty list (only an unrelated Joseph Bonneau)."
   },
   {
    "name": "Yong Chen",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not found on fetched NYU lists; OpenAlex last_known not NYU."
+   "note": "Not found on fetched NYU lists; OpenAlex last_known not NYU. Not in NYU Bulletin faculty list."
   },
   {
    "name": "John Z. H. Zhang",
    "program_found": null,
    "evidence_url": null,
-   "note": "Chemistry dept pages (as.nyu.edu) blocked by robots.txt."
-  },
-  {
-   "name": "Yingkai Zhang",
-   "program_found": null,
-   "evidence_url": null,
-   "note": "Chemistry dept pages (as.nyu.edu) blocked by robots.txt."
+   "note": "Not found in the NYU Bulletin university-wide faculty list (https://bulletins.nyu.edu/nyu/faculty-information/); as.nyu.edu Chemistry faculty page returns 403 Forbidden. OpenAlex last_known not NYU."
   },
   {
    "name": "Alexander W. Rives",
@@ -128,23 +174,23 @@
    "name": "Gira Bhabha",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not on Vilcek complete training-faculty list; OpenAlex last_known includes Johns Hopkins."
+   "note": "Not on Vilcek complete training-faculty list; OpenAlex last_known includes Johns Hopkins. Not in NYU Bulletin faculty list either."
   },
   {
    "name": "Damian C. Ekiert",
    "program_found": null,
    "evidence_url": null,
-   "note": "Not on Vilcek complete training-faculty list; OpenAlex last_known includes Johns Hopkins."
+   "note": "Not on Vilcek complete training-faculty list; OpenAlex last_known includes Johns Hopkins. Not in NYU Bulletin faculty list either."
   }
  ],
  "problems": [
-  "BLOCKED by robots.txt: https://as.nyu.edu/departments/biology/people/faculty.html (NYU Biology PhD not verifiable)",
-  "BLOCKED by robots.txt: https://as.nyu.edu/departments/chemistry/people/faculty.html (NYU Chemistry PhD not verifiable)",
-  "BLOCKED by robots.txt: https://biology.as.nyu.edu/ , https://gsas.nyu.edu/ , https://cgsb.nyu.edu/ , https://math.nyu.edu/dynamic/people/faculty/",
+  "Now allowed by robots.txt but HTTP 403 Forbidden (biology faculty page and GSAS PhD-programs page also 403 with --render): https://as.nyu.edu/departments/biology/people/faculty.html, https://as.nyu.edu/departments/biology.html, https://as.nyu.edu/departments/chemistry/people/faculty.html, https://biology.as.nyu.edu/, and all tested gsas.nyu.edu inner pages (homepage is 200) (e.g. /content/nyu-as/gsas/programs/phd-programs.html, /programs.html, /admissions/arc/programs/biology.html, /nyu-as/as/departments/biology/academics/phd.html). Biology/Chemistry PhD evidence and faculty membership therefore taken from bulletins.nyu.edu.",
+  "BLOCKED by robots.txt (still): https://cgsb.nyu.edu/ ; med.nyu.edu research-area filter URLs (see below).",
   "BLOCKED by robots.txt: https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/faculty?filter=... (research-area filters)",
   "https://cds.nyu.edu/faculty/ returned 403 (Center for Data Science PhD not checked).",
   "NYU School of Global Public Health lists only an MS in Biostatistics and a PhD in Public Health (https://publichealth.nyu.edu/); no biostatistics PhD found there.",
-  "Vilcek training-area pages carry no faculty names; area membership of matched faculty unverified."
+  "Vilcek training-area pages carry no faculty names; area membership of matched faculty unverified.",
+  "rechecked 2026-11-03 under Claude-User robots policy: math.nyu.edu now readable -> added Mathematics PhD (Courant) with Michael Shelley matched; as.nyu.edu/biology.as.nyu.edu/gsas.nyu.edu inner pages return 403, so added Biology PhD (Satija, Sanjana) and Chemistry PhD (Yingkai Zhang) from NYU Bulletin program pages + university-wide Bulletin faculty list; removed Shelley and Yingkai Zhang from unmatched; 1 WebSearch used."
  ],
- "checked_at": "2026-11-03T09:00:15Z"
+ "checked_at": "2026-11-03T19:07:00Z"
 }

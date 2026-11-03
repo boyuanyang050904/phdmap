@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from lib import openalex as oa  # noqa: E402
 from lib.names import norm, name_variants  # noqa: E402
-from stage0.s02_authors import abstract, METHOD_RE, COMP_RE  # noqa: E402
+from stage0.s02_authors import abstract, methods_flag  # noqa: E402
 
 D1 = ROOT / "data" / "stage1"
 TODAY = date.today()
@@ -34,24 +34,30 @@ WINDOW_FROM = (TODAY - timedelta(days=3 * 365)).isoformat()
 CUTOFF_YEAR = TODAY.year - 5      # "近 5 年内开组"
 TOP_MAX, TOP_MIN, MIN_SCORE = 8, 5, 0.8
 
+PROT = r"(protein|peptide|enzyme|binder|antibod|nanobod|miniprotein|amino[- ]acid)"
 TOPICS = {
     "A1": ("A", re.compile(r"perturb-?seq|crop-?seq|crisp-?seq|single[- ]cell crispr|crispr screen|"
                            r"pooled (genetic |crispr )?screen|perturbation (response|effect|prediction|model)|"
                            r"genetic perturbation", re.I)),
-    "A2": ("A", re.compile(r"causal (network|discovery|graph|inference|structure|model)|gene regulatory network|"
+    "A2": ("A", re.compile(r"causal (network|discovery|graph|structure)|gene regulatory network|"
                            r"regulatory network inference|structural causal|directed acyclic graph|"
-                           r"network (inference|reconstruction)", re.I)),
+                           r"network (inference|reconstruction)|causal (gene|protein|trait)", re.I)),
     "A3": ("A", re.compile(r"\bgwas\b|genome-wide association|summary statistic|mendelian randomi[sz]ation|"
                            r"polygenic|fine-?mapping|heritability|genetic correlation|\btwas\b|"
-                           r"transcriptome-wide association|colocali[sz]ation|\beqtl|biobank|statistical genetic", re.I)),
-    "B4": ("B", re.compile(r"antibod|nanobod|\bvhh\b|affinity maturation|immunoglobulin|epitope|paratope|"
-                           r"\bbcr\b|t[- ]cell receptor", re.I)),
-    "B5": ("B", re.compile(r"protein design|de novo (protein|binder|design)|designed protein|protein language model|"
-                           r"inverse folding|diffusion|generative|protein generation|binder design|sequence design|"
-                           r"protein engineering|enzyme design|rosetta", re.I)),
-    "B6": ("B", re.compile(r"structure prediction|alphafold|rosettafold|esmfold|protein[- ]protein|protein complex|"
-                           r"docking|binding interface|interface prediction|multimer|protein structure", re.I)),
+                           r"transcriptome-wide association|colocali[sz]ation|statistical genetic", re.I)),
+    "B4": ("B", re.compile(r"(antibod|nanobod|\bvhh\b)[^.]{0,120}(design|engineer|affinity|optimi|maturation|"
+                           r"language model|structure|developab|generat)|affinity maturation|"
+                           r"antibody[- ]antigen", re.I)),
+    "B5": ("B", re.compile(PROT + r"[^.]{0,80}(design|generat|diffusion|language model|inverse folding|"
+                           r"engineering|sequence space)|protein language model|inverse folding|"
+                           r"de novo (designed )?(protein|binder|enzyme)|designed (protein|binder)s?|"
+                           r"(design|generat)\w*[^.]{0,40}" + PROT, re.I)),
+    "B6": ("B", re.compile(r"protein structure prediction|structure prediction|alphafold|rosettafold|esmfold|"
+                           r"protein[- ]protein (interaction|docking|interface|complex)|protein complex|"
+                           r"(peptide|protein)[- ](protein |peptide )?docking|binding interface|"
+                           r"interface prediction|multimer", re.I)),
 }
+APPLIED_FACTOR = 0.15
 INST_SELECT = "id,display_name,works_count,last_known_institutions,affiliations,orcid,summary_stats"
 
 
@@ -60,7 +66,13 @@ def work_text(w):
 
 
 def is_methods(t):
-    return bool(METHOD_RE.search(t)) or len(COMP_RE.findall(t)) >= 1
+    return methods_flag(t)
+
+
+def on_school_byline(w, aid, school_id):
+    _, _, au = role(w, aid)
+    return any(i.get("id") == school_id or school_id in (i.get("lineage") or [])
+               for i in (au or {}).get("institutions", []))
 
 
 def role(w, aid):
@@ -128,14 +140,21 @@ def main(pids):
                                                    "abstract_inverted_index,authorships,primary_location"):
                 w["_source_url"], w["_fetched_at"] = wurl, wat
                 works.append(w)
+            # count only works on which this author's byline lists the school (guards against
+            # OpenAlex merging two people with the same name); fall back to all works if none
+            here = [w for w in works if on_school_byline(w, aid, school_id)]
+            used = here if here else works
             scored, sA, sB = [], 0.0, 0.0
-            for w in works:
+            for w in used:
+                if re.match(r"\s*(abstract|poster|session)\s*\w*\d+\s*:", w.get("title") or "", re.I) or \
+                        w.get("type") in ("paratext", "erratum", "retraction", "letter", "editorial"):
+                    continue          # conference-abstract / non-research records
                 t = work_text(w)
                 hits = [k for k, (_, rx) in TOPICS.items() if rx.search(t)]
                 if not hits:
                     continue
                 rname, rw, _ = role(w, aid)
-                mf = 1.0 if is_methods(t) else 0.4
+                mf = 1.0 if is_methods(t) else APPLIED_FACTOR
                 s = rw * mf * (1 + 0.25 * (len(hits) - 1))
                 da = any(TOPICS[h][0] == "A" for h in hits)
                 db = any(TOPICS[h][0] == "B" for h in hits)
@@ -148,7 +167,12 @@ def main(pids):
                                "subtopics": hits, "methods": mf == 1.0, "role": rname, "score": round(s, 2),
                                "abstract": abstract(w)[:700],
                                "source_url": w["_source_url"], "fetched_at": w["_fetched_at"]})
-            total = sA + sB
+            # person score = sum of the 10 best works (volume of applied papers is not rewarded)
+            best = sorted(scored, key=lambda x: -x["score"])[:10]
+            ids = {b["id"] for b in best}
+            sA = sum(b["score"] for b in best if any(TOPICS[h][0] == "A" for h in b["subtopics"]))
+            sB = sum(b["score"] for b in best if any(TOPICS[h][0] == "B" for h in b["subtopics"]))
+            total = sum(b["score"] for b in best)
             dirs = [d for d, v in (("A", sA), ("B", sB)) if total and v / total >= 0.3]
             # affiliation check on most recent last/corresponding work
             lc = sorted([w for w in works if role(w, aid)[0] == "last/corresponding"],
@@ -166,7 +190,9 @@ def main(pids):
                 "lab_url": fac.get("lab_url"), "faculty_source_url": fac.get("source_url"),
                 "openalex_id": aid, "openalex_match": how, "openalex_name": ents.get("display_name"),
                 "openalex_url": ent_url, "openalex_fetched_at": ent_at,
-                "works_in_window": len(works), "score": round(total, 2),
+                "works_in_window": len(works), "works_at_school": len(here),
+                "score_basis": "works with school on byline" if here else "all works (none list the school)",
+                "score": round(total, 2),
                 "score_A": round(sA, 2), "score_B": round(sB, 2), "direction": "+".join(dirs) or None,
                 "top_works": sorted(scored, key=lambda x: (-x["score"], -(x["year"] or 0)))[:6],
                 "affiliation_check": {

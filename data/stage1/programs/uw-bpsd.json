@@ -1,0 +1,758 @@
+{
+ "program_id": "uw-bpsd",
+ "school": "University of Washington",
+ "program": "Biological Physics, Structure and Design (BPSD)",
+ "checked_at": "2026-11-03T19:09:28Z",
+ "program_url": {
+  "value": "https://depts.washington.edu/bpsd/",
+  "source_url": "https://depts.washington.edu/bpsd/",
+  "fetched_at": "2026-11-03T08:38:06Z",
+  "quote": "Our aim is to train young scientists to work at the interface of physical and biological sciences.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Interdisciplinary PhD program; per FAQ, BPSD is not degree-granting: graduates receive the PhD from their advisor's department (\"BPSD is not a degree-granting program. Graduating students will receive a PhD from their advisor’s department.\")."
+ },
+ "deadline": {
+  "value": "December 1, 2026 (11:59 p.m. Pacific Time)",
+  "source_url": "https://depts.washington.edu/bpsd/prospective-students-2/application-criteria/",
+  "fetched_at": "2026-11-03T19:00:20Z",
+  "quote": "Domestic Applications: December 1, 2026 (11:59 p.m. Pacific Time)",
+  "scope": "program",
+  "cycle": "Autumn 2027",
+  "note": "Page heading 'Autumn 2027 Ph.D. Applications'; international deadline is the same date (\"International Applications: December 1, 2026 (11:59 p.m. Pacific Time)\"). Admission for Autumn Quarter only."
+ },
+ "priority_deadline": {
+  "value": null,
+  "source_url": null,
+  "fetched_at": null,
+  "quote": null,
+  "scope": "program",
+  "cycle": null,
+  "note": "No separate priority/fellowship deadline found on the BPSD Application Criteria, Application Process or FAQ pages; the only deadline shown is December 1, 2026 for both domestic and international applicants."
+ },
+ "application_fee": {
+  "value": "$90",
+  "source_url": "https://grad.uw.edu/admissions/apply-now/",
+  "fetched_at": "2026-11-03T19:01:58Z",
+  "quote": "nonrefundable application fee is $90.00 (USD) or $75.00 for Graduate Non-Matriculated applications.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "UW Graduate School fee ('subject to change without notice'); paid online by credit/debit card. BPSD FAQ: separate application and fee for each UW program applied to."
+ },
+ "fee_waiver": {
+  "value": "Graduate School financial-need waiver for U.S. citizens, permanent residents and undocumented applicants (Washington College Grant 100% MFI threshold); also McNair Scholars / PPIA Fellows; request at least 7 days before the program deadline; F-1/J-1 applicants not eligible",
+  "source_url": "https://grad.uw.edu/prospective-students/how-to-apply/application-fee-waivers/",
+  "fetched_at": "2026-11-03T19:01:52Z",
+  "quote": "Application fee waivers are available to U.S. citizens, permanent residents, and undocumented applicants who demonstrate financial need or hardship.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "Same page: 'Application fee waiver requests must be made at least seven (7) days before your program’s application deadline'; request via Applicant Status Portal after submitting, do not pay fee. Linked from BPSD Application Process page ('Application Fee Waiver Information'). A US permanent resident is eligible to request the need-based waiver."
+ },
+ "gre_policy": {
+  "value": "not accepted",
+  "source_url": "https://depts.washington.edu/bpsd/prospective-students-2/application-criteria/",
+  "fetched_at": "2026-11-03T19:00:20Z",
+  "quote": "GRE scores are not required and, if submitted, will not be considered during the admissions decision process.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Exact policy: not required and not considered if submitted (closest schema value 'not accepted'). Same sentence on Application Process page."
+ },
+ "letters_required": {
+  "value": 3,
+  "source_url": "https://depts.washington.edu/bpsd/prospective-students-2/application-process/",
+  "fetched_at": "2026-11-03T19:01:04Z",
+  "quote": "Type in the 3 recommender’s names and e-mail addresses.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Online recommendations via the UW Graduate School application."
+ },
+ "application_system_url": {
+  "value": "https://apply.grad.uw.edu/portal/gr_app",
+  "source_url": "https://apply.grad.uw.edu/portal/gr_app",
+  "fetched_at": "2026-11-03T19:07:58Z",
+  "quote": "Welcome to the University of Washington's Graduate Admission Application!",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "BPSD Application Process page: 'Applications are on-line only via the University of Washington Graduate Admissions site' and points to https://grad.uw.edu/admissions/apply-now/, whose 'Start Your Application' button links to this portal. Unofficial transcripts uploaded into the application; paper transcripts not accepted."
+ },
+ "toefl": {
+  "waiver_conditions": {
+   "value": "ELP must be demonstrated only by applicants whose native language is not English. Ways: (1) bachelor's/master's/doctoral degree from an accredited English-medium institution (for an English-speaking country such as the US: in residence in that country for the full duration of enrollment; no MOI documentation needed for US degrees); (2) official TOEFL/IELTS/Duolingo score (BPSD requires the Graduate School 'Recommended' level); (3) previous UW graduate degree or current UW graduate enrollment. Grad School FAQ: a U.S. degree conferred by the program start completes the requirement (formally 'no waivers', but the degree satisfies it).",
+   "source_url": "https://grad.uw.edu/policies/3-2-graduate-school-english-language-proficiency-requirements/",
+   "fetched_at": "2026-11-03T19:01:14Z",
+   "quote": "An earned and bachelor’s, master’s, or doctoral degree (or an internationally recognized academic degree at the same level) from an accredited institution for which English was the medium of instruction.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Residency condition (same page): 'For institutions located in an English-speaking country: The student must have been in residence in that country for the full duration of enrollment in the degree program'. The United States is on the list of countries exempt from MOI documentation. For the applicant (US PR, Emory bachelor's conferred spring 2027, before Autumn 2027 start): the Emory degree satisfies the ELP requirement if they were resident in the US throughout enrollment; no test needed. For the required 2nd-year TA appointment, Policy 5.2 likewise accepts a bachelor's degree from a regionally accredited US institution with English medium of instruction (https://grad.uw.edu/policies/5-2-conditions-of-appointment-for-tas-who-are-not-native-speakers-of-english/)."
+  },
+  "waiver_basis": {
+   "value": "native_language+degree",
+   "source_url": "https://grad.uw.edu/policies/3-2-graduate-school-english-language-proficiency-requirements/",
+   "fetched_at": "2026-11-03T19:01:14Z",
+   "quote": "English language proficiency (ELP) is required for graduate study at the University of Washington. Therefore, every applicant whose native language is not English must demonstrate English language proficiency.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Exempt if native English speaker (as self-declared on the application); otherwise satisfied by an English-medium degree (3.2.1 item 1), a test score, or a previous/current UW graduate degree/enrollment. No citizenship/residency-status basis."
+  },
+  "us_degree_waives": {
+   "value": true,
+   "source_url": "https://grad.uw.edu/prospective-students/how-to-apply/apply-now/application-help-and-faqs/",
+   "fetched_at": "2026-11-03T19:02:20Z",
+   "quote": "If your U.S. degree will be conferred by the start of the program you are applying to, the conferral of your U.S. degree will complete the Graduate School’s English proficiency requirement.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Answer to FAQ 'I will receive a degree from the US, can I be waived from the English language proficiency test score requirement?'. Technically 'This school does not grant waivers', but the US degree satisfies the requirement; applicants receiving a U.S. degree may leave the test section blank ('You may leave this section blank on your application, as you will be receiving a U.S. degree.'). An official transcript with degree posted is required before the first quarter. Applies to an Emory bachelor's conferred spring 2027 for Autumn 2027 entry (subject to the Policy 3.2 US-residency-during-enrollment condition)."
+  },
+  "pr_exempt": {
+   "value": false,
+   "source_url": "https://grad.uw.edu/prospective-students/how-to-apply/requirements/",
+   "fetched_at": "2026-11-03T19:02:06Z",
+   "quote": "Graduate School admission requirements and application procedures are the same for all applicants regardless of citizenship and visa status.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Permanent-resident status by itself does not exempt: the requirement depends on native language ('Demonstration of English proficiency is required of all non-native English speakers.' on the same page). A PR who is a native English speaker is not required to demonstrate ELP; a non-native PR with a US degree satisfies it via the degree (see us_degree_waives). BPSD's criteria page phrases it as 'International students must meet all English language proficiency requirements set by the Graduate School', but the Graduate School rule (Policy 3.2 / BPSD Application Process page) is 'every applicant whose native language is not English'."
+  },
+  "min_total": {
+   "value": "TOEFL iBT 4.5 on the new 1-6 scale (92 for tests taken before Jan 21, 2026) - Graduate School 'Recommended Score', which BPSD requires",
+   "source_url": "https://grad.uw.edu/policies/3-2-graduate-school-english-language-proficiency-requirements/",
+   "fetched_at": "2026-11-03T19:01:14Z",
+   "quote": "Recommended Score (ELP Satisfied without conditions) 4.5 (92 for tests taken before Jan 21, 2026)",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "BPSD Application Process page: 'The BPSD Program adheres to the “Recommended Score (ELP Satisfied without conditions)” requirements for TOEFL, Duolingo and IELTS testing from the Graduate School.' and applicants using test scores 'must have achieved the minimum Recommended Score'. Other Recommended Scores on Policy 3.2: IELTS 7.0, Duolingo 130 (the Grad School Requirements page lists Duolingo 125 - inconsistent between Grad School pages). Graduate School minimum (ELP not satisfied) is 4.0 / 80."
+  },
+  "min_subscores": {
+   "value": null,
+   "source_url": null,
+   "fetched_at": null,
+   "quote": null,
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "No TOEFL subscore minimums for admission found on BPSD Application Criteria/Process pages, Grad School Policy 3.2 or the Grad School Requirements page. Only for TA appointments (Policy 5.2, https://grad.uw.edu/policies/5-2-conditions-of-appointment-for-tas-who-are-not-native-speakers-of-english/) is a TOEFL speaking score required (5, or 26 for tests before Jan 21, 2026) for non-native speakers who do not qualify otherwise (e.g., via a US bachelor's degree)."
+  },
+  "validity_rule": {
+   "value": "Valid for two years; must be valid on the date the application is submitted (or on the date the program requests a deferral petition)",
+   "source_url": "https://grad.uw.edu/policies/3-2-graduate-school-english-language-proficiency-requirements/",
+   "fetched_at": "2026-11-03T19:01:14Z",
+   "quote": "Test scores are valid for two years and must be valid on the date the application is submitted or on the date the program requests a deferral petition",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Grad School FAQ: 'TOEFL scores are valid for two years from the test date.'"
+  },
+  "di_code": {
+   "value": "4854",
+   "source_url": "https://depts.washington.edu/bpsd/prospective-students-2/application-process/",
+   "fetched_at": "2026-11-03T19:01:04Z",
+   "quote": "To submit official TOEFL scores: Use our Institution Code 4854.",
+   "scope": "program",
+   "cycle": null,
+   "note": "UW-wide institution code; Grad School FAQ adds 'Department code: 99 (any department)'. IELTS Organization ID 365."
+  },
+  "self_report_accepted": {
+   "value": false,
+   "source_url": "https://depts.washington.edu/bpsd/prospective-students-2/application-process/",
+   "fetched_at": "2026-11-03T19:01:04Z",
+   "quote": "Only official testing scores may be submitted.",
+   "scope": "program",
+   "cycle": null,
+   "note": "Policy 3.2: 'An offer of admission cannot be extended prior to the receipt of official scores.' Irrelevant if ELP is satisfied by a US degree."
+  }
+ },
+ "admissions_mode": {
+  "value": "rotation",
+  "source_url": "https://depts.washington.edu/bpsd/for-current-students/timeline/",
+  "fetched_at": "2026-11-03T19:02:51Z",
+  "quote": "Students are required to complete three rotations during their first year (AUT, WIN and SPR quarters).",
+  "scope": "program",
+  "cycle": null,
+  "note": "Students may rotate with any participating BPSD faculty and join a thesis lab in summer of the first year (FAQ). Page requires --render (plain fetch returns 403)."
+ },
+ "contact_faculty_advice": {
+  "value": "Not recommended: applications are first reviewed by the Admissions Committee, which invites selected applicants for interviews with faculty of interest",
+  "source_url": "https://depts.washington.edu/bpsd/prospective-students-2/faq/",
+  "fetched_at": "2026-11-03T08:47:31Z",
+  "quote": "No. Your application is first reviewed by members of the Admissions Committee to determine those students to invite for personal interviews with faculty.",
+  "scope": "program",
+  "cycle": null,
+  "note": "FAQ question: 'Is it recommended that I contact individual professors to request their support of my application?'. The statement of purpose should name BPSD-affiliated faculty whose research interests the applicant (Application Process page)."
+ },
+ "stipend": {
+  "value": "$4,035 per month (first-year rate during the three rotation quarters; afterwards the degree-granting department's student salary rate, some lower)",
+  "source_url": "https://depts.washington.edu/bpsd/for-current-students/student-support/",
+  "fetched_at": "2026-11-03T19:03:16Z",
+  "quote": "The current first year graduate student salary rate is $4,035 per month.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Page gives no academic year for the salary ('current'); its fee list is 'current as of Autumn 2025', so likely the 2025-26 rate. Support also includes tuition waiver and student-only health insurance; students pay quarterly fees (~$900/year). Page requires --render (plain fetch returns 403)."
+ },
+ "guaranteed_years": {
+  "value": "Full support (salary, tuition, health insurance) for the duration of the PhD while making satisfactory progress: BPSD funds the first three quarters, then the thesis advisor",
+  "source_url": "https://depts.washington.edu/bpsd/for-current-students/student-support/",
+  "fetched_at": "2026-11-03T19:03:16Z",
+  "quote": "it becomes the responsibility of the advisor to arrange to support that student (including salary, tuition, and health insurance) for the remainder of the student’s graduate education",
+  "scope": "program",
+  "cycle": null,
+  "note": "Continues: 'provided that the student continues making satisfactory progress in their graduate program as determined by their Supervisory Committee.' No fixed number of years stated."
+ },
+ "pr_domestic": {
+  "value": true,
+  "source_url": "https://grad.uw.edu/prospective-students/how-to-apply/requirements/",
+  "fetched_at": "2026-11-03T19:02:06Z",
+  "quote": "International students must have a visa status that allows academic study at the UW. This status includes temporary U.S. visas such as F-1 student visas, J-1 exchange visitors, H-1 temporary worker, dependent visas or any other non-immigrant classifications.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "Grad School defines international students by temporary/non-immigrant visa status, and lists 'U.S. citizens, permanent residents (green card holders), immigrants and international applicants' as separate groups; fee waivers group 'U.S. citizens, permanent residents, and undocumented applicants'. Explicit definition on the UW Biochemistry PhD page (a BPSD participating department, https://sites.uw.edu/biochemistry/biochemistry-graduate-program/program-application/): 'An international student is anyone who is not a US citizen or does not hold a US Permanent Resident Visa (i.e., Green Card or Immigrant).' BPSD's own pages do not define domestic; domestic and international deadlines are identical. So a US permanent resident applies as domestic."
+ },
+ "t32_citizen_pr_only": {
+  "value": true,
+  "source_url": "https://depts.washington.edu/mbtguw/apply/",
+  "fetched_at": "2026-11-03T19:04:08Z",
+  "quote": "An applicant must be a US Citizen, a non-citizen national, or possess the alien registration receipt card I-151 or I-551",
+  "scope": "program",
+  "cycle": null,
+  "note": "UW Molecular Biophysics Training Grant (NIH NRSA; BPSD students eligible, applied for in 1st/2nd year), linked from the BPSD Downloads & Links page. BPSD FAQ: 'Domestic students may apply for a variety of training grants'. A US permanent resident (I-551 holder) is eligible."
+ },
+ "faculty_list": {
+  "source_urls": [
+   "https://depts.washington.edu/bpsd/people/faculty/"
+  ],
+  "render": false,
+  "faculty": [
+   {
+    "name": "John Aitchison",
+    "title": "Professor",
+    "department": "Seattle Children’s Center for Global Infectious Disease Research",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jaitchison/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Chip Asbury",
+    "title": "Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/casbury/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Jihong Bai",
+    "title": "Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jbai/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Sandra Bajjalieh",
+    "title": "Professor",
+    "department": "Pharmacology",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/sbajjalieh/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "David Baker",
+    "title": "Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/dbaker/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Gaurav Bhardwaj",
+    "title": "Assistant Professor",
+    "department": "Medicinal Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/gbhardwaj/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Jesse Bloom",
+    "title": "Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jbloom/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Phil Bradley",
+    "title": "Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/pbradley/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Peter Brzovic",
+    "title": "Associate Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/pbrzovic/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Matthew Bush",
+    "title": "Associate Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/mbush/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Melody Campbell",
+    "title": "Assistant Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/mcampbell/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Steve Carlson",
+    "title": "Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/scarlson/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Champak Chatterjee",
+    "title": "Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/cchatterjee/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Valerie Daggett",
+    "title": "Professor",
+    "department": "Bioengineering",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/vdaggett/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Frank DiMaio",
+    "title": "Associate Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/fdimaio/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Adrienne Fairhall",
+    "title": "Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/afairhall/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Erkang Fan",
+    "title": "Research Associate Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/efan/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Douglas Fowler",
+    "title": "Professor",
+    "department": "Genome Sciences",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/dfowler/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Dan Fu",
+    "title": "Associate Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/dfu/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Mike Gelb",
+    "title": "Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/mgelb/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Sharona Gordon",
+    "title": "Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/sgordon/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Liangcai Gu",
+    "title": "Associate Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/lgu/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Jens Gundlach",
+    "title": "Professor",
+    "department": "Physics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jgundlach/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Miklos Guttman",
+    "title": "Associate Professor",
+    "department": "Medicinal Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/mguttman/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Gianluca Interlandi",
+    "title": "Research Assistant Professor",
+    "department": "Bioengineering",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/ginterlandi/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Sarah Keller",
+    "title": "Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/skeller/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Neil King",
+    "title": "Assistant Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/nking/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Eric Klavins",
+    "title": "Professor",
+    "department": "Electrical Engineering",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/eklavins/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Rachel Klevit",
+    "title": "WRF Endowed Chair in Biochemistry",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/rklevit/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Justin Kollman",
+    "title": "Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jkollman/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Jennifer Kong",
+    "title": "Assistant Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jkong/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Hao Yuan Kueh",
+    "title": "Associate Professor",
+    "department": "Bioengineering",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/hkueh/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Christopher Lapointe",
+    "title": "Assistant Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/clapointe/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Kelly Lee",
+    "title": "Sidney Nelson Endowed Professor",
+    "department": "Medicinal Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/klee/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Dustin Maly",
+    "title": "Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/dmaly/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Alexey Merz",
+    "title": "Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/amerz/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Behnam Nabet",
+    "title": "Assistant Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/bnabet/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Abhinav Nath",
+    "title": "Associate Professor",
+    "department": "Medicinal Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/anath/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Shao-En Ong",
+    "title": "Associate Professor",
+    "department": "Pharmacology",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/song/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Lauren Rajakovich",
+    "title": "Assistant Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/lrajakovich/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Mike Regnier",
+    "title": "Professor",
+    "department": "Bioengineering",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/mregnier/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Fred Rieke",
+    "title": "Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/frieke/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Nicholas Riley",
+    "title": "Assistant Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/nriley/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Hannele Ruohola-Baker",
+    "title": "Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/hruohola-baker/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Herbert Sauro",
+    "title": "Professor",
+    "department": "Bioengineering",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/hsauro/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "David Shechner",
+    "title": "Assistant Professor",
+    "department": "Pharmacology",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/dshechner/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Julian Simon",
+    "title": "Associate Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jsimon/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Pat Stayton",
+    "title": "Professor",
+    "department": "Bioengineering",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/pstayton/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Ronald Stenkamp",
+    "title": "Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/rstenkamp/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Barry Stoddard",
+    "title": "Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/bstoddard/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Stefan Stoll",
+    "title": "Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/sstoll/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Roland Strong",
+    "title": "Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/rstrong/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Arvind Rasi Subramaniam",
+    "title": "Associate Professor",
+    "department": "Fred Hutch Cancer Center",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/arsubramaniam/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Wendy Thomas",
+    "title": "Professor",
+    "department": "Bioengineering",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/wthomas/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "John Tuthill",
+    "title": "Associate Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jtuthill/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Gabriele Varani",
+    "title": "Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/gvarani/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Claudia Vasquez",
+    "title": "Assistant Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/cvasquez/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Joshua Vaughan",
+    "title": "Associate Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jvaughan/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "David Veesler",
+    "title": "Professor",
+    "department": "Biochemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/dveesler/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Oscar Vivas",
+    "title": "Assistant Professor",
+    "department": "Pharmacology, Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/ovivas/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Paul Wiggins",
+    "title": "Associate Professor",
+    "department": "Physics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/pwiggins/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Linda Wordeman",
+    "title": "Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/lwordeman/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Libin Xu",
+    "title": "Associate Professor",
+    "department": "Medicinal Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/lxu/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "William Zagotta",
+    "title": "Professor",
+    "department": "Neurobiology & Biophysics",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/wzagotta/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Jesse Zalatan",
+    "title": "Professor",
+    "department": "Chemistry",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/jzalatan/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   },
+   {
+    "name": "Ning Zheng",
+    "title": "Professor",
+    "department": "Pharmacology",
+    "profile_url": "https://depts.washington.edu/bpsd/people/faculty/entry/nzheng/",
+    "lab_url": null,
+    "source_url": "https://depts.washington.edu/bpsd/people/faculty/"
+   }
+  ]
+ },
+ "problems": [
+  "BPSD 'Current Students' pages (timeline, student-support, curriculum-requirements, downloads-links) return HTTP 403 on plain fetch; fetched with --render (validator falls back to render).",
+  "Individual BPSD faculty profile pages (people/faculty/entry/...) return 403 even with --render; lab URLs not collected (lab_url null for all 66).",
+  "Stipend figure on Student Support page is undated ('current'); fee list there dated Autumn 2025 - may not be the 2027-28 rate.",
+  "Duolingo Recommended Score differs between Grad School Policy 3.2 (130) and Grad School Requirements page (125); not relevant to TOEFL fields.",
+  "pr_domestic is not defined on BPSD or Grad School pages in so many words; based on Grad School's non-immigrant-visa definition of international students plus the explicit UW Biochemistry department definition (see note)."
+ ]
+}

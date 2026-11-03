@@ -1,0 +1,991 @@
+{
+ "program_id": "yale-cbb",
+ "school": "Yale University",
+ "program": "Computational Biology and Biomedical Informatics (CBB) PhD (CBB Track of the Biological and Biomedical Sciences (BBS) Program)",
+ "checked_at": "2026-11-03T19:09:36Z",
+ "program_url": {
+  "value": "https://cbb.yale.edu/graduate-program",
+  "source_url": "https://cbb.yale.edu/graduate-program",
+  "fetched_at": "2026-11-03T08:47:49Z",
+  "quote": "Students apply to the CBB track of the BBS program and are part of this track for their first year of studies.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Applicants apply to the CBB Track of Yale BBS; after year 1 students join the CBB interdepartmental graduate program. BBS track page: https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/"
+ },
+ "deadline": {
+  "value": "December 1, 2026 (11:59 pm Eastern)",
+  "source_url": "https://medicine.yale.edu/bbs/apply/",
+  "fetched_at": "2026-11-03T18:59:47Z",
+  "quote": "The application deadline for Fall 2027 admission is December 1, 2026.",
+  "scope": "program",
+  "cycle": "Fall 2027",
+  "note": "Also listed on GSAS Dates & Deadlines under 'December 1, 2026 Application deadline for: Biological and Biomedical Sciences (BBS)'; GSAS states all deadlines are as of 11:59 pm Eastern time. CBB site says 'Applications are due by December 1st every year'."
+ },
+ "priority_deadline": {
+  "value": null,
+  "source_url": null,
+  "fetched_at": null,
+  "quote": null,
+  "scope": "program",
+  "cycle": null,
+  "note": "No separate fellowship/priority deadline found on BBS Apply, BBS FAQ, BBS Financial Support, CBB Application Information or GSAS Dates & Deadlines pages. Gruber Science Fellowship is awarded with the admission offer (no separate application). Note: GSAS fee-waiver request final deadline is January 2, 2027, but GSAS asks to submit it well before the program deadline (Dec 1)."
+ },
+ "application_fee": {
+  "value": "$105",
+  "source_url": "https://medicine.yale.edu/bbs/apply/",
+  "fetched_at": "2026-11-03T18:59:47Z",
+  "quote": "The non-refundable application fee is $105.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Same at graduate-school level: GSAS 'The application fee for all degree-seeking applicants is US $105.00.'"
+ },
+ "fee_waiver": {
+  "value": "Fee waiver available on the basis of (a) participation in a special program/status (AmeriCorps, Peace Corps, US Federal Pell Grant recipient, US veterans/active duty) or (b) documented financial hardship; US citizens, permanent residents and non-US citizens all eligible; request via separate Fee Waiver Request Form (after starting the application) well before the program deadline; form closes January 2; 2-3 business days to process.",
+  "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process/application-fees-fee-waivers",
+  "fetched_at": "2026-11-03T19:00:45Z",
+  "quote": "US citizens, permanent residents, and non-US citizens are all eligible to request a fee waiver.",
+  "scope": "graduate_school",
+  "cycle": "Fall 2027",
+  "note": "BBS Apply page defers to the GSAS online application for waiver requirements. GSAS: 'The final deadline to submit a fee waiver request is January 2.' (after the BBS Dec 1 deadline, so submit the request before Dec 1)."
+ },
+ "gre_policy": {
+  "value": "not accepted",
+  "source_url": "https://cbb.yale.edu/application-information",
+  "fetched_at": "2026-11-03T18:59:39Z",
+  "quote": "The Graduate Record Examination (GRE) General Test is not required and will no longer be accepted",
+  "scope": "program",
+  "cycle": null,
+  "note": "GSAS Standardized Testing Requirements (2026-2027 cycle) table: 'Computational Biology and Biomedical Informatics (BBS) PhD - Not Accepted'. BBS: 'If you submit GRE scores we will not include them in the review of your application.'"
+ },
+ "letters_required": {
+  "value": 3,
+  "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process",
+  "fetched_at": "2026-11-03T19:00:33Z",
+  "quote": "Three letters of recommendation.",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "GSAS requirement for all PhD/Master's applicants; letters need not be in before submitting (no specific letter deadline)."
+ },
+ "application_system_url": {
+  "value": "https://apply.grad.yale.edu/apply",
+  "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process",
+  "fetched_at": "2026-11-03T19:00:33Z",
+  "quote": "The application for Fall 2027 entry is now available.",
+  "scope": "graduate_school",
+  "cycle": "Fall 2027",
+  "note": "'Apply Now' / 'application for Fall 2027 entry' links on the GSAS PhD/Master's Application Process page point to https://apply.grad.yale.edu/apply (fetched: 200, 'Application Management'). BBS: 'The BBS Program uses the Yale Graduate School of Arts & Sciences application'; select the CBB Track (only ONE Track may be chosen)."
+ },
+ "toefl": {
+  "waiver_conditions": {
+   "value": "TOEFL iBT or IELTS Academic required of (almost all) applicants whose native language is not English. Exempt if you have received or will receive (before matriculation) an undergraduate degree from a college/university where English is the primary language of instruction AND studied in residence there for at least three years. No exemption on the basis of an advanced degree. No waiver form: application asks native language and language of instruction of baccalaureate institution.",
+   "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process/standardized-testing-requirements",
+   "fetched_at": "2026-11-03T19:00:17Z",
+   "quote": "If you have received (or will receive) an undergraduate degree from a college or university where English is the primary language of instruction, and if you have studied in residence at that institution for at least three years, you are exempt from the English Language Test requirement",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "BBS Requirements: 'If you do not need to submit the scores, there is no formal waiver process or form required.' Applicant check: an Emory (US, English-instruction) bachelor's completed spring 2027, before Fall 2027 matriculation, meets this exemption provided the applicant studied in residence at Emory for at least three years (if English is the native language, no test is required anyway)."
+  },
+  "waiver_basis": {
+   "value": "native_language+degree",
+   "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process/standardized-testing-requirements",
+   "fetched_at": "2026-11-03T19:00:17Z",
+   "quote": "When you complete your application, you will answer questions about your native language and the primary language of instruction at your baccalaureate institution. If either was English, you will not be required to submit TOEFL or IELTS scores",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Degree basis requires an undergraduate (not advanced) degree and >=3 years in residence. No citizenship/residency-status basis is stated."
+  },
+  "us_degree_waives": {
+   "value": true,
+   "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process/admissions-frequently-asked-questions/standardized-test-faqs",
+   "fetched_at": "2026-11-03T19:00:09Z",
+   "quote": "Applicants who have received or will receive an undergraduate degree from a college or university where English is the primary language of instruction are exempt from the English Language Test requirement and are not required to submit the TOEFL or IELTS.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Condition: undergraduate degree (bachelor's) from an English-medium institution, received before matriculation, with at least three years of study in residence there ('Applicants must have studied in residence at the undergraduate institution for at least three years to qualify.'). A US master's/PhD alone does not waive it. Applies to the applicant's Emory bachelor's (spring 2027) if >=3 years in residence."
+  },
+  "pr_exempt": {
+   "value": false,
+   "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process/admissions-frequently-asked-questions/standardized-test-faqs",
+   "fetched_at": "2026-11-03T19:00:09Z",
+   "quote": "The TOEFL or IELTS is required of almost all applicants whose native language is not English. There is one exception:",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Requirement is tied to native language; the single stated exception is the English-medium undergraduate degree. No exemption based on US citizenship or permanent-resident status is mentioned on GSAS or BBS pages, so PR status by itself does not exempt. A PR with a US (English-medium) bachelor's and >=3 years in residence is exempt via the degree rule."
+  },
+  "min_total": {
+   "value": "TOEFL iBT: at least 5.0 (TOEFL on the 2026 1-6 scale) or 100 on the pre-2026 exam; IELTS: no minimum",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "quote": "We require a score of at least 5.0 (or 100 on the pre-2026 exam).",
+   "scope": "program",
+   "cycle": null,
+   "note": "BBS FAQ: 'TOEFL scores must be at or above 5.0 (or 100 on the pre-2026 exam).' BBS: 'There is no minimum score requirement for the IELTS.' GSAS itself has no test minimums for admission."
+  },
+  "min_subscores": {
+   "value": "No admission subscore minimum stated. Speaking score needed to teach (else mandatory Summer English Language program in August before matriculation): TOEFL taken before Jan 21, 2026: 26+; TOEFL taken on/after Jan 21, 2026: 5.5+; IELTS: 8.0+ (GSAS).",
+   "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process/guidance-international-students",
+   "fetched_at": "2026-11-03T19:08:22Z",
+   "quote": "TOEFL (taken before January 21, 2026): 26 or higher TOEFL (taken on or after January 21, 2026) 5.5 or higher IELTS: 8.0 or higher",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "These are Speaking thresholds for teaching, not admission cut-offs. BBS Requirements page instead says IELTS speaking 'at or below a 7.5' triggers the English program (inconsistent with GSAS 8.0 threshold)."
+  },
+  "validity_rule": {
+   "value": "Test taken no earlier than 24 months prior to submitting the application (and no later than November)",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "quote": "Please take the test no later than November and no earlier than 24 months prior to submitting your application.",
+   "scope": "program",
+   "cycle": null,
+   "note": "BBS FAQ: 'If you took the TOEFL within the past two years, ETS should still be able to release the scores to us.' Expired scores may be self-reported but admission is contingent on official scores (GSAS Standardized Test FAQs)."
+  },
+  "di_code": {
+   "value": "3987",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "quote": "Use institution code 3987 when reporting your scores; you may enter any department code.",
+   "scope": "program",
+   "cycle": null,
+   "note": "GSAS: 'TOEFL : Institution Code 3987'; department code may be left blank or '99' (Undecided). Scores sent to other Yale schools cannot be transferred."
+  },
+  "self_report_accepted": {
+   "value": true,
+   "source_url": "https://gsas.yale.edu/admissions/phdmasters-application-process/admissions-frequently-asked-questions/standardized-test-faqs",
+   "fetched_at": "2026-11-03T19:00:09Z",
+   "quote": "When you fill out an application for admission, you may self-report your required test results in the Test Scores section of the application.",
+   "scope": "graduate_school",
+   "cycle": null,
+   "note": "Future test dates may also be entered to allow submission; official scores must still be sent by ETS (paper reports not accepted; 'MyBest Scores' not accepted). If exempt but self-reporting anyway, official scores become required."
+  }
+ },
+ "admissions_mode": {
+  "value": "rotation",
+  "source_url": "https://medicine.yale.edu/bbs/apply/faq/",
+  "fetched_at": "2026-11-03T19:00:49Z",
+  "quote": "We will require you to rotate through three labs during your first year of study to help you explore your research interests and find a thesis adviser.",
+  "scope": "program",
+  "cycle": null,
+  "note": "CBB Rotations page: 'All Ph.D. students are required to take at least three rotations.' (optional fourth; ~7 weeks each). Admission is to the BBS CBB Track, not to a specific lab."
+ },
+ "contact_faculty_advice": {
+  "value": "Not required: applicants do not need to find a thesis advisor before applying (advisor chosen through first-year rotations). The statement of purpose may mention specific BBS faculty whose research interests you. (Only the Plant Molecular Biology Track strongly encourages contacting faculty beforehand.)",
+  "source_url": "https://medicine.yale.edu/bbs/apply/faq/",
+  "fetched_at": "2026-11-03T19:00:49Z",
+  "quote": "Do I need to find a Yale faculty member who will serve as my thesis advisor prior to submitting an application? No.",
+  "scope": "program",
+  "cycle": null,
+  "note": "BBS Requirements (Statement of Purpose): 'You may mention specific BBS faculty whose research interests you.' No CBB-specific guidance on emailing PIs found on cbb.yale.edu application pages."
+ },
+ "stipend": {
+  "value": "$53,629 (2026-27); +$4,000 bonus for competitive external awards (NRSA/NSF GRFP) = $57,629",
+  "source_url": "https://medicine.yale.edu/bbs/apply/support/",
+  "fetched_at": "2026-11-03T19:00:58Z",
+  "quote": "We provide a stipend ($53,629 in 2026-27), full tuition coverage, free health insurance to you and your family, and discounted dental insurance.",
+  "scope": "program",
+  "cycle": "2026-27",
+  "note": "CBB Financial Support page still shows the 2025-2026 figure ($52,321; $56,321 with award bonus)."
+ },
+ "guaranteed_years": {
+  "value": "Full PhD funding normally for a minimum of five years (GSAS); BBS provides full support to all matriculating students regardless of citizenship",
+  "source_url": "https://gsas.yale.edu/graduate-financial-support-fellowships/funding-phd-students",
+  "fetched_at": "2026-11-03T19:01:15Z",
+  "quote": "Full PhD funding normally extends for a minimum of five years",
+  "scope": "graduate_school",
+  "cycle": null,
+  "note": "CBB Financial Support page: 'PhD students in good academic standing receive a yearly-increasing stipend ..., full tuition (for the first four years), and health coverage'. BBS FAQ: 'We provide full financial support to all matriculating students regardless of citizenship.'"
+ },
+ "pr_domestic": {
+  "value": true,
+  "source_url": "https://medicine.yale.edu/bbs/apply/faq/",
+  "fetched_at": "2026-11-03T19:00:49Z",
+  "quote": "The financial resources we have available to pay for students who are neither U.S. Citizens nor U.S. Permanent Residents, however, is very limited.",
+  "scope": "program",
+  "cycle": null,
+  "note": "BBS (and CBB Financial Support: 'Financial aid for students who are neither U.S. citizens nor U.S. permanent residents is very limited') group US permanent residents with US citizens; the limited 'international' pool is those who are neither. So a US PR is evaluated in the domestic (citizen/PR) pool for funding purposes. GSAS fee waivers are open to citizens, PRs and non-citizens alike."
+ },
+ "t32_citizen_pr_only": {
+  "value": true,
+  "source_url": "https://medicine.yale.edu/biomedical-informatics-data-science/education/fellowships/biomedical-informatics-and-data-science-training-program",
+  "fetched_at": "2026-11-03T19:06:33Z",
+  "quote": "Due to limitations imposed by our funding, applicants must be U.S. citizens or permanent residents.",
+  "scope": "program",
+  "cycle": null,
+  "note": "Yale's NLM-funded (T15) Biomedical Informatics and Data Science Training Program (linked from the CBB Graduate Program page as the 'Biomedical Informatics Research Training Grant'); predoctoral applicants are referred to CBB. CBB Financial Support: support comes partly from 'NIH Training Grants'. No explicit citizenship text found on BBS NIH Funded Training Programs pages."
+ },
+ "faculty_list": {
+  "source_urls": [
+   "https://medicine.yale.edu/bbs/people/cbb/"
+  ],
+  "render": false,
+  "faculty": [
+   {
+    "name": "Altice, Frederick (Rick) L.",
+    "title": "Professor of Medicine (Infectious Diseases) and of Epidemiology (Microbial Diseases); Affiliated Faculty, Yale Institute for Global Health; Director, Yale Center for Clinical and Community Research, Department of Medicine; Director, HIV in Prisons Program, Infectious Diseases; Director, Community Health Care Van, Intersection of Infectious Diseases and Substance Use Disorders/Addiction Medicine; Academic Icon Professor of Medicine, University of Malaya-Centre of Excellence for Research in AIDS (CERiA), Faculty of Medicine , University of Malaya; Visiting Professor, National Drug and Alcohol Research Centre, University of New South Wales",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/frederick-altice/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Augert, Arnaud",
+    "title": "Assistant Professor; Assistant Professor, Pathology; Full Member, Genomics",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/arnaud-augert/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Berro, Julien",
+    "title": "Associate Professor of Molecular Biophysics and Biochemistry, and of Cell Biology",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/julien-berro/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Bosenberg, Marcus",
+    "title": "Anthony N. Brady Professor of Dermatology, Pathology and Immunobiology; Director, Yale SPORE in Skin Cancer; Director, Yale Center for Immuno-Oncology; Co-Leader, Cancer Immunology, Yale Cancer Center",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/marcus-bosenberg/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Brandt, Cynthia",
+    "title": "Professor of Biomedical Informatics & Data Science; Vice Chair for Education, Biomedical Informatics & Data Science; Professor, Biostatistics",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/cynthia-brandt/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Braun, David A.",
+    "title": "Associate Professor of Internal Medicine (Medical Oncology and Hematology); Louis Goodman and Alfred Gilman Yale Scholar, Yale Cancer Center; Associate Director, Medical Oncology-Hematology Fellowship Program, Yale Cancer Center",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/david-braun/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Chang, Joseph",
+    "title": "James A. Attwood Professor of Statistics and Data Science",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/joseph-chang/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Chen, Qingyu",
+    "title": "Assistant Professor of Biomedical Informatics and Data Science",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/qingyu-chen/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Chen, Sidi",
+    "title": "Associate Professor of Genetics and of Neurosurgery",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/sidi-chen/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Cheng, Haoyu",
+    "title": "Assistant Professor of Biomedical Informatics and Data Science; Affiliated Faculty, Yale Center for Genomic Health",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/haoyu-cheng/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Cheung, Kei-Hoi",
+    "title": "Professor of Biomedical Informatics & Data Science; Professor, Biostatistics",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/kei-cheung/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Cho, Hyunghoon (Hoon)",
+    "title": "Associate Professor of Biomedical Informatics & Data Science and of Computer Science; Director of Graduate Admissions, Human Genome Sciences",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/hoon-cho/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Chung, Hattie",
+    "title": "Assistant Professor",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/hattie-chung/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Coifman, Ronald",
+    "title": "Sterling Professor of Mathematics and Professor of Electrical Engineering",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/coifman-ronald/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Dellaporta, Stephen",
+    "title": "Professor of Molecular, Cellular, and Developmental Biology",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/stephen-dellaporta/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Dixit, Purushottam",
+    "title": "Assistant Professor",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/purushottam-dixit/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Dong, Xianjun",
+    "title": "Associate Professor of Neurology",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/xianjun-dong/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Fan, Rong",
+    "title": "Harold Hodgkinson Professor of Biomedical Engineering and Professor of Pathology",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/rong-fan/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Flavell, Richard",
+    "title": "Sterling Professor of Immunobiology; Investigator, Howard Hughes Medical Institute",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/richard-flavell/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Fodeh-Jarad, Samah",
+    "title": "Associate Professor of Emergency Medicine & Biostatistics (Health Informatics)",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/samah-fodeh/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Garg, Salil",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/salil-garg/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Gelernter, Joel",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/joel-gelernter/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Gerstein, Mark",
+    "title": "Co-Director of Graduate Studies, CBB Track; Albert L Williams Professor of Biomedical Informatics and Professor of Molecular Biophysics & Biochemistry, of Computer Science, and of Statistics & Data Science",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/mark-gerstein/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Gruen, Jeffrey R",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/jeffrey-gruen/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Guan, Leying",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/leying-guan/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Günel, Murat",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/murat-gunel/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Hall, Ira",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/ira-hall/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Higgins-Chen, Albert",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/a-higginschen/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Iscoe, Mark",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/mark-iscoe/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Ishizuka, Jeffrey",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/jeffrey-ishizuka/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Jha, Anupama",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/anupama-jha/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Kaminski, Naftali",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/naftali-kaminski/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Khera, Rohan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/rohan-khera/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Kim, Jihoon",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/jihoon-kim-jk2895/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Kleinstein, Steven",
+    "title": "Co-Director of Graduate Studies, CBB Track; Anthony N Brady Professor of Pathology; Co-Director of Graduate Studies, Computational Biology and  Biomedical Informatics",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/steven-kleinstein/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Kluger, Yuval",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/yuval-kluger/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Koch, Evan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/evan-koch/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Krishnaswamy, Smita",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/smita-krishnaswamy/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Krumholz, Harlan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/harlan-krumholz/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Kueh, Hao Yuan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/haoyuan-kueh/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Kuo, Tsung-Ting",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/tsung-ting-kuo/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Lake, Nicole J.",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/nicole-lake/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Lek, Monkol",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/monkol-lek/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Lesch, Bluma",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/bluma-lesch/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Levenstein, Daniel",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/daniel-levenstein/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Lin, Haifan",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/haifan-lin/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Liu, Qiao",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/qiao-liu/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Liu, Xiaofeng",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/xiaofeng-liu/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Loza, Andrew",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/andrew-loza/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Lu, Jun",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/jun-lu/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Ma, Shuangge Steven",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/shuangge-ma/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Ma, Zongming",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/zongming-ma/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Machta, Benjamin",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/benjamin-machta/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "McDougal, Robert A",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/robert-mcdougal/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Meeker, Daniella",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/daniella-meeker/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Melnick, Ted",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/edward-melnick/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Miller-Jensen, Kathryn",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/kathryn-miller-jensen/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Murray, John D",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/john-murray/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Musser, Jacob",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/jacob-musser/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Noonan, James",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/james-noonan/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "O'Hern, Corey",
+    "title": "Co-Director of Graduate Admissions, CBB Track; Professor; Assoc Prof Dept of Mechanical Engineering & Materials Science and Physics; Associate Professor",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/corey-ohern/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Ogbunu, C. Brandon",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/brandon-ogbunu/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Ohno-Machado, Lucila",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/lucila-ohno-machado/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Oliveira, Carlos R",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/carlos-oliveira/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Onofrey, John",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/john-onofrey/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Papademetris, Xenophon",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/xenophon-papademetris/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Polimanti, Renato",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/renato-polimanti/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Pusztai, Lajos",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/lajos-pusztai/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Pyle, Anna Marie",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/anna-pyle/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Reilly, Steven",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/steven-k-reilly/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Rodríguez Martínez, María",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/maria-rodriguezmartinez/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Scherzer, Clemens",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/clemens-scherzer/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Schulz, Wade",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/wade-schulz/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Stern, David F.",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/df-stern/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Stites, Edward",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/edward-stites/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Suomivuori, Carl-Mikael",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/carl-mikael-suomivuori/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Tagare, Hemant",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/hemant-tagare/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Townsend, Jeffrey",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/jeffrey-townsend/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Tsang, John S.",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/john-tsang/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Tucci, Serena",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/serena-tucci/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Turner, Paul",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/paul-turner/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "van Dijk, David",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/david-vandijk/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Wang, Zuoheng A.",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/zuoheng-wang/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Xu, Hua",
+    "title": "Co-Director of Graduate Admissions, CBB Track; Robert T. McCluskey Professor of Biomedical Informatics and Data Science; Vice Chair for Research and Development, Department of Biomedical Informatics and Data Science; Associate Dean for Biomedical Informatics, Yale School of Medicine; Director, CBB MS Program , Biomedical Informatics & Data Science; Professor, Computer Science",
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/hua-xu/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/tracks/computational-biology-bioinformatics/faculty-staff/"
+   },
+   {
+    "name": "Yaari, Gur",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/gur-yaari/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Ying, Rex",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/rex-ying/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zhang, Heping",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/heping-zhang/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zhang, Kexin",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/kexin-k-zhang/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zhang, Sai",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/sai-zhang/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zhao, Hongyu",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/hongyu-zhao/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zhao, Yize",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/yize-zhao/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zhi, Degui",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/degui-zhi/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zhou, Hang",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/hang-zhou/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zhou, Xiang",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/xiang-zhou-xz735/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   },
+   {
+    "name": "Zucker, Steven",
+    "title": null,
+    "department": null,
+    "profile_url": "https://medicine.yale.edu/bbs/profile/steven-zucker/",
+    "lab_url": null,
+    "source_url": "https://medicine.yale.edu/bbs/people/cbb/"
+   }
+  ]
+ },
+ "problems": [
+  "bbs.yale.edu is unreachable from this environment; used medicine.yale.edu/bbs pages instead.",
+  "Titles filled only for faculty shown on the CBB Track Faculty & Staff page (first card page, A-F, plus track leadership: Gerstein, Kleinstein = Co-DGS; O'Hern, Xu = Co-Directors of Graduate Admissions); remaining titles/lab URLs left null for a later step. Departments not stated on the list pages (null).",
+  "CBB Financial Support page shows the older 2025-26 stipend ($52,321) while BBS shows $53,629 for 2026-27; BBS figure used.",
+  "IELTS speaking threshold inconsistent: BBS Requirements says 'at or below a 7.5' triggers the August English program; GSAS says 8.0 or higher is required to teach.",
+  "t32_citizen_pr_only is sourced from the Yale BIDS NLM T15 training program page (Yale School of Medicine), not from a CBB/BBS page; no other training-grant citizenship text found on BBS NIH Training Programs pages.",
+  "No separate priority/fellowship deadline found; GSAS fee-waiver request deadline (Jan 2) falls after the BBS Dec 1 application deadline."
+ ]
+}

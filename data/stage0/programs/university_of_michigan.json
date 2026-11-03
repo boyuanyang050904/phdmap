@@ -122,8 +122,11 @@
   ],
   "problems": [
     "Every University of Michigan site tried returns a Cloudflare challenge ('Just a moment...', HTTP 403) to both plain and --render fetches: www.umich.edu, rackham.umich.edu/programs-of-study/, sph.umich.edu/biostat/, bme.umich.edu, lsa.umich.edu (biophysics, chem, stats), cse.engin.umich.edu, che.engin.umich.edu, bulletin.engin.umich.edu, medresearch.umich.edu. No program facts could be verified.",
-    "BLOCKED by robots.txt (robots.txt returns 403/unreachable): https://medicine.umich.edu/dept/computational-medicine-bioinformatics (Bioinformatics PhD / DCMB), https://pibs.med.umich.edu/, https://biostat.sph.umich.edu/, https://csph.sph.umich.edu/.",
+    "medicine.umich.edu is now allowed by robots.txt, but every page tried returns a Cloudflare challenge ('Just a moment...', HTTP 403; not bypassed): https://medicine.umich.edu/ (-> medschool.umich.edu), https://medicine.umich.edu/dept/computational-medicine-bioinformatics, .../education/bioinformatics-graduate-program, https://medicine.umich.edu/dept/dcmb/people/faculty (-> medschool.umich.edu/departments/computational-medicine-bioinformatics), https://medschool.umich.edu/departments/computational-medicine-bioinformatics/directory; also challenged: https://education-dev.uofmhealth.org/departments/computational-medicine-bioinformatics/education, https://csg.sph.umich.edu/ (-> www.sph.umich.edu/csg), https://medresearch.umich.edu/. Bioinformatics PhD / DCMB still unverified.",
+    "UNREACHABLE (host does not resolve / TLS error per tool, 2026-11-03): https://pibs.med.umich.edu/, https://biostat.sph.umich.edu/, https://dcmb.med.umich.edu/.",
+    "BLOCKED by robots.txt (robots.txt returns 403/unreachable): https://csph.sph.umich.edu/ (not rechecked).",
     "Candidate programs to retry later (NOT verified, leads only): Bioinformatics PhD (DCMB), Human Genetics PhD, Biostatistics PhD, PIBS umbrella, Biophysics PhD, Biomedical Engineering PhD, Chemistry PhD, Statistics PhD.",
-    "WebSearch budget exhausted; only official-site navigation was possible."
+    "WebSearch budget exhausted; only official-site navigation was possible.",
+    "rechecked 2026-11-03 under Claude-User robots policy: medicine.umich.edu no longer robots-blocked but all DCMB/medschool pages return a Cloudflare challenge; pibs.med/biostat.sph/dcmb.med hosts unreachable. No programs or matches added; nothing could be verified."
   ]
 }
