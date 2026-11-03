@@ -1,0 +1,140 @@
+{
+ "institution": "Boston University",
+ "checked_at": "2026-11-03T09:06:54Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://www.bu.edu/sph/sph/academics/degree-programs-and-concentrationsub-pages/biostatistics-phd-program/",
+  "quote": "Doctor of Philosophy (PhD) in Biostatistics"
+ },
+ "programs": [
+  {
+   "program_name": "PhD in Biostatistics",
+   "degree": "PhD",
+   "discipline": "biostatistics",
+   "program_type": "biostat",
+   "umbrella_name": null,
+   "program_url": "https://www.bu.edu/sph/sph/academics/degree-programs-and-concentrationsub-pages/biostatistics-phd-program/",
+   "phd_evidence_quote": "The PhD in Biostatistics trains students in cutting edge data analysis techniques, statistical theory, and effective collaborative skills for biomedical and public health research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bu.edu/sph/departments/biostatistics/faculty-staff/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Gina Marie Peloso",
+    "Lindsay A. Farrer",
+    "Kathryn L. Lunetta",
+    "Paola Sebastiani B",
+    "Archana Venkataraman",
+    "Ioannis Ch. Paschalidis"
+   ],
+   "notes": "Program 'jointly administered by the Department of Biostatistic[s]' (SPH) and the Graduate School (text truncated). Department faculty & staff page used."
+  },
+  {
+   "program_name": "Bioinformatics PhD",
+   "degree": "PhD",
+   "discipline": "comp_bio",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.bu.edu/bioinformatics/admissions/programs/",
+   "phd_evidence_quote": "Prospective students who have completed a bachelor’s degree may apply for direct admission to the PhD program.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bu.edu/bioinformatics/people/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Lindsay A. Farrer",
+    "Gyungah Jun",
+    "Mary J. Dunlop",
+    "Sándor Vajda",
+    "Mark E. Crovella"
+   ],
+   "notes": ""
+  },
+  {
+   "program_name": "Graduate Program in Genetics & Genomics (GPGG)",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Program in Biomedical Sciences (PiBS)",
+   "program_url": "https://www.bumc.bu.edu/gpgg/graduate-program/",
+   "phd_evidence_quote": "Students matriculate in September of their first year as Program in Biomedical Sciences (PiBS) PhD students, and they choose their degree granting program at the end of their first year.",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bumc.bu.edu/gpgg/faculty/",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Gina Marie Peloso",
+    "Lindsay A. Farrer",
+    "Kathryn L. Lunetta",
+    "Gyungah Jun"
+   ],
+   "notes": "Listed under GMS PhD programs (https://www.bumc.bu.edu/gms/academics/phd-programs/)."
+  },
+  {
+   "program_name": "Biomedical Engineering PhD",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.bu.edu/eng/admissions/graduate/phd-programs/",
+   "phd_evidence_quote": "PhD programs at Boston University College of Engineering engage students at the highest level of scientific inquiry ... Biomedical Engineering",
+   "faculty_list_urls": [
+    {
+     "url": "https://www.bu.edu/eng/academics/departments-and-divisions/biomedical-engineering/people/?department=biomedical-engineering&affiliation=primary-affiliated-faculty&layout=list&num=1",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "Archana Venkataraman",
+    "Ioannis Ch. Paschalidis",
+    "Diane Joseph‐McCarthy",
+    "Mary J. Dunlop",
+    "Sándor Vajda"
+   ],
+   "notes": "PhD evidence is the College of Engineering 'PhD Programs' page listing Biomedical Engineering; BME-specific PhD page not fetched. Department primary/affiliated faculty list used (plain /people/ page without filter matched 0)."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Andrew Emili",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on Bioinformatics/BME/GPGG/Biostatistics lists; OpenAlex last_known also OHSU; not checked further."
+  },
+  {
+   "name": "Xihong Lin",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Harvard faculty (see Harvard file); BU association in OpenAlex likely via coauthorship/affiliation; not BU program faculty."
+  },
+  {
+   "name": "Alisa Knodle Manning",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Broad/MGH-affiliated; not on BU lists."
+  },
+  {
+   "name": "Sophia Gunn",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "OpenAlex last_known: New York Genome Center / Columbia; not on BU lists."
+  },
+  {
+   "name": "Nathan J Sahelijo",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not on BU faculty lists checked (possibly research staff/student)."
+  }
+ ],
+ "problems": [
+  "Program in Biomedical Sciences (PiBS) umbrella page (https://www.bumc.bu.edu/gms/academics/phd-programs/pibs/) not fetched separately; umbrella relation taken from GPGG program page",
+  "BU Computer Science and Chemistry / MCBB PhDs not checked (only peripheral author Mark E. Crovella in CS)",
+  "WebSearch unavailable (budget exhausted); URLs found via site navigation"
+ ]
+}

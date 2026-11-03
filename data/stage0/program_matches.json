@@ -3,6 +3,7 @@
   "institution": "Baylor College of Medicine",
   "file": "baylor_college_of_medicine.json",
   "grants_phd": true,
+  "institution_kind": "university",
   "grants_phd_evidence": {
    "url": "https://www.bcm.edu/education/graduate-school-of-biomedical-sciences/degree-programs-and-certificates",
    "quote": "The Graduate School of Biomedical Sciences offers 7 interdisciplinary Ph.D. programs, 2 physician scientist training programs, a Master's Program, a Graduate Certificate Program and a post-baccalaureate programs."
@@ -262,6 +263,7 @@
   "institution": "City of Hope",
   "file": "city_of_hope.json",
   "grants_phd": null,
+  "institution_kind": "independent_institute",
   "grants_phd_evidence": null,
   "problems": [
    "BLOCKED by robots.txt: https://www.cityofhope.org/education/irell-manella-graduate-school-of-biological-sciences (guessed URL for its graduate school). https://www.cityofhope.org/robots.txt returns HTTP 403, which the project fetcher treats as disallow-all, so the whole www.cityofhope.org site (incl. the OpenAlex homepage https://www.cityofhope.org/location/antelope-valley) is blocked. Respected; no workaround. Whether City of Hope grants PhDs, its programs and faculty lists are unverified -> grants_phd=null.",
@@ -274,6 +276,7 @@
   "institution": "Cold Spring Harbor Laboratory",
   "file": "cold_spring_harbor_laboratory.json",
   "grants_phd": null,
+  "institution_kind": "independent_institute",
   "grants_phd_evidence": null,
   "problems": [
    "BLOCKED by robots.txt: https://www.cshl.edu (homepage), https://www.cshl.edu/education/, https://www.cshl.edu/education/graduate-school/. https://www.cshl.edu/robots.txt has 'User-agent: anthropic-ai Disallow: /' and 'User-agent: ClaudeBot Disallow: /', which apply to the project fetcher. Respected; no workaround attempted (other CSHL subdomains not tried). Whether CSHL grants PhDs (and its program list / faculty) is therefore unverified -> grants_phd=null.",
@@ -286,6 +289,7 @@
   "institution": "Colorado State University",
   "file": "colorado_state_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://graduateschool.colostate.edu/programs/cell-and-molecular-biology-phd/",
    "quote": "Cell and Molecular Biology (Ph.D.)"
@@ -677,9 +681,1206 @@
   "n_relevant_authors": 8
  },
  {
+  "institution": "Cornell University",
+  "file": "cornell_university.json",
+  "grants_phd": true,
+  "institution_kind": null,
+  "grants_phd_evidence": {
+   "url": "https://gradschool.weill.cornell.edu/academics",
+   "quote": "Weill Cornell Graduate School of Medical Sciences (WCGS) is a long-standing partnership between the Sloan Kettering Institute and Weill Cornell Medical College, offering doctorates in eight research programs and nine Masters programs. Additionally, WCGS offers three doctoral Tri-Institutional programs that include Rockefeller University."
+  },
+  "problems": [
+   "https://gradschool.cornell.edu/academics/fields-of-study/ returned 403 (Cloudflare challenge), so the Ithaca graduate-field listing could not be used. Department and field pages were used instead.",
+   "Cornell CS faculty page matched 0, and the rendered fetch returned 502.",
+   "Weill Cornell 'Biostatistics and Data Science' is an MS program (page: 'The Master of Science in Biostatistics and Data Science is a 16-month, 36 credit program'). No biostatistics PhD found at WCGS; the Population Health Sciences PhD exists but its faculty were not matched.",
+   "Ithaca Statistics PhD not checked: no relevant author was identified as statistics faculty.",
+   "BCMB Allied (WCGS) faculty URL https://gradschool.weill.cornell.edu/academics/biochemistry-cell-biology-molecular-biology-bcmb/faculty returned 404.",
+   "WebSearch budget exhausted; all URLs found by navigating official sites."
+  ],
+  "programs": [
+   {
+    "program_name": "Computational Biology PhD (Graduate Field of Computational Biology, Ithaca)",
+    "degree": "PhD",
+    "discipline": "comp_bio",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://cals.cornell.edu/computational-biology/academics/cb-graduate-program",
+    "phd_evidence_quote": "The graduate field of Computational Biology offers Ph.D. degrees in the development and application of data-analytical and theoretical methods, mathematical modeling and computational simulation techniques to the study of biological systems.",
+    "faculty_list_urls": [
+     {
+      "url": "https://cals.cornell.edu/computational-biology/academics/graduate/cb-field-faculty",
+      "render": false
+     },
+     {
+      "url": "https://cals.cornell.edu/computational-biology/people",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Giulia Guidi",
+     "B. Franklin Pugh",
+     "Adam C. Siepel",
+     "Matthew W. Pennell",
+     "Gaurav D. Moghe",
+     "Haiyuan Yu"
+    ],
+    "notes": "Ithaca campus. The department people page matched only Pennell and Yu; the field-faculty page lists the wider graduate-field membership.",
+    "pages": [
+     {
+      "url": "https://cals.cornell.edu/computational-biology/academics/graduate/cb-field-faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T08:59:22Z",
+      "text_len": 9247,
+      "readable": true
+     },
+     {
+      "url": "https://cals.cornell.edu/computational-biology/people",
+      "status": 200,
+      "fetched_at": "2026-11-03T08:59:08Z",
+      "text_len": 12639,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5067174340",
+      "name": "Haiyuan Yu",
+      "orcid": "https://orcid.org/0000-0001-7597-6049",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://cals.cornell.edu/computational-biology/academics/graduate/cb-field-faculty",
+      "fetched_at": "2026-11-03T08:59:22Z",
+      "snippet": "tin timothy wells xiangtao xu haiyuan yu life changing visit cals expl",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5067174340"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5034932123",
+      "name": "Giulia Guidi",
+      "orcid": "https://orcid.org/0000-0001-8925-3239",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A2_causal_network": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://cals.cornell.edu/computational-biology/academics/graduate/cb-field-faculty",
+      "fetched_at": "2026-11-03T08:59:22Z",
+      "snippet": "atie gold megan ann greischar giulia guidi andrew hein jaehee kim jon m ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5034932123"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5061240989",
+      "name": "Adam C. Siepel",
+      "orcid": "https://orcid.org/0000-0002-3557-7219",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://cals.cornell.edu/computational-biology/academics/graduate/cb-field-faculty",
+      "fetched_at": "2026-11-03T08:59:22Z",
+      "snippet": " shmoys http cals cornell edu adam siepel http cals cornell edu ayshwar",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5061240989"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5068260007",
+      "name": "Matthew W. Pennell",
+      "orcid": "https://orcid.org/0000-0002-2886-3970",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://cals.cornell.edu/computational-biology/academics/graduate/cb-field-faculty",
+      "fetched_at": "2026-11-03T08:59:22Z",
+      "snippet": "topher r myers patrick murphy matt pennell benjamin f pugh hudson kern r",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5068260007"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5045926154",
+      "name": "Gaurav D. Moghe",
+      "orcid": "https://orcid.org/0000-0002-8761-064X",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://cals.cornell.edu/computational-biology/academics/graduate/cb-field-faculty",
+      "fetched_at": "2026-11-03T08:59:22Z",
+      "snippet": " philipp messer jason g mezey gaurav dilip moghe shaila ahsan musharoff christ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5045926154"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Tri-Institutional PhD Program in Computational Biology & Medicine (CBM)",
+    "degree": "PhD",
+    "discipline": "comp_bio",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://compbio.triiprograms.org",
+    "phd_evidence_quote": "The Tri-Institutional PhD Program in Computational Biology & Medicine brings together the exceptional educational and research resources of Cornell University in Ithaca, its Medical College in New York City (Weill Cornell Medicine), Memorial Sloan Kettering Cancer Center and The Rockefeller University.",
+    "faculty_list_urls": [
+     {
+      "url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Christina S. Leslie",
+     "Kushal K. Dey",
+     "Wesley Tansey",
+     "Caleb A. Lareau",
+     "Haiyuan Yu",
+     "Nikolaus D. Schultz",
+     "Justin Jee",
+     "Benjamin D. Greenbaum",
+     "Harel Weinstein"
+    ],
+    "notes": "Run through Weill Cornell Graduate School (WCGS), per https://gradschool.weill.cornell.edu/academics/tri-institutional-programs. Many faculty are MSK.",
+    "pages": [
+     {
+      "url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "status": 200,
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "text_len": 36520,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5067174340",
+      "name": "Haiyuan Yu",
+      "orcid": "https://orcid.org/0000-0001-7597-6049",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": "iments of biofilms and cancer yu haiyuan email site cornell university",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5067174340"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5054483679",
+      "name": "Caleb A. Lareau",
+      "orcid": "https://orcid.org/0000-0003-4179-4807",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.0,
+        "n_works": 3,
+        "n_methods": 3,
+        "subtopics": {
+         "B5_denovo_design": 3,
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 3.0,
+      "is_core": true,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": "he course of cancer evolution lareau caleb email site memorial sloan ket",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5054483679"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5034206272",
+      "name": "Kushal K. Dey",
+      "orcid": "https://orcid.org/0000-0002-3520-2345",
+      "dirs": {
+       "A": {
+        "tier": "core",
+        "score": 2.0,
+        "n_works": 2,
+        "n_methods": 2,
+        "subtopics": {
+         "A1_perturbseq": 1,
+         "A3_statgen": 2
+        }
+       }
+      },
+      "best_score": 2.0,
+      "is_core": true,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": "s biology biomedical genomics dey kushal email site memorial sloan ket",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5034206272"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5085231879",
+      "name": "Christina S. Leslie",
+      "orcid": "https://orcid.org/0000-0002-4571-5910",
+      "dirs": {
+       "A": {
+        "tier": "core",
+        "score": 1.4,
+        "n_works": 2,
+        "n_methods": 1,
+        "subtopics": {
+         "A1_perturbseq": 2
+        }
+       }
+      },
+      "best_score": 1.4,
+      "is_core": true,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": "and structural rearrangements leslie christina email site memorial sloan ket",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5085231879"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5033125884",
+      "name": "Nikolaus D. Schultz",
+      "orcid": "https://orcid.org/0000-0002-0131-4904",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 1.4,
+        "n_works": 2,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 2
+        }
+       }
+      },
+      "best_score": 1.4,
+      "is_core": true,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": "on neuroscience and neurology schultz nikolaus email site memorial sloan ket",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5033125884"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5058907108",
+      "name": "Justin Jee",
+      "orcid": "https://orcid.org/0000-0001-9783-0139",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 1.4,
+        "n_works": 2,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 2
+        }
+       }
+      },
+      "best_score": 1.4,
+      "is_core": true,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": "ling gene expression in cells jee justin email site memorial sloan ket",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5058907108"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5006383763",
+      "name": "Wesley Tansey",
+      "orcid": "https://orcid.org/0000-0002-5294-4228",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A2_causal_network": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": "s of cancer stem cell biology tansey wesley email site memorial sloan ket",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5006383763"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5063215100",
+      "name": "Benjamin D. Greenbaum",
+      "orcid": "https://orcid.org/0000-0001-6153-8793",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": " how this goes awry in cancer greenbaum benjamin email site memorial sloan ket",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5063215100"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5014370221",
+      "name": "Harel Weinstein",
+      "orcid": "https://orcid.org/0000-0003-3473-9818",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://compbio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T08:59:55Z",
+      "snippet": "egrative health data analysis weinstein harel email site weill cornell medi",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5014370221"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Physiology, Biophysics, and Systems Biology (PBSB) PhD, Weill Cornell Graduate School",
+    "degree": "PhD",
+    "discipline": "biophysics",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://gradschool.weill.cornell.edu/programs/physiology-biophysics-systems-biology",
+    "phd_evidence_quote": "Doctoral Programs at WCGS are broad and include the Biochemistry, Structural Biology, Cell Biology, Developmental Biology and Molecular Biology graduate programs collectively known as the BCMB Allied Program, Immunology and Microbial Pathogenesis, Neuroscience, Pharmacology, Physiology, Biophysics, and Systems Biology, and Population Health Sciences.",
+    "faculty_list_urls": [
+     {
+      "url": "https://gradschool.weill.cornell.edu/academics/physiology-biophysics-systems-biology/faculty",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Christina S. Leslie",
+     "Wesley Tansey",
+     "B. Franklin Pugh",
+     "Benjamin D. Greenbaum",
+     "Harel Weinstein"
+    ],
+    "notes": "Evidence quote is from https://gradschool.weill.cornell.edu/academics. Pugh being listed on a WCM program page was not checked further.",
+    "pages": [
+     {
+      "url": "https://gradschool.weill.cornell.edu/academics/physiology-biophysics-systems-biology/faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:00:37Z",
+      "text_len": 26459,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5085231879",
+      "name": "Christina S. Leslie",
+      "orcid": "https://orcid.org/0000-0002-4571-5910",
+      "dirs": {
+       "A": {
+        "tier": "core",
+        "score": 1.4,
+        "n_works": 2,
+        "n_methods": 1,
+        "subtopics": {
+         "A1_perturbseq": 2
+        }
+       }
+      },
+      "best_score": 1.4,
+      "is_core": true,
+      "evidence_url": "https://gradschool.weill.cornell.edu/academics/physiology-biophysics-systems-biology/faculty",
+      "fetched_at": "2026-11-03T09:00:37Z",
+      "snippet": "ey laughney andres leschziner christina leslie joshua levitz yulin li massim",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5085231879"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5006383763",
+      "name": "Wesley Tansey",
+      "orcid": "https://orcid.org/0000-0002-5294-4228",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A2_causal_network": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://gradschool.weill.cornell.edu/academics/physiology-biophysics-systems-biology/faculty",
+      "fetched_at": "2026-11-03T09:00:37Z",
+      "snippet": "slan soldatov heidi stuhlmann wesley tansey mary teruel hagen tilgner pet",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5006383763"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5063215100",
+      "name": "Benjamin D. Greenbaum",
+      "orcid": "https://orcid.org/0000-0001-6153-8793",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://gradschool.weill.cornell.edu/academics/physiology-biophysics-systems-biology/faculty",
+      "fetched_at": "2026-11-03T09:00:37Z",
+      "snippet": "ento todd evans bishoy faltas benjamin greenbaum iman hajirasouliha daniel hel",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5063215100"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5014370221",
+      "name": "Harel Weinstein",
+      "orcid": "https://orcid.org/0000-0003-3473-9818",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://gradschool.weill.cornell.edu/academics/physiology-biophysics-systems-biology/faculty",
+      "fetched_at": "2026-11-03T09:00:37Z",
+      "snippet": "yi wang fei wang guangyu wang harel weinstein stephen wong joao xavier qing",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5014370221"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Tri-Institutional PhD Program in Chemical Biology (TPCB)",
+    "degree": "PhD",
+    "discipline": "chemistry",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://chembio.triiprograms.org/",
+    "phd_evidence_quote": "The Tri-Institutional PhD Program in Chemical Biology (TPCB) at WCGS is a dynamic, interdisciplinary graduate program dedicated to understanding biological processes through the lens of chemistry.",
+    "faculty_list_urls": [
+     {
+      "url": "https://chembio.triiprograms.org/faculty-research/faculty-directory/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Harel Weinstein"
+    ],
+    "notes": "Evidence quote is from https://gradschool.weill.cornell.edu/academics/tri-institutional-programs.",
+    "pages": [
+     {
+      "url": "https://chembio.triiprograms.org/faculty-research/faculty-directory/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:00:09Z",
+      "text_len": 46632,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5014370221",
+      "name": "Harel Weinstein",
+      "orcid": "https://orcid.org/0000-0003-3473-9818",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://chembio.triiprograms.org/faculty-research/faculty-directory/",
+      "fetched_at": "2026-11-03T09:00:09Z",
+      "snippet": "iosis phd gregory alushin phd harel weinstein dsc heeseon an phd jacob geri",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5014370221"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Biochemistry, Molecular and Cell Biology (BMCB) graduate field, Ithaca",
+    "degree": "PhD",
+    "discipline": "biochemistry",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/biochemistry-molecular-and-cell-biology",
+    "phd_evidence_quote": "The graduate program in the Field of Biochemistry, Molecular and Cell Biology (BMCB) offers a Ph.D. degree only.",
+    "faculty_list_urls": [
+     {
+      "url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/biochemistry-molecular-and-cell-biology/faculty-research-bmcb",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "B. Franklin Pugh",
+     "Matthew P. DeLisa",
+     "Haiyuan Yu",
+     "Richard A. Cerione"
+    ],
+    "notes": "Evidence quote is from the BMCB student handbook page (\u2026/bmcb-student-handbook-faculty-resources). Admissions are shared with the GGD field.",
+    "pages": [
+     {
+      "url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/biochemistry-molecular-and-cell-biology/faculty-research-bmcb",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:01:21Z",
+      "text_len": 55002,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5067174340",
+      "name": "Haiyuan Yu",
+      "orcid": "https://orcid.org/0000-0001-7597-6049",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/biochemistry-molecular-and-cell-biology/faculty-research-bmcb",
+      "fetched_at": "2026-11-03T09:01:21Z",
+      "snippet": "ransition an egg to an embryo yu haiyuan bmcb and ggd professor comput",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5067174340"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5081822200",
+      "name": "Matthew P. DeLisa",
+      "orcid": "https://orcid.org/0000-0003-3226-1566",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/biochemistry-molecular-and-cell-biology/faculty-research-bmcb",
+      "fetched_at": "2026-11-03T09:01:21Z",
+      "snippet": "r microbiology and immunology delisa matthew bmcb and ggd william l lewis ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5081822200"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5079119381",
+      "name": "Richard A. Cerione",
+      "orcid": "https://orcid.org/0000-0003-4512-5897",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/biochemistry-molecular-and-cell-biology/faculty-research-bmcb",
+      "fetched_at": "2026-11-03T09:01:21Z",
+      "snippet": "ative virology and immunology cerione richard bmcb and ggd goldwin smith pr",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5079119381"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Genetics, Genomics, and Development (GGD) graduate field, Ithaca",
+    "degree": "PhD",
+    "discipline": "genetics_genomics",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/genetics-genomics-and-development",
+    "phd_evidence_quote": "To earn a PhD, students must complete a minimum of six academic semesters, with at least two semesters occurring after the A exam.",
+    "faculty_list_urls": [
+     {
+      "url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/genetics-genomics-and-development/faculty-and-research-ggd",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "B. Franklin Pugh",
+     "Matthew P. DeLisa",
+     "Haiyuan Yu",
+     "Richard A. Cerione"
+    ],
+    "notes": "Evidence quote is from \u2026/ggd-student-handbook-faculty-resources. The GGD faculty list looks like the same combined BMCB/GGD faculty list.",
+    "pages": [
+     {
+      "url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/genetics-genomics-and-development/faculty-and-research-ggd",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:01:35Z",
+      "text_len": 54935,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5067174340",
+      "name": "Haiyuan Yu",
+      "orcid": "https://orcid.org/0000-0001-7597-6049",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/genetics-genomics-and-development/faculty-and-research-ggd",
+      "fetched_at": "2026-11-03T09:01:35Z",
+      "snippet": "ransition an egg to an embryo yu haiyuan bmcb and ggd professor comput",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5067174340"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5081822200",
+      "name": "Matthew P. DeLisa",
+      "orcid": "https://orcid.org/0000-0003-3226-1566",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/genetics-genomics-and-development/faculty-and-research-ggd",
+      "fetched_at": "2026-11-03T09:01:35Z",
+      "snippet": "r microbiology and immunology delisa matthew bmcb and ggd william l lewis ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5081822200"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5079119381",
+      "name": "Richard A. Cerione",
+      "orcid": "https://orcid.org/0000-0003-4512-5897",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://cals.cornell.edu/molecular-biology-genetics/academics/graduate/genetics-genomics-and-development/faculty-and-research-ggd",
+      "fetched_at": "2026-11-03T09:01:35Z",
+      "snippet": "ative virology and immunology cerione richard bmcb and ggd goldwin smith pr",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5079119381"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Chemistry & Chemical Biology PhD (Ithaca)",
+    "degree": "PhD",
+    "discipline": "chemistry",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://chemistry.cornell.edu/graduate-program",
+    "phd_evidence_quote": "The Department of Chemistry & Chemical Biology (C&CB) at Cornell University offers a top-ranked Ph.D. program designed to train students to become independent thinkers with specialized expertise in Chemical Sciences.",
+    "faculty_list_urls": [
+     {
+      "url": "https://chemistry.cornell.edu/faculty",
+      "render": false
+     },
+     {
+      "url": "https://chemistry.cornell.edu/field-members",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Richard A. Cerione",
+     "Nozomi Ando"
+    ],
+    "notes": "The field-members page matched 0.",
+    "pages": [
+     {
+      "url": "https://chemistry.cornell.edu/faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:02:04Z",
+      "text_len": 7117,
+      "readable": true
+     },
+     {
+      "url": "https://chemistry.cornell.edu/field-members",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:02:07Z",
+      "text_len": 4431,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5019528030",
+      "name": "Nozomi Ando",
+      "orcid": "https://orcid.org/0000-0001-7062-1644",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.0,
+        "n_works": 3,
+        "n_methods": 3,
+        "subtopics": {
+         "B6_structure_pred": 3
+        }
+       }
+      },
+      "best_score": 3.0,
+      "is_core": true,
+      "evidence_url": "https://chemistry.cornell.edu/faculty",
+      "fetched_at": "2026-11-03T09:02:04Z",
+      "snippet": "physical bioinorganic polymer nozomi ando professor director of graduat",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5019528030"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5079119381",
+      "name": "Richard A. Cerione",
+      "orcid": "https://orcid.org/0000-0003-4512-5897",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://chemistry.cornell.edu/faculty",
+      "fetched_at": "2026-11-03T09:02:04Z",
+      "snippet": "ical chemical biology organic richard a cerione distinguished professor of ar",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5079119381"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Chemical and Biomolecular Engineering PhD (Smith School, Ithaca)",
+    "degree": "PhD",
+    "discipline": "other:chemical_engineering",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://www.duffield.cornell.edu/cbe/phd-program/",
+    "phd_evidence_quote": "Our Ph.D. program is completed in four to five years, and students typically receive full funding.",
+    "faculty_list_urls": [
+     {
+      "url": "https://www.duffield.cornell.edu/cbe/faculty-staff/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Fengqi You",
+     "Matthew P. DeLisa",
+     "Jeffrey D. Varner"
+    ],
+    "notes": "Included for the core-B author Fengqi You.",
+    "pages": [
+     {
+      "url": "https://www.duffield.cornell.edu/cbe/faculty-staff/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:02:23Z",
+      "text_len": 61146,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5062751420",
+      "name": "Fengqi You",
+      "orcid": "https://orcid.org/0000-0001-9609-4299",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 3,
+        "n_methods": 2,
+        "subtopics": {
+         "B5_denovo_design": 3,
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://www.duffield.cornell.edu/cbe/faculty-staff/",
+      "fetched_at": "2026-11-03T09:02:23Z",
+      "snippet": " ryang cornell edu yang group fengqi you roxanne e and michael j zak p",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5062751420"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5081822200",
+      "name": "Matthew P. DeLisa",
+      "orcid": "https://orcid.org/0000-0003-3226-1566",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://www.duffield.cornell.edu/cbe/faculty-staff/",
+      "fetched_at": "2026-11-03T09:02:23Z",
+      "snippet": " - sd cornell edu daniel team matthew delisa director of postdoctoral stud",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5081822200"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5003161155",
+      "name": "Jeffrey D. Varner",
+      "orcid": "https://orcid.org/0000-0002-2558-7026",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://www.duffield.cornell.edu/cbe/faculty-staff/",
+      "fetched_at": "2026-11-03T09:02:23Z",
+      "snippet": " jwt cornell edu tester group jeffrey d varner director master of engineerin",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5003161155"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Biomedical Engineering PhD (Meinig School, Ithaca)",
+    "degree": "PhD",
+    "discipline": "bioengineering",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://www.duffield.cornell.edu/bme/phd-program/",
+    "phd_evidence_quote": "Our research-oriented doctoral program gives you a deep understanding of biomedical engineering concepts and prepares you to be a world-class researcher.",
+    "faculty_list_urls": [
+     {
+      "url": "https://www.duffield.cornell.edu/bme/faculty-staff/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Matthew P. DeLisa",
+     "Haiyuan Yu",
+     "Jeffrey D. Varner"
+    ],
+    "notes": "Both the BME and CBE faculty-staff pages may be views of the shared Duffield directory (DeLisa and Varner match on both).",
+    "pages": [
+     {
+      "url": "https://www.duffield.cornell.edu/bme/faculty-staff/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:02:25Z",
+      "text_len": 62641,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5067174340",
+      "name": "Haiyuan Yu",
+      "orcid": "https://orcid.org/0000-0001-7597-6049",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://www.duffield.cornell.edu/bme/faculty-staff/",
+      "fetched_at": "2026-11-03T09:02:25Z",
+      "snippet": " ryang cornell edu yang group haiyuan yu professor biological statisti",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5067174340"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5081822200",
+      "name": "Matthew P. DeLisa",
+      "orcid": "https://orcid.org/0000-0003-3226-1566",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://www.duffield.cornell.edu/bme/faculty-staff/",
+      "fetched_at": "2026-11-03T09:02:25Z",
+      "snippet": " - sd cornell edu daniel team matthew delisa director of postdoctoral stud",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5081822200"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5003161155",
+      "name": "Jeffrey D. Varner",
+      "orcid": "https://orcid.org/0000-0002-2558-7026",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://www.duffield.cornell.edu/bme/faculty-staff/",
+      "fetched_at": "2026-11-03T09:02:25Z",
+      "snippet": "es nv cornell edu vacanti lab jeffrey d varner director master of engineerin",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5003161155"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Computer Science PhD (Cornell Bowers)",
+    "degree": "PhD",
+    "discipline": "computer_science",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://www.cs.cornell.edu/phd",
+    "phd_evidence_quote": "Join a top ranked Ph.D. program where pioneering research spans the full spectrum of computer science",
+    "faculty_list_urls": [
+     {
+      "url": "https://www.cs.cornell.edu/people/faculty",
+      "render": false
+     }
+    ],
+    "matched_authors": [],
+    "notes": "The faculty page matched 0 (Giulia Guidi's name is not in its plain text; --render returned 502). Guidi is matched via the Computational Biology field.",
+    "pages": [
+     {
+      "url": "https://www.cs.cornell.edu/people/faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:02:34Z",
+      "text_len": 24854,
+      "readable": true
+     }
+    ],
+    "matched": []
+   }
+  ],
+  "n_relevant_authors": 42
+ },
+ {
   "institution": "Duke University",
   "file": "duke_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://biostat.duke.edu/education-and-training/biostatistics-phd",
    "quote": "The Department of Biostatistics and Bioinformatics offers a doctoral degree in Biostatistics through the Duke University Graduate School."
@@ -781,7 +1982,7 @@
       "is_core": true,
       "evidence_url": "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program/people/cbb-1",
       "fetched_at": "2026-11-03T08:55:34Z",
-      "snippet": "lia professor of cell biology bruce randall donald james b duke distinguished pr",
+      "snippet": "i talia profile bruce randall donald bruce randall donald profile bruce ",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5046723017"
@@ -856,7 +2057,7 @@
       "is_core": false,
       "evidence_url": "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program/people/cbb-1",
       "fetched_at": "2026-11-03T08:55:34Z",
-      "snippet": "trina san roman profile amy k schmid amy k schmid profile amy k schmid",
+      "snippet": "lar genetics and microbiology amy k schmid professor of biology scott c ",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5076394173"
@@ -1131,7 +2332,7 @@
       "is_core": true,
       "evidence_url": "https://bcb.duke.edu/about-us/people-department/secondary-faculty",
       "fetched_at": "2026-11-03T08:55:42Z",
-      "snippet": "en cohn professor of medicine bruce randall donald james b duke distinguished pr",
+      "snippet": "en cohn profile bruce randall donald bruce randall donald profile bruce ",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5046723017"
@@ -1370,7 +2571,7 @@
       "is_core": true,
       "evidence_url": "https://cs.duke.edu/people/appointed-faculty/primary-faculty",
       "fetched_at": "2026-11-03T08:59:35Z",
-      "snippet": "gra cs duke edu personal page bruce randall donald james b duke distinguished pr",
+      "snippet": "ttps scholars duke edu person bruce donald bruce randall donald http www",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5046723017"
@@ -1542,7 +2743,7 @@
       "is_core": false,
       "evidence_url": "https://biology.duke.edu/people/appointed-faculty/primary-faculty",
       "fetched_at": "2026-11-03T09:00:35Z",
-      "snippet": "k schmid professor of biology amy schmid duke edu http www biology duk",
+      "snippet": "turer of biology lrs duke edu amy k schmid professor of biology amy schm",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5076394173"
@@ -1554,9 +2755,25 @@
   "n_relevant_authors": 32
  },
  {
+  "institution": "Fox Chase Cancer Center",
+  "file": "fox_chase_cancer_center.json",
+  "grants_phd": false,
+  "institution_kind": "independent_institute",
+  "grants_phd_evidence": {
+   "url": "https://www.foxchase.org/research-training/education/research/graduate",
+   "quote": "Fox Chase Cancer Center is not a degree-granting institution. However, every year graduate students carry out their thesis research under the supervision of Fox Chase faculty who hold adjunct faculty appointments at local academic institutions"
+  },
+  "problems": [
+   "Not degree-granting, so stopped as instructed. The graduate page lists partner institutions whose students do thesis research at Fox Chase, including Drexel University College of Medicine, Jiangsu University, Kazan Federal University, Temple University, Soochow University, University of Kansas, University of Pennsylvania, Yale University, and Penn State (link to its biomedical-sciences bulletin). Which partner programs Dunbrack/Karanicolas belong to was not checked."
+  ],
+  "programs": [],
+  "n_relevant_authors": 2
+ },
+ {
   "institution": "Harvard University",
   "file": "harvard_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://gsas.harvard.edu/program/biological-and-biomedical-sciences",
    "quote": "Degrees Offered Doctor of Philosophy (PhD)"
@@ -1841,7 +3058,7 @@
       "is_core": true,
       "evidence_url": "https://hsph.harvard.edu/profile/alkes-price/",
       "fetched_at": "2026-11-03T08:50:12Z",
-      "snippet": "hjalmsson bj zhu z smoller jw price al nat genet pmid correlations b",
+      "snippet": "alkes price harvard t h chan school of pu",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5066797582"
@@ -2059,7 +3276,7 @@
       "is_core": true,
       "evidence_url": "https://hsph.harvard.edu/profile/alkes-price/",
       "fetched_at": "2026-11-03T08:50:12Z",
-      "snippet": "hjalmsson bj zhu z smoller jw price al nat genet pmid correlations b",
+      "snippet": "alkes price harvard t h chan school of pu",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5066797582"
@@ -2553,6 +3770,7 @@
   "institution": "Icahn School of Medicine at Mount Sinai",
   "file": "icahn_school_of_medicine_at_mount_sinai.json",
   "grants_phd": null,
+  "institution_kind": null,
   "grants_phd_evidence": null,
   "problems": [
    "BLOCKED by robots.txt: https://icahn.mssm.edu/ (also https://icahn.mssm.edu/education/phd, https://icahn.mssm.edu/about/departments/genetics-genomic-sciences; robots.txt itself returns 403 Access Denied)",
@@ -2569,6 +3787,7 @@
   "institution": "Indiana University",
   "file": "indiana_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://medicine.iu.edu/graduate-degrees/phd/indianapolis",
    "quote": "IU School of Medicine\u2014Indianapolis offers the Indiana BioMedical Gateway Program (IBMG) for PhD study that provides an opportunity for students to explore many research areas, eight PhD programs, and a variety of minors"
@@ -2744,7 +3963,7 @@
       "is_core": true,
       "evidence_url": "https://medicine.iu.edu/genetics/faculty/affiliated",
       "fetched_at": "2026-11-03T08:59:26Z",
-      "snippet": "faculty econs michael faculty edenberg howard edenberg howard edenberg howard faculty edenb",
+      "snippet": "ns md distinguished professor howard j edenberg phd howard j edenberg phd dis",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5044635265"
@@ -3042,6 +4261,7 @@
   "institution": "Johns Hopkins University",
   "file": "johns_hopkins_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/chemistry/chemistry-phd/",
    "quote": "Johns Hopkins University was the first American institution to emphasize graduate education and to establish a PhD program in chemistry."
@@ -3955,9 +5175,130 @@
   "n_relevant_authors": 45
  },
  {
+  "institution": "Keck Graduate Institute",
+  "file": "keck_graduate_institute.json",
+  "grants_phd": true,
+  "institution_kind": "independent_institute",
+  "grants_phd_evidence": {
+   "url": "https://www.kgi.edu/degrees-and-programs/applied-life-sciences/doctor-of-philosophy-in-applied-life-sciences.html",
+   "quote": "The Doctor of Philosophy (PhD) in Applied Life Sciences at Keck Graduate Institute (KGI) positions you at the forefront of the biosciences industry with advanced bioscience expertise in research, discovery, and application."
+  },
+  "problems": [
+   "People directory https://www.kgi.edu/people/index.html is unreadable for name matching even with --render (paginated, names split across cells); used guessed profile URLs https://www.kgi.edu/people/animesh-ray.html and https://www.kgi.edu/people/ilya-tolstorukov.html, both fetched (HTTP 200). PhD-program faculty membership is inferred from KGI faculty status plus the program's statement that Traditional Track students are supervised by Riggs School / Pharmacy / Health Sciences faculty; no explicit PhD-program faculty roster found."
+  ],
+  "programs": [
+   {
+    "program_name": "Doctor of Philosophy in Applied Life Sciences",
+    "degree": "PhD",
+    "discipline": "other:applied_life_sciences",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://www.kgi.edu/degrees-and-programs/applied-life-sciences/doctor-of-philosophy-in-applied-life-sciences.html",
+    "phd_evidence_quote": "KGI\u2019s PhD in Applied Life Sciences degree program blends the scientific rigor of laboratory research with the business insights essential to the bioscience industry.",
+    "faculty_list_urls": [
+     {
+      "url": "https://www.kgi.edu/people/index.html",
+      "render": true
+     },
+     {
+      "url": "https://www.kgi.edu/people/animesh-ray.html",
+      "render": false
+     },
+     {
+      "url": "https://www.kgi.edu/people/ilya-tolstorukov.html",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Animesh Ray",
+     "Ilya Tolstorukov"
+    ],
+    "notes": "Program page: 'KGI Offers Two Tracks in PhD' (Traditional Track: 'you conduct your PhD studies on KGI\u2019s campus under the supervision of faculty from the Henry E. Riggs School of Applied Life Sciences, the School of Pharmacy, or the School of Health Sciences'). People directory is a JS-paginated table ('Showing 1 to 25 of 201 entries', first/last names in separate cells) so match found nothing there; matches come from the individual KGI profile pages. Animesh Ray profile: 'Animesh Ray, PhD' ... 'He was KGI's faculty chair (2010-2016) and director of KGI's PhD program (2006-2016).' Tolstorukov profile: 'Ilya Tolstorukov, PhD, DSc' who 'joined the Keck Graduate Institute (KGI) of Applied Life Sciences in May 2001' (current title/school not shown in extracted text).",
+    "pages": [
+     {
+      "url": "https://www.kgi.edu/people/index.html",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:04:33Z",
+      "text_len": 11723,
+      "readable": true
+     },
+     {
+      "url": "https://www.kgi.edu/people/animesh-ray.html",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:04:50Z",
+      "text_len": 13873,
+      "readable": true
+     },
+     {
+      "url": "https://www.kgi.edu/people/ilya-tolstorukov.html",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:04:58Z",
+      "text_len": 9854,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5010142833",
+      "name": "Animesh Ray",
+      "orcid": "https://orcid.org/0000-0002-0120-5820",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 3,
+        "n_methods": 2,
+        "subtopics": {
+         "B4_antibody": 2,
+         "B5_denovo_design": 2
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://www.kgi.edu/people/animesh-ray.html",
+      "fetched_at": "2026-11-03T09:04:50Z",
+      "snippet": "animesh ray skip to main navigation skip ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5010142833"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5108191664",
+      "name": "Ilya Tolstorukov",
+      "orcid": "https://orcid.org/0000-0001-9736-1379",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B4_antibody": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://www.kgi.edu/people/animesh-ray.html",
+      "fetched_at": "2026-11-03T09:04:50Z",
+      "snippet": "hromosome instability patents ilya tolstorukov charles taylor animesh ray ca",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5108191664"
+      ]
+     }
+    ]
+   }
+  ],
+  "n_relevant_authors": 2
+ },
+ {
   "institution": "Massachusetts Institute of Technology",
   "file": "massachusetts_institute_of_technology.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://catalog.mit.edu/schools/science/biology/",
    "quote": "The Department of Biology offers graduate work leading to the Doctor of Philosophy."
@@ -4284,7 +5625,7 @@
       "is_core": false,
       "evidence_url": "https://csbphd.mit.edu/faculty/",
       "fetched_at": "2026-11-03T08:47:48Z",
-      "snippet": "tions and measurement biology gene-wei li gwli mit edu - cellular bioph",
+      "snippet": " https csbphd mit edu faculty gene wei li mailto gwli mit edu https csb",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5041306675"
@@ -4717,7 +6058,7 @@
       "is_core": true,
       "evidence_url": "https://biology.mit.edu/faculty-and-research/faculty/",
       "fetched_at": "2026-11-03T08:48:55Z",
-      "snippet": "biology mit edu profile amy e keating amy e keating profile image https",
+      "snippet": "ding and trafficking in cells amy e keating department head amy e keating",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5068168068"
@@ -4792,7 +6133,7 @@
       "is_core": false,
       "evidence_url": "https://biology.mit.edu/faculty-and-research/faculty/",
       "fetched_at": "2026-11-03T08:48:55Z",
-      "snippet": "d its application to medicine michael t laub michael t laub explores how b",
+      "snippet": "ication to medicine michael t laub michael t laub explores how bacterial",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5061582937"
@@ -4842,7 +6183,7 @@
       "is_core": false,
       "evidence_url": "https://biology.mit.edu/faculty-and-research/faculty/",
       "fetched_at": "2026-11-03T08:48:55Z",
-      "snippet": "thetically engineered systems gene-wei li associate dept head gene-wei ",
+      "snippet": "logy mit edu profile gene wei li gene wei li profile image https bi",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5041306675"
@@ -4923,7 +6264,7 @@
       "is_core": true,
       "evidence_url": "https://chemistry.mit.edu/faculty/",
       "fetched_at": "2026-11-03T08:48:56Z",
-      "snippet": " as templates for nanodevices arup k chakraborty john m deutch institute profe",
+      "snippet": "mistry mit edu profile arup k chakraborty arup chakraborty smiles in front o",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5061654582"
@@ -5275,6 +6616,7 @@
   "institution": "Mayo Clinic",
   "file": "mayo_clinic.json",
   "grants_phd": true,
+  "institution_kind": "independent_institute",
   "grants_phd_evidence": {
    "url": "https://college.mayo.edu/academics/biomedical-research-training/",
    "quote": "Mayo Clinic Graduate School of Biomedical Sciences offers world-class graduate education leading to Ph.D. and M.D.-Ph.D. degrees, as well as master's degree programs for Mayo Clinic residents and fellows."
@@ -5358,7 +6700,7 @@
       "is_core": false,
       "evidence_url": "https://college.mayo.edu/academics/biomedical-research-training/phd-program/tracks/clinical-and-translational-science/faculty/",
       "fetched_at": "2026-11-03T09:01:12Z",
-      "snippet": "u show more view full profile samuel o antwi ph d location jacksonville fl",
+      "snippet": "ate professor of epidemiology antwi samuel mayo edu show more view full ",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5017787897"
@@ -5482,6 +6824,7 @@
   "institution": "New York University",
   "file": "new_york_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://cs.nyu.edu/dynamic/phd/index/",
    "quote": "Our research-oriented Ph.D. program in Computer Science prepares exceptional students for careers at the cutting edge of academia and industry."
@@ -6210,6 +7553,7 @@
   "institution": "North Carolina State University",
   "file": "north_carolina_state_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://catalog.ncsu.edu/graduate/interdisciplinary/bioinformatics/",
    "quote": "The Ph.D. in Bioinformatics requires a total of 72 credits"
@@ -6739,6 +8083,7 @@
   "institution": "Northwestern University",
   "file": "northwestern_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://www.feinberg.northwestern.edu/sites/dgp/",
    "quote": "The Walter S. and Lucienne Driskill Graduate Program in Life Sciences is a comprehensive, interdisciplinary PhD program"
@@ -7141,6 +8486,7 @@
   "institution": "Rockefeller University",
   "file": "rockefeller_university.json",
   "grants_phd": true,
+  "institution_kind": "university",
   "grants_phd_evidence": {
    "url": "https://www.rockefeller.edu/education-and-training/graduate-program-in-bioscience/admissions/",
    "quote": "Students who enter the Ph.D. program must have received a bachelor or master of arts or sciences, or doctor of medicine or equivalent international qualification."
@@ -7205,6 +8551,7 @@
   "institution": "Sanford Burnham Prebys Medical Discovery Institute",
   "file": "sanford_burnham_prebys_medical_discovery_institute.json",
   "grants_phd": true,
+  "institution_kind": "independent_institute",
   "grants_phd_evidence": {
    "url": "https://sbpdiscovery.org/education/graduate-school/",
    "quote": "The Graduate School of Biomedical Sciences (GSBS) at Sanford Burnham Prebys in La Jolla offers a PhD degree in Biomedical Sciences."
@@ -7261,7 +8608,7 @@
       "is_core": false,
       "evidence_url": "https://sbpdiscovery.org/education/graduate-school/faculty-and-educational-affiliates/",
       "fetched_at": "2026-11-03T09:02:17Z",
-      "snippet": "aculty educational affiliates peter d adams phd director and professor ca",
+      "snippet": "peter d adams phd portrait of peter adams https sbpdiscovery org scient",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5002832519"
@@ -7298,9 +8645,191 @@
   "n_relevant_authors": 3
  },
  {
+  "institution": "Scripps Research Institute",
+  "file": "scripps_research_institute.json",
+  "grants_phd": true,
+  "institution_kind": null,
+  "grants_phd_evidence": {
+   "url": "https://education.scripps.edu/graduate/about-the-graduate-school/",
+   "quote": "The Skaggs Graduate School of Chemical and Biological Sciences at Scripps Research empowers graduate students to make high-impact discoveries at the interface of chemistry and biology. Roughly 400 PhD students"
+  },
+  "problems": [
+   "https://education.scripps.edu/faculty/mohammadi is 404 (Pejman Mohammadi, peripheral)."
+  ],
+  "programs": [
+   {
+    "program_name": "Doctoral Program in Chemical and Biological Sciences (Skaggs Graduate School)",
+    "degree": "PhD",
+    "discipline": "umbrella_biomedical",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://education.scripps.edu/graduate/doctoral-program/index.html",
+    "phd_evidence_quote": "Scripps Research's doctoral program is an interdisciplinary graduate program that provides rigorous training in chemistry, chemical biology, immunology and microbiology, neurobiology, computational biology and modeling, cell biology and biochemistry, genetics and genomics",
+    "faculty_list_urls": [
+     {
+      "url": "https://education.scripps.edu/graduate/program-faculty/faculty-directory/",
+      "render": true
+     }
+    ],
+    "matched_authors": [
+     "Xin Jin",
+     "Briney Bryan",
+     "Bryan S. Briney",
+     "Andrew B. Ward",
+     "Chi-Huey Wong",
+     "Chi\u2010Huey Wong"
+    ],
+    "notes": "Single interdisciplinary PhD program (La Jolla and Jupiter campuses); computational biology and genetics/genomics are training areas, not separate admissions. Directory is JS-rendered (130 faculty entries). Briney and Wong each have two OpenAlex records.",
+    "pages": [
+     {
+      "url": "https://education.scripps.edu/graduate/program-faculty/faculty-directory/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:05:49Z",
+      "text_len": 28472,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5067720514",
+      "name": "Bryan S. Briney",
+      "orcid": "https://orcid.org/0000-0001-9535-2866",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 5.0,
+        "n_works": 5,
+        "n_methods": 5,
+        "subtopics": {
+         "B4_antibody": 4,
+         "B5_denovo_design": 2,
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 5.0,
+      "is_core": true,
+      "evidence_url": "https://education.scripps.edu/graduate/program-faculty/faculty-directory/",
+      "fetched_at": "2026-11-03T09:05:49Z",
+      "snippet": "ar biology molecular medicine bryan briney phd professor department of i",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5067720514"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5081802188",
+      "name": "Xin Jin",
+      "orcid": "https://orcid.org/0000-0003-2344-992X",
+      "dirs": {
+       "A": {
+        "tier": "core",
+        "score": 4.2,
+        "n_works": 9,
+        "n_methods": 1,
+        "subtopics": {
+         "A1_perturbseq": 9
+        }
+       }
+      },
+      "best_score": 4.2,
+      "is_core": true,
+      "evidence_url": "https://education.scripps.edu/graduate/program-faculty/faculty-directory/",
+      "fetched_at": "2026-11-03T09:05:49Z",
+      "snippet": "ogy research focus immunology xin jin phd associate professor depar",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5081802188"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5085424874",
+      "name": "Briney Bryan",
+      "orcid": "https://orcid.org/0000-0001-9535-2866",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 3,
+        "n_methods": 2,
+        "subtopics": {
+         "B4_antibody": 2,
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://education.scripps.edu/graduate/program-faculty/faculty-directory/",
+      "fetched_at": "2026-11-03T09:05:49Z",
+      "snippet": "ar biology molecular medicine bryan briney phd professor department of i",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5085424874"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5067790213",
+      "name": "Andrew B. Ward",
+      "orcid": "https://orcid.org/0000-0001-7153-3769",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 1.4,
+        "n_works": 2,
+        "n_methods": 1,
+        "subtopics": {
+         "B4_antibody": 1,
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.4,
+      "is_core": true,
+      "evidence_url": "https://education.scripps.edu/graduate/program-faculty/faculty-directory/",
+      "fetched_at": "2026-11-03T09:05:49Z",
+      "snippet": "ogy research focus immunology andrew ward phd professor department of i",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5067790213"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5126680423",
+      "name": "Chi-Huey Wong",
+      "orcid": null,
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B4_antibody": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://education.scripps.edu/graduate/program-faculty/faculty-directory/",
+      "fetched_at": "2026-11-03T09:05:49Z",
+      "snippet": "ar biology molecular medicine chi-huey wong phd professor department of c",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5126680423",
+       "https://openalex.org/A5056753239"
+      ]
+     }
+    ]
+   }
+  ],
+  "n_relevant_authors": 18
+ },
+ {
   "institution": "Stanford University",
   "file": "stanford_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://biosciences.stanford.edu/program-overview/",
    "quote": "the Biosciences PhD Programs combine the supportive atmosphere of a small program with the many opportunities afforded by a large umbrella program"
@@ -9009,7 +10538,7 @@
       "is_core": true,
       "evidence_url": "https://statistics.stanford.edu/people/faculty",
       "fetched_at": "2026-11-03T08:50:22Z",
-      "snippet": "ople alumni people emmanuel j candes emmanuel j candes people emmanuel j ca",
+      "snippet": "ies trend detection professor emmanuel j candes harmonic analysis high-dimens",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5072495084"
@@ -9034,7 +10563,7 @@
       "is_core": false,
       "evidence_url": "https://statistics.stanford.edu/people/faculty",
       "fetched_at": "2026-11-03T08:50:22Z",
-      "snippet": "h data mining people trevor j hastie trevor j hastie people trevor j hast",
+      "snippet": " machine learning data mining trevor j hastie professor emeritus statistica",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5045744709"
@@ -9320,6 +10849,7 @@
   "institution": "Stowers Institute for Medical Research",
   "file": "stowers_institute_for_medical_research.json",
   "grants_phd": null,
+  "institution_kind": "independent_institute",
   "grants_phd_evidence": null,
   "problems": [
    "BLOCKED by robots.txt: https://www.stowers.org/ and https://www.stowers.org/gradschool. https://www.stowers.org/robots.txt returns HTTP 403 ('Just a moment ... We're verifying you are human'), which the project fetcher treats as disallow-all. Respected; no workaround. Whether Stowers grants PhDs (its graduate school), the program list and faculty membership are unverified -> grants_phd=null."
@@ -9328,9 +10858,164 @@
   "n_relevant_authors": 4
  },
  {
+  "institution": "Temple University",
+  "file": "temple_university.json",
+  "grants_phd": true,
+  "institution_kind": null,
+  "grants_phd_evidence": {
+   "url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program",
+   "quote": "The PhD program of study features research rotations, journal clubs and seminars, and dissertation research."
+  },
+  "problems": [
+   "https://www.foxchase.org/john-karanicolas returned 403 (Access Denied); Karanicolas's program membership taken from the LKSOM areas-of-concentration page instead.",
+   "Temple Chemistry PhD and Computer and Information Sciences PhD not verified: https://cis.temple.edu/people/ returned almost no text (text_len=940, likely JS); chemistry department page (https://cst.temple.edu/department-chemistry) showed no faculty-directory link; omitted.",
+   "Peripheral authors Yao Zhao (A) not matched (only 'Huaqing Zhao' on LKSOM cluster page); Tiziano Tuccinardi and Antonio Giordano (B; last_known Italian/Spanish institutions) not matched; not pursued.",
+   "PhD evidence for Bioengineering is the temple.edu degree-program page heading only."
+  ],
+  "programs": [
+   {
+    "program_name": "Biomedical Sciences Graduate Program PhD \u2013 Cancer Biology and Genetics (CBGN) cluster",
+    "degree": "PhD",
+    "discipline": "genetics_genomics",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Sciences Graduate Program (Lewis Katz School of Medicine)",
+    "program_url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program",
+    "phd_evidence_quote": "The PhD program of study features research rotations, journal clubs and seminars, and dissertation research.",
+    "faculty_list_urls": [
+     {
+      "url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program/areas-concentration",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "John Karanicolas"
+    ],
+    "notes": "Karanicolas is listed under the Cancer Biology and Genetics cluster as 'John Karanicolas, PhD*' (* = Fox Chase Cancer Center faculty). Page: 'The CBGN cluster provides PhD, MD/PhD and MS students the opportunity to work with faculty from the Fels Research Institute at the School of Medicine and the Fox Chase Cancer Center (FCCC)'. Students 'can choose from any member of the graduate faculty' across the five clusters.",
+    "pages": [
+     {
+      "url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program/areas-concentration",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:04:36Z",
+      "text_len": 26885,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5087413939",
+      "name": "John Karanicolas",
+      "orcid": "https://orcid.org/0000-0003-0300-726X",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.0,
+        "n_works": 2,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 2
+        }
+       }
+      },
+      "best_score": 2.0,
+      "is_core": true,
+      "evidence_url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program/areas-concentration",
+      "fetched_at": "2026-11-03T09:04:36Z",
+      "snippet": "ohnson phd dietmar kappes phd john karanicolas phd richard katz phd sergey k",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5087413939"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Biomedical Sciences Graduate Program PhD \u2013 Molecular and Cellular Biosciences cluster",
+    "degree": "PhD",
+    "discipline": "umbrella_biomedical",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Sciences Graduate Program (Lewis Katz School of Medicine)",
+    "program_url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program",
+    "phd_evidence_quote": "The PhD program of study features research rotations, journal clubs and seminars, and dissertation research.",
+    "faculty_list_urls": [
+     {
+      "url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program/areas-concentration",
+      "render": false
+     }
+    ],
+    "matched_authors": [],
+    "notes": "Listed as one of five concentrations (clusters); no relevant author listed in this cluster on the areas-of-concentration page.",
+    "pages": [
+     {
+      "url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program/areas-concentration",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:04:36Z",
+      "text_len": 26885,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5087413939",
+      "name": "John Karanicolas",
+      "orcid": "https://orcid.org/0000-0003-0300-726X",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.0,
+        "n_works": 2,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 2
+        }
+       }
+      },
+      "best_score": 2.0,
+      "is_core": true,
+      "evidence_url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program/areas-concentration",
+      "fetched_at": "2026-11-03T09:04:36Z",
+      "snippet": "ohnson phd dietmar kappes phd john karanicolas phd richard katz phd sergey k",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5087413939"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Bioengineering PhD",
+    "degree": "PhD",
+    "discipline": "bioengineering",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://www.temple.edu/academics/degree-programs/bioengineering-phd-en-bioe-phd",
+    "phd_evidence_quote": "Bioengineering PhD",
+    "faculty_list_urls": [
+     {
+      "url": "https://engineering.temple.edu/academics/departments/bioengineering-department/bioengineering-faculty-staff",
+      "render": false
+     }
+    ],
+    "matched_authors": [],
+    "notes": "No relevant authors matched.",
+    "pages": [
+     {
+      "url": "https://engineering.temple.edu/academics/departments/bioengineering-department/bioengineering-faculty-staff",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:06:12Z",
+      "text_len": 11678,
+      "readable": true
+     }
+    ],
+    "matched": []
+   }
+  ],
+  "n_relevant_authors": 4
+ },
+ {
   "institution": "Toyota Technological Institute at Chicago",
   "file": "toyota_technological_institute_at_chicago.json",
   "grants_phd": true,
+  "institution_kind": "independent_institute",
   "grants_phd_evidence": {
    "url": "https://www.ttic.edu/phd-program",
    "quote": "The Toyota Technological Institute at Chicago offers a graduate program leading to a doctorate in computer science"
@@ -9400,6 +11085,7 @@
   "institution": "University of Arizona",
   "file": "university_of_arizona.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://gidp.arizona.edu/academic-programs/genetics",
    "quote": "Graduate students can work toward a Ph.D. or M.S. in Genetics under the guidance of more than 80 faculty members from 26 departments and 5 colleges."
@@ -9771,6 +11457,7 @@
   "institution": "University of California, Berkeley",
   "file": "university_of_california__berkeley.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://ccb.berkeley.edu/academics/computational-biology-phd",
    "quote": "The main objective of the Computational Biology PhD is to train the next generation of scientists who are both passionate about exploring the interface of computation and biology"
@@ -9883,7 +11570,7 @@
       "is_core": true,
       "evidence_url": "https://ccb.berkeley.edu/people/associated-faculty/affiliated-faculty",
       "fetched_at": "2026-11-03T08:51:29Z",
-      "snippet": "development affiliate faculty teresa head-gordon chancellor s professor of che",
+      "snippet": "development affiliate faculty teresa head-gordon chancellor s professor",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5056814590"
@@ -10561,7 +12248,7 @@
       "is_core": true,
       "evidence_url": "https://bioegrad.berkeley.edu/faculty",
       "fetched_at": "2026-11-03T08:54:25Z",
-      "snippet": "ing oskar hallatschek physics teresa head-gordon chemistry kevin healy bioengi",
+      "snippet": "ing oskar hallatschek physics teresa head-gordon chemistry kevin healy ",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5056814590"
@@ -10826,7 +12513,7 @@
       "is_core": true,
       "evidence_url": "https://qb3.berkeley.edu/biophysics/faculty/",
       "fetched_at": "2026-11-03T08:55:21Z",
-      "snippet": "ay kumar isacoff ehud isacoff head-gordon teresa head-gordon groves jay groves",
+      "snippet": "coff ehud isacoff head-gordon teresa head-gordon groves jay groves flet",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5056814590"
@@ -10984,7 +12671,7 @@
       "is_core": true,
       "evidence_url": "https://chemistry.berkeley.edu/faculty/chem",
       "fetched_at": "2026-11-03T08:56:11Z",
-      "snippet": "fessor of chemistry chemistry teresa head-gordon chancellor s professor of che",
+      "snippet": "fessor of chemistry chemistry teresa head-gordon chancellor s professor",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5056814590"
@@ -11486,6 +13173,7 @@
   "institution": "University of California, San Francisco",
   "file": "university_of_california__san_francisco.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://catalog.ucsf.edu/programs/biological-medical-informatics/",
    "quote": "The Biological and Medical Informatics (BMI) program trains diverse PhD students to become scientific leaders at the interface between computation, statistics, and biology."
@@ -11902,6 +13590,7 @@
   "institution": "University of California San Diego",
   "file": "university_of_california_san_diego.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://bioinformatics.ucsd.edu/admissions/grad/admissions",
    "quote": "This is a full-time PhD program. Students are admitted as full-time PhD students."
@@ -12833,7 +14522,7 @@
       "is_core": true,
       "evidence_url": "https://neurograd.ucsd.edu/people/faculty-research.html",
       "fetched_at": "2026-11-03T08:57:11Z",
-      "snippet": "d edu palab ucsd edu see info abraham palmer phd professor department of p",
+      "snippet": " pubmed ncbi nlm nih gov term palmer aa sort date gentry patrick phd ",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5031236440"
@@ -12899,6 +14588,7 @@
   "institution": "University of Chicago",
   "file": "university_of_chicago.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://biosciences.uchicago.edu/programs/genetics-genomics-and-system-biology",
    "quote": "The Committee on Genetics, Genomics & Systems Biology (GGSB) is an interdisciplinary PhD granting program"
@@ -14164,9 +15854,1264 @@
   "n_relevant_authors": 65
  },
  {
+  "institution": "University of Connecticut",
+  "file": "university_of_connecticut.json",
+  "grants_phd": true,
+  "institution_kind": null,
+  "grants_phd_evidence": {
+   "url": "https://computing.engineering.uconn.edu/graduate-studies/",
+   "quote": "The School of Computing offers internationally recognized Ph.D., M.S., and M.Eng. degree programs"
+  },
+  "problems": [
+   "Molecular and Cell Biology Ph.D. (Storrs; https://mcb.uconn.edu/apply/ 'Molecular and Cell Biology Ph.D. Program') exists, but https://mcb.uconn.edu/faculty/ returned almost no text (text_len=23); faculty not checked; omitted.",
+   "Peripheral author Rongting Yue (B; last_known University of Florida) not matched on any page; not pursued.",
+   "Statistics (Storrs) offers a Biostatistics master's (https://statistics.uconn.edu/graduate/masters-in-biostatistics/); no biostatistics PhD found in the grad.uconn.edu program listing; statistics not checked (no A core authors).",
+   "Several matched names (Yufeng Wu, Abhishek Dutta, Changchun Liu) have non-UConn OpenAlex last_known institutions; matches may be homonyms."
+  ],
+  "programs": [
+   {
+    "program_name": "Biomedical Engineering Graduate Program (M.S./Ph.D.)",
+    "degree": "PhD",
+    "discipline": "bioengineering",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://www.bme.uconn.edu/academics/graduate-program/about-the-graduate-program-in-biomedical-engineering/",
+    "phd_evidence_quote": "Students with a B.S. degree in BME are ideally suited for the BME M.S. and Ph.D. studies at UConn.",
+    "faculty_list_urls": [
+     {
+      "url": "https://www.bme.uconn.edu/faculty-staff/core-faculty/",
+      "render": false
+     },
+     {
+      "url": "https://www.bme.uconn.edu/faculty-staff/affiliated-faculty/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Anna Tarakanova",
+     "Abhishek Dutta",
+     "Changchun Liu"
+    ],
+    "notes": "All three matched on the core-faculty page. Abhishek Dutta and Changchun Liu have non-UConn OpenAlex last_known institutions (University of Jammu; Chinese PLA General Hospital/UConn Health), so the matches for them may be homonyms or correct (Changchun Liu also on UConn Health biomedical science faculty).",
+    "pages": [
+     {
+      "url": "https://www.bme.uconn.edu/faculty-staff/core-faculty/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:02Z",
+      "text_len": 14060,
+      "readable": true
+     },
+     {
+      "url": "https://www.bme.uconn.edu/faculty-staff/affiliated-faculty/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:03Z",
+      "text_len": 11746,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5061451371",
+      "name": "Anna Tarakanova",
+      "orcid": "https://orcid.org/0000-0002-6093-031X",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.0,
+        "n_works": 3,
+        "n_methods": 3,
+        "subtopics": {
+         "B5_denovo_design": 1,
+         "B6_structure_pred": 2
+        }
+       }
+      },
+      "best_score": 3.0,
+      "is_core": true,
+      "evidence_url": "https://www.bme.uconn.edu/faculty-staff/core-faculty/",
+      "fetched_at": "2026-11-03T09:03:02Z",
+      "snippet": "ar engineering research group anna tarakanova assistant professor anna tara",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5061451371"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5049642512",
+      "name": "Abhishek Dutta",
+      "orcid": "https://orcid.org/0000-0002-5145-098X",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://www.bme.uconn.edu/faculty-staff/core-faculty/",
+      "fetched_at": "2026-11-03T09:03:02Z",
+      "snippet": " and biomolecular engineering abhishek dutta assistant professor dutta uco",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5049642512"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5103748618",
+      "name": "Changchun Liu",
+      "orcid": "https://orcid.org/0000-0002-4931-986X",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://www.bme.uconn.edu/faculty-staff/core-faculty/",
+      "fetched_at": "2026-11-03T09:03:02Z",
+      "snippet": "encin uchc edu research group changchun liu professor chaliu uchc edu res",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5103748618"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Computer Science and Engineering Ph.D. (School of Computing)",
+    "degree": "PhD",
+    "discipline": "computer_science",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://computing.engineering.uconn.edu/graduate-studies/",
+    "phd_evidence_quote": "The School of Computing offers internationally recognized Ph.D., M.S., and M.Eng. degree programs designed for both full-time and part-time students.",
+    "faculty_list_urls": [
+     {
+      "url": "https://computing.engineering.uconn.edu/faculty/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Yufeng Wu"
+    ],
+    "notes": "Page lists bioinformatics among areas of expertise. OpenAlex last_known for this Yufeng Wu is Shihezi University; the UConn faculty-page match could be a homonym.",
+    "pages": [
+     {
+      "url": "https://computing.engineering.uconn.edu/faculty/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "text_len": 37590,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5101579568",
+      "name": "Yufeng Wu",
+      "orcid": "https://orcid.org/0000-0003-4988-3521",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A2_causal_network": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://computing.engineering.uconn.edu/faculty/",
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "snippet": "ip storrs opens in new window yufeng wu opens in new window professor",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5101579568"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Biomedical Science Ph.D. (umbrella; all areas of concentration)",
+    "degree": "PhD",
+    "discipline": "umbrella_biomedical",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Science Ph.D. (UConn Health)",
+    "program_url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/",
+    "phd_evidence_quote": "The Biomedical Science Ph.D. program is a full-time umbrella program, meaning that students are not required to identify a major advisor for dissertation work prior to matriculation.",
+    "faculty_list_urls": [
+     {
+      "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/biomedical-science-faculty/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Changchun Liu"
+    ],
+    "notes": "Matched only on the umbrella-wide faculty list; area of concentration not determined.",
+    "pages": [
+     {
+      "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/biomedical-science-faculty/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:16Z",
+      "text_len": 60815,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5103748618",
+      "name": "Changchun Liu",
+      "orcid": "https://orcid.org/0000-0002-4931-986X",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/biomedical-science-faculty/",
+      "fetched_at": "2026-11-03T09:03:16Z",
+      "snippet": "rs g proteins transgenic mice changchun liu associate professor of biomed",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5103748618"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Genetics and Developmental Biology (area of concentration)",
+    "degree": "PhD",
+    "discipline": "genetics_genomics",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Science Ph.D. (UConn Health)",
+    "program_url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/genetics-and-developmental-biology-area-of-concentration/",
+    "phd_evidence_quote": "The Biomedical Science Ph.D. program is a full-time umbrella program, meaning that students are not required to identify a major advisor for dissertation work prior to matriculation.",
+    "faculty_list_urls": [
+     {
+      "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/genetics-and-developmental-biology-area-of-concentration/",
+      "render": false
+     }
+    ],
+    "matched_authors": [],
+    "notes": "AoC page matched no relevant authors.",
+    "pages": [
+     {
+      "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/genetics-and-developmental-biology-area-of-concentration/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:18Z",
+      "text_len": 11361,
+      "readable": true
+     }
+    ],
+    "matched": []
+   },
+   {
+    "program_name": "Molecular Biology and Biochemistry (area of concentration)",
+    "degree": "PhD",
+    "discipline": "biochemistry",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Science Ph.D. (UConn Health)",
+    "program_url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/molecular-biology-and-biophysics-graduate-program/",
+    "phd_evidence_quote": "The Biomedical Science Ph.D. program is a full-time umbrella program, meaning that students are not required to identify a major advisor for dissertation work prior to matriculation.",
+    "faculty_list_urls": [
+     {
+      "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/molecular-biology-and-biophysics-graduate-program/",
+      "render": false
+     }
+    ],
+    "matched_authors": [],
+    "notes": "AoC page matched no relevant authors.",
+    "pages": [
+     {
+      "url": "https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/molecular-biology-and-biophysics-graduate-program/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:20Z",
+      "text_len": 13486,
+      "readable": true
+     }
+    ],
+    "matched": []
+   },
+   {
+    "program_name": "Chemistry Ph.D.",
+    "degree": "PhD",
+    "discipline": "chemistry",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://chemistry.uconn.edu/graduate/",
+    "phd_evidence_quote": "Ph.D. students in good standing are guaranteed: financial support for 5 years as teaching and/or research assistants",
+    "faculty_list_urls": [
+     {
+      "url": "https://chemistry.uconn.edu/people/faculty/",
+      "render": false
+     }
+    ],
+    "matched_authors": [],
+    "notes": "No relevant authors matched.",
+    "pages": [
+     {
+      "url": "https://chemistry.uconn.edu/people/faculty/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:29Z",
+      "text_len": 32107,
+      "readable": true
+     }
+    ],
+    "matched": []
+   }
+  ],
+  "n_relevant_authors": 5
+ },
+ {
+  "institution": "University of Illinois Urbana-Champaign",
+  "file": "university_of_illinois_urbana_champaign.json",
+  "grants_phd": true,
+  "institution_kind": null,
+  "grants_phd_evidence": {
+   "url": "https://bioengineering.illinois.edu/academics/graduate/PhD",
+   "quote": "All PhD students must successfully pass the Qualifying exam, Preliminary exam, Final Defense and deposit a dissertation."
+  },
+  "problems": [
+   "https://biophysics.illinois.edu/people/faculty and https://mcb.illinois.edu/faculty/ were 404; used /directory/faculty pages instead.",
+   "No relevant UIUC statistics/biostatistics PhD checked: no core direction-A UIUC faculty (direction-A authors are peripheral)."
+  ],
+  "programs": [
+   {
+    "program_name": "Biophysics and Quantitative Biology PhD (Center for Biophysics and Quantitative Biology)",
+    "degree": "PhD",
+    "discipline": "biophysics",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://biophysics.illinois.edu/academics/courses-requirements",
+    "phd_evidence_quote": "Biophysics Doctoral Degree Requirements",
+    "faculty_list_urls": [
+     {
+      "url": "https://biophysics.illinois.edu/directory/faculty",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Huimin Zhao",
+     "Sergei Maslov",
+     "Diwakar Shukla",
+     "Zaida Ann Luthey-Schulten",
+     "Emad Tajkhorshid",
+     "Yang\u2010Yu Liu"
+    ],
+    "notes": "Admissions page lists program code 'Biophysics and Quantitative Biology = 10KS5414PHD'. Huimin Zhao has two OpenAlex records (listed once).",
+    "pages": [
+     {
+      "url": "https://biophysics.illinois.edu/directory/faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "text_len": 5316,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5053940473",
+      "name": "Diwakar Shukla",
+      "orcid": "https://orcid.org/0000-0003-4079-5381",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 5.0,
+        "n_works": 5,
+        "n_methods": 5,
+        "subtopics": {
+         "B5_denovo_design": 4,
+         "B6_structure_pred": 3
+        }
+       }
+      },
+      "best_score": 5.0,
+      "is_core": true,
+      "evidence_url": "https://biophysics.illinois.edu/directory/faculty",
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "snippet": " professor mshen illinois edu diwakar shukla professor diwakar illinois ed",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5053940473"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5087810793",
+      "name": "Emad Tajkhorshid",
+      "orcid": "https://orcid.org/0000-0001-8434-1010",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://biophysics.illinois.edu/directory/faculty",
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "snippet": "professor bethms illinois edu emad tajkhorshid professor emad illinois edu n",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5087810793"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5014465828",
+      "name": "Huimin Zhao",
+      "orcid": "https://orcid.org/0000-0002-9069-6739",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 3,
+        "n_methods": 2,
+        "subtopics": {
+         "B5_denovo_design": 3
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://biophysics.illinois.edu/directory/faculty",
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "snippet": "ofessor yanzuiuc illinois edu huimin zhao professor zhao illinois edu c",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5014465828",
+       "https://openalex.org/A5109768601"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5017591427",
+      "name": "Sergei Maslov",
+      "orcid": "https://orcid.org/0000-0002-3701-492X",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 1.4,
+        "n_works": 2,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 2
+        }
+       }
+      },
+      "best_score": 1.4,
+      "is_core": true,
+      "evidence_url": "https://biophysics.illinois.edu/directory/faculty",
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "snippet": "ovation martinis illinois edu sergei maslov professor maslov illinois edu",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5017591427"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5004867963",
+      "name": "Zaida Ann Luthey-Schulten",
+      "orcid": "https://orcid.org/0000-0001-9749-8367",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://biophysics.illinois.edu/directory/faculty",
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "snippet": "professor luting illinois edu zaida ann luthey-schulten professor zan illinois edu an",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5004867963"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5033732758",
+      "name": "Yang\u2010Yu Liu",
+      "orcid": "https://orcid.org/0000-0003-2728-4907",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://biophysics.illinois.edu/directory/faculty",
+      "fetched_at": "2026-11-03T09:03:06Z",
+      "snippet": "emerita leckband illinois edu yang liu professor liuy illinois edu t",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5033732758"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Ph.D. in Bioengineering",
+    "degree": "PhD",
+    "discipline": "bioengineering",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://bioengineering.illinois.edu/academics/graduate/PhD",
+    "phd_evidence_quote": "All PhD students must successfully pass the Qualifying exam, Preliminary exam, Final Defense and deposit a dissertation.",
+    "faculty_list_urls": [
+     {
+      "url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+      "render": false
+     },
+     {
+      "url": "https://bioengineering.illinois.edu/people/faculty",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Saurabh Sinha",
+     "Huimin Zhao",
+     "Sergei Maslov",
+     "Diwakar Shukla",
+     "Emad Tajkhorshid",
+     "Yang\u2010Yu Liu"
+    ],
+    "notes": "'Graduate Program Faculty' list.",
+    "pages": [
+     {
+      "url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:04:32Z",
+      "text_len": 38871,
+      "readable": true
+     },
+     {
+      "url": "https://bioengineering.illinois.edu/people/faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:02:44Z",
+      "text_len": 44938,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5053940473",
+      "name": "Diwakar Shukla",
+      "orcid": "https://orcid.org/0000-0003-4079-5381",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 5.0,
+        "n_works": 5,
+        "n_methods": 5,
+        "subtopics": {
+         "B5_denovo_design": 4,
+         "B6_structure_pred": 3
+        }
+       }
+      },
+      "best_score": 5.0,
+      "is_core": true,
+      "evidence_url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+      "fetched_at": "2026-11-03T09:04:32Z",
+      "snippet": "for more information shen lab diwakar shukla assoc prof for more informati",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5053940473"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5087810793",
+      "name": "Emad Tajkhorshid",
+      "orcid": "https://orcid.org/0000-0001-8434-1010",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+      "fetched_at": "2026-11-03T09:04:32Z",
+      "snippet": "e the sweedler research group emad tajkhorshid he him his professor for more",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5087810793"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5014465828",
+      "name": "Huimin Zhao",
+      "orcid": "https://orcid.org/0000-0002-9069-6739",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 3,
+        "n_methods": 2,
+        "subtopics": {
+         "B5_denovo_design": 3
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+      "fetched_at": "2026-11-03T09:04:32Z",
+      "snippet": "ancing energy e -e laboratory huimin zhao professor chemical and biomol",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5014465828",
+       "https://openalex.org/A5109768601"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5017591427",
+      "name": "Sergei Maslov",
+      "orcid": "https://orcid.org/0000-0002-3701-492X",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 1.4,
+        "n_works": 2,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 2
+        }
+       }
+      },
+      "best_score": 1.4,
+      "is_core": true,
+      "evidence_url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+      "fetched_at": "2026-11-03T09:04:32Z",
+      "snippet": "orgia malandraki she her hers sergei maslov professor and bliss faculty s",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5017591427"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5101657008",
+      "name": "Saurabh Sinha",
+      "orcid": "https://orcid.org/0000-0001-6033-7746",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A2_causal_network": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+      "fetched_at": "2026-11-03T09:04:32Z",
+      "snippet": "site matthew singh he him his saurabh sinha associate professor computer ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5101657008"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5033732758",
+      "name": "Yang\u2010Yu Liu",
+      "orcid": "https://orcid.org/0000-0003-2728-4907",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://bioengineering.illinois.edu/people/faculty/grad-program",
+      "fetched_at": "2026-11-03T09:04:32Z",
+      "snippet": "ite zhi-pei liang s home page yang liu she her hers professor bioeng",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5033732758"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Computer Science Ph.D. (Siebel School of Computing and Data Science)",
+    "degree": "PhD",
+    "discipline": "computer_science",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://siebelschool.illinois.edu/academics/graduate/phd-program",
+    "phd_evidence_quote": "The Ph.D. (Doctor of Philosophy) requires original research, specialization, and a thesis.",
+    "faculty_list_urls": [
+     {
+      "url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Haohan Wang",
+     "Mohammed El-Kebir",
+     "Ge Liu",
+     "Hanghang Tong",
+     "Jingrui He",
+     "Heng Ji",
+     "Deming Chen",
+     "Dong Wang"
+    ],
+    "notes": "All-faculty list may include affiliates.",
+    "pages": [
+     {
+      "url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "text_len": 57781,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5100731237",
+      "name": "Ge Liu",
+      "orcid": "https://orcid.org/0000-0001-9383-5186",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.0,
+        "n_works": 3,
+        "n_methods": 3,
+        "subtopics": {
+         "B5_denovo_design": 3
+        }
+       }
+      },
+      "best_score": 3.0,
+      "is_core": true,
+      "evidence_url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "snippet": " her hers associate professor ge liu she her hers assistant profes",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5100731237"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5101892837",
+      "name": "Haohan Wang",
+      "orcid": "https://orcid.org/0000-0002-1826-4069",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A2_causal_network": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "snippet": " her hers assistant professor haohan wang assistant professor ischool s",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5101892837"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5089040838",
+      "name": "Mohammed El-Kebir",
+      "orcid": "https://orcid.org/0000-0002-1468-2407",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B4_antibody": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "snippet": "ectrical computer engineering mohammed el-kebir associate professor rainer en",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5089040838"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5068043486",
+      "name": "Hanghang Tong",
+      "orcid": "https://orcid.org/0000-0003-4405-3887",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "snippet": "or curriculum and instruction hanghang tong professor josep torrellas sab",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5068043486"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5124345990",
+      "name": "Jingrui He",
+      "orcid": null,
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "snippet": "neering kris hauser professor jingrui he professor school of informati",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5124345990"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5126840416",
+      "name": "Heng Ji",
+      "orcid": null,
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "snippet": "nder professor in engineering heng ji professor nan jiang associate",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5126840416"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5056321228",
+      "name": "Deming Chen",
+      "orcid": "https://orcid.org/0000-0002-3016-0270",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "snippet": " and cynthia saylor professor deming chen professor electrical and comp",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5056321228"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5100391517",
+      "name": "Dong Wang",
+      "orcid": "https://orcid.org/0000-0002-9599-8023",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://siebelschool.illinois.edu/about/people/all-faculty",
+      "fetched_at": "2026-11-03T09:02:47Z",
+      "snippet": "ical and computer engineering dong wang professor information science",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5100391517"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Chemical & Biomolecular Engineering Doctoral Program",
+    "degree": "PhD",
+    "discipline": "other:chemical_biomolecular_engineering",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://chbe.illinois.edu/academics/graduate",
+    "phd_evidence_quote": "Ph.D. students typically take about eight courses in their first two years",
+    "faculty_list_urls": [
+     {
+      "url": "https://chbe.illinois.edu/people/faculty",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Huimin Zhao",
+     "Diwakar Shukla"
+    ],
+    "notes": "",
+    "pages": [
+     {
+      "url": "https://chbe.illinois.edu/people/faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:02:51Z",
+      "text_len": 13910,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5053940473",
+      "name": "Diwakar Shukla",
+      "orcid": "https://orcid.org/0000-0003-4079-5381",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 5.0,
+        "n_works": 5,
+        "n_methods": 5,
+        "subtopics": {
+         "B5_denovo_design": 4,
+         "B6_structure_pred": 3
+        }
+       }
+      },
+      "best_score": 5.0,
+      "is_core": true,
+      "evidence_url": "https://chbe.illinois.edu/people/faculty",
+      "fetched_at": "2026-11-03T09:02:51Z",
+      "snippet": " westwater professor emeritus diwakar shukla professor charles e sing prof",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5053940473"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5014465828",
+      "name": "Huimin Zhao",
+      "orcid": "https://orcid.org/0000-0002-9069-6739",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 3,
+        "n_methods": 2,
+        "subtopics": {
+         "B5_denovo_design": 3
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://chbe.illinois.edu/people/faculty",
+      "fetched_at": "2026-11-03T09:02:51Z",
+      "snippet": "hard c alkire chair professor huimin zhao steven l miller chair profess",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5014465828",
+       "https://openalex.org/A5109768601"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Chemistry PhD",
+    "degree": "PhD",
+    "discipline": "chemistry",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://chemistry.illinois.edu/admissions/graduate/graduate-degrees-chemistry",
+    "phd_evidence_quote": "The requirements for a Ph.D. degree involve formal course work, a seminar presentation, special examinations, teaching, and research leading to the Ph.D. thesis.",
+    "faculty_list_urls": [
+     {
+      "url": "https://chemistry.illinois.edu/directory/faculty-by-type",
+      "render": false
+     },
+     {
+      "url": "https://chemistry.illinois.edu/directory/faculty",
+      "render": true
+     }
+    ],
+    "matched_authors": [
+     "Huimin Zhao",
+     "Diwakar Shukla",
+     "Emad Tajkhorshid",
+     "Zaida Ann Luthey-Schulten"
+    ],
+    "notes": "Zhao, Shukla listed as 'Faculty Affiliate in Chemistry'. Luthey-Schulten appears as 'Zaida (Zan)  Luthey-Schulten' (matcher missed her because of the nickname; verified by text grep on faculty-by-type page). Page also says 'a student may choose to work with any faculty member in the Department of Chemistry'.",
+    "pages": [
+     {
+      "url": "https://chemistry.illinois.edu/directory/faculty-by-type",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:46Z",
+      "text_len": 20124,
+      "readable": true
+     },
+     {
+      "url": "https://chemistry.illinois.edu/directory/faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:31Z",
+      "text_len": 19806,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5053940473",
+      "name": "Diwakar Shukla",
+      "orcid": "https://orcid.org/0000-0003-4079-5381",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 5.0,
+        "n_works": 5,
+        "n_methods": 5,
+        "subtopics": {
+         "B5_denovo_design": 4,
+         "B6_structure_pred": 3
+        }
+       }
+      },
+      "best_score": 5.0,
+      "is_core": true,
+      "evidence_url": "https://chemistry.illinois.edu/directory/faculty-by-type",
+      "fetched_at": "2026-11-03T09:03:46Z",
+      "snippet": "chemistry selvin illinois edu diwakar shukla associate professor of chemic",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5053940473"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5087810793",
+      "name": "Emad Tajkhorshid",
+      "orcid": "https://orcid.org/0000-0001-8434-1010",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://chemistry.illinois.edu/directory/faculty-by-type",
+      "fetched_at": "2026-11-03T09:03:46Z",
+      "snippet": "n chemistry x su illinois edu emad tajkhorshid j woodland hastings endowed c",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5087810793"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5014465828",
+      "name": "Huimin Zhao",
+      "orcid": "https://orcid.org/0000-0002-9069-6739",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 3,
+        "n_methods": 2,
+        "subtopics": {
+         "B5_denovo_design": 3
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://chemistry.illinois.edu/directory/faculty-by-type",
+      "fetched_at": "2026-11-03T09:03:46Z",
+      "snippet": " in chemistry hy illinois edu huimin zhao steven l miller chair and pro",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5014465828",
+       "https://openalex.org/A5109768601"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "PhD Programs, School of Molecular & Cellular Biology (incl. Biochemistry)",
+    "degree": "PhD",
+    "discipline": "biochemistry",
+    "program_type": "independent",
+    "umbrella_name": null,
+    "program_url": "https://mcb.illinois.edu/academics/phd-programs",
+    "phd_evidence_quote": "PhD students are an integral part of the university's and school\u2019s traditions of excellence.",
+    "faculty_list_urls": [
+     {
+      "url": "https://mcb.illinois.edu/directory/faculty",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Huimin Zhao",
+     "Emad Tajkhorshid"
+    ],
+    "notes": "MCB PhD programs page mentions 'Biochemistry'; specific Biochemistry PhD page not fetched, so program-level split not verified.",
+    "pages": [
+     {
+      "url": "https://mcb.illinois.edu/directory/faculty",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:46Z",
+      "text_len": 21380,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5087810793",
+      "name": "Emad Tajkhorshid",
+      "orcid": "https://orcid.org/0000-0001-8434-1010",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.6,
+        "n_works": 6,
+        "n_methods": 2,
+        "subtopics": {
+         "B6_structure_pred": 6
+        }
+       }
+      },
+      "best_score": 3.6,
+      "is_core": true,
+      "evidence_url": "https://mcb.illinois.edu/directory/faculty",
+      "fetched_at": "2026-11-03T09:03:46Z",
+      "snippet": "hysiology sweenp illinois edu emad tajkhorshid professor of biochemistry and",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5087810793"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5014465828",
+      "name": "Huimin Zhao",
+      "orcid": "https://orcid.org/0000-0002-9069-6739",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 3,
+        "n_methods": 2,
+        "subtopics": {
+         "B5_denovo_design": 3
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://mcb.illinois.edu/directory/faculty",
+      "fetched_at": "2026-11-03T09:03:46Z",
+      "snippet": "iosciences yangj illinois edu huimin zhao steven l miller chair of chem",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5014465828",
+       "https://openalex.org/A5109768601"
+      ]
+     }
+    ]
+   }
+  ],
+  "n_relevant_authors": 38
+ },
+ {
   "institution": "University of Iowa",
   "file": "university_of_iowa.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://www.public-health.uiowa.edu/phd-biostatistics/",
    "quote": "The doctoral dissertation will be the culminating experience in the Ph.D. program."
@@ -14279,7 +17224,7 @@
       "is_core": true,
       "evidence_url": "https://bmb.medicine.uiowa.edu/profile?appointment=PRIMARY",
       "fetched_at": "2026-11-03T08:57:20Z",
-      "snippet": "kris demali uiowa edu profile adrian elcock photo of adrian h elcock dphi",
+      "snippet": "biology kris-demali uiowa edu adrian h elcock dphil - university of iowa ad",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5004422743"
@@ -14375,6 +17320,7 @@
   "institution": "University of Michigan",
   "file": "university_of_michigan.json",
   "grants_phd": null,
+  "institution_kind": null,
   "grants_phd_evidence": null,
   "problems": [
    "Every University of Michigan site tried returns a Cloudflare challenge ('Just a moment...', HTTP 403) to both plain and --render fetches: www.umich.edu, rackham.umich.edu/programs-of-study/, sph.umich.edu/biostat/, bme.umich.edu, lsa.umich.edu (biophysics, chem, stats), cse.engin.umich.edu, che.engin.umich.edu, bulletin.engin.umich.edu, medresearch.umich.edu. No program facts could be verified.",
@@ -14389,6 +17335,7 @@
   "institution": "University of North Carolina at Chapel Hill",
   "file": "university_of_north_carolina_at_chapel_hill.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://catalog.unc.edu/graduate/schools-departments/biostatistics/",
    "quote": "The doctor of philosophy (Ph.D.) degree in the Department of Biostatistics provides advanced, research-oriented training in theory and methodology of biostatistics"
@@ -15384,6 +18331,7 @@
   "institution": "University of Notre Dame",
   "file": "university_of_notre_dame.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://graduateschool.nd.edu/degree-programs/computer-science-and-engineering-phd---doctoral/",
    "quote": "Computer Science and Engineering: PhD"
@@ -15605,6 +18553,7 @@
   "institution": "University of Pennsylvania",
   "file": "university_of_pennsylvania.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://www.med.upenn.edu/bgs/graduate-group-list.html",
    "quote": "Penn's graduate groups are organized specifically to provide PhD training, independent of academic departments."
@@ -16453,7 +19402,7 @@
       "is_core": true,
       "evidence_url": "https://www.med.upenn.edu/ggeb/biostatistics-faculty.html",
       "fetched_at": "2026-11-03T08:47:30Z",
-      "snippet": "n edu brielin chase brown phd brielin brown pennmedicine upenn edu iain m",
+      "snippet": " lynch pennmedicine upenn edu brielin chase brown phd brielin brown pennmedicin",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5012312357"
@@ -17058,7 +20007,7 @@
       "is_core": false,
       "evidence_url": "https://www.med.upenn.edu/camb/cb-faculty.html",
       "fetched_at": "2026-11-03T08:49:27Z",
-      "snippet": "n ph d ronen marmorstein ph d kathrin m bernt md kara n maxwell md phd kris",
+      "snippet": "ria babushok caroline bartman kathrin bernt george burslem luca busino ma",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5081097548"
@@ -17982,6 +20931,7 @@
   "institution": "University of Southern California",
   "file": "university_of_southern_california.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://www.qcb-dornsife.usc.edu/phd",
    "quote": "A Ph.D. in Computational Biology and Bioinformatics from the Dornsife College of Letter, Arts and Sciences at USC offers its students a truly unique graduate experience"
@@ -18198,7 +21148,7 @@
       "is_core": false,
       "evidence_url": "https://www.qcb-dornsife.usc.edu/faculty",
       "fetched_at": "2026-11-03T09:00:41Z",
-      "snippet": "usc edu - ahf website profile chang april shu phd assistant professor of po",
+      "snippet": "te https profiles sc ctsi org chang shu profile headshot mailto rspen",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5100723541"
@@ -18714,9 +21664,700 @@
   "n_relevant_authors": 28
  },
  {
+  "institution": "University of Virginia",
+  "file": "university_of_virginia.json",
+  "grants_phd": true,
+  "institution_kind": null,
+  "grants_phd_evidence": {
+   "url": "https://med.virginia.edu/education/biomedical-sciences",
+   "quote": "The Doctor of Philosophy, a PhD, can be earned by students who successfully complete their studies in one of the degree-granting departments/entities that participate in the BIMS program."
+  },
+  "problems": [
+   "BLOCKED by robots.txt: https://engineering.virginia.edu/departments/biomedical-engineering (and https://engineering.virginia.edu/) - BME PhD and department faculty unverifiable.",
+   "Chemistry faculty (https://chemistry.as.virginia.edu/faculty, /affiliated-faculty) matched 0 relevant authors; program not recorded.",
+   "Statistics department faculty URL not found (guess 404); not checked.",
+   "WebSearch budget exhausted; URLs discovered by site navigation."
+  ],
+  "programs": [
+   {
+    "program_name": "PhD Program in Computational Biology",
+    "discipline": "comp_bio",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Sciences Graduate Program (BIMS)",
+    "program_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/computational-biology/",
+    "phd_evidence_quote": "UVA's Ph.D. Program in Computational Biology equips",
+    "faculty_list_urls": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/computational-biology/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Wei\u2010Min Chen",
+     "Stephen S. Rich",
+     "Ani W Manichaikul"
+    ],
+    "notes": "Listed under BIMS 'Ph.D. Degree Options'.",
+    "degree": "PhD",
+    "pages": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/computational-biology/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:15Z",
+      "text_len": 11954,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5029044079",
+      "name": "Ani W Manichaikul",
+      "orcid": "https://orcid.org/0000-0002-5998-795X",
+      "dirs": {
+       "A": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 5,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 5
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/computational-biology/",
+      "fetched_at": "2026-11-03T09:03:15Z",
+      "snippet": "rameworks and evidence graphs ani manichaikul statistical genetics genetic ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5029044079"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5100442504",
+      "name": "Wei\u2010Min Chen",
+      "orcid": "https://orcid.org/0000-0002-2643-2333",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/computational-biology/",
+      "fetched_at": "2026-11-03T09:03:15Z",
+      "snippet": " stefan bekiranov researchers wei min chen p wei min chen researchers we",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5100442504"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5070735232",
+      "name": "Stephen S. Rich",
+      "orcid": "https://orcid.org/0000-0003-3872-7793",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/computational-biology/",
+      "fetched_at": "2026-11-03T09:03:15Z",
+      "snippet": "algorithm design and analysis stephen s rich genetic basis of common human",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5070735232"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "PhD in Biochemistry & Molecular Genetics",
+    "discipline": "biochemistry",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Sciences Graduate Program (BIMS)",
+    "program_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+    "phd_evidence_quote": "The Department of Biochemistry and Molecular Genetics offers a comprehensive personalized program of study that incorporates both didactic and practical training leading to the Doctorate in Biochemistry.",
+    "faculty_list_urls": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Mohammad Fallahi\u2010Sichani",
+     "John Platig",
+     "Stephen S. Rich",
+     "Ani W Manichaikul",
+     "Tian Zhang"
+    ],
+    "notes": "",
+    "degree": "PhD",
+    "pages": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:18Z",
+      "text_len": 24104,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5029044079",
+      "name": "Ani W Manichaikul",
+      "orcid": "https://orcid.org/0000-0002-5998-795X",
+      "dirs": {
+       "A": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 5,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 5
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+      "fetched_at": "2026-11-03T09:03:18Z",
+      "snippet": "ogy of sphingosine -phosphate ani manichaikul statistical genetics genetic ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5029044079"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5017895472",
+      "name": "Mohammad Fallahi\u2010Sichani",
+      "orcid": "https://orcid.org/0000-0003-0917-3525",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A1_perturbseq": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+      "fetched_at": "2026-11-03T09:03:18Z",
+      "snippet": "l p michael engel researchers mohammad fallahi sichani p mohammad fallahi sichani re",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5017895472"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5046014204",
+      "name": "John Platig",
+      "orcid": "https://orcid.org/0000-0002-4446-8516",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A2_causal_network": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+      "fetched_at": "2026-11-03T09:03:18Z",
+      "snippet": "ransport signaling and cancer john platig phd gene regulatory networks ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5046014204"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5070735232",
+      "name": "Stephen S. Rich",
+      "orcid": "https://orcid.org/0000-0003-3872-7793",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+      "fetched_at": "2026-11-03T09:03:18Z",
+      "snippet": "anscriptional gene regulation stephen s rich genetic basis of common human",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5070735232"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5148429086",
+      "name": "Tian Zhang",
+      "orcid": null,
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biochemistry-molecular-genetics/",
+      "fetched_at": "2026-11-03T09:03:18Z",
+      "snippet": " and computational biophysics tian zhang integrating high-throughput p",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5148429086"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "PhD in Biophysics",
+    "discipline": "biophysics",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Sciences Graduate Program (BIMS)",
+    "program_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biophysics/",
+    "phd_evidence_quote": "The Biophysics Program is an interdisciplinary degree-granting program that has faculty in 13 departments over three schools or colleges",
+    "faculty_list_urls": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biophysics/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Nikolay V. Dokholyan"
+    ],
+    "notes": "",
+    "degree": "PhD",
+    "pages": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biophysics/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:17Z",
+      "text_len": 16165,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5033490428",
+      "name": "Nikolay V. Dokholyan",
+      "orcid": "https://orcid.org/0000-0002-8225-4025",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.6,
+        "n_works": 5,
+        "n_methods": 1,
+        "subtopics": {
+         "B4_antibody": 1,
+         "B5_denovo_design": 1,
+         "B6_structure_pred": 3
+        }
+       }
+      },
+      "best_score": 2.6,
+      "is_core": true,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biophysics/",
+      "fetched_at": "2026-11-03T09:03:17Z",
+      "snippet": " p linda columbus researchers nikolay dokholyan p nikolay v dokholyan researc",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5033490428"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Biomedical Engineering (BIMS-approved BME mentors / BME PhD)",
+    "discipline": "bioengineering",
+    "program_type": "umbrella_track",
+    "umbrella_name": "Biomedical Sciences Graduate Program (BIMS)",
+    "program_url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biomedical-engineering/",
+    "phd_evidence_quote": "BIMS students can elect to train with a BME faculty member who is approved to mentor students in one of the BIMS degree-granting programs in the School of Medicine",
+    "faculty_list_urls": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biomedical-engineering/",
+      "render": false
+     }
+    ],
+    "matched_authors": [],
+    "notes": "BME department site (engineering.virginia.edu) blocked by robots.txt, so the BME PhD program page and department faculty list could not be checked. Dolatshahi matched only on the general BIMS faculty list.",
+    "degree": "PhD",
+    "pages": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/programs/ph-d-degree-options/biomedical-engineering/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:19Z",
+      "text_len": 10280,
+      "readable": true
+     }
+    ],
+    "matched": []
+   },
+   {
+    "program_name": "Biomedical Sciences Graduate Program (BIMS) - all faculty",
+    "discipline": "umbrella_biomedical",
+    "program_type": "independent",
+    "program_url": "https://med.virginia.edu/education/biomedical-sciences",
+    "phd_evidence_quote": "The Biomedical Sciences Graduate Program (BIMS) at UVA is a vibrant interdisciplinary graduate program committed to training PhD candidates",
+    "faculty_list_urls": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Mohammad Fallahi\u2010Sichani",
+     "John Platig",
+     "Wei\u2010Min Chen",
+     "Stephen S. Rich",
+     "Ani W Manichaikul",
+     "Sepideh Dolatshahi",
+     "Nikolay V. Dokholyan",
+     "Tian Zhang",
+     "Steven L. Zeichner"
+    ],
+    "notes": "Umbrella admission program; the PhD is conferred by one of the participating degree programs (Biochemistry & Molecular Genetics, Biophysics, Cell Biology, Computational Biology, Experimental Pathology, Microbiology, Neuroscience, Pharmacology, Physiology; BME mentors).",
+    "degree": "PhD",
+    "umbrella_name": null,
+    "pages": [
+     {
+      "url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "text_len": 92106,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5033490428",
+      "name": "Nikolay V. Dokholyan",
+      "orcid": "https://orcid.org/0000-0002-8225-4025",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.6,
+        "n_works": 5,
+        "n_methods": 1,
+        "subtopics": {
+         "B4_antibody": 1,
+         "B5_denovo_design": 1,
+         "B6_structure_pred": 3
+        }
+       }
+      },
+      "best_score": 2.6,
+      "is_core": true,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": "s w desimone ph d researchers nikolay dokholyan p nikolay v dokholyan researc",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5033490428"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5029044079",
+      "name": "Ani W Manichaikul",
+      "orcid": "https://orcid.org/0000-0002-5998-795X",
+      "dirs": {
+       "A": {
+        "tier": "core",
+        "score": 2.4,
+        "n_works": 5,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 5
+        }
+       }
+      },
+      "best_score": 2.4,
+      "is_core": true,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": " ma phd physiology biophysics ani manichaikul statistical genetics genetic ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5029044079"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5083807236",
+      "name": "Sepideh Dolatshahi",
+      "orcid": "https://orcid.org/0000-0003-0226-0933",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 2.0,
+        "n_works": 2,
+        "n_methods": 2,
+        "subtopics": {
+         "B4_antibody": 2
+        }
+       }
+      },
+      "best_score": 2.0,
+      "is_core": true,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": "of neurodegenerative diseases sepideh dolatshahi systems immunology cancer sys",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5083807236"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5017895472",
+      "name": "Mohammad Fallahi\u2010Sichani",
+      "orcid": "https://orcid.org/0000-0003-0917-3525",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A1_perturbseq": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": "ukpong bassey eyo researchers mohammad fallahi sichani p mohammad fallahi sichani re",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5017895472"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5046014204",
+      "name": "John Platig",
+      "orcid": "https://orcid.org/0000-0002-4446-8516",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A2_causal_network": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": "in replacement gene therapies john platig phd gene regulatory networks ",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5046014204"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5100442504",
+      "name": "Wei\u2010Min Chen",
+      "orcid": "https://orcid.org/0000-0002-2643-2333",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": "s edward chalfant researchers wei min chen p wei min chen researchers we",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5100442504"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5070735232",
+      "name": "Stephen S. Rich",
+      "orcid": "https://orcid.org/0000-0003-3872-7793",
+      "dirs": {
+       "A": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "A3_statgen": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": "plasticity of neural circuits stephen s rich genetic basis of common human",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5070735232"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5148429086",
+      "name": "Tian Zhang",
+      "orcid": null,
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B5_denovo_design": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": "nformatics health informatics tian zhang integrating high-throughput p",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5148429086"
+      ]
+     },
+     {
+      "id": "https://openalex.org/A5059536308",
+      "name": "Steven L. Zeichner",
+      "orcid": "https://orcid.org/0000-0002-8922-9260",
+      "dirs": {
+       "B": {
+        "tier": "peripheral",
+        "score": 1.0,
+        "n_works": 1,
+        "n_methods": 1,
+        "subtopics": {
+         "B6_structure_pred": 1
+        }
+       }
+      },
+      "best_score": 1.0,
+      "is_core": false,
+      "evidence_url": "https://med.virginia.edu/education/biomedical-sciences/faculty/",
+      "fetched_at": "2026-11-03T09:03:30Z",
+      "snippet": "ando zegarra ruiz researchers steven zeichner p steven l zeichner md phd re",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5059536308"
+      ]
+     }
+    ]
+   },
+   {
+    "program_name": "Ph.D. in Data Science (School of Data Science)",
+    "discipline": "other:data_science",
+    "program_type": "independent",
+    "program_url": "https://datascience.virginia.edu/degrees/phd",
+    "phd_evidence_quote": "The Ph.D. in Data Science is designed to impart the skills and knowledge necessary to enable research and discovery in data science methods.",
+    "faculty_list_urls": [
+     {
+      "url": "https://datascience.virginia.edu/faculty-research",
+      "render": false
+     }
+    ],
+    "matched_authors": [
+     "Sheng Li"
+    ],
+    "notes": "Two OpenAlex 'Sheng Li' records exist (one core, one peripheral; match printed the name twice); identity of the core record (last-known Nanchang/Sichuan) with the UVA data-science faculty member is uncertain.",
+    "degree": "PhD",
+    "umbrella_name": null,
+    "pages": [
+     {
+      "url": "https://datascience.virginia.edu/faculty-research",
+      "status": 200,
+      "fetched_at": "2026-11-03T09:04:01Z",
+      "text_len": 28377,
+      "readable": true
+     }
+    ],
+    "matched": [
+     {
+      "id": "https://openalex.org/A5100359817",
+      "name": "Sheng Li",
+      "orcid": "https://orcid.org/0000-0003-1205-8632",
+      "dirs": {
+       "B": {
+        "tier": "core",
+        "score": 3.0,
+        "n_works": 3,
+        "n_methods": 3,
+        "subtopics": {
+         "B5_denovo_design": 3
+        }
+       }
+      },
+      "best_score": 3.0,
+      "is_core": true,
+      "evidence_url": "https://datascience.virginia.edu/faculty-research",
+      "fetched_at": "2026-11-03T09:04:01Z",
+      "snippet": "ing methods read more faculty sheng li quantitative foundation assoc",
+      "via": "faculty_list",
+      "openalex_ids": [
+       "https://openalex.org/A5100359817",
+       "https://openalex.org/A5100359839"
+      ]
+     }
+    ]
+   }
+  ],
+  "n_relevant_authors": 21
+ },
+ {
   "institution": "University of Washington",
   "file": "university_of_washington.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://www.gs.washington.edu/academics/ph-d-program/",
    "quote": "The student handbook includes everything you ever wanted to know about the Genome Sciences Ph.D. program."
@@ -19723,6 +23364,7 @@
   "institution": "Vanderbilt University",
   "file": "vanderbilt_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://engineering.vanderbilt.edu/academics/graduate/",
    "quote": "Research-oriented Master of Science (M.S.) and Doctor of Philosophy (Ph.D.) degrees are offered through the Graduate School"
@@ -21164,7 +24806,7 @@
       "is_core": true,
       "evidence_url": "https://wag.app.vanderbilt.edu/publicpage/faculty/BRETUmbrella",
       "fetched_at": "2026-11-03T08:49:23Z",
-      "snippet": "a m d professor medicine view kang jing-qiong m d ph d professor neurology ",
+      "snippet": "a m d professor medicine view kang jing-qiong m d ph d professor neur",
       "via": "faculty_list",
       "openalex_ids": [
        "https://openalex.org/A5062893593"
@@ -21229,6 +24871,7 @@
   "institution": "Yale University",
   "file": "yale_university.json",
   "grants_phd": true,
+  "institution_kind": null,
   "grants_phd_evidence": {
    "url": "https://medicine.yale.edu/bbs/",
    "quote": "The Yale Combined Program in the Biological and Biomedical Sciences (BBS) is the admissions gateway to a Ph.D. specializing in many bioscience disciplines* at Yale."

@@ -1,0 +1,70 @@
+{
+ "institution": "Scripps Research Institute",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://education.scripps.edu/graduate/about-the-graduate-school/",
+  "quote": "The Skaggs Graduate School of Chemical and Biological Sciences at Scripps Research empowers graduate students to make high-impact discoveries at the interface of chemistry and biology. Roughly 400 PhD students"
+ },
+ "programs": [
+  {
+   "program_name": "Doctoral Program in Chemical and Biological Sciences (Skaggs Graduate School)",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://education.scripps.edu/graduate/doctoral-program/index.html",
+   "phd_evidence_quote": "Scripps Research's doctoral program is an interdisciplinary graduate program that provides rigorous training in chemistry, chemical biology, immunology and microbiology, neurobiology, computational biology and modeling, cell biology and biochemistry, genetics and genomics",
+   "faculty_list_urls": [
+    {
+     "url": "https://education.scripps.edu/graduate/program-faculty/faculty-directory/",
+     "render": true
+    }
+   ],
+   "matched_authors": [
+    "Xin Jin",
+    "Briney Bryan",
+    "Bryan S. Briney",
+    "Andrew B. Ward",
+    "Chi-Huey Wong",
+    "Chi‐Huey Wong"
+   ],
+   "notes": "Single interdisciplinary PhD program (La Jolla and Jupiter campuses); computational biology and genetics/genomics are training areas, not separate admissions. Directory is JS-rendered (130 faculty entries). Briney and Wong each have two OpenAlex records."
+  }
+ ],
+ "unmatched_core_authors": [
+  {
+   "name": "Ali Torkamani",
+   "program_found": null,
+   "evidence_url": "https://education.scripps.edu/faculty/torkamani",
+   "note": "Has a Scripps faculty profile ('Professor', 'Department of Integrative Structural and Computational Biology') but is not in the graduate program faculty directory (rendered)."
+  },
+  {
+   "name": "Qian Peng",
+   "program_found": null,
+   "evidence_url": "https://education.scripps.edu/faculty/peng",
+   "note": "Profile: 'Associate Professor of Neuroscience'; not in the graduate program faculty directory."
+  },
+  {
+   "name": "Sergey Ovchinnikov",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "https://education.scripps.edu/faculty/ovchinnikov is 404; not in directory."
+  },
+  {
+   "name": "Monica L. Fernández‐Quintero",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not in directory (likely postdoc)."
+  },
+  {
+   "name": "Mengman Wei",
+   "program_found": null,
+   "evidence_url": null,
+   "note": "Not in directory (likely trainee); not checked."
+  }
+ ],
+ "problems": [
+  "https://education.scripps.edu/faculty/mohammadi is 404 (Pejman Mohammadi, peripheral)."
+ ],
+ "checked_at": "2026-11-03T09:06:28Z"
+}

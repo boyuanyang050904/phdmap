@@ -167,6 +167,20 @@ def main():
         oa = inst_by_name.get(name, {})
         names = [name] + (oa.get("display_name_alternatives") or [])
         kind = inst.get("institution_kind") or ("university" if oa.get("type") == "education" else "independent_institute")
+        if not inst["programs"] and inst.get("grants_phd") is not False:
+            note = "; ".join(x[:160] for x in inst.get("problems", [])[:2])
+            ncore = school_core(name)
+            if kind == "independent_institute":
+                whitelist.setdefault(name, {
+                    "school": name, "openalex_type": oa.get("type"),
+                    "programs": "(PhD programs NOT verified: " + (note or "no program page readable") + ")",
+                    "n_relevant_faculty": 0, "top_faculty": [], "phd_evidence": "",
+                    "confirm": wl_prev.get(name, {}).get("confirm", "")})
+            else:
+                unresolved.append({"school": name, "program": "(no program verified)",
+                                   "reason": "program pages could not be read: " + (note or "unknown"),
+                                   "n_relevant_faculty": ncore})
+            continue
         if inst.get("grants_phd") is False:
             excluded.append({"school": name, "program": "(institution)", "reason":
                              "institution does not grant PhDs (program discovery evidence)",
@@ -344,7 +358,8 @@ def main():
                "source_url", "evidence_url", "institution_openalex_id"])
     wl = []
     for w in whitelist.values():
-        wl.append({**w, "programs": "; ".join(w["programs"]), "top_faculty": "; ".join(w["top_faculty"][:5])})
+        progs = w["programs"] if isinstance(w["programs"], str) else "; ".join(w["programs"])
+        wl.append({**w, "programs": progs, "top_faculty": "; ".join(w["top_faculty"][:5])})
     write_csv(ROOT / "whitelist.csv", wl, ["school", "openalex_type", "programs", "n_relevant_faculty",
                                            "top_faculty", "phd_evidence", "confirm"])
     print(f"candidates {len(cands)} | whitelist {len(wl)} | unresolved {len(unresolved)} | excluded {len(excluded)}")

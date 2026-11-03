@@ -133,6 +133,7 @@ def main():
                            **ev})
             p["matched"] = merge_people(ms)
         out.append({"institution": inst, "file": Path(path).name, "grants_phd": d.get("grants_phd"),
+                    "institution_kind": d.get("institution_kind"),
                     "grants_phd_evidence": d.get("grants_phd_evidence"),
                     "problems": d.get("problems", []), "programs": progs,
                     "n_relevant_authors": len(auths)})

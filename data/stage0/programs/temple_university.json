@@ -1,0 +1,71 @@
+{
+ "institution": "Temple University",
+ "checked_at": "2026-11-03T09:06:24Z",
+ "grants_phd": true,
+ "grants_phd_evidence": {
+  "url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program",
+  "quote": "The PhD program of study features research rotations, journal clubs and seminars, and dissertation research."
+ },
+ "programs": [
+  {
+   "program_name": "Biomedical Sciences Graduate Program PhD – Cancer Biology and Genetics (CBGN) cluster",
+   "degree": "PhD",
+   "discipline": "genetics_genomics",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Sciences Graduate Program (Lewis Katz School of Medicine)",
+   "program_url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program",
+   "phd_evidence_quote": "The PhD program of study features research rotations, journal clubs and seminars, and dissertation research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program/areas-concentration",
+     "render": false
+    }
+   ],
+   "matched_authors": [
+    "John Karanicolas"
+   ],
+   "notes": "Karanicolas is listed under the Cancer Biology and Genetics cluster as 'John Karanicolas, PhD*' (* = Fox Chase Cancer Center faculty). Page: 'The CBGN cluster provides PhD, MD/PhD and MS students the opportunity to work with faculty from the Fels Research Institute at the School of Medicine and the Fox Chase Cancer Center (FCCC)'. Students 'can choose from any member of the graduate faculty' across the five clusters."
+  },
+  {
+   "program_name": "Biomedical Sciences Graduate Program PhD – Molecular and Cellular Biosciences cluster",
+   "degree": "PhD",
+   "discipline": "umbrella_biomedical",
+   "program_type": "umbrella_track",
+   "umbrella_name": "Biomedical Sciences Graduate Program (Lewis Katz School of Medicine)",
+   "program_url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program",
+   "phd_evidence_quote": "The PhD program of study features research rotations, journal clubs and seminars, and dissertation research.",
+   "faculty_list_urls": [
+    {
+     "url": "https://medicine.temple.edu/education/biomedical-sciences-graduate-program/areas-concentration",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "Listed as one of five concentrations (clusters); no relevant author listed in this cluster on the areas-of-concentration page."
+  },
+  {
+   "program_name": "Bioengineering PhD",
+   "degree": "PhD",
+   "discipline": "bioengineering",
+   "program_type": "independent",
+   "umbrella_name": null,
+   "program_url": "https://www.temple.edu/academics/degree-programs/bioengineering-phd-en-bioe-phd",
+   "phd_evidence_quote": "Bioengineering PhD",
+   "faculty_list_urls": [
+    {
+     "url": "https://engineering.temple.edu/academics/departments/bioengineering-department/bioengineering-faculty-staff",
+     "render": false
+    }
+   ],
+   "matched_authors": [],
+   "notes": "No relevant authors matched."
+  }
+ ],
+ "unmatched_core_authors": [],
+ "problems": [
+  "https://www.foxchase.org/john-karanicolas returned 403 (Access Denied); Karanicolas's program membership taken from the LKSOM areas-of-concentration page instead.",
+  "Temple Chemistry PhD and Computer and Information Sciences PhD not verified: https://cis.temple.edu/people/ returned almost no text (text_len=940, likely JS); chemistry department page (https://cst.temple.edu/department-chemistry) showed no faculty-directory link; omitted.",
+  "Peripheral authors Yao Zhao (A) not matched (only 'Huaqing Zhao' on LKSOM cluster page); Tiziano Tuccinardi and Antonio Giordano (B; last_known Italian/Spanish institutions) not matched; not pursued.",
+  "PhD evidence for Bioengineering is the temple.edu degree-program page heading only."
+ ]
+}

@@ -1,0 +1,268 @@
+{
+  "institution": "Columbia University",
+  "checked_at": "2026-11-03T09:06:56Z",
+  "grants_phd": true,
+  "grants_phd_evidence": {
+    "url": "https://www.vagelos.columbia.edu/education/academic-programs/vagelos-institutes-biomedical-research-education/phd-programs/biomedical-life-sciences",
+    "quote": "Biomedical Life Sciences Program (BLS) is the umbrella PhD training program in biomedical sciences under VIBRE."
+  },
+  "programs": [
+    {
+      "program_name": "Biomedical Life Sciences PhD - Computational Biology (Computational Life Sciences) track",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Biomedical Life Sciences Program (BLS), Vagelos Institute for Biomedical Research Education (VIBRE)",
+      "program_url": "https://www.vagelos.columbia.edu/education/academic-programs/vagelos-institutes-biomedical-research-education/phd-programs/biomedical-life-sciences/computational-biology",
+      "phd_evidence_quote": "The Computational Life Sciences PhD track unites expertise from basic science and medicine to train students in developing and applying cutting-edge computational methods to complex challenges.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.vagelos.columbia.edu/education/academic-programs/vagelos-institutes-biomedical-research-education-phd-programs/faculty-mentors",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Hashim M. Al‐Hashimi",
+        "Mohammed AlQuraishi",
+        "Andrea Califano",
+        "Moustafa Tarek Gabr",
+        "Barry H. Honig",
+        "Peter D. Kwong",
+        "Raúl Rabadán",
+        "Yufeng Shen",
+        "Nicholas P. Tatonetti",
+        "Harris H. Wang"
+      ],
+      "notes": "Track page lists only the track director (Tal Korem). Faculty list used is the umbrella-wide VIBRE 'Faculty Mentors' directory (38 pages: base URL plus ?page=0%2C0%2C1 ... ?page=0%2C0%2C37, all matched), so matches are VIBRE mentors, not specifically computational-track faculty. Quote is from the BLS umbrella page (quote for track evidence)."
+    },
+    {
+      "program_name": "Biomedical Life Sciences PhD - Systems Biology track",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Biomedical Life Sciences Program (BLS), Vagelos Institute for Biomedical Research Education (VIBRE)",
+      "program_url": "https://www.vagelos.columbia.edu/education/academic-programs/vagelos-institutes-biomedical-research-education/phd-programs/biomedical-life-sciences/systems-biology",
+      "phd_evidence_quote": "The Biomedical Life Sciences PhD tracks includes a core curriculum and focused training across ten tracks ... The Systems Biology track trains students to use data, computation, and AI to model complex biological networks",
+      "faculty_list_urls": [
+        {
+          "url": "https://systemsbiology.columbia.edu/faculty",
+          "render": false
+        },
+        {
+          "url": "https://systemsbiology.columbia.edu/affiliated-phd-programs",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "David A. Knowles",
+        "Andrea Califano",
+        "Barry H. Honig",
+        "Mohammed AlQuraishi",
+        "Yufeng Shen",
+        "Harris H. Wang",
+        "Raúl Rabadán"
+      ],
+      "notes": "Department of Systems Biology faculty directory used (departmental list). The dept's 'Affiliated PhD Programs' page (older text referring to the Integrated Program in Cellular, Molecular, and Biomedical Studies) says students can work 'with any member of the Department of Systems Biology faculty as a mentor'. Track director per track page: Chaolin Zhang."
+    },
+    {
+      "program_name": "Biomedical Life Sciences PhD - Biochemistry, Biophysics, and Structural Biology track",
+      "degree": "PhD",
+      "discipline": "biophysics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Biomedical Life Sciences Program (BLS), Vagelos Institute for Biomedical Research Education (VIBRE)",
+      "program_url": "https://www.vagelos.columbia.edu/education/academic-programs/vagelos-institutes-biomedical-research-education/phd-programs/biomedical-life-sciences/biochemistry-biophysics-and-structural-biology",
+      "phd_evidence_quote": "The Biochemistry, Biophysics and Structural Biology PhD track applies physical principles and quantitative approaches to reveal how biomolecules fold, interact, and drive cellular physiology.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.biochem.cumc.columbia.edu/research/research-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Andrea Califano",
+        "Peter D. Kwong",
+        "Barry H. Honig",
+        "Hashim M. Al‐Hashimi"
+      ],
+      "notes": "Faculty list = Department of Biochemistry and Molecular Biophysics research faculty (departmental proxy for track faculty). Track director per track page: Eric C. Greene."
+    },
+    {
+      "program_name": "Biomedical Life Sciences PhD - Genetics track",
+      "degree": "PhD",
+      "discipline": "genetics_genomics",
+      "program_type": "umbrella_track",
+      "umbrella_name": "Biomedical Life Sciences Program (BLS), Vagelos Institute for Biomedical Research Education (VIBRE)",
+      "program_url": "https://www.vagelos.columbia.edu/education/academic-programs/vagelos-institutes-biomedical-research-education/phd-programs/biomedical-life-sciences/genetics",
+      "phd_evidence_quote": "The Genetics PhD track investigates how genes and their regulation govern inheritance, variation, and disease, using approaches from classical genetics to modern genomics and epigenomics.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.genetics.cumc.columbia.edu/about-us/our-faculty",
+          "render": false
+        }
+      ],
+      "matched_authors": [],
+      "notes": "Core program type; no relevant authors on the Department of Genetics & Development faculty page. Track director per track page: Luke E. Berchowitz."
+    },
+    {
+      "program_name": "PhD in Biomedical Informatics",
+      "degree": "PhD",
+      "discipline": "comp_bio",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.dbmi.columbia.edu/phd-in-biomedical-informatics/",
+      "phd_evidence_quote": "The PhD program in Biomedical Informatics is part of the Coordinated Doctoral Programs in Biomedical Sciences",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.dbmi.columbia.edu/faculty/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Andrea Califano",
+        "Nicholas P. Tatonetti",
+        "Yufeng Shen",
+        "Raúl Rabadán"
+      ],
+      "notes": "Listed by VIBRE as a separate PhD program alongside BLS (vagelos .../phd-programs/biomedical-informatics). Tatonetti's OpenAlex last_known is Cedars-Sinai; he still appears on the DBMI faculty page."
+    },
+    {
+      "program_name": "PhD in Biostatistics (Mailman School of Public Health)",
+      "degree": "PhD",
+      "discipline": "biostatistics",
+      "program_type": "biostat",
+      "umbrella_name": null,
+      "program_url": "https://www.publichealth.columbia.edu/become-student/degrees/doctoral-programs/phd/biostatistics",
+      "phd_evidence_quote": "The PhD program in biostatistics prepares individuals to develop or adapt statistical methods for solving problems in the health field.",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.publichealth.columbia.edu/academics/departments/biostatistics/our-faculty",
+          "render": false
+        },
+        {
+          "url": "https://www.publichealth.columbia.edu/academics/departments/biostatistics/our-faculty?page=0%2C0%2C1",
+          "render": false
+        },
+        {
+          "url": "https://www.publichealth.columbia.edu/academics/departments/biostatistics/our-faculty?page=0%2C0%2C2",
+          "render": false
+        },
+        {
+          "url": "https://www.publichealth.columbia.edu/academics/departments/biostatistics/our-faculty?page=0%2C0%2C3",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "Iuliana Ionita‐Laza",
+        "Zhonghua Liu",
+        "Ying Wei"
+      ],
+      "notes": "Faculty directory paginated (38 faculty, 4 pages)."
+    },
+    {
+      "program_name": "PhD in Computer Science",
+      "degree": "PhD",
+      "discipline": "computer_science",
+      "program_type": "independent",
+      "umbrella_name": null,
+      "program_url": "https://www.cs.columbia.edu/education/phd/",
+      "phd_evidence_quote": "Doctoral Program – Department of Computer Science, Columbia University",
+      "faculty_list_urls": [
+        {
+          "url": "https://www.cs.columbia.edu/people/faculty/",
+          "render": false
+        },
+        {
+          "url": "https://www.cs.columbia.edu/people/affiliates/",
+          "render": false
+        }
+      ],
+      "matched_authors": [
+        "David A. Knowles",
+        "Elham Azizi",
+        "Junhao Wen",
+        "Mohammed AlQuraishi"
+      ],
+      "notes": "Knowles on the main faculty list; Azizi (Irving Institute for Cancer Dynamics), Junhao Wen (Asst Prof of Radiological Sciences) and AlQuraishi (Asst Prof of Systems Biology, in Computer Science) are on the CS affiliates list."
+    }
+  ],
+  "unmatched_core_authors": [
+    {
+      "name": "James Zou",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "OpenAlex last_known Google/UCSF; not on any fetched Columbia page."
+    },
+    {
+      "name": "José L. McFaline‐Figueroa",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Likely Biomedical Engineering, but bme.columbia.edu returns a Cloudflare 403 challenge (also with --render); guessed Vagelos profile URL 404."
+    },
+    {
+      "name": "Yue Wang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Ambiguous name; last_known UNC/other; not on fetched pages."
+    },
+    {
+      "name": "Gao T. Wang",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on fetched program faculty pages; guessed Vagelos profile URLs 404."
+    },
+    {
+      "name": "Qi Yan",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on fetched pages; guessed Vagelos profile URL 404."
+    },
+    {
+      "name": "Arbel Harpak",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on Systems Biology/VIBRE lists; biology.columbia.edu (Biological Sciences) is behind a Cloudflare 403 challenge."
+    },
+    {
+      "name": "James P. Pirruccello",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Broad/UCSF; not on fetched pages."
+    },
+    {
+      "name": "Sophia Gunn",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known New York Genome Center; not on fetched pages."
+    },
+    {
+      "name": "Elana J. Bernstein",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on fetched genomics/biostat program pages."
+    },
+    {
+      "name": "Siddhardha Nanda",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on fetched pages (likely trainee)."
+    },
+    {
+      "name": "Chao Hou",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "Not on fetched pages; guessed Vagelos profile URL 404."
+    },
+    {
+      "name": "Nazim Bouatta",
+      "program_found": null,
+      "evidence_url": null,
+      "note": "last_known Harvard; not on fetched pages."
+    }
+  ],
+  "problems": [
+    "WebSearch budget exhausted; URLs discovered by navigating official sites.",
+    "Cloudflare 'Just a moment...' 403 challenge (not robots.txt) on: https://bme.columbia.edu/ (also --render), https://stat.columbia.edu/, https://www.engineering.columbia.edu/, https://www.chem.columbia.edu/, https://biology.columbia.edu/, https://www.gsas.columbia.edu/ - so Biomedical Engineering PhD, Statistics PhD, Chemistry PhD and Biological Sciences PhD could not be verified or matched (likely relevant for McFaline-Figueroa/Azizi (BME), Harpak (Biological Sciences)).",
+    "BLOCKED by robots.txt: https://directory.columbia.edu/people/ (seen during site walk).",
+    "BLS tracks have no track-specific faculty rosters online; departmental lists / umbrella-wide VIBRE mentor directory used as proxies."
+  ]
+}
