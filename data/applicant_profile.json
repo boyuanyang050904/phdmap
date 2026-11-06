@@ -1,0 +1,8 @@
+{
+ "_source": "user's CV (Boyuan_Yang_CV.docx, uploaded 2026-11-06) and chat message of 2026-11-06",
+ "math_completed": ["calculus", "multivariable_calculus", "linear_algebra"],
+ "math_note": "two basic calculus courses (Fudan Advanced Mathematics, Emory Calculus II), Emory Advanced Calculus (Multivariable) = multivariable calculus, Fudan Linear Algebra; no real analysis",
+ "stats_completed": ["statistics"],
+ "stats_note": "Emory Introduction to Statistical Inference; Fudan Biostatistics. Whether either counts as calculus-based probability / mathematical statistics is not established.",
+ "programming": ["python", "r", "bash"]
+}

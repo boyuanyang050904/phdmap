@@ -1,0 +1,24 @@
+{
+ "unc-biostat": {
+  "school": "University of North Carolina at Chapel Hill",
+  "program": "Biostatistics PhD (Gillings)",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "real_analysis"
+  ],
+  "quotes": [
+   [
+    "required",
+    "An acceptable bachelor’s degree with mathematics training at least including multivariable calculus and linear algebra.",
+    "https://sph.unc.edu/bios/phd/"
+   ],
+   [
+    "strongly_recommended",
+    "Real analysis (advanced calculus) is strongly encouraged.",
+    "https://sph.unc.edu/bios/phd/"
+   ]
+  ],
+  "problems": []
+ }
+}
