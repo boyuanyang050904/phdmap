@@ -1,0 +1,47 @@
+{
+ "key": "uw-biostat",
+ "school": "University of Washington",
+ "program": "Biostatistics PhD",
+ "program_url": "https://www.biostat.washington.edu/academics/phd",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "All applicants to the MS and PhD program should have the equivalent of approximately 30 or more quarter credits in mathematics and statistics, which must include: Approximately three semesters or four quarters of calculus, which must include multivariate calculus One course in linear algebra One course in probability theory (calculus based)",
+   "source_url": "https://www.biostat.washington.edu/apply/requirements",
+   "fetched_at": "2026-11-06T04:05:54Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "calculus",
+    "multivariable_calculus",
+    "linear_algebra",
+    "probability"
+   ]
+  },
+  {
+   "quote": "A probability-based course in mathematical statistics is highly encouraged, though not required.",
+   "source_url": "https://www.biostat.washington.edu/apply/requirements",
+   "fetched_at": "2026-11-06T04:05:54Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "mathematical_statistics"
+   ]
+  },
+  {
+   "quote": "Most competitive applicants have additional advanced math courses beyond the listed prerequisites.",
+   "source_url": "https://www.biostat.washington.edu/apply/faq",
+   "fetched_at": "2026-11-06T04:05:55Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:advanced_mathematics"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "Listed as 'Minimum math requirements' for MS and PhD; UW equivalents given: MATH 124-125-126 (calculus), MATH 224 (advanced multivariable calculus), MATH 208 (linear algebra), MATH/STAT 394 and/or 395 (probability).",
+  "Real analysis is not mentioned. FAQ links to '#accelerated' and '#missing_prereqs' sections of the requirements page that no longer exist on it; FAQ says missing prerequisites cannot be completed after starting the program."
+ ]
+}

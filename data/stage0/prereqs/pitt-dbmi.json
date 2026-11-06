@@ -1,0 +1,27 @@
+{
+ "key": "pitt-dbmi",
+ "school": "University of Pittsburgh",
+ "program": "PhD in Biomedical Informatics (Department of Biomedical Informatics)",
+ "program_url": "https://www.dbmi.pitt.edu/education/training-programs/",
+ "checked_at": "2026-11-06T04:15:00Z",
+ "requirements": [
+  {
+   "quote": "Applicants are strongly encouraged to have some knowledge of computer programming in C, C++ and/or Java before entering the program.",
+   "source_url": "https://www.dbmi.pitt.edu/education/applications/",
+   "fetched_at": "2026-11-06T04:07:00Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "programming"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No mathematics or statistics expectation is stated on the DBMI training-programs, applications, overview or courses pages; only programming is mentioned. Mathematics is not stated.",
+  "Applications page: background in medicine or computer science is not necessary, but the personal statement helps the committee 'determine any prerequisites that you might be required to take before or shortly after being accepted into the program' (prerequisites decided per applicant, unspecified).",
+  "Courses page lists course-level prerequisites (e.g. BIOINF 2118 Statistical Foundations), which are in-program, not admission requirements.",
+  "Pitt Graduate & Professional Studies Catalog: keyword search is BLOCKED by robots.txt; the Academic Programs listing (content.php?catoid=242&navoid=27789) returned HTTP 202 with an empty body; catalog entry not checked.",
+  "https://www.dbmi.pitt.edu/doctoral-degree/ (from search) returns 404."
+ ]
+}

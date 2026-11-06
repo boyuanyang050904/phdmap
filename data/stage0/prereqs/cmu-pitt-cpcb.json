@@ -1,0 +1,53 @@
+{
+ "key": "cmu-pitt-cpcb",
+ "school": "Carnegie Mellon University / University of Pittsburgh",
+ "program": "Joint Ph.D. Program in Computational Biology (CPCB)",
+ "program_url": "https://www.cmu.edu/compbio/",
+ "checked_at": "2026-11-06T04:15:00Z",
+ "requirements": [
+  {
+   "quote": "Mathematics and Statistics Applied Mathematics (Probability & Statistics) Analysis (Calculus & Numerical) Algebra (Linear & Multilinear) Probability & Statistics",
+   "source_url": "https://www.cmu.edu/compbio/prospective-students/recommended-undergraduate-courses.html",
+   "fetched_at": "2026-11-06T04:05:50Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "probability",
+    "statistics",
+    "calculus",
+    "linear_algebra",
+    "other:numerical_analysis",
+    "other:multilinear_algebra"
+   ]
+  },
+  {
+   "quote": "Computer Science Intermediate Programming (e.g. CMU 15-111) Fundamental Data Structures and Algorithms (e.g. CMU 15-211 or Pitt CS 1501;at other universities this may be either one or two courses) Algorithms (e.g., CMU 15-451 or Pitt CS 1501)",
+   "source_url": "https://www.cmu.edu/compbio/prospective-students/recommended-undergraduate-courses.html",
+   "fetched_at": "2026-11-06T04:05:50Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "programming",
+    "other:data_structures_algorithms"
+   ]
+  },
+  {
+   "quote": "Computer science, physical science, mathematics or statistics courses are recommended.",
+   "source_url": "https://www.cmu.edu/compbio/prospective-students/admissions-faq.html",
+   "fetched_at": "2026-11-06T04:05:54Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "statistics",
+    "other:mathematics_unspecified",
+    "other:computer_science"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "The Recommended Undergraduate Courses page frames the list as 'examples of recommended courses/topics for you to consider' and says 'we do not expect applicants to have taken all these courses.' Nothing is required.",
+  "'Analysis (Calculus & Numerical)' means calculus and numerical analysis, not real analysis.",
+  "FAQ: complementary/remedial courses are offered to enrolled students who lack background; the program may recommend extra coursework in Programming, Fundamental Data Structures, or Algorithms for students without professional computer skills."
+ ]
+}

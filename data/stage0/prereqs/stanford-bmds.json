@@ -1,0 +1,84 @@
+{
+ "key": "stanford-bmds",
+ "school": "Stanford University",
+ "program": "Biomedical Data Science PhD (Stanford Biosciences home program)",
+ "program_url": "https://dbds.stanford.edu/for-prospective-students/",
+ "checked_at": "2026-11-06T04:15:00Z",
+ "requirements": [
+  {
+   "quote": "All of our degree programs have the same prerequisites. Note that these are the minimum requirements, and that many applicants exceed them. Calculus: at least one year, preferrably the track taught for engineering or physical science.",
+   "source_url": "https://dbds.stanford.edu/for-prospective-students/",
+   "fetched_at": "2026-11-06T04:02:05Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "calculus"
+   ]
+  },
+  {
+   "quote": "Additional coursework in multivariate calculus is strongly recommended",
+   "source_url": "https://dbds.stanford.edu/for-prospective-students/",
+   "fetched_at": "2026-11-06T04:02:05Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "multivariable_calculus"
+   ]
+  },
+  {
+   "quote": "Probability and statistics: at least one course",
+   "source_url": "https://dbds.stanford.edu/for-prospective-students/",
+   "fetched_at": "2026-11-06T04:02:05Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "statistics"
+   ],
+   "note": "Claude: one course in probability OR statistics; an intro statistical inference course satisfies it"
+  },
+  {
+   "quote": "preferably one course in both areas",
+   "source_url": "https://dbds.stanford.edu/for-prospective-students/",
+   "fetched_at": "2026-11-06T04:02:05Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "probability",
+    "statistics"
+   ]
+  },
+  {
+   "quote": "Linear algebra Computer science: one year, preferably the introductory sequence for CS majors.",
+   "source_url": "https://dbds.stanford.edu/for-prospective-students/",
+   "fetched_at": "2026-11-06T04:02:05Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "linear_algebra",
+    "other:cs_coursework_one_year"
+   ],
+   "note": "Claude: 'Computer science: one year' is a coursework requirement; programming skills alone do not establish it"
+  },
+  {
+   "quote": "we do require that students have strong undergraduate preparation in computer science/software engineering, mathematics (especially calculus, probability and statistics, and linear algebra), and college-level biology.",
+   "source_url": "https://dbds.stanford.edu/biomedical-data-science-graduate-program-overview/",
+   "fetched_at": "2026-11-06T04:01:53Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "calculus",
+    "probability",
+    "statistics",
+    "linear_algebra",
+    "programming"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "The prerequisites are a bulleted list under 'Prerequisites for Graduate Degrees in Biomedical Data Science' (same for all DBDS degrees, described as minimum requirements); list items are quoted as they appear in page text (items separated only by whitespace). 'preferably one course in both areas' qualifies the probability-and-statistics item (one course in probability AND one in statistics preferred).",
+  "The computer science item ('one year ... fundamentals of computer science (data structures and algorithms) and software engineering principles') is mapped to programming.",
+  "Stanford Biosciences How-to-Apply confirms Biomedical Data Science is one of four home programs with course background requirements; GRE Subject Test (Mathematics or Physics) optional for BDS.",
+  "Overview page: 'Applicants with limited backgrounds in these areas should fill the deficiencies prior to applying to our program.'"
+ ]
+}

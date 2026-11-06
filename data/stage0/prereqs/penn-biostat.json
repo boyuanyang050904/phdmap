@@ -1,0 +1,48 @@
+{
+ "key": "penn-biostat",
+ "school": "University of Pennsylvania",
+ "program": "Biostatistics PhD (Graduate Group in Epidemiology and Biostatistics, Perelman School of Medicine)",
+ "program_url": "https://www.med.upenn.edu/ggeb/",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "Entering students in both the MS and PhD programs must have completed: at least one year of calculus, including multivariable calculus one semester of linear algebra at least one course in statistics have a working knowledge of a programming language",
+   "source_url": "https://www.med.upenn.edu/ggeb/bioadmissions.html",
+   "fetched_at": "2026-11-03T08:47:40Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "calculus",
+    "multivariable_calculus",
+    "linear_algebra",
+    "statistics",
+    "programming"
+   ]
+  },
+  {
+   "quote": "Advanced courses in mathematics are highly encouraged, particularly for students in the PhD program.",
+   "source_url": "https://www.med.upenn.edu/ggeb/bioadmissions.html",
+   "fetched_at": "2026-11-03T08:47:40Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "other:advanced_mathematics"
+   ]
+  },
+  {
+   "quote": "Previous experience with data analysis and statistical packages is desirable but not required.",
+   "source_url": "https://www.med.upenn.edu/ggeb/bioadmissions.html",
+   "fetched_at": "2026-11-03T08:47:40Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "other:data_analysis_and_statistical_packages"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "The required list is a bulleted list on the page ('Admission Requirements: Prior Coursework'); the quote is the list joined as the page text renders it.",
+  "Required: >=1 year calculus incl. multivariable calculus, 1 semester linear algebra, >=1 statistics course, working knowledge of a programming language. 'Advanced courses in mathematics' (e.g. real analysis) are not named specifically."
+ ]
+}

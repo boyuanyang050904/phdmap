@@ -1,0 +1,25 @@
+{
+ "key": "columbia-sysbio",
+ "school": "Columbia University",
+ "program": "Biomedical Life Sciences PhD - Systems Biology track (Department of Systems Biology; Vagelos Institute's Biomedical Research Education)",
+ "program_url": "https://systemsbiology.columbia.edu/graduate-education",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "All students in the Systems Biology Specialization come with strong training in a related field such as biology, computer science, mathematics, physics, or chemistry, and an interest in conducting research as part of a multidisciplinary team.",
+   "source_url": "https://systemsbiology.columbia.edu/how-to-apply",
+   "fetched_at": "2026-11-06T04:04:30Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:strong_training_in_related_field_(biology/computer_science/mathematics/physics/chemistry)"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No specific math coursework is named. Mathematics is only one of several alternative 'related fields'. The listed formal requirements on the same page are a Bachelor's degree in a scientific or engineering subject, letters, personal statement, and interview (GRE not required).",
+  "The program FAQ https://systemsbiology.columbia.edu/frequently-asked-questions sets no fixed minimum scores and no coursework prerequisites.",
+  "Umbrella pages checked (Vagelos/VIBRE Biomedical Life Sciences page, Systems Biology track page, how-to-apply, prospective-student FAQ): no math prerequisites. The track page says VIBRE PhD candidates must demonstrate proficiency in coding and statistics during the PhD; that is a degree competency, not an admission prerequisite."
+ ]
+}

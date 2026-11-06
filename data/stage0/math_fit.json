@@ -39,6 +39,111 @@
    "Listed under 'Prerequisites' on the MS/PhD Biostatistics application-requirements page, which states: 'Applicants who have not met the following requirements will not have their applications reviewed for admission.' The page redirects to https://www.bu.edu/sph/admissions/applying/master-of-science-and-doctor-of-philosophy-degrees-in-biostatistics/ and applies to both the MS and PhD."
   ]
  },
+ "caltech-bi": {
+  "school": "California Institute of Technology",
+  "program": "Biology PhD option (Division of Biology and Biological Engineering)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "required",
+    "Applicants are expected to meet the following minimal requirements: mathematics through calculus, general physics, organic chemistry, physical chemistry (or the equivalent), and elementary biology.",
+    "https://www.bbe.caltech.edu/academics/biology/graduate-studies"
+   ]
+  ],
+  "problems": [
+   "Same paragraph: students with deficient preparation 'may be admitted but required to remedy their deficiencies in the first years of graduate training', and in certain fields or interdisciplinary programs other undergraduate preparation may be substituted.",
+   "In-program (not admission) requirement: one of three additional courses 'must focus on mathematical or statistical methods relevant to biology'.",
+   "Graduate Admissions page (bbe.caltech.edu/academics/biology/graduate-admissions) states no course prerequisites."
+  ]
+ },
+ "cmu-ml": {
+  "school": "Carnegie Mellon University",
+  "program": "Ph.D. Program in Machine Learning",
+  "status": "not_stated",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [],
+  "problems": [
+   "PhD program page (ml.cmu.edu/academics/machine-learning-phd) gives application information but no math/statistics/programming coursework expectations; it only says 'GRE scores are OPTIONAL. The committee uses GRE scores to gauge quantitative skills, and to a lesser extent, also verbal skills.' (not a coursework requirement).",
+   "SCS Graduate Admissions overview (www.cs.cmu.edu/academics/graduate-admissions; the program's FAQ link redirects there) states no coursework prerequisites.",
+   "PhD requirements / curriculum / incoming-student pages describe in-program courses (e.g. 36-705 Intermediate Statistics), not admission prerequisites.",
+   "A web search surfaced math expectations only on MLD master's pages and individual faculty pages, which are not the PhD program's official admission statement; not used."
+  ]
+ },
+ "cmu-pitt-cpcb": {
+  "school": "Carnegie Mellon University / University of Pittsburgh",
+  "program": "Joint Ph.D. Program in Computational Biology (CPCB)",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "other:data_structures_algorithms",
+   "other:mathematics_unspecified",
+   "other:multilinear_algebra",
+   "other:numerical_analysis",
+   "probability"
+  ],
+  "quotes": [
+   [
+    "recommended",
+    "Mathematics and Statistics Applied Mathematics (Probability & Statistics) Analysis (Calculus & Numerical) Algebra (Linear & Multilinear) Probability & Statistics",
+    "https://www.cmu.edu/compbio/prospective-students/recommended-undergraduate-courses.html"
+   ],
+   [
+    "recommended",
+    "Computer Science Intermediate Programming (e.g. CMU 15-111) Fundamental Data Structures and Algorithms (e.g. CMU 15-211 or Pitt CS 1501;at other universities this may be either one or two courses) Algorithms (e.g., CMU 15-451 or Pitt CS 1501)",
+    "https://www.cmu.edu/compbio/prospective-students/recommended-undergraduate-courses.html"
+   ],
+   [
+    "recommended",
+    "Computer science, physical science, mathematics or statistics courses are recommended.",
+    "https://www.cmu.edu/compbio/prospective-students/admissions-faq.html"
+   ]
+  ],
+  "problems": [
+   "The Recommended Undergraduate Courses page frames the list as 'examples of recommended courses/topics for you to consider' and says 'we do not expect applicants to have taken all these courses.' Nothing is required.",
+   "'Analysis (Calculus & Numerical)' means calculus and numerical analysis, not real analysis.",
+   "FAQ: complementary/remedial courses are offered to enrolled students who lack background; the program may recommend extra coursework in Programming, Fundamental Data Structures, or Algorithms for students without professional computer skills."
+  ]
+ },
+ "columbia-dbmi": {
+  "school": "Columbia University",
+  "program": "PhD in Biomedical Informatics (Department of Biomedical Informatics)",
+  "status": "not_stated",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "none_stated",
+    "The PhD application consists of applicant information, official transcripts, TOEFL scores (as applicable), three (3) letters of recommendation, and a personal statement.",
+    "https://www.dbmi.columbia.edu/apply/"
+   ]
+  ],
+  "problems": [
+   "No math/quantitative coursework expectations found. The apply page says only that 'DBMI students come from diverse backgrounds, including medicine, biology, computer science, mathematics, engineering, and public health'. That describes the student body and sets no expectation.",
+   "Checked: https://www.dbmi.columbia.edu/apply/, https://www.dbmi.columbia.edu/phd-in-biomedical-informatics/, the Vagelos/VIBRE Biomedical Informatics PhD page, VIBRE how-to-apply and the prospective-student FAQ. None states math prerequisites."
+  ]
+ },
+ "columbia-sysbio": {
+  "school": "Columbia University",
+  "program": "Biomedical Life Sciences PhD - Systems Biology track (Department of Systems Biology; Vagelos Institute's Biomedical Research Education)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "typical_background",
+    "All students in the Systems Biology Specialization come with strong training in a related field such as biology, computer science, mathematics, physics, or chemistry, and an interest in conducting research as part of a multidisciplinary team.",
+    "https://systemsbiology.columbia.edu/how-to-apply"
+   ]
+  ],
+  "problems": [
+   "No specific math coursework is named. Mathematics is only one of several alternative 'related fields'. The listed formal requirements on the same page are a Bachelor's degree in a scientific or engineering subject, letters, personal statement, and interview (GRE not required).",
+   "The program FAQ https://systemsbiology.columbia.edu/frequently-asked-questions sets no fixed minimum scores and no coursework prerequisites.",
+   "Umbrella pages checked (Vagelos/VIBRE Biomedical Life Sciences page, Systems Biology track page, how-to-apply, prospective-student FAQ): no math prerequisites. The track page says VIBRE PhD candidates must demonstrate proficiency in coding and statistics during the PhD; that is a degree competency, not an admission prerequisite."
+  ]
+ },
  "cornell-tricbm": {
   "school": "Weill Cornell Medicine / Memorial Sloan Kettering / Cornell University / Rockefeller University",
   "program": "Tri-Institutional PhD Program in Computational Biology and Medicine (CBM)",
@@ -97,10 +202,29 @@
    "'Mathematics through at least differential equations' recorded as calculus + differential_equations; multivariable calculus is not named explicitly."
   ]
  },
+ "emory-biostat": {
+  "school": "Emory University",
+  "program": "PhD in Biostatistics (Rollins School of Public Health / Laney Graduate School)",
+  "status": "unverifiable",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "none_stated",
+    "The PhD program in Biostatistics prepares students for research careers by offering a blend of theoretical and methodological courses.",
+    "https://gs.emory.edu/degree-programs/index.html"
+   ]
+  ],
+  "problems": [
+   "UNVERIFIABLE at program level: sph.emory.edu returns HTTP 403 'Access Denied ... This browser is no longer supported' (bot protection) for https://sph.emory.edu/departments/bios/degree-programs/phd/index.html, https://sph.emory.edu/departments/bios/degree-programs/phd and https://sph.emory.edu/degrees-programs/phd/biostatistics (2026-11-06T04:07-04:09Z). Not worked around, and the sph.aws.emory.edu mirror was not used.",
+   "Laney Graduate School pages fetched (https://gs.emory.edu/degree-programs/index.html Biostatistics entry; https://gs.emory.edu/admissions/requirements.html) state no math/quantitative prerequisites.",
+   "Web-search snippets suggest the program page requires multivariate calculus (Calculus III) and linear algebra. This could not be verified with the project tool, so it is NOT recorded as a requirement."
+  ]
+ },
  "indiana-mmg": {
   "school": "Indiana University School of Medicine",
   "program": "PhD in Medical and Molecular Genetics (entry via Indiana BioMedical Gateway, IBMG)",
-  "status": "met",
+  "status": "not_stated",
   "missing_required": [],
   "missing_recommended": [],
   "quotes": [
@@ -113,6 +237,201 @@
   "problems": [
    "MMG PhD program page and curriculum page state no admission prerequisites; applicants apply through the IBMG umbrella program, which says there are no formal course requirements. Its list of recommended background courses ('biology, physics, chemistry, organic chemistry, biochemistry, cell biology and genetics') names no mathematics, statistics or programming course.",
    "IU Indianapolis Graduate School admissions page (https://graduate.indianapolis.iu.edu/admissions/) mentions no math/quantitative coursework."
+  ]
+ },
+ "mit-csb": {
+  "school": "Massachusetts Institute of Technology",
+  "program": "Computational and Systems Biology PhD (CSB)",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "other:quantitative_science"
+  ],
+  "quotes": [
+   [
+    "recommended",
+    "Preference is given to students with strong backgrounds in both biology and a quantitative science, but this need not be demonstrated with a double major.",
+    "https://csbphd.mit.edu/faq/"
+   ]
+  ],
+  "problems": [
+   "No specific mathematics/statistics/programming courses are named on any CSB page checked (home, admissions, FAQ, about, curriculum) or in the MIT catalog entry (catalog.mit.edu/interdisciplinary/graduate-programs/computational-systems-biology/); the only expectation is a preference for a strong background in a quantitative science.",
+   "About page / catalog: 'Applicants must have an undergraduate degree in biology (or a related field), bioinformatics, chemistry, computer science, mathematics, statistics, physics, or an engineering discipline' - a degree-field requirement, not a math coursework requirement, so not recorded as one.",
+   "Admissions page lists application materials only (transcripts, letters, statement); no course prerequisites."
+  ]
+ },
+ "nyu-compbio": {
+  "school": "New York University (NYU Grossman School of Medicine)",
+  "program": "PhD in Biomedical Sciences - Computational Biology and Bioinformatics training area (Vilcek Institute of Graduate Biomedical Sciences)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "required",
+    "To apply, you must have at least a bachelor’s degree or its equivalent from a college or university of recognized standing, with a strong background in biological, chemical, physical, or mathematical sciences.",
+    "https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/phd-program/phd-biomedical-sciences/phd-program-admissions"
+   ]
+  ],
+  "problems": [
+   "This is a Vilcek Institute PhD in Biomedical Sciences admissions statement covering all training areas. The Computational Biology and Bioinformatics training-area page states no prerequisites.",
+   "No specific math courses are named. Mathematical sciences is one of four alternative backgrounds. The same paragraph says 'We have no minimum GPA requirement and welcome all academic majors.'"
+  ]
+ },
+ "penn-biostat": {
+  "school": "University of Pennsylvania",
+  "program": "Biostatistics PhD (Graduate Group in Epidemiology and Biostatistics, Perelman School of Medicine)",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "other:advanced_mathematics"
+  ],
+  "quotes": [
+   [
+    "required",
+    "Entering students in both the MS and PhD programs must have completed: at least one year of calculus, including multivariable calculus one semester of linear algebra at least one course in statistics have a working knowledge of a programming language",
+    "https://www.med.upenn.edu/ggeb/bioadmissions.html"
+   ],
+   [
+    "strongly_recommended",
+    "Advanced courses in mathematics are highly encouraged, particularly for students in the PhD program.",
+    "https://www.med.upenn.edu/ggeb/bioadmissions.html"
+   ],
+   [
+    "recommended",
+    "Previous experience with data analysis and statistical packages is desirable but not required.",
+    "https://www.med.upenn.edu/ggeb/bioadmissions.html"
+   ]
+  ],
+  "problems": [
+   "The required list is a bulleted list on the page ('Admission Requirements: Prior Coursework'); the quote is the list joined as the page text renders it.",
+   "Required: >=1 year calculus incl. multivariable calculus, 1 semester linear algebra, >=1 statistics course, working knowledge of a programming language. 'Advanced courses in mathematics' (e.g. real analysis) are not named specifically."
+  ]
+ },
+ "penn-camb-ge": {
+  "school": "University of Pennsylvania",
+  "program": "Cell and Molecular Biology (CAMB) Graduate Group - Genetics and Epigenetics (G&E) program (Biomedical Graduate Studies)",
+  "status": "not_stated",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "none_stated",
+    "Our holistic evaluation process considers all components of the application.",
+    "https://www.med.upenn.edu/camb/admissions.html"
+   ]
+  ],
+  "problems": [
+   "No math/quantitative coursework expectations found. Checked: G&E pages https://www.med.upenn.edu/camb/ge.html and /camb/ge-academics.html; CAMB admissions https://www.med.upenn.edu/camb/admissions.html (applications go through CAMB/BGS; holistic review, no GRE); BGS umbrella pages /bgs/admissions.html, /bgs/phd-application-information.html, /bgs/admissions-faqs.html, /bgs/additional-information-for-applicants.html.",
+   "The none_stated entry only documents that the CAMB admissions page describes holistic review without naming any coursework."
+  ]
+ },
+ "penn-gcb": {
+  "school": "University of Pennsylvania",
+  "program": "Genomics and Computational Biology (GCB) Graduate Group PhD (Biomedical Graduate Studies)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "typical_background",
+    "Admissions to our program are based on basic training including (but not limited to): molecular biology, genetics, statistics/mathematics, and/or computer science.",
+    "https://www.med.upenn.edu/gcb/admission/"
+   ]
+  ],
+  "problems": [
+   "No specific math courses (calculus, linear algebra, etc.) are named; statistics/mathematics is one of several alternative background areas ('and/or'), and the page adds that students strong in a single field will also be considered.",
+   "BGS umbrella pages checked (https://www.med.upenn.edu/bgs/admissions.html, /bgs/phd-application-information.html, /bgs/admissions-faqs.html, /bgs/additional-information-for-applicants.html): no math/quantitative coursework requirements stated.",
+   "Course-level prerequisites in the BMI-track curriculum (e.g. programming, statistics; linear algebra/probability 'preferred' for a machine-learning course) are prerequisites for individual courses, not admission requirements; not recorded."
+  ]
+ },
+ "pitt-dbmi": {
+  "school": "University of Pittsburgh",
+  "program": "PhD in Biomedical Informatics (Department of Biomedical Informatics)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "strongly_recommended",
+    "Applicants are strongly encouraged to have some knowledge of computer programming in C, C++ and/or Java before entering the program.",
+    "https://www.dbmi.pitt.edu/education/applications/"
+   ]
+  ],
+  "problems": [
+   "No mathematics or statistics expectation is stated on the DBMI training-programs, applications, overview or courses pages; only programming is mentioned. Mathematics is not stated.",
+   "Applications page: background in medicine or computer science is not necessary, but the personal statement helps the committee 'determine any prerequisites that you might be required to take before or shortly after being accepted into the program' (prerequisites decided per applicant, unspecified).",
+   "Courses page lists course-level prerequisites (e.g. BIOINF 2118 Statistical Foundations), which are in-program, not admission requirements.",
+   "Pitt Graduate & Professional Studies Catalog: keyword search is BLOCKED by robots.txt; the Academic Programs listing (content.php?catoid=242&navoid=27789) returned HTTP 202 with an empty body; catalog entry not checked.",
+   "https://www.dbmi.pitt.edu/doctoral-degree/ (from search) returns 404."
+  ]
+ },
+ "stanford-bmds": {
+  "school": "Stanford University",
+  "program": "Biomedical Data Science PhD (Stanford Biosciences home program)",
+  "status": "required_unmet",
+  "missing_required": [
+   "other:cs_coursework_one_year"
+  ],
+  "missing_recommended": [
+   "probability"
+  ],
+  "quotes": [
+   [
+    "required",
+    "All of our degree programs have the same prerequisites. Note that these are the minimum requirements, and that many applicants exceed them. Calculus: at least one year, preferrably the track taught for engineering or physical science.",
+    "https://dbds.stanford.edu/for-prospective-students/"
+   ],
+   [
+    "strongly_recommended",
+    "Additional coursework in multivariate calculus is strongly recommended",
+    "https://dbds.stanford.edu/for-prospective-students/"
+   ],
+   [
+    "required",
+    "Probability and statistics: at least one course",
+    "https://dbds.stanford.edu/for-prospective-students/"
+   ],
+   [
+    "recommended",
+    "preferably one course in both areas",
+    "https://dbds.stanford.edu/for-prospective-students/"
+   ],
+   [
+    "required",
+    "Linear algebra Computer science: one year, preferably the introductory sequence for CS majors.",
+    "https://dbds.stanford.edu/for-prospective-students/"
+   ],
+   [
+    "required",
+    "we do require that students have strong undergraduate preparation in computer science/software engineering, mathematics (especially calculus, probability and statistics, and linear algebra), and college-level biology.",
+    "https://dbds.stanford.edu/biomedical-data-science-graduate-program-overview/"
+   ]
+  ],
+  "problems": [
+   "The prerequisites are a bulleted list under 'Prerequisites for Graduate Degrees in Biomedical Data Science' (same for all DBDS degrees, described as minimum requirements); list items are quoted as they appear in page text (items separated only by whitespace). 'preferably one course in both areas' qualifies the probability-and-statistics item (one course in probability AND one in statistics preferred).",
+   "The computer science item ('one year ... fundamentals of computer science (data structures and algorithms) and software engineering principles') is mapped to programming.",
+   "Stanford Biosciences How-to-Apply confirms Biomedical Data Science is one of four home programs with course background requirements; GRE Subject Test (Mathematics or Physics) optional for BDS.",
+   "Overview page: 'Applicants with limited backgrounds in these areas should fill the deficiencies prior to applying to our program.'"
+  ]
+ },
+ "stanford-genetics": {
+  "school": "Stanford University",
+  "program": "Genetics PhD (Stanford Biosciences home program)",
+  "status": "not_stated",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "none_stated",
+    "A majority of the 14 Biosciences PhD programs do not have specific course requirements for admission.",
+    "https://biosciences.stanford.edu/how-to-apply/"
+   ]
+  ],
+  "problems": [
+   "Genetics PhD page (med.stanford.edu/genetics/education/phd.html) states no admission course or math prerequisites.",
+   "Stanford Biosciences How-to-Apply page names only Biomedical Data Science, Biophysics, Molecular and Cellular Physiology and Structural Biology as home programs with course background requirements; Genetics is not among them. Same statement in the Biosciences application FAQ.",
+   "Genetics does not consider GRE General or Subject scores (Biosciences GRE table)."
   ]
  },
  "uchicago-ggsb": {
@@ -131,6 +450,141 @@
   "problems": [
    "No explicit math/calculus/linear algebra/programming prerequisite on GGSB pages (program, FAQ, first-year curriculum, computational-track coursework) or on the BSD umbrella admissions pages (how-to-apply, application FAQ); only a description of successful applicants' credentials in biology and statistics.",
    "https://ggsb.uchicago.edu/admissions returns 404; links to bsd-ggsb.prod.uchicago.edu are blocked by robots.txt (the program FAQ was read at https://ggsb.uchicago.edu/program/faq instead)."
+  ]
+ },
+ "ucla-biomath": {
+  "school": "University of California, Los Angeles",
+  "program": "Biomathematics PhD (Department of Computational Medicine)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "required",
+    "High academic achievement in one scientific or mathematical field is required for admission.",
+    "https://grad.ucla.edu/requirements/?app=admission&major=0121"
+   ],
+   [
+    "none_stated",
+    "It is not necessary for an applicant to be proficient in both mathematics and biology",
+    "https://grad.ucla.edu/requirements/?app=admission&major=0121"
+   ],
+   [
+    "recommended",
+    "although some prior preparation in both fields is desirable",
+    "https://grad.ucla.edu/requirements/?app=admission&major=0121"
+   ]
+  ],
+  "problems": [
+   "No specific math course is named anywhere (compmed.ucla.edu admissions/FAQ/curriculum pages give none). The single sentence 'It is not necessary for an applicant to be proficient in both mathematics and biology, although some prior preparation in both fields is desirable.' is split: math proficiency not necessary (none_stated) / prior preparation in mathematics and biology desirable (recommended)."
+  ]
+ },
+ "ucla-hg": {
+  "school": "University of California, Los Angeles",
+  "program": "Human Genetics PhD",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "typical_background",
+    "Because of the data analysis expertise required in some areas of human genetics, advanced courses in statistics or computer science may be substituted for advanced biologically-oriented courses.",
+    "https://grad.ucla.edu/requirements/?app=admission&major=0994"
+   ]
+  ],
+  "problems": [
+   "No math requirement stated. Degree-specific requirement is upper-division life-science preparation ('Applicants are expected to hold a bachelor's degree, with preparation through upper division courses in genetics, biology, molecular biology, cell biology, or other life sciences fields.'); advanced statistics/CS courses are only an allowed substitute -> recorded as typical_background (weakest available kind).",
+   "Program admissions page (medschool.ucla.edu .../human-genetics-phd-program/admissions) only points to UC-wide and program-specific (grad.ucla.edu) requirements; applicants apply via Graduate Programs in Bioscience (GPB).",
+   "bioscience.ucla.edu (GPB umbrella): BLOCKED by robots.txt - umbrella requirements not checked."
+  ]
+ },
+ "ucsd-bisb": {
+  "school": "University of California San Diego",
+  "program": "Bioinformatics and Systems Biology Graduate Program (BISB)",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "differential_equations",
+   "other:algorithms",
+   "other:data_structures",
+   "other:discrete_mathematics",
+   "probability"
+  ],
+  "quotes": [
+   [
+    "recommended",
+    "Candidates should have a quantitative or computational track record",
+    "https://bioinformatics.ucsd.edu/admissions/grad/admissions"
+   ],
+   [
+    "recommended",
+    "You should also take math and biology courses at your school, similar to these UCSD undergraduate classes: UCSD # Title Math 20A-B-C-D Calculus and Introduction to Differential Equations Math 18 Linear Algebra Math 11 , 183 , or 186 Introduction to Probability and Statistics",
+    "https://bioinformatics.ucsd.edu/grad/curriculum/compsci-background"
+   ],
+   [
+    "recommended",
+    "CSE 6R or 11 Introduction to Computer Science and Object-Oriented Programming ( CSE 6R: Python or CSE 11: Java ) CSE 12 Basic Data Structures and Object-Oriented Design CSE 20 / Math 15A Discrete Mathematics",
+    "https://bioinformatics.ucsd.edu/grad/curriculum/compsci-background"
+   ],
+   [
+    "strongly_recommended",
+    "Beyond introductory programming and scripting courses, it is essential to have taken undergraduate courses in data structures and algorithms prior to taking the required BISB class CSE 282 / BENG 202 (Introduction to Bioinformatics Algorithms).",
+    "https://bioinformatics.ucsd.edu/grad/curriculum/compsci-background"
+   ]
+  ],
+  "problems": [
+   "Math list is under 'Prospective students' on the BISB 'Computer Science Background' page (linked as 'see for example' from the admissions criterion 'Preparation in quantitative and biomedical subject areas'); phrased 'You should also take ... similar to these UCSD undergraduate classes' -> recorded as recommended. Quote is the page's table text (course numbers/titles).",
+   "CS-course table (programming, data structures, discrete math) is introduced by 'You should take Computer Science courses at your school similar to this series of UCSD classes.' -> recommended.",
+   "Data structures + algorithms are 'essential' before the required first-year course CSE 282/BENG 202 - a course-entry requirement, not a stated admission requirement; page says most students already have it and offers options to prepare.",
+   "Multivariable calculus is not named explicitly (only 'Math 20A-B-C-D Calculus and Introduction to Differential Equations')."
+  ]
+ },
+ "unc-bcb": {
+  "school": "University of North Carolina at Chapel Hill",
+  "program": "Bioinformatics and Computational Biology (BCB) PhD (via BBSP)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "none_stated",
+    "The BCB PhD and certificate programs do not have formal prerequisites as such.",
+    "https://bcb.unc.edu/pre-requisites/"
+   ],
+   [
+    "strongly_recommended",
+    "students with no experience of calculus are strongly advised to acquire basic calculus skills before attempting courses that assume it",
+    "https://bcb.unc.edu/pre-requisites/"
+   ],
+   [
+    "recommended",
+    "In general, recent practice with calculus and experience with at least one programming language (not necessarily any of those listed above) will be a strong advantage.",
+    "https://bcb.unc.edu/pre-requisites/"
+   ],
+   [
+    "recommended",
+    "familiarity with or willingness to learn basic matrix algebra",
+    "https://bcb.unc.edu/pre-requisites/"
+   ],
+   [
+    "recommended",
+    "students who have never programmed before are encouraged to gain practice programming in at least one language before attempting courses that have a programming component",
+    "https://bcb.unc.edu/pre-requisites/"
+   ],
+   [
+    "typical_background",
+    "typically competitive applications show coursework and/or experience in both biological/chemical/biomedical science and quantitative subjects.",
+    "https://bcb.unc.edu/admissions/"
+   ],
+   [
+    "typical_background",
+    "Ideal BCB candidates should have an undergraduate degree in a biological, physical, mathematical, or computational science.",
+    "https://catalog.unc.edu/graduate/schools-departments/bioinformatics-computational-biology/"
+   ]
+  ],
+  "problems": [
+   "No formal prerequisites; guidance is tied to first-year core courses: BCB 720 Introduction to Statistical Modeling 'assumes single variable calculus at least up to Calc 1' plus familiarity with or willingness to learn basic matrix algebra and R; BCB 715 assumes familiarity with calculus (differentiation).",
+   "BBSP umbrella (bbsp.unc.edu apply / course-requirements pages) states no math coursework: 'We welcome applicants with a background in a biological, chemical, or physical science.'"
   ]
  },
  "unc-biostat": {
@@ -154,5 +608,257 @@
    ]
   ],
   "problems": []
+ },
+ "uw-biostat": {
+  "school": "University of Washington",
+  "program": "Biostatistics PhD",
+  "status": "uncertain",
+  "missing_required": [
+   "probability"
+  ],
+  "missing_recommended": [
+   "mathematical_statistics",
+   "other:advanced_mathematics"
+  ],
+  "quotes": [
+   [
+    "required",
+    "All applicants to the MS and PhD program should have the equivalent of approximately 30 or more quarter credits in mathematics and statistics, which must include: Approximately three semesters or four quarters of calculus, which must include multivariate calculus One course in linear algebra One course in probability theory (calculus based)",
+    "https://www.biostat.washington.edu/apply/requirements"
+   ],
+   [
+    "strongly_recommended",
+    "A probability-based course in mathematical statistics is highly encouraged, though not required.",
+    "https://www.biostat.washington.edu/apply/requirements"
+   ],
+   [
+    "typical_background",
+    "Most competitive applicants have additional advanced math courses beyond the listed prerequisites.",
+    "https://www.biostat.washington.edu/apply/faq"
+   ]
+  ],
+  "problems": [
+   "Listed as 'Minimum math requirements' for MS and PhD; UW equivalents given: MATH 124-125-126 (calculus), MATH 224 (advanced multivariable calculus), MATH 208 (linear algebra), MATH/STAT 394 and/or 395 (probability).",
+   "Real analysis is not mentioned. FAQ links to '#accelerated' and '#missing_prereqs' sections of the requirements page that no longer exist on it; FAQ says missing prerequisites cannot be completed after starting the program."
+  ]
+ },
+ "uw-gs": {
+  "school": "University of Washington",
+  "program": "Genome Sciences PhD",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "other:quantitative_undergraduate_degree"
+  ],
+  "quotes": [
+   [
+    "none_stated",
+    "We do not have a set list of courses required for admission, nor do we require a degree in the biological sciences.",
+    "https://www.gs.washington.edu/academics/ph-d-program/information-for-applicants/prerequisites-and-preparation/"
+   ],
+   [
+    "strongly_recommended",
+    "Although not all of our admitted students have coding experience, some basic coding experience is highly desirable.",
+    "https://www.gs.washington.edu/academics/ph-d-program/information-for-applicants/prerequisites-and-preparation/"
+   ],
+   [
+    "recommended",
+    "Prospective students can also demonstrate preparedness with a strong track record of biological science coursework (e.g. biology, biochemistry, genetics, or computational biology) and/or coursework in useful technical disciplines such as computer science, engineering, and mathematics.",
+    "https://www.gs.washington.edu/academics/ph-d-program/information-for-applicants/prerequisites-and-preparation/"
+   ],
+   [
+    "typical_background",
+    "Applicants commonly have undergraduate degrees in a science such as Biology, Biochemistry, or Chemistry or a quantitative field such as Mathematics or Computer Science.",
+    "https://www.gs.washington.edu/academics/ph-d-program/information-for-applicants/frequently-asked-questions/"
+   ]
+  ],
+  "problems": [
+   "No math course is required or named; mathematics appears only as one optional way to demonstrate preparedness (recorded as recommended) and as a common applicant degree. Coding is 'highly desirable' -> strongly_recommended."
+  ]
+ },
+ "vanderbilt-hgen": {
+  "school": "Vanderbilt University",
+  "program": "Human Genetics PhD Program (HGEN)",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "other:quantitative_undergraduate_degree"
+  ],
+  "quotes": [
+   [
+    "typical_background",
+    "Successful applicants have extensive independent, hypothesis-driven laboratory research experience, strong grades in their STEM courses, and strong recommendation letters that speak to the applicant’s research experience and interest.",
+    "https://medschool.vanderbilt.edu/igp/igp-admissions-overview/"
+   ],
+   [
+    "typical_background",
+    "Students entering QCB typically have earned undergraduate degrees in chemistry, physics, computer science, engineering, or mathematics.",
+    "https://medschool.vanderbilt.edu/qcb/qcb-program-overview/"
+   ]
+  ],
+  "problems": [
+   "HGEN program site (home, current students, hgen2026 pages) states no admission or math prerequisites; HGEN admits via the IGP umbrella (Vanderbilt Graduate School 'Application Requirements by Program' lists Human Genetics as 'applications through IGP'); HGEN is also a QCB participating program.",
+   "IGP/QCB admissions pages name no math courses; only typical-background statements (strong STEM grades; QCB entrants typically have quantitative degrees incl. mathematics). not_stated=true for math coursework.",
+   "HGEN PhD Program Handbook is a PDF (cdn.vanderbilt.edu) - raw PDF not quotable by the validator; not used.",
+   "medsites.mc.vanderbilt.edu/vgi/phd-program-human-genetics-hgen: UNREACHABLE via project tool."
+  ]
+ },
+ "vanderbilt-igp": {
+  "school": "Vanderbilt University",
+  "program": "Interdisciplinary Graduate Program (IGP) / Quantitative and Chemical Biology (QCB) pathways",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "other:quantitative_undergraduate_degree"
+  ],
+  "quotes": [
+   [
+    "typical_background",
+    "Successful applicants have extensive independent, hypothesis-driven laboratory research experience, strong grades in their STEM courses, and strong recommendation letters that speak to the applicant’s research experience and interest.",
+    "https://medschool.vanderbilt.edu/igp/igp-admissions-overview/"
+   ],
+   [
+    "typical_background",
+    "Successful applicants have extensive independent, hypothesis-driven laboratory research experience, strong grades in their STEM courses, and strong recommendation letters that speak to the applicant’s research experience and interest.",
+    "https://medschool.vanderbilt.edu/qcb/qcb-admissions-overview/"
+   ],
+   [
+    "typical_background",
+    "Students entering QCB typically have earned undergraduate degrees in chemistry, physics, computer science, engineering, or mathematics.",
+    "https://medschool.vanderbilt.edu/qcb/qcb-program-overview/"
+   ],
+   [
+    "typical_background",
+    "Applicants with a background and coursework in the quantitative sciences such as engineering, physics, chemistry, computer science or data science without many/any biology courses are a great fit for the QCB program.",
+    "https://medschool.vanderbilt.edu/qcb/qcb-program-overview/"
+   ]
+  ],
+  "problems": [
+   "Neither IGP nor QCB admissions/FAQ/prospective-student pages name any required or recommended math, statistics or programming coursework; only holistic-review/typical-background statements (strong STEM grades; QCB suits applicants with math/physics/chemistry/CS/engineering backgrounds). not_stated=true for math coursework.",
+   "IGP is aimed at applicants with a strong biology background; QCB at quantitative backgrounds with limited biology."
+  ]
+ },
+ "wisc-bmds": {
+  "school": "University of Wisconsin-Madison",
+  "program": "PhD in Biomedical Data Science (Department of Biostatistics and Medical Informatics)",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "other:data_structures_and_algorithms"
+  ],
+  "quotes": [
+   [
+    "required",
+    "Evidence of quantitative preparation, including at least two semesters of college calculus (similar to MATH 221 – MATH 222 ) and either a course in linear algebra (similar to MATH 340 ) or courses in programming and data structures",
+    "https://guide.wisc.edu/graduate/biostatistics-medical-informatics/biomedical-data-science-phd/"
+   ],
+   [
+    "strongly_recommended",
+    "It is expected that admitted applicants will have demonstrated an aptitude for computer science and math, fundamental programming skills, knowledge of data structures and algorithms, and at least two semesters of college calculus.",
+    "https://guide.wisc.edu/graduate/biostatistics-medical-informatics/biomedical-data-science-phd/"
+   ]
+  ],
+  "problems": [
+   "Linear algebra is an alternative, not a strict requirement: 'either a course in linear algebra (similar to MATH 340) or courses in programming and data structures'. Two semesters of calculus (MATH 221-222 level) are required in both statements.",
+   "The 'It is expected...' sentence is immediately followed by: 'We will however consider applicants who have a wide range of undergraduate backgrounds; providing opportunities to develop necessary skills immediately upon entering the program.' So the expectation is not absolute.",
+   "Two separate 'required' entries because they are separate passages on the same Guide page (an admissions paragraph and an item in the 'Applying to the Program' list); they cannot be merged into one contiguous quote.",
+   "Department page https://biostat.wisc.edu/education/phd-bds/ and https://biostat.wisc.edu/education/prospective-students/ state no coursework prerequisites; the Guide link https://biostat.wiscweb.wisc.edu/education/prospective-students/ returns 404."
+  ]
+ },
+ "wisc-stat": {
+  "school": "University of Wisconsin-Madison",
+  "program": "PhD in Statistics (Statistics and Biostatistics named options)",
+  "status": "recommended_unmet",
+  "missing_required": [],
+  "missing_recommended": [
+   "other:strong_mathematical_background",
+   "other:uniformly_high_undergraduate_math_grades"
+  ],
+  "quotes": [
+   [
+    "typical_background",
+    "Applicants holding a bachelor's degree with a natural science, social science, or engineering major and strong mathematical background are encouraged to apply for admission to the graduate program in statistics.",
+    "https://guide.wisc.edu/graduate/statistics/statistics-phd/statistics-statistics-phd/"
+   ],
+   [
+    "strongly_recommended",
+    "Applicants are advised to undertake graduate work in statistics only if their undergraduate grades in mathematics were uniformly high.",
+    "https://guide.wisc.edu/graduate/statistics/statistics-phd/statistics-statistics-phd/"
+   ]
+  ],
+  "problems": [
+   "No specific math courses (calculus, linear algebra, real analysis) are named on any official page found; only a 'strong mathematical background' and 'uniformly high' math grades.",
+   "Biostatistics named option page https://guide.wisc.edu/graduate/statistics/statistics-phd/statistics-biostatistics-phd/ (fetched 2026-11-06T04:03:08Z) has the same two sentences, beginning 'Individuals holding a bachelor's degree...' instead of 'Applicants holding...'. Admissions are pooled across both options.",
+   "Department page https://stat.wisc.edu/graduate-admissions/phd-program/ requires a supplemental application with a table of all courses with 'substantial mathematical, statistical, quantitative, or computational content', but sets no prerequisite courses; not recorded as a requirement."
+  ]
+ },
+ "yale-cbb": {
+  "school": "Yale University",
+  "program": "Computational Biology and Biomedical Informatics (CBB) track (BBS)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "required",
+    "Applicants are expected 1) to have a strong foundation in the basic sciences, such as biology, chemistry and mathematics, and 2) to have training in computing/informatics, including significant computer programming experience.",
+    "https://cbb.yale.edu/application-information"
+   ],
+   [
+    "required",
+    "to have a strong foundation in the basic sciences, such as biology, chemistry, physics, and mathematics",
+    "https://medicine.yale.edu/bbs/apply/requirements/"
+   ],
+   [
+    "required",
+    "to have training in computing/informatics, including significant computer programming experience",
+    "https://medicine.yale.edu/bbs/apply/requirements/"
+   ],
+   [
+    "typical_background",
+    "In general, successful applicants will have completed undergraduate coursework in biology, chemistry at least through organic chemistry, physics, and calculus.",
+    "https://medicine.yale.edu/bbs/apply/requirements/"
+   ],
+   [
+    "none_stated",
+    "There are therefore no common courses required of all BBS applicants.",
+    "https://medicine.yale.edu/bbs/apply/requirements/"
+   ]
+  ],
+  "problems": [
+   "'Required' here = 'applicants are expected' (CBB 'Admissions Requirements'); no specific math course (calculus, linear algebra, etc.) is named for CBB - only 'a strong foundation in ... mathematics'.",
+   "Entries 2-3 are the CBB section of the BBS 'Track-Specific Admission Requirements' on medicine.yale.edu/bbs (introduced by 'In addition to meeting general BBS requirements, applicants are expected'); scope recorded as program (track-specific).",
+   "BBS umbrella: no common required courses; 'in general' successful applicants have completed calculus (typical_background).",
+   "bbs.yale.edu unreachable per task; medicine.yale.edu/bbs used instead."
+  ]
+ },
+ "yale-hgs": {
+  "school": "Yale University",
+  "program": "Human Genome Sciences track (BBS)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "required",
+    "In addition to meeting general BBS requirements, applicants are expected to have a strong foundation in the basic sciences (biology, chemistry, mathematics, etc.), fundamental understanding of molecular biology, and basic programming skills (e.g., R and Python).",
+    "https://medicine.yale.edu/bbs/apply/requirements/"
+   ],
+   [
+    "typical_background",
+    "In general, successful applicants will have completed undergraduate coursework in biology, chemistry at least through organic chemistry, physics, and calculus.",
+    "https://medicine.yale.edu/bbs/apply/requirements/"
+   ],
+   [
+    "none_stated",
+    "There are therefore no common courses required of all BBS applicants.",
+    "https://medicine.yale.edu/bbs/apply/requirements/"
+   ]
+  ],
+  "problems": [
+   "HGS track page itself states no prerequisites; it links to the BBS requirements page (#human-genome-sciences), whose HGS track-specific section is quoted (scope recorded as program).",
+   "'Required' = 'applicants are expected'; no specific math course named, only 'a strong foundation in ... mathematics' plus basic programming (R, Python).",
+   "BBS umbrella: no common required courses; 'in general' successful applicants have completed calculus (typical_background)."
+  ]
  }
 }

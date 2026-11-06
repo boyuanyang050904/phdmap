@@ -1,0 +1,23 @@
+{
+ "key": "stanford-genetics",
+ "school": "Stanford University",
+ "program": "Genetics PhD (Stanford Biosciences home program)",
+ "program_url": "https://med.stanford.edu/genetics/education/phd.html",
+ "checked_at": "2026-11-06T04:15:00Z",
+ "requirements": [
+  {
+   "quote": "A majority of the 14 Biosciences PhD programs do not have specific course requirements for admission.",
+   "source_url": "https://biosciences.stanford.edu/how-to-apply/",
+   "fetched_at": "2026-11-03T18:59:45Z",
+   "scope": "umbrella",
+   "kind": "none_stated",
+   "topics": []
+  }
+ ],
+ "not_stated": true,
+ "problems": [
+  "Genetics PhD page (med.stanford.edu/genetics/education/phd.html) states no admission course or math prerequisites.",
+  "Stanford Biosciences How-to-Apply page names only Biomedical Data Science, Biophysics, Molecular and Cellular Physiology and Structural Biology as home programs with course background requirements; Genetics is not among them. Same statement in the Biosciences application FAQ.",
+  "Genetics does not consider GRE General or Subject scores (Biosciences GRE table)."
+ ]
+}

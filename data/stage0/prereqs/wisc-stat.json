@@ -1,0 +1,35 @@
+{
+ "key": "wisc-stat",
+ "school": "University of Wisconsin-Madison",
+ "program": "PhD in Statistics (Statistics and Biostatistics named options)",
+ "program_url": "https://stat.wisc.edu/graduate-admissions/phd-program/",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "Applicants holding a bachelor's degree with a natural science, social science, or engineering major and strong mathematical background are encouraged to apply for admission to the graduate program in statistics.",
+   "source_url": "https://guide.wisc.edu/graduate/statistics/statistics-phd/statistics-statistics-phd/",
+   "fetched_at": "2026-11-06T04:03:08Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:strong_mathematical_background"
+   ]
+  },
+  {
+   "quote": "Applicants are advised to undertake graduate work in statistics only if their undergraduate grades in mathematics were uniformly high.",
+   "source_url": "https://guide.wisc.edu/graduate/statistics/statistics-phd/statistics-statistics-phd/",
+   "fetched_at": "2026-11-06T04:03:08Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "other:uniformly_high_undergraduate_math_grades"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No specific math courses (calculus, linear algebra, real analysis) are named on any official page found; only a 'strong mathematical background' and 'uniformly high' math grades.",
+  "Biostatistics named option page https://guide.wisc.edu/graduate/statistics/statistics-phd/statistics-biostatistics-phd/ (fetched 2026-11-06T04:03:08Z) has the same two sentences, beginning 'Individuals holding a bachelor's degree...' instead of 'Applicants holding...'. Admissions are pooled across both options.",
+  "Department page https://stat.wisc.edu/graduate-admissions/phd-program/ requires a supplemental application with a table of all courses with 'substantial mathematical, statistical, quantitative, or computational content', but sets no prerequisite courses; not recorded as a requirement."
+ ]
+}

@@ -16,17 +16,35 @@
   "bash"
  ],
  "other_met": [
+  "other:aptitude_for_computer_science_and_math",
   "other:bachelors_degree_in_related_field",
-  "other:mathematics",
-  "other:computer_science",
-  "other:mathematics_computation_coursework",
   "other:biology",
-  "other:programming"
+  "other:computer_science",
+  "other:data_analysis_and_statistical_packages",
+  "other:high_achievement_in_a_scientific_or_mathematical_field",
+  "other:mathematics",
+  "other:mathematics_computation_coursework",
+  "other:programming",
+  "other:quantitative_or_computational_track_record",
+  "other:quantitative_or_life_science_degree",
+  "other:quantitative_science_coursework",
+  "other:quantitative_subjects",
+  "other:stem_course_grades",
+  "other:strong_background_in_biological_chemical_physical_or_mathematical_sciences",
+  "other:strong_training_in_related_field_(biology/computer_science/mathematics/physics/chemistry)"
  ],
  "other_unmet": [
-  "other:quantitative_degree",
+  "other:advanced_mathematics",
+  "other:algorithms",
+  "other:cs_coursework_one_year",
+  "other:data_structures",
   "other:data_structures_and_algorithms",
-  "other:physics_beyond_intro"
+  "other:discrete_mathematics",
+  "other:physics_beyond_intro",
+  "other:quantitative_degree",
+  "other:quantitative_undergraduate_degree",
+  "other:strong_mathematical_background",
+  "other:uniformly_high_undergraduate_math_grades"
  ],
  "_other_note": "B.S. Biology is a related field but not a quantitative degree (CS/math/physics/engineering); has math and programming coursework; no data-structures/algorithms course"
 }

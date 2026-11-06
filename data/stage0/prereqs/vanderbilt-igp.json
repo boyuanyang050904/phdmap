@@ -1,0 +1,54 @@
+{
+ "key": "vanderbilt-igp",
+ "school": "Vanderbilt University",
+ "program": "Interdisciplinary Graduate Program (IGP) / Quantitative and Chemical Biology (QCB) pathways",
+ "program_url": "https://medschool.vanderbilt.edu/igp/igp-program-overview/",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "Successful applicants have extensive independent, hypothesis-driven laboratory research experience, strong grades in their STEM courses, and strong recommendation letters that speak to the applicant’s research experience and interest.",
+   "source_url": "https://medschool.vanderbilt.edu/igp/igp-admissions-overview/",
+   "fetched_at": "2026-11-06T04:02:47Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:stem_course_grades"
+   ]
+  },
+  {
+   "quote": "Successful applicants have extensive independent, hypothesis-driven laboratory research experience, strong grades in their STEM courses, and strong recommendation letters that speak to the applicant’s research experience and interest.",
+   "source_url": "https://medschool.vanderbilt.edu/qcb/qcb-admissions-overview/",
+   "fetched_at": "2026-11-06T04:03:14Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:stem_course_grades"
+   ]
+  },
+  {
+   "quote": "Students entering QCB typically have earned undergraduate degrees in chemistry, physics, computer science, engineering, or mathematics.",
+   "source_url": "https://medschool.vanderbilt.edu/qcb/qcb-program-overview/",
+   "fetched_at": "2026-11-03T08:49:32Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:quantitative_undergraduate_degree"
+   ]
+  },
+  {
+   "quote": "Applicants with a background and coursework in the quantitative sciences such as engineering, physics, chemistry, computer science or data science without many/any biology courses are a great fit for the QCB program.",
+   "source_url": "https://medschool.vanderbilt.edu/qcb/qcb-program-overview/",
+   "fetched_at": "2026-11-03T08:49:32Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:quantitative_science_coursework"
+   ]
+  }
+ ],
+ "not_stated": true,
+ "problems": [
+  "Neither IGP nor QCB admissions/FAQ/prospective-student pages name any required or recommended math, statistics or programming coursework; only holistic-review/typical-background statements (strong STEM grades; QCB suits applicants with math/physics/chemistry/CS/engineering backgrounds). not_stated=true for math coursework.",
+  "IGP is aimed at applicants with a strong biology background; QCB at quantitative backgrounds with limited biology."
+ ]
+}

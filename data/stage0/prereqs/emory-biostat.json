@@ -1,0 +1,23 @@
+{
+ "key": "emory-biostat",
+ "school": "Emory University",
+ "program": "PhD in Biostatistics (Rollins School of Public Health / Laney Graduate School)",
+ "program_url": "https://sph.emory.edu/departments/bios/degree-programs/phd/index.html",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "The PhD program in Biostatistics prepares students for research careers by offering a blend of theoretical and methodological courses.",
+   "source_url": "https://gs.emory.edu/degree-programs/index.html",
+   "fetched_at": "2026-11-03T09:10:20Z",
+   "scope": "graduate_school",
+   "kind": "none_stated",
+   "topics": []
+  }
+ ],
+ "not_stated": true,
+ "problems": [
+  "UNVERIFIABLE at program level: sph.emory.edu returns HTTP 403 'Access Denied ... This browser is no longer supported' (bot protection) for https://sph.emory.edu/departments/bios/degree-programs/phd/index.html, https://sph.emory.edu/departments/bios/degree-programs/phd and https://sph.emory.edu/degrees-programs/phd/biostatistics (2026-11-06T04:07-04:09Z). Not worked around, and the sph.aws.emory.edu mirror was not used.",
+  "Laney Graduate School pages fetched (https://gs.emory.edu/degree-programs/index.html Biostatistics entry; https://gs.emory.edu/admissions/requirements.html) state no math/quantitative prerequisites.",
+  "Web-search snippets suggest the program page requires multivariate calculus (Calculus III) and linear algebra. This could not be verified with the project tool, so it is NOT recorded as a requirement."
+ ]
+}

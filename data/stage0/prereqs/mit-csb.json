@@ -1,0 +1,25 @@
+{
+ "key": "mit-csb",
+ "school": "Massachusetts Institute of Technology",
+ "program": "Computational and Systems Biology PhD (CSB)",
+ "program_url": "https://csbphd.mit.edu/",
+ "checked_at": "2026-11-06T04:15:00Z",
+ "requirements": [
+  {
+   "quote": "Preference is given to students with strong backgrounds in both biology and a quantitative science, but this need not be demonstrated with a double major.",
+   "source_url": "https://csbphd.mit.edu/faq/",
+   "fetched_at": "2026-11-06T03:59:51Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "other:quantitative_science"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No specific mathematics/statistics/programming courses are named on any CSB page checked (home, admissions, FAQ, about, curriculum) or in the MIT catalog entry (catalog.mit.edu/interdisciplinary/graduate-programs/computational-systems-biology/); the only expectation is a preference for a strong background in a quantitative science.",
+  "About page / catalog: 'Applicants must have an undergraduate degree in biology (or a related field), bioinformatics, chemistry, computer science, mathematics, statistics, physics, or an engineering discipline' - a degree-field requirement, not a math coursework requirement, so not recorded as one.",
+  "Admissions page lists application materials only (transcripts, letters, statement); no course prerequisites."
+ ]
+}

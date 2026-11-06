@@ -1,0 +1,24 @@
+{
+ "key": "nyu-compbio",
+ "school": "New York University (NYU Grossman School of Medicine)",
+ "program": "PhD in Biomedical Sciences - Computational Biology and Bioinformatics training area (Vilcek Institute of Graduate Biomedical Sciences)",
+ "program_url": "https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/phd-program/phd-biomedical-sciences/phd-training-areas/computational-biology-bioinfomatics",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "To apply, you must have at least a bachelor’s degree or its equivalent from a college or university of recognized standing, with a strong background in biological, chemical, physical, or mathematical sciences.",
+   "source_url": "https://med.nyu.edu/research/vilcek-institute-graduate-biomedical-sciences/phd-program/phd-biomedical-sciences/phd-program-admissions",
+   "fetched_at": "2026-11-06T04:07:28Z",
+   "scope": "umbrella",
+   "kind": "required",
+   "topics": [
+    "other:strong_background_in_biological_chemical_physical_or_mathematical_sciences"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "This is a Vilcek Institute PhD in Biomedical Sciences admissions statement covering all training areas. The Computational Biology and Bioinformatics training-area page states no prerequisites.",
+  "No specific math courses are named. Mathematical sciences is one of four alternative backgrounds. The same paragraph says 'We have no minimum GPA requirement and welcome all academic majors.'"
+ ]
+}

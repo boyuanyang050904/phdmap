@@ -1,0 +1,65 @@
+{
+ "key": "ucsd-bisb",
+ "school": "University of California San Diego",
+ "program": "Bioinformatics and Systems Biology Graduate Program (BISB)",
+ "program_url": "https://bioinformatics.ucsd.edu/admissions/grad/admissions",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "Candidates should have a quantitative or computational track record",
+   "source_url": "https://bioinformatics.ucsd.edu/admissions/grad/admissions",
+   "fetched_at": "2026-11-03T08:54:32Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "other:quantitative_or_computational_track_record"
+   ]
+  },
+  {
+   "quote": "You should also take math and biology courses at your school, similar to these UCSD undergraduate classes: UCSD # Title Math 20A-B-C-D Calculus and Introduction to Differential Equations Math 18 Linear Algebra Math 11 , 183 , or 186 Introduction to Probability and Statistics",
+   "source_url": "https://bioinformatics.ucsd.edu/grad/curriculum/compsci-background",
+   "fetched_at": "2026-11-06T04:00:39Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "calculus",
+    "differential_equations",
+    "linear_algebra",
+    "probability",
+    "statistics"
+   ]
+  },
+  {
+   "quote": "CSE 6R or 11 Introduction to Computer Science and Object-Oriented Programming ( CSE 6R: Python or CSE 11: Java ) CSE 12 Basic Data Structures and Object-Oriented Design CSE 20 / Math 15A Discrete Mathematics",
+   "source_url": "https://bioinformatics.ucsd.edu/grad/curriculum/compsci-background",
+   "fetched_at": "2026-11-06T04:00:39Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "programming",
+    "other:data_structures",
+    "other:discrete_mathematics"
+   ]
+  },
+  {
+   "quote": "Beyond introductory programming and scripting courses, it is essential to have taken undergraduate courses in data structures and algorithms prior to taking the required BISB class CSE 282 / BENG 202 (Introduction to Bioinformatics Algorithms).",
+   "source_url": "https://bioinformatics.ucsd.edu/grad/curriculum/compsci-background",
+   "fetched_at": "2026-11-06T04:00:39Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "programming",
+    "other:data_structures",
+    "other:algorithms"
+   ],
+   "note": "reclassified by Claude: the page calls this essential before the first-year course CSE 282, not an admission requirement"
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "Math list is under 'Prospective students' on the BISB 'Computer Science Background' page (linked as 'see for example' from the admissions criterion 'Preparation in quantitative and biomedical subject areas'); phrased 'You should also take ... similar to these UCSD undergraduate classes' -> recorded as recommended. Quote is the page's table text (course numbers/titles).",
+  "CS-course table (programming, data structures, discrete math) is introduced by 'You should take Computer Science courses at your school similar to this series of UCSD classes.' -> recommended.",
+  "Data structures + algorithms are 'essential' before the required first-year course CSE 282/BENG 202 - a course-entry requirement, not a stated admission requirement; page says most students already have it and offers options to prepare.",
+  "Multivariable calculus is not named explicitly (only 'Math 20A-B-C-D Calculus and Introduction to Differential Equations')."
+ ]
+}

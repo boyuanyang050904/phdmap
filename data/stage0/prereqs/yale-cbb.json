@@ -1,0 +1,65 @@
+{
+ "key": "yale-cbb",
+ "school": "Yale University",
+ "program": "Computational Biology and Biomedical Informatics (CBB) track (BBS)",
+ "program_url": "https://cbb.yale.edu/graduate-program",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "Applicants are expected 1) to have a strong foundation in the basic sciences, such as biology, chemistry and mathematics, and 2) to have training in computing/informatics, including significant computer programming experience.",
+   "source_url": "https://cbb.yale.edu/application-information",
+   "fetched_at": "2026-11-03T18:59:39Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "other:mathematics",
+    "programming"
+   ]
+  },
+  {
+   "quote": "to have a strong foundation in the basic sciences, such as biology, chemistry, physics, and mathematics",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "other:mathematics"
+   ]
+  },
+  {
+   "quote": "to have training in computing/informatics, including significant computer programming experience",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "programming"
+   ]
+  },
+  {
+   "quote": "In general, successful applicants will have completed undergraduate coursework in biology, chemistry at least through organic chemistry, physics, and calculus.",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "scope": "umbrella",
+   "kind": "typical_background",
+   "topics": [
+    "calculus"
+   ]
+  },
+  {
+   "quote": "There are therefore no common courses required of all BBS applicants.",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "scope": "umbrella",
+   "kind": "none_stated",
+   "topics": []
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "'Required' here = 'applicants are expected' (CBB 'Admissions Requirements'); no specific math course (calculus, linear algebra, etc.) is named for CBB - only 'a strong foundation in ... mathematics'.",
+  "Entries 2-3 are the CBB section of the BBS 'Track-Specific Admission Requirements' on medicine.yale.edu/bbs (introduced by 'In addition to meeting general BBS requirements, applicants are expected'); scope recorded as program (track-specific).",
+  "BBS umbrella: no common required courses; 'in general' successful applicants have completed calculus (typical_background).",
+  "bbs.yale.edu unreachable per task; medicine.yale.edu/bbs used instead."
+ ]
+}

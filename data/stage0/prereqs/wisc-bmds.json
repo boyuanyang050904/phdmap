@@ -1,0 +1,42 @@
+{
+ "key": "wisc-bmds",
+ "school": "University of Wisconsin-Madison",
+ "program": "PhD in Biomedical Data Science (Department of Biostatistics and Medical Informatics)",
+ "program_url": "https://biostat.wisc.edu/education/phd-bds/",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "Evidence of quantitative preparation, including at least two semesters of college calculus (similar to MATH 221 – MATH 222 ) and either a course in linear algebra (similar to MATH 340 ) or courses in programming and data structures",
+   "source_url": "https://guide.wisc.edu/graduate/biostatistics-medical-informatics/biomedical-data-science-phd/",
+   "fetched_at": "2026-11-03T09:10:21Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "calculus",
+    "linear_algebra"
+   ],
+   "note": "Claude: 'either linear algebra or programming and data structures' - the applicant's two calculus courses + linear algebra satisfy this alternative"
+  },
+  {
+   "quote": "It is expected that admitted applicants will have demonstrated an aptitude for computer science and math, fundamental programming skills, knowledge of data structures and algorithms, and at least two semesters of college calculus.",
+   "source_url": "https://guide.wisc.edu/graduate/biostatistics-medical-informatics/biomedical-data-science-phd/",
+   "fetched_at": "2026-11-03T09:10:21Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "calculus",
+    "programming",
+    "other:data_structures_and_algorithms",
+    "other:aptitude_for_computer_science_and_math"
+   ],
+   "note": "Claude: 'It is expected that admitted applicants will have...' describes expectations, separate from the stated minimum above; treated as strongly recommended"
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "Linear algebra is an alternative, not a strict requirement: 'either a course in linear algebra (similar to MATH 340) or courses in programming and data structures'. Two semesters of calculus (MATH 221-222 level) are required in both statements.",
+  "The 'It is expected...' sentence is immediately followed by: 'We will however consider applicants who have a wide range of undergraduate backgrounds; providing opportunities to develop necessary skills immediately upon entering the program.' So the expectation is not absolute.",
+  "Two separate 'required' entries because they are separate passages on the same Guide page (an admissions paragraph and an item in the 'Applying to the Program' list); they cannot be merged into one contiguous quote.",
+  "Department page https://biostat.wisc.edu/education/phd-bds/ and https://biostat.wisc.edu/education/prospective-students/ state no coursework prerequisites; the Guide link https://biostat.wiscweb.wisc.edu/education/prospective-students/ returns 404."
+ ]
+}

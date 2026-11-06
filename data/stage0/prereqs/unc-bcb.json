@@ -1,0 +1,83 @@
+{
+ "key": "unc-bcb",
+ "school": "University of North Carolina at Chapel Hill",
+ "program": "Bioinformatics and Computational Biology (BCB) PhD (via BBSP)",
+ "program_url": "https://bcb.unc.edu/about-curriculum/",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "The BCB PhD and certificate programs do not have formal prerequisites as such.",
+   "source_url": "https://bcb.unc.edu/pre-requisites/",
+   "fetched_at": "2026-11-06T04:06:33Z",
+   "scope": "program",
+   "kind": "none_stated",
+   "topics": []
+  },
+  {
+   "quote": "students with no experience of calculus are strongly advised to acquire basic calculus skills before attempting courses that assume it",
+   "source_url": "https://bcb.unc.edu/pre-requisites/",
+   "fetched_at": "2026-11-06T04:06:33Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "calculus"
+   ]
+  },
+  {
+   "quote": "In general, recent practice with calculus and experience with at least one programming language (not necessarily any of those listed above) will be a strong advantage.",
+   "source_url": "https://bcb.unc.edu/pre-requisites/",
+   "fetched_at": "2026-11-06T04:06:33Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "calculus",
+    "programming"
+   ]
+  },
+  {
+   "quote": "familiarity with or willingness to learn basic matrix algebra",
+   "source_url": "https://bcb.unc.edu/pre-requisites/",
+   "fetched_at": "2026-11-06T04:06:33Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "linear_algebra"
+   ]
+  },
+  {
+   "quote": "students who have never programmed before are encouraged to gain practice programming in at least one language before attempting courses that have a programming component",
+   "source_url": "https://bcb.unc.edu/pre-requisites/",
+   "fetched_at": "2026-11-06T04:06:33Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "programming"
+   ]
+  },
+  {
+   "quote": "typically competitive applications show coursework and/or experience in both biological/chemical/biomedical science and quantitative subjects.",
+   "source_url": "https://bcb.unc.edu/admissions/",
+   "fetched_at": "2026-11-06T04:06:33Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:quantitative_subjects"
+   ]
+  },
+  {
+   "quote": "Ideal BCB candidates should have an undergraduate degree in a biological, physical, mathematical, or computational science.",
+   "source_url": "https://catalog.unc.edu/graduate/schools-departments/bioinformatics-computational-biology/",
+   "fetched_at": "2026-11-03T08:57:55Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:quantitative_or_life_science_degree"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No formal prerequisites; guidance is tied to first-year core courses: BCB 720 Introduction to Statistical Modeling 'assumes single variable calculus at least up to Calc 1' plus familiarity with or willingness to learn basic matrix algebra and R; BCB 715 assumes familiarity with calculus (differentiation).",
+  "BBSP umbrella (bbsp.unc.edu apply / course-requirements pages) states no math coursework: 'We welcome applicants with a background in a biological, chemical, or physical science.'"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "key": "penn-gcb",
+ "school": "University of Pennsylvania",
+ "program": "Genomics and Computational Biology (GCB) Graduate Group PhD (Biomedical Graduate Studies)",
+ "program_url": "https://www.med.upenn.edu/gcb/",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "Admissions to our program are based on basic training including (but not limited to): molecular biology, genetics, statistics/mathematics, and/or computer science.",
+   "source_url": "https://www.med.upenn.edu/gcb/admission/",
+   "fetched_at": "2026-11-03T08:47:06Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "statistics",
+    "other:mathematics",
+    "other:computer_science"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No specific math courses (calculus, linear algebra, etc.) are named; statistics/mathematics is one of several alternative background areas ('and/or'), and the page adds that students strong in a single field will also be considered.",
+  "BGS umbrella pages checked (https://www.med.upenn.edu/bgs/admissions.html, /bgs/phd-application-information.html, /bgs/admissions-faqs.html, /bgs/additional-information-for-applicants.html): no math/quantitative coursework requirements stated.",
+  "Course-level prerequisites in the BMI-track curriculum (e.g. programming, statistics; linear algebra/probability 'preferred' for a machine-learning course) are prerequisites for individual courses, not admission requirements; not recorded."
+ ]
+}

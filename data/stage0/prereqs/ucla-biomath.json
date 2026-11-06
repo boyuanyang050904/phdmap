@@ -1,0 +1,43 @@
+{
+ "key": "ucla-biomath",
+ "school": "University of California, Los Angeles",
+ "program": "Biomathematics PhD (Department of Computational Medicine)",
+ "program_url": "https://compmed.ucla.edu/phd/overview",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "High academic achievement in one scientific or mathematical field is required for admission.",
+   "source_url": "https://grad.ucla.edu/requirements/?app=admission&major=0121",
+   "fetched_at": "2026-11-06T04:05:06Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "other:high_achievement_in_a_scientific_or_mathematical_field"
+   ]
+  },
+  {
+   "quote": "It is not necessary for an applicant to be proficient in both mathematics and biology",
+   "source_url": "https://grad.ucla.edu/requirements/?app=admission&major=0121",
+   "fetched_at": "2026-11-06T04:05:06Z",
+   "scope": "program",
+   "kind": "none_stated",
+   "topics": [
+    "other:mathematics"
+   ]
+  },
+  {
+   "quote": "although some prior preparation in both fields is desirable",
+   "source_url": "https://grad.ucla.edu/requirements/?app=admission&major=0121",
+   "fetched_at": "2026-11-06T04:05:06Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "other:mathematics"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No specific math course is named anywhere (compmed.ucla.edu admissions/FAQ/curriculum pages give none). The single sentence 'It is not necessary for an applicant to be proficient in both mathematics and biology, although some prior preparation in both fields is desirable.' is split: math proficiency not necessary (none_stated) / prior preparation in mathematics and biology desirable (recommended)."
+ ]
+}

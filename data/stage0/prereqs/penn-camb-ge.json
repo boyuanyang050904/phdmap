@@ -1,0 +1,22 @@
+{
+ "key": "penn-camb-ge",
+ "school": "University of Pennsylvania",
+ "program": "Cell and Molecular Biology (CAMB) Graduate Group - Genetics and Epigenetics (G&E) program (Biomedical Graduate Studies)",
+ "program_url": "https://www.med.upenn.edu/camb/ge.html",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "Our holistic evaluation process considers all components of the application.",
+   "source_url": "https://www.med.upenn.edu/camb/admissions.html",
+   "fetched_at": "2026-11-03T19:02:01Z",
+   "scope": "umbrella",
+   "kind": "none_stated",
+   "topics": []
+  }
+ ],
+ "not_stated": true,
+ "problems": [
+  "No math/quantitative coursework expectations found. Checked: G&E pages https://www.med.upenn.edu/camb/ge.html and /camb/ge-academics.html; CAMB admissions https://www.med.upenn.edu/camb/admissions.html (applications go through CAMB/BGS; holistic review, no GRE); BGS umbrella pages /bgs/admissions.html, /bgs/phd-application-information.html, /bgs/admissions-faqs.html, /bgs/additional-information-for-applicants.html.",
+  "The none_stated entry only documents that the CAMB admissions page describes holistic review without naming any coursework."
+ ]
+}

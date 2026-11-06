@@ -1,0 +1,52 @@
+{
+ "key": "uw-gs",
+ "school": "University of Washington",
+ "program": "Genome Sciences PhD",
+ "program_url": "https://www.gs.washington.edu/academics/ph-d-program/",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "We do not have a set list of courses required for admission, nor do we require a degree in the biological sciences.",
+   "source_url": "https://www.gs.washington.edu/academics/ph-d-program/information-for-applicants/prerequisites-and-preparation/",
+   "fetched_at": "2026-11-06T04:05:33Z",
+   "scope": "program",
+   "kind": "none_stated",
+   "topics": []
+  },
+  {
+   "quote": "Although not all of our admitted students have coding experience, some basic coding experience is highly desirable.",
+   "source_url": "https://www.gs.washington.edu/academics/ph-d-program/information-for-applicants/prerequisites-and-preparation/",
+   "fetched_at": "2026-11-06T04:05:33Z",
+   "scope": "program",
+   "kind": "strongly_recommended",
+   "topics": [
+    "programming"
+   ]
+  },
+  {
+   "quote": "Prospective students can also demonstrate preparedness with a strong track record of biological science coursework (e.g. biology, biochemistry, genetics, or computational biology) and/or coursework in useful technical disciplines such as computer science, engineering, and mathematics.",
+   "source_url": "https://www.gs.washington.edu/academics/ph-d-program/information-for-applicants/prerequisites-and-preparation/",
+   "fetched_at": "2026-11-06T04:05:33Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": [
+    "other:mathematics",
+    "other:computer_science"
+   ]
+  },
+  {
+   "quote": "Applicants commonly have undergraduate degrees in a science such as Biology, Biochemistry, or Chemistry or a quantitative field such as Mathematics or Computer Science.",
+   "source_url": "https://www.gs.washington.edu/academics/ph-d-program/information-for-applicants/frequently-asked-questions/",
+   "fetched_at": "2026-11-06T04:05:34Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "other:quantitative_undergraduate_degree"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No math course is required or named; mathematics appears only as one optional way to demonstrate preparedness (recorded as recommended) and as a common applicant degree. Coding is 'highly desirable' -> strongly_recommended."
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "key": "ucla-hg",
+ "school": "University of California, Los Angeles",
+ "program": "Human Genetics PhD",
+ "program_url": "https://grad.ucla.edu/programs/david-geffen-school-of-medicine/human-genetics-department/human-genetics/",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "Because of the data analysis expertise required in some areas of human genetics, advanced courses in statistics or computer science may be substituted for advanced biologically-oriented courses.",
+   "source_url": "https://grad.ucla.edu/requirements/?app=admission&major=0994",
+   "fetched_at": "2026-11-06T04:03:58Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "statistics",
+    "other:computer_science"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No math requirement stated. Degree-specific requirement is upper-division life-science preparation ('Applicants are expected to hold a bachelor's degree, with preparation through upper division courses in genetics, biology, molecular biology, cell biology, or other life sciences fields.'); advanced statistics/CS courses are only an allowed substitute -> recorded as typical_background (weakest available kind).",
+  "Program admissions page (medschool.ucla.edu .../human-genetics-phd-program/admissions) only points to UC-wide and program-specific (grad.ucla.edu) requirements; applicants apply via Graduate Programs in Bioscience (GPB).",
+  "bioscience.ucla.edu (GPB umbrella): BLOCKED by robots.txt - umbrella requirements not checked."
+ ]
+}

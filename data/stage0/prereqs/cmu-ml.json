@@ -1,0 +1,15 @@
+{
+ "key": "cmu-ml",
+ "school": "Carnegie Mellon University",
+ "program": "Ph.D. Program in Machine Learning",
+ "program_url": "https://ml.cmu.edu/academics/machine-learning-phd",
+ "checked_at": "2026-11-06T04:15:00Z",
+ "requirements": [],
+ "not_stated": true,
+ "problems": [
+  "PhD program page (ml.cmu.edu/academics/machine-learning-phd) gives application information but no math/statistics/programming coursework expectations; it only says 'GRE scores are OPTIONAL. The committee uses GRE scores to gauge quantitative skills, and to a lesser extent, also verbal skills.' (not a coursework requirement).",
+  "SCS Graduate Admissions overview (www.cs.cmu.edu/academics/graduate-admissions; the program's FAQ link redirects there) states no coursework prerequisites.",
+  "PhD requirements / curriculum / incoming-student pages describe in-program courses (e.g. 36-705 Intermediate Statistics), not admission prerequisites.",
+  "A web search surfaced math expectations only on MLD master's pages and individual faculty pages, which are not the PhD program's official admission statement; not used."
+ ]
+}

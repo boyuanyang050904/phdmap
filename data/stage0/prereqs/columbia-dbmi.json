@@ -1,0 +1,22 @@
+{
+ "key": "columbia-dbmi",
+ "school": "Columbia University",
+ "program": "PhD in Biomedical Informatics (Department of Biomedical Informatics)",
+ "program_url": "https://www.dbmi.columbia.edu/phd-in-biomedical-informatics/",
+ "checked_at": "2026-11-06T04:10:13Z",
+ "requirements": [
+  {
+   "quote": "The PhD application consists of applicant information, official transcripts, TOEFL scores (as applicable), three (3) letters of recommendation, and a personal statement.",
+   "source_url": "https://www.dbmi.columbia.edu/apply/",
+   "fetched_at": "2026-11-06T04:06:22Z",
+   "scope": "program",
+   "kind": "none_stated",
+   "topics": []
+  }
+ ],
+ "not_stated": true,
+ "problems": [
+  "No math/quantitative coursework expectations found. The apply page says only that 'DBMI students come from diverse backgrounds, including medicine, biology, computer science, mathematics, engineering, and public health'. That describes the student body and sets no expectation.",
+  "Checked: https://www.dbmi.columbia.edu/apply/, https://www.dbmi.columbia.edu/phd-in-biomedical-informatics/, the Vagelos/VIBRE Biomedical Informatics PhD page, VIBRE how-to-apply and the prospective-student FAQ. None states math prerequisites."
+ ]
+}

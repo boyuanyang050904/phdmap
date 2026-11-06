@@ -1,0 +1,25 @@
+{
+ "key": "caltech-bi",
+ "school": "California Institute of Technology",
+ "program": "Biology PhD option (Division of Biology and Biological Engineering)",
+ "program_url": "https://www.bbe.caltech.edu/academics/biology/graduate-studies",
+ "checked_at": "2026-11-06T04:15:00Z",
+ "requirements": [
+  {
+   "quote": "Applicants are expected to meet the following minimal requirements: mathematics through calculus, general physics, organic chemistry, physical chemistry (or the equivalent), and elementary biology.",
+   "source_url": "https://www.bbe.caltech.edu/academics/biology/graduate-studies",
+   "fetched_at": "2026-11-03T09:19:25Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "calculus"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "Same paragraph: students with deficient preparation 'may be admitted but required to remedy their deficiencies in the first years of graduate training', and in certain fields or interdisciplinary programs other undergraduate preparation may be substituted.",
+  "In-program (not admission) requirement: one of three additional courses 'must focus on mathematical or statistical methods relevant to biology'.",
+  "Graduate Admissions page (bbe.caltech.edu/academics/biology/graduate-admissions) states no course prerequisites."
+ ]
+}

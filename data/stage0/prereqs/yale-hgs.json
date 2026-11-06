@@ -1,0 +1,44 @@
+{
+ "key": "yale-hgs",
+ "school": "Yale University",
+ "program": "Human Genome Sciences track (BBS)",
+ "program_url": "https://medicine.yale.edu/bbs/tracks/human-genome-sciences/",
+ "checked_at": "2026-11-06T04:09:51Z",
+ "requirements": [
+  {
+   "quote": "In addition to meeting general BBS requirements, applicants are expected to have a strong foundation in the basic sciences (biology, chemistry, mathematics, etc.), fundamental understanding of molecular biology, and basic programming skills (e.g., R and Python).",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": [
+    "other:mathematics",
+    "programming"
+   ]
+  },
+  {
+   "quote": "In general, successful applicants will have completed undergraduate coursework in biology, chemistry at least through organic chemistry, physics, and calculus.",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "scope": "umbrella",
+   "kind": "typical_background",
+   "topics": [
+    "calculus"
+   ]
+  },
+  {
+   "quote": "There are therefore no common courses required of all BBS applicants.",
+   "source_url": "https://medicine.yale.edu/bbs/apply/requirements/",
+   "fetched_at": "2026-11-03T18:59:56Z",
+   "scope": "umbrella",
+   "kind": "none_stated",
+   "topics": []
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "HGS track page itself states no prerequisites; it links to the BBS requirements page (#human-genome-sciences), whose HGS track-specific section is quoted (scope recorded as program).",
+  "'Required' = 'applicants are expected'; no specific math course named, only 'a strong foundation in ... mathematics' plus basic programming (R, Python).",
+  "BBS umbrella: no common required courses; 'in general' successful applicants have completed calculus (typical_background)."
+ ]
+}

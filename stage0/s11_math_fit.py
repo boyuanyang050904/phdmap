@@ -24,8 +24,12 @@ UNCERTAIN = {"probability", "mathematical_statistics"}
 
 def classify(d):
     reqs = d.get("requirements") or []
-    if not reqs:
-        return ("not_stated" if d.get("not_stated") else "unverifiable"), [], []
+    blocked = any(any(w in (q or "") for w in ("403", "BOT", "Access Denied", "BLOCKED", "UNREACHABLE"))
+                  for q in d.get("problems", []))
+    if not reqs or all(r.get("kind") == "none_stated" for r in reqs):
+        if blocked and d.get("not_stated"):
+            return "unverifiable", [], []
+        return ("not_stated" if (d.get("not_stated") or reqs) else "unverifiable"), [], []
     missing_req, missing_rec, unc = set(), set(), set()
     for r in reqs:
         topics = set(r.get("topics") or [])
