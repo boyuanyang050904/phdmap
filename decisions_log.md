@@ -116,3 +116,8 @@ rule: >=5 relevant faculty, or >=4 with subject rank <=25; max 2 programs per sc
 * University of Washington / Biostatistics PhD (A, biostatistics #3, 1 relevant faculty)
 * Duke University / Biomedical Engineering PhD (B, biomedical_engineering #6, 1 relevant faculty)
 * University of California, San Francisco / Biological and Medical Informatics (BMI) (A+B, biological_sciences #7, 0 relevant faculty)
+
+## 2026-11-06 — user: 15-school shortlist (shortlist_15.md)
+
+* user declined: University of Pittsburgh — PhD Program in Biomedical Informatics; UNC Chapel Hill — Biostatistics PhD (selected=0, selected_by=user-declined; never re-selected automatically)
+* replaced by CV fit among math-checked programs at new schools: Indiana University — Medical and Molecular Genetics PhD; Caltech — Biology (Bi) PhD option (next: UW Genome Sciences)

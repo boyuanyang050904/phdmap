@@ -26,23 +26,27 @@ LIST = [  # (school, program prefix in candidates.csv, prereq key, anchor facult
      "David Knowles (inspre), Andrea Califano", "PhD in Biomedical Informatics (columbia-dbmi)"),
     ("Carnegie Mellon University", "Joint Carnegie Mellon-University of Pittsburgh", "cmu-pitt-cpcb",
      "Jian Ma, Kathryn Roeder, Jishnu Das", "Ph.D. Program in Machine Learning (cmu-ml)"),
-    ("University of Pittsburgh", "PhD Program in Biomedical Informatics", "pitt-dbmi",
-     "Eric Strobl, Xinghua Lu", ""),
     ("University of California San Diego", "Bioinformatics and Systems Biology", "ucsd-bisb",
      "Hannah Carter, Prashant Mali, Melissa Gymrek", ""),
     ("Vanderbilt University", "Human Genetics PhD Program", "vanderbilt-hgen",
      "Eric Gamazon, Nancy Cox, Bingshan Li", "IGP / QCB umbrella (vanderbilt-igp)"),
     ("New York University", "PhD in Biomedical Sciences - Computational", "nyu-compbio",
      "Rahul Satija, Aristotelis Tsirigos", ""),
-    ("University of North Carolina at Chapel Hill", "Biostatistics PhD (Gillings", "unc-biostat",
-     "Yun Li, Xihao Li, Danyu Lin", "Bioinformatics and Computational Biology (unc-bcb)"),
     ("Emory University", "Biostatistics", "emory-biostat",
      "Chang Su (thesis advisor)", ""),
     ("University of California, Los Angeles", "Human Genetics PhD", "ucla-hg",
      "Sriram Sankararaman, Noah Zaitlen, Harold Pimentel", "Biomathematics PhD (ucla-biomath)"),
     ("University of Chicago", "Committee on Genetics, Genomics", "uchicago-ggsb",
      "Matthew Stephens, Xin He, Hae Kyung Im, Xuanyao Liu", ""),
+    ("Indiana University", "Medical and Molecular Genetics", "indiana-mmg",
+     "Zhana Duren, Howard Edenberg, Yunlong Liu", ""),
+    ("California Institute of Technology", "Biology (Bi)", "caltech-bi",
+     "Matt Thomson (D-SPIN)；B 方向另有 Frances Arnold, Anima Anandkumar", ""),
 ]
+# programs the user said they do not want (2026-11-06); never re-selected automatically
+USER_DECLINED = [("University of Pittsburgh", "PhD Program in Biomedical Informatics"),
+                 ("University of North Carolina at Chapel Hill", "Biostatistics PhD (Gillings")]
+NOTES = {"caltech-bi": "非数学要求：官网还要求物理化学（physical chemistry），你没有，但写明缺的课可入学后补修"}
 DROPPED = ["stanford-bmds", "uw-biostat", "cornell-tricbm", "duke-cbb"]
 TOPIC_ZH = {"real_analysis": "实分析（强烈建议）", "probability": "概率论", "differential_equations": "微分方程",
             "other:data_structures": "数据结构", "other:algorithms": "算法",
@@ -62,6 +66,8 @@ def main():
     for r in rows:
         if (r.get("selected_by") or "").startswith("claude"):
             r["selected"], r["selected_by"] = "", ""
+        if any(r["school"] == s_ and r["program"].startswith(p_) for s_, p_ in USER_DECLINED):
+            r["selected"], r["selected_by"] = "0", "user-declined (2026-11-06)"
     L = ["# 15 所学校短名单（按 CV 契合度 + 数学先修）", "",
          "数学背景：两门基础微积分、多元微积分、线性代数（无实分析、无概率论、无计算机专业课序列）。"
          "每条要求都引自官网页面（见 data/stage0/prereqs/*.json）。", "",
@@ -75,7 +81,10 @@ def main():
         prog = hit[0]["program"] if hit else pref
         for r in hit[:1]:
             r["selected"], r["selected_by"] = "1", "claude-cv-math-fit"
+        flag = "；".join(x for x in (flag, NOTES.get(key, "")) if x)
         L.append(f"| {i} | {school} | {prog[:60]} | {ZH.get(st, st)} | {flag or '—'} | {fac} | {alt or '—'} |")
+    L += ["", "## 你不想申请的（不会再被自动选回）", ""]
+    L += [f"* {s_} — {p_}…" for s_, p_ in USER_DECLINED]
     L += ["", "## 剔除（官网写明必修，而你没有）", ""]
     for k in DROPPED:
         mf = MF.get(k, {})

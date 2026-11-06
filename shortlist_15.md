@@ -11,14 +11,19 @@
 | 5 | Yale University | Computational Biology and Biomedical Informatics (CBB) track | 满足 | — | Hongyu Zhao, Smita Krishnaswamy, María Rodríguez Martínez | Human Genome Sciences track (yale-hgs) |
 | 6 | Columbia University | Biomedical Life Sciences PhD - Systems Biology track | 满足 | — | David Knowles (inspre), Andrea Califano | PhD in Biomedical Informatics (columbia-dbmi) |
 | 7 | Carnegie Mellon University | Joint Carnegie Mellon-University of Pittsburgh Ph.D. Program | 满足必修；有建议项未满足 | 数据结构与算法、更多数学课、多重线性代数、数值分析、概率论 | Jian Ma, Kathryn Roeder, Jishnu Das | Ph.D. Program in Machine Learning (cmu-ml) |
-| 8 | University of Pittsburgh | PhD Program in Biomedical Informatics (Department of Biomedi | 满足 | — | Eric Strobl, Xinghua Lu | — |
-| 9 | University of California San Diego | Bioinformatics and Systems Biology Graduate Program (BISB /  | 满足必修；有建议项未满足 | 微分方程、算法、数据结构、离散数学、概率论 | Hannah Carter, Prashant Mali, Melissa Gymrek | — |
-| 10 | Vanderbilt University | Human Genetics PhD Program (HGEN) | 满足必修；有建议项未满足 | 典型背景是量化专业本科 | Eric Gamazon, Nancy Cox, Bingshan Li | IGP / QCB umbrella (vanderbilt-igp) |
-| 11 | New York University | PhD in Biomedical Sciences - Computational Biology and Bioin | 满足 | — | Rahul Satija, Aristotelis Tsirigos | — |
-| 12 | University of North Carolina at Chapel Hill | Biostatistics PhD (Gillings School of Global Public Health) | 满足必修；有建议项未满足 | 实分析（强烈建议） | Yun Li, Xihao Li, Danyu Lin | Bioinformatics and Computational Biology (unc-bcb) |
-| 13 | Emory University | Biostatistics PhD (Rollins School of Public Health / Laney G | 官网拒绝访问，无法核实 | — | Chang Su (thesis advisor) | — |
-| 14 | University of California, Los Angeles | Human Genetics PhD | 满足 | — | Sriram Sankararaman, Noah Zaitlen, Harold Pimentel | Biomathematics PhD (ucla-biomath) |
-| 15 | University of Chicago | Committee on Genetics, Genomics & Systems Biology (GGSB) - P | 满足 | — | Matthew Stephens, Xin He, Hae Kyung Im, Xuanyao Liu | — |
+| 8 | University of California San Diego | Bioinformatics and Systems Biology Graduate Program (BISB /  | 满足必修；有建议项未满足 | 微分方程、算法、数据结构、离散数学、概率论 | Hannah Carter, Prashant Mali, Melissa Gymrek | — |
+| 9 | Vanderbilt University | Human Genetics PhD Program (HGEN) | 满足必修；有建议项未满足 | 典型背景是量化专业本科 | Eric Gamazon, Nancy Cox, Bingshan Li | IGP / QCB umbrella (vanderbilt-igp) |
+| 10 | New York University | PhD in Biomedical Sciences - Computational Biology and Bioin | 满足 | — | Rahul Satija, Aristotelis Tsirigos | — |
+| 11 | Emory University | Biostatistics PhD (Rollins School of Public Health / Laney G | 官网拒绝访问，无法核实 | — | Chang Su (thesis advisor) | — |
+| 12 | University of California, Los Angeles | Human Genetics PhD | 满足 | — | Sriram Sankararaman, Noah Zaitlen, Harold Pimentel | Biomathematics PhD (ucla-biomath) |
+| 13 | University of Chicago | Committee on Genetics, Genomics & Systems Biology (GGSB) - P | 满足 | — | Matthew Stephens, Xin He, Hae Kyung Im, Xuanyao Liu | — |
+| 14 | Indiana University | Medical and Molecular Genetics PhD (IU School of Medicine, I | 官网未列数学要求 | — | Zhana Duren, Howard Edenberg, Yunlong Liu | — |
+| 15 | California Institute of Technology | Biology (Bi) PhD option | 满足 | 非数学要求：官网还要求物理化学（physical chemistry），你没有，但写明缺的课可入学后补修 | Matt Thomson (D-SPIN)；B 方向另有 Frances Arnold, Anima Anandkumar | — |
+
+## 你不想申请的（不会再被自动选回）
+
+* University of Pittsburgh — PhD Program in Biomedical Informatics…
+* University of North Carolina at Chapel Hill — Biostatistics PhD (Gillings…
 
 ## 剔除（官网写明必修，而你没有）
 
