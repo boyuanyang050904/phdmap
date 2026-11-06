@@ -1,0 +1,24 @@
+{
+ "key": "uchicago-ggsb",
+ "school": "University of Chicago",
+ "program": "Committee on Genetics, Genomics and Systems Biology (GGSB) PhD",
+ "program_url": "https://ggsb.uchicago.edu/program",
+ "checked_at": "2026-11-06T00:00:00Z",
+ "requirements": [
+  {
+   "quote": "Successful PhD program applicants present excellent academic credentials in biology and statistics and strong letters of recommendation.",
+   "source_url": "https://ggsb.uchicago.edu/program",
+   "fetched_at": "2026-11-06T04:01:11Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": [
+    "statistics"
+   ]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "No explicit math/calculus/linear algebra/programming prerequisite on GGSB pages (program, FAQ, first-year curriculum, computational-track coursework) or on the BSD umbrella admissions pages (how-to-apply, application FAQ); only a description of successful applicants' credentials in biology and statistics.",
+  "https://ggsb.uchicago.edu/admissions returns 404; links to bsd-ggsb.prod.uchicago.edu are blocked by robots.txt (the program FAQ was read at https://ggsb.uchicago.edu/program/faq instead)."
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "key": "duke-cbb",
+ "school": "Duke University",
+ "program": "Computational Biology and Bioinformatics (CBB) PhD",
+ "program_url": "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program",
+ "checked_at": "2026-11-06T00:00:00Z",
+ "requirements": [
+  {
+   "quote": "Students are expected to have taken the following courses prior to entering the CBB program: Mathematics through at least differential equations and linear algebra A course in probability and at least one other course in statistics Courses in programming, data structures, and algorithms",
+   "source_url": "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program/program-overview",
+   "fetched_at": "2026-11-06T04:08:09Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": ["calculus", "differential_equations", "linear_algebra", "probability", "statistics", "programming", "other:data_structures_and_algorithms"]
+  },
+  {
+   "quote": "We encourage applications from students with strong undergraduate backgrounds in biology, statistics, mathematics, physics, and/or computer science.",
+   "source_url": "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program/admissions-cbb",
+   "fetched_at": "2026-11-06T04:08:07Z",
+   "scope": "program",
+   "kind": "typical_background",
+   "topics": ["statistics", "other:mathematics", "other:computer_science"]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "cbb.duke.edu is UNREACHABLE via the project fetcher (host/TLS/proxy error); prerequisites taken from the CBB pages on medschool.duke.edu.",
+  "The 'Prerequisites' list (which also includes genetics, cell/molecular biology, and biochemistry or organic chemistry) is followed by: 'Otherwise competitive students lacking one or more of these requirements will be expected to satisfy these prerequisites prior to or during their first year.' So they are expected/required but can be remediated after admission.",
+  "'Mathematics through at least differential equations' recorded as calculus + differential_equations; multivariable calculus is not named explicitly."
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "key": "bu-bioinformatics",
+ "school": "Boston University",
+ "program": "PhD in Bioinformatics (Faculty of Computing & Data Sciences)",
+ "program_url": "https://www.bu.edu/bioinformatics/",
+ "checked_at": "2026-11-06T00:00:00Z",
+ "requirements": [
+  {
+   "quote": "In order to be admitted, students need at least a bachelor’s degree in a field related to bioinformatics",
+   "source_url": "https://www.bu.edu/academics/cds/programs/phd-in-bioinformatics/",
+   "fetched_at": "2026-11-06T04:04:45Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": ["other:bachelors_degree_in_related_field"]
+  },
+  {
+   "quote": "preferably one with a strong component in mathematics and computer science.",
+   "source_url": "https://www.bu.edu/academics/cds/programs/phd-in-bioinformatics/",
+   "fetched_at": "2026-11-06T04:04:45Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": ["other:mathematics", "other:computer_science"]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "Program admissions page (https://www.bu.edu/bioinformatics/admissions/) lists only application materials, no coursework prerequisites; the admissions FAQ says 'Applicants are not required to be well versed in both fields' (computational and experimental). The math expectation comes from the BU Bulletin (CDS) PhD entry, worded as 'preferably' -> recommended; no specific math course (calculus, linear algebra, etc.) is named.",
+  "Old bulletin URLs (bu.edu/academics/eng|grs|cds/programs/bioinformatics/phd/) redirect to the Electrical Engineering PhD page; the current entry is under /academics/cds/programs/phd-in-bioinformatics/."
+ ]
+}

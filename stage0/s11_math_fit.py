@@ -17,7 +17,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PROF = json.load(open(ROOT / "data" / "applicant_profile.json"))
-HAVE = set(PROF["math_completed"]) | set(PROF["stats_completed"]) | {"programming"}
+HAVE = set(PROF["math_completed"]) | set(PROF["stats_completed"]) | {"programming"} | set(PROF.get("other_met", []))
+OTHER_UNMET = set(PROF.get("other_unmet", []))
 UNCERTAIN = {"probability", "mathematical_statistics"}
 
 
@@ -28,12 +29,15 @@ def classify(d):
     missing_req, missing_rec, unc = set(), set(), set()
     for r in reqs:
         topics = set(r.get("topics") or [])
-        lack = {t for t in topics if t not in HAVE and not t.startswith("other:programming")}
+        # unknown "other:" topics (not in other_met / other_unmet) count as uncertain
+        lack = {t for t in topics if t not in HAVE}
+        unknown_other = {t for t in lack if t.startswith("other:") and t not in OTHER_UNMET}
+        lack -= unknown_other
         if r["kind"] == "required":
             missing_req |= lack - UNCERTAIN
-            unc |= lack & UNCERTAIN
+            unc |= (lack & UNCERTAIN) | unknown_other
         elif r["kind"] in ("strongly_recommended", "recommended", "typical_background"):
-            missing_rec |= lack
+            missing_rec |= lack | unknown_other
     if missing_req:
         return "required_unmet", sorted(missing_req), sorted(missing_rec | unc)
     if unc:

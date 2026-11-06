@@ -1,0 +1,21 @@
+{
+ "key": "bu-biostat",
+ "school": "Boston University",
+ "program": "PhD in Biostatistics (School of Public Health / GRS)",
+ "program_url": "https://www.bu.edu/sph/education/degrees-and-programs/doctor-of-philosophy-phd/biostatistics-phd-program/",
+ "checked_at": "2026-11-06T00:00:00Z",
+ "requirements": [
+  {
+   "quote": "In addition: One year of calculus including multivariate calculus One full semester of linear algebra",
+   "source_url": "https://www.bu.edu/sph/admissions/applying/programs/master-of-science-and-doctor-of-philosophy-degrees-in-biostatistics/",
+   "fetched_at": "2026-11-06T04:03:19Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": ["calculus", "multivariable_calculus", "linear_algebra"]
+  }
+ ],
+ "not_stated": false,
+ "problems": [
+  "Listed under 'Prerequisites' on the MS/PhD Biostatistics application-requirements page, which states: 'Applicants who have not met the following requirements will not have their applications reviewed for admission.' The page redirects to https://www.bu.edu/sph/admissions/applying/master-of-science-and-doctor-of-philosophy-degrees-in-biostatistics/ and applies to both the MS and PhD."
+ ]
+}

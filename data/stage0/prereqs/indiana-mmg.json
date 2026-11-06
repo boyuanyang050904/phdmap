@@ -1,0 +1,22 @@
+{
+ "key": "indiana-mmg",
+ "school": "Indiana University School of Medicine",
+ "program": "PhD in Medical and Molecular Genetics (entry via Indiana BioMedical Gateway, IBMG)",
+ "program_url": "https://medicine.iu.edu/genetics/education/graduate-degrees/phd",
+ "checked_at": "2026-11-06T00:00:00Z",
+ "requirements": [
+  {
+   "quote": "PhD applicants are expected to have a strong background in the sciences; however, there are no formal course requirements for the Indiana BioMedical Gateway Program for PhD Study at IU School of Medicine.",
+   "source_url": "https://medicine.iu.edu/graduate-degrees/phd/indianapolis/admissions",
+   "fetched_at": "2026-11-06T04:05:27Z",
+   "scope": "umbrella",
+   "kind": "none_stated",
+   "topics": []
+  }
+ ],
+ "not_stated": true,
+ "problems": [
+  "MMG PhD program page and curriculum page state no admission prerequisites; applicants apply through the IBMG umbrella program, which says there are no formal course requirements. Its list of recommended background courses ('biology, physics, chemistry, organic chemistry, biochemistry, cell biology and genetics') names no mathematics, statistics or programming course.",
+  "IU Indianapolis Graduate School admissions page (https://graduate.indianapolis.iu.edu/admissions/) mentions no math/quantitative coursework."
+ ]
+}

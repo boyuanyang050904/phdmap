@@ -1,8 +1,32 @@
 {
  "_source": "user's CV (Boyuan_Yang_CV.docx, uploaded 2026-11-06) and chat message of 2026-11-06",
- "math_completed": ["calculus", "multivariable_calculus", "linear_algebra"],
+ "math_completed": [
+  "calculus",
+  "multivariable_calculus",
+  "linear_algebra"
+ ],
  "math_note": "two basic calculus courses (Fudan Advanced Mathematics, Emory Calculus II), Emory Advanced Calculus (Multivariable) = multivariable calculus, Fudan Linear Algebra; no real analysis",
- "stats_completed": ["statistics"],
+ "stats_completed": [
+  "statistics"
+ ],
  "stats_note": "Emory Introduction to Statistical Inference; Fudan Biostatistics. Whether either counts as calculus-based probability / mathematical statistics is not established.",
- "programming": ["python", "r", "bash"]
+ "programming": [
+  "python",
+  "r",
+  "bash"
+ ],
+ "other_met": [
+  "other:bachelors_degree_in_related_field",
+  "other:mathematics",
+  "other:computer_science",
+  "other:mathematics_computation_coursework",
+  "other:biology",
+  "other:programming"
+ ],
+ "other_unmet": [
+  "other:quantitative_degree",
+  "other:data_structures_and_algorithms",
+  "other:physics_beyond_intro"
+ ],
+ "_other_note": "B.S. Biology is a related field but not a quantitative degree (CS/math/physics/engineering); has math and programming coursework; no data-structures/algorithms course"
 }

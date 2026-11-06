@@ -1,4 +1,138 @@
 {
+ "bu-bioinformatics": {
+  "school": "Boston University",
+  "program": "PhD in Bioinformatics (Faculty of Computing & Data Sciences)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "required",
+    "In order to be admitted, students need at least a bachelor’s degree in a field related to bioinformatics",
+    "https://www.bu.edu/academics/cds/programs/phd-in-bioinformatics/"
+   ],
+   [
+    "recommended",
+    "preferably one with a strong component in mathematics and computer science.",
+    "https://www.bu.edu/academics/cds/programs/phd-in-bioinformatics/"
+   ]
+  ],
+  "problems": [
+   "Program admissions page (https://www.bu.edu/bioinformatics/admissions/) lists only application materials, no coursework prerequisites; the admissions FAQ says 'Applicants are not required to be well versed in both fields' (computational and experimental). The math expectation comes from the BU Bulletin (CDS) PhD entry, worded as 'preferably' -> recommended; no specific math course (calculus, linear algebra, etc.) is named.",
+   "Old bulletin URLs (bu.edu/academics/eng|grs|cds/programs/bioinformatics/phd/) redirect to the Electrical Engineering PhD page; the current entry is under /academics/cds/programs/phd-in-bioinformatics/."
+  ]
+ },
+ "bu-biostat": {
+  "school": "Boston University",
+  "program": "PhD in Biostatistics (School of Public Health / GRS)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "required",
+    "In addition: One year of calculus including multivariate calculus One full semester of linear algebra",
+    "https://www.bu.edu/sph/admissions/applying/programs/master-of-science-and-doctor-of-philosophy-degrees-in-biostatistics/"
+   ]
+  ],
+  "problems": [
+   "Listed under 'Prerequisites' on the MS/PhD Biostatistics application-requirements page, which states: 'Applicants who have not met the following requirements will not have their applications reviewed for admission.' The page redirects to https://www.bu.edu/sph/admissions/applying/master-of-science-and-doctor-of-philosophy-degrees-in-biostatistics/ and applies to both the MS and PhD."
+  ]
+ },
+ "cornell-tricbm": {
+  "school": "Weill Cornell Medicine / Memorial Sloan Kettering / Cornell University / Rockefeller University",
+  "program": "Tri-Institutional PhD Program in Computational Biology and Medicine (CBM)",
+  "status": "required_unmet",
+  "missing_required": [
+   "other:quantitative_degree"
+  ],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "required",
+    "Extensive training in quantitative disciplines, including linear algebra, statistics, computer programming, as well as foundational knowledge in biology.",
+    "https://compbio.triiprograms.org/apply/"
+   ],
+   [
+    "required",
+    "An undergraduate or master’s degree in computer science, math, physics, engineering, computational biology, or another discipline that includes a strong quantitative component.",
+    "https://compbio.triiprograms.org/apply/"
+   ],
+   [
+    "recommended",
+    "We look for applicants who have training (e.g., coursework) in both mathematics/computation and biology; however, such “dual” background is not a requirement.",
+    "https://compbio.triiprograms.org/about-cbm/faq-for-prospective-students/"
+   ]
+  ],
+  "problems": [
+   "Apply page lists these under 'applicants are minimally expected to have' (recorded as required); FAQ says a dual math/computation + biology background is sought but not required (recorded as recommended)."
+  ]
+ },
+ "duke-cbb": {
+  "school": "Duke University",
+  "program": "Computational Biology and Bioinformatics (CBB) PhD",
+  "status": "required_unmet",
+  "missing_required": [
+   "differential_equations",
+   "other:data_structures_and_algorithms"
+  ],
+  "missing_recommended": [
+   "probability"
+  ],
+  "quotes": [
+   [
+    "required",
+    "Students are expected to have taken the following courses prior to entering the CBB program: Mathematics through at least differential equations and linear algebra A course in probability and at least one other course in statistics Courses in programming, data structures, and algorithms",
+    "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program/program-overview"
+   ],
+   [
+    "typical_background",
+    "We encourage applications from students with strong undergraduate backgrounds in biology, statistics, mathematics, physics, and/or computer science.",
+    "https://medschool.duke.edu/education/biomedical-phd-programs/computational-biology-and-bioinformatics-program/admissions-cbb"
+   ]
+  ],
+  "problems": [
+   "cbb.duke.edu is UNREACHABLE via the project fetcher (host/TLS/proxy error); prerequisites taken from the CBB pages on medschool.duke.edu.",
+   "The 'Prerequisites' list (which also includes genetics, cell/molecular biology, and biochemistry or organic chemistry) is followed by: 'Otherwise competitive students lacking one or more of these requirements will be expected to satisfy these prerequisites prior to or during their first year.' So they are expected/required but can be remediated after admission.",
+   "'Mathematics through at least differential equations' recorded as calculus + differential_equations; multivariable calculus is not named explicitly."
+  ]
+ },
+ "indiana-mmg": {
+  "school": "Indiana University School of Medicine",
+  "program": "PhD in Medical and Molecular Genetics (entry via Indiana BioMedical Gateway, IBMG)",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "none_stated",
+    "PhD applicants are expected to have a strong background in the sciences; however, there are no formal course requirements for the Indiana BioMedical Gateway Program for PhD Study at IU School of Medicine.",
+    "https://medicine.iu.edu/graduate-degrees/phd/indianapolis/admissions"
+   ]
+  ],
+  "problems": [
+   "MMG PhD program page and curriculum page state no admission prerequisites; applicants apply through the IBMG umbrella program, which says there are no formal course requirements. Its list of recommended background courses ('biology, physics, chemistry, organic chemistry, biochemistry, cell biology and genetics') names no mathematics, statistics or programming course.",
+   "IU Indianapolis Graduate School admissions page (https://graduate.indianapolis.iu.edu/admissions/) mentions no math/quantitative coursework."
+  ]
+ },
+ "uchicago-ggsb": {
+  "school": "University of Chicago",
+  "program": "Committee on Genetics, Genomics and Systems Biology (GGSB) PhD",
+  "status": "met",
+  "missing_required": [],
+  "missing_recommended": [],
+  "quotes": [
+   [
+    "typical_background",
+    "Successful PhD program applicants present excellent academic credentials in biology and statistics and strong letters of recommendation.",
+    "https://ggsb.uchicago.edu/program"
+   ]
+  ],
+  "problems": [
+   "No explicit math/calculus/linear algebra/programming prerequisite on GGSB pages (program, FAQ, first-year curriculum, computational-track coursework) or on the BSD umbrella admissions pages (how-to-apply, application FAQ); only a description of successful applicants' credentials in biology and statistics.",
+   "https://ggsb.uchicago.edu/admissions returns 404; links to bsd-ggsb.prod.uchicago.edu are blocked by robots.txt (the program FAQ was read at https://ggsb.uchicago.edu/program/faq instead)."
+  ]
+ },
  "unc-biostat": {
   "school": "University of North Carolina at Chapel Hill",
   "program": "Biostatistics PhD (Gillings)",

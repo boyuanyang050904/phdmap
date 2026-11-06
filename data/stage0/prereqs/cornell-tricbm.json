@@ -1,0 +1,35 @@
+{
+ "key": "cornell-tricbm",
+ "school": "Weill Cornell Medicine / Memorial Sloan Kettering / Cornell University / Rockefeller University",
+ "program": "Tri-Institutional PhD Program in Computational Biology and Medicine (CBM)",
+ "program_url": "https://compbio.triiprograms.org/",
+ "checked_at": "2026-11-06T00:00:00Z",
+ "requirements": [
+  {
+   "quote": "Extensive training in quantitative disciplines, including linear algebra, statistics, computer programming, as well as foundational knowledge in biology.",
+   "source_url": "https://compbio.triiprograms.org/apply/",
+   "fetched_at": "2026-11-06T04:00:08Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": ["linear_algebra", "statistics", "programming"]
+  },
+  {
+   "quote": "An undergraduate or master’s degree in computer science, math, physics, engineering, computational biology, or another discipline that includes a strong quantitative component.",
+   "source_url": "https://compbio.triiprograms.org/apply/",
+   "fetched_at": "2026-11-06T04:00:08Z",
+   "scope": "program",
+   "kind": "required",
+   "topics": ["other:quantitative_degree"]
+  },
+  {
+   "quote": "We look for applicants who have training (e.g., coursework) in both mathematics/computation and biology; however, such “dual” background is not a requirement.",
+   "source_url": "https://compbio.triiprograms.org/about-cbm/faq-for-prospective-students/",
+   "fetched_at": "2026-11-03T09:40:44Z",
+   "scope": "program",
+   "kind": "recommended",
+   "topics": ["other:mathematics_computation_coursework"]
+  }
+ ],
+ "not_stated": false,
+ "problems": ["Apply page lists these under 'applicants are minimally expected to have' (recorded as required); FAQ says a dual math/computation + biology background is sought but not required (recorded as recommended)."]
+}
